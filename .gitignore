@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Generated files
+*.txt
+!requirements.txt
+*.html
+*.vtt
+*.json
+*.md
+!README.md
+!.env.example
+
+# OS
+.DS_Store
