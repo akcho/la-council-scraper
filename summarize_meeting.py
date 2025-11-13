@@ -62,14 +62,28 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
     client = Anthropic(api_key=api_key)
 
     try:
+        # Use prompt caching to reduce costs and avoid rate limits
         message = client.messages.create(
             model="claude-sonnet-4-20250514",  # Latest Claude model
             max_tokens=800,  # Shorter for comment format
             temperature=0.3,  # Lower temp for more factual output
+            system=[
+                {
+                    "type": "text",
+                    "text": SUMMARIZATION_PROMPT,
+                    "cache_control": {"type": "ephemeral"}
+                }
+            ],
             messages=[
                 {
                     "role": "user",
-                    "content": f"{SUMMARIZATION_PROMPT}\n\n---\n\nTRANSCRIPT:\n\n{transcript}"
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": f"TRANSCRIPT:\n\n{transcript}",
+                            "cache_control": {"type": "ephemeral"}
+                        }
+                    ]
                 }
             ]
         )
@@ -175,33 +189,44 @@ def main():
     reddit_comment = format_summary_for_reddit(meeting, summary)
 
     # Save both
-    with open(f"meeting_{meeting_id}_summary.txt", 'w', encoding='utf-8') as f:
+    summary_file = f"meeting_{meeting_id}_summary.txt"
+    reddit_file = f"meeting_{meeting_id}_reddit_comment.md"
+
+    with open(summary_file, 'w', encoding='utf-8') as f:
         f.write(summary)
 
-    with open(f"meeting_{meeting_id}_reddit_comment.md", 'w', encoding='utf-8') as f:
+    with open(reddit_file, 'w', encoding='utf-8') as f:
         f.write(reddit_comment)
 
     print("\n💾 Saved:")
-    print(f"   - meeting_{meeting_id}_summary.txt")
-    print(f"   - meeting_{meeting_id}_reddit_comment.md")
-
-    # Try to copy to clipboard
-    try:
-        import subprocess
-        subprocess.run('pbcopy', text=True, input=reddit_comment, check=True)
-        print("\n✅ Copied to clipboard! Just paste it into Reddit.")
-    except:
-        print("\n⚠️  Couldn't copy to clipboard automatically.")
-        print(f"\n📄 Open this file to copy: meeting_{meeting_id}_reddit_comment.md")
+    print(f"   - {summary_file}")
+    print(f"   - {reddit_file}")
 
     print("\n📋 PREVIEW:")
     print("=" * 60)
     print(reddit_comment)
     print("=" * 60)
 
-    print(f"\n✅ Summary saved to: meeting_{meeting_id}_reddit_comment.md")
-    print("   Ready to post to r/losangeles daily discussion thread!")
+    # Open the markdown file in default editor
+    print(f"\n✅ Summary ready!")
+    print(f"\n📝 Opening {reddit_file} in your editor...")
+    print("   Copy the markdown from the file to preserve formatting.\n")
+
+    try:
+        import subprocess
+        # Open in default markdown editor (VS Code, TextEdit, etc.)
+        subprocess.run(['open', reddit_file])
+    except:
+        print(f"⚠️  Couldn't open automatically. Manual path:")
+        print(f"   {os.path.abspath(reddit_file)}")
+
     print("\n" + "=" * 60)
+    print("Next steps:")
+    print("1. Copy content from the opened file")
+    print("2. Go to r/losangeles daily discussion thread")
+    print("3. Paste into Reddit comment (Cmd+V)")
+    print("4. Click 'Comment'")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
