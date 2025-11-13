@@ -128,10 +128,27 @@ def main():
         print("❌ Run fetch_meetings.py first!")
         return
 
-    # Find a meeting with a transcript
-    meeting = meetings[0]  # Most recent
+    # Find the most recent meeting with a video AND transcript
+    meeting = None
+    transcript_file = None
+
+    for m in meetings:
+        if m.get('videoUrl'):  # Has video
+            meeting_id = m['id']
+            candidate_file = f"meeting_{meeting_id}_transcript.txt"
+
+            # Check if transcript exists
+            if os.path.exists(candidate_file):
+                meeting = m
+                transcript_file = candidate_file
+                break
+
+    if not meeting or not transcript_file:
+        print("❌ No meetings with transcripts found!")
+        print("   Make sure get_transcripts.py ran successfully.")
+        return
+
     meeting_id = meeting['id']
-    transcript_file = f"meeting_{meeting_id}_transcript.txt"
 
     try:
         with open(transcript_file, 'r', encoding='utf-8') as f:
