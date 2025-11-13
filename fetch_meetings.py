@@ -21,31 +21,50 @@ class LACouncilScraper:
         })
 
     def get_recent_meetings(self, limit: int = 10) -> List[Dict]:
-        """Get recent archived City Council meetings."""
+        """Get recent City Council meetings (both upcoming and archived)."""
 
-        # Get current year
+        all_meetings = []
+
+        # Get upcoming meetings (includes today's meetings)
+        print(f"📅 Fetching upcoming City Council meetings...")
+        url = f"{self.BASE_URL}/api/v2/PublicPortal/ListUpcomingMeetings"
+
+        response = self.session.get(url)
+        response.raise_for_status()
+        upcoming = response.json()
+
+        upcoming_council = [
+            m for m in upcoming
+            if m.get('committeeId') == self.CITY_COUNCIL_ID
+        ]
+        all_meetings.extend(upcoming_council)
+        print(f"✅ Found {len(upcoming_council)} upcoming City Council meetings")
+
+        # Get archived meetings from current year
         current_year = datetime.now().year
-
-        print(f"📅 Fetching City Council meetings for {current_year}...")
+        print(f"📅 Fetching archived City Council meetings for {current_year}...")
         url = f"{self.BASE_URL}/api/v2/PublicPortal/ListArchivedMeetings?year={current_year}"
 
         response = self.session.get(url)
         response.raise_for_status()
 
-        all_meetings = response.json()
+        archived = response.json()
 
         # Filter for City Council only
-        council_meetings = [
-            m for m in all_meetings
+        archived_council = [
+            m for m in archived
             if m.get('committeeId') == self.CITY_COUNCIL_ID
         ]
+        all_meetings.extend(archived_council)
+        print(f"✅ Found {len(archived_council)} archived City Council meetings")
 
-        # Sort by date (most recent first)
-        council_meetings.sort(key=lambda x: x.get('dateTime', ''), reverse=True)
+        # Remove duplicates by ID and sort by date (most recent first)
+        unique_meetings = {m['id']: m for m in all_meetings}.values()
+        sorted_meetings = sorted(unique_meetings, key=lambda x: x.get('dateTime', ''), reverse=True)
 
-        print(f"✅ Found {len(council_meetings)} City Council meetings in {current_year}")
+        print(f"✅ Total: {len(sorted_meetings)} unique City Council meetings")
 
-        return council_meetings[:limit]
+        return list(sorted_meetings)[:limit]
 
     def get_meeting_details(self, meeting_id: int) -> Dict:
         """Get detailed information about a specific meeting."""
