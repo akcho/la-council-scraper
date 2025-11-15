@@ -20,6 +20,12 @@ env/
 *.md
 !README.md
 !.env.example
+!.claude/claude_prompt.md
+!docs/TECHNICAL_NOTES.md
+!docs/logs/*.md
+
+# Planning and notes
+docs/gitignored/
 
 # OS
 .DS_Store
