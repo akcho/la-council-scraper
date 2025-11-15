@@ -31,6 +31,11 @@ Get an API key at: https://console.anthropic.com/
 ### 3. Run the Pipeline
 
 ```bash
+./summarize.sh
+```
+
+Or manually:
+```bash
 source venv/bin/activate
 python run_pipeline.py
 ```
