@@ -8,18 +8,35 @@ The LA Council Tracker static site is deployed using GitHub Pages. The site is b
 
 ### Option 1: GitHub Pages (Recommended)
 
-GitHub Pages can serve static files directly from the repository.
+GitHub Pages serves from a dedicated `gh-pages` branch.
 
-**Setup:**
+**Quick Deploy:**
 
-1. Go to repository Settings → Pages
+```bash
+./deploy.sh
+```
+
+This will:
+- Generate the site
+- Create/update the `gh-pages` branch
+- Copy site files to branch root
+- Push to GitHub
+
+**First-Time Setup:**
+
+After running `./deploy.sh`, enable GitHub Pages:
+
+1. Go to: https://github.com/YOUR-USERNAME/la-council-scraper/settings/pages
 2. Source: Deploy from a branch
-3. Branch: `master` (or `main`)
-4. Folder: `/site`
+3. Branch: `gh-pages`
+4. Folder: `/ (root)`
 5. Save
+
+Your site will be available at: `https://YOUR-USERNAME.github.io/la-council-scraper`
 
 **Custom Domain (Optional):**
 - Add a `CNAME` file to the `site/` directory with your domain name
+- Run `./deploy.sh` to deploy
 - Configure DNS to point to GitHub Pages
 
 ### Option 2: Netlify
@@ -73,19 +90,12 @@ Then regenerate the site with `python generate_site.py`.
    python run_pipeline.py
    ```
 
-2. Generate the static site:
+2. Deploy to GitHub Pages:
    ```bash
-   python generate_site.py
+   ./deploy.sh
    ```
 
-3. Commit and push the updated site files:
-   ```bash
-   git add site/ data/agendas/
-   git commit -m "Add new meeting pages"
-   git push
-   ```
-
-4. GitHub Pages will automatically deploy the updated site
+That's it! The script handles generation and deployment automatically.
 
 ## Directory Structure
 
