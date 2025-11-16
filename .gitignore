@@ -29,6 +29,7 @@ env/
 !.env.example
 !.claude/claude_prompt.md
 !docs/TECHNICAL_NOTES.md
+!docs/SESSION_SUMMARY.md
 !docs/logs/*.md
 
 # Planning and notes

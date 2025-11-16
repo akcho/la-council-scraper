@@ -11,21 +11,33 @@ Session-to-session reference for development. Updated incrementally as we discov
 
 ## Current Focus (Updated: 2025-11-16)
 
-**✅ Week 2 MVP - COMPLETED:**
-1. ✅ Created mobile-first HTML template ([templates/meeting.html](../templates/meeting.html))
+**✅ Week 2 MVP - FULLY COMPLETED:**
+1. ✅ Created mobile-first HTML templates ([templates/meeting.html](../templates/meeting.html), [templates/index.html](../templates/index.html))
 2. ✅ Built static site generator: JSON → HTML ([generate_site.py](../generate_site.py))
 3. ✅ Generated 7 meeting pages + index page in `site/` directory
 4. ✅ Added Plausible analytics support ([site_config.json](../site_config.json))
-5. ✅ Ready for deployment to GitHub Pages
+5. ✅ Created deployment script ([deploy.sh](../deploy.sh)) for GitHub Pages
+6. ✅ Deployed to `gh-pages` branch (ready for activation)
+7. ✅ Updated Reddit comment template to include meeting page link
 
-**🚧 Next Steps (Deployment & Reddit Integration):**
-1. Deploy site to GitHub Pages (enable in repo settings)
-2. Configure custom domain and analytics (optional)
-3. Update Reddit comment template to include meeting page link
-4. Post next Reddit comment with link to validate CTR
-5. Monitor analytics to measure engagement
+**🎯 Next Immediate Actions:**
+1. Enable GitHub Pages in repo settings (1 minute):
+   - Go to: https://github.com/akcho/la-council-scraper/settings/pages
+   - Set: Branch = `gh-pages`, Folder = `/ (root)`
+   - Save
+   - Site will be live at: https://akcho.github.io/la-council-scraper
 
-**Goal:** Deploy site and measure CTR from Reddit to validate product-market fit.
+2. Configure site URL (after GitHub Pages is enabled):
+   - Edit `site_config.json`: Set `"site_url": "https://akcho.github.io/la-council-scraper"`
+   - Run: `./deploy.sh` to regenerate with proper links
+
+3. Test Reddit integration:
+   - Run pipeline for next meeting
+   - Generate site and deploy
+   - Post Reddit comment with meeting link
+   - Monitor CTR via Plausible (optional)
+
+**Status:** Site is built, tested, and deployed to gh-pages branch. Just needs activation in GitHub settings.
 
 ---
 
