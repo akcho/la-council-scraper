@@ -17,6 +17,8 @@ env/
 *.html
 *.vtt
 *.json
+!agenda_schema.json
+!data/agendas/*.json
 *.md
 !README.md
 !.env.example

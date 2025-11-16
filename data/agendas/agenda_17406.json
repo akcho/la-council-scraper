@@ -1,0 +1,1766 @@
+{
+  "meeting_id": 17406,
+  "template_id": 146980,
+  "parsed_at": "2025-11-15T17:45:47.314193",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=146980",
+  "sections": [
+    {
+      "section_id": "357018",
+      "title": "Roll Call",
+      "items": []
+    },
+    {
+      "section_id": "357019",
+      "title": "Approval of the Minutes",
+      "items": []
+    },
+    {
+      "section_id": "357020",
+      "title": "Commendatory Resolutions, Introductions and Presentations",
+      "items": []
+    },
+    {
+      "section_id": "357021",
+      "title": "Multiple Agenda Item Comment",
+      "items": []
+    },
+    {
+      "section_id": "357022",
+      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
+      "items": []
+    },
+    {
+      "section_id": "357023",
+      "title": "Items Noticed for Public Hearing",
+      "items": [
+        {
+          "item_id": "155666",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S20\nCD 11\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Thatcher Avenue and Washington Boulevard Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of October 7, 2025)\nSpeaker Card(s)_10-07-2025\nSpeaker Card(s)_09-02-2025\nCommunication from Bureau of Street Lighting submitted 8-26-25 - Draft Ordinance\nReport from City Clerk dated 8-15-25\nSpeaker Card(s)_08-12-2025\nCommunication from Board of Public Works dated 8-06-25 - Assessment Hearing\nCommunication from Bureau of Street Lighting dated 6-25-25 - Mailing Package\nFinal Ordinance No.188637 dated 06-22-2025.pdf\nCouncil Action - Mayor Concurrence dated 6-12-25\nDeclaration of Posting Ordinance dated 6-12-25\nSpeaker Card(s)_06-10-2025\nReport from Bureau of Street Lighting dated 5-07-25\nAttachment to Report dated 5-07-25 - Draft Ordinance of Intention",
+          "council_file": "25-0900-S20",
+          "district": "CD 11",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Thatcher Avenue and Washington Boulevard Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of October 7, 2025) Speaker Card(s)_10-07-2025 Speaker Card(s)_09-02-2025 Communication from Bureau of Street Lighting submitted 8-26-25 - Draft Ordinance Report from City Clerk dated 8-15-25 Speaker Card(s)_08-12-2025 Communication from Board of Public Works dated 8-06-25 - Assessment Hearing Communication from Bureau of Street Lighting dated 6-25-25 - Mailing Package Final Ordinance No.188637 dated 06-22-2025.pdf Council Action - Mayor Concurrence dated 6-12-25 Declaration of Posting Ordinance dated 6-12-25 Speaker Card(s)_06-10-2025 Report from Bureau of Street Lighting dated 5-07-25 Attachment to Report dated 5-07-25 - Draft Ordinance of Intention",
+          "video_location": "19580",
+          "mig": "792c9ea1-34d6-4c9e-b6a6-dc56074626fa",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1c68daa0-3a9d-4cb5-89c1-d91b45aecf59"
+            },
+            {
+              "text": "Speaker Card(s)_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c68daa0-3a9d-4cb5-89c1-d91b45aecf59"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=f65e34f4-cc3f-40e1-8047-15e9d4a23c8d"
+            },
+            {
+              "text": "Speaker Card(s)_09-02-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f65e34f4-cc3f-40e1-8047-15e9d4a23c8d"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6c17dbfd-f03a-43c7-80ee-9b7d659bee37"
+            },
+            {
+              "text": "Communication from Bureau of Street Lighting submitted 8-26-25 - Draft Ordinance",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c17dbfd-f03a-43c7-80ee-9b7d659bee37"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=9e00a375-e359-4b26-a8d6-0546c6759270"
+            },
+            {
+              "text": "Report from City Clerk dated 8-15-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e00a375-e359-4b26-a8d6-0546c6759270"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8305f8ed-ce0c-4aa3-b617-e3963d4e3e1f"
+            },
+            {
+              "text": "Speaker Card(s)_08-12-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8305f8ed-ce0c-4aa3-b617-e3963d4e3e1f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6ff77ca6-1f6b-46ae-9917-17632be043d1"
+            },
+            {
+              "text": "Communication from Board of Public Works dated 8-06-25 - Assessment Hearing",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6ff77ca6-1f6b-46ae-9917-17632be043d1"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=bc2f0436-62fb-4c9a-87cb-11608d4a620f"
+            },
+            {
+              "text": "Communication from Bureau of Street Lighting dated 6-25-25 - Mailing Package",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc2f0436-62fb-4c9a-87cb-11608d4a620f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=5013ee1f-f388-4112-87a0-3cafdc65d4d5"
+            },
+            {
+              "text": "Final Ordinance No.188637 dated 06-22-2025.pdf",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5013ee1f-f388-4112-87a0-3cafdc65d4d5"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=72e3851a-f0b3-4828-bda8-44fb6afc3af6"
+            },
+            {
+              "text": "Council Action - Mayor Concurrence dated 6-12-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=72e3851a-f0b3-4828-bda8-44fb6afc3af6"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6d07c093-f8f4-4343-be86-6151668746b8"
+            },
+            {
+              "text": "Declaration of Posting Ordinance dated 6-12-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d07c093-f8f4-4343-be86-6151668746b8"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8772bacb-e73e-4968-aa17-f055c79c9396"
+            },
+            {
+              "text": "Speaker Card(s)_06-10-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8772bacb-e73e-4968-aa17-f055c79c9396"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=cb5d6b3e-8129-4d33-9c58-f8d42db79892"
+            },
+            {
+              "text": "Report from Bureau of Street Lighting dated 5-07-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb5d6b3e-8129-4d33-9c58-f8d42db79892"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a054fa67-66b5-4c9b-9839-a5a799169b53"
+            },
+            {
+              "text": "Attachment to Report dated 5-07-25 - Draft Ordinance of Intention",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a054fa67-66b5-4c9b-9839-a5a799169b53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "357024",
+      "title": "Items for which Public Hearings Have Been Held",
+      "items": [
+        {
+          "item_id": "156375",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "15-0989-S57\nCD 9\nAD HOC COMMITTEE ON THE 2028 OLYMPIC AND PARALYMPIC GAMES REPORT relative to relocating the 2028 Olympic and Paralympic Games (LA28) Closing Ceremonies to the Los Angeles Memorial Coliseum (Coliseum).\nRecommendation for Council action, pursuant to Motion (Price – Harris-Dawson):\nAPPROVE the following changes to the Official Opening and Closing Ceremonies for LA28:\nThe relocation of the Olympic Games Closing Ceremony from both the Coliseum and the Stadium in Inglewood to solely the Coliseum.\nThe relocation of the Paralympic Games Closing Ceremony from the Stadium in Inglewood to the Coliseum.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Ad Hoc Committee on the 2024 Summer Olympics - 10-29-25\nMotion (Price - Harris-Dawson) dated 8-26-25",
+          "council_file": "15-0989-S57",
+          "district": "CD 9",
+          "title": "AD HOC COMMITTEE ON THE 2028 OLYMPIC AND PARALYMPIC GAMES REPORT relative to relocating the 2028 Olympic and Paralympic Games (LA28) Closing Ceremonies to the Los Angeles Memorial Coliseum (Coliseum).",
+          "recommendation": "APPROVE the following changes to the Official Opening and Closing Ceremonies for LA28: The relocation of the Olympic Games Closing Ceremony from both the Coliseum and the Stadium in Inglewood to solely the Coliseum. The relocation of the Paralympic Games Closing Ceremony from the Stadium in Inglewood to the Coliseum. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Ad Hoc Committee on the 2024 Summer Olympics - 10-29-25 Motion (Price - Harris-Dawson) dated 8-26-25",
+          "video_location": "19708",
+          "mig": "8847e341-9595-4a1d-9676-8d0e481d58d8",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=34ba3ef6-8ded-45e6-af33-eaaf0ec47b54"
+            },
+            {
+              "text": "Report from Ad Hoc Committee on the 2024 Summer Olympics - 10-29-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=34ba3ef6-8ded-45e6-af33-eaaf0ec47b54"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d989c066-5f3f-4d76-80a3-d306dcd09628"
+            },
+            {
+              "text": "Motion (Price - Harris-Dawson) dated 8-26-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d989c066-5f3f-4d76-80a3-d306dcd09628"
+            }
+          ]
+        },
+        {
+          "item_id": "156276",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "24-1200-S10\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Chrissie Castro to the Los Angeles City/County Native American Indian Commission.\nRecommendation for Council action:\nRESOLVE that the Mayor’s reappointment of Chrissie Castro to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED. The appointee resides in Council District 1. (Current Board composition: M= 2; F = 3)\nFinancial Disclosure Statement\n: Not applicable\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from the Mayor dated 10-06-25\nCouncil Action dated 4-17-24\nReport from Neighborhoods and Community Enrichment Committee_04-03-24\nReport from Mayor dated 3-06-24\nSpeaker Card(s)_04-03-2024\nOath_of_Loyalty_4-16-24\nSpeaker Card(s)_04-16-2024",
+          "council_file": "24-1200-S10",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Chrissie Castro to the Los Angeles City/County Native American Indian Commission.",
+          "recommendation": "RESOLVE that the Mayor’s reappointment of Chrissie Castro to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED. The appointee resides in Council District 1. (Current Board composition: M= 2; F = 3) Financial Disclosure Statement : Not applicable Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from the Mayor dated 10-06-25 Council Action dated 4-17-24 Report from Neighborhoods and Community Enrichment Committee_04-03-24 Report from Mayor dated 3-06-24 Speaker Card(s)_04-03-2024 Oath_of_Loyalty_4-16-24 Speaker Card(s)_04-16-2024",
+          "video_location": "19718",
+          "mig": "5e67947a-263a-4d86-9df1-2d0a061a72de",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=24f9b8b7-cffb-48ef-b339-822e07f2b567"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=24f9b8b7-cffb-48ef-b339-822e07f2b567"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=db253766-53a0-4dde-b2d9-c688dd8141af"
+            },
+            {
+              "text": "Report from the Mayor dated 10-06-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db253766-53a0-4dde-b2d9-c688dd8141af"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d2a5a7ef-c19f-4308-979c-0fb0222fba83"
+            },
+            {
+              "text": "Council Action dated 4-17-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2a5a7ef-c19f-4308-979c-0fb0222fba83"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=66bc3053-3ed4-44f3-a84a-3fc723072394"
+            },
+            {
+              "text": "Report from Neighborhoods and Community Enrichment Committee_04-03-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66bc3053-3ed4-44f3-a84a-3fc723072394"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=00ecd0e3-273e-4c01-b7a0-6fbb9b402d57"
+            },
+            {
+              "text": "Report from Mayor dated 3-06-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=00ecd0e3-273e-4c01-b7a0-6fbb9b402d57"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=fdf6ab72-6797-44a0-8201-29506ee1880b"
+            },
+            {
+              "text": "Speaker Card(s)_04-03-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdf6ab72-6797-44a0-8201-29506ee1880b"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b494ae73-dacb-4319-937b-2d4a43f8b0b2"
+            },
+            {
+              "text": "Oath_of_Loyalty_4-16-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b494ae73-dacb-4319-937b-2d4a43f8b0b2"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c91a89ea-e930-467c-9c38-23a1aaff13cd"
+            },
+            {
+              "text": "Speaker Card(s)_04-16-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c91a89ea-e930-467c-9c38-23a1aaff13cd"
+            }
+          ]
+        },
+        {
+          "item_id": "156277",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "24-1200-S11\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Andrea Garcia to the Los Angeles City/County Native American Indian Commission.\nRecommendation for Council action:\nRESOLVE that the Mayor’s reappointment of Andrea Garcia to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED.  (Current Board composition: M=2; F=3).\nFinancial Disclosure Statement\n: Not applicable\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from Mayor dated 10-06-25\nCouncil Action dated 4-17-24\nOath_of_Loyalty_4-16-24\nReport from Neighborhoods and Community Enrichment Committee_04-03-24\nReport from Mayor dated 3-06-24\nSpeaker Card(s)_04-03-2024\nSpeaker Card(s)_04-16-2024",
+          "council_file": "24-1200-S11",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Andrea Garcia to the Los Angeles City/County Native American Indian Commission.",
+          "recommendation": "RESOLVE that the Mayor’s reappointment of Andrea Garcia to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED. (Current Board composition: M=2; F=3). Financial Disclosure Statement : Not applicable Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from Mayor dated 10-06-25 Council Action dated 4-17-24 Oath_of_Loyalty_4-16-24 Report from Neighborhoods and Community Enrichment Committee_04-03-24 Report from Mayor dated 3-06-24 Speaker Card(s)_04-03-2024 Speaker Card(s)_04-16-2024",
+          "video_location": "19718",
+          "mig": "e1c31c97-9c44-40e1-b4ea-af88075e7ec0",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=ac4cff77-3fe0-47c3-b9e2-70f1470d5334"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac4cff77-3fe0-47c3-b9e2-70f1470d5334"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=cb5e0475-b64e-424b-b3df-2f17f77c9c2d"
+            },
+            {
+              "text": "Report from Mayor dated 10-06-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb5e0475-b64e-424b-b3df-2f17f77c9c2d"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=20c70bea-5748-4d9a-aa77-073addd1f58f"
+            },
+            {
+              "text": "Council Action dated 4-17-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20c70bea-5748-4d9a-aa77-073addd1f58f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=025f9843-a724-4c54-b685-5ed6bf22b93c"
+            },
+            {
+              "text": "Oath_of_Loyalty_4-16-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=025f9843-a724-4c54-b685-5ed6bf22b93c"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b579f4f4-7b67-4030-a325-d01326af9ff0"
+            },
+            {
+              "text": "Report from Neighborhoods and Community Enrichment Committee_04-03-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b579f4f4-7b67-4030-a325-d01326af9ff0"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7e16168e-72ca-4021-adec-a8ee0c49a7d4"
+            },
+            {
+              "text": "Report from Mayor dated 3-06-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7e16168e-72ca-4021-adec-a8ee0c49a7d4"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=52ee620b-e96f-419c-a42a-b735ffc6db15"
+            },
+            {
+              "text": "Speaker Card(s)_04-03-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=52ee620b-e96f-419c-a42a-b735ffc6db15"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=55fa9ac1-641f-4926-bcdf-9ca78789aa46"
+            },
+            {
+              "text": "Speaker Card(s)_04-16-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=55fa9ac1-641f-4926-bcdf-9ca78789aa46"
+            }
+          ]
+        },
+        {
+          "item_id": "156278",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "24-1200-S19\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Vivian Garcia to the Los Angeles City/County Native American Indian Commission.\nRecommendation for Council action:\nRESOLVE that the Mayor’s reappointment of Vivian Garcia to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED. (Current Composition: M=2; F=3)\nFinancial Disclosure Statement\n:  Not applicable.\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from Mayor dated 10-06-25\nCouncil Action dated 6-14-24\nReport from Neighborhoods and Community Enrichment Committee_6-5-24\nOath_Affirmation_6-12-24\nReport from Mayor dated 5-20-24\nSpeaker Card(s)_06-12-2024",
+          "council_file": "24-1200-S19",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the reappointment of Vivian Garcia to the Los Angeles City/County Native American Indian Commission.",
+          "recommendation": "RESOLVE that the Mayor’s reappointment of Vivian Garcia to the Los Angeles City/County Native American Indian Commission for the term ending October 7, 2029 is APPROVED and CONFIRMED. (Current Composition: M=2; F=3) Financial Disclosure Statement : Not applicable. Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from Mayor dated 10-06-25 Council Action dated 6-14-24 Report from Neighborhoods and Community Enrichment Committee_6-5-24 Oath_Affirmation_6-12-24 Report from Mayor dated 5-20-24 Speaker Card(s)_06-12-2024",
+          "video_location": "19718",
+          "mig": "27baebf6-4064-4090-9b6f-89207c625d92",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d5bd7892-6d71-46f7-b6fc-97e5a18715b3"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5bd7892-6d71-46f7-b6fc-97e5a18715b3"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1a6f637c-0e08-4c8f-b792-2292418d59da"
+            },
+            {
+              "text": "Report from Mayor dated 10-06-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a6f637c-0e08-4c8f-b792-2292418d59da"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=3529e3d4-c37a-467c-b215-43f8f7140984"
+            },
+            {
+              "text": "Council Action dated 6-14-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3529e3d4-c37a-467c-b215-43f8f7140984"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d222befa-139a-482d-9d5b-7a43f857457e"
+            },
+            {
+              "text": "Report from Neighborhoods and Community Enrichment Committee_6-5-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d222befa-139a-482d-9d5b-7a43f857457e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6a068af5-3a02-4123-8dc3-8f9915c55c27"
+            },
+            {
+              "text": "Oath_Affirmation_6-12-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a068af5-3a02-4123-8dc3-8f9915c55c27"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a646c2e6-65b3-40cf-bb5b-036bbcba55f7"
+            },
+            {
+              "text": "Report from Mayor dated 5-20-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a646c2e6-65b3-40cf-bb5b-036bbcba55f7"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=e2eaeefa-254e-47cd-aa63-6487a557d8bc"
+            },
+            {
+              "text": "Speaker Card(s)_06-12-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2eaeefa-254e-47cd-aa63-6487a557d8bc"
+            }
+          ]
+        },
+        {
+          "item_id": "156280",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "21-0392\nCD 8\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to a Second Amendment to Contract No. 143847 with the American Society for the Prevention of Cruelty to Animals, to provide spay/neuter and related veterinary services at the Chesterfield Square Animal Services Center.\nRecommendation for Council action:\nAUTHORIZE the General Manager, Department of Animal Services (DAS), or designee, to execute the Second Amendment to Contract No. 143847 between the DAS and American Society for the Prevention of Cruelty to Animals to operate the Chesterfield Square Animal Services Center spay and neuter clinic from July 1, 2025 through June 30, 2026, for an amount not to exceed $350,000.\nFiscal Impact Statement:\nThe City Administrative Officer (CAO) reports that approval of the recommendation in the report will have no additional impact on the General Fund. All spay and neuter service costs are funded through the Animal Sterilization Trust Fund and sufficient funding for this purpose is available therein.\nFinancial Policies Statement:\nThe CAO reports that the recommendation stated in the report is in compliance with the City's Financial Policies in that budgeted funds are used for intended purposes, and ongoing revenues are used for ongoing expenditures.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 8, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 5, 2025)\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from City Administrative Officer dated 9-26-25\nCouncil Action dated 8-29-24\nSpeaker Card(s)_08-27-2024\nReport from City Administrative Officer dated 7-23-24\nCouncil Action  dated 6-01-21\nReport from City Administrative Officer dated 5-12-21.pdf\n21-0392 PAAW Committee Report 5-19-21\nReport from Department of Animal Services dated 3-30-21.pdf",
+          "council_file": "21-0392",
+          "district": "CD 8",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to a Second Amendment to Contract No. 143847 with the American Society for the Prevention of Cruelty to Animals, to provide spay/neuter and related veterinary services at the Chesterfield Square Animal Services Center.",
+          "recommendation": "AUTHORIZE the General Manager, Department of Animal Services (DAS), or designee, to execute the Second Amendment to Contract No. 143847 between the DAS and American Society for the Prevention of Cruelty to Animals to operate the Chesterfield Square Animal Services Center spay and neuter clinic from July 1, 2025 through June 30, 2026, for an amount not to exceed $350,000. Fiscal Impact Statement: The City Administrative Officer (CAO) reports that approval of the recommendation in the report will have no additional impact on the General Fund. All spay and neuter service costs are funded through the Animal Sterilization Trust Fund and sufficient funding for this purpose is available therein. Financial Policies Statement: The CAO reports that the recommendation stated in the report is in compliance with the City's Financial Policies in that budgeted funds are used for intended purposes, and ongoing revenues are used for ongoing expenditures. Community Impact Statement: None submitted TIME LIMIT FILE - DECEMBER 8, 2025 (LAST DAY FOR COUNCIL ACTION - DECEMBER 5, 2025) Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from City Administrative Officer dated 9-26-25 Council Action dated 8-29-24 Speaker Card(s)_08-27-2024 Report from City Administrative Officer dated 7-23-24 Council Action dated 6-01-21 Report from City Administrative Officer dated 5-12-21.pdf 21-0392 PAAW Committee Report 5-19-21 Report from Department of Animal Services dated 3-30-21.pdf",
+          "video_location": "19718",
+          "mig": "004d08c8-632d-4410-8c4d-9136b595fde2",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=fecaa9e9-c057-4612-bab0-9e8dce13f109"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fecaa9e9-c057-4612-bab0-9e8dce13f109"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1c459686-662c-4a1d-839f-7551390f15cb"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 9-26-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c459686-662c-4a1d-839f-7551390f15cb"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=884c2327-ab66-429a-973d-fbfc4b48357e"
+            },
+            {
+              "text": "Council Action dated 8-29-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=884c2327-ab66-429a-973d-fbfc4b48357e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=401dd49e-6ece-4253-82cb-3aee5f43a05f"
+            },
+            {
+              "text": "Speaker Card(s)_08-27-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=401dd49e-6ece-4253-82cb-3aee5f43a05f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=0474317d-3ef6-4fae-b854-1a8878e61afc"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 7-23-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0474317d-3ef6-4fae-b854-1a8878e61afc"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1cb12e80-3d4e-4869-b303-60d704fe57eb"
+            },
+            {
+              "text": "Council Action  dated 6-01-21",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1cb12e80-3d4e-4869-b303-60d704fe57eb"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=f7314abc-75e0-4de5-b69c-64d6ede55be3"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 5-12-21.pdf",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7314abc-75e0-4de5-b69c-64d6ede55be3"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a62cec36-214a-4d1f-8b4c-694cd84bedbc"
+            },
+            {
+              "text": "21-0392 PAAW Committee Report 5-19-21",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a62cec36-214a-4d1f-8b4c-694cd84bedbc"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8e99f6bf-83af-4b1a-83a7-6a6b1be65ffb"
+            },
+            {
+              "text": "Report from Department of Animal Services dated 3-30-21.pdf",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e99f6bf-83af-4b1a-83a7-6a6b1be65ffb"
+            }
+          ]
+        },
+        {
+          "item_id": "156281",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-0906\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT and RESOLUTION relative to authorizing an appropriation from the Department of Recreation and Parks (RAP) to the Information Technology Agency (ITA) for communication services in Fiscal Year (FY) 2025-26.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nADOPT the accompanying Resolution, attached to Council file No. 25-0906, authorizing the appropriation in the amount of $400,000 from the RAP to the ITA for the communication services the ITA provides to the RAP in FY 2025-26.\nAUTHORIZE the following appropriation from the RAP to ITA:\n$400,000 from Fund No.302/89, Account No. 89712H, Computer System Development to Fund No. 100/32, Account No. 009350, Communication Services.\nAUTHORIZE the Chief Accounting Employee, RAP, to transfer cash and reimburse ITA’s General Fund on an as-needed basis up to the appropriation amount set forth above upon receipt of proper documentation and approval from RAP’s IT Division.\nAUTHORIZE the General Manager, Chief Accounting Employee, or designee, RAP, to make technical corrections as necessary, consistent with the intent of the Report.\nFiscal Impact Statement:\nThe Board of Recreation and Park Commissioners reports that the recommended appropriation and transfer of funds will have no negative impact on the RAP General Fund as the source of funds shall be from RAP’s special fund.\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from Board of Recreation and Park Commissioners dated 8-07-25",
+          "council_file": "25-0906",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT and RESOLUTION relative to authorizing an appropriation from the Department of Recreation and Parks (RAP) to the Information Technology Agency (ITA) for communication services in Fiscal Year (FY) 2025-26.",
+          "recommendation": "ADOPT the accompanying Resolution, attached to Council file No. 25-0906, authorizing the appropriation in the amount of $400,000 from the RAP to the ITA for the communication services the ITA provides to the RAP in FY 2025-26. AUTHORIZE the following appropriation from the RAP to ITA: $400,000 from Fund No.302/89, Account No. 89712H, Computer System Development to Fund No. 100/32, Account No. 009350, Communication Services. AUTHORIZE the Chief Accounting Employee, RAP, to transfer cash and reimburse ITA’s General Fund on an as-needed basis up to the appropriation amount set forth above upon receipt of proper documentation and approval from RAP’s IT Division. AUTHORIZE the General Manager, Chief Accounting Employee, or designee, RAP, to make technical corrections as necessary, consistent with the intent of the Report. Fiscal Impact Statement: The Board of Recreation and Park Commissioners reports that the recommended appropriation and transfer of funds will have no negative impact on the RAP General Fund as the source of funds shall be from RAP’s special fund. Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from Board of Recreation and Park Commissioners dated 8-07-25",
+          "video_location": "19718",
+          "mig": "6fcd36cc-e63b-46d8-a866-09ae7740f915",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=81e9d4e5-06b5-41f1-8817-4888454dbe5a"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=81e9d4e5-06b5-41f1-8817-4888454dbe5a"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=62467f64-b55b-4de0-9964-c31404eab541"
+            },
+            {
+              "text": "Report from Board of Recreation and Park Commissioners dated 8-07-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=62467f64-b55b-4de0-9964-c31404eab541"
+            }
+          ]
+        },
+        {
+          "item_id": "156282",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1212\nCATEGORICAL EXEMPTION, ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the proposed agreement with the Volunteers of America of Los Angeles for the use of a building at the Valley Plaza Park, for the operation of a Head Start preschool program.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nDETERMINE that approval of the Agreement (Project) is categorically exempt from the provisions of the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15301 [Operation, repair, maintenance, permitting, leasing, licensing, or minor alteration of existing public or private structures, facilities, mechanical equipment, or topographical features, involving negligible or no expansion of existing or former use] of California CEQA Guidelines as well as Article III, Section 1, Class 1(14) of City CEQA Guidelines and direct RAP staff to file a Notice of Exemption (NOE) with the Los Angeles County Clerk and the Governor’s Office of Land Use and Climate Innovation.\nAPPROVE the proposed agreement (Agreement), attached to Council file No. 25-1212, with the Volunteers of America of Los Angeles for the exclusive use of a stand-alone building located at 12331 Vanowen Street, North Hollywood, California 91606, at the Valley Plaza Park, for the operation of a Head Start preschool program, subject to the approval of the City Council and the City Attorney as to form.\nAUTHORIZE the Chief Accounting Employee, RAP, to prepare a check to the Los Angeles County Clerk in the amount of $75 for the purpose of filing the NOE.\nAUTHORIZE Staff to continue collecting Staff Impact Cost Recovery Reimbursement Fee (CRRF) Payments for deposit in the sub account in Fund No. 302/89 designated for the Volunteers of America of Los Angeles.\nAUTHORIZE the Board President and Secretary to execute the Agreement subsequent to all necessary approvals.\nAUTHORIZE the RAP to make technical corrections in order to carry out the intent of the Board in approving this Report.\nFiscal Impact Statement:\nThe Board of Recreation and Park Commissioners reports that the proposed Agreement will have no adverse fiscal impact on the RAP General Fund, as the Volunteers of America of Los Angeles is a self-sustaining Head-Start program, and operational and Program costs will be covered by the Volunteers of America of Los Angeles.\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nReport from Board of Recreation and Park Commissioners  dated 10-16-25",
+          "council_file": "25-1212",
+          "title": "CATEGORICAL EXEMPTION, ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to the proposed agreement with the Volunteers of America of Los Angeles for the use of a building at the Valley Plaza Park, for the operation of a Head Start preschool program.",
+          "recommendation": "DETERMINE that approval of the Agreement (Project) is categorically exempt from the provisions of the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15301 [Operation, repair, maintenance, permitting, leasing, licensing, or minor alteration of existing public or private structures, facilities, mechanical equipment, or topographical features, involving negligible or no expansion of existing or former use] of California CEQA Guidelines as well as Article III, Section 1, Class 1(14) of City CEQA Guidelines and direct RAP staff to file a Notice of Exemption (NOE) with the Los Angeles County Clerk and the Governor’s Office of Land Use and Climate Innovation. APPROVE the proposed agreement (Agreement), attached to Council file No. 25-1212, with the Volunteers of America of Los Angeles for the exclusive use of a stand-alone building located at 12331 Vanowen Street, North Hollywood, California 91606, at the Valley Plaza Park, for the operation of a Head Start preschool program, subject to the approval of the City Council and the City Attorney as to form. AUTHORIZE the Chief Accounting Employee, RAP, to prepare a check to the Los Angeles County Clerk in the amount of $75 for the purpose of filing the NOE. AUTHORIZE Staff to continue collecting Staff Impact Cost Recovery Reimbursement Fee (CRRF) Payments for deposit in the sub account in Fund No. 302/89 designated for the Volunteers of America of Los Angeles. AUTHORIZE the Board President and Secretary to execute the Agreement subsequent to all necessary approvals. AUTHORIZE the RAP to make technical corrections in order to carry out the intent of the Board in approving this Report. Fiscal Impact Statement: The Board of Recreation and Park Commissioners reports that the proposed Agreement will have no adverse fiscal impact on the RAP General Fund, as the Volunteers of America of Los Angeles is a self-sustaining Head-Start program, and operational and Program costs will be covered by the Volunteers of America of Los Angeles. Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Report from Board of Recreation and Park Commissioners dated 10-16-25",
+          "video_location": "19718",
+          "mig": "7349978a-877f-4c86-94cc-6b3364603268",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b36b73db-71d3-48ae-8923-bdd8b950d208"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b36b73db-71d3-48ae-8923-bdd8b950d208"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=71409d4a-838d-4b24-b9d4-39ccb0a68e27"
+            },
+            {
+              "text": "Report from Board of Recreation and Park Commissioners  dated 10-16-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=71409d4a-838d-4b24-b9d4-39ccb0a68e27"
+            }
+          ]
+        },
+        {
+          "item_id": "156283",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1253\nARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT directing the Department of Animal Services to report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas, and related matters.\nRecommendation for Council action, pursuant to Motion (McOsker – Blumenfield):\nDIRECT the Department of Animal Services to report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas. The report should specify any notice or supervision requirements and recommend how to facilitate timely and safe access for Councilmembers and staff, including with Department accompaniment, without requiring a formal appointment process.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nMotion (McOsker - Blumenfield) dated 10-22-25",
+          "council_file": "25-1253",
+          "title": "ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT directing the Department of Animal Services to report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas, and related matters.",
+          "recommendation": "DIRECT the Department of Animal Services to report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas. The report should specify any notice or supervision requirements and recommend how to facilitate timely and safe access for Councilmembers and staff, including with Department accompaniment, without requiring a formal appointment process. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 Motion (McOsker - Blumenfield) dated 10-22-25",
+          "video_location": "19718",
+          "mig": "b65050e5-0200-40a4-98c9-768542ed595f",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=43a87021-bc38-4852-b386-0bb4226336cb"
+            },
+            {
+              "text": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=43a87021-bc38-4852-b386-0bb4226336cb"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8a30726e-c6a7-465e-8c5a-419a62adb359"
+            },
+            {
+              "text": "Motion (McOsker - Blumenfield) dated 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a30726e-c6a7-465e-8c5a-419a62adb359"
+            }
+          ]
+        },
+        {
+          "item_id": "156284",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-1187\nBUDGET AND FINANCE COMMITTEE REPORT relative to delinquent accounts receivables submitted by the Los Angeles Housing Department.\nRecommendation for Council action:\nAPPROVE the Collections Board of Review’s (CBR) recommendation for the Los Angeles Housing Department to remove from its active account receivables:\n12 uncollectible invoices totaling $146,043.70\n246 uncollectible invoices totaling $833,852.96\nFiscal Impact Statement:\nThe CBR reports that the proposed action will decrease the City’s receivable base by $979,896.66.\nCommunity Impact Statement:\nNone submitted\nReport from Budget and Finance Committee dated 10-21-25\nReport from Collections Board of Review dated 10-08-25\nAttachment to Report dated 10-08-25 - Findings\nAttachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending March 31, 2025\nAttachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025",
+          "council_file": "25-1187",
+          "title": "BUDGET AND FINANCE COMMITTEE REPORT relative to delinquent accounts receivables submitted by the Los Angeles Housing Department.",
+          "recommendation": "APPROVE the Collections Board of Review’s (CBR) recommendation for the Los Angeles Housing Department to remove from its active account receivables: 12 uncollectible invoices totaling $146,043.70 246 uncollectible invoices totaling $833,852.96 Fiscal Impact Statement: The CBR reports that the proposed action will decrease the City’s receivable base by $979,896.66. Community Impact Statement: None submitted Report from Budget and Finance Committee dated 10-21-25 Report from Collections Board of Review dated 10-08-25 Attachment to Report dated 10-08-25 - Findings Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending March 31, 2025 Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025",
+          "video_location": "19718",
+          "mig": "c5f7f76f-261e-4adc-a3cf-85a960a31172",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c07d77ec-b85e-49dd-b88b-afecd7fed6ee"
+            },
+            {
+              "text": "Report from Budget and Finance Committee dated 10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c07d77ec-b85e-49dd-b88b-afecd7fed6ee"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=53853de7-c249-4d83-9443-f569f0880bb6"
+            },
+            {
+              "text": "Report from Collections Board of Review dated 10-08-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53853de7-c249-4d83-9443-f569f0880bb6"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=679b585c-0153-4849-83d3-5e3e3ec24fc6"
+            },
+            {
+              "text": "Attachment to Report dated 10-08-25 - Findings",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=679b585c-0153-4849-83d3-5e3e3ec24fc6"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b66b7d64-8a80-4b74-be02-53b864488e22"
+            },
+            {
+              "text": "Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending March 31, 2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b66b7d64-8a80-4b74-be02-53b864488e22"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=41296840-1e27-467c-b9f7-41b68f8168eb"
+            },
+            {
+              "text": "Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41296840-1e27-467c-b9f7-41b68f8168eb"
+            }
+          ]
+        },
+        {
+          "item_id": "156285",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-1176\nBUDGET AND FINANCE COMMITTEE REPORT relative to a transfer of funds for the Los Angeles Fire Department (LAFD) Intergovernmental Transfer (IGT) program to the State Department of Health Care Services in support of the Medi-Cal program.\nRecommendations for Council action, pursuant to Motion (Lee – Blumenfield), SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the Controller to:\nTransfer $7.4 million within Fire Department Fund No. 100/38 from Salaries Sworn Account No. 001012 to the Contractual Services Account No. 003040.\nElectronically transfer an amount not exceeding $7.4 million, based on the actual invoice, therefrom to the State Department of Health Care Services by no later than November 21,2025 for Fire Department (LAFD) participation in the FY 2023-24 Medi-Cal Intergovernmental Transfer (IGT) program to access federal Medicaid funds for emergency medical and ambulance transport services.\nAuthorize LAFD to make the payment for the participation in the IGT program, upon receipt of the invoice, and report on the status of the program in subsequent Financial Status Reports.\nAUTHORIZE the LAFD to:\n​​​​​​​\nDeposit CY 2024 IGT program receipts into Fund No. 59F Medi-Cal Intergovernmental Transfer Program Trust Fund No. 59F, and appropriate therein to Account to be determined (TBD).\n​​Transfer an amount not to exceed $7.4 million from the above Fund No. 59F, Account No. TBD, based on actual invoice payment, to Fire Department Fund No. 100/38, Salaries Sworn Account No. 001012.\nAUTHORIZE the LAFD, subject to approval of the City Administrative Officer (CAO), to prepare Controller instructions for any technical adjustments to comply with the intent of Council actions, and authorize the Controller to implement the instructions.\nFiscal Impact Statement:\nNeither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Budget and Finance Committee dated 10-21-25\nMotion (Lee - Blumenfield)  dated 10-07-25",
+          "council_file": "25-1176",
+          "title": "BUDGET AND FINANCE COMMITTEE REPORT relative to a transfer of funds for the Los Angeles Fire Department (LAFD) Intergovernmental Transfer (IGT) program to the State Department of Health Care Services in support of the Medi-Cal program.",
+          "recommendation": "AUTHORIZE the Controller to: Transfer $7.4 million within Fire Department Fund No. 100/38 from Salaries Sworn Account No. 001012 to the Contractual Services Account No. 003040. Electronically transfer an amount not exceeding $7.4 million, based on the actual invoice, therefrom to the State Department of Health Care Services by no later than November 21,2025 for Fire Department (LAFD) participation in the FY 2023-24 Medi-Cal Intergovernmental Transfer (IGT) program to access federal Medicaid funds for emergency medical and ambulance transport services. Authorize LAFD to make the payment for the participation in the IGT program, upon receipt of the invoice, and report on the status of the program in subsequent Financial Status Reports. AUTHORIZE the LAFD to: ​​​​​​​ Deposit CY 2024 IGT program receipts into Fund No. 59F Medi-Cal Intergovernmental Transfer Program Trust Fund No. 59F, and appropriate therein to Account to be determined (TBD). ​​Transfer an amount not to exceed $7.4 million from the above Fund No. 59F, Account No. TBD, based on actual invoice payment, to Fire Department Fund No. 100/38, Salaries Sworn Account No. 001012. AUTHORIZE the LAFD, subject to approval of the City Administrative Officer (CAO), to prepare Controller instructions for any technical adjustments to comply with the intent of Council actions, and authorize the Controller to implement the instructions. Fiscal Impact Statement: Neither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Budget and Finance Committee dated 10-21-25 Motion (Lee - Blumenfield) dated 10-07-25",
+          "video_location": "19718",
+          "mig": "b82da187-5ce6-47a7-9b82-2a9cb9724014",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d5729356-e0a5-4d30-a3f5-d695ef39fa2e"
+            },
+            {
+              "text": "Report from Budget and Finance Committee dated 10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5729356-e0a5-4d30-a3f5-d695ef39fa2e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=2647f8b9-04fa-4201-b672-fdebe504808b"
+            },
+            {
+              "text": "Motion (Lee - Blumenfield)  dated 10-07-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2647f8b9-04fa-4201-b672-fdebe504808b"
+            }
+          ]
+        },
+        {
+          "item_id": "156347",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "25-1155\nCD 8\nENERGY AND ENVIRONMENT COMMITTEE REPORT relative to applying for the United States Environmental Protection Agency (USEPA) Brownfields Cleanup Grant to secure funding for the remediation of brownfield sites in Council District (CD) Eight.\nRecommendations for Council action, pursuant to Motion (Harris-Dawson - Hutt):\nAUTHORIZE the Bureau of Sanitation (BOS), with the support of the Economic and Workforce Development Department and any other necessary departments, to apply for the USEPA Brownfields Cleanup Grant to secure funding for the remediation of brownfield sites in CD Eight.\nINSTRUCT the BOS, with the assistance of the City Administrative Officer (CAO), to report on the acceptance of the grant award and outline the necessary administrative and legislative steps required to leverage EPA funds for the project.\nFiscal Impact Statement:\nNeither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Energy and Environment Committee_10-21-25\nMotion (Harris-Dawson - Hutt) dated 10-03-25",
+          "council_file": "25-1155",
+          "district": "CD 8",
+          "title": "ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to applying for the United States Environmental Protection Agency (USEPA) Brownfields Cleanup Grant to secure funding for the remediation of brownfield sites in Council District (CD) Eight.",
+          "recommendation": "AUTHORIZE the Bureau of Sanitation (BOS), with the support of the Economic and Workforce Development Department and any other necessary departments, to apply for the USEPA Brownfields Cleanup Grant to secure funding for the remediation of brownfield sites in CD Eight. INSTRUCT the BOS, with the assistance of the City Administrative Officer (CAO), to report on the acceptance of the grant award and outline the necessary administrative and legislative steps required to leverage EPA funds for the project. Fiscal Impact Statement: Neither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Energy and Environment Committee_10-21-25 Motion (Harris-Dawson - Hutt) dated 10-03-25",
+          "video_location": "19091",
+          "mig": "eb5285c2-d939-4589-bc0f-3511c544de02",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=01599e7f-ad0c-47a6-81c4-cda6c2fb5ca1"
+            },
+            {
+              "text": "Report from Energy and Environment Committee_10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01599e7f-ad0c-47a6-81c4-cda6c2fb5ca1"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=2f9c1a54-58a9-420b-a590-a809f47b4fe2"
+            },
+            {
+              "text": "Motion (Harris-Dawson - Hutt) dated 10-03-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2f9c1a54-58a9-420b-a590-a809f47b4fe2"
+            }
+          ]
+        },
+        {
+          "item_id": "156348",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-1145\nENERGY AND ENVIRONMENT COMMITTEE REPORT relative to possible uses for the parcels of land beneath and adjacent to transmission lines along Ilex Avenue in the Sun Valley neighborhood.\nRecommendation for Council action, pursuant to Motion (Padilla – Yaroslavsky):\nREQUEST the Department of Water and Power (DWP) with the assistance from the Chief Legislative Analyst (CLA) and, in coordination with the Department of Recreation and Parks, Bureau of Street Services, Bureau of Engineering and other related City departments, to:\nConduct a site assessment of DWP-owned parcels along Ilex Avenue in Sun Valley, specifically from Snelling Street to Telfair Avenue, to evaluate current conditions and identify any safety or access/liability concerns.\nReport on allowable uses for these parcels under DWP Right-of-Way policies, applicable zoning, public safety regulations, and any future plans for these parcels.\nExplore the feasibility of enhancing these parcels for community-serving purposes such as passive and active recreation, gathering areas, development of a dog park, and shade infrastructure (e.g., trees, gazebos, canopies, or other shade shelters).\nEngage with local stakeholders and community organizations to gather input and assess interest in potential uses.\nReport to the Council within 90 days with findings and recommendations, including potential pilot programs or partnerships that could activate these sites as shared-use spaces.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Energy and Environment Committee_10-21-25\nMotion (Padilla - Yaroslavsky)  dated 10-01-25",
+          "council_file": "25-1145",
+          "title": "ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to possible uses for the parcels of land beneath and adjacent to transmission lines along Ilex Avenue in the Sun Valley neighborhood.",
+          "recommendation": "REQUEST the Department of Water and Power (DWP) with the assistance from the Chief Legislative Analyst (CLA) and, in coordination with the Department of Recreation and Parks, Bureau of Street Services, Bureau of Engineering and other related City departments, to: Conduct a site assessment of DWP-owned parcels along Ilex Avenue in Sun Valley, specifically from Snelling Street to Telfair Avenue, to evaluate current conditions and identify any safety or access/liability concerns. Report on allowable uses for these parcels under DWP Right-of-Way policies, applicable zoning, public safety regulations, and any future plans for these parcels. Explore the feasibility of enhancing these parcels for community-serving purposes such as passive and active recreation, gathering areas, development of a dog park, and shade infrastructure (e.g., trees, gazebos, canopies, or other shade shelters). Engage with local stakeholders and community organizations to gather input and assess interest in potential uses. Report to the Council within 90 days with findings and recommendations, including potential pilot programs or partnerships that could activate these sites as shared-use spaces. Fiscal Impact Statement: Neither the City Administrative Officer nor the CLA has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Energy and Environment Committee_10-21-25 Motion (Padilla - Yaroslavsky) dated 10-01-25",
+          "video_location": "19718",
+          "mig": "41709d6c-7956-4120-9b9f-6311a94071d3",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6feb190c-aa95-4bcc-841c-47665c0fa4fd"
+            },
+            {
+              "text": "Report from Energy and Environment Committee_10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6feb190c-aa95-4bcc-841c-47665c0fa4fd"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7e32d2bc-310d-4489-933f-ab9c366be717"
+            },
+            {
+              "text": "Motion (Padilla - Yaroslavsky)  dated 10-01-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7e32d2bc-310d-4489-933f-ab9c366be717"
+            }
+          ]
+        },
+        {
+          "item_id": "156349",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-0974\nENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the City's participation in the ShadeLA campaign, assigning department liaisons for a shade-tracking dashboard, streamlining permitting processes related to natural shade, and related matters.\nRecommendations for Council action, pursuant to Motion (Yaroslavsky, Raman – Hernandez, Rodriguez):\nAUTHORIZE formally the City's participation in the ShadeLA campaign as a City-supported and citywide initiative aligned with the goals of the draft Urban Forest Management Plan, Heat Action and Resilience Plan, and the City's broader heat resilience and climate preparedness strategies.\nINSTRUCT the Bureau of Street Services (BSS), Bureau of Engineering (BOE), Department of City Planning (DCP), Department of Recreation and Parks, Department of Transportation, Emergency Management Department, and other departments as appropriate to each designate a department liaison to participate in ShadeLA coordination efforts. These efforts include the identification of relevant programs, resources, and related data for ShadeLA to create and maintain a public-facing, open-source dashboard to track shade and cooling infrastructure across the City.\nINSTRUCT the BOE with support from the BSS, DCP Office of Forest Management, and all other relevant bureaus and departments to report within 60 days with an evaluation of existing processes and recommendations on:\nAutomation and/or streamlining of permitting processes and potential improvements related to natural shade (e.g., trees, pocket parks).\nEstablishment an expedited approval for permanent or temporary shade elements including shade elements for bus benches, modular shade structures, shade sails, temporary canopies, particularly where such structures are within the public right-of-way.\nOptimal tree spacing and planting practices, and sustainable practices for maintenance and preservation of existing trees that prevents negative impact to public infrastructure.\nA status report and timeline from the BSS on the progress of adopted standard plans for the Shade Structure Program Element from the Sidewalk and Transit Amenities Program (STAP) Contract C-141478, along with an implementation plan for installing STAP Shade Structures.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nYes\nAgainst Unless Amended:\nPalms Neighborhood Council.\nFor if Amended:\nHistoric Highland Park Neighborhood Council.\nReport from Energy and Environment Committee_10-21-25\nCommunity Impact Statement submitted by Historic Highland Park Neighborhood Council_10-24-25\nCommunity Impact Statement submitted by Palms Neighborhood Council_9-5-25\nMotion (Yaroslavsky, Raman - Hernandez, Rodriguez) dated 8-20-25.",
+          "council_file": "25-0974",
+          "title": "ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the City's participation in the ShadeLA campaign, assigning department liaisons for a shade-tracking dashboard, streamlining permitting processes related to natural shade, and related matters.",
+          "recommendation": "AUTHORIZE formally the City's participation in the ShadeLA campaign as a City-supported and citywide initiative aligned with the goals of the draft Urban Forest Management Plan, Heat Action and Resilience Plan, and the City's broader heat resilience and climate preparedness strategies. INSTRUCT the Bureau of Street Services (BSS), Bureau of Engineering (BOE), Department of City Planning (DCP), Department of Recreation and Parks, Department of Transportation, Emergency Management Department, and other departments as appropriate to each designate a department liaison to participate in ShadeLA coordination efforts. These efforts include the identification of relevant programs, resources, and related data for ShadeLA to create and maintain a public-facing, open-source dashboard to track shade and cooling infrastructure across the City. INSTRUCT the BOE with support from the BSS, DCP Office of Forest Management, and all other relevant bureaus and departments to report within 60 days with an evaluation of existing processes and recommendations on: Automation and/or streamlining of permitting processes and potential improvements related to natural shade (e.g., trees, pocket parks). Establishment an expedited approval for permanent or temporary shade elements including shade elements for bus benches, modular shade structures, shade sails, temporary canopies, particularly where such structures are within the public right-of-way. Optimal tree spacing and planting practices, and sustainable practices for maintenance and preservation of existing trees that prevents negative impact to public infrastructure. A status report and timeline from the BSS on the progress of adopted standard plans for the Shade Structure Program Element from the Sidewalk and Transit Amenities Program (STAP) Contract C-141478, along with an implementation plan for installing STAP Shade Structures. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: Yes Against Unless Amended: Palms Neighborhood Council. For if Amended: Historic Highland Park Neighborhood Council. Report from Energy and Environment Committee_10-21-25 Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-24-25 Community Impact Statement submitted by Palms Neighborhood Council_9-5-25 Motion (Yaroslavsky, Raman - Hernandez, Rodriguez) dated 8-20-25.",
+          "video_location": "19718",
+          "mig": "7a35b574-9037-45af-b904-ef1cfd58c475",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c2d3eb6e-12ea-43cc-9101-efa302d8a8b4"
+            },
+            {
+              "text": "Report from Energy and Environment Committee_10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2d3eb6e-12ea-43cc-9101-efa302d8a8b4"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=59a555b5-82de-48bd-a9c7-32f1069e565f"
+            },
+            {
+              "text": "Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-24-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=59a555b5-82de-48bd-a9c7-32f1069e565f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7542b073-a83f-4b75-ab77-3784bae962d9"
+            },
+            {
+              "text": "Community Impact Statement submitted by Palms Neighborhood Council_9-5-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7542b073-a83f-4b75-ab77-3784bae962d9"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=dd031245-0705-42b0-a354-ae31f2a9c7ed"
+            },
+            {
+              "text": "Motion (Yaroslavsky, Raman - Hernandez, Rodriguez) dated 8-20-25.",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd031245-0705-42b0-a354-ae31f2a9c7ed"
+            }
+          ]
+        },
+        {
+          "item_id": "156367",
+          "item_number": "(15)",
+          "has_attachments": true,
+          "raw_text": "25-1061\nENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to a grant agreement from the United States Environmental Protection Agency (USEPA) for a Brownfields Community-Wide Assessment (CWA) Grant.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the Director, Bureau of Sanitation, and General Manager, Bureau of Sanitation, to negotiate, accept, execute, and submit all documents, including, but not limited to, applications, agreements, amendments, and payment requests etc., subject to the approval of the City Attorney as to form, which may be necessary to secure grant funds from the EPA for a CWA Grant.\nADOPT the accompanying Resolution for authorizing acceptance of the USEPA CWA Grant.\nFiscal Impact Statement:\nThe Board of Public Works reports that there is no impact to the General Fund.\nCommunity Impact Statement:\nNone submitted\nJoint report from Energy and Environment Committee and Budget and Finance Committee_10-21-25\nSpeaker Card(s)_10-07-2025\nReport from Board of Public Works dated 9-09-25",
+          "council_file": "25-1061",
+          "title": "ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to a grant agreement from the United States Environmental Protection Agency (USEPA) for a Brownfields Community-Wide Assessment (CWA) Grant.",
+          "recommendation": "AUTHORIZE the Director, Bureau of Sanitation, and General Manager, Bureau of Sanitation, to negotiate, accept, execute, and submit all documents, including, but not limited to, applications, agreements, amendments, and payment requests etc., subject to the approval of the City Attorney as to form, which may be necessary to secure grant funds from the EPA for a CWA Grant. ADOPT the accompanying Resolution for authorizing acceptance of the USEPA CWA Grant. Fiscal Impact Statement: The Board of Public Works reports that there is no impact to the General Fund. Community Impact Statement: None submitted Joint report from Energy and Environment Committee and Budget and Finance Committee_10-21-25 Speaker Card(s)_10-07-2025 Report from Board of Public Works dated 9-09-25",
+          "video_location": "22604",
+          "mig": "5b17c368-315e-470d-a3ab-bcb5ec0c45ed",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=efe5fcb5-7f09-4f13-8b29-bc352f7e8eba"
+            },
+            {
+              "text": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-21-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=efe5fcb5-7f09-4f13-8b29-bc352f7e8eba"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7024b71e-2c08-4ff2-b666-0a55a1f9e7df"
+            },
+            {
+              "text": "Speaker Card(s)_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7024b71e-2c08-4ff2-b666-0a55a1f9e7df"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=735e5191-d46c-4dfc-8c18-66a8aedccc83"
+            },
+            {
+              "text": "Report from Board of Public Works dated 9-09-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=735e5191-d46c-4dfc-8c18-66a8aedccc83"
+            }
+          ]
+        },
+        {
+          "item_id": "156368",
+          "item_number": "(16)",
+          "has_attachments": true,
+          "raw_text": "23-0494-S2\nCD 1\nENVIRONMENTAL IMPACT REPORT (EIR), STATEMENT OF OVERRIDING CONSIDERATIONS, MITIGATION MONITORING PROGRAM, and ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to the MacArthur Lake Stormwater Capture Project (Project).\nRecommendations for Council action:\nREVIEW and CONSIDER the information contained in the Project’s EIR, consisting of the Draft EIR (Transmittal No. 1 of the Board of Public Works (BPW) report dated September 22, 2025, attached to the Council file) and the Final EIR (FEIR) (Transmittal No. 2 of said BPW report) and any other information in the record of proceedings; CERTIFY that the FEIR was completed in compliance with the California Environmental Quality Act (CEQA); that potentially significant environmental effects of the Project have been disclosed and evaluated in compliance with the CEQA.\nADOPT the Project’s CEQA Findings and Statement of Overriding Considerations (Transmittal No. 3 of said BPW report).\nADOPT the Mitigation Monitoring Program (Transmittal No. 4 of said BPW report).\nSPECIFY that the documents constituting the record of proceedings in this matter are in the custody of the Department of Public Works, Bureau of Sanitation and Environment, 1149 South Broadway, Suite 900, Los Angeles, CA 90015, and any other relevant City department.\nAPPROVE the Project as described in the FEIR.\nFiscal Impact Statement:\nNone submitted by the BPW. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nJoint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25\nSpeaker Card(s)_10-07-2025\nReport from Board of Public Works dated 9-22-25",
+          "council_file": "23-0494-S2",
+          "district": "CD 1",
+          "title": "ENVIRONMENTAL IMPACT REPORT (EIR), STATEMENT OF OVERRIDING CONSIDERATIONS, MITIGATION MONITORING PROGRAM, and ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to the MacArthur Lake Stormwater Capture Project (Project).",
+          "recommendation": "REVIEW and CONSIDER the information contained in the Project’s EIR, consisting of the Draft EIR (Transmittal No. 1 of the Board of Public Works (BPW) report dated September 22, 2025, attached to the Council file) and the Final EIR (FEIR) (Transmittal No. 2 of said BPW report) and any other information in the record of proceedings; CERTIFY that the FEIR was completed in compliance with the California Environmental Quality Act (CEQA); that potentially significant environmental effects of the Project have been disclosed and evaluated in compliance with the CEQA. ADOPT the Project’s CEQA Findings and Statement of Overriding Considerations (Transmittal No. 3 of said BPW report). ADOPT the Mitigation Monitoring Program (Transmittal No. 4 of said BPW report). SPECIFY that the documents constituting the record of proceedings in this matter are in the custody of the Department of Public Works, Bureau of Sanitation and Environment, 1149 South Broadway, Suite 900, Los Angeles, CA 90015, and any other relevant City department. APPROVE the Project as described in the FEIR. Fiscal Impact Statement: None submitted by the BPW. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25 Speaker Card(s)_10-07-2025 Report from Board of Public Works dated 9-22-25",
+          "video_location": "21170",
+          "mig": "75609e1a-c26b-4b31-8c64-5d45a721ce91",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1d1852b9-f532-4475-b2ec-56a5ab8c50c9"
+            },
+            {
+              "text": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d1852b9-f532-4475-b2ec-56a5ab8c50c9"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7b76c9ca-e5d7-45a4-9fe1-4821dfdda333"
+            },
+            {
+              "text": "Speaker Card(s)_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b76c9ca-e5d7-45a4-9fe1-4821dfdda333"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=3de0bef4-c306-4f55-be5c-bae89470d140"
+            },
+            {
+              "text": "Report from Board of Public Works dated 9-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3de0bef4-c306-4f55-be5c-bae89470d140"
+            }
+          ]
+        },
+        {
+          "item_id": "156369",
+          "item_number": "(17)",
+          "has_attachments": true,
+          "raw_text": "21-1015-S18\nENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to applications for the United States Environmental Protection Agency (USEPA), Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program – Fiscal Year (FY) 2025.\nRecommendations for Council action:\nAUTHORIZE the General Manager, Department of Water and Power (DWP), or designee, to prepare and submit two grant applications for the USEPA, Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program - FY 2025.\nINSTRUCT the General Manager, DWP, or designee, to report if the City is awarded the grants, to request authority to accept the grant awards, and to request approval for any related actions to implement the grant awards.\nFiscal Impact Statement:\nThe City Administrative Officer (CAO) reports that approval of the above recommendations will not result in a General Fund impact. There is a 10 percent matching funds requirement for the Midsize and Large Drinking Water System Infrastructure Resilience and Sustainability Program – FY 2025 grant. However, upon notification of a grant award, a reassessment on the General Fund impact should be completed as it relates to either lower than requested grant award amounts, verification of local match requirements, or front-funding for grants on a reimbursement basis.\nFinancial Policies Statement:\nThe CAO reports that the above recommendations comply with the City’s Financial Policies.\nCommunity Impact Statement:\nNone submitted\nJoint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25\nSpeaker Card(s)_10-07-2025\nReport from City Administrative Officer dated 9-24-25",
+          "council_file": "21-1015-S18",
+          "title": "ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to applications for the United States Environmental Protection Agency (USEPA), Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program – Fiscal Year (FY) 2025.",
+          "recommendation": "AUTHORIZE the General Manager, Department of Water and Power (DWP), or designee, to prepare and submit two grant applications for the USEPA, Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program - FY 2025. INSTRUCT the General Manager, DWP, or designee, to report if the City is awarded the grants, to request authority to accept the grant awards, and to request approval for any related actions to implement the grant awards. Fiscal Impact Statement: The City Administrative Officer (CAO) reports that approval of the above recommendations will not result in a General Fund impact. There is a 10 percent matching funds requirement for the Midsize and Large Drinking Water System Infrastructure Resilience and Sustainability Program – FY 2025 grant. However, upon notification of a grant award, a reassessment on the General Fund impact should be completed as it relates to either lower than requested grant award amounts, verification of local match requirements, or front-funding for grants on a reimbursement basis. Financial Policies Statement: The CAO reports that the above recommendations comply with the City’s Financial Policies. Community Impact Statement: None submitted Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25 Speaker Card(s)_10-07-2025 Report from City Administrative Officer dated 9-24-25",
+          "video_location": "19721",
+          "mig": "5fa3d893-8e1e-4565-a8a7-bc509ca431cf",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=286f1f2c-74c0-4864-a59e-dd1a9ad695f7"
+            },
+            {
+              "text": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=286f1f2c-74c0-4864-a59e-dd1a9ad695f7"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8a04e3dc-890f-4962-aa56-64ce64d17c6d"
+            },
+            {
+              "text": "Speaker Card(s)_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a04e3dc-890f-4962-aa56-64ce64d17c6d"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d92ba4b0-0a25-462f-b9be-605b2c890f79"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 9-24-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d92ba4b0-0a25-462f-b9be-605b2c890f79"
+            }
+          ]
+        },
+        {
+          "item_id": "156370",
+          "item_number": "(18)",
+          "has_attachments": true,
+          "raw_text": "22-0032-S1\nENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT and RESOLUTIONS relative to amended and restated wastewater system revenue bonds general Resolutions.\nRecommendations for Council action:\nADOPT the Amended and Restated Wastewater System Revenue Bonds General Resolution (the “A&R Senior Resolution”)(Attachment A of the City Administrative Officer (CAO) report, dated September 9, 2025, attached to the Council file), effectuating amendments to the original Wastewater System Revenue Bonds General Resolution to modernize certain provisions to reflect current industry practices, enhance flexibility, and provide more favorable terms to the City, the form of which has been previously approved by the Council.\nADOPT the Amended and Restated Wastewater System Subordinate Revenue Bonds General Resolution (the “A&R Subordinate Resolution,” and together with the A&R Senior Resolution, the “A&R Resolutions”)(Attachment B of said CAO report), effectuating amendments to the original Wastewater System Subordinate Revenue Bonds General Resolution to modernize certain provisions to reflect current industry practices, enhance flexibility, and provide more favorable terms to the City, the form of which has been previously approved by the Council.\nREQUEST the City Attorney to prepare and present an ordinance or ordinances amending certain sections of the Los Angeles Administrative Code and the Los Angeles Municipal Code, to the extent necessary, to conform such Codes to the A&R Resolutions.\nFiscal Impact Statement:\nThe CAO reports that there is no impact to the General Fund from approval of the above recommendations as adoption of the A&R Resolutions is an administrative action.\nFinancial Policies Statement:\nThe CAO reports that the above recommendations comply with the City’s Financial Policies in that the A&R Resolutions are compliant with the City’s Debt Management Policies.\nDebt Impact Statement:\nThe CAO reports that there is no debt impact resulting from the approval of the above recommendations as adoption of the A&R Resolutions is an administrative action that is not related to the incurrence of additional debt.\nCommunity Impact Statement:\nNone submitted\nJoint report from Energy and Environment Committee and Budget and Finance Committee _10-7-25\nSpeaker Card(s)_10-07-2025\nSpeaker Card(s)_09-16-2025\nReport from City Administrative Officer dated 9-09-25",
+          "council_file": "22-0032-S1",
+          "title": "ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT and RESOLUTIONS relative to amended and restated wastewater system revenue bonds general Resolutions.",
+          "recommendation": "ADOPT the Amended and Restated Wastewater System Revenue Bonds General Resolution (the “A&R Senior Resolution”)(Attachment A of the City Administrative Officer (CAO) report, dated September 9, 2025, attached to the Council file), effectuating amendments to the original Wastewater System Revenue Bonds General Resolution to modernize certain provisions to reflect current industry practices, enhance flexibility, and provide more favorable terms to the City, the form of which has been previously approved by the Council. ADOPT the Amended and Restated Wastewater System Subordinate Revenue Bonds General Resolution (the “A&R Subordinate Resolution,” and together with the A&R Senior Resolution, the “A&R Resolutions”)(Attachment B of said CAO report), effectuating amendments to the original Wastewater System Subordinate Revenue Bonds General Resolution to modernize certain provisions to reflect current industry practices, enhance flexibility, and provide more favorable terms to the City, the form of which has been previously approved by the Council. REQUEST the City Attorney to prepare and present an ordinance or ordinances amending certain sections of the Los Angeles Administrative Code and the Los Angeles Municipal Code, to the extent necessary, to conform such Codes to the A&R Resolutions. Fiscal Impact Statement: The CAO reports that there is no impact to the General Fund from approval of the above recommendations as adoption of the A&R Resolutions is an administrative action. Financial Policies Statement: The CAO reports that the above recommendations comply with the City’s Financial Policies in that the A&R Resolutions are compliant with the City’s Debt Management Policies. Debt Impact Statement: The CAO reports that there is no debt impact resulting from the approval of the above recommendations as adoption of the A&R Resolutions is an administrative action that is not related to the incurrence of additional debt. Community Impact Statement: None submitted Joint report from Energy and Environment Committee and Budget and Finance Committee _10-7-25 Speaker Card(s)_10-07-2025 Speaker Card(s)_09-16-2025 Report from City Administrative Officer dated 9-09-25",
+          "video_location": "19733",
+          "mig": "7bf74e42-8c9b-43c9-86ef-71c9e9c653a6",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a4860a02-1113-4fdf-aee1-051aa9bc4eb6"
+            },
+            {
+              "text": "Joint report from Energy and Environment Committee and Budget and Finance Committee _10-7-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4860a02-1113-4fdf-aee1-051aa9bc4eb6"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=9b64922a-609e-4d64-aed5-2575db37d844"
+            },
+            {
+              "text": "Speaker Card(s)_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b64922a-609e-4d64-aed5-2575db37d844"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a47c3e5e-0918-4bd0-a75c-0a67246af474"
+            },
+            {
+              "text": "Speaker Card(s)_09-16-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a47c3e5e-0918-4bd0-a75c-0a67246af474"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=2877ce0f-7770-4b43-a766-105058f7f99d"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 9-09-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2877ce0f-7770-4b43-a766-105058f7f99d"
+            }
+          ]
+        },
+        {
+          "item_id": "156360",
+          "item_number": "(19)",
+          "has_attachments": true,
+          "raw_text": "25-1202\nPUBLIC WORKS COMMITTEE REPORT relative to the addition of one Civil Engineering Associate IV resolution authority for the Bureau of Engineering (BOE) Sidewalk Repair Program.\nRecommendations for Council action, pursuant to Motion (Hernandez – Yaroslavsky), SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the addition of one Civil Engineering Associate IV resolution authority for the BOE Sidewalk Repair Program to provide technical expertise, knowledge, and skills and supplement the capacity of the Bureau's ADA Coordinator, and to TRANSFER and APPROPRIATE $105,859.12 from the Sidewalk Repair Fund No. 57F/50, Account No. 50Y178 (BOE Departmental Appropriation) and $100,000 from Account No. 50A178 [TOTAL: $205,859.12] to the Sidewalk Repair Fund No. 57F/50, Account No. 50C178 to fund the position.\nAUTHORIZE the BOE to make any technical corrections, clarifications, or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any accounting corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nMotion (Hernandez - Yaroslavsky) dated 10-15-25",
+          "council_file": "25-1202",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to the addition of one Civil Engineering Associate IV resolution authority for the Bureau of Engineering (BOE) Sidewalk Repair Program.",
+          "recommendation": "AUTHORIZE the addition of one Civil Engineering Associate IV resolution authority for the BOE Sidewalk Repair Program to provide technical expertise, knowledge, and skills and supplement the capacity of the Bureau's ADA Coordinator, and to TRANSFER and APPROPRIATE $105,859.12 from the Sidewalk Repair Fund No. 57F/50, Account No. 50Y178 (BOE Departmental Appropriation) and $100,000 from Account No. 50A178 [TOTAL: $205,859.12] to the Sidewalk Repair Fund No. 57F/50, Account No. 50C178 to fund the position. AUTHORIZE the BOE to make any technical corrections, clarifications, or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any accounting corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Hernandez - Yaroslavsky) dated 10-15-25",
+          "video_location": "19733",
+          "mig": "612bd375-ebcb-435a-9d52-d05d9b64c6fc",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c615fb9c-560f-45fc-a165-f3ebf0d2b0a8"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c615fb9c-560f-45fc-a165-f3ebf0d2b0a8"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=ac6f298f-5c93-4179-9e5a-ef027efd80c5"
+            },
+            {
+              "text": "Motion (Hernandez - Yaroslavsky) dated 10-15-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac6f298f-5c93-4179-9e5a-ef027efd80c5"
+            }
+          ]
+        },
+        {
+          "item_id": "156352",
+          "item_number": "(20)",
+          "has_attachments": true,
+          "raw_text": "25-1082\nCD 15\nPUBLIC WORKS COMMITTEE REPORT relative to declaring the property located at 228 North Gaffey Street a public nuisance as the result of the presence of excessive trash and debris, storage of junk, and dangerous structures/conditions.\nRecommendation for Council action, pursuant to Resolution (McOsker – Blumenfield):\nRESOLVE, pursuant to Section 7.35.2(c) of the Los Angeles Administrative Code (LAAC), to:\nDeclare the property located at 228 North Gaffey Street (APN 7448031028) a Public Nuisance as the result of excessive trash and debris, storage of junk, and dangerous structures/conditions.\nDirect the Board of Public Works (BPW) to expedite the issuances of appropriate notices and documentation that may be necessary to effectuate the abatement of the nuisance at 228 North Gaffey Street.\nDirect the BPW, or its designees, to proceed with the abatement process, as may be necessary, and, pursuant to Section 7.35.3 of the LAAC, invoice the property owner for all and any abatement costs incurred by the City.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nResolution (McOsker - Blumenfield) dated 9-16-25",
+          "council_file": "25-1082",
+          "district": "CD 15",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to declaring the property located at 228 North Gaffey Street a public nuisance as the result of the presence of excessive trash and debris, storage of junk, and dangerous structures/conditions.",
+          "recommendation": "RESOLVE, pursuant to Section 7.35.2(c) of the Los Angeles Administrative Code (LAAC), to: Declare the property located at 228 North Gaffey Street (APN 7448031028) a Public Nuisance as the result of excessive trash and debris, storage of junk, and dangerous structures/conditions. Direct the Board of Public Works (BPW) to expedite the issuances of appropriate notices and documentation that may be necessary to effectuate the abatement of the nuisance at 228 North Gaffey Street. Direct the BPW, or its designees, to proceed with the abatement process, as may be necessary, and, pursuant to Section 7.35.3 of the LAAC, invoice the property owner for all and any abatement costs incurred by the City. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Resolution (McOsker - Blumenfield) dated 9-16-25",
+          "video_location": "19733",
+          "mig": "e07d19f4-bf10-45ff-bc64-5be65c0bd6ea",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6f0eddba-adb5-42f3-b4d8-88b3c9ada257"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f0eddba-adb5-42f3-b4d8-88b3c9ada257"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=5f352eaf-5b80-4213-b308-cdff445ba974"
+            },
+            {
+              "text": "Resolution (McOsker - Blumenfield) dated 9-16-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5f352eaf-5b80-4213-b308-cdff445ba974"
+            }
+          ]
+        },
+        {
+          "item_id": "156359",
+          "item_number": "(21)",
+          "has_attachments": true,
+          "raw_text": "14-0958\nCD 15\nPUBLIC WORKS COMMITTEE REPORT relative to extending the temporary closure of 121st Street between Figueroa Street and Hoover Street for an additional 18 months for reasons of public safety.\nRecommendation for Council action, pursuant to Motion (McOsker - Lee):\nINSTRUCT the City Engineer to report with recommendations on extending the temporary closure of 121st Street between Figueroa Street and Hoover Street for an additional 18 months for reasons of public safety.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nMotion (McOsker - Lee) dated 10-03-25\nMotion (McOsker - Lee) dated 4-05-24\nCouncil Action dated 5-07-24\nAttested Resolution_12-09-22\nCouncil Action  dated 12-09-22\nSpeaker Card(s)_12-09-2022\nReport from Bureau of Engineering dated 11-29-22\nAttachment to Report dated 11-29-22 - Exhibit A Updated\nAttachment to Report dated 11-29-22 - Resolution\nAttachment to Report dated 11-29-22 - Council District 15 April 30, 2022 Letter\nAttachment to Report dated 11-29-22 - Council District 15 November 9, 2022 Letter\nAttachment to Report dated 11-29-22 - Los Angeles Police Department Letter of Support\nCouncil Action 09_10_2014\nReport from Public Works and Gang Reduction Committee 08_28_2014\nSpeaker Card(s) 08_20_2014\nCommunication(s) from Public 08_18_2014\nCommunication from Committee Clerk 08_13_2014\nReport from Public Works Engineering (1 of 2) 07_16_2014\nAttachment of Report dated 7162014 - Resolution (2 of 2) 07_16_2014\nSpeaker Card(s)_05-01-2024",
+          "council_file": "14-0958",
+          "district": "CD 15",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to extending the temporary closure of 121st Street between Figueroa Street and Hoover Street for an additional 18 months for reasons of public safety.",
+          "recommendation": "INSTRUCT the City Engineer to report with recommendations on extending the temporary closure of 121st Street between Figueroa Street and Hoover Street for an additional 18 months for reasons of public safety. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (McOsker - Lee) dated 10-03-25 Motion (McOsker - Lee) dated 4-05-24 Council Action dated 5-07-24 Attested Resolution_12-09-22 Council Action dated 12-09-22 Speaker Card(s)_12-09-2022 Report from Bureau of Engineering dated 11-29-22 Attachment to Report dated 11-29-22 - Exhibit A Updated Attachment to Report dated 11-29-22 - Resolution Attachment to Report dated 11-29-22 - Council District 15 April 30, 2022 Letter Attachment to Report dated 11-29-22 - Council District 15 November 9, 2022 Letter Attachment to Report dated 11-29-22 - Los Angeles Police Department Letter of Support Council Action 09_10_2014 Report from Public Works and Gang Reduction Committee 08_28_2014 Speaker Card(s) 08_20_2014 Communication(s) from Public 08_18_2014 Communication from Committee Clerk 08_13_2014 Report from Public Works Engineering (1 of 2) 07_16_2014 Attachment of Report dated 7162014 - Resolution (2 of 2) 07_16_2014 Speaker Card(s)_05-01-2024",
+          "video_location": "19733",
+          "mig": "42f7f74d-296d-469d-857c-476755975137",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6b631f94-abcd-44b5-a26c-399fc15ac7c1"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b631f94-abcd-44b5-a26c-399fc15ac7c1"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=44c15ccb-ccf2-47cd-a9a0-c5d804a75151"
+            },
+            {
+              "text": "Motion (McOsker - Lee) dated 10-03-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=44c15ccb-ccf2-47cd-a9a0-c5d804a75151"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b02559ee-0453-42fe-a585-285eb29124c7"
+            },
+            {
+              "text": "Motion (McOsker - Lee) dated 4-05-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b02559ee-0453-42fe-a585-285eb29124c7"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=185818fc-48a9-4d4e-819b-a9395cd58bb1"
+            },
+            {
+              "text": "Council Action dated 5-07-24",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=185818fc-48a9-4d4e-819b-a9395cd58bb1"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=3163fa44-6e0e-42f4-88dd-d0568fb7913d"
+            },
+            {
+              "text": "Attested Resolution_12-09-22",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3163fa44-6e0e-42f4-88dd-d0568fb7913d"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=9340b0d3-fdf2-4884-a591-48f21bed3641"
+            },
+            {
+              "text": "Council Action  dated 12-09-22",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9340b0d3-fdf2-4884-a591-48f21bed3641"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=073be4d0-7b66-46e3-ba0f-c7554834119e"
+            },
+            {
+              "text": "Speaker Card(s)_12-09-2022",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=073be4d0-7b66-46e3-ba0f-c7554834119e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a9feadcc-8aa1-4ade-a7ab-3587d472c9b8"
+            },
+            {
+              "text": "Report from Bureau of Engineering dated 11-29-22",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9feadcc-8aa1-4ade-a7ab-3587d472c9b8"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=f20d8569-d4cd-4d96-9fa3-8bb4eb315591"
+            },
+            {
+              "text": "Attachment to Report dated 11-29-22 - Exhibit A Updated",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f20d8569-d4cd-4d96-9fa3-8bb4eb315591"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=813c8f93-78a8-4b2c-9b27-7d769bbb4446"
+            },
+            {
+              "text": "Attachment to Report dated 11-29-22 - Resolution",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=813c8f93-78a8-4b2c-9b27-7d769bbb4446"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d7b21188-ade4-4b31-930d-f806f41addb4"
+            },
+            {
+              "text": "Attachment to Report dated 11-29-22 - Council District 15 April 30, 2022 Letter",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7b21188-ade4-4b31-930d-f806f41addb4"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=cb6e0b04-88f1-45eb-8115-939056d5022a"
+            },
+            {
+              "text": "Attachment to Report dated 11-29-22 - Council District 15 November 9, 2022 Letter",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb6e0b04-88f1-45eb-8115-939056d5022a"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=ae92716c-bc71-404f-85b6-368f640d7afe"
+            },
+            {
+              "text": "Attachment to Report dated 11-29-22 - Los Angeles Police Department Letter of Support",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae92716c-bc71-404f-85b6-368f640d7afe"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=6313224f-b618-4fc1-b8ad-63a68ccad4ea"
+            },
+            {
+              "text": "Council Action 09_10_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6313224f-b618-4fc1-b8ad-63a68ccad4ea"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1c6d0e18-b748-4a18-afb2-a86843e7d7d0"
+            },
+            {
+              "text": "Report from Public Works and Gang Reduction Committee 08_28_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c6d0e18-b748-4a18-afb2-a86843e7d7d0"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d02c98e4-b6c2-46ba-a316-323dc76a12cb"
+            },
+            {
+              "text": "Speaker Card(s) 08_20_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d02c98e4-b6c2-46ba-a316-323dc76a12cb"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=13f1c3cf-be2b-40b8-b229-4d27c50ae145"
+            },
+            {
+              "text": "Communication(s) from Public 08_18_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13f1c3cf-be2b-40b8-b229-4d27c50ae145"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=fbe0d520-0641-486c-bc30-20c9c7325369"
+            },
+            {
+              "text": "Communication from Committee Clerk 08_13_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fbe0d520-0641-486c-bc30-20c9c7325369"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1d4e5ea2-9c09-4c24-bbff-310cd97801df"
+            },
+            {
+              "text": "Report from Public Works Engineering (1 of 2) 07_16_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d4e5ea2-9c09-4c24-bbff-310cd97801df"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=bfc7c2c5-12e9-4314-b648-f0070c74db07"
+            },
+            {
+              "text": "Attachment of Report dated 7162014 - Resolution (2 of 2) 07_16_2014",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bfc7c2c5-12e9-4314-b648-f0070c74db07"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=92f01031-5bc6-4b7b-ad24-954a31cbf5b6"
+            },
+            {
+              "text": "Speaker Card(s)_05-01-2024",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=92f01031-5bc6-4b7b-ad24-954a31cbf5b6"
+            }
+          ]
+        },
+        {
+          "item_id": "156353",
+          "item_number": "(22)",
+          "has_attachments": true,
+          "raw_text": "25-1074\nCD 7\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\"\nRecommendations for Council action, pursuant to Motion (Rodriguez – Lee):\nDESIGNATE the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\"\nDIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nMotion (Rodriguez - Lee)  dated 9-12-25",
+          "council_file": "25-1074",
+          "district": "CD 7",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\"",
+          "recommendation": "DESIGNATE the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\" DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Rodriguez - Lee) dated 9-12-25",
+          "video_location": "19733",
+          "mig": "13f8e9fb-3868-412f-9c51-b669a8a3c1fa",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=26749b15-b84b-4f4b-b804-c33820bfc40f"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26749b15-b84b-4f4b-b804-c33820bfc40f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c357e2d4-e6de-4a1d-be10-ddf5ed60d0aa"
+            },
+            {
+              "text": "Motion (Rodriguez - Lee)  dated 9-12-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c357e2d4-e6de-4a1d-be10-ddf5ed60d0aa"
+            }
+          ]
+        },
+        {
+          "item_id": "156354",
+          "item_number": "(23)",
+          "has_attachments": true,
+          "raw_text": "25-1076\nCD 7\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\"\nRecommendations for Council action, pursuant to Motion (Rodriguez, Soto-Martínez – Hernandez):\nDESIGNATE the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\"\nDIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nMotion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25",
+          "council_file": "25-1076",
+          "district": "CD 7",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\"",
+          "recommendation": "DESIGNATE the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\" DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25",
+          "video_location": "19733",
+          "mig": "a882a35e-0b12-4c80-96b1-50a8cc70d57f",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=348dfe72-ab15-4696-8e61-ee879ddcf6e0"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=348dfe72-ab15-4696-8e61-ee879ddcf6e0"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=566bfa67-134a-4c24-9012-53715f837293"
+            },
+            {
+              "text": "Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=566bfa67-134a-4c24-9012-53715f837293"
+            }
+          ]
+        },
+        {
+          "item_id": "156355",
+          "item_number": "(24)",
+          "has_attachments": true,
+          "raw_text": "25-1080\nCD 15\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\"\nRecommendations for Council action, pursuant to Motion (McOsker - Hutt):\nDESIGNATE the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\"\nDIRECT the Department of Transportation to install permanent ceremonial signage at this location in its honor.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_10-22-25\nMotion (Mcosker - Hutt) dated 9-16-25",
+          "council_file": "25-1080",
+          "district": "CD 15",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\"",
+          "recommendation": "DESIGNATE the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\" DIRECT the Department of Transportation to install permanent ceremonial signage at this location in its honor. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Mcosker - Hutt) dated 9-16-25",
+          "video_location": "19733",
+          "mig": "15000e72-2b48-4c9c-9119-3fe50e695c79",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d2747771-9106-4e03-94bc-b2307b9833e1"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2747771-9106-4e03-94bc-b2307b9833e1"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=aacb387a-ee94-44b3-96a3-4647ea26a8a3"
+            },
+            {
+              "text": "Motion (Mcosker - Hutt) dated 9-16-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aacb387a-ee94-44b3-96a3-4647ea26a8a3"
+            }
+          ]
+        },
+        {
+          "item_id": "156358",
+          "item_number": "(25)",
+          "has_attachments": true,
+          "raw_text": "25-0926\nCD 15\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection of M Street and Banning Boulevard in Wilmington as “Simie Seaman Square.\"\nRecommendations for Council action, pursuant to Motion (McOsker – Hernandez):\nDESIGNATE the intersection of M Street and Banning Boulevard in Wilmington as “Simie Seaman Square.\"\nDIRECT the Department of Transportation to install permanent ceremonial signage at this location in her honor.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nYes\nFor:\nWilmington Neighborhood Council\nReport from Public Works Committee_10-22-25\nCommunity Impact Statement submitted by Wilmington Neighborhood Council_09-29-2025\nMotion (McOsker - Hernanadez) dated 8-13-25",
+          "council_file": "25-0926",
+          "district": "CD 15",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection of M Street and Banning Boulevard in Wilmington as “Simie Seaman Square.\"",
+          "recommendation": "DESIGNATE the intersection of M Street and Banning Boulevard in Wilmington as “Simie Seaman Square.\" DIRECT the Department of Transportation to install permanent ceremonial signage at this location in her honor. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: Yes For: Wilmington Neighborhood Council Report from Public Works Committee_10-22-25 Community Impact Statement submitted by Wilmington Neighborhood Council_09-29-2025 Motion (McOsker - Hernanadez) dated 8-13-25",
+          "video_location": "19733",
+          "mig": "1db2031f-25df-41e1-99bc-9999a7a7e8ef",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8f248be8-eb21-4913-b792-a063f1bb971e"
+            },
+            {
+              "text": "Report from Public Works Committee_10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f248be8-eb21-4913-b792-a063f1bb971e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=79073495-377d-4318-b3a8-e3775f006d0e"
+            },
+            {
+              "text": "Community Impact Statement submitted by Wilmington Neighborhood Council_09-29-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79073495-377d-4318-b3a8-e3775f006d0e"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=9b5e4644-fae6-4eca-9c93-3e82da6c6995"
+            },
+            {
+              "text": "Motion (McOsker - Hernanadez) dated 8-13-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b5e4644-fae6-4eca-9c93-3e82da6c6995"
+            }
+          ]
+        },
+        {
+          "item_id": "156207",
+          "item_number": "(26)",
+          "has_attachments": true,
+          "raw_text": "25-1191\nTRANSPORTATION COMMITTEE REPORT relative to authorizing a contract with Syncromatics Corp., dba GMV Syncromatics, for design, procurement, implementation, support, integration, and maintenance services for new and existing transit technologies.\nRecommendation for Council action:\nAUTHORIZE the General Manager, Los Angeles Department of Transportation (LADOT), or designee, to execute a three-year contract, with two one-year options to extend, for a total of five years, with Syncromatics Corp., dba GMV Syncromatics, for design, procurement, implementation, support, integration, and maintenance services for new and existing transit technologies within LADOT’s Transit Services vehicles and systems, subject to City Attorney review and approval as to form, and total compensation not to exceed $43,144,545 for the entire term of the contract, subject to availability of funds.\nFiscal Impact Statement:\nThe City Administrative Officer (CAO) reports that funding for these services has been set aside in the Proposition A Local Transit Assistance Fund 2025- 26 Adopted Budget. Funding for subsequent years of the agreement is subject to Mayor and Council approval, the availability of funds, and will be appropriated through the City annual budget development process. The City financial obligation is limited to the extent of appropriations approved by the Council and Mayor. The recommendation in this report complies with the City Financial Policies in that budgeted funds are available for this purpose. There is no impact to the General Fund.\nFinancial Policies Statement:\nThe CAO also reports that the action recommended in this report complies with the City Financial Policies in that the City’s financial obligation is limited to available cash balances in the current budget year.\nCommunity Impact Statement:\nNone submitted.\nTIME LIMIT FILE - DECEMBER 9, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 9, 2025)\nReport from Transportation Committee 10-22-25\nReport from City Administrative Officer dated 10-01-25",
+          "council_file": "25-1191",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to authorizing a contract with Syncromatics Corp., dba GMV Syncromatics, for design, procurement, implementation, support, integration, and maintenance services for new and existing transit technologies.",
+          "recommendation": "AUTHORIZE the General Manager, Los Angeles Department of Transportation (LADOT), or designee, to execute a three-year contract, with two one-year options to extend, for a total of five years, with Syncromatics Corp., dba GMV Syncromatics, for design, procurement, implementation, support, integration, and maintenance services for new and existing transit technologies within LADOT’s Transit Services vehicles and systems, subject to City Attorney review and approval as to form, and total compensation not to exceed $43,144,545 for the entire term of the contract, subject to availability of funds. Fiscal Impact Statement: The City Administrative Officer (CAO) reports that funding for these services has been set aside in the Proposition A Local Transit Assistance Fund 2025- 26 Adopted Budget. Funding for subsequent years of the agreement is subject to Mayor and Council approval, the availability of funds, and will be appropriated through the City annual budget development process. The City financial obligation is limited to the extent of appropriations approved by the Council and Mayor. The recommendation in this report complies with the City Financial Policies in that budgeted funds are available for this purpose. There is no impact to the General Fund. Financial Policies Statement: The CAO also reports that the action recommended in this report complies with the City Financial Policies in that the City’s financial obligation is limited to available cash balances in the current budget year. Community Impact Statement: None submitted. TIME LIMIT FILE - DECEMBER 9, 2025 (LAST DAY FOR COUNCIL ACTION - DECEMBER 9, 2025) Report from Transportation Committee 10-22-25 Report from City Administrative Officer dated 10-01-25",
+          "video_location": "19733",
+          "mig": "12ae05fb-8340-4544-bd07-d3eb1e7f9908",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=ec94bd4f-a3fe-46a0-aa5f-1d8f3363d52f"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec94bd4f-a3fe-46a0-aa5f-1d8f3363d52f"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=a61bdc86-83af-402e-9694-a96c24e3a8b1"
+            },
+            {
+              "text": "Report from City Administrative Officer dated 10-01-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a61bdc86-83af-402e-9694-a96c24e3a8b1"
+            }
+          ]
+        },
+        {
+          "item_id": "156206",
+          "item_number": "(27)",
+          "has_attachments": true,
+          "raw_text": "25-1188\nCD 13\nTRANSPORTATION COMMITTEE REPORT relative to amending the boundaries of the Santa Monica-Highland Parking Meter Zone (PMZ) in Council District 13.\nRecommendations for Council action:\nREQUEST the City Attorney to prepare and present an ordinance amending Subsection 26(A) of Section 88.00 of the Los Angeles Municipal Code to expand the boundaries of the Santa Monica-Highland PMZ, to revise Line 3 and add Lines 9-15 as follows:\nHighland Avenue from Lexington Avenue to Willoughby Avenue\nSycamore Avenue from Santa Monica Boulevard to Willoughby Avenue\nOrange Drive from Santa Monica Boulevard to Willoughby Avenue\nMansfield Avenue from Santa Monica Boulevard to Willoughby Avenue\nCitrus Avenue from Romaine Street to Willoughby Avenue\nWilloughby Avenue from Sycamore Avenue to Highland Avenue\nSouth side of Romaine Street from La Brea Avenue to Sycamore Avenue\nRomaine Street from Sycamore Avenue to Highland Avenue\nDIRECT the Los Angeles Department of Transportation (LADOT) to install metered parking directly in front of contiguous commercial properties in the expanded zone street segments listed above, upon City Council adoption of the expanded PMZ.\nFiscal Impact Statement:\nThe LADOT reports that there is no fiscal impact to the City’s General Fund. The Street Parking Revenue Fund (SPRF) will fund the cost of implementing and maintaining the expanded PMZ, estimated at an initial cost of $515,000 to install parking meter equipment and associated signs, stall markings, and red curb. The expanded boundary of the Santa Monica-Highland PMZ is estimated to generate approximately $1.6 million in annual gross revenue. The City may also generate additional General Fund revenue from the issuance of parking citations at the newly installed parking meters.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nReport from Board of Transportation Commissioners dated 9-23-25",
+          "council_file": "25-1188",
+          "district": "CD 13",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to amending the boundaries of the Santa Monica-Highland Parking Meter Zone (PMZ) in Council District 13.",
+          "recommendation": "REQUEST the City Attorney to prepare and present an ordinance amending Subsection 26(A) of Section 88.00 of the Los Angeles Municipal Code to expand the boundaries of the Santa Monica-Highland PMZ, to revise Line 3 and add Lines 9-15 as follows: Highland Avenue from Lexington Avenue to Willoughby Avenue Sycamore Avenue from Santa Monica Boulevard to Willoughby Avenue Orange Drive from Santa Monica Boulevard to Willoughby Avenue Mansfield Avenue from Santa Monica Boulevard to Willoughby Avenue Citrus Avenue from Romaine Street to Willoughby Avenue Willoughby Avenue from Sycamore Avenue to Highland Avenue South side of Romaine Street from La Brea Avenue to Sycamore Avenue Romaine Street from Sycamore Avenue to Highland Avenue DIRECT the Los Angeles Department of Transportation (LADOT) to install metered parking directly in front of contiguous commercial properties in the expanded zone street segments listed above, upon City Council adoption of the expanded PMZ. Fiscal Impact Statement: The LADOT reports that there is no fiscal impact to the City’s General Fund. The Street Parking Revenue Fund (SPRF) will fund the cost of implementing and maintaining the expanded PMZ, estimated at an initial cost of $515,000 to install parking meter equipment and associated signs, stall markings, and red curb. The expanded boundary of the Santa Monica-Highland PMZ is estimated to generate approximately $1.6 million in annual gross revenue. The City may also generate additional General Fund revenue from the issuance of parking citations at the newly installed parking meters. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Report from Board of Transportation Commissioners dated 9-23-25",
+          "video_location": "19725",
+          "mig": "4b7019c7-2be8-4e93-93fd-6c04d0b6b8de",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=1913faf8-6931-463c-a520-7101874eedfc"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1913faf8-6931-463c-a520-7101874eedfc"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=ddf5b5ab-bdee-43f1-a299-395e2445a704"
+            },
+            {
+              "text": "Report from Board of Transportation Commissioners dated 9-23-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ddf5b5ab-bdee-43f1-a299-395e2445a704"
+            }
+          ]
+        },
+        {
+          "item_id": "156209",
+          "item_number": "(28)",
+          "has_attachments": true,
+          "raw_text": "25-0008-S25\nCD 3\nTRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along a street segment of Shoup Avenue, in Council District Three.\nRecommendation for Council action, pursuant to Resolution (Blumenfield – Lee):\nRESOLVE to:\nPROHIBIT, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along the east side of Shoup Avenue, between Roscoe Boulevard and Strathern Street.\nDIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to:\nPost signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations.\nInitiate the necessary procedures for the preparation and sale of overnight parking permits, as specified in LAMC Section 80.69.4(c).\nAUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nResolution (Blumenfield - Lee) dated 9-16-25",
+          "council_file": "25-0008-S25",
+          "district": "CD 3",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along a street segment of Shoup Avenue, in Council District Three.",
+          "recommendation": "RESOLVE to: PROHIBIT, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along the east side of Shoup Avenue, between Roscoe Boulevard and Strathern Street. DIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to: Post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations. Initiate the necessary procedures for the preparation and sale of overnight parking permits, as specified in LAMC Section 80.69.4(c). AUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Resolution (Blumenfield - Lee) dated 9-16-25",
+          "video_location": "114286",
+          "mig": "c0a8f2ef-0d46-429b-8a7b-53d1b40c7bae",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=7048de4c-b64c-4e6b-b58d-4292d9f6239b"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7048de4c-b64c-4e6b-b58d-4292d9f6239b"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=fd19a623-340d-4e59-bc51-11dea58fe79f"
+            },
+            {
+              "text": "Resolution (Blumenfield - Lee) dated 9-16-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd19a623-340d-4e59-bc51-11dea58fe79f"
+            }
+          ]
+        },
+        {
+          "item_id": "156210",
+          "item_number": "(29)",
+          "has_attachments": true,
+          "raw_text": "25-0008-S26\nTRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along a street segment of Chase Street, in Council District Three.\nRecommendation for Council action, pursuant to Resolution (Blumenfield – Lee):\nRESOLVE to:\nPROHIBIT, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over seven (7) feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along both sides of Chase Street, between Winnetka Avenue and Corbin Avenue.\nDIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations.\nAUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nResolution (Blumenfield - Lee) dated 9-26-25",
+          "council_file": "25-0008-S26",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along a street segment of Chase Street, in Council District Three.",
+          "recommendation": "RESOLVE to: PROHIBIT, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over seven (7) feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along both sides of Chase Street, between Winnetka Avenue and Corbin Avenue. DIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations. AUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Resolution (Blumenfield - Lee) dated 9-26-25",
+          "video_location": "26867",
+          "mig": "1417fded-6e83-41ef-b453-0306d49f4459",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=be537072-7f9b-4d2a-bce3-8f8d0354c1d2"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=be537072-7f9b-4d2a-bce3-8f8d0354c1d2"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=06930e65-0751-45bc-a368-d5abd0975517"
+            },
+            {
+              "text": "Resolution (Blumenfield - Lee) dated 9-26-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06930e65-0751-45bc-a368-d5abd0975517"
+            }
+          ]
+        },
+        {
+          "item_id": "156208",
+          "item_number": "(30)",
+          "has_attachments": true,
+          "raw_text": "25-0008-S24\nCD 11\nTRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along certain street segments of Stoner Avenue, Imlay Avenue, and Lucerne Avenue, in Council District 11.\nSUBMITS WITHOUT RECOMMENDATION the Recommendation pursuant to Resolution (Park – Rodriguez):\nRESOLVE to:\nPROHIBIT, pursuant to Los Angeles Municipal Code Section 80.69.4, and California Vehicle Code Section 22507, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along both sides of the following street segments:\nStoner Avenue from Brookhaven Avenue to Sardis Avenue\nImlay Avenue from Culver Drive to Utopia Avenue\nLucerne Avenue from Sepulveda Boulevard to Beloit Avenue\nDIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations.\nAUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nResolution (Park - Rodriguez)  dated 9-05-25",
+          "council_file": "25-0008-S24",
+          "district": "CD 11",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along certain street segments of Stoner Avenue, Imlay Avenue, and Lucerne Avenue, in Council District 11.",
+          "recommendation": "RESOLVE to: PROHIBIT, pursuant to Los Angeles Municipal Code Section 80.69.4, and California Vehicle Code Section 22507, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along both sides of the following street segments: Stoner Avenue from Brookhaven Avenue to Sardis Avenue Imlay Avenue from Culver Drive to Utopia Avenue Lucerne Avenue from Sepulveda Boulevard to Beloit Avenue DIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations. AUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Resolution (Park - Rodriguez) dated 9-05-25",
+          "video_location": "26866",
+          "mig": "337051b6-87d9-4862-8ba5-c96d1711244e",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=350c5cda-519b-4bcc-8574-9e0d421d6de9"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=350c5cda-519b-4bcc-8574-9e0d421d6de9"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=9d28f4e5-b9d9-4564-b213-b7d12add28bc"
+            },
+            {
+              "text": "Resolution (Park - Rodriguez)  dated 9-05-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d28f4e5-b9d9-4564-b213-b7d12add28bc"
+            }
+          ]
+        },
+        {
+          "item_id": "156204",
+          "item_number": "(31)",
+          "has_attachments": true,
+          "raw_text": "20-1328-S1\nTRANSPORTATION COMMITTEE REPORT relative to assessing the Personal Delivery Devices (PDD) program and recommendations for improvement.\nRecommendation for Council action, pursuant to Motion (Hernandez – Soto-Martinez):\nINSTRUCT the Los Angeles Department of Transportation:\nTo report with an assessment of the PDD program and recommendations to improve the program, including but not limited to:\nEvaluation of the current permit structure, with recommendations for alternative or supplemental models such as per-trip fees, utilization fees, and a tiered advertising fee schedule.\nReview of deployment and operational practices. c. Analysis on the enforcement responsibilities, and recommendations on enforcement management.\nIn consultation with the City Attorney, to report on the feasibility of leveraging data collected by PDDs to utilize to support the City’s infrastructure data collection efforts.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nMotion (Hernandez - Soto-Martinez) dated 9-19-25",
+          "council_file": "20-1328-S1",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to assessing the Personal Delivery Devices (PDD) program and recommendations for improvement.",
+          "recommendation": "INSTRUCT the Los Angeles Department of Transportation: To report with an assessment of the PDD program and recommendations to improve the program, including but not limited to: Evaluation of the current permit structure, with recommendations for alternative or supplemental models such as per-trip fees, utilization fees, and a tiered advertising fee schedule. Review of deployment and operational practices. c. Analysis on the enforcement responsibilities, and recommendations on enforcement management. In consultation with the City Attorney, to report on the feasibility of leveraging data collected by PDDs to utilize to support the City’s infrastructure data collection efforts. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Motion (Hernandez - Soto-Martinez) dated 9-19-25",
+          "video_location": "19738",
+          "mig": "09f59855-b288-459b-be14-c16ee86015f4",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=0953e5a7-aa2b-4609-ac24-a94f88dc0f83"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0953e5a7-aa2b-4609-ac24-a94f88dc0f83"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=b191e270-f8e9-43d9-9667-c1eae53ab10c"
+            },
+            {
+              "text": "Motion (Hernandez - Soto-Martinez) dated 9-19-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b191e270-f8e9-43d9-9667-c1eae53ab10c"
+            }
+          ]
+        },
+        {
+          "item_id": "156205",
+          "item_number": "(32)",
+          "has_attachments": true,
+          "raw_text": "25-1077\nTRANSPORTATION COMMITTEE REPORT relative to allowing vehicles operated by delivery drivers to park temporarily in restricted parking areas.\nRecommendation for Council action, pursuant to Motion (Hutt – Lee):\nINSTRUCT the Los Angeles Department of Transportation to report on the feasibility, cost, revenue impact, and timeline for implementing a parking permit program that would allow vehicles operated by all delivery drivers to temporarily park in restricted parking areas.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nCommunication(s) from Public_10-07-2025\nCommunication(s) from Public_10-01-2025\nCommunication(s) from Public_09-15-2025\nMotion (Hutt - Lee) dated 9-12-25",
+          "council_file": "25-1077",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to allowing vehicles operated by delivery drivers to park temporarily in restricted parking areas.",
+          "recommendation": "INSTRUCT the Los Angeles Department of Transportation to report on the feasibility, cost, revenue impact, and timeline for implementing a parking permit program that would allow vehicles operated by all delivery drivers to temporarily park in restricted parking areas. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Communication(s) from Public_10-07-2025 Communication(s) from Public_10-01-2025 Communication(s) from Public_09-15-2025 Motion (Hutt - Lee) dated 9-12-25",
+          "video_location": "19738",
+          "mig": "c85d8999-9317-4964-8fb6-7fd905f0da28",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=657bc1fa-36b3-4e1f-a03f-762088cb6de9"
+            },
+            {
+              "text": "Report from Transportation Committee 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=657bc1fa-36b3-4e1f-a03f-762088cb6de9"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=5b8fe787-12de-4152-b2de-23c0b95fbe90"
+            },
+            {
+              "text": "Communication(s) from Public_10-07-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b8fe787-12de-4152-b2de-23c0b95fbe90"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=4b442766-d9b9-4c04-b9d6-d59a974dc36b"
+            },
+            {
+              "text": "Communication(s) from Public_10-01-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b442766-d9b9-4c04-b9d6-d59a974dc36b"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=257216c1-4e7d-43e7-aac5-52e63d7649db"
+            },
+            {
+              "text": "Communication(s) from Public_09-15-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=257216c1-4e7d-43e7-aac5-52e63d7649db"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=8e874209-6afc-4872-872e-b5ed1f2324df"
+            },
+            {
+              "text": "Motion (Hutt - Lee) dated 9-12-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e874209-6afc-4872-872e-b5ed1f2324df"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "357025",
+      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "items": [
+        {
+          "item_id": "156259",
+          "item_number": "(33)",
+          "has_attachments": true,
+          "raw_text": "25-0005-S139\nCD 15\nCOMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 837 West 165th Place (Case No. 811138 ), Assessor I.D. No. 6121-007-014, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 837 West 165th Place (Case No. 811138), Assessor I.D. No. 6121-007-014, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Los Angeles Housing Department dated 10-24-25",
+          "council_file": "25-0005-S139",
+          "district": "CD 15",
+          "title": "COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 837 West 165th Place (Case No. 811138 ), Assessor I.D. No. 6121-007-014, from the Rent Escrow Account Program (REAP).",
+          "recommendation": "APPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 837 West 165th Place (Case No. 811138), Assessor I.D. No. 6121-007-014, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-24-25",
+          "video_location": "19918",
+          "mig": "a534a2da-abab-483e-b949-1f15d2e206c9",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=501538b5-72af-44fa-a5e2-5536b5cda60b"
+            },
+            {
+              "text": "Report from Los Angeles Housing Department dated 10-24-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=501538b5-72af-44fa-a5e2-5536b5cda60b"
+            }
+          ]
+        },
+        {
+          "item_id": "156258",
+          "item_number": "(34)",
+          "has_attachments": true,
+          "raw_text": "25-0005-S140\nCD 11\nCOMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 2300 South Pisani Place (Case No. 573692 ), Assessor I.D. No. 4237-005-007, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 2300 South Pisani Place (Case No. 573692), Assessor I.D. No. 4237-005-007, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Los Angeles Housing Department dated 10-24-25",
+          "council_file": "25-0005-S140",
+          "district": "CD 11",
+          "title": "COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 2300 South Pisani Place (Case No. 573692 ), Assessor I.D. No. 4237-005-007, from the Rent Escrow Account Program (REAP).",
+          "recommendation": "APPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 2300 South Pisani Place (Case No. 573692), Assessor I.D. No. 4237-005-007, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-24-25",
+          "video_location": "19922",
+          "mig": "8be094de-2b43-42d0-b2d2-1854f0193302",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=65931514-1bed-46b0-8786-65a51d53b7aa"
+            },
+            {
+              "text": "Report from Los Angeles Housing Department dated 10-24-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65931514-1bed-46b0-8786-65a51d53b7aa"
+            }
+          ]
+        },
+        {
+          "item_id": "156257",
+          "item_number": "(35)",
+          "has_attachments": true,
+          "raw_text": "25-0005-S141\nCD 5\nCOMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 10520 West Eastborne Avenue(Case No. 858268 ), Assessor I.D. No. 4326-033-017, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 10520 West Eastborne Avenue(Case No. 858268), Assessor I.D. No. 4326-033-017, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Los Angeles Housing Department dated 10-24-25",
+          "council_file": "25-0005-S141",
+          "district": "CD 5",
+          "title": "COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 10520 West Eastborne Avenue(Case No. 858268 ), Assessor I.D. No. 4326-033-017, from the Rent Escrow Account Program (REAP).",
+          "recommendation": "APPROVE the LAHD report recommendation dated October 24, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 10520 West Eastborne Avenue(Case No. 858268), Assessor I.D. No. 4326-033-017, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-24-25",
+          "video_location": "19922",
+          "mig": "086e3133-cfaa-4fff-a973-bad7dd876a07",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=27873cd1-425a-4ae6-866e-dd06057f2991"
+            },
+            {
+              "text": "Report from Los Angeles Housing Department dated 10-24-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=27873cd1-425a-4ae6-866e-dd06057f2991"
+            }
+          ]
+        },
+        {
+          "item_id": "156325",
+          "item_number": "(36)",
+          "has_attachments": false,
+          "raw_text": "25-1286\nCD 15\nMOTION (McOSKER - HUTT) relative to a Subrecipient Agreement with Foothill Transit in order to “pass through” the Federal Transit Administration (FTA) grant funds and implement the Grand Lot Project in Council District 15.\nRecommendation with Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the Department of Transportation (DOT) to: Negotiate and execute a Subrecipient Agreement with Foothill Transit for the FTA Award (CA-2024-148) in the amount of $1,027,005 that was awarded to the City as the Designated Recipient for the development of a bus layover facility located at West 17th Street and South Grand Avenue (Grand Lot Project).\nAccept and deposit $1,027,005 in FTA grant funds from the FTA Award (CA-2024-148) into Proposition A Local Transit Fund No. 395/94 and appropriate therein to a new account, entitled “FTA Grant Foothill Transit Front Funds - Grand Lot Project”; and, authorize the DOT to utilize this account to front-fund grant-funded work by Foothill Transit, as the Subrecipient, for an amount up to $1,027,005.\nExecute a budget revision in the existing grant award with FTA (CA-2024-148) to reallocate the $2,289,993 from the East 16th Street and Maple Avenue lot improvement project to the Harbor City Zero Emission Bus Yard Development Project.\nMake any corrections, clarifications or revisions to the above instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections/clarifications changes may be made orally, electronically or by any other means.",
+          "council_file": "25-1286",
+          "district": "CD 15",
+          "title": "MOTION (McOSKER - HUTT) relative to a Subrecipient Agreement with Foothill Transit in order to “pass through” the Federal Transit Administration (FTA) grant funds and implement the Grand Lot Project in Council District 15.",
+          "recommendation": "AUTHORIZE the Department of Transportation (DOT) to: Negotiate and execute a Subrecipient Agreement with Foothill Transit for the FTA Award (CA-2024-148) in the amount of $1,027,005 that was awarded to the City as the Designated Recipient for the development of a bus layover facility located at West 17th Street and South Grand Avenue (Grand Lot Project). Accept and deposit $1,027,005 in FTA grant funds from the FTA Award (CA-2024-148) into Proposition A Local Transit Fund No. 395/94 and appropriate therein to a new account, entitled “FTA Grant Foothill Transit Front Funds - Grand Lot Project”; and, authorize the DOT to utilize this account to front-fund grant-funded work by Foothill Transit, as the Subrecipient, for an amount up to $1,027,005. Execute a budget revision in the existing grant award with FTA (CA-2024-148) to reallocate the $2,289,993 from the East 16th Street and Maple Avenue lot improvement project to the Harbor City Zero Emission Bus Yard Development Project. Make any corrections, clarifications or revisions to the above instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections/clarifications changes may be made orally, electronically or by any other means.",
+          "video_location": "19922",
+          "mig": "df36ac07-ff6f-4657-8420-4e395b08a175"
+        },
+        {
+          "item_id": "156327",
+          "item_number": "(37)",
+          "has_attachments": true,
+          "raw_text": "25-1287\nCD 12\nMOTION (LEE - BLUMENFIELD) relative to funding for additional police services within the Los Angeles Police Department (LAPD) Toganga Division in Council District (CD) 12.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER and APPROPRIATE $75,000 in the CD 12 line item General City Purposes Fund No. 100/56, Account No. 000A28, to the Police Fund No. 100/70, Account No. 1092 (Overtime - Police Officers), to be used for additional police services within Topanga Division, CD 12.\nAUTHORIZE the City Clerk and the LAPD to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means.\nMotion (Lee - Blumenfield) dated 10-29-25",
+          "council_file": "25-1287",
+          "district": "CD 12",
+          "title": "MOTION (LEE - BLUMENFIELD) relative to funding for additional police services within the Los Angeles Police Department (LAPD) Toganga Division in Council District (CD) 12.",
+          "recommendation": "TRANSFER and APPROPRIATE $75,000 in the CD 12 line item General City Purposes Fund No. 100/56, Account No. 000A28, to the Police Fund No. 100/70, Account No. 1092 (Overtime - Police Officers), to be used for additional police services within Topanga Division, CD 12. AUTHORIZE the City Clerk and the LAPD to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means. Motion (Lee - Blumenfield) dated 10-29-25",
+          "video_location": "21186",
+          "mig": "3c7a8fa4-eec2-4313-abd7-3fa42a58cb8a",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=0565ece3-027c-4af5-86a3-4315b144d2fa"
+            },
+            {
+              "text": "Motion (Lee - Blumenfield) dated 10-29-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0565ece3-027c-4af5-86a3-4315b144d2fa"
+            }
+          ]
+        },
+        {
+          "item_id": "156328",
+          "item_number": "(38)",
+          "has_attachments": true,
+          "raw_text": "25-1288\nCD 14\nMOTION (JURADO - PADILLA) relative to the acceptance of grant funds from the Los Angeles County Metropolitan Transportation Authority (Metro) for the 6th Street Viaduct Park, Arts, and River Connectivity (PARC) Street and Transit Improvements Project.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the Bureau of Engineering (BOE), to accept and deposit $2,000,000 in grant funds from the Metro into the Engineering Special Services Fund No. 682/50, and appropriate a like amount therein to a new account entitled “Sixth Street Viaduct - Park, Arts, and River Connectivity (PARC) Improvement Project - Street and Transit Improvements” for the construction of the 6th Street PARC Street and Transit Improvements.\nAUTHORIZE the BOE, with the assistance from the City Administrative Officer and Department of Public Works, Office of Accounting, to utilize Municipal Improvement Corporation of Los Angeles (MICLA) Fund No. 298/50, Account No. 50CPKM [Sixth Street Park, Arts, and River Connectivity (PARC) Improvement Project], approved in the 2025-26 Adopted Budget, to front-fund grant-funded work for an amount up to $2,000,000.\nAUTHORIZE the BOE to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means.\nMotion (Jurado - Padilla) dated 10-29-25",
+          "council_file": "25-1288",
+          "district": "CD 14",
+          "title": "MOTION (JURADO - PADILLA) relative to the acceptance of grant funds from the Los Angeles County Metropolitan Transportation Authority (Metro) for the 6th Street Viaduct Park, Arts, and River Connectivity (PARC) Street and Transit Improvements Project.",
+          "recommendation": "AUTHORIZE the Bureau of Engineering (BOE), to accept and deposit $2,000,000 in grant funds from the Metro into the Engineering Special Services Fund No. 682/50, and appropriate a like amount therein to a new account entitled “Sixth Street Viaduct - Park, Arts, and River Connectivity (PARC) Improvement Project - Street and Transit Improvements” for the construction of the 6th Street PARC Street and Transit Improvements. AUTHORIZE the BOE, with the assistance from the City Administrative Officer and Department of Public Works, Office of Accounting, to utilize Municipal Improvement Corporation of Los Angeles (MICLA) Fund No. 298/50, Account No. 50CPKM [Sixth Street Park, Arts, and River Connectivity (PARC) Improvement Project], approved in the 2025-26 Adopted Budget, to front-fund grant-funded work for an amount up to $2,000,000. AUTHORIZE the BOE to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically, or by any other means. Motion (Jurado - Padilla) dated 10-29-25",
+          "video_location": "19925",
+          "mig": "dac362b1-a9cf-4ac3-9715-c863c2cdf417",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=39aba558-6e4c-454f-927d-ada39179b928"
+            },
+            {
+              "text": "Motion (Jurado - Padilla) dated 10-29-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39aba558-6e4c-454f-927d-ada39179b928"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "357026",
+      "title": "Items Called Special",
+      "items": []
+    },
+    {
+      "section_id": "357027",
+      "title": "Motions for Posting and Referral",
+      "items": []
+    },
+    {
+      "section_id": "357028",
+      "title": "Council Members' Requests for Excuse from Attendance at Council Meetings",
+      "items": []
+    },
+    {
+      "section_id": "357033",
+      "title": "Closed Session",
+      "items": [
+        {
+          "item_id": "156260",
+          "item_number": "(39)",
+          "has_attachments": true,
+          "raw_text": "25-1263\nThe City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nBlack Lives Matter - Los Angeles, et al. v. City of Los Angeles, et al.\n, United States District Court Case No. 2:20-cv-05027-CBM-AS. (This matter arises from incidents involving members of the Los Angeles Police Department that occurred from May 29, 2020 through June 2, 2020.)\n(Public Safety Committee waived consideration of the above matter.)",
+          "council_file": "25-1263",
+          "title": "The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "video_location": "22106",
+          "mig": "b31121bb-cfdf-42ff-a1d2-42d2ac1fbc19"
+        },
+        {
+          "item_id": "156261",
+          "item_number": "(40)",
+          "has_attachments": true,
+          "raw_text": "25-1223\nThe City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nLos Angeles Press Club, et al. v. City of Los Angeles, et al.\n, United States District Court Case No. 2:25-cv-05423-HDV-E, Ninth Circuit Case No. 25-6331. (This matter arises from various incidents involving members of the Los Angeles Police Department, during the spring and summer of 2025, in Los Angeles, California.)\nCommunity Impact Statement:\nYes\nFor: Central Hollywood Neighborhood Council\nCommunity Impact Statement submitted by Central Hollywood Neighborhood Council_10-29-2025\nCouncil Action dated 10-17-25\nMotion (Hernandez - Soto-Martinez, et al.) dated 10-17-25\nReport from City Attorney dated 10-22-25",
+          "council_file": "25-1223",
+          "title": "The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "video_location": "22239",
+          "mig": "92e52f1b-7688-42b4-b61e-aaf9e5996e56",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=3cb44075-3b92-4218-89f6-de13adaaba46"
+            },
+            {
+              "text": "Community Impact Statement submitted by Central Hollywood Neighborhood Council_10-29-2025",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cb44075-3b92-4218-89f6-de13adaaba46"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=bd620ae5-780a-4a90-b976-997ce4f2b6a6"
+            },
+            {
+              "text": "Council Action dated 10-17-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd620ae5-780a-4a90-b976-997ce4f2b6a6"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=d379bbe8-6f9b-4d1e-8f16-0a028012b605"
+            },
+            {
+              "text": "Motion (Hernandez - Soto-Martinez, et al.) dated 10-17-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d379bbe8-6f9b-4d1e-8f16-0a028012b605"
+            },
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=db6b3993-ba84-4045-9fcf-fee95520d282"
+            },
+            {
+              "text": "Report from City Attorney dated 10-22-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db6b3993-ba84-4045-9fcf-fee95520d282"
+            }
+          ]
+        },
+        {
+          "item_id": "156417",
+          "item_number": "(41)",
+          "has_attachments": true,
+          "raw_text": "25-1236\nThe City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nKristin Wright, et al. v. City of Los Angeles, et al.\n, Los Angeles Superior Court Case No. 23STCV19436. (This matter arises from a serious dog bite incident at the residence of plaintiffs Kristen Wright and Hoyt Hart that occurred on August 15, 2022, just after they adopted the dog from the South Los Angeles Animal Shelter.)\n(The Budget and Finance Committee will consider the above matter in closed session on November 4, 2025.)\nReport from City Attorney dated 10-17-25",
+          "council_file": "25-1236",
+          "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "video_location": "26751",
+          "mig": "e548cbe1-65dc-4d8c-8047-0c5a79615f46",
+          "attachments": [
+            {
+              "text": "Attachment",
+              "url": "/viewer/preview?id=0&type=8&uid=c27ea9ae-fe0d-44c0-9352-ae1e822cd6c6"
+            },
+            {
+              "text": "Report from City Attorney dated 10-17-25",
+              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c27ea9ae-fe0d-44c0-9352-ae1e822cd6c6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "357030",
+      "title": "Adjourning Motions",
+      "items": []
+    },
+    {
+      "section_id": "357029",
+      "title": "Council Adjournment",
+      "items": []
+    }
+  ],
+  "total_items": 41,
+  "total_sections": 14
+}

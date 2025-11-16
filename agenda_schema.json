@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LA City Council Meeting Agenda",
+  "description": "Structured representation of an LA City Council meeting agenda parsed from HTML",
+  "type": "object",
+  "required": ["meeting_id", "template_id", "parsed_at", "sections"],
+  "properties": {
+    "meeting_id": {
+      "type": "integer",
+      "description": "PrimeGov meeting ID"
+    },
+    "template_id": {
+      "type": "integer",
+      "description": "Template ID used to fetch the agenda HTML"
+    },
+    "meeting_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the meeting (YYYY-MM-DD)"
+    },
+    "meeting_title": {
+      "type": "string",
+      "description": "Full title of the meeting"
+    },
+    "parsed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when this agenda was parsed"
+    },
+    "portal_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the original portal page"
+    },
+    "sections": {
+      "type": "array",
+      "description": "Ordered list of agenda sections",
+      "items": {
+        "type": "object",
+        "required": ["section_id", "title", "items"],
+        "properties": {
+          "section_id": {
+            "type": "string",
+            "description": "Unique section identifier from data-sectionid"
+          },
+          "title": {
+            "type": "string",
+            "description": "Section header/title"
+          },
+          "items": {
+            "type": "array",
+            "description": "Agenda items within this section",
+            "items": {
+              "type": "object",
+              "required": ["item_id", "item_number"],
+              "properties": {
+                "item_id": {
+                  "type": "string",
+                  "description": "Unique item identifier from data-itemid"
+                },
+                "item_number": {
+                  "type": "string",
+                  "description": "Display number like '(1)' or '(2)'"
+                },
+                "council_file": {
+                  "type": "string",
+                  "description": "Council file number (e.g., '25-0160-S93')",
+                  "pattern": "^\\d{2}-\\d{4}"
+                },
+                "district": {
+                  "type": "string",
+                  "description": "Council District (e.g., 'CD 10')",
+                  "pattern": "^CD \\d+"
+                },
+                "title": {
+                  "type": "string",
+                  "description": "Main title/subject of the agenda item"
+                },
+                "recommendation": {
+                  "type": "string",
+                  "description": "Full recommendation text for council action"
+                },
+                "has_attachments": {
+                  "type": "boolean",
+                  "description": "Whether this item has attachments"
+                },
+                "video_location": {
+                  "type": "string",
+                  "description": "Video timestamp/location identifier"
+                },
+                "mig": {
+                  "type": "string",
+                  "description": "Migration identifier (data-mig attribute)"
+                },
+                "raw_text": {
+                  "type": "string",
+                  "description": "Full raw text content of the item"
+                },
+                "attachments": {
+                  "type": "array",
+                  "description": "List of attachments/links",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "description": "Link text"
+                      },
+                      "url": {
+                        "type": "string",
+                        "description": "Relative or absolute URL"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "total_items": {
+      "type": "integer",
+      "description": "Total count of agenda items across all sections"
+    },
+    "total_sections": {
+      "type": "integer",
+      "description": "Total count of sections"
+    }
+  }
+}

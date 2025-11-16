@@ -88,9 +88,32 @@ class LACouncilScraper:
         print(f"⚠️  Couldn't fetch details for meeting {meeting_id}")
         return {}
 
-    def get_document_url(self, meeting: Dict, doc_type: str = "HTML Agenda") -> str:
-        """Extract document URL from meeting data."""
+    def get_agenda_portal_url(self, meeting: Dict) -> str:
+        """
+        Get the portal URL for the HTML agenda.
 
+        Uses templateId (not document id) to construct working portal URLs.
+        This is the correct way to access agendas - DownloadFile URLs return 404.
+        """
+        doc_list = meeting.get('documentList', [])
+
+        # Find HTML Agenda document
+        html_agenda = next((d for d in doc_list if d.get('templateName') == 'HTML Agenda'), None)
+
+        if html_agenda:
+            template_id = html_agenda.get('templateId')
+            if template_id:
+                return f"{self.BASE_URL}/Portal/Meeting?meetingTemplateId={template_id}"
+
+        return None
+
+    def get_document_url(self, meeting: Dict, doc_type: str = "HTML Agenda") -> str:
+        """
+        DEPRECATED: DownloadFile URLs return 404.
+        Use get_agenda_portal_url() instead.
+
+        Extract document URL from meeting data.
+        """
         doc_list = meeting.get('documentList', [])
 
         # Try to find HTML agenda first (easier to parse than PDF)
@@ -149,7 +172,7 @@ class LACouncilScraper:
         time = meeting.get('time', 'Unknown Time')
         meeting_id = meeting.get('id')
         video_url = self.get_youtube_url(meeting)
-        doc_url = self.get_document_url(meeting)
+        portal_url = self.get_agenda_portal_url(meeting)
 
         summary = f"""# {title}
 **Date:** {date}
@@ -161,8 +184,8 @@ class LACouncilScraper:
         if video_url:
             summary += f"**Video:** {video_url}\n\n"
 
-        if doc_url:
-            summary += f"**Agenda:** {doc_url}\n\n"
+        if portal_url:
+            summary += f"**Agenda:** {portal_url}\n\n"
 
         # List available documents
         doc_list = meeting.get('documentList', [])
@@ -201,9 +224,9 @@ def main():
         # Try to get agenda content for first meeting
         if i == 1:
             print("\n🔍 Trying to fetch agenda content...\n")
-            doc_url = scraper.get_document_url(meeting)
-            if doc_url:
-                content = scraper.fetch_document_content(doc_url)
+            portal_url = scraper.get_agenda_portal_url(meeting)
+            if portal_url:
+                content = scraper.fetch_document_content(portal_url)
                 if content:
                     # Save to file
                     filename = f"meeting_{meeting['id']}_agenda.html"

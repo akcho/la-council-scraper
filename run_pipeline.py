@@ -24,18 +24,24 @@ def run_command(cmd, description):
 
 def cleanup_generated_files():
     """
-    Clean up generated files after successful pipeline run.
-    These files are posted to Reddit, so we don't need local copies.
+    Clean up temporary files after successful pipeline run.
+
+    Keeps:
+    - data/agendas/*.json (parsed agenda data - permanent)
+
+    Deletes:
+    - Temporary meeting files (transcripts, summaries, etc.)
+    - API response cache (recent_meetings.json)
     """
     print(f"\n{'='*60}")
-    print("🧹 Cleaning up generated files")
+    print("🧹 Cleaning up temporary files")
     print(f"{'='*60}\n")
 
     patterns = [
         'meeting_*_transcript.txt',
         'meeting_*_summary.txt',
         'meeting_*_reddit_comment.md',
-        'meeting_*_agenda.html',
+        'meeting_*_agenda.html',  # Raw HTML (we keep parsed JSON instead)
         'transcript.en.vtt',  # Temporary VTT file from yt-dlp
         'recent_meetings.json'  # API data used to pass between pipeline steps
     ]
@@ -51,9 +57,10 @@ def cleanup_generated_files():
                 print(f"   ⚠️  Could not delete {filepath}: {e}")
 
     if files_deleted > 0:
-        print(f"\n✅ Cleaned up {files_deleted} file(s)")
+        print(f"\n✅ Cleaned up {files_deleted} temporary file(s)")
+        print(f"📁 Parsed agendas preserved in data/agendas/")
     else:
-        print("   No generated files found to clean up")
+        print("   No temporary files found to clean up")
 
     print()
 
@@ -68,19 +75,25 @@ def main():
     # Step 1: Fetch latest meetings
     run_command(
         "python fetch_meetings.py",
-        "Step 1/3: Fetching latest City Council meetings"
+        "Step 1/4: Fetching latest City Council meetings"
     )
 
-    # Step 2: Get transcript for most recent meeting
+    # Step 2: Parse agendas into structured JSON
+    run_command(
+        "python parse_agendas.py",
+        "Step 2/4: Parsing meeting agendas"
+    )
+
+    # Step 3: Get transcript for most recent meeting
     run_command(
         "python get_transcripts.py",
-        "Step 2/3: Downloading YouTube transcript"
+        "Step 3/4: Downloading YouTube transcript"
     )
 
-    # Step 3: Generate AI summary
+    # Step 4: Generate AI summary
     run_command(
         "python summarize_meeting.py",
-        "Step 3/3: Generating AI summary"
+        "Step 4/4: Generating AI summary"
     )
 
     print("\n" + "=" * 60)

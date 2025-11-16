@@ -11,19 +11,23 @@ Session-to-session reference for development. Updated incrementally as we discov
 
 ## Current Focus (Updated: 2025-11-15)
 
-**✅ Completed:**
-- Fixed agenda access (PrimeGov API download URLs were broken/404)
-- Found working solution: Portal page URLs with templateId
-- Validated structure: Agendas are parseable HTML with `data-itemid` attributes
+**✅ Week 1 MVP - COMPLETED:**
+1. ✅ Defined JSON schema for agenda items ([agenda_schema.json](../agenda_schema.json))
+2. ✅ Built agenda parser: HTML → structured JSON ([parse_agenda.py](../parse_agenda.py))
+3. ✅ Tested parser with 7 meetings (17432, 17283, 17406, 17407, 17367, 17455, 17477)
+4. ✅ Updated `fetch_meetings.py` with `get_agenda_portal_url()` method
+5. ✅ Integrated parser into pipeline ([parse_agendas.py](../parse_agendas.py))
+6. ✅ Updated `run_pipeline.py` to include agenda parsing step
+7. ✅ Stored 7 parsed agendas in `data/agendas/` (550KB total, JSON format)
 
-**🚧 Next Steps (Week 1 MVP):**
-1. Define JSON schema for agenda items
-2. Build agenda parser: HTML portal page → structured JSON
-3. Test parser with 3 meetings: 17432, 17283, 17406
-4. Update `fetch_meetings.py` to use portal URLs
-5. Integrate parser into pipeline
+**🚧 Next Steps (Week 2 MVP):**
+1. Create mobile-first HTML template for meeting pages
+2. Build static page generator (JSON → HTML)
+3. Add analytics (Plausible/Umami)
+4. Deploy to hosting (GitHub Pages/Netlify/Vercel)
+5. Add link to next Reddit comment
 
-**Goal:** Complete Week 1 from WEBSITE_PLANNING.md - have parseable agenda JSON for recent meetings.
+**Goal:** Deploy first meeting page and validate CTR from Reddit.
 
 ---
 
@@ -165,6 +169,38 @@ if response.status_code == 200:
     soup = BeautifulSoup(response.text, 'html.parser')
     items = soup.find_all(attrs={'data-itemid': True})
 ```
+
+### Agenda Parsing Workflow (2025-11-15)
+
+**Full pipeline now includes agenda parsing:**
+```bash
+python run_pipeline.py
+# Step 1: Fetch meetings → recent_meetings.json
+# Step 2: Parse agendas → data/agendas/agenda_{meeting_id}.json
+# Step 3: Get transcripts
+# Step 4: Generate summaries
+```
+
+**Standalone agenda parsing:**
+```bash
+python parse_agendas.py
+# Reads: recent_meetings.json
+# Outputs: data/agendas/agenda_{meeting_id}.json
+# Skips: Already-parsed meetings
+```
+
+**Parse single agenda:**
+```bash
+python parse_agenda.py <html_file> <meeting_id> <template_id> [output_file]
+# Example:
+python parse_agenda.py meeting.html 17432 147181 agenda.json
+```
+
+**JSON Schema:**
+- Schema: `agenda_schema.json`
+- Structure: meeting → sections → items
+- Each item: council_file, district, title, recommendation, attachments
+- Stored permanently in `data/agendas/` (not deleted by cleanup)
 
 ---
 
