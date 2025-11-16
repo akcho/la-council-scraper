@@ -98,18 +98,37 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
         raise
 
 
-def format_summary_for_reddit(meeting_info: dict, summary: str) -> str:
+def format_summary_for_reddit(meeting_info: dict, summary: str, site_url: str = None) -> str:
     """Format the summary as a Reddit comment for daily discussion thread."""
 
     title = meeting_info.get('title', 'LA City Council Meeting')
     date = meeting_info.get('date', 'Unknown Date')
     video_url = meeting_info.get('videoUrl', '')
+    meeting_id = meeting_info.get('id', '')
+
+    # Build links section
+    links = []
+
+    # Add meeting page link if site_url is configured
+    if site_url and meeting_id:
+        meeting_page_url = f"{site_url}/meetings/{meeting_id}.html"
+        links.append(f"📋 [View Details]({meeting_page_url})")
+
+    # Add video link
+    if video_url:
+        links.append(f"📺 [Watch Meeting]({video_url})")
+
+    # Add official agenda link
+    if meeting_id:
+        links.append(f"📄 [Official Agenda](https://lacity.primegov.com/Portal/Meeting?meetingTemplateId={meeting_id})")
+
+    links_text = " | ".join(links)
 
     comment = f"""**{title} - {date}**
 
 {summary}
 
-📺 [Watch Meeting]({video_url}) | 📄 [View Agenda](https://lacity.primegov.com/Portal/Meeting?meetingTemplateId={meeting_info['id']})
+{links_text}
 
 ---
 *AI-generated summary to help LA residents stay informed. Feedback welcome!*"""
@@ -133,6 +152,17 @@ def main():
         print("  export ANTHROPIC_API_KEY='your-key-here'")
         print("\nGet an API key at: https://console.anthropic.com/")
         return
+
+    # Load site config to get site URL
+    site_url = None
+    try:
+        with open('site_config.json', 'r') as f:
+            config = json.load(f)
+            site_url = config.get('site_url', '')
+            if site_url:
+                print(f"📍 Site URL: {site_url}\n")
+    except FileNotFoundError:
+        print("ℹ️  No site_config.json found (meeting page link will be omitted)\n")
 
     # Load meeting data
     try:
@@ -186,7 +216,7 @@ def main():
     print("\n" + "=" * 60)
 
     # Format for Reddit daily discussion comment
-    reddit_comment = format_summary_for_reddit(meeting, summary)
+    reddit_comment = format_summary_for_reddit(meeting, summary, site_url)
 
     # Save both
     summary_file = f"meeting_{meeting_id}_summary.txt"
