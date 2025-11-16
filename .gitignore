@@ -15,12 +15,17 @@ env/
 *.txt
 !requirements.txt
 *.html
+!site/index.html
+!site/meetings/*.html
+!templates/*.html
 *.vtt
 *.json
 !agenda_schema.json
+!site_config.json
 !data/agendas/*.json
 *.md
 !README.md
+!DEPLOYMENT.md
 !.env.example
 !.claude/claude_prompt.md
 !docs/TECHNICAL_NOTES.md

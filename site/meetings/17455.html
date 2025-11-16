@@ -1,0 +1,2815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Council Meeting 17455 - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for City Council Meeting 17455">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .meeting-meta {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .meeting-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        .meeting-links a {
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border: 1px solid #0066cc;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .meeting-links a:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .item-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: box-shadow 0.2s;
+        }
+
+        .item-card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .item-header {
+            display: flex;
+            gap: 0.5rem;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .item-number {
+            font-weight: 600;
+            color: #0066cc;
+            font-size: 0.875rem;
+        }
+
+        .item-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-radius: 4px;
+            background: #f0f0f0;
+            color: #666;
+        }
+
+        .tag.council-file {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .tag.district {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .item-title {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+            line-height: 1.5;
+        }
+
+        .item-recommendation {
+            font-size: 0.875rem;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
+        }
+
+        .item-attachments {
+            margin-top: 0.75rem;
+        }
+
+        .item-attachments summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .item-attachments summary:hover {
+            text-decoration: underline;
+        }
+
+        .attachment-list {
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+
+        .attachment-list a {
+            display: block;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0.25rem 0;
+        }
+
+        .attachment-list a:hover {
+            text-decoration: underline;
+        }
+
+        .empty-section {
+            font-size: 0.875rem;
+            color: #999;
+            font-style: italic;
+            padding: 0.5rem 0.75rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .meeting-meta {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .item-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>City Council Meeting 17455</h1>
+            <div class="meeting-meta">
+                <div>October 29, 2025 at 10:00 AM</div>
+                <div>Meeting ID: 17455</div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147426" target="_blank" rel="noopener">View Official Agenda</a>
+                
+                <a href="https://youtube.com/watch?v=DOToW8i10KE" target="_blank" rel="noopener">Watch Video</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="section">
+            <h2 class="section-title">Roll Call</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Approval of the Minutes</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Commendatory Resolutions, Introductions and Presentations</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Multiple Agenda Item Comment</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Public Testimony of Non-agenda Items Within Jurisdiction of Council</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items for which Public Hearings Have Been Held</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(1)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0782</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">GOVERNMENT OPERATIONS COMMITTEE REPORT relative to an application by PS Southern California One, LLC for a franchise renewal and transfer.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the franchise renewal and transfer application request from PS Southern California One, LLC as detailed in the July 15, 2025 Information Technology Agency (ITA) report, attached to the Council file. REQUEST the City Attorney to prepare and present an Ordinance to effectuate said franchise renewal and transfer for a ten-year term as detailed in the July 15, 2025 ITA report, attached to the Council file. Fiscal Impact Statement: The ITA reports that approval of the renewal of this IT System franchise will generate $2,500 in application fees and $450 in annual franchise fees over the next ten years for a total of $4,500 during the ten-year term of the franchise. Community Impact Statement: None submitted. Government Operations Committee Report 10-21-25 Report from Information Technology Agency dated 7-15-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2fc932b0-c4eb-48e6-82a9-89bc47f75516"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156034">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fc932b0-c4eb-48e6-82a9-89bc47f75516"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156034">
+                                Government Operations Committee Report 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1c27bd83-3bd0-4bf5-a641-135c0a0174fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156034">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c27bd83-3bd0-4bf5-a641-135c0a0174fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156034">
+                                Report from Information Technology Agency dated 7-15-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(2)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1124</span>
+                            
+                            
+                            <span class="tag district">CD 13</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">GOVERNMENT OPERATIONS COMMITTEE REPORT relative to the acquisition of the properties located at 1017 and 1023 North Heliotrope Drive (APN: 5538-019-024) and 1027 North Heliotrope Drive (APN: 5538-019-023) in Council District 13.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">INSTRUCT the General Services Department (GSD) to initiate and complete a title search and property appraisal for the parcels located at 1017, 1023, and 1027 Heliotrope Drive, including any necessary review documentation, for no more than $10,000. AUTHORIZE the transfer of up to $10,000 from Council District 13 Public Benefits Trust Fund No. 904 - Affordable Housing sub-account (Appr No. 14V313) to the GSD Fund No. 100/40, Account No. 003040, Contractual Services, to cover the cost of the appraisal, title report, and related due diligence activities. Fiscal Impact Statement: Neither the CIty Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Government Operations Committee Report 10-21-25 Motion (Soto-Martinez- Hernandez) dated 9-26-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b59476bc-8ea5-4c15-8d97-94e0ffc46d07"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156035">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b59476bc-8ea5-4c15-8d97-94e0ffc46d07"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156035">
+                                Government Operations Committee Report 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6c333ac7-798d-4ff3-b3d5-bb2bb632e5a4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156035">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c333ac7-798d-4ff3-b3d5-bb2bb632e5a4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156035">
+                                Motion (Soto-Martinez- Hernandez) dated 9-26-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(3)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1154</span>
+                            
+                            
+                            <span class="tag district">CD 15</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">GOVERNMENT OPERATIONS COMMITTEE REPORT relative to grant of a use rights agreement to the Los Angeles Neighborhood Land Trust (LANLT) for access to the necessary areas at the Watts Towers Arts Center Campus in connection with the Watts Tower Arts Center Campus Project.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">AUTHORIZE the General Services Department and Department of Recreation and Parks to grant, upon completion of the Bureau of Engineering’s review and approval, an appropriate use rights agreement to LANLT for access to the necessary areas at the Watts Towers Arts Center Campus to perform work needed for the development of the site in connection with the Watts Tower Arts Center Campus Project. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Government Operations Committee Report 10-21-25 Motion (McOsker - Hutt) dated 10-03-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8a9e1d2c-d6f1-4839-aeb6-84aacc1206ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156036">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a9e1d2c-d6f1-4839-aeb6-84aacc1206ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156036">
+                                Government Operations Committee Report 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=be2acb5f-f9a5-4df6-85fd-2faaddafa863"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156036">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=be2acb5f-f9a5-4df6-85fd-2faaddafa863"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156036">
+                                Motion (McOsker - Hutt) dated 10-03-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(4)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0366</span>
+                            
+                            
+                            <span class="tag district">CD 7</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">GOVERNMENT EFFICIENCY, INNOVATION, AND AUDITS COMMITTEE REPORT relative to funding from the Innovation Fund (IF) for the Bureau of Street Lighting (BSL) – 3D Printing for the Public Right-of-Way Project.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">NOTE AND FILE the City Administrative Officer (CAO) report dated April 8, 2025, attached to the Council file, relative to funding from the IF for the BSL – 3D Printing for the Public Right-of-Way Project. AUTHORIZE the following: The establishment and appropriation of a new appropriation account entitled BSL – 3D Printing for the Public Right-of-Way, in the amount of $150,000, within the IF No. 105/10, from the available cash balance of the IF. The transfer of $150,000 from the IF No. 105/10, BSL – 3D Printing for the Public Right-of-Way, to Fund No. 100/84 as follows: Fund No. 100/84; Revenue Account No. 008780; Account Name: Street Lighting Improvement and Supplies; Amount: $150,000. INSTRUCT the BSL to: Separately track all encumbrances and expenditures of IF monies so that unspent funds can be returned to the IF at the end of the fiscal year. Report to the Innovation and Performance Commission (IPC): With an accounting of the funds, the lessons learned, and any obstacles faced. If, after the receipt of funds, the scope of the funded item differs from the scope approved for funding by the Mayor and the City Council. Include acknowledgment of the IPC on public materials, as appropriate, such as press releases or websites that reference the 3D Printing for the Public Right-of-Way project. AUTHORIZE the BSL to make technical corrections as necessary to those transactions included in this report to implement Mayor and Council intentions. Fiscal Impact Statement: The CAO reports that the recommendation to note and file this report will have no financial impact. If the Council approves an allocation of $150,000 to the BSL – 3D Printing for the Public Right-of-Way project, it would reduce the remaining IF Balance, which is currently $2,768,922.75. Savings from the IF Balance may be used to address the current city-wide financial crisis and the overspending in the 2024-25 Fiscal Year. Additionally, funding this program may incur unfunded and ongoing costs. Financial Policies Statement: The CAO also reports that the recommendation in this report complies with the City’s Financial Policies. Community Impact Statement: None submitted. Report from Government Efficiency, Innovation, and Audits Committee 10-17-25 Communication from CD 7 10-17-25 - Recommendations Report from City Administrative Officer dated 4-08-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (6)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9e3c402a-c229-4956-808c-dd7407859bda"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e3c402a-c229-4956-808c-dd7407859bda"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Report from Government Efficiency, Innovation, and Audits Committee 10-17-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=af44952f-6854-4328-847c-356906dc291a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af44952f-6854-4328-847c-356906dc291a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Communication from CD 7 10-17-25 - Recommendations
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=479a98cf-da4e-4d8c-aaca-88f2df5850b8"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=479a98cf-da4e-4d8c-aaca-88f2df5850b8"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156038">
+                                Report from City Administrative Officer dated 4-08-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(5)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0987</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">CATEGORICAL EXEMPTION, AND RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS, PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT, and RESOLUTION relative to a General Plan Amendment to the Safety Element to incorporate the most current Local Hazard Mitigation Plan.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">DETERMINE based on the whole of the administrative record, that the Project is exempt from CEQA pursuant to Public Resources Code Section 21080(b)(1) and CEQA Guidelines Section 15308 (Class 8) and there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines Section 15378(b)(5), the Project is not a “project” as defined by CEQA. ADOPT the FINDINGS of the Los Angeles City Planning Commission (LACPC) as the Findings of Council. ADOPT the accompanying RESOLUTION, as recommended by the Mayor and the LACPC, approving the General Plan Amendment to the Safety Element to incorporate the most current Local Hazard Mitigation Plan, pursuant to City Charter Section 555 and Chapter 1A, Section 13B.1.1 of the Los Angeles Municipal Code. Applicant: City of Los Angeles Case No. CPC-2025-2903-GPA Environmental No. ENV-2025-2904-CE Related Case No. CPC-2021-5499-GPA Fiscal Impact Statement: The LACPC reports that there is no General Fund impact as administrative costs are recovered through fees. Community Impact Statement: None submitted TIME LIMIT FILE - NOVEMBER 5, 2025 (LAST DAY FOR COUNCIL ACTION - NOVEMBER 5, 2025) Report from Planning and Land Use Management Committee_10-14-25 Communication from Department of City Planning dated 9-03-25 - Supplemental Transmittal Attachment to Communication dated 9-03-25 - Staff Report Mayoral Transmittal for the Los Angeles City Planning Commission Report dated 7-23-25 Report from Los Angeles City Planning Commission dated 7-23-25 Attachment to Report Dated 07-23-25 - Staff Recommendation Report Attachment to Report Dated 07-23-25 - Draft Safety Element Attachment to Report Dated 07-23-25 - Environmental Clearance Attachment to Report Dated 07-23-25 - FEMA Approval Letter Attachment to Report Dated 07-23-25 - Findings Attachment to Report Dated 07-23-25 - Resolution Attachment to Report Dated 07-23-25 - Local Hazard Mitigation Plan Attachment to Report Dated 07-23-25 - Mailing List</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (26)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b2670e17-64a0-400c-8de9-a4d19f48aa75"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2670e17-64a0-400c-8de9-a4d19f48aa75"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Report from Planning and Land Use Management Committee_10-14-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f37b8b27-95f6-423e-a94b-fbef568aa6d6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f37b8b27-95f6-423e-a94b-fbef568aa6d6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Communication from Department of City Planning dated 9-03-25 - Supplemental Transmittal
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6fe9b7b8-9d79-46c3-9108-81bbf53dfdaf"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fe9b7b8-9d79-46c3-9108-81bbf53dfdaf"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Communication dated 9-03-25 - Staff Report
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2050bf2c-76fa-4e3f-9817-62fd3e91ab87"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2050bf2c-76fa-4e3f-9817-62fd3e91ab87"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Mayoral Transmittal for the Los Angeles City Planning Commission Report dated 7-23-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a1b8dd43-a211-4c4e-9772-7a7bcdea57e4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1b8dd43-a211-4c4e-9772-7a7bcdea57e4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Report from Los Angeles City Planning Commission dated 7-23-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6f08e8ef-e40d-471b-97c9-936f2a192a0a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f08e8ef-e40d-471b-97c9-936f2a192a0a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Staff Recommendation Report
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b79656be-7bee-4855-a2b2-ac448097659f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b79656be-7bee-4855-a2b2-ac448097659f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Draft Safety Element
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d0e12934-1ce9-418e-af70-574bdeaf8a3d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0e12934-1ce9-418e-af70-574bdeaf8a3d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Environmental Clearance
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8bfd8f9f-ee0b-439a-912c-58cbe32801ab"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8bfd8f9f-ee0b-439a-912c-58cbe32801ab"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - FEMA Approval Letter
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=384fa11f-c765-4dc2-b8e3-de819f67f2dd"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=384fa11f-c765-4dc2-b8e3-de819f67f2dd"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Findings
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d508608a-de96-4faf-8293-71f4cac1d39f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d508608a-de96-4faf-8293-71f4cac1d39f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Resolution
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0755f159-be75-4479-967b-1bc08dabcc62"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0755f159-be75-4479-967b-1bc08dabcc62"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Local Hazard Mitigation Plan
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4ef1d5e1-3598-48c7-b7d1-2551b723f569"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ef1d5e1-3598-48c7-b7d1-2551b723f569"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156006">
+                                Attachment to Report Dated 07-23-25 - Mailing List
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(6)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1146</span>
+                            
+                            
+                            <span class="tag district">CD 15</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to requesting an ordinance to make it a trespass to leave designated trails, walkways, or recreation areas and enter into designated Protected Areas for Wildlife at Ken Malloy Harbor Regional Park without authorization; and related matters.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">REQUEST the City Attorney, with the assistance of the Department of Recreation and Parks (RAP), to prepare and present an ordinance to make it a trespass to leave designated trails, walkways, or recreation areas and enter into designated Protected Areas for Wildlife at Ken Malloy Harbor Regional Park without authorization. INSTRUCT the Department of City Planning (DCP) and REQUEST the City Attorney to report to Council with recommendations for implementing further protections of the sensitive biological resources at Ken Malloy Harbor Regional Park and the Harbor City Waterway, including designating both as Environmentally Sensitive Habitat Areas as prescribed under the California Coastal Act. REQUEST the City Attorney, with assistance of the RAP, DCP, and any other department needed, to report prior to the preparation of the ordinance, within 30 days, on existing protection for parks, sensitive areas, protected areas, and wilderness areas in the City of Los Angeles. Fiscal Impact Statement: Neither the Chief Legislative Analyst nor the CAO has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Planning and Land Use Management Committee_10-14-25 Communication(s) from Public_10-10-2025 Motion (McOsker - Park) dated 10-01-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (6)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c0219422-5f6d-49e8-9e47-710ef5eaf5b0"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0219422-5f6d-49e8-9e47-710ef5eaf5b0"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Report from Planning and Land Use Management Committee_10-14-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f1f7f54d-ae73-4bdd-8785-a0c6e02282b1"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1f7f54d-ae73-4bdd-8785-a0c6e02282b1"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Communication(s) from Public_10-10-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1831c4aa-2227-4072-9f61-13d65224598c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1831c4aa-2227-4072-9f61-13d65224598c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156007">
+                                Motion (McOsker - Park) dated 10-01-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(7)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1037</span>
+                            
+                            
+                            <span class="tag district">CD 5</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">CATEGORICAL EXEMPTION FROM THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) PURSUANT TO CEQA GUIDELINES, ARTICLE 19, SECTION 15332, CLASS 32, AND RELATED CEQA FINDINGS; COMMUNICATION FROM THE LOS ANGELES CITY PLANNING COMMISSION (LACPC); AND AN APPEAL filed by Eva Nathanson (Representative: Andrew Sachs), from the determination of the LACPC in: 1) approving a Density Bonus/Affordable Housing Incentive Program Determination, pursuant to Chapter 1 Section 12.22 A.25(g) of the Los Angeles Municipal Code (LAMC), to permit the construction of a Housing Development Project with the On-Menu Incentive to permit a 20 percent reduction in the required open space to provide 7,840 square feet in lieu of the 9,800 square feet, as otherwise required in the C4-1XL Zone; and, 2) approving a Project Review, pursuant to LAMC Chapter 1 Section 16.05, for a development project resulting in a net increase of 50 or more dwelling units; for the demolition of four existing commercial buildings, and an associated surface parking lot, and the construction, use, and maintenance of a mixed-use building consisting of 90 dwelling units, with 10 units restricted to Very Low Income Households, and 15,271 square feet of commercial uses, resulting in a total floor area of 110,300 square feet, or a Floor Area Ratio (FAR) of 4.52:1, the proposed project is comprised of a six-story, 69-foot in height mixed-use building, with two subterranean parking levels, the Project includes 96 automobile parking spaces on-site within two subterranean levels, 94 bicycle parking spaces (78 long-term and 16 short-term), and 7,840 square feet of open space, there are three existing street trees in the public right-of-way adjacent to the project site, the Project will maintain three existing street trees and plant three new Street Trees and 20 new on-site trees, there are no existing protected trees on-site, development of the Project will require the cut and export of approximately 20,194 cubic yards of soil, no import or fill is proposed; for the properties located at 8251 – 8271 West Melrose Avenue; and 705 – 711 North Harper Avenue, subject to Conditions of Approval; and adoption of project findings.</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (34)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=893ff35a-a8e4-41cb-8e42-70c0e445816f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=893ff35a-a8e4-41cb-8e42-70c0e445816f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from Department of City Planning dated 10-23-25 - Supplemental Transmittal
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Communication dated 10-23-25 - Appeal Response
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=efebbfba-12e8-42d2-9a31-3bb5ea894e00"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=efebbfba-12e8-42d2-9a31-3bb5ea894e00"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Communication dated 10-23-25 - Revised Findings
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=05b0da59-9f62-4083-a5ac-f0e21218e5be"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=05b0da59-9f62-4083-a5ac-f0e21218e5be"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from Applicant Representative_10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=45d16a6e-e219-4a45-bea8-bf0845494735"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45d16a6e-e219-4a45-bea8-bf0845494735"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from L.A. Radius, Inc. - Report of Returned Envelopes_10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=65310207-c9dc-4469-83fc-aab56bbc1445"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=65310207-c9dc-4469-83fc-aab56bbc1445"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from L.A. Radius, Inc. - Certificate of Posting for Public Hearing_10-17-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b2ddb66c-781e-44cc-956d-04aee97f0162"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2ddb66c-781e-44cc-956d-04aee97f0162"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Proof of Publication dated 10-3-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from L.A. Radius, Inc. - Proof of Mailing Statement_10-03-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7c05139f-dfa7-4479-9e04-7d62d2d58a42"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c05139f-dfa7-4479-9e04-7d62d2d58a42"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Communication from Committee Clerk - Notice_10-03-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9b36d7c8-0204-4ff1-91e8-a09f34e98989"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b36d7c8-0204-4ff1-91e8-a09f34e98989"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Report from Los Angeles City Planning Commission dated 9-03-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Appeal
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4071be4b-fe69-4b52-b696-825a69bfef9d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4071be4b-fe69-4b52-b696-825a69bfef9d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Conditions of Approval
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0144af88-5de2-41cb-aaf4-57da65e6c450"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0144af88-5de2-41cb-aaf4-57da65e6c450"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Findings
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0d3954c3-4f5e-445b-aaab-5620b9dd1b31"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d3954c3-4f5e-445b-aaab-5620b9dd1b31"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Staff Report
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5537c729-a15e-437c-bbd0-f1409df53606"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5537c729-a15e-437c-bbd0-f1409df53606"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - NOE
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b76f410d-108a-41ca-89f0-605107fc00c7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b76f410d-108a-41ca-89f0-605107fc00c7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Exhibit
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5ce11009-86ea-4eb3-9840-680b9a27b802"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ce11009-86ea-4eb3-9840-680b9a27b802"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156013">
+                                Attachment to Report dated 9-03-25 - Mailing List
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(8)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0002-S76</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on Senate Bill (SB) 84 (Niello), which would provide businesses an opportunity to fix construction-related deficiencies that violate disability access provisions before penalties are issued.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">RESOLVE to include in the City’s 2025-26 State Legislative Program SUPPORT for SB 84 (Niello) to clarify the notice requirements of disability access-related complaints, allow defendants an opportunity to fix any barriers to access, and prevent the filing of fraudulent accessibility-related complaints in California. Fiscal Impact Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: None submitted. Communication(s) from Public_10-22-2025 Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Report from Chief Legislative Analyst dated 10-20-25 Resolution (Lee - McOsker) dated 8-12-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (8)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ccebeb80-d8b3-498c-b7fa-60890182cf84"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ccebeb80-d8b3-498c-b7fa-60890182cf84"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Communication(s) from Public_10-22-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c6487574-e73e-4ee7-960a-f3b22cf5761f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6487574-e73e-4ee7-960a-f3b22cf5761f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Report from Chief Legislative Analyst dated 10-20-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=439a696d-a28e-4972-9c74-9691dbc51b69"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=439a696d-a28e-4972-9c74-9691dbc51b69"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156028">
+                                Resolution (Lee - McOsker) dated 8-12-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(9)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0002-S82</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on Assembly Bill (AB) 1088 (Bains) which would add kratom products containing 7-hydroxymitragynine to the Sherman Food, Drug, and Cosmetic Law.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">RESOLVE to include in the City’s 2025-26 State Legislative Program SUPPORT for AB 1088 (Bains) which would add kratom products containing 7-hydroxymitragynine to the Sherman Food, Drug, and Cosmetic Law and prohibits the sale of kratom products and 7-hydroxymitragynine products to persons under 21 years of age. Fiscal Impact Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Report from Chief Legislative Analyst dated 9-10-25 Communication(s) from Public_08-27-2025 Resolution (Padilla - Mcosker) dated 8-26-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (8)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3def1fc2-7a48-45ef-b97b-7a1b65898a20"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3def1fc2-7a48-45ef-b97b-7a1b65898a20"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=59c008c3-6444-46ff-bab9-46fecca7ef79"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=59c008c3-6444-46ff-bab9-46fecca7ef79"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Report from Chief Legislative Analyst dated 9-10-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=31678b7b-39ec-401f-9fee-0daeb49ab4b4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31678b7b-39ec-401f-9fee-0daeb49ab4b4"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Communication(s) from Public_08-27-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=531201a0-ce05-4c98-81f3-8af2b1d4b5cb"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=531201a0-ce05-4c98-81f3-8af2b1d4b5cb"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156029">
+                                Resolution (Padilla - Mcosker) dated 8-26-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(10)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0002-S86</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on S.2468 (Padilla), the Renewing Immigration Provisions of the Immigration Act of 1929, which would update the United States’ (U.S.) outdated immigration system and provide millions of long-term U.S. residents a pathway to permanent residency in the U.S.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">RESOLVE to include in the City’s 2025-26 State Legislative Program SUPPORT for S.2468 to amend the Immigration Act of 1929 to remove the Registry eligibility cutoff date and make certain long-term U.S. resident immigrants eligible for permanent residency status in the U.S. Financial Policies Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: Yes. For: Eagle Rock Neighborhood Council Los Feliz Neighborhood Council Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Report from Chief Legislative Analyst dated 10-20-25 Community Impact Statement submitted by Eagle Rock Neighborhood Council_10-12-2025 Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025 Resolution (Rodriguez - Hernandez) dated 9-05-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (10)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c107135b-226a-407b-978c-0eb4b5490359"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c107135b-226a-407b-978c-0eb4b5490359"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c48f27ce-13b0-40c6-ab96-d95b5205342d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c48f27ce-13b0-40c6-ab96-d95b5205342d"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Report from Chief Legislative Analyst dated 10-20-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=70a8487b-a4d1-4664-91fc-d1166c5ae2fb"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=70a8487b-a4d1-4664-91fc-d1166c5ae2fb"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Community Impact Statement submitted by Eagle Rock Neighborhood Council_10-12-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d55d662b-fd01-486f-8ee5-3a725dbaf1ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d55d662b-fd01-486f-8ee5-3a725dbaf1ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7ee3f95b-bdb2-421f-93f1-16092c4ac25b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ee3f95b-bdb2-421f-93f1-16092c4ac25b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156030">
+                                Resolution (Rodriguez - Hernandez) dated 9-05-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(11)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0002-S87</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on S. 2238 (Klobuchar – Moreno) and H.R. 5221 (Baird), the Preventing Auto Recycling Theft Act.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">RESOLVE to include in the City’s 2025-26 Federal Legislative Program SUPPORT for S. 2238 (Klobuchar – Moreno) and H.R. 5221 (Baird), the Preventing Auto Recycling Theft Act, which would require that Vehicle Identification Numbers be etched on catalytic converters. Fiscal Impact Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: Yes. For: Westside Neighborhood Council Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Report from Chief Legislative Analyst dated 10-20-25 Community Impact Statement submitted by Westside Neighborhood Council_10-09-2025 Resolution (Blumenfield - Lee) dated 9-26-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (8)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9fdbcf07-4d0a-4aa3-aef9-07528e2c8e8a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fdbcf07-4d0a-4aa3-aef9-07528e2c8e8a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=488fa789-d111-4f36-9466-0df575df37ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=488fa789-d111-4f36-9466-0df575df37ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Report from Chief Legislative Analyst dated 10-20-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=87f4e111-34cb-47d5-986f-242389a2f2fd"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87f4e111-34cb-47d5-986f-242389a2f2fd"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Community Impact Statement submitted by Westside Neighborhood Council_10-09-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=12dbff94-4801-41ab-8c00-fe3721fb08d5"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12dbff94-4801-41ab-8c00-fe3721fb08d5"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156032">
+                                Resolution (Blumenfield - Lee) dated 9-26-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(12)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0002-S88</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on H.R. 5205, the Airport Noise Reduction Act.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">RESOLVE to include in the City’s 2025-26 Federal Legislative Program SUPPORT for H.R. 5205, the Airport Noise Reduction Act, which would give the City of Los Angeles additional tools to address noise issues at general aviation airports. Fiscal Impact Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: Yes For, if Amended: Greater Toluca Lake Neighborhood Council Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-24-25 Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-23-2025 Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-21-2025 Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Resolution (Blumenfield, et al.- Raman) dated 10-07-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (10)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9374b839-d004-417d-9128-75251309a32e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9374b839-d004-417d-9128-75251309a32e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-24-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f79f40db-72cf-4779-a571-00b51531b393"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f79f40db-72cf-4779-a571-00b51531b393"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-23-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c93cf0cf-34a7-4779-9717-119bc9fc4f08"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c93cf0cf-34a7-4779-9717-119bc9fc4f08"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-21-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1eb5b80f-9a6a-4318-9e22-744854cee5ff"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1eb5b80f-9a6a-4318-9e22-744854cee5ff"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=72d9a1a0-0dad-44a7-97cd-88cf9f3179b2"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=72d9a1a0-0dad-44a7-97cd-88cf9f3179b2"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156033">
+                                Resolution (Blumenfield, et al.- Raman) dated 10-07-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(13)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0006-S85</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">CONTINUED CONSIDERATION OF COMMUNICATION FROM THE CITY ATTORNEY and AMENDING MOTION 22A (HARRIS-DAWSON – LEE) relative to a proposed legal services agreement with Munger, Tolles &amp; Olson LLP for legal services related to the January 2025 wildfire litigation and related federal investiagions; proposed grant of informed written consent,</h3>
+                    
+
+                    
+                    <div class="item-recommendation">AUTHORIZE the City Attorney to enter into a new contract with Munger, Tolles &amp; Olson LLP for assistance in the litigation matter described above related to the Palisades Fire in January 2025 and related federal investigations, for an initial term of three years and an initial amount of $750,000. APPROVE of the granting of informed written consent for Munger, Tolles &amp; Olson regarding its continued representation of Edison International and Southern California Edison Company (and their related entities). AMENDING MOTION 22A (HARRIS-DAWSON - LEE) Recommendation for Council action: REQUEST the City Administrative Officer to identify funding in the amount of $750,000 and transfer that amount to Fund No. 100/12, Account No. 009301 – Outside Counsel, by way of the First Financial Status Report. Community Impact Statement: None submitted [The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), (d)(2), and (e)(2), to confer with its legal counsel relative to a proposed legal services agreement with Munger, Tolles &amp; Olson LLP for legal services related to the January 2025 wildfire litigation and related federal investiagions; proposed grant of informed written consent, Grigsby, et al. v. City of Los Angeles, et al. , Case No. 25STCV00832, and significant exposure to litigation. (The pending litigation involves the above listed complaint regarding the City’s alleged liability regarding damage relating to the Palisades Fire, which began on January 7, 2025.)] (Budget and Finance Committee waived consideration of the above matter.) (Continued from Council meeting of October 24, 2025. Pursuant to Council Rule 53, if the City Council has not lost jurisdiction over an item voted upon at the meeting, or caused it to be continued beyond the next regular meeting or placed in the archives, the item is continued to the next regular meeting for the purpose of permitting reconsideration of the vote.) Amending Motion 22A (Harris-Dawson - Lee) dated 10-22-25 Report from City Attorney dated 10-16-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5dc5fdcb-5fb8-4cc8-8c82-269295dc7544"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156152">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5dc5fdcb-5fb8-4cc8-8c82-269295dc7544"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156152">
+                                Amending Motion 22A (Harris-Dawson - Lee) dated 10-22-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1d4badff-bef1-4a02-b98a-5280857c7ed3"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156152">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d4badff-bef1-4a02-b98a-5280857c7ed3"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156152">
+                                Report from City Attorney dated 10-16-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(14)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1267</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE BOARD OF AIRPORT COMMISSIONERS (BOAC) relative to BOAC Resolution No. 28252 and Consent to Change Control of Delaware North Companies Travel Hospitality Services Inc. to Areas USA Inc., for both Concession Agreement LAA-8589 and Concession Agreement LAA-8549; and administrative exemption from the requirements of the California Environmental Quality Act (CEQA) pursuant to Article II, Section 2(f) of the Los Angeles CEQA Guidelines.</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (11)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.comhttp://www.lacouncilfile.com"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                www.lacouncilfile.com
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=48733211-b7bf-493b-b3a5-afe95f275fc5"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=48733211-b7bf-493b-b3a5-afe95f275fc5"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Report from Board of Airport Commissioners dated 10-20-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=40fdcc15-554e-480b-b72b-465bdf46c000"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=40fdcc15-554e-480b-b72b-465bdf46c000"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment to Report dated 10-20-25 - Board Report
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=91a0cb15-37e5-424a-b673-0305b5975d04"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=91a0cb15-37e5-424a-b673-0305b5975d04"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment to Report dated 10-20-25 - Resolution
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=76867204-e313-4cd1-86b3-4d9420ab6cc6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=76867204-e313-4cd1-86b3-4d9420ab6cc6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment to Report dated 10-20-25 - Agreement
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f24191d0-4520-4f4f-84ec-b7214820b759"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f24191d0-4520-4f4f-84ec-b7214820b759"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156174">
+                                Attachment to Report dated 10-20-25 - Mayor Transmittal
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(15)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0005-S134</span>
+                            
+                            
+                            <span class="tag district">CD 13</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATIONS FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTIONS relative to removing the property at 590 North New Hampshire Avenue  (Case Nos. 769444; 828034), Assessor I.D. No. 5538-028-005, from the Rent Escrow Account Program (REAP).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the LAHD report recommendations dated October 16, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTIONS removing the property at 590 North New Hampshire Avenue (Case Nos. 769444;828034), Assessor I.D. No. 5538-028-005, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department (769444) dated 10-16-25 Report from Los Angeles Housing Department (828034) dated 10-16-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=df30c246-658b-4490-9d78-6157013206d7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156000">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df30c246-658b-4490-9d78-6157013206d7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156000">
+                                Report from Los Angeles Housing Department (769444) dated 10-16-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=75b21b73-8ecb-4983-9b9a-69e464cb5f7c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156000">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b21b73-8ecb-4983-9b9a-69e464cb5f7c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156000">
+                                Report from Los Angeles Housing Department (828034) dated 10-16-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(16)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0005-S135</span>
+                            
+                            
+                            <span class="tag district">CD 1</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 1151 South New Hampshire Avenue (Case No. 849794), Assessor I.D. No. 5078-026-011, from the Rent Escrow Account Program (REAP).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the LAHD report recommendation dated October 16, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1151 South New Hampshire Avenue (Case No. 849794), Assessor I.D. No. 5078-026-011, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-16-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=63a7f51d-f742-4ab0-82aa-88fb7b7a3231"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156001">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=63a7f51d-f742-4ab0-82aa-88fb7b7a3231"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156001">
+                                Report from Los Angeles Housing Department dated 10-16-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(17)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0005-S136</span>
+                            
+                            
+                            <span class="tag district">CD 5</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 733 North Formosa Avenue (Case No. 549700), Assessor I.D. No. 5525-011-006, from the Rent Escrow Account Program (REAP).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the LAHD report recommendation dated October 16, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 733 North Formosa Avenue (Case No. 549700), Assessor I.D. No. 5525-011-006, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-16-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e1c576cf-f134-464f-85ac-57684a347b07"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156002">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1c576cf-f134-464f-85ac-57684a347b07"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156002">
+                                Report from Los Angeles Housing Department dated 10-16-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(18)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0005-S137</span>
+                            
+                            
+                            <span class="tag district">CD 15</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 625 East 120th Street (Case No. 828716), Assessor I.D. No. 6084-006-028, from the Rent Escrow Account Program (REAP).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the LAHD report recommendation dated October 16, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 625 East 120th Street (Case No. 828716), Assessor I.D. No. 6084-006-028, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-16-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=93d9151a-9661-47e6-88a3-009052440eae"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156003">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=93d9151a-9661-47e6-88a3-009052440eae"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156003">
+                                Report from Los Angeles Housing Department dated 10-16-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(19)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0005-S138</span>
+                            
+                            
+                            <span class="tag district">CD 8</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 527 West 88th Street (Case No. 813887), Assessor I.D. No. 6038-009-022, from the Rent Escrow Account Program (REAP).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">APPROVE the LAHD report recommendation dated October 21, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 527 West 88th Street (Case No. 813887), Assessor I.D. No. 6038-009-022, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-21-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7863a95f-4b95-4c4d-bf38-3a61685b6e2b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156068">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7863a95f-4b95-4c4d-bf38-3a61685b6e2b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156068">
+                                Report from Los Angeles Housing Department dated 10-21-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(20)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1252</span>
+                            
+                            
+                            <span class="tag district">CD 12</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">MOTION (LEE - JURADO) relative to funding for sustaining the Handyworker Program&#39;s activities within Council District (CD) 12.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">TRANSFER and APPROPRIATE $75,600 in the AB 1290 Fund No. 53P, Account No. 281212 (CD 12 Redevelopment Projects- Services), to the Affordable Housing Trust Fund No. 44G, Account No. 43C588, to serve CD 12&#39;s Handyworker Program waitlist. AUTHORIZE the City Clerk and/ or the Los Angeles Housing Department to make any corrections, clarifications or revisions to the above fund transfer instructions, including any corrections and changes to fund or account numbers; said corrections, clarifications or changes may be made orally, electronically or by any other means. Motion (Lee - Jurado) dated 10-22-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=567986f8-0e9c-4323-8aec-53290d246407"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156144">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=567986f8-0e9c-4323-8aec-53290d246407"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156144">
+                                Motion (Lee - Jurado) dated 10-22-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(21)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0880</span>
+                            
+                            
+                            <span class="tag district">CD 3</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">MOTION (BLUMENFIELD - HUTT) relative to amending the prior Council action of August 12, 2025 regarding due diligence work for the property located at 7227 Owensmouth Avenue.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">AMEND the prior Council action of August 12, 2025 (Council file No. 25-0880) relative to funding for due diligence work for the property located at 7227 Owensmouth Avenue, Item 56 on the Tuesday, August 12, 2025 Council agenda, to add the following instructions: TRANSFER and APPROPRIATE $10,000 from the AB1290 Fund No. 53P, Account No. 281203 (CD 3 Redevelopment Projects - Services) to the Bureau of Engineering Fund No. 100/78, Account No. 003040 (Contractual Services), for the purpose of funding an Environmental Phase 1 Assessment and/or California Environmental Quality Act (CEQA). TRANSFER and APPROPRIATE $12,250 from AB 1290 Fund No. 53P, Account No. 281203 (CD 3 Redevelopment Projects - Services), to the General Services Department Fund No. 100/40, Account No. 3040 (Contractual Services), for the ALTA survey. TRANSFER and APPROPRIATE $47,302 from AB 1290 Fund No. 53P, Account No. 281203 (CD 3 Redevelopment Projects - Services), to the General Services Department Fund No. 100/40, Account No. 3040 (Contractual Services), for asbestos, lead, Polychlorinated Biphenyls, Mercury, mold and moisture, Universal Wastes inspections, and for a relocation consultant. INSTRUCT the City Administrative Officer to identify funding for the operations of the Peer Respite for Transitional Age Youth. Motion (Blumenfield - Hutt) dated 10-22-25 Speaker Card(s)_08-12-2025 Council Action - Mayor Concurrence dated 8-13-25 Motion (Blumenfield - Hernandez) dated 8-05-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (8)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d479629d-57f6-4e65-970d-b1d8fc810b1a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d479629d-57f6-4e65-970d-b1d8fc810b1a"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Motion (Blumenfield - Hutt) dated 10-22-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=946ff737-6626-49aa-bb81-1e513f1f53fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=946ff737-6626-49aa-bb81-1e513f1f53fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Speaker Card(s)_08-12-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d8d55a8a-f983-44c6-b973-fd64da66c979"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d8d55a8a-f983-44c6-b973-fd64da66c979"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Council Action - Mayor Concurrence dated 8-13-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=571e2de2-c17f-4b4c-9c9c-1cebb5aea59f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=571e2de2-c17f-4b4c-9c9c-1cebb5aea59f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156145">
+                                Motion (Blumenfield - Hernandez) dated 8-05-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(22)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">24-1085-S1</span>
+                            
+                            
+                            <span class="tag district">CD 5</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">MOTION (YAROSLAVSKY - LEE) relative to funding for additional police services within Council District Five (CD 5).</h3>
+                    
+
+                    
+                    <div class="item-recommendation">TRANSFER and APPROPRIATE $150,000 in the CD 5 portion of the GCP Acct 0619 - Homeless Services Account, to the Police Fund No. 100/70, Account No. 1092 (Overtime - Police Officers) to be used for additional police services within CD 5 in the following amounts: Los Angeles Police Department (LAPD) West Los Angeles Division - $75,000 LAPD Wilshire Division - $40,000 LAPD Pacific Division - $25,000 LAPD Olympic Division - $10,000 AUTHORIZE the LAPD to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion including any corrections and changes to fund or account numbers; said corrections/clarifications/changes may be made orally, electronically or by any other means. Motion (Yaroslavsky - Lee) dated 10-22-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fe8d9b53-580b-46be-ae76-f90f8e2fef91"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156146">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe8d9b53-580b-46be-ae76-f90f8e2fef91"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156146">
+                                Motion (Yaroslavsky - Lee) dated 10-22-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(23)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1268</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">CONSIDERATION OF MOTION (HUTT - HARRIS-DAWSON, McOSKER) relative to a report on the feasibility of requiring First Amendment activity permits for parades costing more than $100,000 to be transmitted to Council for consideration and approval.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">DIRECT the Los Angeles Police Department, with the assistance of the City Attorney, to report on the feasibility of requiring First Amendment activity permits for parades that will cost the City $100,000 or more that have been applied for or approved by the Los Angeles Police Commission beginning September 1st, 2025 to be transmitted to Council for consideration and approval, and that the report include an analysis of cost recovery for City services provided for permitted First Amendment Events, as allowed for in Section 103.111 of the Los Angeles Municipal Code, and on any changes to current policy or practice that would ensure the City is able to recover costs for services provided at large events. (Public Safety Committee waived consideration of the above matter) Motion (Hutt - Harris-Dawson, McOsker) dated 10-24-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3207b83a-8b94-435c-a5e0-22c0bc46086e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156165">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3207b83a-8b94-435c-a5e0-22c0bc46086e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156165">
+                                Motion (Hutt - Harris-Dawson, McOsker) dated 10-24-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items Called Special</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Motions for Posting and Referral</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Council Members&#39; Requests for Excuse from Attendance at Council Meetings</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Closed Session</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(24)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1162</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e96bfa0c-b8b0-46f9-b11a-36993f1925b7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156081">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e96bfa0c-b8b0-46f9-b11a-36993f1925b7"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156081">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(25)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1163</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eb7c0cb4-d00b-402f-beb5-90e9a7d4a422"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156082">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb7c0cb4-d00b-402f-beb5-90e9a7d4a422"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156082">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(26)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1170</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b19a2c0f-1c67-4024-b875-454db39863ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156083">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b19a2c0f-1c67-4024-b875-454db39863ce"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156083">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(27)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1096</span>
+                            
+                            
+                            <span class="tag district">CD 14</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=752df3c4-cf09-43a1-8d30-d5e0ed2efcd9"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156084">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=752df3c4-cf09-43a1-8d30-d5e0ed2efcd9"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156084">
+                                Report from City Attorney dated 9-18-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(28)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">24-0617</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (10)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fa4c9cda-7884-486f-81ad-af5d886951ee"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa4c9cda-7884-486f-81ad-af5d886951ee"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=032beca3-32f0-48e6-ab3e-b5c99afc9da6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=032beca3-32f0-48e6-ab3e-b5c99afc9da6"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Motion (Blumenfield - Harris-Dawson) dated 07-02-24
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=abcdeaec-de4b-4376-b9fb-d47c8a0ad13c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=abcdeaec-de4b-4376-b9fb-d47c8a0ad13c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Council Action - Mayor Concurrence dated 7-16-2024
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4a6d43e9-8dc0-447d-a59d-88a643ad54e3"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a6d43e9-8dc0-447d-a59d-88a643ad54e3"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Speaker Card(s)_06-26-2024
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=35e93952-5977-45b2-89cd-cc5e193749fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=35e93952-5977-45b2-89cd-cc5e193749fe"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156085">
+                                Report from City Attorney dated 5-10-24
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(29)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1169</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=10ad9c97-37f6-4094-ac1d-1061ca0e36d1"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156086">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=10ad9c97-37f6-4094-ac1d-1061ca0e36d1"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156086">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(30)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1168</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=86eadc1e-2bd3-4bee-8a80-271e083bb27e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156087">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=86eadc1e-2bd3-4bee-8a80-271e083bb27e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156087">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(31)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1164</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=62143653-fc4e-4a82-a08b-d9484700871b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156088">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=62143653-fc4e-4a82-a08b-d9484700871b"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156088">
+                                Report from City Attorney dated 9-25-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Adjourning Motions</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Council Adjournment</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-16 01:45:45</p>
+        </div>
+    </footer>
+
+    <!-- Analytics -->
+    
+</body>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Council Meeting 17432 - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for City Council Meeting 17432">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .meeting-meta {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .meeting-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        .meeting-links a {
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border: 1px solid #0066cc;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .meeting-links a:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .item-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: box-shadow 0.2s;
+        }
+
+        .item-card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .item-header {
+            display: flex;
+            gap: 0.5rem;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .item-number {
+            font-weight: 600;
+            color: #0066cc;
+            font-size: 0.875rem;
+        }
+
+        .item-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-radius: 4px;
+            background: #f0f0f0;
+            color: #666;
+        }
+
+        .tag.council-file {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .tag.district {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .item-title {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+            line-height: 1.5;
+        }
+
+        .item-recommendation {
+            font-size: 0.875rem;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
+        }
+
+        .item-attachments {
+            margin-top: 0.75rem;
+        }
+
+        .item-attachments summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .item-attachments summary:hover {
+            text-decoration: underline;
+        }
+
+        .attachment-list {
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+
+        .attachment-list a {
+            display: block;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0.25rem 0;
+        }
+
+        .attachment-list a:hover {
+            text-decoration: underline;
+        }
+
+        .empty-section {
+            font-size: 0.875rem;
+            color: #999;
+            font-style: italic;
+            padding: 0.5rem 0.75rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .meeting-meta {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .item-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>City Council Meeting 17432</h1>
+            <div class="meeting-meta">
+                <div>November 14, 2025 at 10:00 AM</div>
+                <div>Meeting ID: 17432</div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147181" target="_blank" rel="noopener">View Official Agenda</a>
+                
+                <a href="https://youtube.com/watch?v=ZaY-PNYtWqw" target="_blank" rel="noopener">Watch Video</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="section">
+            <h2 class="section-title">Roll Call</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Approval of the Minutes</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Commendatory Resolutions, Introductions and Presentations</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Multiple Agenda Item Comment</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Public Testimony of Non-agenda Items Within Jurisdiction of Council</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items Noticed for Public Hearing</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(1)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0160-S93</span>
+                            
+                            
+                            <span class="tag district">CD 10</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">CONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to the Department of Building and Safety report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs for the property located at 6080 West Alcott Street.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">HEAR PROTEST, APPEALS OR OBJECTIONS relative to a proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to the Los Angeles Municipal Code and/or Los Angeles Administrative Code, and CONFIRM said lien for the property located at 6080 West Alcott Street. (Lien: $1,276.56) (Continued from Council meeting of August 13, 2025) Communication from Department of Building and Safety dated 8-12-25 - Updated Reports Report from Department of Building and Safety dated 4-11-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8853072d-7887-4479-adcc-e22e882b3c98"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="155866">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8853072d-7887-4479-adcc-e22e882b3c98"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="155866">
+                                Communication from Department of Building and Safety dated 8-12-25 - Updated Reports
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=236a8a3f-295b-44f2-a131-c5e1f003f55c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="155866">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=236a8a3f-295b-44f2-a131-c5e1f003f55c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="155866">
+                                Report from Department of Building and Safety dated 4-11-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items for which Public Hearings Have Been Held</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(2)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1220</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">PERSONNEL and HIRING COMMITTEE REPORT relative to accommodating City employees experiencing menopause.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">INSTRUCT the Personnel Department, with support from other City Departments, the Chief Legislative Analyst (CLA), and City Administrative Officer (CAO), to report within 120 days on: How the City’s leave and benefits policies can accommodate people experiencing menopause, including but not limited to ensuring menopause is made explicit in the City’s allowance for sick leave. Options to mandate training for supervisors on how to support employees experiencing menopause, and to make available menopause workplace resource guides for all city employees. Practical workplace solutions and securing additional workplace accommodations, such as desktop fans or lighter-weight uniforms, to be made available to all employees as needed. Fiscal Impact Statement: Neither the CAO nor the CLA has completed a financial analysis of this report. Community Impact Statement: None submitted. Personnel and Hiring Committee Report 11-5-25 Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=18deece7-1ad6-4ae1-8100-561533e811ad"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156495">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=18deece7-1ad6-4ae1-8100-561533e811ad"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156495">
+                                Personnel and Hiring Committee Report 11-5-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156495">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156495">
+                                Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(3)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1063</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">PUBLIC WORKS and TRANSPORTATION COMMITTEES’ JOINT REPORT relative to streamlining permitting for work in the public right-of-way associated with national and international events hosted in the City.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">INSTRUCT the Bureau of Street Services, with the assistance of the Bureau of Engineering and the Department of Transportation, to report with recommendations to streamline permitting for work in the public right-of-way associated with national and international events hosted in the City. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Joint Report from Public Works and Transportation Committees 10-22-25 Motion (Rodriguez - Hernandez) dated 9-10-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (4)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156496">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156496">
+                                Joint Report from Public Works and Transportation Committees 10-22-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156496">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156496">
+                                Motion (Rodriguez - Hernandez) dated 9-10-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(4)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-0972</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">PUBLIC WORKS COMMITTEE REPORT relative to embedding sensors within street lighting infrastructure to allow for active monitoring of the status of streetlights when installing other security improvements.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">INSTRUCT the Bureau of Street Lighting to report with recommendations for embedding sensors within street lighting infrastructure to allow for active monitoring of the status of streetlights when it is installing other security improvements. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025 Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025 Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025 Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025 Report from Public Works Committee_9-10-25 Motion (Hutt - Nazarian) dated 8-20-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (12)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=11499e57-42bd-47c6-a841-d90bcbcab328"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=387dac89-5c99-462f-994b-8fafa50b384e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a109b85c-98f2-4c77-a97a-afc12ef6e894"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6af65d3f-2457-466d-8937-132ffb0d8b5c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Report from Public Works Committee_9-10-25
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8fa7e061-6ad8-47c0-9840-8395595a204c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156506">
+                                Motion (Hutt - Nazarian) dated 8-20-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(5)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">25-1276</span>
+                            
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE MAYOR relative to the appointment of Mr. Jaime Moore as the Fire Chief.</h3>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eff8d461-d50a-41d3-a246-c8e5347c6988"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156564">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156564">
+                                Report from Mayor dated 10-24-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)</h2>
+
+            
+                
+                <article class="item-card">
+                    <div class="item-header">
+                        <span class="item-number">(6)</span>
+                        <div class="item-tags">
+                            
+                            <span class="tag council-file">19-0898-S6</span>
+                            
+                            
+                            <span class="tag district">CD 8</span>
+                            
+                        </div>
+                    </div>
+
+                    
+                    <h3 class="item-title">COMMUNICATION FROM THE BOARD OF PUBLIC WORKS relative to the Fourth Amended and Restated Agreement with Destination Crenshaw and the Second Amendment with LA Metro for the implementation of the Destination Crenshaw Outdoor Museum Project.</h3>
+                    
+
+                    
+                    <div class="item-recommendation">AUTHORIZE the President or two members of the Board of Public Works to execute the Second Amendment with LA Metro. APPROVE the Fourth Amended and Restated Agreement with Destination Crenshaw between the City of Los Angeles and Destination Crenshaw. Increasing the funding amount from $54,941,792.37 to $73,814,876 and extending the Contract end date from March 1, 2026, to January 1, 2027. AUTHORIZE the Department of Public Works, Office of Accounting, to be INSTRUCTED to create a new appropriation unit entitled “Destination Crenshaw – Metro MAT Cycle 1 Funding” in the Engineering Special Services Fund No. 682/50, and to deposit and appropriate the aforementioned grant into the account. AUTHORIZE the President or two members of the Board to execute the Fourth Amended and Restated Agreement with Destination Crenshaw. AUTHORIZE the City Engineer, or designee, to make any technical or accounting changes as necessary to effectuate the intent of this Fourth Amended and Restated Agreement with Destination Crenshaw and the Second Amendment with LA Metro. Fiscal Impact Statement: None submitted by the Board of Public Works. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Board of Public Works dated 11-10-25</div>
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Attachments (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156682">
+                                Attachment
+                            </a>
+                            
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
+                               target="_blank"
+                               rel="noopener"
+                               data-plausible-event="attachment-click"
+                               data-item-id="156682">
+                                Report from Board of Public Works dated 11-10-25
+                            </a>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Items Called Special</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Motions for Posting and Referral</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Council Members&#39; Requests for Excuse from Attendance at Council Meetings</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Adjourning Motions</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Council Adjournment</h2>
+
+            
+                <div class="empty-section">No agenda items in this section</div>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-16 01:45:45</p>
+        </div>
+    </footer>
+
+    <!-- Analytics -->
+    
+</body>
+</html>

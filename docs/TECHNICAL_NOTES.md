@@ -9,25 +9,23 @@ Session-to-session reference for development. Updated incrementally as we discov
 
 ---
 
-## Current Focus (Updated: 2025-11-15)
+## Current Focus (Updated: 2025-11-16)
 
-**✅ Week 1 MVP - COMPLETED:**
-1. ✅ Defined JSON schema for agenda items ([agenda_schema.json](../agenda_schema.json))
-2. ✅ Built agenda parser: HTML → structured JSON ([parse_agenda.py](../parse_agenda.py))
-3. ✅ Tested parser with 7 meetings (17432, 17283, 17406, 17407, 17367, 17455, 17477)
-4. ✅ Updated `fetch_meetings.py` with `get_agenda_portal_url()` method
-5. ✅ Integrated parser into pipeline ([parse_agendas.py](../parse_agendas.py))
-6. ✅ Updated `run_pipeline.py` to include agenda parsing step
-7. ✅ Stored 7 parsed agendas in `data/agendas/` (550KB total, JSON format)
+**✅ Week 2 MVP - COMPLETED:**
+1. ✅ Created mobile-first HTML template ([templates/meeting.html](../templates/meeting.html))
+2. ✅ Built static site generator: JSON → HTML ([generate_site.py](../generate_site.py))
+3. ✅ Generated 7 meeting pages + index page in `site/` directory
+4. ✅ Added Plausible analytics support ([site_config.json](../site_config.json))
+5. ✅ Ready for deployment to GitHub Pages
 
-**🚧 Next Steps (Week 2 MVP):**
-1. Create mobile-first HTML template for meeting pages
-2. Build static page generator (JSON → HTML)
-3. Add analytics (Plausible/Umami)
-4. Deploy to hosting (GitHub Pages/Netlify/Vercel)
-5. Add link to next Reddit comment
+**🚧 Next Steps (Deployment & Reddit Integration):**
+1. Deploy site to GitHub Pages (enable in repo settings)
+2. Configure custom domain and analytics (optional)
+3. Update Reddit comment template to include meeting page link
+4. Post next Reddit comment with link to validate CTR
+5. Monitor analytics to measure engagement
 
-**Goal:** Deploy first meeting page and validate CTR from Reddit.
+**Goal:** Deploy site and measure CTR from Reddit to validate product-market fit.
 
 ---
 
@@ -201,6 +199,33 @@ python parse_agenda.py meeting.html 17432 147181 agenda.json
 - Structure: meeting → sections → items
 - Each item: council_file, district, title, recommendation, attachments
 - Stored permanently in `data/agendas/` (not deleted by cleanup)
+
+### Static Site Generation (2025-11-16)
+
+**Generate all meeting pages:**
+```bash
+python generate_site.py
+# Reads: data/agendas/agenda_*.json + recent_meetings.json
+# Outputs: site/index.html + site/meetings/{meeting_id}.html
+# Uses templates: templates/index.html + templates/meeting.html
+```
+
+**Generate single meeting page:**
+```bash
+python generate_site.py 17432
+# Outputs: site/meetings/17432.html
+```
+
+**Site structure:**
+- Index page: Lists all meetings with item counts
+- Meeting pages: Mobile-first, structured agenda items with cards
+- Analytics: Plausible support (configured in `site_config.json`)
+- Templates: Jinja2 templates in `templates/` directory
+
+**Deployment:**
+- See [DEPLOYMENT.md](../DEPLOYMENT.md) for deployment instructions
+- Designed for GitHub Pages (serve from `site/` directory)
+- Also supports Netlify/Vercel
 
 ---
 

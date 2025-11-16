@@ -1,0 +1,9 @@
+{
+  "site_name": "LA Council Tracker",
+  "site_url": "",
+  "analytics": {
+    "provider": "plausible",
+    "domain": ""
+  },
+  "description": "Track Los Angeles City Council meetings, agendas, and decisions"
+}
