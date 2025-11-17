@@ -1,7 +1,28 @@
 # Session Handoff - Council File Pivot Project
 
 **Date:** 2025-11-16 (Updated)
-**Status:** HTML page generation complete ✅ (with improved formatting) - Ready to scale PDF processing
+**Status:** HTML pages improved with AI summaries ✅ - Awaiting design feedback before scaling PDF processing
+
+---
+
+## 🔴 NEXT: Design Feedback Needed
+
+**Current state:** HTML pages have been improved with:
+- AI summaries as main titles (for files with summaries)
+- Clickable document links
+- Shortened bureaucratic titles (for files without summaries)
+
+**Action needed:**
+1. Review opened pages in browser:
+   - [site/councilfiles/25-1294.html](../site/councilfiles/25-1294.html) - With AI summaries
+   - [site/councilfiles/25-1037.html](../site/councilfiles/25-1037.html) - Without AI summaries
+2. Provide feedback on design/layout changes needed
+3. Then proceed with PDF processing at scale
+
+**Resume command:**
+```
+I've reviewed the council file pages and have feedback. Read docs/SESSION_HANDOFF.md for current state.
+```
 
 ---
 
