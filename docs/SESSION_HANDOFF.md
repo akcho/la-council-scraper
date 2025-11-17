@@ -1,11 +1,44 @@
 # Session Handoff - Council File Pivot Project
 
 **Date:** 2025-11-16 (Updated)
-**Status:** PDF processing prototype complete ✅ - Ready for HTML page generation
+**Status:** HTML page generation complete ✅ (with improved formatting) - Ready to scale PDF processing
 
 ---
 
 ## What We Just Completed
+
+### ✅ HTML Page Generation (COMPLETE - USER-FRIENDLY DISPLAY)
+
+Successfully built the full HTML generation system for council files with human-readable summaries:
+
+**Created scripts:**
+1. **[generate_councilfile_pages.py](../generate_councilfile_pages.py)** - Generates all council file HTML pages and index
+
+**Generated pages:**
+- `site/councilfiles/` - 194 individual council file pages
+- `site/councilfiles/index.html` - Searchable/filterable index of all files
+- Updated `site/index.html` - Added prominent link to council files section
+
+**Features:**
+- **Human-readable titles:** Files with AI summaries show brief summaries as titles, not bureaucratic jargon
+- **Timeline view:** Shows appearances across meetings
+- **Smart document display:** AI summaries shown prominently, documents without summaries hidden in collapsed section
+- **Clickable document links:** All documents (with or without summaries) link directly to PDFs
+- **Search & filter:** By file number, title, or council district
+- **Mobile-responsive design**
+- **Breadcrumb navigation**
+
+**Design improvements (Nov 16 - Latest):**
+- **AI-extracted summaries as titles:** Files with AI summaries display human-readable descriptions
+- **Shortened bureaucratic titles:** Files without AI summaries show first sentence of official title
+- **Official title preserved:** Full bureaucratic title shown at bottom for reference (when AI summary available)
+- **Document links work:** All documents in dropdown are clickable, open PDFs in new tab
+- **File number prominent:** File number is the primary visual identifier
+
+**Example pages:**
+- [site/councilfiles/25-1294.html](../site/councilfiles/25-1294.html) - "Manitou Vistas Affordable Housing Preservation" (with AI summaries)
+- [site/councilfiles/25-1037.html](../site/councilfiles/25-1037.html) - CEQA exemption (without AI summaries, shows shortened title)
+- [site/councilfiles/index.html](../site/councilfiles/index.html) - Browse all 194 files
 
 ### ✅ PDF Processing Prototype (COMPLETE)
 
@@ -28,15 +61,6 @@ Successfully built and validated the full PDF processing workflow:
 - Cost is very affordable for value provided
 - Ready to scale to remaining PDFs
 
-**Generated data:**
-- `data/pdf_summaries/` - 3 AI summaries for council file 25-1294
-- `data/councilfiles/` - 194 council file JSONs (aggregated across meetings)
-- `data/councilfiles/index.json` - Master index of all files
-
-**Documentation:**
-- [docs/PROTOTYPE_RESULTS.md](PROTOTYPE_RESULTS.md) - Full analysis and findings
-- [PDF_PROCESSING_README.md](../PDF_PROCESSING_README.md) - Setup instructions
-
 ---
 
 ## Current State
@@ -51,7 +75,14 @@ data/
 │   ├── 25-1294.json           # Example: Manitou Vistas (with summaries)
 │   ├── 25-1209.json           # Other council files...
 │   └── index.json             # Master index
-└── council_file_analysis.json  # Original exploration data
+
+site/
+├── index.html                  # Main page (links to council files)
+├── meetings/                   # 7 meeting pages
+└── councilfiles/               # 194 council file pages + index
+    ├── index.html             # Searchable index
+    ├── 25-1294.html          # Individual file pages
+    └── ...
 ```
 
 ### Stats
@@ -60,43 +91,16 @@ data/
 - **Meetings:** 7 agendas parsed
 - **Attachments:** 1,010 total (3 processed, 1,007 remaining)
 - **PDF summaries:** 3 generated
+- **HTML pages:** 195 generated (194 files + 1 index)
 - **Cost so far:** $0.0175
 
 ---
 
-## Next Steps: HTML Page Generation
+## Next Steps: Scale PDF Processing
 
-### What to Build
+### 1. Add Smart Filtering
 
-**1. Council file pages** (`site/councilfiles/{file_number}.html`)
-
-Template should show:
-- File number, title, district
-- Current status (in progress, approved, etc.)
-- Timeline of appearances across meetings
-- All attachments with AI summaries (where available)
-- Links to related meetings
-- Clean, readable formatting
-
-**Example page:** `site/councilfiles/25-1294.html` for Manitou Vistas
-
-**2. Council file index page** (`site/councilfiles/index.html`)
-
-Browse all council files:
-- Sortable/filterable by district, date, status
-- Shows recent activity
-- Links to individual council file pages
-
-**3. Update meeting pages**
-
-Simplify meeting pages to:
-- Meeting metadata (date, video link)
-- List of council files discussed
-- Each links to council file tracking page
-
-### Before Scaling PDF Processing
-
-**Add smart filtering** to skip low-value attachments:
+Before processing all PDFs, update the script to skip low-value attachments:
 
 ```python
 # Skip these attachment types:
@@ -108,10 +112,28 @@ skip_patterns = [
 ]
 ```
 
-**Then process remaining PDFs:**
+### 2. Process Remaining PDFs
+
 - Estimated 500-700 substantive PDFs (after filtering)
 - Cost: ~$3-4 total
 - Run once, commit results
+
+**Command:**
+```bash
+source venv/bin/activate
+python process_pdfs_prototype.py --all  # Process all remaining PDFs
+python aggregate_council_files.py       # Regenerate aggregations
+python generate_councilfile_pages.py    # Regenerate HTML with new summaries
+```
+
+### 3. Optional: Update Meeting Pages
+
+Consider simplifying meeting pages to:
+- Meeting metadata (date, video link)
+- List of council files discussed (with links to council file pages)
+- De-emphasize individual agenda items
+
+This completes the pivot from meeting-centric to council-file-centric design.
 
 ---
 
@@ -151,8 +173,12 @@ la-council-scraper/
 ├── data/
 │   ├── agendas/                       # 7 meeting JSONs
 │   ├── pdf_summaries/                 # AI summaries
-│   ├── councilfiles/                  # Aggregated council files
-│   └── council_file_analysis.json     # Exploration data
+│   └── councilfiles/                  # Aggregated council files
+├── site/
+│   ├── index.html                     # Main page
+│   ├── meetings/                      # Meeting pages
+│   └── councilfiles/                  # Council file pages (NEW!)
+├── generate_councilfile_pages.py      # HTML generator (NEW!)
 ├── process_pdfs_prototype.py          # PDF summarization
 ├── aggregate_council_files.py         # Data aggregation
 ├── test_pdf_download.py               # Download testing
@@ -169,11 +195,18 @@ la-council-scraper/
 - Dependencies installed (see `requirements.txt`)
 - `.env` file with `ANTHROPIC_API_KEY` for PDF processing
 
-**To run PDF processing:**
+**To regenerate pages:**
 ```bash
 source venv/bin/activate
-python process_pdfs_prototype.py  # Process specific file
-python aggregate_council_files.py  # Regenerate aggregations
+python generate_councilfile_pages.py  # Regenerate all HTML
+```
+
+**To process PDFs:**
+```bash
+source venv/bin/activate
+python process_pdfs_prototype.py      # Process specific file
+python aggregate_council_files.py     # Regenerate aggregations
+python generate_councilfile_pages.py  # Update HTML with summaries
 ```
 
 ---
@@ -183,17 +216,18 @@ python aggregate_council_files.py  # Regenerate aggregations
 **To continue this work:**
 
 ```
-Continue the council file pivot work - build HTML page generator for council files.
-Start with a template for council file 25-1294 showing the timeline, attachments, and AI summaries.
+Continue the council file pivot work - add smart filtering to PDF processing and scale to remaining PDFs.
+Read docs/SESSION_HANDOFF.md for current state.
 ```
 
-**Or more specifically:**
+**Specific tasks:**
 
 1. Read [docs/SESSION_HANDOFF.md](SESSION_HANDOFF.md) for current state
-2. Read [docs/PROTOTYPE_RESULTS.md](PROTOTYPE_RESULTS.md) for prototype findings
-3. Look at `data/councilfiles/25-1294.json` for the data structure
-4. Build HTML template for council file pages
-5. Generate site/councilfiles/ directory with pages
+2. Update [process_pdfs_prototype.py](../process_pdfs_prototype.py) with smart filtering
+3. Add `--all` flag to process all remaining PDFs
+4. Test filtering on a few files first
+5. Run full PDF processing (~500-700 PDFs, ~$3-4)
+6. Regenerate aggregations and HTML pages
 
 ---
 
@@ -205,7 +239,9 @@ From the original planning doc:
 - ✅ Are PDF summaries more useful than titles? → Yes, significantly! Reveals critical details
 - ✅ What's the right granularity? → 2-4 paragraphs covering what/why/details/impact
 - ✅ Should we process ALL attachments? → No, use smart filtering to skip procedural files
+- ✅ How should council file pages be structured? → Timeline view with summaries embedded
+- ✅ How to browse all council files? → Searchable/filterable index page
 
 ---
 
-**Status:** Prototype validated ✅ - Ready to build HTML pages and scale 🚀
+**Status:** HTML pages complete ✅ - Ready to scale PDF processing 🚀
