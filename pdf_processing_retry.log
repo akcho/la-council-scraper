@@ -1,0 +1,1047 @@
+======================================================================
+Staged PDF Processing for Council Files
+======================================================================
+
+📂 Loading council file data...
+   Found 1007 attachments without summaries
+
+📊 Stage 1: High-value documents
+   Found 348 documents to process
+
+💰 Estimated cost: $2.02 (348 documents × $0.0058)
+
+🚀 Starting processing (--yes flag provided)...
+
+======================================================================
+Processing Stage 1
+======================================================================
+
+[1/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[2/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[3/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[4/348] 📄 Report from Chief Legislative Analyst dated 10-22-25
+   Council File: 14-1411-S5
+   Category: staff_report
+   History ID: c58a7b7a-7129-4c57-8aa9-8ae5214a2297
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 6,503,034 bytes
+   🤖 Generating summary...
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Could not process PDF'}, 'request_id': 'req_011CVExo5vKgAmq8CAg2T2xm'}
+
+[5/348] ⏭️  Skipping Planning and Land Use Management Committee Report dated 08-30-24 (already processed)
+
+[6/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 8-14-24 (already processed)
+
+[7/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 5-16-24 (already processed)
+
+[8/348] ⏭️  Skipping Personnel and Hiring Committee Report 10-24-25 (already processed)
+
+[9/348] ⏭️  Skipping Report from Personnel Department dated 8-07-25 (already processed)
+
+[10/348] ⏭️  Skipping Attachment to Communication dated 10-23-25 - Appeal Response (already processed)
+
+[11/348] ⏭️  Skipping Attachment to Communication dated 10-23-25 - Revised Findings (already processed)
+
+[12/348] ⏭️  Skipping Report from Los Angeles City Planning Commission dated 9-03-25 (already processed)
+
+[13/348] ⏭️  Skipping Attachment to Report dated 9-03-25 - Appeal (already processed)
+
+[14/348] ⏭️  Skipping Attachment to Report dated 9-03-25 - Conditions of Approval (already processed)
+
+[15/348] ⏭️  Skipping Attachment to Report dated 9-03-25 - Findings (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[16/348] 📄 Attachment to Report dated 9-03-25 - Staff Report
+   Council File: 25-1037
+   Category: staff_report
+   History ID: 0d3954c3-4f5e-445b-aaab-5620b9dd1b31
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 140,022,975 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 603 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[17/348] ⏭️  Skipping Report from Budget and Finance Committee_11-04-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[18/348] 📄 Report from City Administrative Officer dated 10-29-25
+   Council File: 25-0600-S126
+   Category: staff_report
+   History ID: 83f6acdb-4526-436d-b60d-48af272c05f8
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 4,455,190 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 140 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 207412 tokens > 200000 maximum'}, 'request_id': 'req_011CVExqpA8SwPwPLeugnSjh'}
+
+[19/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[20/348] ⏭️  Skipping Report from Cultural Heritage Commission dated 9-23-25 (already processed)
+
+[21/348] ⏭️  Skipping Attachment to Report dated 9-23-25 - Findings (already processed)
+
+[22/348] ⏭️  Skipping Attachment to Report dated 9-23-25 - Staff Report (already processed)
+
+[23/348] ⏭️  Skipping Personnel and Hiring Committee Report 11-5-25 (already processed)
+
+[24/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-16-25 (already processed)
+
+[25/348] ⏭️  Skipping Government Operations Committee Report 11-4-25 (already processed)
+
+[26/348] ⏭️  Skipping Report from Energy and Environment Committee_10-21-25 (already processed)
+
+[27/348] ⏭️  Skipping Report from City Attorney dated 10-17-25 (already processed)
+
+[28/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[29/348] ⏭️  Skipping Report from Budget and Finance Committee dated 10-21-25 (already processed)
+
+[30/348] ⏭️  Skipping Report from Collections Board of Review dated 10-08-25 (already processed)
+
+[31/348] ⏭️  Skipping Attachment to Report dated 10-08-25 - Findings (already processed)
+
+[32/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[33/348] ⏭️  Skipping Report from Bureau of Engineering dated 10-23-25 (already processed)
+
+[34/348] ⏭️  Skipping Report from Public Works and Gang Reduction Committee 08_21_2020 (already processed)
+
+[35/348] ⏭️  Skipping Corrected Report from Public Works Engineering 08_13_2020 (already processed)
+
+[36/348] ⏭️  Skipping Report from Public Works Engineering 02_20_2020 (already processed)
+
+[37/348] ⏭️  Skipping Report from Public Works Engineering 04_12_2018 (already processed)
+
+[38/348] ⏭️  Skipping Report from City Attorney dated 9-08-25 (already processed)
+
+[39/348] ⏭️  Skipping Personnel and Hiring Committee Report 5-9-25 (already processed)
+
+[40/348] ⏭️  Skipping Report from City Administrative Officer dated 4-10-25 (already processed)
+
+[41/348] ⏭️  Skipping Report from Los Angeles Housing Department (Case No. 864023) dated 11-03-25 (already processed)
+
+[42/348] ⏭️  Skipping Report from Los Angeles Housing Department (Case No. 864143) dated 11-03-25 (already processed)
+
+[43/348] ⏭️  Skipping Report from Los Angeles Housing Department (Case No. 877520)  dated 11-03-25 (already processed)
+
+[44/348] ⏭️  Skipping Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 (already processed)
+
+[45/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 9-10-25 (already processed)
+
+[46/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[47/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[48/348] 📄 Report from City Administrative Officer dated 10-01-25
+   Council File: 25-1191
+   Category: staff_report
+   History ID: a61bdc86-83af-402e-9694-a96c24e3a8b1
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 3,796,766 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 137 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 201695 tokens > 200000 maximum'}, 'request_id': 'req_011CVExrNoR3xCTDVvq84jx7'}
+
+[49/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-24-25 (already processed)
+
+[50/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-14-25 (already processed)
+
+[51/348] ⏭️  Skipping Report from Board of Airport Commissioners dated 8-25-25 (already processed)
+
+[52/348] ⏭️  Skipping Personnel and Hiring Committee Report 10-24-25 (already processed)
+
+[53/348] ⏭️  Skipping Report from City Administrative Officer dated 10-15-25 (already processed)
+
+[54/348] ⏭️  Skipping Government Operations Committee Report 10-24-25 (already processed)
+
+[55/348] ⏭️  Skipping Report from City Administrative Officer dated 11-05-24 (already processed)
+
+[56/348] ⏭️  Skipping Report from Personnel and Animal Welfare Committee 11_04_2020 (already processed)
+
+[57/348] ⏭️  Skipping Report from City Administrative Officer 10_28_2020 (already processed)
+
+[58/348] ⏭️  Skipping Report from Personnel and Animal Welfare Committee 09_06_2017 (already processed)
+
+[59/348] ⏭️  Skipping Report from City Administrative Officer 08_15_2017 (already processed)
+
+[60/348] ⏭️  Skipping Report from Housing and Homelessness Committee - 7-30-25 (already processed)
+
+[61/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 6-20-25 (already processed)
+
+[62/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 2-21-25 (already processed)
+
+[63/348] ⏭️  Skipping Report from Neighborhoods and Community Enrichment Committee_3-20-24 (already processed)
+
+[64/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 10-30-23.pdf (already processed)
+
+[65/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-21-25 (already processed)
+
+[66/348] ⏭️  Skipping Report from Energy and Environment Committee_10-21-25 (already processed)
+
+[67/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-28-25 (already processed)
+
+[68/348] ⏭️  Skipping Report from Board of Airport Commissioners dated 4-21-25 (already processed)
+
+[69/348] ⏭️  Skipping Report from Bureau of Engineering dated 10-21-25 (already processed)
+
+[70/348] ⏭️  Skipping Report from Public Works Committee_pw_5-22-24 (already processed)
+
+[71/348] ⏭️  Skipping Report from Public Works Engineering 09_29_2020 (already processed)
+
+[72/348] ⏭️  Skipping Report from Public Works Engineering 02_13_2019 (already processed)
+
+[73/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[74/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 11-03-25 (already processed)
+
+[75/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[76/348] 📄 Report from Department of Building and Safety dated 10-17-2025
+   Council File: 25-1217
+   Category: staff_report
+   History ID: 29be23b2-0fd3-4a6b-8798-8d7f63f74c0a
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 4,206,628 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 239 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 207355 tokens > 200000 maximum'}, 'request_id': 'req_011CVExrvNDBuo41qZqmSsV1'}
+
+[77/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[78/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[79/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[80/348] ⏭️  Skipping Report from Los Angeles Housing Department (769444) dated 10-16-25 (already processed)
+
+[81/348] ⏭️  Skipping Report from Los Angeles Housing Department (828034) dated 10-16-25 (already processed)
+
+[82/348] ⏭️  Skipping Report from Mayor dated 10-24-25 (already processed)
+
+[83/348] ⏭️  Skipping Report from Ad Hoc Committee on the 2024 Summer Olympics - 10-29-25 (already processed)
+
+[84/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[85/348] ⏭️  Skipping Report from City Attorney dated 5-10-24 (already processed)
+
+[86/348] ⏭️  Skipping Report from City Clerk dated 8-15-25 (already processed)
+
+[87/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 5-07-25 (already processed)
+
+[88/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[89/348] ⏭️  Skipping Report from Cultural Heritage Commission dated 9-23-25 (already processed)
+
+[90/348] ⏭️  Skipping Attachment to Report dated 9-23-25 - Findings (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[91/348] 📄 Attachment to Report dated 9-23-25 - Staff Report
+   Council File: 25-1108
+   Category: staff_report
+   History ID: 9ddba260-04f7-4297-9e5d-697e1c3aba83
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 13,913,808 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 101 pages
+   ✅ Summary generated
+   💰 Cost: $0.1766 (174,212 in, 469 out)
+
+[92/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[93/348] ⏭️  Skipping Report from City Attorney dated 10-17-25 (already processed)
+
+[94/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_6-10-25 (already processed)
+
+[95/348] ⏭️  Skipping Report from Department of City Planning dated 6-06-25 (already processed)
+
+[96/348] ⏭️  Skipping Report from Los Angeles City Planning Commission dated 5-15-25.pdf (already processed)
+
+[97/348] ⏭️  Skipping Attachment to Report dated 5-15-25 - Findings.pdf (already processed)
+
+[98/348] ⏭️  Skipping Attachment to Report dated 5-15-25 - Staff Report.pdf (already processed)
+
+[99/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_01-28-25 (already processed)
+
+[100/348] ⏭️  Skipping Joint report from Energy and Environment Committee and Budget and Finance Committee_10-21-25 (already processed)
+
+[101/348] ⏭️  Skipping Report from Board of Public Works dated 9-09-25 (already processed)
+
+[102/348] ⏭️  Skipping Government Operations Committee Report 10-21-25 (already processed)
+
+[103/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[104/348] ⏭️  Skipping Report from Department of Transportation dated 7-22-25 (already processed)
+
+[105/348] ⏭️  Skipping Report from Transportation Committee_02-12-24 (already processed)
+
+[106/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[107/348] ⏭️  Skipping Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 (already processed)
+
+[108/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 10-20-25 (already processed)
+
+[109/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[110/348] ⏭️  Skipping Report from City Administrative Officer dated 9-26-25 (already processed)
+
+[111/348] ⏭️  Skipping Report from City Administrative Officer dated 7-23-24 (already processed)
+
+[112/348] ⏭️  Skipping Report from City Administrative Officer dated 5-12-21.pdf (already processed)
+
+[113/348] ⏭️  Skipping 21-0392 PAAW Committee Report 5-19-21 (already processed)
+
+[114/348] ⏭️  Skipping Report from Department of Animal Services dated 3-30-21.pdf (already processed)
+
+[115/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[116/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 8-28-25 (already processed)
+
+[117/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 8-28-25 (already processed)
+
+[118/348] ⏭️  Skipping Report from Department of Building and Safety dated 4-11-25 (already processed)
+
+[119/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 11-03-25 (already processed)
+
+[120/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-28-25 (already processed)
+
+[121/348] ⏭️  Skipping Report from Board of Airport Commissioners dated 8-25-25 (already processed)
+
+[122/348] ⏭️  Skipping Report from Bureau of Engineering dated 10-20-25 (already processed)
+
+[123/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 9-24-35 (already processed)
+
+[124/348] ⏭️  Skipping Report from Housing and Homelessness Committee - 11-5-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[125/348] 📄 Report from Housing Department dated 11-01-24
+   Council File: 23-1134
+   Category: staff_report
+   History ID: fed31250-105e-404e-9f14-772caf0c3cfa
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 10,824,496 bytes
+   🤖 Generating summary...
+   ⏳ Rate limit hit. Waiting 60s before retry 2/3...
+   ⏳ Rate limit hit. Waiting 120s before retry 3/3...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 210 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 200771 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyAuKDBKhqXA5pj7ep5'}
+
+[126/348] ⏭️  Skipping Personnel and Hiring Committee Report 10-24-25 (already processed)
+
+[127/348] ⏭️  Skipping Report from Mayor dated 10-14-25 (already processed)
+
+[128/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-14-25 (already processed)
+
+[129/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[130/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-14-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[131/348] 📄 Attachment to Communication dated 9-03-25 - Staff Report
+   Council File: 25-0987
+   Category: staff_report
+   History ID: 6fe9b7b8-9d79-46c3-9108-81bbf53dfdaf
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 71,510,777 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 1073 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 211507 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyC3qCqWMBE2RNbyz52'}
+
+──────────────────────────────────────────────────────────────────────
+[132/348] 📄 Report from Los Angeles City Planning Commission dated 7-23-25
+   Council File: 25-0987
+   Category: staff_report
+   History ID: a1b8dd43-a211-4c4e-9772-7a7bcdea57e4
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 10,993,029 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 121 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 200079 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyCtMUNAkeMDPGA1pTu'}
+
+[133/348] ⏭️  Skipping Attachment to Report Dated 07-23-25 - Findings (already processed)
+
+[134/348] ⏭️  Skipping Government Operations Committee Report 10-21-25 (already processed)
+
+[135/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[136/348] ⏭️  Skipping Report from Energy and Environment Committee_10-21-25 (already processed)
+
+[137/348] ⏭️  Skipping Report from City Attorney dated 10-07-25 (already processed)
+
+[138/348] ⏭️  Skipping Report from Board of Water and Power Commissioners dated 9-26-25 (already processed)
+
+[139/348] ⏭️  Skipping Report from City Administrative Officer dated 10-14-25 (already processed)
+
+[140/348] ⏭️  Skipping Government Operations Committee Report 9-16-25 (already processed)
+
+[141/348] ⏭️  Skipping Report from Mayor dated 9-11-25.pdf (already processed)
+
+[142/348] ⏭️  Skipping Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25 (already processed)
+
+[143/348] ⏭️  Skipping Report from City Administrative Officer dated 9-24-25 (already processed)
+
+[144/348] ⏭️  Skipping Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 (already processed)
+
+[145/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[146/348] ⏭️  Skipping Report from Mayor dated 10-06-25 (already processed)
+
+[147/348] ⏭️  Skipping Report from Neighborhoods and Community Enrichment Committee_6-5-24 (already processed)
+
+[148/348] ⏭️  Skipping Report from Mayor dated 5-20-24 (already processed)
+
+[149/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[150/348] ⏭️  Skipping Updated Report from Mayor dated 1-13-25 (already processed)
+
+[151/348] ⏭️  Skipping Report from Mayor dated 1-07-25 (already processed)
+
+[152/348] ⏭️  Skipping Report from Board of Airport Commissioners dated 10-20-25 (already processed)
+
+[153/348] ⏭️  Skipping Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_10-17-25 (already processed)
+
+[154/348] ⏭️  Skipping Report from Department of Aging dated 9-30-25 (already processed)
+
+[155/348] ⏭️  Skipping Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_2-3-23c (already processed)
+
+[156/348] ⏭️  Skipping Report from Department of Aging dated 2-15-23.pdf (already processed)
+
+[157/348] ⏭️  Skipping Report from Public Works Committee_9-10-25 (already processed)
+
+[158/348] ⏭️  Skipping Report from Municipal Facilities Committee dated 10-30-25 (already processed)
+
+[159/348] ⏭️  Skipping Joint Report from Housing and Homelessness and Budget and Finance Committees  - 4-1-25 (already processed)
+
+[160/348] ⏭️  Skipping Report from Municipal Facilities Committee dated 3-05-25 (already processed)
+
+[161/348] ⏭️  Skipping Report from City Administrative Officer dated 10-23-25 (already processed)
+
+[162/348] ⏭️  Skipping Joint report from Energy and Environment Committee and Budget and Finance Committee _10-7-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[163/348] 📄 Report from City Administrative Officer dated 9-09-25
+   Council File: 22-0032-S1
+   Category: staff_report
+   History ID: 2877ce0f-7770-4b43-a766-105058f7f99d
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 1,921,024 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 283 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 210598 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyDa4upyLay3jzvCK8s'}
+
+[164/348] ⏭️  Skipping Report from Energy and Environment Committee_10-21-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[165/348] 📄 Report from City Administrative Officer dated 10-16-25
+   Council File: 21-1330
+   Category: staff_report
+   History ID: 26d20a0e-15d1-44d0-9baa-6efe718ec7d6
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 57,800,151 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 136 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+──────────────────────────────────────────────────────────────────────
+[166/348] 📄 Report from City Administrative Officer dated 11-21-24
+   Council File: 21-1330
+   Category: staff_report
+   History ID: 6789ca93-dd1c-4264-98dc-2edbb94d27b4
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 57,540,531 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 130 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[167/348] ⏭️  Skipping Report from Energy and Environment Committee_11-03-23 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[168/348] 📄 Report from City Administrative Officer dated 8-15-23.pdf
+   Council File: 21-1330
+   Category: staff_report
+   History ID: 16989270-b1d6-427d-a269-36b32a8bcea0
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 112,440,767 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 120 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[169/348] ⏭️  Skipping Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[170/348] 📄 Report from City Administrative Officer dated 9-30-22
+   Council File: 21-1330
+   Category: staff_report
+   History ID: a4da8614-79f2-4358-965b-7b2c09066ec2
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 5,631,404 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 111 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 205610 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyGB5PTzvcXXa4XK5S2'}
+
+──────────────────────────────────────────────────────────────────────
+[171/348] 📄 Report from City Administrative Officer dated 11-02-21.pdf
+   Council File: 21-1330
+   Category: staff_report
+   History ID: 9ed99d3e-0427-4682-b03b-a5fb7f650239
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 62,668,708 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 102 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[172/348] ⏭️  Skipping Report from Public Works Committee 8-13-25 (already processed)
+
+[173/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[174/348] ⏭️  Skipping Report from Energy and Environment Committee_10-21-25 (already processed)
+
+[175/348] ⏭️  Skipping Report from Public Works Committee_9-10-25 (already processed)
+
+[176/348] ⏭️  Skipping Report from Housing and Homelessness Committee - 11-5-25 (already processed)
+
+[177/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-22-25 (already processed)
+
+[178/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 9-10-25 (already processed)
+
+[179/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[180/348] ⏭️  Skipping Report from Department of City Planning dated 10-23-25 - Supplemental Transmittal (already processed)
+
+[181/348] ⏭️  Skipping Report from North Valley Area Planning Commission dated 9-16-25 (already processed)
+
+[182/348] ⏭️  Skipping Attachment to Report dated 9-16-25 - T Conditions (already processed)
+
+[183/348] ⏭️  Skipping Attachment to Report dated 9-16-25 - Findings (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[184/348] 📄 Attachment to Report dated 9-16-25 - Staff Report
+   Council File: 25-1084
+   Category: staff_report
+   History ID: 83549ee0-b127-44f0-b926-9f51cfb6435f
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 26,171,162 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 70 of 70 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[185/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[186/348] ⏭️  Skipping Report from Department of City Planning dated 10-23-25 - Supplemental Transmittal (already processed)
+
+[187/348] ⏭️  Skipping Report from North Valley Area Planning Commission dated 9-16-25 (already processed)
+
+[188/348] ⏭️  Skipping Attachment to Report dated 9-16-25 - T Conditions (already processed)
+
+[189/348] ⏭️  Skipping Attachment to Report dated 9-16-25 - Findings (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[190/348] 📄 Attachment to Report dated 9-16-25 - Staff Report
+   Council File: 25-1084
+   Category: staff_report
+   History ID: 9b1fe1e3-d0dd-4271-8e55-b6c17f5c5158
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 26,171,162 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 70 of 70 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[191/348] ⏭️  Skipping Report from Budget and Finance Committee_11-04-25 (already processed)
+
+[192/348] ⏭️  Skipping Report from City Attorney dated 10-15-25 (already processed)
+
+[193/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 11-03-25 (already processed)
+
+[194/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[195/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 9-17-25 (already processed)
+
+[196/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[197/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[198/348] ⏭️  Skipping Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 (already processed)
+
+[199/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 10-20-25 (already processed)
+
+[200/348] ⏭️  Skipping Personnel and Hiring Committee Report 10-24-25 (already processed)
+
+[201/348] ⏭️  Skipping Report from City Administrative Officer dated 10-10-25 (already processed)
+
+[202/348] ⏭️  Skipping Personnel and Hiring Committee Report 6-18-25 (already processed)
+
+[203/348] ⏭️  Skipping Report from City Administrative Officer dated 6-02-25 (already processed)
+
+[204/348] ⏭️  Skipping Report from Personnel, Audits, and Hiring Committee 7-02-24 (already processed)
+
+[205/348] ⏭️  Skipping Report from City Administrative Officer dated 6-27-24 (already processed)
+
+[206/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 11-03-25 (already processed)
+
+[207/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[208/348] ⏭️  Skipping Report from Board of Recreation and Park Commissioners  dated 10-16-25 (already processed)
+
+[209/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[210/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[211/348] ⏭️  Skipping Report from Department of City Planning dated 10-24-25 (already processed)
+
+[212/348] ⏭️  Skipping Report from Los Angeles City Planning Commission dated 8-18-25 (already processed)
+
+[213/348] ⏭️  Skipping Attachment to Report Dated 8-18-25 - Amended Findings.pdf (already processed)
+
+[214/348] ⏭️  Skipping Attachment to Report Dated 8-18-25 - Modified Conditions of Approval.pdf (already processed)
+
+[215/348] ⏭️  Skipping Attachment to Report Dated 8-18-25 - T Conditions.pdf (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[216/348] 📄 Attachment to Report Dated 8-18-25 - Staff Report.pdf
+   Council File: 25-1009
+   Category: staff_report
+   History ID: e5738d65-7208-4a7a-a060-3f35857d7210
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 38,262,769 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 305 pages
+   ✅ Summary generated
+   💰 Cost: $0.1964 (193,911 in, 501 out)
+
+[217/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-28-25 (already processed)
+
+[218/348] ⏭️  Skipping Report from Board of Harbor Commissioners dated 10-17-25 (already processed)
+
+[219/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[220/348] ⏭️  Skipping Report from Bureau of Sanitation dated 12-19-24 (already processed)
+
+[221/348] ⏭️  Skipping Report from Public Works Committee_8-14-24 (already processed)
+
+[222/348] ⏭️  Skipping Report from Budget and Finance Committee dated 10-21-25 (already processed)
+
+[223/348] ⏭️  Skipping Trade, Travel and Tourism Committee Report 10-14-25 (already processed)
+
+[224/348] ⏭️  Skipping Report from Board of Harbor Commissioners dated  10-03-25 (already processed)
+
+[225/348] ⏭️  Skipping Report from Trade, Travel, and Tourism Committee 08_25_2017 (already processed)
+
+[226/348] ⏭️  Skipping Report from Board of Harbor Commissioners 07_26_2017 (already processed)
+
+[227/348] ⏭️  Skipping Report from Trade, Commerce and Tourism Committee 05_12_2015 (already processed)
+
+[228/348] ⏭️  Skipping Report from Board of Harbor Commissioners 05_07_2015 (already processed)
+
+[229/348] ⏭️  Skipping Report from Trade, Commerce and Tourism Committee 09_23_2014 (already processed)
+
+[230/348] ⏭️  Skipping Report from Board of Harbor Commissioners (1 of 2) 09_16_2014 (already processed)
+
+[231/348] ⏭️  Skipping Report from Trade, Commerce and Tourism Committee 03_22_2012 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[232/348] 📄 Report from Board of Harbor Commissioners 03_02_2012
+   Council File: 12-0344
+   Category: staff_report
+   History ID: 12292e01-2f49-4320-8667-38a7cdb540c9
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 6,824,318 bytes
+   🤖 Generating summary...
+   ⏳ Rate limit hit. Waiting 60s before retry 2/3...
+   ⏳ Rate limit hit. Waiting 120s before retry 3/3...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 92 of 92 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 205352 tokens > 200000 maximum'}, 'request_id': 'req_011CVEybrraSpL4YmPBpeYRV'}
+
+[233/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 9-17-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[234/348] 📄 Report from Bureaus of Engineering, Street Services, and Contract Administration 10-22-25
+   Council File: 20-0504
+   Category: staff_report
+   History ID: a37a7951-543a-44a2-adab-97e09f061ab0
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 26,600,816 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 33 of 33 pages
+   ❌ Error: Error code: 413 - {'error': {'type': 'request_too_large', 'message': 'Request exceeds the maximum size'}}
+
+[235/348] ⏭️  Skipping Report from Transportation Committee 05_22_2020 (already processed)
+
+[236/348] ⏭️  Skipping Report from Department of Transportation 04_24_2020 (already processed)
+
+[237/348] ⏭️  Skipping Report from Los Angeles Department of Transportation dated 5-12-21 (already processed)
+
+[238/348] ⏭️  Skipping Report from Department of Transportation 05_12_2021 (already processed)
+
+[239/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[240/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-14-25 (already processed)
+
+[241/348] ⏭️  Skipping Report from Board of Harbor Commissioners dated 10-02-25 (already processed)
+
+[242/348] ⏭️  Skipping Report from City Attorney dated 10-06-25 (already processed)
+
+[243/348] ⏭️  Skipping Revised Report from City Attorney dated 10-21-25 (already processed)
+
+[244/348] ⏭️  Skipping Report from City Attorney dated 6-04-25 (already processed)
+
+[245/348] ⏭️  Skipping Report from Bureau of Street Lighting dated 9-17-25 (already processed)
+
+[246/348] ⏭️  Skipping Report from Trade, Travel and Tourism Committee 10-14-25 (already processed)
+
+[247/348] ⏭️  Skipping Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25 (already processed)
+
+[248/348] ⏭️  Skipping Report from Trade, Travel, and Tourism Committee_02-7-23 (already processed)
+
+[249/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[250/348] ⏭️  Skipping Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_10-17-25 (already processed)
+
+[251/348] ⏭️  Skipping Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[252/348] 📄 Report from Board of Public Works dated 9-22-25
+   Council File: 23-0494-S2
+   Category: staff_report
+   History ID: 3de0bef4-c306-4f55-be5c-bae89470d140
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 35,110,268 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 399 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 200536 tokens > 200000 maximum'}, 'request_id': 'req_011CVEycXBBCbyU5GtxBJKmi'}
+
+[253/348] ⏭️  Skipping Report from City Attorney dated 10-16-25 (already processed)
+
+[254/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[255/348] ⏭️  Skipping Report from Bureau of Engineering dated 11-29-22 (already processed)
+
+[256/348] ⏭️  Skipping Report from Public Works and Gang Reduction Committee 08_28_2014 (already processed)
+
+[257/348] ⏭️  Skipping Report from Public Works Engineering (1 of 2) 07_16_2014 (already processed)
+
+[258/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[259/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[260/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[261/348] ⏭️  Skipping Report from Mayor dated 9-29-25 (already processed)
+
+[262/348] ⏭️  Skipping Revised Report from City Attorney dated 10-15-25 (already processed)
+
+[263/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[264/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[265/348] ⏭️  Skipping Report from Board of Recreation and Park Commissioners dated 8-07-25 (already processed)
+
+[266/348] ⏭️  Skipping Joint Government Operations and Energy and Environment Committee Report 10-21-25 (already processed)
+
+[267/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 11-04-25 (already processed)
+
+[268/348] ⏭️  Skipping Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 (already processed)
+
+[269/348] ⏭️  Skipping Report from Chief Legislative Analyst dated 10-20-25 (already processed)
+
+[270/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[271/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[272/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-16-25 (already processed)
+
+[273/348] ⏭️  Skipping Report from Bureau of Engineering dated 10-24-25 (already processed)
+
+[274/348] ⏭️  Skipping Report from Housing and Homelessness Committee - 11-5-25 (already processed)
+
+[275/348] ⏭️  Skipping Report from Housing and Homelessness Committee_10-2-24 (already processed)
+
+──────────────────────────────────────────────────────────────────────
+[276/348] 📄 Report from City Administrative Officer dated 9-26-24
+   Council File: 21-0748
+   Category: staff_report
+   History ID: badf0495-58fb-4f97-a5ba-20dbaf773982
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 5,865,803 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 336 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 201277 tokens > 200000 maximum'}, 'request_id': 'req_011CVEydSSwS7zZHPykWBdUa'}
+
+──────────────────────────────────────────────────────────────────────
+[277/348] 📄 Report from Los Angeles Housing Department dated 9-16-24
+   Council File: 21-0748
+   Category: staff_report
+   History ID: 31645a60-1928-421b-acd1-30eacb462a25
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 7,352,057 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 345 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 200722 tokens > 200000 maximum'}, 'request_id': 'req_011CVEye2Dh3ztfcMhZiUv7o'}
+
+──────────────────────────────────────────────────────────────────────
+[278/348] 📄 Report from City Administrative Officer dated 5-04-22.pdf
+   Council File: 21-0748
+   Category: staff_report
+   History ID: b90001c2-a60c-4df9-8822-838fa5915623
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 1,630,145 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 349 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 202685 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyeboY3noXRpy65N24i'}
+
+──────────────────────────────────────────────────────────────────────
+[279/348] 📄 Report from Los Angeles Housing Department dated 4-12-22.pdf
+   Council File: 21-0748
+   Category: staff_report
+   History ID: 80aaf66d-b958-409c-ae8f-276a2ef2da8c
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 2,045,812 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 352 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 202514 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyf4o1HdjfxsMJGWgFx'}
+
+──────────────────────────────────────────────────────────────────────
+[280/348] 📄 Report from Los Angeles Housing Department dated 10-22-25
+   Council File: 21-0748
+   Category: staff_report
+   History ID: 16308081-8aec-40f9-a4b8-e0aea89728d0
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 6,164,861 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 344 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 200925 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyfW8Fi1BE9Wyaw66tW'}
+
+──────────────────────────────────────────────────────────────────────
+[281/348] 📄 Report from City Administrative Officer dated 10-29-25
+   Council File: 21-0748
+   Category: staff_report
+   History ID: dbb1c5ae-18bf-46f2-9a1b-28bd7862a6c4
+──────────────────────────────────────────────────────────────────────
+   ⬇️  Downloading...
+   ✅ Downloaded 6,459,771 bytes
+   🤖 Generating summary...
+   ⚠️  PDF too large (Error code)
+   🔄 Retrying with first 100 pages extracted...
+   📑 Extracted 100 of 348 pages
+   ❌ Error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'prompt is too long: 201077 tokens > 200000 maximum'}, 'request_id': 'req_011CVEyg2kVxRa9z4wCjVZK5'}
+
+[282/348] ⏭️  Skipping Report from Board of Public Works dated 11-10-25 (already processed)
+
+[283/348] ⏭️  Skipping Report from City Attorney dated 9-25-25 (already processed)
+
+[284/348] ⏭️  Skipping Report from Government Efficiency, Innovation, and Audits Committee 10-17-25 (already processed)
+
+[285/348] ⏭️  Skipping Report from City Administrative Officer dated 4-08-25 (already processed)
+
+[286/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[287/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[288/348] ⏭️  Skipping Report from Public Works Committee_3-23-22 (already processed)
+
+[289/348] ⏭️  Skipping Report from Bureau of Engineering dated 11-24-21 (already processed)
+
+[290/348] ⏭️  Skipping Report from Bureau of Engineering dated 5-18-21.pdf (already processed)
+
+[291/348] ⏭️  Skipping Report from Bureau of Engineering dated 10-30-25 (already processed)
+
+[292/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-14-25 (already processed)
+
+[293/348] ⏭️  Skipping Government Operations Committee Report 10-21-25 (already processed)
+
+[294/348] ⏭️  Skipping Report from Information Technology Agency dated 7-15-25 (already processed)
+
+[295/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[296/348] ⏭️  Skipping Report from Mayor dated 10-06-25 (already processed)
+
+[297/348] ⏭️  Skipping Report from Neighborhoods and Community Enrichment Committee_04-03-24 (already processed)
+
+[298/348] ⏭️  Skipping Report from Mayor dated 3-06-24 (already processed)
+
+[299/348] ⏭️  Skipping Report from City Attorney dated 7-30-25 (already processed)
+
+[300/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[301/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-24-25 (already processed)
+
+[302/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[303/348] ⏭️  Skipping Report from Los Angeles City Planning Commission dated 9-17-25 (already processed)
+
+[304/348] ⏭️  Skipping Attachment to Report dated 9-17-25 - T Conditions (already processed)
+
+[305/348] ⏭️  Skipping Attachment to Report dated 9-17-25 - Findings (already processed)
+
+[306/348] ⏭️  Skipping Attachment to Report dated 9-17-25 - Staff Report (already processed)
+
+[307/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[308/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[309/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-24-25 (already processed)
+
+[310/348] ⏭️  Skipping Report from City Attorney dated 9-18-25 (already processed)
+
+[311/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[312/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[313/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee_10-28-25 (already processed)
+
+[314/348] ⏭️  Skipping Report from Zoo Department dated 10-21-25 (already processed)
+
+[315/348] ⏭️  Skipping Report from City Attorney dated 7-16-25 (already processed)
+
+[316/348] ⏭️  Skipping Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25 (already processed)
+
+[317/348] ⏭️  Skipping Report from the Mayor dated 10-06-25 (already processed)
+
+[318/348] ⏭️  Skipping Report from Neighborhoods and Community Enrichment Committee_04-03-24 (already processed)
+
+[319/348] ⏭️  Skipping Report from Mayor dated 3-06-24 (already processed)
+
+[320/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[321/348] ⏭️  Skipping Report from Bureau of Engineering dated 7-21-25 (already processed)
+
+[322/348] ⏭️  Skipping Report from Public Works Committee_10-22-25 (already processed)
+
+[323/348] ⏭️  Skipping Report from Board of Public Works dated 5-22-25 (already processed)
+
+[324/348] ⏭️  Skipping Report from Public Safety Committee and Budget and Finance Committee 10-21-25 (already processed)
+
+[325/348] ⏭️  Skipping Report from Board of Fire Commissioners dated 9-03-25 (already processed)
+
+[326/348] ⏭️  Skipping Report from City Attorney dated 10-31-25 (already processed)
+
+[327/348] ⏭️  Skipping Personnel and Hiring Committee Report 10-24-25 (already processed)
+
+[328/348] ⏭️  Skipping Report from Mayor dated 9-23-25 (already processed)
+
+[329/348] ⏭️  Skipping Report from Los Angeles City Employees Retirement Services dated 8-27-25 (already processed)
+
+[330/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[331/348] ⏭️  Skipping Report from Planning and Land Use Management Committee_10-28-25 (already processed)
+
+[332/348] ⏭️  Skipping Report from Cultural Heritage Commission dated 9-23-25 (already processed)
+
+[333/348] ⏭️  Skipping Attachment to Report dated 9-23-25 - Findings (already processed)
+
+[334/348] ⏭️  Skipping Attachment to Report dated 9-23-25 - Staff Report (already processed)
+
+[335/348] ⏭️  Skipping Report from Transportation Committee 10-22-25 (already processed)
+
+[336/348] ⏭️  Skipping Report from Board of Transportation Commissioners dated 9-23-25 (already processed)
+
+[337/348] ⏭️  Skipping Joint Report from Public Works and Transportation Committees 10-22-25 (already processed)
+
+[338/348] ⏭️  Skipping Report from City Attorney dated 10-22-25 (already processed)
+
+[339/348] ⏭️  Skipping Government Operations Committee Report 11-4-25 (already processed)
+
+[340/348] ⏭️  Skipping Report from Los Angeles Housing Department dated 10-16-25 (already processed)
+
+[341/348] ⏭️  Skipping Report from City Attorney dated 10-09-25 (already processed)
+
+[342/348] ⏭️  Skipping Report from Trade, Travel and Tourism Commitee 10-14-25 (already processed)
+
+[343/348] ⏭️  Skipping Report from Board of Harbor Commissioners dated 10-03-25 (already processed)
+
+[344/348] ⏭️  Skipping Report from Board of Harbor Commissioners dated 3-15-22 (already processed)
+
+[345/348] ⏭️  Skipping Report from Trade, Travel, and Tourism Committee 08_25_2017 (already processed)
+
+[346/348] ⏭️  Skipping Report from Board of Harbor Commissioners 07_26_2017 (already processed)
+
+[347/348] ⏭️  Skipping Report from Board of Harbor Commissioners 04_02_2013 (already processed)
+
+[348/348] ⏭️  Skipping Report from Board of Harbor Commissioners 03_19_2013 (already processed)
+
+======================================================================
+✅ Stage 1 Complete
+   Processed: 2 documents
+   Failed: 25 documents
+   Total cost: $0.3730
+======================================================================
