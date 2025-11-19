@@ -15,6 +15,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 AGENDAS_DIR = Path("data/agendas")
 TEMPLATES_DIR = Path("templates")
 OUTPUT_DIR = Path("site/meetings")
+VIDEO_SUMMARIES_DIR = Path("data/video_summaries")
 RECENT_MEETINGS_FILE = Path("recent_meetings.json")
 SITE_CONFIG_FILE = Path("site_config.json")
 
@@ -53,6 +54,19 @@ def load_meeting_metadata(meeting_id):
 
     return None
 
+def load_video_summary(meeting_id):
+    """Load video summary for a meeting if available."""
+    summary_file = VIDEO_SUMMARIES_DIR / f"meeting_{meeting_id}_summary.json"
+    if not summary_file.exists():
+        return None
+
+    try:
+        with open(summary_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Warning: Failed to load video summary for meeting {meeting_id}: {e}")
+        return None
+
 def format_meeting_date(date_str):
     """Format meeting date from ISO format to readable format."""
     if not date_str:
@@ -64,6 +78,28 @@ def format_meeting_date(date_str):
         return dt.strftime("%B %d, %Y at %I:%M %p")
     except:
         return date_str
+
+def improve_section_title(title):
+    """
+    Convert bureaucratic section titles to clearer, more readable titles.
+
+    Args:
+        title: Original section title from agenda
+
+    Returns:
+        Improved, more readable title
+    """
+    # Mapping of common bureaucratic titles to clearer alternatives
+    title_improvements = {
+        "Items for which Public Hearings Have Been Held": "Public Hearing Items",
+        "Closed Session": "Closed Session Items",
+        "Commendatory Resolutions, Introductions and Presentations": "Commendations and Presentations",
+        "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public Comment",
+        "Multiple Agenda Item Comment": "General Public Comment",
+    }
+
+    # Return improved title if available, otherwise return original
+    return title_improvements.get(title, title)
 
 def generate_meeting_page(meeting_id):
     """Generate HTML page for a single meeting."""
@@ -97,20 +133,32 @@ def generate_meeting_page(meeting_id):
         date_value = metadata.get('dateTime') or metadata.get('meetingDate')
         context['meeting_date'] = format_meeting_date(date_value)
 
-        # Look for video URL in metadata
-        video_url = metadata.get('videoUrl') or metadata.get('video_url')
+        # Look for video URL in metadata first, then in agenda
+        video_url = metadata.get('videoUrl') or metadata.get('video_url') or agenda.get('video_url')
         if video_url:
             context['video_url'] = video_url
     else:
         # Fallback if metadata not found
         context['meeting_title'] = f'City Council Meeting {meeting_id}'
         context['meeting_date'] = 'Date TBD'
+        # Check for video in agenda even without metadata
+        video_url = agenda.get('video_url')
+        if video_url:
+            context['video_url'] = video_url
+
+    # Load video summary if available
+    video_summary_data = load_video_summary(meeting_id)
+    if video_summary_data:
+        context['video_summary'] = video_summary_data.get('summary')
 
     # Set up Jinja2 environment
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
         autoescape=select_autoescape(['html', 'xml'])
     )
+
+    # Add custom filters
+    env.filters['improve_section_title'] = improve_section_title
 
     # Load template
     template = env.get_template('meeting.html')

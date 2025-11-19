@@ -1,7 +1,7 @@
 {
   "meeting_id": 17477,
   "template_id": 147583,
-  "parsed_at": "2025-11-15T18:39:11.001675",
+  "parsed_at": "2025-11-19T13:26:14.458807",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147583",
   "sections": [
     {
@@ -37,9 +37,9 @@
           "item_id": "156254",
           "item_number": "(1)",
           "has_attachments": true,
-          "raw_text": "25-1060\nPERSONNEL AND HIRING COMMITTEE REPORT relative to the LAwell Program Employee Benefits Trust Fund review for Fiscal Year (FY) 2024-25.\nRecommendation for Council action:\nNOTE and FILE the August 7, 2025 LAwell Program Employee Benefits Trust Fund review for FY 2024-25.\nFiscal Impact Statement:\nNot applicable.\nCommunity Impact Statement:\nNone submitted.\nPersonnel and Hiring Committee Report 10-24-25\nReport from Personnel Department dated 8-07-25",
+          "raw_text": "25-1060\nPERSONNEL AND HIRING COMMITTEE REPORT relative to\u00a0the LAwell Program Employee Benefits Trust Fund review for Fiscal Year (FY) 2024-25.\nRecommendation for Council action:\nNOTE and FILE the August 7, 2025\u00a0LAwell Program Employee Benefits Trust Fund review for FY 2024-25.\nFiscal Impact Statement:\nNot applicable.\nCommunity Impact Statement:\nNone submitted.\nPersonnel and Hiring Committee Report 10-24-25\nReport from Personnel Department dated 8-07-25",
           "council_file": "25-1060",
-          "title": "PERSONNEL AND HIRING COMMITTEE REPORT relative to the LAwell Program Employee Benefits Trust Fund review for Fiscal Year (FY) 2024-25.",
+          "title": "PERSONNEL AND HIRING COMMITTEE REPORT relative to\u00a0the LAwell Program Employee Benefits Trust Fund review for Fiscal Year (FY) 2024-25.",
           "recommendation": "NOTE and FILE the August 7, 2025 LAwell Program Employee Benefits Trust Fund review for FY 2024-25. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Personnel and Hiring Committee Report 10-24-25 Report from Personnel Department dated 8-07-25",
           "video_location": "2820",
           "mig": "846bb921-aa8b-445c-8cc1-d2011d954c6d",
@@ -205,10 +205,10 @@
           "item_id": "156427",
           "item_number": "(4)",
           "has_attachments": true,
-          "raw_text": "25-1294\nCD 14\nCONSIDERATION OF MOTION (JURADO – RAMAN) relative to the sale, change of ownership, and execution of new or amended loan agreements/terms for the Manitou Vistas I located at 3420 Manitou Avenue and Manitou Vistas II located at 3414 Manitou Avenue, both in Council District 14.\n(Housing and Homelessness Committee report to be submitted in Council. If public hearing is not held in Committee, an opportunity for public comment will be provided.)\n(Please visit\nwww.lacouncilfile.com\nfor background documents.)\nCommunity Impact Statement:\nNone submitted\nMotion (Jurado - Raman) dated 10-31-25.pdf",
+          "raw_text": "25-1294\nCD 14\nCONSIDERATION OF MOTION (JURADO \u2013\u00a0RAMAN) relative to the sale, change of ownership, and execution of new or amended loan agreements/terms for the Manitou Vistas I located at 3420 Manitou Avenue and Manitou Vistas II located at 3414 Manitou Avenue, both in Council District 14.\n(Housing and Homelessness Committee report to be submitted in Council. If public hearing is not held in Committee, an opportunity for public comment will be provided.)\n(Please visit\nwww.lacouncilfile.com\nfor background documents.)\nCommunity Impact Statement:\nNone submitted\nMotion (Jurado - Raman) dated 10-31-25.pdf",
           "council_file": "25-1294",
           "district": "CD 14",
-          "title": "CONSIDERATION OF MOTION (JURADO – RAMAN) relative to the sale, change of ownership, and execution of new or amended loan agreements/terms for the Manitou Vistas I located at 3420 Manitou Avenue and Manitou Vistas II located at 3414 Manitou Avenue, both in Council District 14.",
+          "title": "CONSIDERATION OF MOTION (JURADO \u2013\u00a0RAMAN) relative to the sale, change of ownership, and execution of new or amended loan agreements/terms for the Manitou Vistas I located at 3420 Manitou Avenue and Manitou Vistas II located at 3414 Manitou Avenue, both in Council District 14.",
           "video_location": "9925",
           "mig": "d2e4f104-c252-47b5-b304-d409b18d1cbb",
           "attachments": [
@@ -255,5 +255,6 @@
     }
   ],
   "total_items": 4,
-  "total_sections": 11
+  "total_sections": 11,
+  "video_url": "https://www.youtube.com/watch?v=DghCaNqU5GE"
 }

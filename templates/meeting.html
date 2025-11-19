@@ -68,6 +68,28 @@
             color: #fff;
         }
 
+        .video-summary {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .video-summary h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .video-summary-content {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
         .section {
             margin-bottom: 2rem;
         }
@@ -128,6 +150,13 @@
         .tag.council-file {
             background: #e3f2fd;
             color: #1565c0;
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .tag.council-file:hover {
+            background: #1565c0;
+            color: #fff;
         }
 
         .tag.district {
@@ -244,18 +273,25 @@
     </header>
 
     <main class="container">
-        {% for section in sections %}
-        <section class="section">
-            <h2 class="section-title">{{ section.title }}</h2>
+        {% if video_summary %}
+        <div class="video-summary">
+            <h2>📺 Meeting Summary</h2>
+            <div class="video-summary-content">{{ video_summary }}</div>
+        </div>
+        {% endif %}
 
-            {% if section['items'] %}
-                {% for item in section['items'] %}
+        {% for section in sections %}
+        {% if section['items'] %}
+        <section class="section">
+            <h2 class="section-title">{{ section.title | improve_section_title }}</h2>
+
+            {% for item in section['items'] %}
                 <article class="item-card">
                     <div class="item-header">
                         <span class="item-number">{{ item.item_number }}</span>
                         <div class="item-tags">
                             {% if item.council_file %}
-                            <span class="tag council-file">{{ item.council_file }}</span>
+                            <a href="../councilfiles/{{ item.council_file }}.html" class="tag council-file">{{ item.council_file }}</a>
                             {% endif %}
                             {% if item.district %}
                             <span class="tag district">{{ item.district }}</span>
@@ -289,10 +325,8 @@
                     {% endif %}
                 </article>
                 {% endfor %}
-            {% else %}
-                <div class="empty-section">No agenda items in this section</div>
-            {% endif %}
         </section>
+        {% endif %}
         {% endfor %}
     </main>
 

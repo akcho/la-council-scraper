@@ -40,7 +40,10 @@ class AgendaParser:
         sections = self._parse_sections()
         total_items = sum(len(section['items']) for section in sections)
 
-        return {
+        # Extract video URL if available
+        video_url = self._extract_video_url()
+
+        result = {
             'meeting_id': self.meeting_id,
             'template_id': self.template_id,
             'parsed_at': datetime.now().isoformat(),
@@ -49,6 +52,11 @@ class AgendaParser:
             'total_items': total_items,
             'total_sections': len(sections)
         }
+
+        if video_url:
+            result['video_url'] = video_url
+
+        return result
 
     def _parse_sections(self) -> List[Dict]:
         """Parse all sections from the HTML."""
@@ -223,6 +231,26 @@ class AgendaParser:
             })
 
         return attachments
+
+    def _extract_video_url(self) -> Optional[str]:
+        """Extract YouTube video URL from embedded JavaScript."""
+        # Find all script tags
+        scripts = self.soup.find_all('script')
+
+        for script in scripts:
+            script_text = script.string
+            if not script_text:
+                continue
+
+            # Look for: var videoUrl = "DOToW8i10KE";
+            match = re.search(r'var\s+videoUrl\s*=\s*"([^"]+)"', script_text)
+            if match:
+                video_id = match.group(1)
+                # Only return if it's not empty
+                if video_id and video_id.strip():
+                    return f"https://www.youtube.com/watch?v={video_id}"
+
+        return None
 
 
 def parse_agenda_file(html_file: str, meeting_id: int, template_id: int, output_file: str = None) -> Dict:

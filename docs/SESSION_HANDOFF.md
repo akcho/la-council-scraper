@@ -1,29 +1,156 @@
 # Session Handoff - Council File Pivot Project
 
-**Date:** 2025-11-18 (Updated)
-**Status:** Stage 1 COMPLETE ✅ - Ready for Stage 2
+**Date:** 2025-11-19 (Updated - UX Improvements Session)
+**Status:** UX Improvements COMPLETE ✅ - Video Summaries Added
 
 ---
 
-## 🟢 NEXT: Run Stage 2 Sampling
+## 🟢 COMPLETED: UX Improvements & Video Integration
 
-**Current state:** Stage 1 complete with 93.7% coverage (326/348 documents)
+**Current state:**
+- ✅ Stage 1 & 2: 471 PDF summaries generated
+- ✅ Meeting pages: Improved section headers, video links, and AI summaries
+- ✅ Video summaries: 7/7 meetings have YouTube video summaries
+- ✅ All HTML pages regenerated with improvements
+- 🟡 Optional: Run Stage 3 PDF processing (~420 docs, ~$2.40)
+- 🟢 Future: Architecture refactor when scale demands (see ARCHITECTURE_REFACTOR.md)
 
-**Action needed:**
-1. ✅ COMPLETE: Stage 1 processed with page extraction
-2. ✅ COMPLETE: Assessed remaining 22 failures (accepted as edge cases)
-3. 🔴 NEXT: Run Stage 2 - Sample 150 "other" documents (~$0.87)
-4. Regenerate council file aggregations with all summaries
-5. Update HTML pages with improved document display
+**What was completed this session:**
+1. ✅ Improved section header clarity (see below)
+2. ✅ Extracted YouTube video URLs from all meetings
+3. ✅ Generated AI summaries for all 7 meeting videos
+4. ✅ Added video summary display to meeting pages
 
 **Resume command:**
 ```
-Run Stage 2 PDF processing to sample "other" documents. Read docs/SESSION_HANDOFF.md for current state.
+Read docs/SESSION_HANDOFF.md for current state. Ready for Stage 3 PDF processing or other improvements.
 ```
 
 ---
 
-## What We Just Completed
+## 📋 Architecture Refactor (Deferred)
+
+**Status:** Documented but NOT urgent for MVP
+
+**Rationale for deferring:**
+- Current scale (7 meetings) works fine with static HTML
+- MVP priority: Ship and get user feedback
+- Refactor when we hit ~30-50 meetings OR performance issues
+- Plan documented in [ARCHITECTURE_REFACTOR.md](ARCHITECTURE_REFACTOR.md) for future reference
+
+**Current focus:** UX improvements within existing architecture
+
+---
+
+## What We Just Completed (2025-11-19 UX Session)
+
+### ✅ UX Improvements & Video Integration (COMPLETE)
+
+**Session focus:** Meeting page improvements and video summarization
+
+**Changes made:**
+
+1. **Improved Section Headers** (generate_site.py:68-88)
+   - Added `improve_section_title()` function to convert bureaucratic titles to clear language
+   - Examples:
+     - "Items for which Public Hearings Have Been Held" → "Public Hearing Items"
+     - "Closed Session" → "Closed Session Items"
+     - "Public Testimony of Non-agenda Items..." → "Public Comment"
+   - Made available as Jinja2 filter in template
+
+2. **YouTube Video Discovery** (parse_agenda.py:227-245)
+   - Added `_extract_video_url()` method to extract YouTube video IDs from JavaScript
+   - Searches for: `var videoUrl = "DOToW8i10KE"` pattern
+   - Re-parsed all 7 meetings - all have videos!
+   - Updated generate_site.py to use video URLs from agenda data
+
+3. **Video Summarization System** (NEW: generate_video_summaries.py)
+   - Created automated video summary generation script
+   - Downloads YouTube transcripts using yt-dlp
+   - Generates AI summaries using Claude (via existing summarize_meeting.py)
+   - Handles rate limits with 60-second delays between requests
+   - Resume capability - skips already-processed videos
+   - **Result:** 7/7 meetings successfully summarized (~$0.70 cost)
+
+4. **Video Summary Display** (templates/meeting.html:71-91, 276-281)
+   - Added CSS styling for video summary boxes
+   - Summary appears prominently at top of each meeting page
+   - Shows key decisions, notable discussions, and bottom line
+
+**Files created:**
+- `generate_video_summaries.py` - Video transcript download and summarization
+- `data/video_summaries/meeting_*.json` - 7 summary files
+
+**Files modified:**
+- `parse_agenda.py` - Added video URL extraction
+- `generate_site.py` - Added video summary loading and title improvement
+- `templates/meeting.html` - Added video summary display section
+
+**Data generated:**
+- 7 video summaries in `data/video_summaries/`
+- All agenda JSONs updated with `video_url` field
+- All meeting HTML pages regenerated with summaries
+
+---
+
+## Previous Completions
+
+### ✅ Stage 2 PDF Processing (COMPLETE - Earlier Session)
+
+Processed 150 random "other" documents to assess value:
+
+**Results:**
+- ✅ Processed: **145 documents successfully (96.7%)**
+- ❌ Failed: 5 documents (extremely large PDFs >200k tokens)
+- 💰 Cost: $1.62 (higher than estimated $0.87, but reasonable)
+- 📊 Total summaries now: **471** (326 from Stage 1 + 145 from Stage 2)
+
+**Content discovered:**
+- Public communications from residents, advocacy groups
+- Motions and resolutions from councilmembers
+- Council actions and procedural documents
+- Amendments, transmittals, and notices
+- Board resolutions and agreements
+
+**Decision:** "Other" category contains valuable content - Stage 3 recommended if budget allows
+
+### ✅ Data Aggregation & HTML Regeneration (COMPLETE)
+
+Regenerated all pages with Stage 2 summaries:
+
+**Updated:**
+- 170/194 council files now have AI summaries (87.6%)
+- 471 documents with summaries (46.6% of all attachments)
+- All HTML pages regenerated with new summaries
+
+**UX Improvements:**
+- Meeting pages now link council file numbers (clickable tags)
+- Empty meeting sections hidden (Roll Call, Approval of Minutes, etc.)
+- Council file pages show rich document summaries
+- Better coverage of public input and councilmember actions
+
+### ✅ Architecture Planning (COMPLETE)
+
+Created comprehensive refactor plan:
+
+**Documented in:** [docs/ARCHITECTURE_REFACTOR.md](ARCHITECTURE_REFACTOR.md)
+
+**Key decisions:**
+- Move to JSON API + client-side rendering (not static HTML)
+- Use vanilla JavaScript (no framework overhead)
+- Single external CSS file (cached across pages)
+- Lazy-load summaries on demand
+- Support filtering, sorting, pagination
+
+**Rationale:**
+- Current approach creates 95KB HTML files that will balloon
+- Duplicate CSS in every file wastes bandwidth
+- Can't scale past ~50 meetings without performance issues
+- Need client-side interactivity for better UX
+
+---
+
+## Previous Completion: Stage 1 PDF Processing
 
 ### ✅ Stage 1 PDF Processing (COMPLETE)
 
@@ -112,55 +239,40 @@ site/
 - **Council files:** 194 total
 - **Meetings:** 7 agendas parsed
 - **Attachments:** 1,010 total
-  - High-value (Stage 1): 348 documents ✅ **326 processed (93.7%)**, 22 failed (edge cases)
+  - High-value (Stage 1): 348 documents → **326 processed (93.7%)** ✅
   - Low-value (skipped): 89 documents
-  - Other (Stage 2): 570 documents (150 to sample) 🔴 **NEXT**
-- **PDF summaries:** 326 generated ✅
-- **HTML pages:** 195 generated (194 files + 1 index) - NEED TO REGENERATE
-- **Cost so far:** ~$2.15
+  - Other (Stage 2): 570 documents → **145 sampled (96.7%)** ✅
+  - Other (Stage 3): ~420 remaining 🔴 **OPTIONAL**
+- **PDF summaries:** 471 generated ✅
+- **Video summaries:** 7/7 meetings (100%) ✅
+- **HTML pages:** 195 generated (194 council files + 1 index) ✅
+- **Meeting pages:** 7 generated (all with video summaries) ✅
+- **Cost so far:** ~$4.47 ($2.15 Stage 1 + $1.62 Stage 2 + $0.70 videos)
+- **Coverage:** 87.6% of council files have PDF summaries, 100% of meetings have video summaries
 
 ---
 
-## Next Steps: Complete PDF Processing
+## Next Steps
 
-### 1. ✅ Stage 1 Complete
+### Priority 1: 🟡 Optional Enhancements
 
-Stage 1 is done with 93.7% coverage. The 22 failures are accepted as edge cases (ultra-technical reports).
+**Possible improvements:**
 
-### 2. 🔴 Run Stage 2: Sample "Other" Documents
+1. **Stage 3 PDF Processing** (~420 remaining documents)
+   - Cost: ~$2.40
+   - Would increase coverage from 87.6% to ~95%+
+   - Command: `python process_pdfs_staged.py --stage 3 --yes`
 
-Process 150 random "other" documents to assess value:
+2. **Council File Page UX**
+   - Make PDF summaries more scannable
+   - Add "Show more" functionality for long summaries
+   - Better visual hierarchy
+   - Back links from council files to meetings
 
-```bash
-source venv/bin/activate
-python process_pdfs_staged.py --stage 2 --yes 2>&1 | tee -a pdf_processing_stage2.log
-```
-
-- **Cost estimate:** ~$0.87 (150 docs × $0.0058)
-- **Purpose:** Assess if "other" category is worth processing fully
-
-### 3. Regenerate Aggregations and HTML
-
-Once PDF processing is complete, update the site:
-
-```bash
-source venv/bin/activate
-python aggregate_council_files.py       # Link summaries to council files
-python generate_councilfile_pages.py    # Regenerate all HTML with summaries
-```
-
-This will integrate all AI summaries into the council file pages!
-
-### 4. Optional: Process Remaining "Other" Docs (Stage 3)
-
-If Stage 2 samples look valuable:
-
-```bash
-source venv/bin/activate
-python process_pdfs_staged.py --stage 3 --yes 2>&1 | tee -a pdf_processing_stage3.log
-```
-
-- **Cost estimate:** ~$2.40 (remaining ~420 docs × $0.0058)
+3. **Performance Optimization**
+   - Extract CSS to external file (reduce page sizes)
+   - Lazy-load PDF summaries
+   - Consider JSON API approach (see ARCHITECTURE_REFACTOR.md)
 
 ---
 
@@ -219,23 +331,29 @@ la-council-scraper/
 │   ├── COUNCIL_FILE_PIVOT.md          # Strategic planning
 │   ├── DATA_EXPLORATION_RESULTS.md    # Initial exploration
 │   ├── PROTOTYPE_RESULTS.md           # PDF processing validation
+│   ├── ARCHITECTURE_REFACTOR.md       # Future scalability plan
 │   └── SESSION_HANDOFF.md             # This file
 ├── data/
-│   ├── agendas/                       # 7 meeting JSONs
-│   ├── pdf_summaries/                 # ~321 AI summaries (growing!)
-│   └── councilfiles/                  # Aggregated council files
+│   ├── agendas/                       # 7 meeting JSONs (with video_url)
+│   ├── pdf_summaries/                 # 471 AI summaries
+│   ├── video_summaries/               # 7 video summaries (NEW!)
+│   └── councilfiles/                  # 194 aggregated council files
 ├── site/
 │   ├── index.html                     # Main page
-│   ├── meetings/                      # 7 meeting pages
+│   ├── meetings/                      # 7 meeting pages (with video summaries)
 │   └── councilfiles/                  # 194 council file pages
-├── generate_councilfile_pages.py      # HTML generator
-├── process_pdfs_staged.py             # Staged PDF processing (NEW!)
-├── process_pdfs_prototype.py          # Original prototype
+├── templates/
+│   ├── meeting.html                   # Meeting page template (updated with video)
+│   └── ...                            # Other templates
+├── generate_councilfile_pages.py      # Council file HTML generator
+├── generate_site.py                   # Meeting HTML generator (updated)
+├── generate_video_summaries.py        # Video summarization (NEW!)
+├── process_pdfs_staged.py             # Staged PDF processing
+├── parse_agenda.py                    # Agenda parser (updated with video)
 ├── aggregate_council_files.py         # Data aggregation
-├── test_pdf_download.py               # Download testing
-├── analyze_council_files.py           # Initial exploration
-├── pdf_processing.log                 # Processing log (NEW!)
-└── run_pipeline.py                    # Main pipeline (needs updates)
+├── get_transcripts.py                 # YouTube transcript downloader
+├── summarize_meeting.py               # Claude summarization
+└── run_pipeline.py                    # Main pipeline
 ```
 
 ---
