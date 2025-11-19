@@ -40,6 +40,9 @@ class AgendaParser:
         sections = self._parse_sections()
         total_items = sum(len(section['items']) for section in sections)
 
+        # Extract meeting date/time if available
+        meeting_datetime = self._extract_meeting_datetime()
+
         # Extract video URL if available
         video_url = self._extract_video_url()
 
@@ -52,6 +55,9 @@ class AgendaParser:
             'total_items': total_items,
             'total_sections': len(sections)
         }
+
+        if meeting_datetime:
+            result['meeting_datetime'] = meeting_datetime
 
         if video_url:
             result['video_url'] = video_url
@@ -231,6 +237,37 @@ class AgendaParser:
             })
 
         return attachments
+
+    def _extract_meeting_datetime(self) -> Optional[str]:
+        """
+        Extract meeting date and time from page title.
+
+        Returns:
+            ISO format datetime string, or None if not found
+        """
+        # Look for title tags in the embedded HTML
+        # Format: "City Council Meeting - 10/29/2025 5:00:00 PM"
+        # Note: There may be multiple title tags (outer page + embedded iframe)
+        title_tags = self.soup.find_all('title')
+
+        for title_tag in title_tags:
+            title_text = title_tag.get_text(strip=True)
+
+            # Try to extract date/time from title
+            # Pattern: MM/DD/YYYY H:MM:SS AM/PM
+            match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}:\d{2}:\d{2}\s+(?:AM|PM))', title_text)
+            if match:
+                date_str = match.group(1)  # e.g., "10/29/2025"
+                time_str = match.group(2)  # e.g., "5:00:00 PM"
+
+                # Parse into datetime
+                try:
+                    dt = datetime.strptime(f"{date_str} {time_str}", "%m/%d/%Y %I:%M:%S %p")
+                    return dt.isoformat()
+                except ValueError:
+                    continue
+
+        return None
 
     def _extract_video_url(self) -> Optional[str]:
         """Extract YouTube video URL from embedded JavaScript."""

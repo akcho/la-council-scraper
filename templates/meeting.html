@@ -110,11 +110,22 @@
             padding: 1rem;
             margin-bottom: 1rem;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s;
+            transition: box-shadow 0.2s, border-color 0.2s;
         }
 
-        .item-card:hover {
+        .item-card-clickable {
+            cursor: pointer;
+        }
+
+        .item-card-clickable:hover {
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+        }
+
+        .item-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .item-header {
@@ -147,16 +158,9 @@
             color: #666;
         }
 
-        .tag.council-file {
+        .tag.council-file-tag {
             background: #e3f2fd;
             color: #1565c0;
-            text-decoration: none;
-            transition: background 0.2s, color 0.2s;
-        }
-
-        .tag.council-file:hover {
-            background: #1565c0;
-            color: #fff;
         }
 
         .tag.district {
@@ -172,11 +176,30 @@
             line-height: 1.5;
         }
 
-        .item-recommendation {
+        .item-details {
+            margin-top: 0.75rem;
+        }
+
+        .item-details summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+            font-weight: 500;
+        }
+
+        .item-details summary:hover {
+            text-decoration: underline;
+        }
+
+        .item-details-content {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-left: 3px solid #e0e0e0;
             font-size: 0.875rem;
             color: #444;
             line-height: 1.6;
-            margin-bottom: 0.75rem;
         }
 
         .item-attachments {
@@ -286,25 +309,36 @@
             <h2 class="section-title">{{ section.title | improve_section_title }}</h2>
 
             {% for item in section['items'] %}
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">{{ item.item_number }}</span>
-                        <div class="item-tags">
-                            {% if item.council_file %}
-                            <a href="../councilfiles/{{ item.council_file }}.html" class="tag council-file">{{ item.council_file }}</a>
-                            {% endif %}
-                            {% if item.district %}
-                            <span class="tag district">{{ item.district }}</span>
-                            {% endif %}
+                <article class="item-card {% if item.council_file %}item-card-clickable{% endif %}">
+                    {% if item.council_file %}
+                    <a href="../councilfiles/{{ item.council_file }}.html" class="item-card-link">
+                    {% endif %}
+                        <div class="item-header">
+                            <span class="item-number">{{ item.item_number }}</span>
+                            <div class="item-tags">
+                                {% if item.council_file %}
+                                <span class="tag council-file-tag">{{ item.council_file }}</span>
+                                {% endif %}
+                                {% if item.district %}
+                                <span class="tag district">{{ item.district }}</span>
+                                {% endif %}
+                            </div>
                         </div>
-                    </div>
 
-                    {% if item.title %}
-                    <h3 class="item-title">{{ item.title }}</h3>
+                        {% if item.ai_summary %}
+                        <h3 class="item-title">{{ item.ai_summary }}</h3>
+                        {% elif item.title %}
+                        <h3 class="item-title">{{ item.title }}</h3>
+                        {% endif %}
+                    {% if item.council_file %}
+                    </a>
                     {% endif %}
 
                     {% if item.recommendation %}
-                    <div class="item-recommendation">{{ item.recommendation }}</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">{{ item.recommendation }}</div>
+                    </details>
                     {% endif %}
 
                     {% if item.attachments %}

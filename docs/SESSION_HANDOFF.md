@@ -1,30 +1,42 @@
 # Session Handoff - Council File Pivot Project
 
-**Date:** 2025-11-19 (Updated - UX Improvements Session)
-**Status:** UX Improvements COMPLETE ✅ - Video Summaries Added
+**Date:** 2025-11-19 (Updated - Meeting Page UX Overhaul)
+**Status:** Meeting Pages SIGNIFICANTLY IMPROVED ✅
 
 ---
 
-## 🟢 COMPLETED: UX Improvements & Video Integration
+## 🟢 COMPLETED: Meeting Page UX Overhaul (2025-11-19 Session)
 
 **Current state:**
 - ✅ Stage 1 & 2: 471 PDF summaries generated
-- ✅ Meeting pages: Improved section headers, video links, and AI summaries
+- ✅ Meeting pages: Major UX improvements with AI summaries, clickable cards, clean design
+- ✅ Meeting dates extracted from agenda HTML (no longer showing "Date TBD")
 - ✅ Video summaries: 7/7 meetings have YouTube video summaries
 - ✅ All HTML pages regenerated with improvements
 - 🟡 Optional: Run Stage 3 PDF processing (~420 docs, ~$2.40)
 - 🟢 Future: Architecture refactor when scale demands (see ARCHITECTURE_REFACTOR.md)
 
 **What was completed this session:**
-1. ✅ Improved section header clarity (see below)
-2. ✅ Extracted YouTube video URLs from all meetings
-3. ✅ Generated AI summaries for all 7 meeting videos
-4. ✅ Added video summary display to meeting pages
+1. ✅ **Date extraction from agendas** - Meetings now show correct dates (e.g., "October 29, 2025 at 05:00 PM")
+2. ✅ **Removed redundant meeting IDs from titles** - Cleaner "City Council Meeting" heading
+3. ✅ **Made entire item cards clickable** - Click anywhere to go to council file page
+4. ✅ **AI summaries replace bureaucratic titles** - Clear, plain-English descriptions
+5. ✅ **Collapsible "Official Recommendation"** - Dense bureaucratic text hidden by default
 
 **Resume command:**
 ```
-Read docs/SESSION_HANDOFF.md for current state. Ready for Stage 3 PDF processing or other improvements.
+Read docs/SESSION_HANDOFF.md for current state. Continue with meeting page improvements or other enhancements.
 ```
+
+**Quick Summary of This Session:**
+Meeting pages are now WAY more user-friendly:
+- ✅ Correct dates showing (extracted from HTML)
+- ✅ Cleaner titles (no redundant IDs)
+- ✅ Entire cards clickable (not just tiny tags)
+- ✅ AI summaries instead of bureaucratic jargon
+- ✅ Dense text collapsed by default
+
+**Example:** See [site/meetings/17455.html](../site/meetings/17455.html)
 
 ---
 
@@ -42,15 +54,69 @@ Read docs/SESSION_HANDOFF.md for current state. Ready for Stage 3 PDF processing
 
 ---
 
-## What We Just Completed (2025-11-19 UX Session)
+## What We Just Completed (2025-11-19 Meeting Page UX Overhaul)
 
-### ✅ UX Improvements & Video Integration (COMPLETE)
+### ✅ Meeting Page UX Overhaul (COMPLETE)
 
-**Session focus:** Meeting page improvements and video summarization
+**Session focus:** Major improvements to meeting page usability and information hierarchy
 
 **Changes made:**
 
-1. **Improved Section Headers** (generate_site.py:68-88)
+1. **Date Extraction from Agendas** (parse_agenda.py:235-270, generate_site.py:145-167)
+   - Added `_extract_meeting_datetime()` method to parse dates from HTML `<title>` tags
+   - Format: "City Council Meeting - 10/29/2025 5:00:00 PM"
+   - Handles multiple title tags (outer page + embedded iframe)
+   - Falls back to parsed date when `recent_meetings.json` metadata unavailable
+   - Re-parsed all 7 meetings to extract dates
+   - **Result:** All meetings now show correct dates (e.g., "October 29, 2025 at 05:00 PM")
+
+2. **Removed Redundant Meeting IDs** (generate_site.py:131, 142, 264)
+   - Changed meeting title from "City Council Meeting 17455" to just "City Council Meeting"
+   - Meeting ID still shown below date as "Meeting ID: 17455" for reference
+   - Applies to both meeting pages and index page
+   - **Result:** Cleaner, less cluttered page headers
+
+3. **Clickable Item Cards** (templates/meeting.html:289-334)
+   - Wrapped entire card content in link when council file exists
+   - Added CSS classes: `.item-card-clickable`, `.item-card-link`
+   - Changed council file tag from `<a>` to `<span>` (card is the link now)
+   - Attachments section remains outside clickable area
+   - Hover effects: blue border, increased shadow, cursor pointer
+   - **Result:** Click anywhere on card to navigate to council file page
+
+4. **AI Summaries Replace Bureaucratic Titles** (generate_site.py:70-126, templates/meeting.html:309-313)
+   - Added `load_council_file()` to load council file data
+   - Added `get_brief_summary()` to extract "What is Being Proposed?" section
+   - Enriches agenda items with `ai_summary` field during page generation
+   - Template prefers `ai_summary` over bureaucratic `title`
+   - **Result:** Clear, plain-English descriptions instead of jargon
+
+5. **Collapsible "Official Recommendation"** (templates/meeting.html:337-342)
+   - Moved dense recommendation text into collapsible `<details>` element
+   - Labeled as "Official Recommendation" (not "Full Details" - that's the council file page)
+   - Styled with light gray background, left border, comfortable padding
+   - Hidden by default to reduce clutter
+   - **Result:** Cleaner cards by default, details available on demand
+
+**Files modified this session:**
+- `parse_agenda.py` - Added meeting datetime extraction
+- `generate_site.py` - Added council file loading, AI summary extraction, date fallback logic
+- `templates/meeting.html` - Made cards clickable, added AI summaries, made recommendation collapsible
+- `data/agendas/agenda_*.json` - Re-parsed all 7 meetings with dates (meeting_datetime field added)
+- `site/meetings/*.html` - All 7 meeting pages regenerated
+- `site/index.html` - Regenerated with correct dates
+
+**Files NOT modified:**
+- Council file pages (councilfiles/*.html) - No changes this session
+- PDF summaries - No new processing
+
+---
+
+## Previous Completions (Earlier 2025-11-19 Session)
+
+### ✅ Video Integration & Section Headers (COMPLETE)
+
+1. **Improved Section Headers** (generate_site.py:128-148)
    - Added `improve_section_title()` function to convert bureaucratic titles to clear language
    - Examples:
      - "Items for which Public Hearings Have Been Held" → "Public Hearing Items"

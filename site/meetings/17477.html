@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Council Meeting 17477 - LA Council Tracker</title>
-    <meta name="description" content="Agenda items and details for City Council Meeting 17477">
+    <title>City Council Meeting - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for City Council Meeting">
     <style>
         * {
             margin: 0;
@@ -110,11 +110,22 @@
             padding: 1rem;
             margin-bottom: 1rem;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s;
+            transition: box-shadow 0.2s, border-color 0.2s;
         }
 
-        .item-card:hover {
+        .item-card-clickable {
+            cursor: pointer;
+        }
+
+        .item-card-clickable:hover {
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+        }
+
+        .item-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .item-header {
@@ -147,16 +158,9 @@
             color: #666;
         }
 
-        .tag.council-file {
+        .tag.council-file-tag {
             background: #e3f2fd;
             color: #1565c0;
-            text-decoration: none;
-            transition: background 0.2s, color 0.2s;
-        }
-
-        .tag.council-file:hover {
-            background: #1565c0;
-            color: #fff;
         }
 
         .tag.district {
@@ -172,11 +176,30 @@
             line-height: 1.5;
         }
 
-        .item-recommendation {
+        .item-details {
+            margin-top: 0.75rem;
+        }
+
+        .item-details summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+            font-weight: 500;
+        }
+
+        .item-details summary:hover {
+            text-decoration: underline;
+        }
+
+        .item-details-content {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-left: 3px solid #e0e0e0;
             font-size: 0.875rem;
             color: #444;
             line-height: 1.6;
-            margin-bottom: 0.75rem;
         }
 
         .item-attachments {
@@ -258,9 +281,9 @@
 <body>
     <header>
         <div class="container">
-            <h1>City Council Meeting 17477</h1>
+            <h1>City Council Meeting</h1>
             <div class="meeting-meta">
-                <div>Date TBD</div>
+                <div>November 07, 2025 at 06:00 PM</div>
                 <div>Meeting ID: 17477</div>
             </div>
             <div class="meeting-links">
@@ -316,23 +339,32 @@ This was primarily a ceremonial meeting focused on community recognition rather 
             <h2 class="section-title">Public Hearing Items</h2>
 
             
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(1)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/25-1060.html" class="tag council-file">25-1060</a>
-                            
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-1060.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(1)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1060</span>
+                                
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Personnel and Hiring Committee is recommending that the City Council **note and file** (formally acknowledge and record) the August 7, 2025 review of the LAwell Program Employee Benefits Trust Fund for fiscal year 2024-25. This is a routine administrative action to document the fund&#39;s status rather than a new policy or funding decision.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">PERSONNEL AND HIRING COMMITTEE REPORT relative to the LAwell Program Employee Benefits Trust Fund review for Fiscal Year (FY) 2024-25.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">NOTE and FILE the August 7, 2025 LAwell Program Employee Benefits Trust Fund review for FY 2024-25. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Personnel and Hiring Committee Report 10-24-25 Report from Personnel Department dated 8-07-25</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">NOTE and FILE the August 7, 2025 LAwell Program Employee Benefits Trust Fund review for FY 2024-25. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Personnel and Hiring Committee Report 10-24-25 Report from Personnel Department dated 8-07-25</div>
+                    </details>
                     
 
                     
@@ -377,25 +409,34 @@ This was primarily a ceremonial meeting focused on community recognition rather 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(2)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/24-0887.html" class="tag council-file">24-0887</a>
-                            
-                            
-                            <span class="tag district">CD 11</span>
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/24-0887.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(2)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">24-0887</span>
+                                
+                                
+                                <span class="tag district">CD 11</span>
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Public Works Committee is recommending that the Los Angeles City Council simply note and file a Bureau of Sanitation report about a sewer line rupture and sewage spill that occurred at 2700 South Cresa Place. No further action from the Council is being requested at this time.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">PUBLIC WORKS COMMITTEE REPORT relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">NOTE and FILE the Bureau of Sanitation report, dated December 19, 2024, relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Report from Bureau of Sanitation dated 12-19-24 Report from Public Works Committee_8-14-24 Council Action dated 8-29-24 Speaker Card(s)_08-14-2024 Motion (Park - Yaroslavsky) dated 8-02-24</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">NOTE and FILE the Bureau of Sanitation report, dated December 19, 2024, relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Report from Bureau of Sanitation dated 12-19-24 Report from Public Works Committee_8-14-24 Council Action dated 8-29-24 Speaker Card(s)_08-14-2024 Motion (Park - Yaroslavsky) dated 8-02-24</div>
+                    </details>
                     
 
                     
@@ -504,23 +545,32 @@ This was primarily a ceremonial meeting focused on community recognition rather 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(3)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/23-1376-S1.html" class="tag council-file">23-1376-S1</a>
-                            
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/23-1376-S1.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(3)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">23-1376-S1</span>
+                                
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Transportation Committee is recommending that the City Council note and file a Los Angeles Department of Transportation (LADOT) report on transit vehicle advertising. This is an informational matter requiring no Council action—the committee is simply acknowledging receipt of the report and placing it on the official record.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">TRANSPORTATION COMMITTEE REPORT relative to transit vehicle advertising, the current contract, and the Request for Proposals issued in 2023.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">NOTE and FILE the Los Angeles Department of Transportation (LADOT) report dated July 22, 2025, attached to the Council file, relative to an update on the current transit vehicle advertising contract, the number of vehicles and type of advertisement, revenue generated, and the Request for Proposals issued in 2023, inasmuch as this report is for information only and no Council action is required. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Communication(s) from Public_07-29-2025 Report from Department of Transportation dated 7-22-25 Council Action dated 3-18-25 Speaker Card(s)_03-14-2025 Community Impact Statement submitted by Westside Neighborhood Council_02-14-2025 Motion (Hutt - Lee) dated 1-31-25 Report from Transportation Committee_02-12-24</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">NOTE and FILE the Los Angeles Department of Transportation (LADOT) report dated July 22, 2025, attached to the Council file, relative to an update on the current transit vehicle advertising contract, the number of vehicles and type of advertisement, revenue generated, and the Request for Proposals issued in 2023, inasmuch as this report is for information only and no Council action is required. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Communication(s) from Public_07-29-2025 Report from Department of Transportation dated 7-22-25 Council Action dated 3-18-25 Speaker Card(s)_03-14-2025 Community Impact Statement submitted by Westside Neighborhood Council_02-14-2025 Motion (Hutt - Lee) dated 1-31-25 Report from Transportation Committee_02-12-24</div>
+                    </details>
                     
 
                     
@@ -661,21 +711,27 @@ This was primarily a ceremonial meeting focused on community recognition rather 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(4)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/25-1294.html" class="tag council-file">25-1294</a>
-                            
-                            
-                            <span class="tag district">CD 14</span>
-                            
-                        </div>
-                    </div>
-
+                <article class="item-card item-card-clickable">
                     
-                    <h3 class="item-title">CONSIDERATION OF MOTION (JURADO – RAMAN) relative to the sale, change of ownership, and execution of new or amended loan agreements/terms for the Manitou Vistas I located at 3420 Manitou Avenue and Manitou Vistas II located at 3414 Manitou Avenue, both in Council District 14.</h3>
+                    <a href="../councilfiles/25-1294.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(4)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1294</span>
+                                
+                                
+                                <span class="tag district">CD 14</span>
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">The Housing and Homelessness Committee recommends transferring ownership of two affordable housing properties—Manitou Vistas I (3420 Manitou Avenue) and Manitou Vistas II (3414 Manitou Avenue)—to New Way Home Corporation, a nonprofit entity created by the Housing Authority of the City of Los Angeles (HACLA). This includes assigning existing city loans totaling $4,024,418 to the new owner and restructuring the loan terms and affordability requirements.</h3>
+                        
+                    
+                    </a>
                     
 
                     
@@ -732,7 +788,7 @@ This was primarily a ceremonial meeting focused on community recognition rather 
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-11-19 14:09:38</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-19 15:22:43</p>
         </div>
     </footer>
 

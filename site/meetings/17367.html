@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Council Meeting 17367 - LA Council Tracker</title>
-    <meta name="description" content="Agenda items and details for City Council Meeting 17367">
+    <title>City Council Meeting - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for City Council Meeting">
     <style>
         * {
             margin: 0;
@@ -110,11 +110,22 @@
             padding: 1rem;
             margin-bottom: 1rem;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s;
+            transition: box-shadow 0.2s, border-color 0.2s;
         }
 
-        .item-card:hover {
+        .item-card-clickable {
+            cursor: pointer;
+        }
+
+        .item-card-clickable:hover {
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+        }
+
+        .item-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .item-header {
@@ -147,16 +158,9 @@
             color: #666;
         }
 
-        .tag.council-file {
+        .tag.council-file-tag {
             background: #e3f2fd;
             color: #1565c0;
-            text-decoration: none;
-            transition: background 0.2s, color 0.2s;
-        }
-
-        .tag.council-file:hover {
-            background: #1565c0;
-            color: #fff;
         }
 
         .tag.district {
@@ -172,11 +176,30 @@
             line-height: 1.5;
         }
 
-        .item-recommendation {
+        .item-details {
+            margin-top: 0.75rem;
+        }
+
+        .item-details summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+            font-weight: 500;
+        }
+
+        .item-details summary:hover {
+            text-decoration: underline;
+        }
+
+        .item-details-content {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-left: 3px solid #e0e0e0;
             font-size: 0.875rem;
             color: #444;
             line-height: 1.6;
-            margin-bottom: 0.75rem;
         }
 
         .item-attachments {
@@ -258,9 +281,9 @@
 <body>
     <header>
         <div class="container">
-            <h1>City Council Meeting 17367</h1>
+            <h1>City Council Meeting</h1>
             <div class="meeting-meta">
-                <div>Date TBD</div>
+                <div>October 31, 2025 at 05:00 PM</div>
                 <div>Meeting ID: 17367</div>
             </div>
             <div class="meeting-links">
@@ -308,23 +331,32 @@ This was largely a ceremonial meeting with community recognition events, though 
             <h2 class="section-title">Public Hearing Items</h2>
 
             
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(1)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/25-0391.html" class="tag council-file">25-0391</a>
-                            
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-0391.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(1)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-0391</span>
+                                
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The City Attorney is transmitting a draft ordinance that would implement Measure FF, which Los Angeles voters approved in November 2024. The ordinance would allow certain sworn peace officers currently in the Los Angeles City Employees&#39; Retirement System (LACERS) to transfer their membership and service credit to Tier 6 of the Los Angeles Fire and Police Pension Plan (LAFPP). Eligible employees from the Police Department, Harbor Department, Department of Airports, and Department of Recreation and Parks would make a one-time, irrevocable election to transfer or remain in LACERS by January 9, 2026, with the transfer effective January 11, 2026.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">ORDINANCE SECOND CONSIDERATION relative to amending the Los Angeles Administrative Code (LAAC) to implement Charter Amendment FF for the transfer of membership and years of services for eligible sworn peace officers from the Los Angeles City Empoyees’ Retirement System (LACERS) to the Los Angeles Fire and Police Pensions (LAFPP).</h3>
-                    
-
-                    
-                    <div class="item-recommendation">PRESENT and ADOPT the accompanying ORDINANCE, dated September 8, 2025, amending Chapters 10, 11, 11.5, 18.5, 20, 21, and 22 of Division 4 of the LAAC to authorize the transfer of membership and service credit for sworn peace officers currently employed by the City’s Police, Airports, Harbor, and Recreation and Parks Departments from the LACERS to Tier 6 of the LAFPP; to provide for the issuance of refunds to certain Tier 6 Members; and make amendments to plan provisions for LACERS, LAFPP, and the Limited Term Retirement Plan (LTRP), and the retiree health programs. Community Impact Statement: None submitted. (City Attorney report adopted at the Council meeting of September 30, 2025) 10 VOTES REQUIRED ON SECOND READING Report from City Attorney dated 9-08-25 Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting Council Action dated 9-30-25 Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer Council Action dated 5-28-25 Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25 Speaker Card(s)_05-27-2025 Speaker Card(s)_05-20-2025 Personnel and Hiring Committee Report 5-9-25 Report from City Administrative Officer dated 4-10-25</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">PRESENT and ADOPT the accompanying ORDINANCE, dated September 8, 2025, amending Chapters 10, 11, 11.5, 18.5, 20, 21, and 22 of Division 4 of the LAAC to authorize the transfer of membership and service credit for sworn peace officers currently employed by the City’s Police, Airports, Harbor, and Recreation and Parks Departments from the LACERS to Tier 6 of the LAFPP; to provide for the issuance of refunds to certain Tier 6 Members; and make amendments to plan provisions for LACERS, LAFPP, and the Limited Term Retirement Plan (LTRP), and the retiree health programs. Community Impact Statement: None submitted. (City Attorney report adopted at the Council meeting of September 30, 2025) 10 VOTES REQUIRED ON SECOND READING Report from City Attorney dated 9-08-25 Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting Council Action dated 9-30-25 Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer Council Action dated 5-28-25 Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25 Speaker Card(s)_05-27-2025 Speaker Card(s)_05-20-2025 Personnel and Hiring Committee Report 5-9-25 Report from City Administrative Officer dated 4-10-25</div>
+                    </details>
                     
 
                     
@@ -529,23 +561,32 @@ This was largely a ceremonial meeting with community recognition events, though 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(2)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/25-1043.html" class="tag council-file">25-1043</a>
-                            
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-1043.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(2)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1043</span>
+                                
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Los Angeles City Council is being asked to note and file the Board of Fire Commissioners&#39; annual report for the Los Angeles Fire Department (LAFD) Revolving Training Fund 40K for Fiscal Year 2024-25. This is a routine administrative action requiring no further Council action or budget allocation.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">PUBLIC SAFETY and BUDGET AND FINANCE COMMITTEES’ REPORT relative to the Los Angeles Fire Department (LAFD) Revolving Training Fund 40K Fiscal Year 2024-25 Annual Report.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">NOTE and FILE the Board of Fire Commissioners report dated September 3, 2025, attached to Council file No. 25-1043, relative to the LAFD Revolving Training Fund 40K Fiscal Year 2024-25. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Safety Committee and Budget and Finance Committee 10-21-25 Report from Board of Fire Commissioners dated 9-03-25</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">NOTE and FILE the Board of Fire Commissioners report dated September 3, 2025, attached to Council file No. 25-1043, relative to the LAFD Revolving Training Fund 40K Fiscal Year 2024-25. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Safety Committee and Budget and Finance Committee 10-21-25 Report from Board of Fire Commissioners dated 9-03-25</div>
+                    </details>
                     
 
                     
@@ -590,23 +631,32 @@ This was largely a ceremonial meeting with community recognition events, though 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(3)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/23-0100.html" class="tag council-file">23-0100</a>
-                            
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/23-0100.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(3)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">23-0100</span>
+                                
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Trade, Travel and Tourism Committee is recommending that the Los Angeles City Council receive and file a joint report from the Port of Los Angeles (POLA) and Los Angeles World Airports (LAWA) dated August 4, 2025. The report addresses information sharing practices and interdepartmental coordination related to sustainability initiatives between these two major city departments.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">TRADE, TRAVEL, AND TOURISM COMMITTEE REPORT relative to a report on Port of Los Angeles (POLA) and Los Angeles World Airports (LAWA) information sharing practices and interdepartmental coordination related to sustainability initiatives.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">RECEIVE and FILE the joint POLA and LAWA report dated August 4, 2025, attached to the Council file, relative to their information sharing practices and interdepartmental coordination related to sustainability initiatives, inasmuch as the report is for informational purposes only and no action is required. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Report from Trade, Travel and Tourism Committee 10-14-25 Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25 Council Action dated 2-27-23 Report from Trade, Travel, and Tourism Committee_02-7-23 Motion (McOsker - Yaroslavsky) dated 1-27-23</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">RECEIVE and FILE the joint POLA and LAWA report dated August 4, 2025, attached to the Council file, relative to their information sharing practices and interdepartmental coordination related to sustainability initiatives, inasmuch as the report is for informational purposes only and no action is required. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Report from Trade, Travel and Tourism Committee 10-14-25 Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25 Council Action dated 2-27-23 Report from Trade, Travel, and Tourism Committee_02-7-23 Motion (McOsker - Yaroslavsky) dated 1-27-23</div>
+                    </details>
                     
 
                     
@@ -699,25 +749,34 @@ This was largely a ceremonial meeting with community recognition events, though 
                     
                 </article>
                 
-                <article class="item-card">
-                    <div class="item-header">
-                        <span class="item-number">(4)</span>
-                        <div class="item-tags">
-                            
-                            <a href="../councilfiles/21-1330.html" class="tag council-file">21-1330</a>
-                            
-                            
-                            <span class="tag district">CD 7</span>
-                            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/21-1330.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(4)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">21-1330</span>
+                                
+                                
+                                <span class="tag district">CD 7</span>
+                                
+                            </div>
                         </div>
-                    </div>
+
+                        
+                        <h3 class="item-title">The Energy and Environment Committee is recommending that the City authorize the Board of Public Works to execute Amendment No. 4 to a Memorandum of Understanding (MOU) with Discovery Cube Los Angeles (DCLA). This amendment would extend the City&#39;s partnership with DCLA to develop, promote, and assist with Bureau of Sanitation (BOS) environmental events and programs, with a total cost ceiling of $1.8 million.</h3>
+                        
+                    
+                    </a>
+                    
 
                     
-                    <h3 class="item-title">ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the Fourth Amendment to the Second Memorandum of Understanding with the Discovery Cube Los Angeles (DCLA) to develop, promote, and assist with Bureau of Sanitation (BOS) environmental events and programs.</h3>
-                    
-
-                    
-                    <div class="item-recommendation">AUTHORIZE the Board of Public Works, on behalf of the BOS, to execute the proposed Amendment No. 4 to the Second Memorandum of Understanding with the DCLA for a total cost ceiling not to exceed $1.8 million to develop, promote, and assist with BOS environmental events and programs. Fiscal Impact Statement: The CAO reports that there is no additional impact on the General Fund. As part of the City’s 2025-26 Adopted Budget, funding of $900,000 was provided in the General City Purposes Fund to offset the DCLA operational costs. An additional contribution of $900,000 was provided by BOS from the Sewer Operations and Maintenance Fund ($450,000) and the Solid Waste Resources Revenue Fund ($450,000), which has already been appropriated within the General City Purposes Fund. Financial Policies Statement: The CAO reports that the actions recommended above comply with the City’s Financial Policies in that current operations will be funded by current revenues. Community Impact Statement: None submitted TIME LIMIT FILE - DECEMBER 16, 2025 (LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025) Report from Energy and Environment Committee_10-21-25 Report from City Administrative Officer dated 10-16-25 Council Action dated 1-21-25 Speaker Card(s)_01-14-2025 Report from City Administrative Officer dated 11-21-24 Council Action dated 11-09-23 Communication(s) from Public_11-08-2023 Speaker Card(s)_11-03-2023 Report from Energy and Environment Committee_11-03-23 Report from City Administrative Officer dated 8-15-23.pdf Council Action dated 11-23-22 Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22 Report from City Administrative Officer dated 9-30-22 Council Action dated 11-24-21 Report from City Administrative Officer dated 11-02-21.pdf</div>
+                    <details class="item-details">
+                        <summary>Official Recommendation</summary>
+                        <div class="item-details-content">AUTHORIZE the Board of Public Works, on behalf of the BOS, to execute the proposed Amendment No. 4 to the Second Memorandum of Understanding with the DCLA for a total cost ceiling not to exceed $1.8 million to develop, promote, and assist with BOS environmental events and programs. Fiscal Impact Statement: The CAO reports that there is no additional impact on the General Fund. As part of the City’s 2025-26 Adopted Budget, funding of $900,000 was provided in the General City Purposes Fund to offset the DCLA operational costs. An additional contribution of $900,000 was provided by BOS from the Sewer Operations and Maintenance Fund ($450,000) and the Solid Waste Resources Revenue Fund ($450,000), which has already been appropriated within the General City Purposes Fund. Financial Policies Statement: The CAO reports that the actions recommended above comply with the City’s Financial Policies in that current operations will be funded by current revenues. Community Impact Statement: None submitted TIME LIMIT FILE - DECEMBER 16, 2025 (LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025) Report from Energy and Environment Committee_10-21-25 Report from City Administrative Officer dated 10-16-25 Council Action dated 1-21-25 Speaker Card(s)_01-14-2025 Report from City Administrative Officer dated 11-21-24 Council Action dated 11-09-23 Communication(s) from Public_11-08-2023 Speaker Card(s)_11-03-2023 Report from Energy and Environment Committee_11-03-23 Report from City Administrative Officer dated 8-15-23.pdf Council Action dated 11-23-22 Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22 Report from City Administrative Officer dated 9-30-22 Council Action dated 11-24-21 Report from City Administrative Officer dated 11-02-21.pdf</div>
+                    </details>
                     
 
                     
@@ -988,7 +1047,7 @@ This was largely a ceremonial meeting with community recognition events, though 
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-11-19 14:09:38</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-19 15:22:43</p>
         </div>
     </footer>
 

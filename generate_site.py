@@ -67,6 +67,52 @@ def load_video_summary(meeting_id):
         print(f"Warning: Failed to load video summary for meeting {meeting_id}: {e}")
         return None
 
+def load_council_file(council_file_number):
+    """Load council file data including AI summaries."""
+    council_file_path = Path("data/councilfiles") / f"{council_file_number}.json"
+    if not council_file_path.exists():
+        return None
+
+    try:
+        with open(council_file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Warning: Failed to load council file {council_file_number}: {e}")
+        return None
+
+def get_brief_summary(council_file_data):
+    """Extract a brief, user-friendly summary from council file data."""
+    if not council_file_data:
+        return None
+
+    # Look for attachments with summaries
+    attachments = council_file_data.get('attachments', [])
+    for attachment in attachments:
+        if attachment.get('has_summary') and attachment.get('summary'):
+            summary_text = attachment['summary']
+            # Extract just the "What is Being Proposed?" section
+            lines = summary_text.split('\n')
+            for i, line in enumerate(lines):
+                if 'What is Being Proposed?' in line or 'What is this?' in line:
+                    # Get the next few lines (skip the header line)
+                    start_idx = i + 1
+                    brief_lines = []
+                    for j in range(start_idx, min(start_idx + 10, len(lines))):
+                        line_text = lines[j].strip()
+                        # Stop at next section header or empty markdown header
+                        if line_text.startswith('##') or (line_text == '' and brief_lines):
+                            break
+                        if line_text and not line_text.startswith('#'):
+                            brief_lines.append(line_text)
+                    if brief_lines:
+                        return ' '.join(brief_lines)
+            # Fallback: just grab first few sentences
+            if summary_text:
+                sentences = summary_text.split('. ')
+                return '. '.join(sentences[:2]) + '.' if len(sentences) >= 2 else sentences[0]
+
+    return None
+
 def format_meeting_date(date_str):
     """Format meeting date from ISO format to readable format."""
     if not date_str:
@@ -113,12 +159,24 @@ def generate_meeting_page(meeting_id):
     # Load meeting metadata
     metadata = load_meeting_metadata(meeting_id)
 
+    # Enrich agenda items with AI summaries
+    sections = agenda.get('sections', [])
+    for section in sections:
+        for item in section.get('items', []):
+            council_file = item.get('council_file')
+            if council_file:
+                council_file_data = load_council_file(council_file)
+                if council_file_data:
+                    brief_summary = get_brief_summary(council_file_data)
+                    if brief_summary:
+                        item['ai_summary'] = brief_summary
+
     # Prepare template context
     context = {
         'meeting_id': meeting_id,
         'template_id': agenda.get('template_id'),
         'portal_url': agenda.get('portal_url', ''),
-        'sections': agenda.get('sections', []),
+        'sections': sections,
         'generated_at': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 
@@ -128,7 +186,7 @@ def generate_meeting_page(meeting_id):
 
     # Add metadata if available
     if metadata:
-        context['meeting_title'] = metadata.get('name', f'City Council Meeting {meeting_id}')
+        context['meeting_title'] = metadata.get('name', 'City Council Meeting')
         # Try dateTime first, then meetingDate
         date_value = metadata.get('dateTime') or metadata.get('meetingDate')
         context['meeting_date'] = format_meeting_date(date_value)
@@ -138,9 +196,16 @@ def generate_meeting_page(meeting_id):
         if video_url:
             context['video_url'] = video_url
     else:
-        # Fallback if metadata not found
-        context['meeting_title'] = f'City Council Meeting {meeting_id}'
-        context['meeting_date'] = 'Date TBD'
+        # Fallback if metadata not found - try to get date from parsed agenda
+        context['meeting_title'] = 'City Council Meeting'
+
+        # Try to get meeting datetime from parsed agenda
+        meeting_datetime = agenda.get('meeting_datetime')
+        if meeting_datetime:
+            context['meeting_date'] = format_meeting_date(meeting_datetime)
+        else:
+            context['meeting_date'] = 'Date TBD'
+
         # Check for video in agenda even without metadata
         video_url = agenda.get('video_url')
         if video_url:
@@ -250,10 +315,19 @@ def generate_all_meetings():
             # Count total agenda items
             items_count = sum(len(section.get('items', [])) for section in agenda.get('sections', []))
 
+            # Determine date - try metadata first, then parsed agenda
+            if metadata:
+                date_value = metadata.get('dateTime') or metadata.get('meetingDate')
+                meeting_date = format_meeting_date(date_value)
+            else:
+                # Fallback to agenda's meeting_datetime
+                meeting_datetime = agenda.get('meeting_datetime')
+                meeting_date = format_meeting_date(meeting_datetime) if meeting_datetime else 'Date TBD'
+
             meetings_data.append({
                 'meeting_id': meeting_id,
-                'title': metadata.get('name', f'City Council Meeting {meeting_id}') if metadata else f'City Council Meeting {meeting_id}',
-                'date': format_meeting_date(metadata.get('dateTime') or metadata.get('meetingDate')) if metadata else 'Date TBD',
+                'title': metadata.get('name', 'City Council Meeting') if metadata else 'City Council Meeting',
+                'date': meeting_date,
                 'items_count': items_count
             })
 
