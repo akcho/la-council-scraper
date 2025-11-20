@@ -11,6 +11,45 @@ from datetime import datetime
 from typing import Dict, Any, List
 
 
+def load_meeting_metadata():
+    """Load meeting metadata from recent_meetings.json and agendas."""
+    meetings = {}
+
+    # Try to load from recent_meetings.json first
+    recent_meetings_file = Path("recent_meetings.json")
+    if recent_meetings_file.exists():
+        try:
+            with open(recent_meetings_file, 'r', encoding='utf-8') as f:
+                meetings_list = json.load(f)
+                for meeting in meetings_list:
+                    meeting_id = meeting.get('id')
+                    if meeting_id:
+                        meetings[meeting_id] = {
+                            'title': meeting.get('name', 'City Council Meeting'),
+                            'date': meeting.get('dateTime') or meeting.get('meetingDate', ''),
+                        }
+        except Exception as e:
+            print(f"Warning: Could not load recent_meetings.json: {e}")
+
+    # Load from agenda files as fallback/supplement
+    agendas_dir = Path("data/agendas")
+    if agendas_dir.exists():
+        for agenda_file in agendas_dir.glob("agenda_*.json"):
+            try:
+                with open(agenda_file, 'r', encoding='utf-8') as f:
+                    agenda = json.load(f)
+                    meeting_id = agenda.get('meeting_id')
+                    if meeting_id and meeting_id not in meetings:
+                        meetings[meeting_id] = {
+                            'title': 'City Council Meeting',
+                            'date': agenda.get('meeting_datetime', ''),
+                        }
+            except Exception as e:
+                print(f"Warning: Could not load {agenda_file}: {e}")
+
+    return meetings
+
+
 def markdown_to_html(text: str) -> str:
     """
     Convert simple markdown formatting to HTML.
@@ -101,7 +140,7 @@ def extract_brief_summary(file_data: Dict[str, Any]) -> str:
         return title
 
 
-def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> None:
+def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meetings_metadata: Dict[int, Dict[str, Any]]) -> None:
     """Generate HTML page for a single council file."""
 
     council_file = file_data['council_file']
@@ -272,6 +311,16 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
             border-radius: 8px;
             padding: 1.25rem;
             box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }}
+
+        .timeline-card:hover {{
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
         }}
 
         .timeline-date {{
@@ -281,15 +330,17 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
             margin-bottom: 0.5rem;
         }}
 
-        .timeline-section {{
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.5rem;
-        }}
-
-        .timeline-item-number {{
+        .timeline-meeting-title {{
+            font-size: 1rem;
             font-weight: 600;
             color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }}
+
+        .timeline-summary {{
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
         }}
 
         .timeline-recommendation {{
@@ -489,32 +540,29 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
 
         for appearance in appearances:
             date = format_date(appearance['date'])
-            section = appearance.get('section', 'Unknown Section')
-            item_num = appearance.get('item_number', '')
-            recommendation = appearance.get('recommendation', '')
             meeting_id = appearance.get('meeting_id', '')
 
-            html += f"""                <div class="timeline-item">
-                    <div class="timeline-card">
-                        <div class="timeline-date">{date}</div>
-                        <div class="timeline-section">{section}</div>
-                        <div class="timeline-item-number">Item {item_num}</div>
-"""
+            # Get meeting metadata
+            meeting_info = meetings_metadata.get(meeting_id, {})
+            meeting_title = meeting_info.get('title', 'City Council Meeting')
 
-            if recommendation:
-                # Truncate very long recommendations
-                display_rec = recommendation
-                if len(display_rec) > 800:
-                    display_rec = display_rec[:800] + '...'
-                html += f"""                        <div class="timeline-recommendation">{display_rec}</div>
+            html += f"""                <div class="timeline-item">
 """
 
             if meeting_id:
-                html += f"""                        <a href="../meetings/{meeting_id}.html" class="meeting-link">View full meeting →</a>
+                html += f"""                    <a href="../meetings/{meeting_id}.html" class="timeline-card">
+                        <div class="timeline-date">{date}</div>
+                        <div class="timeline-meeting-title">{meeting_title}</div>
+                    </a>
+"""
+            else:
+                html += f"""                    <div class="timeline-card">
+                        <div class="timeline-date">{date}</div>
+                        <div class="timeline-meeting-title">{meeting_title}</div>
+                    </div>
 """
 
-            html += """                    </div>
-                </div>
+            html += """                </div>
 """
 
         html += """            </div>
@@ -968,10 +1016,14 @@ def main():
 
     print(f"Loaded {len(all_files)} council files")
 
+    # Load meeting metadata
+    meetings_metadata = load_meeting_metadata()
+    print(f"Loaded metadata for {len(meetings_metadata)} meetings")
+
     # Generate individual pages
     for file_data in all_files:
         try:
-            generate_council_file_page(file_data, output_dir)
+            generate_council_file_page(file_data, output_dir, meetings_metadata)
         except Exception as e:
             print(f"Error generating page for {file_data.get('council_file', 'unknown')}: {e}")
 

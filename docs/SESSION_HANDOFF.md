@@ -1,11 +1,60 @@
 # Session Handoff - Council File Pivot Project
 
-**Date:** 2025-11-19 (Updated - Markdown Formatting Fixes)
-**Status:** Markdown Formatting Fixed Across All Pages ✅
+**Date:** 2025-11-19 (Updated - UX Improvements)
+**Status:** Collapsible Sections & Timeline Improvements ✅
 
 ---
 
-## 🟢 COMPLETED: Markdown Formatting Fixes (2025-11-19 Session - Latest)
+## 🟢 COMPLETED: UX Improvements - Collapsible Sections & Timeline Redesign (2025-11-19 Session - Latest)
+
+**Current state:**
+- ✅ Meeting page sections now collapsible (default: collapsed)
+- ✅ Council file timeline shows clean meeting cards (date + title only)
+- ✅ Timeline bug fixed: Shows actual meeting dates instead of parse timestamps
+- ✅ All 7 meeting pages + 194 council file pages regenerated
+
+**What was completed this session:**
+
+1. ✅ **Made meeting sections collapsible** ([templates/meeting.html:316-371](../templates/meeting.html))
+   - Changed from `<section>` to `<details>` elements
+   - Sections default to collapsed state
+   - Added rotating arrow indicator (▶ when collapsed, ▼ when expanded)
+   - Smooth CSS transitions on expand/collapse
+
+2. ✅ **Fixed timeline date bug** ([aggregate_council_files.py:81,107](../aggregate_council_files.py))
+   - Was showing parse timestamp (November 15) instead of meeting date (October 29)
+   - Now uses `meeting_datetime` from agendas instead of `parsed_at`
+   - Regenerated all 194 council file JSONs with correct dates
+
+3. ✅ **Redesigned council file timeline** ([generate_councilfile_pages.py:14-50,559-584](../generate_councilfile_pages.py))
+   - **Before:** Showed section name + item number + recommendation (cluttered)
+   - **After:** Clean cards with just meeting date + title
+   - Added `load_meeting_metadata()` to get meeting info
+   - Entire timeline card is clickable link to meeting
+   - Removed unnecessary section/item details
+   - Added hover effects (lift up, blue border)
+
+4. ✅ **Updated timeline CSS** ([generate_councilfile_pages.py:326-362](../generate_councilfile_pages.py))
+   - Cards are now `<a>` tags (fully clickable)
+   - Hover: shadow increase, border color change, slight lift
+   - Clean typography hierarchy
+
+**Files modified this session:**
+- `templates/meeting.html` - Added collapsible sections with <details>/<summary>
+- `aggregate_council_files.py` - Fixed to use meeting_datetime instead of parsed_at
+- `generate_councilfile_pages.py` - Added meeting metadata loading, redesigned timeline HTML
+- `data/councilfiles/*.json` - All 194 regenerated with correct meeting dates
+- `site/meetings/*.html` - All 7 regenerated with collapsible sections
+- `site/councilfiles/*.html` - All 194 regenerated with improved timeline
+
+**Resume command:**
+```
+Read docs/SESSION_HANDOFF.md for current state. Meeting sections are now collapsible and timeline shows clean meeting cards.
+```
+
+---
+
+## 🟢 COMPLETED: Markdown Formatting Fixes (2025-11-19 Session - Previous)
 
 **Current state:**
 - ✅ All markdown formatting (`**bold**`, `*italic*`) now properly renders as HTML across the entire site

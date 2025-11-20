@@ -78,6 +78,7 @@ def aggregate_council_files():
 
         meeting_id = agenda["meeting_id"]
         parsed_at = agenda["parsed_at"]
+        meeting_datetime = agenda.get("meeting_datetime", parsed_at)  # Fall back to parsed_at if not available
 
         # Process each section
         for section in agenda["sections"]:
@@ -95,16 +96,16 @@ def aggregate_council_files():
                     cf["title"] = item.get("title", "")
                     cf["district"] = item.get("district", "")
 
-                # Track first/last seen
-                if cf["first_seen"] is None or parsed_at < cf["first_seen"]:
-                    cf["first_seen"] = parsed_at
-                if cf["last_seen"] is None or parsed_at > cf["last_seen"]:
-                    cf["last_seen"] = parsed_at
+                # Track first/last seen using meeting_datetime
+                if cf["first_seen"] is None or meeting_datetime < cf["first_seen"]:
+                    cf["first_seen"] = meeting_datetime
+                if cf["last_seen"] is None or meeting_datetime > cf["last_seen"]:
+                    cf["last_seen"] = meeting_datetime
 
                 # Add appearance
                 appearance = {
                     "meeting_id": meeting_id,
-                    "date": parsed_at,
+                    "date": meeting_datetime,  # Use actual meeting date, not parse time
                     "section": section["title"],
                     "item_number": item.get("item_number", ""),
                     "recommendation": item.get("recommendation", "")
