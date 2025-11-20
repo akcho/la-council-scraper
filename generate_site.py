@@ -163,6 +163,7 @@ def improve_section_title(title):
     # Mapping of common bureaucratic titles to clearer alternatives
     title_improvements = {
         "Items for which Public Hearings Have Been Held": "Public Hearing Items",
+        "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)": "Items Pending Public Hearing",
         "Closed Session": "Closed Session Items",
         "Commendatory Resolutions, Introductions and Presentations": "Commendations and Presentations",
         "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public Comment",
