@@ -1,11 +1,58 @@
 # Session Handoff - Council File Pivot Project
 
-**Date:** 2025-11-19 (Updated - Meeting Page UX Overhaul)
-**Status:** Meeting Pages SIGNIFICANTLY IMPROVED ✅
+**Date:** 2025-11-19 (Updated - Markdown Formatting Fixes)
+**Status:** Markdown Formatting Fixed Across All Pages ✅
 
 ---
 
-## 🟢 COMPLETED: Meeting Page UX Overhaul (2025-11-19 Session)
+## 🟢 COMPLETED: Markdown Formatting Fixes (2025-11-19 Session - Latest)
+
+**Current state:**
+- ✅ All markdown formatting (`**bold**`, `*italic*`) now properly renders as HTML across the entire site
+- ✅ Video summaries display bold formatting (e.g., "**KEY DECISIONS**" now shows as bold)
+- ✅ Card titles cleaned up (removed raw markdown headers like "# Summary:")
+- ✅ Card title font weight reduced to 400 (normal) for better readability
+- ✅ Council file page summaries render markdown properly
+- ✅ All 7 meeting pages + 194 council file pages regenerated
+
+**What was completed this session:**
+1. ✅ **Added markdown-to-HTML conversion** ([generate_site.py:23-37](../generate_site.py), [generate_councilfile_pages.py:14-28](../generate_councilfile_pages.py))
+   - Converts `**bold**` to `<strong>bold</strong>`
+   - Converts `*italic*` to `<em>italic</em>`
+
+2. ✅ **Fixed video summary markdown** ([generate_site.py:235-237](../generate_site.py), [templates/meeting.html:310](../templates/meeting.html))
+   - Video summaries now render markdown formatting
+   - "**KEY DECISIONS**" displays as bold
+
+3. ✅ **Fixed card title markdown headers** ([generate_site.py:126-137](../generate_site.py))
+   - Removed raw `# Summary:` and `## What is Being Proposed` from card titles
+   - Fallback now skips all markdown headers (lines starting with `#`)
+
+4. ✅ **Improved card title styling** ([templates/meeting.html:171-185](../templates/meeting.html))
+   - Reduced font-weight from 500 to 400 (normal)
+   - Explicitly set `<strong>` to font-weight: 700 for better contrast
+   - Card titles now match body text weight for consistency
+
+5. ✅ **Fixed council file page summaries** ([generate_councilfile_pages.py:573,583](../generate_councilfile_pages.py))
+   - Full document summaries now render markdown
+   - H1 titles changed to font-weight: 500 (from 600)
+   - Brief summaries convert markdown to HTML
+
+**Files modified this session:**
+- `generate_site.py` - Added markdown conversion, fixed video summaries, cleaned card titles
+- `generate_councilfile_pages.py` - Added markdown conversion, reduced h1 weight
+- `templates/meeting.html` - Reduced card title font-weight, added strong/em styles, marked summaries as safe HTML
+- `site/meetings/*.html` - All 7 regenerated
+- `site/councilfiles/*.html` - All 194 regenerated
+
+**Resume command:**
+```
+Read docs/SESSION_HANDOFF.md for current state. All markdown formatting is now working correctly across the site.
+```
+
+---
+
+## 🟢 COMPLETED: Meeting Page UX Overhaul (2025-11-19 Session - Previous)
 
 **Current state:**
 - ✅ Stage 1 & 2: 471 PDF summaries generated

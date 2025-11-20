@@ -7,6 +7,7 @@ Reads parsed agenda JSON files and generates mobile-first HTML pages.
 
 import json
 import os
+import re
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -18,6 +19,22 @@ OUTPUT_DIR = Path("site/meetings")
 VIDEO_SUMMARIES_DIR = Path("data/video_summaries")
 RECENT_MEETINGS_FILE = Path("recent_meetings.json")
 SITE_CONFIG_FILE = Path("site_config.json")
+
+def markdown_to_html(text):
+    """
+    Convert simple markdown formatting to HTML.
+    Handles **bold**, *italic*, and preserves line breaks.
+    """
+    if not text:
+        return text
+
+    # Convert **bold** to <strong>
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+    # Convert *italic* to <em> (but not if it's already part of **)
+    text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
+
+    return text
 
 def load_site_config():
     """Load site configuration."""
@@ -106,9 +123,17 @@ def get_brief_summary(council_file_data):
                             brief_lines.append(line_text)
                     if brief_lines:
                         return ' '.join(brief_lines)
-            # Fallback: just grab first few sentences
+            # Fallback: just grab first few sentences, skipping markdown headers
             if summary_text:
-                sentences = summary_text.split('. ')
+                # Remove all markdown headers (lines starting with #)
+                clean_lines = []
+                for line in summary_text.split('\n'):
+                    stripped = line.strip()
+                    if stripped and not stripped.startswith('#'):
+                        clean_lines.append(stripped)
+
+                clean_text = ' '.join(clean_lines)
+                sentences = clean_text.split('. ')
                 return '. '.join(sentences[:2]) + '.' if len(sentences) >= 2 else sentences[0]
 
     return None
@@ -169,7 +194,8 @@ def generate_meeting_page(meeting_id):
                 if council_file_data:
                     brief_summary = get_brief_summary(council_file_data)
                     if brief_summary:
-                        item['ai_summary'] = brief_summary
+                        # Convert markdown to HTML for display
+                        item['ai_summary'] = markdown_to_html(brief_summary)
 
     # Prepare template context
     context = {
@@ -214,7 +240,9 @@ def generate_meeting_page(meeting_id):
     # Load video summary if available
     video_summary_data = load_video_summary(meeting_id)
     if video_summary_data:
-        context['video_summary'] = video_summary_data.get('summary')
+        # Convert markdown in video summary to HTML
+        raw_summary = video_summary_data.get('summary', '')
+        context['video_summary'] = markdown_to_html(raw_summary)
 
     # Set up Jinja2 environment
     env = Environment(

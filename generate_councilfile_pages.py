@@ -5,9 +5,27 @@ Generate HTML pages for council files showing timeline and AI summaries.
 
 import json
 import os
+import re
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Any, List
+
+
+def markdown_to_html(text: str) -> str:
+    """
+    Convert simple markdown formatting to HTML.
+    Handles **bold**, *italic*, and preserves line breaks.
+    """
+    if not text:
+        return text
+
+    # Convert **bold** to <strong>
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+    # Convert *italic* to <em> (but not if it's already part of **)
+    text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
+
+    return text
 
 
 def format_date(date_str: str) -> str:
@@ -150,7 +168,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
 
         h1 {{
             font-size: 1.25rem;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 1.4;
             margin-bottom: 1rem;
             color: #1a1a1a;
@@ -433,7 +451,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
                 {council_file}
             </div>
             <div class="file-number">{council_file}</div>
-            <h1>{brief_summary}</h1>
+            <h1>{markdown_to_html(brief_summary)}</h1>
             <div class="meta-grid">
                 <div class="meta-item">
                     <span class="meta-label">District</span>
@@ -552,7 +570,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
                     elif line.startswith('## '):
                         # Section heading
                         if current_section:
-                            html += '<p>' + ' '.join(current_section) + '</p>\n'
+                            html += '<p>' + markdown_to_html(' '.join(current_section)) + '</p>\n'
                             current_section = []
                         html += f'<h5>{line[3:]}</h5>\n'
                     elif line.startswith('- '):
@@ -562,7 +580,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path) -> N
                         current_section.append(line)
 
                 if current_section:
-                    html += '<p>' + ' '.join(current_section) + '</p>\n'
+                    html += '<p>' + markdown_to_html(' '.join(current_section)) + '</p>\n'
 
                 html += """                </div>
             </div>
