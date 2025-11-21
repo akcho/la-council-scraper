@@ -25,6 +25,15 @@ TEMP_DIR=$(mktemp -d)
 # Copy ONLY site files to temp
 cp -r site/* "$TEMP_DIR/"
 
+# Now stash changes (the generated site files) so we can switch branches
+if ! git diff --quiet || ! git diff --cached --quiet; then
+    echo "Stashing generated files..."
+    git stash push -u -m "Auto-stash generated files before branch switch"
+    STASHED=true
+else
+    STASHED=false
+fi
+
 # Switch to gh-pages branch (create if doesn't exist)
 if git show-ref --verify --quiet refs/heads/gh-pages; then
     git checkout gh-pages
@@ -52,6 +61,12 @@ git push -f origin gh-pages
 
 # Switch back to original branch
 git checkout "$CURRENT_BRANCH"
+
+# Restore stashed changes if any
+if [ "$STASHED" = true ]; then
+    echo "Restoring stashed changes..."
+    git stash pop
+fi
 
 echo ""
 echo "✅ Deployed to gh-pages branch!"
