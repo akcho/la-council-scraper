@@ -11,6 +11,7 @@ if [ -d "venv" ]; then
 fi
 
 python generate_site.py
+python generate_councilfile_pages.py
 
 echo ""
 echo "Deploying to gh-pages branch..."
