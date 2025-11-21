@@ -1,0 +1,14 @@
+{
+  "historyId": "81599c98-dbc4-4594-8e81-f1c2f57665d9",
+  "council_file": "25-1109",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Staff Report",
+  "category": "staff_report",
+  "summary": "# Summary: Gelb House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\n\nThe Los Angeles Department of City Planning recommends that the Cultural Heritage Commission declare the Gelb House at 12450 W. Rochedale Lane an Historic-Cultural Monument (HCM). This designation would protect the property from incompatible alterations and demolition by subjecting future construction activities to regulatory review based on the Secretary of the Interior's Standards for Historic Preservation.\n\n## Why?\n\nThe Gelb House, completed in 1950, is significant as an excellent example of Mid-Century Modern residential architecture and represents the vision of the Mutual Housing Association (MHA)—the only successful large-scale housing cooperative in the West. Designed by master architects A. Quincy Jones and Whitney R. Smith with structural engineer Edgardo Contini, the home exemplifies post-and-beam construction methods and innovative design principles that brought quality modernist housing to average families. Of the approximately 85 original MHA homes built, only 34 remain intact today, making this one of a rapidly disappearing collection representing an important chapter in Los Angeles's postwar social and architectural history.\n\n## Key Details\n\nThe one-story, 1,197 square-foot residence features distinctive characteristics including exposed wood posts and beams at seven-foot spacing, floor-to-ceiling glass windows, concrete masonry block walls, and a low-pitched shed roof—all hallmarks of the Mid-Century Modern style. Built for approximately $14,000 in 1950, the home was the first of the original 30 MHA houses constructed. The property is located in the Brentwood-Pacific Palisades community plan area and is zoned RE15-1-H (Very Low Residential). The designation qualifies under two HCM criteria: exemplifying significant contributions to postwar housing and representing distinctive Mid-Century Modern architectural characteristics.\n\n## Impact\n\nThis designation protects the property's historic integrity and ensures that any future renovation or construction work must comply with preservation standards. For the current owners and future residents, it means architectural review will be required for exterior modifications and major renovations, though routine maintenance is permitted. The broader community benefit includes preserving an important example of democratic, cooperative housing design that helped define Los Angeles's postwar identity.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 156598,
+    "output_tokens": 502,
+    "cost_usd": 0.159108
+  }
+}

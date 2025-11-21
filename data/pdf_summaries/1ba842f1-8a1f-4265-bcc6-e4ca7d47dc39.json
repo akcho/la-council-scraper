@@ -1,0 +1,14 @@
+{
+  "historyId": "1ba842f1-8a1f-4265-bcc6-e4ca7d47dc39",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from Department of City Planning dated 6-06-25",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council File 24-1587\n\n## What is Being Proposed\nThe City Planning Department is transmitting a citywide code amendment (CPC-2025-1648-CA) to the City Council for consideration. This legislative action requires environmental clearance and will necessitate the preparation of a draft ordinance by the City Attorney's Office. The amendment affects all council districts citywide, meaning it will apply uniformly across Los Angeles rather than to a specific location or project.\n\n## Background and Approval Process\nThe proposal was reviewed by the City Planning Commission on April 24, 2025, and received unanimous approval with an 8-0 vote. This strong support suggests the amendment has broad backing from planning staff and commissioners. The document references related cases dating back to 2016 and 2019, indicating this represents an evolution of ongoing planning efforts. The transmittal was officially received by the City Clerk's office on June 6, 2025.\n\n## Key Details and Timeline\nThe planner contact is Julia Heidelman (818-374-5045). The City Council has 90 days from receipt by the clerk to act on this measure. No formal public notice period is required (marked as \"N/A - None\"), and there are no appealed items. The document notes that a \"Summary of Recommended Actions\" should be added as an attachment to the council file for full context.\n\n## Impact\nThis citywide code amendment will affect all Los Angeles residents and businesses since it applies across all districts. While the specific content of the amendment is not detailed in this transmittal document, the unanimous commission vote and citywide scope suggest this is a significant planning policy change that will require City Council approval before implementation.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6178,
+    "output_tokens": 370,
+    "cost_usd": 0.008028
+  }
+}

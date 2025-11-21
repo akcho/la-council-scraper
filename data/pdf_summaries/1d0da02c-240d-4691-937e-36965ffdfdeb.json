@@ -1,0 +1,14 @@
+{
+  "historyId": "1d0da02c-240d-4691-937e-36965ffdfdeb",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Report from Department of City Planning dated 10-24-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1009\n\n## What is Being Proposed?\n\nThis is a supplemental transmittal from the Department of City Planning to the City Clerk's Office regarding a planning case for properties at 2250-2270 West Pico Boulevard and 1309-1315 South Arapahoe Street. The case involves multiple actions: a General Plan Amendment (GPA), Zone Change (VZC), Height District modification (HD), Conditional Use permit (CU), and Site Plan Review (SPR). The key instruction notes that **the Ordinance containing the T-Conditions (Technical Conditions) is the version that should be approved**.\n\n## Key Details\n\n- **Case Number:** CPC-2018-3544-GPA-VZC-HD-CU-SPR\n- **Environmental Case:** ENV-2018-3545-MND (Mitigated Negative Declaration)\n- **Location:** West Pico Boulevard and South Arapahoe Street in Council District 1 (Councilmember Hernandez's district)\n- **Planner Contact:** Connie Chauv, (213) 978-0016\n- **Transmittal Date:** October 24, 2025\n- **Procedural Status:** Subject to Chapter 1 regulations as of January 21, 2024 (not subject to Processes & Procedures Ordinance)\n\n## What This Means\n\nThis is a routine procedural document transmitting planning documents to the City Clerk for processing. The project involves zoning changes and general plan amendments that will affect land use at these Pico Boulevard locations. The environmental review has been completed (Mitigated Negative Declaration), indicating that potential environmental impacts can be mitigated through conditions. Residents in Council District 1 should monitor this case if concerned about land use changes in this area.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4046,
+    "output_tokens": 421,
+    "cost_usd": 0.006151
+  }
+}

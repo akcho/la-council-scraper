@@ -1,0 +1,14 @@
+{
+  "historyId": "36100a5d-33f7-4735-8803-9f363d0bd550",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Council Action dated 2-06-25",
+  "category": "other",
+  "summary": "# Summary: Council File 25-0030 - Local Emergency Declaration for Los Angeles Wildfires\n\n## What is Being Proposed?\nThe Los Angeles City Council adopted a resolution on February 4, 2025, that officially recognizes and confirms the Mayor's Declaration of Local Emergency issued on January 7, 2025, and an updated declaration from January 13, 2025. This action formally acknowledges the emergency status of the windstorm, extreme fire weather conditions, and devastating wildfires that impacted the City of Los Angeles.\n\n## Why?\nThe resolution responds to a severe natural disaster consisting of a windstorm combined with extreme fire weather conditions that sparked devastating wildfires throughout Los Angeles. By formally adopting the emergency declaration, the City Council authorizes the activation of emergency powers and protocols outlined in Los Angeles Administrative Code Section 8.27, enabling the city to mobilize resources, coordinate emergency response efforts, and access funding needed for disaster response and recovery.\n\n## Key Details\n- **Dates:** Mayor's initial declaration (January 7, 2025); updated declaration (January 13, 2025); City Council vote (February 4, 2025)\n- **Vote:** The resolution passed unanimously with all 15 council members voting YES\n- **Sponsors:** Councilmembers Harris-Dawson and Blumenfield\n- **Legal Framework:** Los Angeles Administrative Code Section 8.27\n\n## Impact\nThis declaration enables the City to respond effectively to the wildfire emergency by streamlining bureaucratic processes, authorizing emergency expenditures, coordinating multi-agency response efforts, and facilitating access to state and federal disaster assistance for affected residents and businesses throughout Los Angeles.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2187,
+    "output_tokens": 371,
+    "cost_usd": 0.0040420000000000005
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "679b585c-0153-4849-83d3-5e3e3ec24fc6",
+  "council_file": "25-1187",
+  "meeting_id": 17406,
+  "original_filename": "Attachment to Report dated 10-08-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Collections Board of Review Write-Off Approvals\n\n## What is Being Proposed?\n\nThe Collections Board of Review is approving the removal of uncollectible accounts from the Los Angeles Fire Department (LAFD) and Los Angeles Housing Department (LAHD). These are unpaid bills that the city has determined cannot be collected through further efforts. The Board is either directly approving smaller write-offs (under $5,000 per account) or recommending larger ones to City Council for final approval.\n\n## Why This Matters\n\nBoth departments have exhausted all reasonable collection efforts over extended periods. The Board determined that spending additional money to pursue these debts would be wasteful—the cost of further collection attempts would exceed any potential recovery. These are primarily emergency ambulance service fees from LAFD and various housing inspection and administrative fees from LAHD that went unpaid for years.\n\n## Key Numbers and Details\n\nThe total write-offs being processed include: **$131.5 million** from LAFD (69,511 ambulance accounts from 2010-2023) and **$5.2 million** from LAHD (11,715 invoices). The Board approved $4.2 million in LAHD accounts directly and is recommending $979,896 in larger individual accounts ($5,000+) to City Council for approval. All accounts represent services billed between 2016-2024 that remain unpaid despite multiple billing notices and referral to collection agencies.\n\n## Impact\n\nResidents should understand this is standard municipal accounting—removing uncollectible debts from active accounts to accurately reflect city finances. This primarily affects property owners and individuals who received city services (ambulance, housing inspections) but did not pay. The write-offs clean up the city's books without recovering the funds, reflecting the reality that these debts are unrecoverable.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6755,
+    "output_tokens": 407,
+    "cost_usd": 0.00879
+  }
+}

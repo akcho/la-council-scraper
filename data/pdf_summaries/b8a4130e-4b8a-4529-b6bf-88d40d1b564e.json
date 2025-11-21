@@ -1,0 +1,14 @@
+{
+  "historyId": "b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+  "council_file": "24-0887",
+  "meeting_id": 17477,
+  "original_filename": "Report from Public Works Committee_8-14-24",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 24-0887\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the City Council direct the Bureau of Sanitation (BOS) to investigate and report on a sewer line rupture that caused a sewage spill at 2700 South Cresta Place on July 20, 2024. The Committee also requests that the Los Angeles Department of Water and Power (LADWP) participate in this investigation.\n\n## Why?\nA sewage spill occurred on July 20, 2024, indicating a failure in the city's sewer infrastructure. The Committee wants to understand what caused the rupture and identify gaps in communication and coordination between the agencies responsible for managing water and sewage systems. The investigation is also intended to identify needed infrastructure improvements to prevent future incidents.\n\n## Key Details\n- **Location:** 2700 South Cresta Place\n- **Date of Incident:** July 20, 2024\n- **Committee Vote:** Unanimous approval (Lee, Blumenfield, and Padilla all voted YES) on August 14, 2024\n- **Agencies Involved:** Bureau of Sanitation (directed) and LADWP (requested to participate)\n- **Note:** No financial impact analysis has been completed yet\n\n## Impact\nThis report affects residents in the affected area and the broader Los Angeles community by addressing public health and environmental concerns related to sewage spills. The investigation may lead to improved coordination between city departments and necessary infrastructure repairs, potentially reducing future sewage spill incidents.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2149,
+    "output_tokens": 341,
+    "cost_usd": 0.003854
+  }
+}

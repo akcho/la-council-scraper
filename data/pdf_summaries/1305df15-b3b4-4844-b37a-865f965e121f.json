@@ -1,0 +1,14 @@
+{
+  "historyId": "1305df15-b3b4-4844-b37a-865f965e121f",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Communication(s) from Public_06-09-2025",
+  "category": "other",
+  "summary": "# Summary: Opposition to Emergency Shelter Code Amendment (CF 24-1587)\n\n## What is Being Proposed?\nThe Los Angeles City Council is considering amending the city's Emergency Shelter Code (LAMC 12.80). Fix The City, a advocacy organization, submitted two letters of opposition on June 9, 2025, urging the Council to reject these amendments.\n\n## Why This Matters & Key Concerns\nFix The City argues that the proposed amendments violate three state laws that regulate emergency shelter definitions, particularly SB 2 (Senate Bill 2) and California Government Code Section 8698 et seq. The core issue is that state law limits emergency shelter stays to six months maximum, but the organization claims the proposed amendments and current Los Angeles operations violate this limit. Specific violations cited include:\n- The Midvale project has a 10-year use agreement, far exceeding the 730-day maximum allowed under state law\n- Emergency sleeping cabins include individual bathrooms and plumbing, which state law prohibits\n- LAHSA (Los Angeles Homeless Services Authority) operates with no time limit on residency, conflicting with state law\n\n## Key Details\nThe opposition targets Council File 24-1587 and Planning Commission file CPC 2025-1648-CA. Fix The City contends that current LAMC 12.80 complies with state law, but the proposed amendments would not. The organization emphasizes that state law has preempted local authority to create alternative definitions for emergency shelters—all California cities, including charter cities, must follow the same six-month occupancy limit established in Health and Safety Code Section 50801(e).\n\n## Impact\nIf approved, these amendments would allow longer-term shelter operations that the organization believes violate state law. Fix The City is actively litigating related issues and warns that amending the code would compound existing compliance problems rather than solve them.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 17393,
+    "output_tokens": 420,
+    "cost_usd": 0.019493
+  }
+}

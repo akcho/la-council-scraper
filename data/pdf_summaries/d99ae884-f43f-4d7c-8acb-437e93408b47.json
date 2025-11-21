@@ -1,0 +1,14 @@
+{
+  "historyId": "d99ae884-f43f-4d7c-8acb-437e93408b47",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Report from Mayor dated 1-07-25",
+  "category": "staff_report",
+  "summary": "# Summary: Declaration of Local Emergency (January 7, 2025)\n\n## What is Being Proposed?\n\nActing Mayor Marqueece Harris-Dawson is declaring a Local Emergency throughout the City of Los Angeles in response to a life-threatening windstorm and extreme fire weather event. This declaration immediately activates the city's Emergency Operations Organization and authorizes the mobilization of mutual aid resources and multiagency coordination to respond to the crisis.\n\n## Why?\n\nThe declaration is necessary because a rare and dangerous weather system poses unprecedented threats to life, property, and infrastructure across Los Angeles. The National Weather Service issued a Particularly Dangerous Situation (PDS) Red Flag warning—affecting 19 million people—predicting destructive N/NE winds of 50-80 mph (with isolated gusts of 80-100 mph in mountains and foothills), combined with dangerously low humidity and extremely dry vegetation. Active fires in Pacific Palisades and the Hollywood area have already prompted evacuation orders and road closures. The mayor determined that the scale of this emergency exceeds normal city services' capacity to respond.\n\n## Key Details\n\nThe emergency began on January 7, 2025, and was expected to last from Tuesday through Wednesday, potentially extending through the end of the week. The Los Angeles County Board of Supervisors had already proclaimed a Local Emergency on January 7, 2025, prompting the city's parallel declaration. Anticipated impacts include widespread power outages, damage to power poles, fallen trees, and extreme fire behavior affecting major transportation arteries.\n\n## Impact\n\nThis declaration affects all Los Angeles residents and property owners. It directs city departments to conduct damage assessments and cost estimates, and requests that the Governor waive regulations hindering response efforts and expedite access to state and federal disaster relief resources under the California Disaster Assistance Act.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4293,
+    "output_tokens": 400,
+    "cost_usd": 0.006293
+  }
+}

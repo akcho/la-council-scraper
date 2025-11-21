@@ -1,0 +1,14 @@
+{
+  "historyId": "1c27bd83-3bd0-4bf5-a641-135c0a0174fe",
+  "council_file": "25-0782",
+  "meeting_id": 17455,
+  "original_filename": "Report from Information Technology Agency dated 7-15-25",
+  "category": "staff_report",
+  "summary": "# Summary: PS Southern California One, LLC Franchise Renewal and Transfer\n\n## What is Being Proposed?\n\nThe Information Technology Agency (ITA) recommends that the City Council approve the renewal and transfer of an Information Technology (IT) System franchise from PS Storage, REIT to PS Southern California One, LLC. The ITA also recommends that the City Attorney prepare a draft ordinance granting a 10-year franchise term to allow this renewal and transfer to proceed.\n\n## Why?\n\nAn IT System franchise is an encroachment permit that allows a company to use the City's public rights-of-way (streets and alleys) to run telecommunications infrastructure between two or more points. PS Southern California One, LLC needs this franchise to continue operating a telecommunications facility connecting its buildings at 1617 Pontius Avenue and 1606 Cotner Avenue through an unnamed City alleyway north of Santa Monica Boulevard.\n\n## Key Details\n\nThe facility uses six one-inch diameter conduits containing video cables, intercom cables, and keypad cables for signal transmission only—not for serving customers. The franchise is being transferred from the current holder (PS Storage, REIT) to PS Southern California One, LLC. The 10-year term would generate $2,500 in application fees plus $450 in annual franchise fees, totaling $4,500 over the decade.\n\n## Impact\n\nThis approval allows PS Southern California One, LLC to legally maintain its telecommunications infrastructure in City rights-of-way and provides the City with revenue. The project has minimal public impact since it involves internal signal transmission through an existing alleyway and is not a customer-facing service.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4229,
+    "output_tokens": 356,
+    "cost_usd": 0.0060090000000000005
+  }
+}

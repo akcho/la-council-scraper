@@ -1,0 +1,14 @@
+{
+  "historyId": "fad9677e-097d-4ea4-ba3b-1a5205bf52f2",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-16-25 - Environmental",
+  "category": "other",
+  "summary": "# Summary: Environmental Analysis for Lorne Street Development Project\n\n## What is Being Proposed?\nThe City is evaluating a residential development project at 11146-11148 Lorne Street in Sun Valley that would demolish three existing single-family homes and replace them with a 17-unit apartment building with attached garages. The project also requires a zoning change from R1-1 (single-family residential) to (T)(Q)RD1.5-1 (multi-family residential). This Initial Study and Mitigated Negative Declaration represents the environmental review required under the California Environmental Quality Act (CEQA).\n\n## Why?\nThe property owner, Sogomon Petrosyan, has proposed this higher-density residential development to maximize housing on the site. The zoning change is necessary to allow the increased density (approximately one unit per 1,500 square feet). The environmental review is required by law to identify and mitigate any potential impacts before the city can approve the project.\n\n## Key Details\n- **Location:** 11146-11148 Lorne Street, Sun Valley (26,297 square feet total)\n- **Project Size:** 26,740 square feet of floor area across three buildings\n- **Heights:** Buildings range from 35 to 37 feet\n- **Parking:** 33 on-site spaces\n- **Population Change:** Net addition of 14 dwelling units (from 3 existing to 17 proposed)\n- **Environmental Finding:** The document concludes that with mitigation measures, the project will have \"less than significant\" impacts\n\n## Impact\nThis project would increase housing supply in the area by 14 units while affecting three existing households. The environmental analysis determined that potential impacts to air quality, noise, traffic, cultural resources, and tribal cultural resources can be mitigated to acceptable levels through standard construction practices, building code compliance, and specific mitigation measures. Residents and neighboring properties would experience temporary construction impacts and increased traffic/density upon completion.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 149203,
+    "output_tokens": 440,
+    "cost_usd": 0.151403
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "86ef3e9d-121d-42b3-8547-10fdf4788946",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer 10_28_2020",
+  "category": "staff_report",
+  "summary": "# Summary: Los Angeles Port Pilots Association Labor Agreement\n\n## What is Being Proposed?\nThe City Administrative Officer recommends that the Los Angeles City Council approve an amended Memorandum of Understanding (MOU) with the Los Angeles Port Pilots Association (ILWU Local 68). This extends the current labor agreement through July 24, 2027, and includes modifications to wages, overtime rules, holiday pay, and other employment terms.\n\n## Why?\nThe Executive Employee Relations Committee (EERC) directed negotiations with the Port Pilots Association to amend and extend the existing labor agreement. The tentative agreement has already been ratified by bargaining unit members, indicating both the union and management have agreed to the terms.\n\n## Key Details\nMajor provisions include: (1) **wages** — no base wage increases through 2027, with a temporary 2.2% reduction for Port Pilot IIs from July 2021 to July 2024; (2) **holiday pay** — reduced from 14 to 12 hours of compensation for working holidays, with unused time banked up to 80 hours; (3) **overtime clarification** — declaring an FLSA overtime exemption; and (4) **call backs** — strengthened payment rules. The agreement also updates various provisions to align with other city labor agreements and administrative code requirements.\n\n## Financial Impact\nThe wage reductions are projected to save the Harbor Department approximately $50,000 annually in FY2021-22 and FY2022-23, and $66,000 in FY2023-24. Additional indeterminate savings will result from reduced overtime and holiday premium pay costs. The impact of efficiency incentive modifications depends on ship traffic levels and cannot be precisely calculated.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4092,
+    "output_tokens": 382,
+    "cost_usd": 0.006002
+  }
+}

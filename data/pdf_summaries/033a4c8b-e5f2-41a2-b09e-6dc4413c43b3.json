@@ -1,0 +1,14 @@
+{
+  "historyId": "033a4c8b-e5f2-41a2-b09e-6dc4413c43b3",
+  "council_file": "25-0005-S142",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department (Case No. 877520)  dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Removal for 815 S Bonnie Brae Street\n\n## What is Being Proposed?\nThe Los Angeles Housing Department (LAHD) is requesting City Council approval to remove the property at 815 S Bonnie Brae Street from the Rent Escrow Account Program (REAP) and terminate the rent reductions that were imposed on its 28 units. This recommendation will be heard at the City Council meeting on November 12, 2025.\n\n## Why?\nThe property was placed into REAP in May 2025 after being cited for housing code violations (weatherproofing and plumbing/gas issues). REAP is an enforcement tool that allows the city to reduce rents and place collected funds into escrow to incentivize landlords to fix violations. The property owner has now corrected all cited violations to LAHD's satisfaction, paid outstanding utility charges to the Department of Water and Power, and received approval from the oversight contractor Strategic Actions for a Just Economy. Since compliance has been achieved, the program can be terminated.\n\n## Key Details\n- **Property**: 815 S Bonnie Brae Street, Los Angeles CA 90057 (APN 5142-004-024)\n- **Units affected**: 28 total units\n- **Case number**: 877520\n- **Timeline**: Opened May 15, 2025; violations corrected; now being recommended for removal\n- **Associated costs**: The owner must prepay for two annual inspections beyond standard fees\n\n## Impact\nFor tenants, rents will be restored to original levels 30 days after notice is mailed. Escrow funds will be distributed first to cover LAHD administrative fees and penalties, then any remaining funds returned to the landlord. The property will exit the enforcement program but remain subject to ongoing inspections and compliance requirements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8520,
+    "output_tokens": 412,
+    "cost_usd": 0.010579999999999999
+  }
+}

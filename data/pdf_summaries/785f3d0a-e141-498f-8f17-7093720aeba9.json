@@ -1,0 +1,14 @@
+{
+  "historyId": "785f3d0a-e141-498f-8f17-7093720aeba9",
+  "council_file": "25-1224",
+  "meeting_id": 17283,
+  "original_filename": "Report from Board of Harbor Commissioners dated 10-17-25",
+  "category": "staff_report",
+  "summary": "# Summary: Successor Permit No. 968 with LA County Flood Control District\n\n## What is Being Proposed?\nThe Port of Los Angeles is requesting City Council approval of Resolution No. 25-10590 to authorize a successor permit with the Los Angeles County Flood Control District. This permit allows for the continued operation and maintenance of a storm drain pipeline located near the West Basin at Berth 132 in Wilmington, California.\n\n## Why?\nSuccessor permits are routine authorizations that renew existing operational agreements. In this case, the permit enables the County Flood Control District to maintain critical storm drain infrastructure that serves the harbor area. The Board of Harbor Commissioners has determined this action qualifies as categorically exempt from environmental review under the California Environmental Quality Act (CEQA).\n\n## Key Details\n- **Permit Number:** Successor Permit No. 968\n- **Location:** West Basin at Berth 132, Wilmington, CA\n- **Financial Impact:** No impact to the City's General Fund\n- **Environmental Status:** Categorically exempt from CEQA requirements under Class 1(14)\n- **Submitted by:** Port of Los Angeles (POLA), Commission Secretary Amber M. Klesges\n\n## Recommended Action\nCity Council is asked to: (1) adopt the environmental exemption determination, and (2) approve the successor permit with the LA County Flood Control District. This is a routine administrative matter with no direct fiscal impact on city residents.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2180,
+    "output_tokens": 327,
+    "cost_usd": 0.003815
+  }
+}

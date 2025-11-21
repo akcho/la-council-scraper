@@ -1,0 +1,14 @@
+{
+  "historyId": "d6d32eb0-71d9-4863-87f0-ce4df584ee08",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-17-25 -ZC Ordinance and Map",
+  "category": "other",
+  "summary": "# Summary of Zoning Change Ordinance - Chatsworth-Porter Ranch (APCNV-2022-8497-VZC)\n\n## What is Being Proposed?\nThis ordinance amends the zoning map for a property in Chatsworth-Porter Ranch by changing the zone classification to (T)(Q)RD4-1. The \"T\" designates tentative status pending tract map approval, and the \"Q\" imposes qualified conditions. The zoning change allows for residential development on approximately 205 feet of frontage along Chase Street and Penfield Avenue, with a maximum of five dwelling units permitted on the site.\n\n## Why?\nThe zoning change implements an approved subdivision (Vesting Tentative Tract Map No. 83673-SL-HCA) and reflects a plan submitted by the applicant for development of the property. The qualified conditions ensure that development proceeds in a manner compatible with the surrounding neighborhood while protecting environmental resources and maintaining quality of life standards.\n\n## Key Details\n- **Location:** Chase Street and Penfield Avenue, Chatsworth-Porter Ranch area\n- **Case Number:** APCNV-2022-8497-VZC\n- **Maximum Density:** 5 dwelling units\n- **North Valley Area Planning Commission Recommendation:** BE ADOPTED (recommended July 3, 2025)\n- **Key Conditions:** Protection of six non-protected trees and one protected Sambucus mexicana tree; landscaping requirements; mechanical equipment screening; outdoor lighting restrictions\n\n## Impact\nThis zoning change affects the property owner/developer by allowing residential development under specific conditions. Neighbors may see new residential construction with required landscaping and screening measures. The conditions require the applicant to fund ongoing maintenance, execute a recorded covenant binding future owners, and defend the City against any legal challenges to this approval, including litigation costs (minimum $50,000 deposit required).",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 13751,
+    "output_tokens": 418,
+    "cost_usd": 0.015841
+  }
+}

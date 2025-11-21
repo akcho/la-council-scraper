@@ -1,0 +1,14 @@
+{
+  "historyId": "6c17dbfd-f03a-43c7-80ee-9b7d659bee37",
+  "council_file": "25-0900-S20",
+  "meeting_id": 17406,
+  "original_filename": "Communication from Bureau of Street Lighting submitted 8-26-25 - Draft Ordinance",
+  "category": "other",
+  "summary": "# Summary: Thatcher Avenue & Washington Boulevard Lighting District Ordinance\n\n## What is Being Proposed?\nThe City Council is being asked to approve a special assessment ordinance that will levy fees on properties within the Thatcher Avenue & Washington Boulevard Lighting District to fund street lighting maintenance and electric service for a 12-month period ending June 30, 2025. This ordinance confirms and approves assessments previously adopted by the Board of Public Works and authorizes the Board to proceed with purchasing and maintaining the necessary lighting equipment.\n\n## Why?\nThis ordinance is required under California law (Proposition 218 and Government Code Section 53753) to formally confirm special assessments on benefiting properties. The lighting district was established through an earlier ordinance of intention (Ordinance No. 188637), and this ordinance completes the legal process by formally approving the assessment roll and authorizing implementation of the lighting improvements.\n\n## Key Details\n- **Service Period:** 12 months ending June 30, 2025\n- **Location:** Thatcher Avenue & Washington Boulevard area\n- **Legal Basis:** Los Angeles Administrative Code Sections 6.95-6.127, California Government Code Section 53753, and Proposition 218\n- **File Number:** 25-0900-S20\n- **Responsible Agency:** Board of Public Works (authorized to issue purchase orders for equipment and services)\n\n## Impact\nProperty owners within the designated lighting district will be assessed fees to cover the cost of maintaining electroliers (street lights) and providing electric current. This is a special assessment that applies only to properties deemed to benefit from improved street lighting in this specific area.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4196,
+    "output_tokens": 362,
+    "cost_usd": 0.006006
+  }
+}

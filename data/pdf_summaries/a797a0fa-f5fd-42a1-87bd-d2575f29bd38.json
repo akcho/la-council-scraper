@@ -1,0 +1,14 @@
+{
+  "historyId": "a797a0fa-f5fd-42a1-87bd-d2575f29bd38",
+  "council_file": "25-0923",
+  "meeting_id": 17283,
+  "original_filename": "Government Operations Committee Report 11-4-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 25-0923\n\n## What is Being Proposed?\nThe Government Operations Committee is recommending that the Los Angeles City Council declare the City-owned property at 8507 South Broadway as \"Exempt Surplus Land\" under the California Surplus Land Act. This designation would allow Special Service for Groups, Inc. (SSG), a nonprofit mental health organization, to develop the property into a Mental Health Rehabilitation Center.\n\n## Why?\nThe exemption is needed to enable SSG to move forward with a mental health facility project funded by California's Behavioral Health Continuum Infrastructure Program. This grant program provides funding to construct mental health facilities serving individuals with behavioral health disorders and substance use issues. The property qualifies for exemption because it is less than one-half acre and meets all state requirements (not in a coastal zone, not near state parks, not on the historic register, and outside the Lake Tahoe region).\n\n## Key Details\nThe 20,000 square-foot lot would be renovated into a multi-collaborative Mental Health Rehabilitation Center offering 24-hour intensive mental health support and rehabilitation services for individuals 18 and older. These services would include outpatient mental health care on the first floor, helping individuals transition from state hospitals or other mental health facilities to develop self-sufficiency skills. The property is located in Council District 9.\n\n## Impact\nThis project will provide comprehensive mental health services to vulnerable residents in Los Angeles, particularly low-income and ethnic minority communities that SSG historically serves. The Committee voted 2-1 (one absent) to recommend approval on November 4, 2025, and the matter now goes to full Council for consideration.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4184,
+    "output_tokens": 363,
+    "cost_usd": 0.005999
+  }
+}

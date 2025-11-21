@@ -1,0 +1,14 @@
+{
+  "historyId": "b323c8d8-940e-4c00-8d15-1b024524f664",
+  "council_file": "21-0586",
+  "meeting_id": 17283,
+  "original_filename": "Report from Bureau of Engineering dated 11-24-21",
+  "category": "staff_report",
+  "summary": "# Summary: Street Vacation Request - Vermont Avenue North of 43rd Street\n\n## What is Being Proposed?\nThe City Engineer is recommending that the Los Angeles City Council approve the vacation (closure and removal from public ownership) of approximately 410 square feet of public street right-of-way on Vermont Avenue north of 43rd Street in South Los Angeles (Council District 9). The vacated land would be transferred to the adjoining property owner, represented by Michael Pauls Associates on behalf of Vermont Capital Fuel LLC.\n\n## Why?\nThe property owner is requesting this vacation to increase usable land area for development purposes consistent with the South Los Angeles Community Plan Implementation Overlay District. The City Engineer concludes the vacation is justified because: (1) the small area is unnecessary for present or future public use, (2) it is not needed for vehicular circulation or access, and (3) it is not needed for non-motorized transportation. The City also benefits by being relieved of maintenance obligations and potential liability for the street easement.\n\n## Key Details\n- **Location:** Portion of Vermont Avenue north of 43rd Street, in a mixed-use area with businesses to the north, west, and south, and multi-family dwellings to the east\n- **Size:** Approximately 410 square feet\n- **Petitioner:** Michael Pauls Associates (representing Vermont Capital Fuel LLC)\n- **Deposit Paid:** $14,980 (with potential additional costs to be paid by petitioner)\n- **Council Approvals:** City Council previously approved initiation of vacation proceedings on July 30, 2021\n\n## Impact and Conditions\nThe vacation will have no adverse effects on traffic or circulation. However, the property owner must comply with 10 conditions, including: providing a 2.5-foot dedication along the adjoining alley; constructing new pavement, curbs, gutters, and sidewalks on Vermont Avenue and 43rd Street to meet city standards; arranging utility easements; and obtaining Department of Transportation approval for any driveway aprons. All conditions must be completed within 2 years, or the vacation proceedings will be terminated.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14476,
+    "output_tokens": 472,
+    "cost_usd": 0.016836
+  }
+}

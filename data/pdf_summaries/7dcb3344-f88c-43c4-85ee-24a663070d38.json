@@ -1,0 +1,14 @@
+{
+  "historyId": "7dcb3344-f88c-43c4-85ee-24a663070d38",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_11-05-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nNatalie Lall, representing the Democratic Socialists of America-Los Angeles (DSA-LA) from Council District 4, is urging the City Council to adopt specific reforms to the Rent Stabilization Ordinance (RSO). The proposed changes include: capping rent increases at the lower of 60% of the Consumer Price Index (CPI) or 3% with no minimum increase floor, and eliminating additional increases currently allowed for utilities and extra occupants.\n\n## Why?\nThe commenter argues that current rent increases allowed under the RSO are unaffordable for struggling Angelenos. Every percentage point of rent increase reduces money available for other necessities such as food, medical care, transportation, and childcare. The communication emphasizes that the RSO is vital for keeping millions of Angelenos stably housed, but the existing formula enables increases that are pricing people out.\n\n## Key Details and Urgency\nThe timing is critical: new rent increase formulas take effect in July, making immediate City Council action necessary. The communication references demands from the advocacy group \"Keep LA Housed\" and emphasizes that without prompt updates to the RSO formula, tenants will face unaffordable increases under the current system.\n\n## Impact\nThese proposed changes would directly affect Los Angeles renters, particularly low-income and struggling households in CD4 and citywide. Capping increases and eliminating utility and occupancy surcharges would reduce landlord-allowed rent hikes, helping tenants maintain housing stability and afford basic necessities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2032,
+    "output_tokens": 365,
+    "cost_usd": 0.0038569999999999998
+  }
+}

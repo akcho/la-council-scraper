@@ -1,0 +1,14 @@
+{
+  "historyId": "71409d4a-838d-4b24-b9d4-39ccb0a68e27",
+  "council_file": "25-1212",
+  "meeting_id": 17406,
+  "original_filename": "Report from Board of Recreation and Park Commissioners  dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: Valley Plaza Park Head Start Preschool Program Agreement\n\n## What is Being Proposed?\nThe City Council is being asked to authorize a formal five-year agreement between the Department of Recreation and Parks (RAP) and Volunteers of America of Los Angeles (VOALA) to operate the \"Little Steps Head Start\" preschool program at Valley Plaza Park in North Hollywood. This would replace the current temporary permit that expires January 28, 2026, with a more permanent arrangement that includes an option to renew for an additional five years.\n\n## Why?\nVOALA has been operating this Head Start program since the 1990s and has been using the park facility under a temporary, revocable permit. The formalization of the agreement is intended to provide stability for the program while ensuring it continues to serve low-income families in the San Fernando Valley. The program provides early childhood education, health services, mental health support, and nutrition assistance to children ages 2-5 whose parents meet federal poverty guidelines, operating at no cost to the City.\n\n## Key Details\n- **Location:** 12331 Vanowen Street, North Hollywood\n- **Program capacity:** Up to 40 children (currently 24 enrolled)\n- **Operating hours:** August through June, Monday-Friday, 8:00 a.m. to 4:30 p.m.\n- **Cost to City:** None—VOALA covers all operational costs and pays RAP $1,704 annually in cost recovery fees (staff impact, administrative services, common area maintenance)\n- **Enrollment:** At least 10% reserved for children with disabilities\n\n## Impact\nThis agreement benefits low-income families in North Hollywood by ensuring continued access to free, high-quality early childhood education and comprehensive support services. The program poses no fiscal burden to the City since VOALA is self-sustaining through federal Head Start funding. The City Council's approval would provide the organization with the certainty needed to maintain long-term program stability and planning.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 157319,
+    "output_tokens": 437,
+    "cost_usd": 0.15950399999999998
+  }
+}

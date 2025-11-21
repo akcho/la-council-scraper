@@ -1,0 +1,14 @@
+{
+  "historyId": "0502a304-18ad-4b9e-9820-0b6590fa3f0b",
+  "council_file": "22-1025-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Department of Aging dated 9-30-25",
+  "category": "staff_report",
+  "summary": "# Summary: SNAP-Ed/CalFresh Healthy Living Program Funding Amendment\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Aging (LADOA) is requesting City Council approval to accept an additional **$844,694 in grant funding** from the California Department of Aging (CDA) for the SNAP-Ed/CalFresh Healthy Living program. This would amend the existing contract with the program's main contractor (CNS/RQA/CA, Inc.) and authorize LADOA's General Manager to negotiate amendments with various service providers. The total program funding would increase from the original $718,842 to **$1,563,536**.\n\n## Why?\n\nThe SNAP-Ed/CalFresh Healthy Living program provides evidence-based nutrition education to eligible older adults to help them make healthier food choices on limited budgets and maintain physically active lifestyles. The additional CDA funding will expand this existing program by increasing financial support to the primary contractor and enabling services at Multipurpose Senior Centers (MPCs) citywide. The supplementary funding also supports community garden education, farmers market access initiatives, and intergenerational engagement within Los Angeles neighborhoods.\n\n## Key Details\n\n- **Funding increase:** $844,694 in new grant funding from CDA\n- **Program extension:** Services continue through June 30, 2026\n- **Total contract value:** $479,626 (including the amendment)\n- **Service locations:** 15 Agency Service Areas (ASAs) citywide, including the Central Business District\n- **Main contractors:** CNS/RQA/CA, Inc. plus eight subcontractors (Jewish Family Service, LGBT Center, St. Barnabas Senior Center, etc.)\n- **Budget allocation:** $710,317 to contractors; $134,377 to LADOA administration and direct services\n\n## Impact\n\nThis affects senior citizens throughout Los Angeles who are eligible for SNAP benefits, particularly those 60+ years old seeking nutrition education and healthy lifestyle support. The expansion allows LADOA to provide more comprehensive services across the city's aging population while supporting local community partners and senior centers.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 68506,
+    "output_tokens": 469,
+    "cost_usd": 0.070851
+  }
+}

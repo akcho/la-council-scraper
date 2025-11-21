@@ -1,0 +1,14 @@
+{
+  "historyId": "35b302e2-2709-435d-a188-853ebd707079",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Engineering 02_20_2020",
+  "category": "staff_report",
+  "summary": "# Summary: McKinley Place Street Vacation Request\n\n## What is Being Proposed?\n\nThe City Engineer is recommending that the Los Angeles City Council vacate (remove from public ownership) a 32.5-foot by 135-foot section of McKinley Place, located south of 87th Street in Council District 9. The vacated street would be transferred to North East Trees, representing Heal the Bay, which is the current lessee of the adjoining property.\n\n## Why?\n\nThe petitioner wants to convert the underutilized street into a neighborhood park that will serve Wisdom Academy for Young Scientists (WAYS) students and the surrounding community. The proposed improvements include shade trees, a garden, fitness stations, a walking track, and outdoor classrooms. The City would benefit by being relieved of ongoing street maintenance obligations and potential liability associated with owning the street easement.\n\n## Key Details\n\nThe application was submitted on March 29, 2018, and the City Council initiated vacation proceedings in February 2019. The petitioner has already paid $14,980 in investigation fees. The vacation was found to be consistent with the City's General Plan and the Southeast Los Angeles Community Plan's goals for open space and recreation. No objections were received from the public, and city departments—including the Fire Department, Planning Department, and Department of Transportation—approved the request with conditions.\n\n## Impact\n\nThe vacation will require the petitioner to dedicate additional street width to McKinley Avenue and construct significant improvements to adjacent streets (McKinley Place, 87th Street, and McKinley Avenue), including new sidewalks, curbs, gutters, and curb ramps. A 2-year timeline has been set for the petitioner to complete all conditions. Once vacated, the street area becomes private property for the community park project, benefiting local residents while removing city maintenance responsibilities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16455,
+    "output_tokens": 406,
+    "cost_usd": 0.018485
+  }
+}

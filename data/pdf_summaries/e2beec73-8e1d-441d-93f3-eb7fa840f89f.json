@@ -1,0 +1,14 @@
+{
+  "historyId": "e2beec73-8e1d-441d-93f3-eb7fa840f89f",
+  "council_file": "21-1039-S3",
+  "meeting_id": 17407,
+  "original_filename": "Motion (Blumenfield - Nazarian) dated 10-07-25",
+  "category": "other",
+  "summary": "# Summary: Motion on Renewable Energy for City Properties\n\n## What is Being Proposed?\n\nThis motion directs the Bureau of Engineering and requests the Department of Water and Power (LADWP) to prioritize renewable energy and battery storage systems on Los Angeles city properties as part of the LA100 strategy—a citywide goal to achieve 100% renewable energy by 2035. Specifically, the motion asks these departments to ensure that the municipal electrification and solar battery decarbonization master plan focuses on large city parcels and properties that can significantly lower municipal solar bills and maximize renewable energy generation and storage.\n\n## Why?\n\nLos Angeles has committed to the LA100 strategy through City Council, which requires all city energy to come from renewable sources. The city owns nearly 1,000 properties that could potentially host renewable energy systems and storage. Currently, a comprehensive plan is being developed by the Bureau of Engineering in collaboration with LADWP and other agencies, but the motion seeks to ensure that priority is given to high-impact properties that will generate the most renewable energy, reduce greenhouse gas emissions, and generate revenue or reduce power costs.\n\n## Key Details\n\nThe motion specifically highlights the **LAPD Community Police Station at 21501 Schoenborn St. in Canoga Park** as a priority location for solar generation and battery storage due to high temperatures in that area. The motion references council file 21-1039 and requests a report on the feasibility of adding solar and energy storage assets to LAPD properties and parking lots, with particular focus on the Canoga Park Police Station.\n\n## Impact\n\nThis affects all Los Angeles residents by accelerating the city's path to renewable energy and reducing municipal energy costs. City departments will need to identify and prioritize properties for solar installation, benefiting taxpayers through lower power bills and advancing environmental goals through reduced emissions.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3327,
+    "output_tokens": 397,
+    "cost_usd": 0.005312
+  }
+}

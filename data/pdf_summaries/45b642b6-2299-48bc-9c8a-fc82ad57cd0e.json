@@ -1,0 +1,14 @@
+{
+  "historyId": "45b642b6-2299-48bc-9c8a-fc82ad57cd0e",
+  "council_file": "25-0900-S50",
+  "meeting_id": 17407,
+  "original_filename": "Report from Bureau of Street Lighting dated 9-24-35",
+  "category": "staff_report",
+  "summary": "# Summary: New Hampshire Avenue & Fountain Avenue Street Lighting Assessment District\n\n## What is Being Proposed?\n\nThe Bureau of Street Lighting is proposing to establish a new street lighting maintenance assessment district for New Hampshire Avenue between Fountain Avenue and points south. This district would finance the operation, maintenance, and electric energy costs for one new streetlight through annual assessments on nearby benefiting properties. The proposal follows Proposition 218 requirements, which mandate that property owners vote on any new assessments before they can be imposed.\n\n## Why This Matters\n\nThe proposed streetlight is part of a private development project at 1245 N New Hampshire Avenue. Under city policy, about 80% of streetlight costs are financed through assessments to benefiting properties rather than general city funds. Proposition 218 requires that any property assessment be supported by an engineer's report demonstrating that assessed properties receive \"special benefit\" from the improvement and that the assessment amount is proportional to that benefit.\n\n## Key Details\n\n- **Total Assessment:** $381.06 annually for fiscal year 2025-2026\n- **Affected Parcels:** 9 units (all part of the same development at 1245 N New Hampshire Ave)\n- **Assessment per Unit:** $42.34 per unit\n- **Location:** New Hampshire Avenue, from 262' to 376' south of Fountain Avenue\n- **Process:** Property owners will receive ballots and have the opportunity to vote; weighted majority vote determines approval\n\n## What Happens Next\n\nIf the City Council adopts the Ordinance of Intention, ballots will be mailed to property owners. The City Clerk will conduct the ballot proceeding and count weighted votes. If \"yes\" votes meet or exceed \"no\" votes, assessments will be confirmed and imposed. If \"no\" votes exceed \"yes\" votes, the district will be abandoned and the streetlight will not be constructed. This is a relatively modest, single-light proposal affecting nine residential condominium units in Council District 13.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 44532,
+    "output_tokens": 439,
+    "cost_usd": 0.046727000000000005
+  }
+}

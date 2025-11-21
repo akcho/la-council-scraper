@@ -1,0 +1,14 @@
+{
+  "historyId": "3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+  "council_file": "24-0887",
+  "meeting_id": 17477,
+  "original_filename": "Report from Public Works Committee_10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 24-0887\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the Los Angeles City Council simply note and file a Bureau of Sanitation report about a sewer line rupture and sewage spill that occurred at 2700 South Cresa Place. No further action from the Council is being requested at this time.\n\n## Why?\nThe report investigates the cause of the sewer line rupture and the resulting sewage spill, and also addresses how the city can better coordinate and share information to prevent and mitigate similar spills in the future. The committee reviewed this report during their October 22, 2025 meeting and determined that the information should be documented for the Council's record.\n\n## Key Details\n- **Incident Location:** 2700 South Cresa Place\n- **Report Date:** December 19, 2024\n- **Committee Meeting:** October 22, 2025\n- **Committee Vote:** 2 members voted YES (Hernandez and Hutt), 1 ABSENT (Padilla)\n- **Fiscal Impact:** None\n\n## Impact\nThis report affects residents in the affected area and the broader city by documenting what caused the sewage spill and recommending improvements to prevent future incidents. While no immediate Council action is required, the findings will inform the city's approach to sewer infrastructure maintenance and emergency coordination.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2099,
+    "output_tokens": 310,
+    "cost_usd": 0.0036490000000000003
+  }
+}

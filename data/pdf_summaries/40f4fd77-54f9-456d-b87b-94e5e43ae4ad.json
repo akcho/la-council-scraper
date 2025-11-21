@@ -1,0 +1,14 @@
+{
+  "historyId": "40f4fd77-54f9-456d-b87b-94e5e43ae4ad",
+  "council_file": "20-0504",
+  "meeting_id": 17283,
+  "original_filename": "Report from Transportation Committee 05_22_2020",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 20-0504\n\n## What Is Being Proposed?\n\nThe Transportation Committee is recommending that the Los Angeles City Council receive and file a Los Angeles Department of Transportation (LADOT) report regarding transit projects that will compete for funding from the Los Angeles County Metropolitan Transportation Authority (Metro). Specifically, LADOT is proposing to submit Letters of Interest for active transportation corridors and eight First/Last Mile station projects to Metro's Active Transport Cycle 1 Call for Projects.\n\n## Why?\n\nThis program aims to increase the use of active transportation modes like biking and walking, and to expand the reach of public transit. The Metro Active Transport Cycle 1 Call for Projects makes $75 million in funding available. LADOT evaluated potential projects based on existing planning efforts, unmet funding needs, and Measure M guidelines to identify the strongest candidates for funding.\n\n## Key Details\n\nMetro is dividing the $75 million funding pool into two categories: First/Last Mile projects (limited to 138 pre-ranked locations) and Active Transportation Corridors (25 pre-ranked corridors). LADOT identified eight First/Last Mile station projects and multiple active transportation corridors as recommended projects. The deadline to submit Letters of Interest was April 30, 2020. The Transportation Committee voted on May 18, 2020, with two members voting yes (Bonin and Koretz) and one member absent (Martinez).\n\n## Impact\n\nThese projects, if funded, will improve pedestrian and bicycle access to transit stations and create safer, more accessible active transportation routes throughout Los Angeles. This affects all residents, particularly those who rely on public transportation or active modes of transportation for mobility.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3783,
+    "output_tokens": 366,
+    "cost_usd": 0.005613
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "032beca3-32f0-48e6-ab3e-b5c99afc9da6",
+  "council_file": "24-0617",
+  "meeting_id": 17455,
+  "original_filename": "Motion (Blumenfield - Harris-Dawson) dated 07-02-24",
+  "category": "other",
+  "summary": "# Summary: Settlement Authorization for Lucia Gonzales v. City of Los Angeles\n\n## What is Being Proposed?\nThe Los Angeles City Council is approving a $175,000 settlement to resolve a lawsuit filed by Lucia Gonzales against the City of Los Angeles. The motion authorizes the City Attorney's Office to spend this amount and directs the Controller to transfer funds from the city's liability accounts to pay the settlement.\n\n## Why?\nThis settlement stems from a June 30, 2021 incident in which the Los Angeles Police Department Bomb Squad detonated explosive material, resulting in damages or injuries that led Ms. Gonzales to file a lawsuit (Case No. 22STCV09083). Rather than continue litigation, the city is settling the matter. The settlement includes Centro Legal Latino, suggesting the organization may have provided legal representation or support to the plaintiff.\n\n## Key Details\n- **Settlement Amount:** $175,000\n- **Funding Source:** Transfer from the Liability Claims Fund (Miscellaneous Liability Payouts account) to the Police Liability Payouts account in Fiscal Year 2024-25\n- **Payees:** Centro Legal Latino and Lucia Gonzales\n- **Committee Approval:** The Budget, Finance and Innovation Committee unanimously approved this matter on June 26, 2024\n\n## Impact\nThis settlement closes litigation related to a police department incident, compensating the affected resident for damages. The decision requires final approval from the Mayor and reflects the city's resolution of a potential liability claim related to LAPD operations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2276,
+    "output_tokens": 341,
+    "cost_usd": 0.003981
+  }
+}

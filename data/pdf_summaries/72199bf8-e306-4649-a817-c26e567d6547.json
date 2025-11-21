@@ -1,0 +1,14 @@
+{
+  "historyId": "72199bf8-e306-4649-a817-c26e567d6547",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Report from North Valley Area Planning Commission dated 9-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: Zone Change for 11146-11148 Lorne Street, Sun Valley\n\n## What is Being Proposed?\nThe North Valley Area Planning Commission is recommending that the City Council approve a zone change for a property at 11146-11148 Lorne Street in Sun Valley from R1-1-CUGU (single-family residential) to (T)(Q)RD1.5-1-CUGU (multi-family residential with temporary and qualified restrictions). The project involves demolishing three existing single-family homes to construct a 17-unit apartment building with attached garages. Of the 17 units, two will be affordable housing (one extremely low income, one very low income), while 15 will be market-rate.\n\n## Why?\nThe city supports this project to increase housing supply in alignment with Los Angeles's Green New Deal goals to construct 100,000 new housing units by 2021 and locate new housing near transit. The site is underutilized and located approximately 0.4 miles from the Sun Valley Metrolink Station and multiple bus lines. The proposed zoning is consistent with the Sun Valley–La Tuna Canyon Community Plan's Low Medium II Residential designation. The project would represent a net increase of 14 residential units at the location.\n\n## Key Details\n- **Location:** 11146–11148 Lorne Street, Sun Valley (Council District 6)\n- **Current/Proposed Zone:** R1-1-CUGU → (T)(Q)RD1.5-1-CUGU\n- **Project Size:** 26,296.6 square feet; 17 total units\n- **Commission Vote:** 4-0 approval (June 5, 2025)\n- **Environmental Review:** Mitigated Negative Declaration (MND) adopted\n- **Appeal Deadline:** September 1, 2025\n\n## Impact\nThe zone change enables redevelopment of an underutilized residential lot to increase housing supply and affordability in Sun Valley. Residents will benefit from improved pedestrian infrastructure, street lighting, and transit access. The project includes numerous conditions requiring affordable housing covenants, labor protections (prevailing wages, local hiring requirements), design compliance with citywide guidelines, and street improvements along Lorne Street and Fair Avenue.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 56693,
+    "output_tokens": 514,
+    "cost_usd": 0.059263
+  }
+}

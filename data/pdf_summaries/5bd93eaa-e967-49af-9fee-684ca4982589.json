@@ -1,0 +1,14 @@
+{
+  "historyId": "5bd93eaa-e967-49af-9fee-684ca4982589",
+  "council_file": "20-0504",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Department of Transportation dated 5-12-21",
+  "category": "staff_report",
+  "summary": "# Summary: Metro Active Transportation Program Cycle 1 Funding for Los Angeles\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Transportation (LADOT) is asking the City Council to authorize the acceptance of grant funding from the Los Angeles County Metropolitan Transportation Authority (Metro) for active transportation projects. Specifically, the city is seeking approval to enter into funding agreements and cooperative contracts to implement one active transportation corridor project and six first/last mile transit station improvement projects, with no local match required.\n\n## Why?\n\nThe Metro Active Transportation (MAT) Program, funded through Measure M, aims to increase biking and walking while expanding transit access across Los Angeles County. Metro released a $75 million solicitation in February 2020 (later reduced to $63.1 million due to COVID-19 revenue impacts). LADOT submitted applications in April 2020, and Metro approved the city's projects in January 2021. The City Council authorization is needed to formally execute agreements and begin spending funds starting July 1, 2021.\n\n## Key Details\n\n**Projects Awarded:**\n- **Active Transportation Corridor:** Avalon/Martin Luther King Jr./Gage Corridor (led by LADOT)\n- **First/Last Mile Stations:** Hollywood/Highland, Hollywood/Vine, LAX/Aviation, Sepulveda (G Line), Western/Slauson, and Culver City Expo Line (with Culver City as co-lead)\n\nOf the 11 projects submitted (3 corridors and 8 station areas), 7 were selected for funding. The timeframe for this effort was compressed—Metro released solicitations on February 18, 2020, with an April 2 deadline later extended to April 30 due to COVID-19.\n\n## Impact\n\nThis funding supports active transportation infrastructure improvements across multiple neighborhoods, particularly benefiting transit riders who need safe biking and walking connections to metro stations. There is no cost to the city's General Fund, but future budget appropriations will be needed to deliver the projects over the five-year cycle (fiscal years 2021-2025).",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 15303,
+    "output_tokens": 465,
+    "cost_usd": 0.017628
+  }
+}

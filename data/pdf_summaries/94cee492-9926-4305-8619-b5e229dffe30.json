@@ -1,0 +1,14 @@
+{
+  "historyId": "94cee492-9926-4305-8619-b5e229dffe30",
+  "council_file": "18-0553-S2",
+  "meeting_id": 17407,
+  "original_filename": "Motion (Padilla - Blumenfield) dated 7-01-25",
+  "category": "other",
+  "summary": "# Summary: Montgomery Ward Site Development Motion\n\n## What is Being Proposed?\nThe Bureau of Engineering (BOE) is being authorized to issue a revocable permit to ICON Panorama (or its designee) to begin grading, foundation work, and construction on the old Montgomery Ward site at Roscoe Boulevard and Tobias Avenue. The permit allows temporary closure, gating, excavation, and reconstruction of an alley while protecting the City's ability to restore the right-of-way if the project stalls.\n\n## Why?\nThe Montgomery Ward property has sat vacant for years, representing lost retail opportunity and economic decline in Panorama City. This mixed-use, transit-oriented development project will bring new shops, public open space, and living-wage construction jobs to working-class families. The motion is designed to keep the project on schedule by allowing construction to begin before the final tract map is officially recorded.\n\n## Key Details\n- **Location:** 14665-14697 W. Roscoe Boulevard, 8300-8406 N. Cedros Avenue, and 8321-8413 N. Tobias Avenue\n- **Project scope:** Merge a narrow north-south alley; fence off two decades-old alley segments (Lots 118-132 and Lots 73-79); build a new safer east-west alley between Lots 79-80\n- **Requirements:** Developer must post a bond to restore the alley if the project fails; obtain approvals from Street Services and Transportation for alley closure plan\n\n## Impact\nThis affects Panorama City residents and workers by potentially revitalizing a neglected commercial corridor and creating construction jobs. The revocable permit protects the City by ensuring the developer can proceed while maintaining the ability to reverse the work if the project is abandoned.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1775,
+    "output_tokens": 398,
+    "cost_usd": 0.003765
+  }
+}

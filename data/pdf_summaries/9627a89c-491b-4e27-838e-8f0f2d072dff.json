@@ -1,0 +1,14 @@
+{
+  "historyId": "9627a89c-491b-4e27-838e-8f0f2d072dff",
+  "council_file": "21-0586",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Committee_3-23-22",
+  "category": "staff_report",
+  "summary": "# Summary: Vermont Avenue Vacation (Council File 21-0586)\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that Los Angeles City Council approve the vacation (closure and removal from public use) of a portion of Vermont Avenue north of 43rd Street in South Los Angeles. This means the street would no longer be maintained by the City and the land could potentially be developed or used by adjacent property owners.\n\n## Why?\nThe vacation is intended to increase usable land area for development consistent with the South Los Angeles Community Plan Implementation Overlay District. By vacating this street segment, the City would also be relieved of ongoing maintenance obligations and potential liability associated with owning and maintaining this public right-of-way. A petitioner (property developer or owner) initiated this request and paid $14,980 in investigation fees.\n\n## Key Details\n- **Location:** Vermont Avenue north of 43rd Street\n- **Committee Vote:** Approved 4-1 (Blumenfield, Lee, De León, and O'Farrell voted YES; Koretz was absent)\n- **Vote Date:** March 23, 2022\n- **Environmental Status:** Exempt from California Environmental Quality Act review\n- **Fee:** Petitioner paid $14,980; may owe additional deficit fees to cover full investigation costs\n\n## Impact\nThe vacation would eliminate City maintenance costs for this street segment and transfer the land to private development. The proposal has been processed under standard street vacation procedures established by Council in 2002. The Committee provided an opportunity for public comment before making its recommendation. No community impact statement was submitted.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4066,
+    "output_tokens": 351,
+    "cost_usd": 0.005821
+  }
+}

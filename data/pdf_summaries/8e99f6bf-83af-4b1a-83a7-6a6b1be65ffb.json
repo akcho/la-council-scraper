@@ -1,0 +1,14 @@
+{
+  "historyId": "8e99f6bf-83af-4b1a-83a7-6a6b1be65ffb",
+  "council_file": "21-0392",
+  "meeting_id": 17406,
+  "original_filename": "Report from Department of Animal Services dated 3-30-21.pdf",
+  "category": "staff_report",
+  "summary": "# Summary: ASPCA Contract for Chesterfield Square Animal Services Spay/Neuter Clinic\n\n## What is Being Proposed\nThe Department of Animal Services is requesting City Council approval to execute a three-year contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to operate the on-site spay/neuter clinic at the Chesterfield Square Animal Services Center. The contract includes two optional one-year extensions at the Department's discretion, with an effective date of July 1, 2021.\n\n## Why This is Needed\nThis contract is part of a cost containment protocol authorized by the Mayor's Office on March 16, 2021. The Department completed a competitive process by establishing an \"on-call\" list of qualified spay/neuter service providers in September 2020, following a Request for Qualifications (RFQ). ASPCA was identified as the selected provider through a Task Order Solicitation (TOS) process completed on March 30, 2021. Spay/neuter services are essential for animal control and welfare operations.\n\n## Key Details\nThe contract will be funded entirely through the Animal Sterilization Fund—which is supported by licensing fees, adoption fees, annual budgetary allocations, and donations—not the General Fund. Rates will be established by the Animal Services Commission. The ASPCA is already a current contractor operating the South LA spay/neuter clinic (contract expires 12/31/2020).\n\n## Impact\nThis arrangement allows the Department to outsource clinic operations to an experienced nonprofit organization, improving service efficiency while maintaining no cost to the General Fund. Residents and animals in Los Angeles will continue to have access to spay/neuter services, a critical public health and animal welfare service.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10563,
+    "output_tokens": 392,
+    "cost_usd": 0.012523
+  }
+}

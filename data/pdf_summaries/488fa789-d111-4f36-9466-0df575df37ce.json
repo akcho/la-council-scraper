@@ -1,0 +1,14 @@
+{
+  "historyId": "488fa789-d111-4f36-9466-0df575df37ce",
+  "council_file": "25-0002-S87",
+  "meeting_id": 17455,
+  "original_filename": "Report from Chief Legislative Analyst dated 10-20-25",
+  "category": "staff_report",
+  "summary": "# Summary: Preventing Auto Recycling Theft Act Support Resolution\n\n## What is Being Proposed\nThe Los Angeles City Council is being asked to adopt a resolution expressing the city's official support for two federal bills—S. 2238 and H.R. 5221, known as the Preventing Auto Recycling Theft Act (PART Act). These bills would require Vehicle Identification Numbers (VINs) to be etched onto catalytic converters on all new vehicles and would establish a grant program to stamp identification numbers on existing vehicles.\n\n## Why This Matters\nCatalytic converter theft has become a widespread national problem. These devices contain precious metals (platinum, rhodium, and palladium) worth up to $1,000 each on the black market, making them theft targets. However, because they have no identifying marks, stolen converters are nearly impossible for law enforcement to trace back to victims' vehicles. The lack of identifiable markings also makes prosecution difficult. Vehicle owners face replacement costs ranging from $1,000 to $3,500, which disproportionately burdens lower-income communities and small businesses.\n\n## Key Details\nThe PART Act would require: (1) VINs stamped on all new vehicle catalytic converters, (2) a federal grant program to retrofit existing vehicles, (3) record-keeping standards for used converter purchases, and (4) federal criminal penalties for converter theft. The Senate bill was introduced July 10, 2025, and the House version was introduced September 9, 2025. Los Angeles has previously supported similar state legislation, including California's SB 55, though federal requirements would be more effective for out-of-state vehicles.\n\n## Impact\nThis resolution allows the city to officially advocate for federal legislation that would help deter theft, improve law enforcement's ability to recover stolen converters, and reduce the financial burden on vehicle owners citywide.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6836,
+    "output_tokens": 413,
+    "cost_usd": 0.008901
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "14d3fa6a-6cbd-48cc-bf34-4707aec6a8d5",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Report from North Valley Area Planning Commission dated 9-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: Zone Change for 11146-11148 Lorne Street, Sun Valley\n\n## What Is Being Proposed?\n\nThe North Valley Area Planning Commission is recommending that the City Council approve a zone change for a property at 11146-11148 Lorne Street in Sun Valley from R1-1-CUGU (single-family residential) to (T)(Q)RD1.5-1-CUGU (low-medium density multi-family residential). This would allow the demolition of three existing single-family homes and construction of a new 17-unit apartment building with attached garages on the approximately 26,300 square-foot lot. The project includes two affordable units (one for extremely low-income households and one for very low-income households) and 15 market-rate units.\n\n## Why Is This Needed?\n\nThe zone change addresses several city planning goals. The current zoning is inconsistent with the Sun Valley-La Tuna Canyon Community Plan, which designates this area for \"Low Medium II Residential\" land use. The project supports Mayor Garcetti's housing goals by increasing the city's housing supply near transit—the site is located 0.4 miles from the Sun Valley Metrolink Station and near multiple Metro bus lines. The proposal also brings the property into compliance with the General Plan and improves pedestrian infrastructure through required street improvements.\n\n## Key Details\n\nThe Planning Commission voted 4-0 in favor on June 5, 2025. The project includes significant conditions: street improvements on both Lorne Street and Fair Avenue (including new sidewalks and ADA-compliant driveways), a 3-foot land dedication along Fair Avenue, prevailing wage requirements for construction workers, design guidelines compliance, and housing affordability covenants for 55 years. The environmental review (Mitigated Negative Declaration) found no significant adverse impacts with mitigation measures in place.\n\n## Impact\n\nThis change affects residents and potential future residents of the Sun Valley area. It increases local housing options but replaces three single-family homes with a multi-family building, altering neighborhood character. New residents and workers will benefit from proximity to transit and services. The project requires compliance with numerous conditions protecting neighboring properties, including design standards, landscaping, and traffic management measures.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 56693,
+    "output_tokens": 502,
+    "cost_usd": 0.059203
+  }
+}

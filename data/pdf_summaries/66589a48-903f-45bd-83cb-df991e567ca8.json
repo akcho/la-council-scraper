@@ -1,0 +1,14 @@
+{
+  "historyId": "66589a48-903f-45bd-83cb-df991e567ca8",
+  "council_file": "25-0005-S145",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Report\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is requesting that the City Council remove seven residential properties from the Rent Escrow Account Program (REAP) and terminate the rent reductions currently in effect on these properties. The properties are located across Los Angeles, including addresses in Downtown LA, South LA, and Wilmington. The council is being asked to approve this removal at the November 12, 2025 meeting.\n\n## Why?\n\nREAP is an enforcement program that places properties into escrow and reduces tenant rents when landlords fail to maintain safe housing conditions. Once a landlord corrects all cited code violations, pays outstanding utility bills, and meets all requirements under Los Angeles Municipal Code Section 162.08, the property becomes eligible for removal. LAHD reports that all seven properties have now met these compliance requirements, with violations corrected and utilities paid.\n\n## Key Details\n\nThe seven cases involve properties at various locations, with one property (815 S Bonnie Brae St) appearing in three separate cases. The violations initially cited included fire safety defects, maintenance issues, electrical problems, and plumbing/gas concerns. One detailed example is Case No. 831859 at 327 N Welcome St (owned by Christopher H You), which involved 16 initial violations across 2 units and was opened on April 24, 2025. According to the documents, all violations have been corrected.\n\n## Impact\n\nFor tenants: Rent reductions will end 30 days after notification, meaning rents will return to original levels. For landlords: They must prepay for two years of annual inspections and pay administrative and inspection fees before escrow funds are released. Any remaining escrow funds go to the landlord after fees are deducted. This affects approximately 10+ tenant households across these properties.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8509,
+    "output_tokens": 413,
+    "cost_usd": 0.010574
+  }
+}

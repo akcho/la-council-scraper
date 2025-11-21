@@ -1,0 +1,14 @@
+{
+  "historyId": "42467e51-5f81-4664-8a40-92c171650e74",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Government Operations Committee Report 10-24-25",
+  "category": "staff_report",
+  "summary": "# Summary: Amendment to Port Pilots Labor Agreement\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to approve Amendment No. 1 to the 2017-2028 Memorandum of Understanding (labor agreement) between the City and the Los Angeles Port Pilots Association. The amendment clarifies how overtime compensation is calculated for port pilots by eliminating the ability to record an eight-hour absence during pay periods when pilots work their remaining shifts.\n\n## Why This Is Needed?\nA payroll system error led to a dispute over how pilots should be compensated. The city's former payroll system mistakenly paid pilots at the regular rate (rather than overtime) for hours worked between the 80th and 84th hours in a two-week pay period. The Port Pilots Association filed a grievance, arguing pilots deserved overtime pay for these hours. Management countered that a 7.5% wage increase from 2006 was specifically negotiated to account for this scenario. The amendment resolves this conflict by changing how absences are recorded.\n\n## Key Details\n- Port pilots work seven 12-hour shifts per pay period (84 hours total)\n- When pilots take a day off, only 8 hours are recorded, leaving 80 hours of paid time\n- The amendment prevents recording eight-hour absences when pilots work six remaining shifts\n- The agreement has no impact on the city's General Fund; the Harbor Department covers all costs\n- The Personnel and Hiring Committee voted 2-1 in favor (one member absent)\n\n## Impact\nThis change affects Los Angeles port pilots' pay calculations going forward and resolves a grievance dispute between the city and the pilots' union.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4630,
+    "output_tokens": 371,
+    "cost_usd": 0.0064849999999999994
+  }
+}

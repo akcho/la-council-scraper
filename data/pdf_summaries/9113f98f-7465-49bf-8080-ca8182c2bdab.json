@@ -1,0 +1,14 @@
+{
+  "historyId": "9113f98f-7465-49bf-8080-ca8182c2bdab",
+  "council_file": "25-0005-S144",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Recommendation\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is requesting City Council approval to remove seven properties from the Rent Escrow Account Program (REAP) and terminate rent reductions on those units. This includes properties on South Union Avenue, South Bonnie Brae Street (three separate cases), West 53rd Street, North Welcome Street, and North Neptune Avenue in Wilmington. The recommendation is scheduled for the November 12, 2025 City Council meeting.\n\n## Why This Matters\n\nREAP is a enforcement tool used when rental properties have serious housing code violations (like sanitation, electrical, or plumbing problems). When a property enters REAP, tenants receive rent reductions while the landlord is required to fix violations. The LAHD is now recommending removal because all cited violations at these seven properties have been corrected, utilities are paid current, and the properties meet all requirements under Los Angeles Municipal Code Section 162.08.\n\n## Key Details\n\nThe document details one specific property removal: **325 W 53rd Street** (Case No. 745034), owned by the Reginald Furbert Living Trust with 3 units. This case was opened April 12, 2024, after 6 violations were cited (sanitation, electrical, plumbing/gas issues). All violations have now been corrected. Upon removal from REAP, rent will return to original levels after a 30-day notice period, and escrow funds will be released to cover administrative fees before returning remaining funds to the landlord.\n\n## Impact\n\nTenants at these properties will see rent increases return to pre-REAP levels within 30 days of notification. While this ends temporary rent relief, it signals that housing code violations have been resolved, improving living conditions. The landlord must also continue paying for two years of annual inspections to ensure ongoing compliance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8522,
+    "output_tokens": 427,
+    "cost_usd": 0.010657
+  }
+}

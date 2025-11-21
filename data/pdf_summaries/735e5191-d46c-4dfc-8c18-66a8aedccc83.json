@@ -1,0 +1,14 @@
+{
+  "historyId": "735e5191-d46c-4dfc-8c18-66a8aedccc83",
+  "council_file": "25-1061",
+  "meeting_id": 17406,
+  "original_filename": "Report from Board of Public Works dated 9-09-25",
+  "category": "staff_report",
+  "summary": "# Summary: Brownfields Community-Wide Assessment Grant\n\n## What is Being Proposed?\n\nThe Board of Public Works recommends that the City Council authorize the Director of the Bureau of Sanitation to negotiate, accept, and execute documents necessary to secure a Brownfields Community-Wide Assessment Grant from the U.S. Environmental Protection Agency (EPA). The Council is also asked to adopt an accompanying resolution authorizing acceptance of this grant funding.\n\n## Why?\n\nBrownfields are contaminated or potentially contaminated properties whose redevelopment or reuse is complicated by the presence of hazardous substances, pollutants, or petroleum products. The Los Angeles Sanitation and Environment (LASAN) Brownfields Program has successfully secured over $12 million in grant funding over past years, which has attracted additional public and private development investments. This new grant will support environmental assessment and cleanup activities in communities with environmental justice concerns, helping revitalize underutilized properties and support community development.\n\n## Key Details\n\nThe EPA is providing up to $500,000 in grant funding at no cost to the City (no required matching funds or cost-share). The grant period spans four years, starting in October 2025 and ending October 2029. Funds will support Phase I and Phase II Environmental Site Assessments, community engagement, site inventories, cleanup planning, and reuse planning for brownfield sites in disadvantaged communities. There is no fiscal impact to the City's General Fund, as grant proceeds will be deposited into a dedicated fund for solid waste management.\n\n## Impact\n\nThis grant benefits Los Angeles residents in low-income and historically underserved communities by enabling environmental remediation and property revitalization without burdening City finances. It supports job creation through cleanup and redevelopment activities, reduces health risks from contaminated sites, and promotes equitable economic development in disadvantaged neighborhoods.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 93519,
+    "output_tokens": 399,
+    "cost_usd": 0.095514
+  }
+}

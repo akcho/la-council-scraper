@@ -1,0 +1,14 @@
+{
+  "historyId": "7a4774d0-df1b-4a06-8dbd-7dbb04cdc03b",
+  "council_file": "25-1110",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Siegel House Historic-Cultural Monument Designation\n\n## What is Being Proposed\nThe City of Los Angeles is proposing to designate the Siegel House at 12400 West Deerbrook Lane as an Historic-Cultural Monument (HCM). This designation would place the 1950s residential property under city protection and regulatory oversight to preserve its historical significance.\n\n## Why\nThe Siegel House qualifies for designation because it exemplifies significant contributions to the cultural, economic, and social history of Los Angeles as an excellent example of a residence built as part of the Mutual Housing Association (MHA) postwar cooperative housing development. The MHA project was a notable effort that successfully brought Mid-Century Modern architecture to middle-class homebuyers with utopian ideals. Of approximately 85 homes originally constructed in the MHA development, only 34 remain intact today, making the Siegel House a rare surviving example.\n\n## Key Details\nThe Siegel House was built during the 1950s as part of the MHA development and features typical Mid-Century Modern characteristics: single-story design, open floor plans, post-and-beam construction, and materials like concrete block and redwood siding. While the property has experienced various alterations over the years—including enclosure of a carport and removal of original materials—it retains sufficient historical integrity. A more intact example of the same model (the Hamma House at 12401 Deerbrook Lane) is already designated as HCM #797.\n\n## Impact\nDesignation will regulate future construction activities on the property according to Los Angeles Administrative Code Section 22.171.14, ensuring that any renovations or alterations follow the Secretary of the Interior's Standards for Historic Preservation. This protects the property from incompatible modifications while allowing owners to maintain and rehabilitate the home appropriately.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6741,
+    "output_tokens": 405,
+    "cost_usd": 0.008766
+  }
+}

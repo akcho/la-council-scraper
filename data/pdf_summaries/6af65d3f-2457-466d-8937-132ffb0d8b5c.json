@@ -1,0 +1,14 @@
+{
+  "historyId": "6af65d3f-2457-466d-8937-132ffb0d8b5c",
+  "council_file": "25-0972",
+  "meeting_id": 17432,
+  "original_filename": "Report from Public Works Committee_9-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 25-0972 - Street Lighting Sensor Monitoring\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the City Council instruct the Bureau of Street Lighting to develop a report with recommendations for embedding sensors in street lighting infrastructure. These sensors would enable active monitoring of streetlight status and would be installed alongside other security improvements throughout the city.\n\n## Why?\nWhile the document doesn't explicitly detail the rationale, the proposal appears designed to improve public safety and infrastructure management by integrating streetlight monitoring with broader security enhancement projects. By embedding sensors during security installation work, the city could create an efficient, coordinated system to track which streetlights are functioning properly in real time.\n\n## Key Details\n- **File Number:** 25-0972\n- **Committee Meeting Date:** September 10, 2025\n- **Committee Vote:** Approved unanimously by members Hernandez, Padilla, and Hutt (all YES votes)\n- **Status:** Not yet official—awaiting full City Council action\n- **Fiscal Impact:** No financial analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n- **Community Input:** No community impact statement was submitted\n\n## Impact\nThis measure would primarily affect city infrastructure management and public safety operations. Once adopted, it would guide future street lighting projects and security installations citywide. However, implementation details, costs, and specific neighborhoods affected will depend on the Bureau of Street Lighting's recommendations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2062,
+    "output_tokens": 320,
+    "cost_usd": 0.0036620000000000003
+  }
+}

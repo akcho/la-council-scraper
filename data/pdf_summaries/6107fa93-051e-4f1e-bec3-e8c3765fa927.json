@@ -1,0 +1,14 @@
+{
+  "historyId": "6107fa93-051e-4f1e-bec3-e8c3765fa927",
+  "council_file": "25-1083",
+  "meeting_id": 17407,
+  "original_filename": "Motion (Park - Rodriguez, Lee) dated 9-16-25",
+  "category": "other",
+  "summary": "# Summary: Motion on Senate Bill 79 Impact Assessment\n\n## What is Being Proposed?\n\nThe Council is directing three city departments—City Planning, Transportation, and Housing—to prepare a comprehensive 90-day report assessing the impacts of Senate Bill 79 (SB 79) on Los Angeles. Additionally, the City Attorney's office will provide a confidential legal analysis of potential challenges to SB 79 and cost-recovery options from the state.\n\n## Why?\n\nSenate Bill 79, passed by the California Legislature on September 12, 2025, would fundamentally change zoning and development regulations across California by allowing housing development near transit without local control. The motion's sponsors are concerned that this state mandate could undermine years of community planning work (including the Citywide Housing Incentive Program and Environmental Impact Report) and create significant infrastructure challenges. Key concerns include impacts on parking, traffic, public safety, fire hazards, coastal zones, tsunami areas, rent-controlled housing, and historic preservation.\n\n## Key Details\n\nThe required report must address: the definition of \"transit-oriented development stops,\" density limits, parking requirements, interactions with local Density Bonus Law, and specific impacts on sites near evacuation routes, fire hazard zones, coastal areas, historic resources, and evacuation corridors. A second report must analyze infrastructure and utility system costs, emergency services needs, property tax revenue increases, and mitigation strategies needed to support new density.\n\n## Impact\n\nThis affects all Los Angeles residents by potentially reshaping neighborhood character and density citywide. It matters because the analysis will inform whether the city can accommodate new housing while maintaining infrastructure, services, and community safety—and whether legal or policy challenges are possible.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3321,
+    "output_tokens": 364,
+    "cost_usd": 0.005141
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "8528963f-9a1c-4a64-b0e1-fb8c377105c4",
+  "council_file": "22-1025-S1",
+  "meeting_id": 17283,
+  "original_filename": "Council Action - Mayor Concurrence dated 3292023",
+  "category": "other",
+  "summary": "# Council File 22-1025-S1 Summary\n\n## What is Being Proposed?\n\nThe Los Angeles City Council adopted a recommendation to accept federal and state grant funding for nutrition and healthy living programs. Specifically, the city is accepting Supplemental Nutrition Assistance Program Education (SNAP-ED) and CalFresh Healthy Living and CalFresh Expansion Grant Funds from the California Department of Aging (CDA). The council also approved executing agreements with the CDA and with local agencies that will provide these nutrition education and assistance services.\n\n## Why This Matters?\n\nThese programs provide critical nutrition education and access to healthy food resources for low-income Angelenos. SNAP-ED and CalFresh programs help eligible residents stretch their food budgets while learning about nutrition and healthy eating habits. By accepting this grant funding, the city ensures that local organizations can continue or expand these vital services without requiring additional municipal funds.\n\n## Key Details\n\n- **Council Action**: Adopted March 17, 2023\n- **Vote**: 11 YES, 4 ABSENT\n- **Mayor Approval**: Signed on March 28, 2023\n- **Funded by**: California Department of Aging\n- **Implementing Partners**: Multiple agencies providing SNAP-ED and CalFresh services throughout the city\n\n## Impact\n\nThis action directly benefits low-income Los Angeles residents by maintaining access to nutrition education, food assistance programs, and healthy living resources. Local partner agencies receive funding to deliver these services, supporting the city's equity and aging-focused initiatives.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3852,
+    "output_tokens": 335,
+    "cost_usd": 0.005527
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "b19a2c0f-1c67-4024-b875-454db39863ce",
+  "council_file": "25-1170",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Attorney Report on Settlement Discussion\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's office is requesting that the City Council hold a **closed session meeting** to discuss and receive legal advice regarding a settlement recommendation in the pending litigation case **Navid Askarinam v. City of Los Angeles** (LASC Case No. 23SCV04485). This closed session would be held pursuant to California Government Code Section 54956.9(d)(1), which allows the Council to meet privately with legal counsel about pending litigation matters.\n\n## Why?\nThis matter stems from an **October 4, 2022 trip and fall incident on a City sidewalk** located at 7150 Beverly Boulevard in Los Angeles. The case involves a claim (No. C23-22809) that the City is defending against. Before any settlement can be approved, the City Council needs to meet in private with the City Attorney and legal staff to discuss the legal and financial implications of settling the case.\n\n## Key Details\n- **Incident Date:** October 4, 2022\n- **Location:** 7150 Beverly Boulevard, Los Angeles\n- **Case Number:** 23SCV04485\n- **Contact:** Richard H. Loomis, Deputy City Attorney, (213) 978-6956 will be available to answer questions during the Council meeting\n- **Board Involved:** Board of Public Works Commission will be copied on communications\n\n## Impact\nThis primarily affects the City's litigation defense strategy and budget considerations. Residents should note that public notice is required before the closed session occurs, and the Council will need to publicly state which subdivision of the law authorizes the meeting before proceeding with the private discussion.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 372,
+    "cost_usd": 0.005177
+  }
+}

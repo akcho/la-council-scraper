@@ -1,0 +1,14 @@
+{
+  "historyId": "b2670e17-64a0-400c-8de9-a4d19f48aa75",
+  "council_file": "25-0987",
+  "meeting_id": 17455,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-14-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-0987\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to approve an amendment to the City's General Plan Safety Element that incorporates the most current Local Hazard Mitigation Plan. This is a procedural update that formally integrates the city's latest hazard mitigation strategies into the official General Plan, which guides long-term city planning and policy decisions.\n\n## Why This Matters?\n\nHazard mitigation plans address the city's vulnerability to various natural disasters and emergencies—such as earthquakes, floods, and fires—and outline strategies to reduce risks and protect residents and infrastructure. By updating the Safety Element, the city ensures its General Plan reflects current hazard assessments and the most effective mitigation strategies available.\n\n## Key Details\n\n- **Case Number:** CPC-2025-2903-GPA\n- **Committee Vote:** All five PLUM Committee members voted unanimously in favor (October 14, 2025)\n- **Environmental Review:** The project qualifies for a categorical exemption under California Environmental Quality Act (CEQA) guidelines\n- **Fiscal Impact:** No General Fund impact; administrative costs are covered through existing fees\n- **Deadline:** City Council must act by November 5, 2025\n\n## Who This Affects\n\nThis update affects all Los Angeles residents and businesses by ensuring the city maintains current emergency preparedness and hazard mitigation strategies in its official planning documents. It demonstrates the city's commitment to updating safety protocols based on the latest risk assessments and mitigation best practices.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3954,
+    "output_tokens": 340,
+    "cost_usd": 0.005654
+  }
+}

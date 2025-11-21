@@ -1,0 +1,14 @@
+{
+  "historyId": "9fa13608-970c-458e-a388-d7994d7820fe",
+  "council_file": "21-0748",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-16-24 - Resolution",
+  "category": "other",
+  "summary": "# Resolution Summary: Multifamily Housing Revenue Bond for Southside Senior Housing\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is authorizing the issuance of revenue bonds (called \"Series 2024G\") up to $2.29 million to finance a 49-unit senior affordable housing project located at 1623 W. Manchester Avenue in South Los Angeles. The bond proceeds will be loaned to Southside LA Housing Partners, LP to help acquire, construct, and equip the multifamily housing development.\n\n## Why?\n\nThe City is using its authority under state law to support affordable housing development for persons and families of low or moderate income. The bond structure allows the City to facilitate financing without directly using City tax dollars—instead, the property owner arranges purchase of the bonds from investors (in this case, Western Alliance Business Trust). The interest on the bonds is expected to qualify for federal tax exemption, making them attractive to investors and reducing borrowing costs.\n\n## Key Details\n\n- **Project:** Southside Senior Housing (49 units plus 1 manager unit)\n- **Location:** 1623 W. Manchester Avenue, Los Angeles, CA 90047\n- **Bond Amount:** Up to $2,291,000\n- **Owner:** Southside LA Housing Partners, LP\n- **Interest Rate Cap:** Not to exceed 12% per annum\n- **Final Maturity:** No later than 40 years from issuance\n- **Public Hearing:** Held June 7, 2024, per federal tax code requirements\n- **Trustee:** U.S. Bank Trust Company, National Association\n\n## Impact\n\nThis financing supports the creation of affordable senior housing in South Los Angeles, a historically underserved community. The project provides affordable rental units for seniors of low or moderate income, helping address the region's housing shortage. The bond structure allows private investment to fund the development while ensuring the housing remains permanently affordable through restrictive covenants. The resolution also references a concurrent reissuance of a 2022 bond for the same project, combining total financing up to approximately $17.4 million.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16507,
+    "output_tokens": 466,
+    "cost_usd": 0.018837
+  }
+}

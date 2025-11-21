@@ -1,0 +1,14 @@
+{
+  "historyId": "657bc1fa-36b3-4e1f-a03f-762088cb6de9",
+  "council_file": "25-1077",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council File 25-1077\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the Los Angeles Department of Transportation (LADOT) conduct a feasibility study for a new parking permit program. This program would allow delivery drivers to temporarily park in restricted parking areas throughout the city. Rather than approving the program outright, the council is asking LADOT to first analyze whether it's workable and report back on costs, potential revenue, and implementation timeline.\n\n## Why This Matters\n\nLos Angeles has seen a growing number of delivery drivers—bringing packages, groceries, food, and other items to residents. Currently, these drivers often park illegally in restricted areas or in the middle of streets to complete deliveries quickly, which creates two problems: it obstructs traffic flow and results in parking citations for the drivers. The proposed permit system aims to address this conflict by providing a legal parking solution.\n\n## Key Details\n\nThe Transportation Committee voted on this matter on October 22, 2025, based on a motion introduced September 12, 2025 by Councilmembers Hutt and Lee. The committee voted 3-0 in favor (with two members absent), and the matter now goes to the full City Council for consideration. Notably, no fiscal analysis has been completed yet—that will be part of LADOT's study.\n\n## Impact\n\nThis primarily affects delivery drivers operating in Los Angeles, who could gain a legal parking option. It also affects residents who depend on delivery services and commuters who experience traffic disruptions from illegally parked delivery vehicles. The city's revenue from parking violations related to delivery operations may also change based on the program's design.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2136,
+    "output_tokens": 365,
+    "cost_usd": 0.003960999999999999
+  }
+}

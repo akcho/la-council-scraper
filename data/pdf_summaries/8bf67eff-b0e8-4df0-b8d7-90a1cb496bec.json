@@ -1,0 +1,14 @@
+{
+  "historyId": "8bf67eff-b0e8-4df0-b8d7-90a1cb496bec",
+  "council_file": "25-1289",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Administrative Officer dated 10-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: LATAX Application Maintenance and AWS Support Contract Extension\n\n## What is Being Proposed?\nThe City is requesting approval to extend its contract with Infosys Public Services, Inc. for another three years (September 16, 2025 through September 15, 2028) to maintain the LATAX system—the critical application that manages all of Los Angeles's tax and permit operations. This is the third amendment to the original contract (C-141694). The total contract value would increase from $4.86 million to $6.26 million, with this amendment adding $1.4 million in additional funding.\n\n## Why This Matters\nLATAX is mission-critical infrastructure for the City. It processes over $3 billion in annual revenue, manages more than 600,000 active business accounts, and serves 500,000 external users (businesses and constituents) seeking to pay taxes and permit fees. The system also interfaces with the City's Financial Management System and banks. While LATAX has been operational for over 20 years, it's aging and lacks modern cloud capabilities. The City is currently running an RFP (Request for Proposals) to replace LATAX with a new system by 2027, so this contract extension provides essential maintenance and stability during the transition period.\n\n## Key Details\nThe contract covers two main service tracks: (1) LATAX Application Maintenance and Support, including ongoing bug fixes, enhancements, and system monitoring; and (2) AWS (Amazon Web Services) Operational Support for the cloud infrastructure hosting the system. Monthly payments range from $50,000 to $101,500 for Track 1 and $6,000 to $12,980 for Track 4. The contract includes provisions for up to $150,000 in additional \"as-needed\" services over the three-year period.\n\n## Impact\nApproval enables uninterrupted service to all City departments and residents who depend on LATAX for business licensing, tax payments, and permit processing. Failure to fund this contract would jeopardize the system's functionality and directly impact City revenue collection. The Office of the City Administrative Officer reports that $1.35 million is currently available in the Contractual Services Account for the baseline services, with future-year funding to be requested in annual budgets.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 138143,
+    "output_tokens": 508,
+    "cost_usd": 0.14068299999999997
+  }
+}

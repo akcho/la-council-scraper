@@ -1,0 +1,14 @@
+{
+  "historyId": "9ddba260-04f7-4297-9e5d-697e1c3aba83",
+  "council_file": "25-1108",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Staff Report",
+  "category": "staff_report",
+  "summary": "# Summary: Grant House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\n\nThe Los Angeles Department of City Planning is recommending that the Cultural Heritage Commission designate the Grant House at 815 N. Bramble Way in Brentwood as a Historic-Cultural Monument (HCM). This one-story residential building, completed in 1950, would receive formal protection under the City's preservation ordinance, meaning future alterations would require approval from the Cultural Heritage Commission.\n\n## Why?\n\nThe Grant House qualifies for designation under two criteria. First, it exemplifies significant contributions to Los Angeles's cultural and social history as one of only 34 remaining homes from the Mutual Housing Association (MHA)—an innovative postwar cooperative housing development of approximately 85 homes built to bring modernist architecture to middle-class families. Second, it embodies distinctive characteristics of Mid-Century Modern architecture, featuring exposed post-and-beam construction, extensive glazing, and materials like redwood siding and concrete block—all hallmarks of the style championed by master architects A. Quincy Jones and Whitney R. Smith who designed the MHA development.\n\n## Key Details\n\nThe house was designed by renowned architects A. Quincy Jones (1913-1979) and Whitney R. Smith (1911-2002), with structural engineer Edgardo Contini. It features characteristic mid-century design elements including a rectangular footprint, gently sloping gable roof, floor-to-ceiling windows, and post-and-beam construction at seven-foot spacing. The property has experienced only minor alterations (a 1958 carport conversion and flooring updates), retaining high integrity. The property was identified in the citywide SurveyLA historic resources survey as individually eligible for historic designation.\n\n## Impact\n\nDesignation protects this architectural landmark from incompatible alterations and demolition, ensuring the preservation of an important example of postwar modernist housing design. The property owner and applicant support the designation. Residents and visitors benefit from maintaining architectural and historical integrity in the Brentwood community, while the owner must obtain approval for future significant modifications to the structure.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 174212,
+    "output_tokens": 469,
+    "cost_usd": 0.17655700000000002
+  }
+}

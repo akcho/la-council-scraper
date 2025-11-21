@@ -1,0 +1,14 @@
+{
+  "historyId": "7dacf4db-e952-4de6-857f-d1a08dbd5d20",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_08-06-2025",
+  "category": "other",
+  "summary": "# Summary: Communications on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What Is Being Proposed?\n\nTwo residents are urging the LA City Council to reform the Rent Stabilization Ordinance (RSO) by adopting a new rent increase formula. The proposed changes include: basing rent increases on 60% of the Consumer Price Index (CPI), implementing a 3% cap with no floor, eliminating rent banking, and removing additional charges for utilities and extra occupants.\n\n## Why This Matters\n\nCurrent rent increases under the existing RSO formula are unaffordable for struggling Angelenos. New increases based on the old formula just took effect in July 2025, and residents argue that every percentage point of increase forces tenants to cut spending on essential necessities like food, medical care, transportation, and childcare. The commenters emphasize that reform is urgently needed to prevent further displacement and homelessness.\n\n## Key Details\n\n- Average rent in small RSO properties is $2,357/month\n- A renter would need to earn approximately $94,000 annually to maintain the recommended 30% rent-to-income ratio\n- One commenter, Jade Parada from Innercity Struggle (District SD14), represents the advocacy coalition \"Keep LA Housed\"\n- The second commenter (Maria) expressed concerns in Spanish about potential homelessness if rents continue to rise\n\n## Impact\n\nThese changes would primarily benefit low-income and working-class renters throughout Los Angeles who currently live in rent-stabilized units. Implementing the proposed formula would limit rent increases and provide financial relief for vulnerable residents at risk of displacement.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3807,
+    "output_tokens": 367,
+    "cost_usd": 0.0056419999999999994
+  }
+}

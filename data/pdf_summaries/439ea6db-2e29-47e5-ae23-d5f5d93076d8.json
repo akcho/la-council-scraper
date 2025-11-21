@@ -1,0 +1,14 @@
+{
+  "historyId": "439ea6db-2e29-47e5-ae23-d5f5d93076d8",
+  "council_file": "13-0347-S1",
+  "meeting_id": 17283,
+  "original_filename": "Council Action 03_20_2019",
+  "category": "other",
+  "summary": "# Council File 13-0347-S1 Summary\n\n## What is Being Proposed?\n\nThe Los Angeles City Council has adopted a communication from the City Engineer to initiate vacation proceedings for an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street (identified as VAC-E1401355). \"Vacation\" in this context means the formal process of closing or removing the alley from public use and converting it from public right-of-way to private property.\n\n## Why This Matters\n\nThe document does not provide detailed rationale in this action summary, though supporting materials (a district map and application) were submitted by the Department of Public Works: Engineering on February 13, 2019. These attachments would contain the specific reasons for the proposed alley vacation, such as development plans, property owner requests, or public benefit considerations.\n\n## Key Details\n\n- **Council Vote:** The motion passed with 11 \"YES\" votes, 4 \"ABSENT\" votes, and no opposition\n- **Council Meeting Date:** March 19, 2019\n- **Official Action Date:** March 20, 2019\n- **Location:** L-shaped alley at the intersection of Olympic Boulevard and Mateo Street\n- **Agency:** City Engineer/Department of Public Works\n\n## Impact\n\nThis action initiates formal proceedings that could ultimately eliminate public access to this alley. The vacation process typically involves notification to affected property owners and the public, and may result in private use of the currently public right-of-way. Residents or businesses in the area with concerns about alley access should monitor the case file for additional notices regarding public hearings or comment periods.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3857,
+    "output_tokens": 363,
+    "cost_usd": 0.005672
+  }
+}

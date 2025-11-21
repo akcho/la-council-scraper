@@ -1,0 +1,14 @@
+{
+  "historyId": "b445b9c1-286f-4ec6-b020-70cc6515e396",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_09-24-2024",
+  "category": "other",
+  "summary": "# Summary: Communication from Public on Council File 23-1134\n\n## What is Being Proposed?\nNicole Pasini submitted a public comment supporting a specific rent control formula recommended by the Keep LA Housed Coalition. The proposal sets annual rent increases at **60% of the Consumer Price Index (CPI) change or 3%, whichever is lower** (the \"3%/60% CPI formula\"). The recommendation also includes no utility cost pass-through to tenants, no exemptions for small landlords, and no additional increases for additional tenants.\n\n## Why?\nThe commenter frames this proposal as a strategy to combat homelessness by keeping people housed. The implication is that limiting rent increases helps prevent displacement and keeps housing affordable for existing tenants, thereby reducing homelessness.\n\n## Key Details\n- **Submitted by:** Nicole Pasini\n- **Date:** September 23, 2024\n- **Council File:** 23-1134\n- **Specific provisions:** Maximum 3% annual increase or 60% of CPI (whichever is lower), with restrictions on utility pass-throughs and tenant-based increases\n- **Sponsoring organization:** Keep LA Housed Coalition\n\n## Impact\nThis proposal would primarily affect renters by capping how much landlords can raise rents annually, and would impact landlords by limiting their ability to increase revenue from existing tenancies. The measure targets housing stability as a homelessness prevention strategy.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1905,
+    "output_tokens": 317,
+    "cost_usd": 0.00349
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "b659f77d-78a1-4f65-8051-f32aa25963e6",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Attested Resolution_10-07-25",
+  "category": "other",
+  "summary": "# Summary: Resolution Ratifying Local Emergency Declaration for January 2025 Wildfires\n\n## What is Being Proposed\n\nThe Los Angeles City Council is ratifying the Mayor's declaration of local emergency related to the devastating January 2025 wildfires and authorizing the suspension of competitive bidding requirements for emergency purchases and contracts. This allows the city to respond quickly to the disaster without the normal bureaucratic delays of soliciting multiple bids.\n\n## Why This Is Needed\n\nThe January 2025 windstorm and subsequent wildfires represent an unprecedented disaster for Los Angeles. The Palisades Fire alone has become the second most destructive fire in California history, consuming over 23,000 acres and destroying more than 5,000 structures. Combined with other fires including the Hurst, Kenneth, Sunset, and Studio City fires, this is the most destructive fire event in Los Angeles city history. The fires were fueled by Category 2 hurricane-force winds exceeding 100 mph, forcing the evacuation of over 170,000 people. The Mayor declared a local emergency on January 7, 2025, which the Governor and President also recognized, making federal disaster assistance available.\n\n## Key Details\n\n- **Palisades Fire**: Over 23,000 acres, 5,000+ structures destroyed, 14% contained (as of January 13)\n- **Affected Population**: 80,000+ people remain under evacuation orders; thousands displaced\n- **Financial Impact**: The 2025 fires are projected to exceed the 1906 San Francisco earthquake and fire disaster in today's dollars and cover a larger geographic area than San Francisco or Boston\n- **Federal Support**: President Biden authorized FEMA to reimburse 100% of specified costs including debris removal and fire suppression\n- **Reporting Requirements**: City departments must report bi-weekly on emergency purchases, explaining why competitive bidding wasn't feasible\n\n## Impact\n\nThis resolution empowers city departments to quickly purchase emergency supplies, reconstruction materials, and services without normal procurement delays. It also directs all city agencies to investigate and enforce price-gouging violations under California Penal Code Section 396, protecting vulnerable residents from exploitation during the crisis. The resolution enables the city to mobilize resources immediately to protect lives, support displaced residents, and begin recovery efforts while maintaining oversight through regular council reporting.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8901,
+    "output_tokens": 512,
+    "cost_usd": 0.011460999999999999
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "e14ea4eb-628a-448c-a016-62fc02a57914",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer dated 6-27-24",
+  "category": "staff_report",
+  "summary": "# Summary: Salary Adjustments for Non-Represented City Employees (2024-2028)\n\n## What is Being Proposed?\nThe City Administrative Officer is recommending that Los Angeles adopt an ordinance to increase salaries for non-represented city employees and General Managers over a five-year period from June 30, 2024 through July 1, 2028. The proposed salary increases follow a schedule of 4% increases twice per year in 2024-2026, then 2% increases in 2027, with no increase in 2028.\n\n## Why?\nThe proposal is based on City Council instructions issued on April 17, 2024. The salary adjustments are designed to maintain competitive compensation for non-union city employees and management positions. The ordinance also reflects recent changes to the city's position classifications and the addition of a new Educational Presenters Unit (MOU No. 66).\n\n## Key Details\n- **Salary increases**: 4% (June 30, 2024), 2% (Dec. 29, 2024), 4% (June 29, 2025), 2% (Dec. 28, 2025), 4% (June 28, 2026), 2% (Dec. 27, 2026), 2% (June 27, 2027), 2% (Dec. 26, 2027), and 0% (July 1, 2028)\n- **Total cost**: $24.11 million annually by 2024-25, accumulating to $81.56 million over the five-year period\n- **General Managers**: Same salary increases apply to General Manager positions and their salary ranges\n- **Effective dates**: All salary adjustments begin June 30, 2024\n\n## Impact\nThis affects hundreds of non-represented city classifications across all departments, including administrative staff, analysts, engineers, and General Managers. While employees receive raises that keep pace with inflation and market conditions, the city's General Fund bears the cumulative cost of $81.56 million through fiscal year 2028-29.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 57439,
+    "output_tokens": 469,
+    "cost_usd": 0.059784
+  }
+}

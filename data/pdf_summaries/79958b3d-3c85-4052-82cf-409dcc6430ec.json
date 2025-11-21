@@ -1,0 +1,14 @@
+{
+  "historyId": "79958b3d-3c85-4052-82cf-409dcc6430ec",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication from Councilmember Adrin Nazarian - 11-5-25",
+  "category": "other",
+  "summary": "# Summary: Questions for Housing Committee on LARSO Report\n\n## Overview\nCouncilmember Adrin Nazarian has submitted 16 detailed questions to the Los Angeles Housing and Community Investment Department (LAHD) regarding proposed changes to the Rent Stabilization Ordinance (RSO). These questions are directed at the Housing Committee and seek clarification on recommendations made in recent LAHD and Economic Roundtable studies about how rent control rules should be adjusted.\n\n## What's Being Proposed\nThe underlying LAHD report recommends several significant changes to Los Angeles' rent control system, including: (1) eliminating the current 1–2% annual utility pass-through allowance for landlords; (2) switching from an \"All-Items\" Consumer Price Index (CPI) to \"All Items Less Shelter\" CPI for calculating annual rent increases; and (3) changing the rent increase floor from 3% to 2% and establishing a 5% ceiling with CPI \"banking\" (allowing unused increases to carry forward). These changes would affect how much rent landlords can raise each year and what cost recovery tools are available.\n\n## Why This Matters\nNazarian's questions focus on balancing two competing concerns: protecting tenants from excessive rent increases while ensuring small \"mom-and-pop\" landlords can maintain their properties and recover legitimate operating costs (utilities, insurance, repairs) as expenses rise. The questions highlight a key tension: small landlords, who operate about 30% of RSO properties, may struggle under stricter rent controls, but giving them higher increases could burden tenants living in those units. The document also references findings that small landlords have lower vacancy rates and more stable occupancy, raising questions about whether perceived hardship matches actual financial performance.\n\n## Key Issues Being Examined\nThe questions probe critical unknowns: How many tenants are already cost-burdened? Have small landlords recovered from the COVID rent freeze (2020–2024), during which they lost about 16% of allowable increases? What barriers prevent landlords from using existing \"Just and Reasonable\" cost-recovery programs? Are small landlords being displaced post-pandemic as property values rise? The councilmember is essentially asking LAHD to provide data and analysis that would clarify whether proposed changes strike the right balance and what alternative tools (grants, loans) might address landlord hardship without raising rents.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6016,
+    "output_tokens": 521,
+    "cost_usd": 0.008621
+  }
+}

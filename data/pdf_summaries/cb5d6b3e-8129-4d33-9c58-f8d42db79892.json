@@ -1,0 +1,14 @@
+{
+  "historyId": "cb5d6b3e-8129-4d33-9c58-f8d42db79892",
+  "council_file": "25-0900-S20",
+  "meeting_id": 17406,
+  "original_filename": "Report from Bureau of Street Lighting dated 5-07-25",
+  "category": "staff_report",
+  "summary": "# Summary: Thatcher Avenue & Washington Boulevard Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Bureau of Street Lighting is proposing to establish a new street lighting maintenance assessment district for Thatcher Avenue and Washington Boulevard in Marina del Rey (Council District 11). The City Council is being asked to adopt an \"Ordinance of Intention\" that would initiate a formal assessment process for 29 streetlights serving 61 properties in this area. The total annual assessment would be $11,701.24 for the 2024-2025 fiscal year.\n\n## Why This is Needed?\n\nThe proposed streetlights are part of an \"AHSC Housing Safety Improvement Project.\" Rather than funding street lighting maintenance through general city tax revenue, Los Angeles policy requires that properties receiving \"special benefit\" from lighting systems pay for their operation and maintenance directly through assessments. According to Proposition 218 (a state constitutional requirement), property owners must vote to approve such assessments before they can be levied.\n\n## Key Details\n\nThe assessment covers streets including Thatcher Avenue (from Washington Boulevard to Harbor Crossing Lane), Washington Boulevard, Howard Street, Dickson Street, Burrell Street, and Berkeley Drive. Individual property assessments range from approximately $73.78 to $2,459.25 annually, calculated based on land use type, property size, and proximity to lighting. Residential properties pay lower rates than commercial properties. Property owners will receive formal ballots and have the opportunity to file written protests at a public hearing before the Council decides whether to finalize the assessments.\n\n## Impact\n\nThe 61 affected property owners in the Marina del Rey area will be responsible for funding all operation, maintenance, and eventual replacement costs of the new streetlights if the assessment is approved. A majority weighted vote in favor is required to proceed. If property owners vote against it (by weighted financial obligation), the lighting system will not be constructed or will be removed from service.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 58906,
+    "output_tokens": 427,
+    "cost_usd": 0.061041
+  }
+}

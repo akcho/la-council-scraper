@@ -1,0 +1,14 @@
+{
+  "historyId": "35e93952-5977-45b2-89cd-cc5e193749fe",
+  "council_file": "24-0617",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 5-10-24",
+  "category": "staff_report",
+  "summary": "# Summary: Request for Closed Session on Litigation Settlement\n\n## What is Being Proposed?\n\nThe City Attorney is requesting that the Los Angeles City Council hold a closed session to discuss settlement negotiations and receive legal advice regarding the case **Rosalina Reyes et al. v. City of Los Angeles** (LASC Case No. 22STCV39329). This closed session would be held pursuant to California Government Code Section 54956.9(d)(1), which allows public agencies to meet privately when conferring with legal counsel about pending litigation.\n\n## Background and Rationale\n\nThis litigation stems from a **June 30, 2021 incident in which the LAPD Bomb Squad detonated explosive material on East 27th Street in Los Angeles**. The current request indicates that settlement discussions are ongoing, and the City needs a private forum to discuss legal strategy and receive confidential advice from the City Attorney's office without public disclosure.\n\n## Key Details\n\n- **Case Name:** Rosalina Reyes, et al. v. City of Los Angeles\n- **Case Number:** LASC Case No. 22STCV39329 (Claim No. C22-02487)\n- **Incident Date:** June 30, 2021\n- **Contact:** Steven M. McGuire, Deputy City Attorney, (213) 978-6953\n\n## Impact\n\nThis affects residents impacted by the 2021 bomb squad detonation. The closed session allows the City Council and legal team to discuss settlement terms confidentially before any public announcement or formal action is taken.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 351,
+    "cost_usd": 0.005072
+  }
+}

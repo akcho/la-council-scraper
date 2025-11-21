@@ -1,0 +1,14 @@
+{
+  "historyId": "39f8e793-0737-4824-bd32-e10444eb596b",
+  "council_file": "24-0887",
+  "meeting_id": 17477,
+  "original_filename": "Report from Bureau of Sanitation dated 12-19-24",
+  "category": "staff_report",
+  "summary": "# Summary: Sewer Overflow Incident Report (CF# 24-0887)\n\n## What is Being Reported?\n\nLA Sanitation and Environment (LASAN) is reporting on a sewage overflow incident that occurred on July 20, 2024, at 2700 South Cresta Place. The incident happened when a water main break by the Department of Water and Power (LADWP) caused runoff to flow into the sanitary sewer system, creating a blockage that resulted in approximately 15,967 gallons of water overflowing from a maintenance hole. The report addresses the cause of the incident and how LASAN and LADWP coordinate to prevent future spills.\n\n## Why This Matters\n\nThe City Council requested this report to understand what led to the overflow and to examine coordination between LASAN and LADWP. While the incident was classified as a \"Category I\" sanitary sewer overflow (the most serious category), water quality tests showed no actual sewage contamination—only potable water from the broken water main. Still, the incident triggered beach closures at Ballona Creek and raised concerns about infrastructure failures and their environmental impact on the community.\n\n## Key Details\n\nOf the 15,967 gallons spilled, LASAN crews captured 62 gallons but 15,905 gallons entered a storm drain tributary to Ballona Creek. The incident was contained and cleaned up by 3:40 PM on July 20. LASAN's spill rate (1.15 per 100 miles of pipe annually) is significantly better than the state average (2.83 per 100 miles), thanks to preventive maintenance programs. LASAN and LADWP have established 24/7 coordination procedures requiring immediate notification at 213-485-7575 when water main breaks occur.\n\n## Impact and Resources\n\nRecently approved sewer rate increases will enable LASAN to hire additional staff, conduct more pipe inspections using advanced technology (CCTV), and perform timely repairs to prevent future overflows. These improvements directly address aging infrastructure vulnerabilities that can cause spills affecting public health and local waterways.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 23748,
+    "output_tokens": 475,
+    "cost_usd": 0.026122999999999997
+  }
+}

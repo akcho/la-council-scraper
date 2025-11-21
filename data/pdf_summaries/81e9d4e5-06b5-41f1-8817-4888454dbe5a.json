@@ -1,0 +1,14 @@
+{
+  "historyId": "81e9d4e5-06b5-41f1-8817-4888454dbe5a",
+  "council_file": "25-0906",
+  "meeting_id": 17406,
+  "original_filename": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-0906\n\n## What is Being Proposed?\n\nThe Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve a $400,000 appropriation from the Department of Recreation and Parks (RAP) to the Information Technology Agency (ITA) to pay for communication services in Fiscal Year 2025-26. This is an internal city government fund transfer to ensure RAP can pay for IT communication services it receives.\n\n## Key Details\n\nThe funding comes from RAP's special fund (Fund No. 302/89, Account No. 89712H for Computer System Development) and will be transferred to the ITA's General Fund (Fund No. 100/32, Account No. 009350 for Communication Services). The transfer will be made on an as-needed basis throughout the fiscal year upon receipt of proper documentation and approval from RAP's IT Division.\n\n## Why This Matters\n\nAccording to the fiscal impact statement, this transfer has **no negative impact** on RAP's General Fund since the money is coming from RAP's special fund rather than its main operating budget. This appears to be a routine administrative matter ensuring that RAP properly reimburses ITA for the communication technology services ITA provides to RAP operations.\n\n## Committee Action\n\nThe committee voted 2-1 (with one member absent) to recommend approval on October 28, 2025. The measure requires Mayor approval before the full Council acts on it.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3911,
+    "output_tokens": 325,
+    "cost_usd": 0.005536
+  }
+}

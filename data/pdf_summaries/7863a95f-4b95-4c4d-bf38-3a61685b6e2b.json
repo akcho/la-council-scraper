@@ -1,0 +1,14 @@
+{
+  "historyId": "7863a95f-4b95-4c4d-bf38-3a61685b6e2b",
+  "council_file": "25-0005-S138",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Removal Recommendation for 527 W 88th St\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove the property at 527 W 88th St, Los Angeles 90044 from the Rent Escrow Account Program (REAP) and terminate rent reductions previously imposed on the building. This action would restore rent to original levels and release escrowed funds.\n\n## Why?\n\nThe property was placed into REAP in September 2023 after the owners (Jeremy Miller and Khia Eaton) were cited for 82 code violations affecting the 3-unit building, including issues with fire safety devices, sanitation, weatherproofing, maintenance, electrical systems, plumbing, and heating/ventilation. LAHD is now recommending removal because the Code Enforcement Division has independently verified that all cited violations have been corrected, and the owners have paid outstanding utility charges to the Department of Water and Power.\n\n## Key Details\n\n- **Property:** 527 W 88th St (APN: 6038-009-022), a 3-unit residential building\n- **Case Number:** 813887, opened September 21, 2023\n- **Status:** All 82 violations have been corrected\n- **Hearing Date:** October 29, 2025 City Council meeting\n- **Contact:** Liseth Romero, REAP Manager (213-808-8828)\n\n## Impact\n\nTenants at this property will see their rents restored to original levels 30 days after notice. The property owner will receive remaining escrow funds after LAHD deducts administrative fees and any outstanding charges. However, the owner must prepay for two additional annual inspections beyond normal code enforcement fees to maintain compliance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6634,
+    "output_tokens": 409,
+    "cost_usd": 0.008679
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "2f56b6fc-b8a8-4b0a-821f-75062042ab10",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 3-15-22 - Board Resolution",
+  "category": "other",
+  "summary": "# Summary: Third Amendment to Permit 708 - Kinder Morgan Tank Storage Terminals\n\n## What is Being Proposed?\nThe Board of Harbor Commissioners is approving a Third Amendment to Permit 708 that would allow Kinder Morgan Tank Storage Terminals to continue operating a marine oil terminal at Berths 118-119 in the Port of Los Angeles until April 13, 2024. The amendment also authorizes Kinder Morgan to build a new Marine Oil Terminal Engineering & Maintenance Standards (MOTEMS) compliant wharf at Berth 120 while ceasing operations at the current non-compliant wharf at Berth 118.\n\n## Why?\nKinder Morgan has faced obstacles relocating to other Port facilities. The company initially planned to move to Port of Long Beach but encountered vessel-scheduling conflicts with the primary tenant. Subsequent feasibility studies for alternative locations (including Berth 194) proved economically unviable due to high construction costs. The two-year extension provides time for the Harbor Department to determine whether Berth 120 will be available for construction of the new compliant wharf while allowing continued operations.\n\n## Key Details\n- **Timeline**: Operations authorized until April 13, 2024; remediation must be completed by April 13, 2025\n- **Location**: Berths 118-119 (current operations); Berth 120 (proposed new wharf)\n- **Financial Impact**: Approximately $6.2-6.7 million in total Port revenue over two years ($1.8+ million annually in land rent plus $1.25-1.5 million in combined wharf/dockage fees)\n- **Responsibility**: Kinder Morgan bears all maintenance, repair, and MOTEMS compliance costs\n- **Prior History**: Original 25-year permit (2000-2013); First Amendment extended five years; Second Amendment granted another five-year extension with $5 million wharf upgrades\n\n## Impact\nThis extension preserves approximately $6.2 million in Port revenue while maintaining an existing industrial operation. The arrangement puts financial responsibility on Kinder Morgan for all facility maintenance and environmental compliance, protecting Port finances while providing time to resolve the long-term berth availability question.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6425,
+    "output_tokens": 497,
+    "cost_usd": 0.008910000000000001
+  }
+}

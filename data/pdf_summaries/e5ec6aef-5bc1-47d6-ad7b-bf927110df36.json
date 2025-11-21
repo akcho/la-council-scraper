@@ -1,0 +1,14 @@
+{
+  "historyId": "e5ec6aef-5bc1-47d6-ad7b-bf927110df36",
+  "council_file": "25-1178",
+  "meeting_id": 17407,
+  "original_filename": "Report from Trade, Travel and Tourism Committee 10-14-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1178\n\n## What is Being Proposed?\n\nThe Trade, Travel and Tourism Committee is recommending that the City Council direct the City Tourism Department to work with the Los Angeles Tourism & Convention Board to **waive participation fees for restaurants in the DineLA program**. This recommendation requires approval from the Mayor before moving forward.\n\n## Background and Rationale\n\nDineLA is a restaurant promotion program operated by the Los Angeles Tourism and Convention Board. Currently, restaurants must pay a fee to participate in the program. The Motion by Councilmembers Rodriguez and Yaroslavsky proposes eliminating this barrier to entry, presumably to encourage greater restaurant participation and support the local dining industry.\n\n## Key Details\n\n- **Committee Vote:** Passed unanimously on October 14, 2025, with all three committee members (Park, McOsker, and Rodriguez) voting YES\n- **Status:** Not official until the full City Council acts on the recommendation\n- **Financial Analysis:** Notably, neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this proposal's costs or impact\n\n## Who This Affects\n\nThis change would benefit restaurant owners and operators by reducing their costs to participate in a city tourism promotion program. It may also benefit Los Angeles visitors and the tourism industry if increased restaurant participation leads to a more robust dining promotion program.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2074,
+    "output_tokens": 295,
+    "cost_usd": 0.003549
+  }
+}

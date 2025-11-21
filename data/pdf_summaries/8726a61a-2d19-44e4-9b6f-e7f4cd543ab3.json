@@ -1,0 +1,14 @@
+{
+  "historyId": "8726a61a-2d19-44e4-9b6f-e7f4cd543ab3",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_04-18-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comments on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nMultiple community members and advocates are urging the Los Angeles City Council to reform the Rent Stabilization Ordinance (RSO) by adopting a new rent increase formula. Specifically, they are requesting that the Council: (1) cap annual rent increases at 60% of the Consumer Price Index (CPI) or 3%, whichever is lower, with **no minimum floor**, and (2) eliminate additional rent increase provisions for utilities and extra occupants.\n\n## Why This Change is Needed\nThe current RSO formula is 40 years old and, according to advocates, is unfair to tenants. While CPI increased only 23% over the past decade, rents under the current formula have increased 35%—significantly outpacing inflation. A primary problem is the existing 3% minimum floor, which means rents increase by at least 3% annually even when inflation is zero or negative. Commenters emphasize that these increases are unaffordable for struggling tenants, forcing them to choose between housing and other necessities like food, medical care, transportation, and childcare.\n\n## Key Details\n- **Deadline:** New rent increases go into effect in July 2025, creating urgency\n- **Proposed formula:** 60% CPI with 3% cap and NO floor (some commenters mention 2% as an alternative floor)\n- **Geographic scope:** Changes would apply citywide across multiple districts\n- **Stakeholders:** Advocates include community organizers from SAJE, DSA-LA, Inner City Law Center, Public Counsel, and various neighborhood councils\n\n## Impact\nThis reform would directly affect millions of Los Angeles renters in stabilized housing. Lower and more predictable rent increases would preserve tenants' limited income for essential needs, particularly benefiting low-income and vulnerable renters already struggling with housing affordability across the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 18562,
+    "output_tokens": 436,
+    "cost_usd": 0.020742
+  }
+}

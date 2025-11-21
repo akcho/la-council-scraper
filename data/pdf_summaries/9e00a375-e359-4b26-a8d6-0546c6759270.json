@@ -1,0 +1,14 @@
+{
+  "historyId": "9e00a375-e359-4b26-a8d6-0546c6759270",
+  "council_file": "25-0900-S20",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Clerk dated 8-15-25",
+  "category": "staff_report",
+  "summary": "# Summary: Thatcher Avenue and Washington Boulevard Lighting District Assessment\n\n## What is Being Proposed\nThe Los Angeles City Clerk is recommending that the City Council approve the establishment of a new Street Lighting Maintenance Assessment District for the Thatcher Avenue and Washington Boulevard area. This would authorize the city to impose annual maintenance assessments on property owners in the district to fund ongoing lighting system upkeep.\n\n## Why This Matters\nUnder Proposition 218 (a California voter-approved measure), special assessments like this must be approved by property owners through a weighted ballot process—meaning each owner's vote carries weight proportional to their proposed assessment amount. The city conducted this ballot process, and the results showed majority support for the assessment.\n\n## Key Details\n- **Ballot Results**: 29 property owners submitted ballots by the August 12, 2025 deadline\n- **Support Level**: 60.49% of the weighted assessment value voted \"yes\" ($2,198.59), compared to 39.51% voting \"no\" ($1,435.98)\n- **District Coverage**: 61 total parcels are included in the proposed district, with total proposed assessments of $11,701.24\n- **Next Steps**: The City Clerk is recommending the Council deny any protests, confirm the assessments, and adopt an ordinance levying the assessments\n\n## Impact\nProperty owners in this Thatcher Avenue and Washington Boulevard area will be subject to annual maintenance assessments for street lighting. The weighted majority approval means the assessment will move forward.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10875,
+    "output_tokens": 337,
+    "cost_usd": 0.01256
+  }
+}

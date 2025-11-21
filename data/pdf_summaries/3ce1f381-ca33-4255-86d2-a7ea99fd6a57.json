@@ -1,0 +1,14 @@
+{
+  "historyId": "3ce1f381-ca33-4255-86d2-a7ea99fd6a57",
+  "council_file": "23-1376-S1",
+  "meeting_id": 17477,
+  "original_filename": "Council Action dated 3-18-25",
+  "category": "other",
+  "summary": "# Summary of Council File 23-1376-S1\n\n## What is Being Proposed?\nThe Los Angeles City Council adopted a Transportation Committee Report regarding the city's transit vehicle advertising contract. The report examines the current status of this advertising program, including details about which vehicles carry advertisements, the types of ads displayed, and the revenue generated. The report also reviews a Request for Proposals (RFP) that was issued in 2023 to potentially modify or improve the advertising contract.\n\n## Why?\nThe city regularly reviews its contracts and revenue-generating programs to ensure they are operating effectively and in the public interest. Transit vehicle advertising generates revenue for the city while providing advertising space to businesses. The 2023 RFP suggests the city was evaluating whether new vendors or updated terms could better serve the city's interests or public benefit.\n\n## Key Details\n- **Council Meeting Date:** March 14, 2025\n- **Agenda Item:** 18\n- **Vote Result:** Adopted (with 11 yes votes, 4 absent, 0 no votes)\n- **Original Report Date:** February 12, 2024\n\n## Impact\nThis decision affects transit riders who see advertisements on Los Angeles buses and other transit vehicles, businesses seeking advertising opportunities, and the city's revenue stream from advertising contracts. The adoption of this report signals the city's continued commitment to managing its transit advertising program and evaluating options to optimize it.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2128,
+    "output_tokens": 309,
+    "cost_usd": 0.003673
+  }
+}

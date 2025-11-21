@@ -1,0 +1,14 @@
+{
+  "historyId": "fecaa9e9-c057-4612-bab0-9e8dce13f109",
+  "council_file": "21-0392",
+  "meeting_id": 17406,
+  "original_filename": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+  "category": "staff_report",
+  "summary": "# Council File 21-0392: Spay/Neuter Clinic Contract Amendment\n\n## What's Being Proposed\nThe Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve a second amendment to a contract with the American Society for the Prevention of Cruelty to Animals (ASPCA). The amendment would authorize the ASPCA to continue operating the spay and neuter clinic at the Chesterfield Square Animal Services Center for one year, from July 1, 2025 through June 30, 2026, for up to $350,000.\n\n## Why This Matters\nThe spay and neuter clinic provides important veterinary services to help control animal population growth and improve public health. Rather than requiring the city to operate these services directly, the contract outsources the work to the ASPCA, an established animal welfare organization with expertise in these services.\n\n## Key Details\n- **Contract amount:** Not to exceed $350,000\n- **Duration:** July 1, 2025 – June 30, 2026\n- **Location:** Chesterfield Square Animal Services Center\n- **Funding source:** Animal Sterilization Trust Fund (no impact on the General Fund)\n- **Committee vote:** 2 Yes votes (Jurado, Hernandez); 1 Absent (Nazarian)\n\n## Impact\nThis contract ensures that low-cost spay and neuter services remain available to Los Angeles residents, supporting animal welfare goals while the city avoids the direct operational costs. The funding comes from a dedicated trust fund specifically designated for animal sterilization services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2280,
+    "output_tokens": 359,
+    "cost_usd": 0.004075
+  }
+}

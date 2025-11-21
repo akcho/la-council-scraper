@@ -1,0 +1,14 @@
+{
+  "historyId": "f12686af-3d66-4441-8e88-a6a56f4c78b1",
+  "council_file": "23-0670-S2",
+  "meeting_id": 17407,
+  "original_filename": "Council Action dated 6-27-24",
+  "category": "other",
+  "summary": "# Summary of Council File 23-0670-S2\n\n## What is Being Proposed?\nThe Los Angeles City Council adopted a Neighborhoods and Community Enrichment Committee Report regarding the management and use of Opioid Settlement and Tobacco Settlement Funds. The council approved this report with two amending motions (18A and 18B) that modified the original committee recommendations.\n\n## Why?\nSettlement funds from opioid and tobacco litigation provide Los Angeles with resources designated to address public health and community needs related to these substances. The committee reviewed how these settlement funds should be allocated and used, including expert testimony on the most effective approaches for community benefit.\n\n## Key Details\n- **Council Meeting Date:** June 25, 2024\n- **Vote Results:** 12 YES votes, 1 NO vote (Councilmember Rodriguez), and 3 ABSENT\n- **Amendments:** Two motions (18A by Hernandez-Blumenfield and 18B by Blumenfield-Hernandez) modified the original recommendations before adoption\n\n## Impact\nThis action determines how substantial settlement funds will be used across Los Angeles to address opioid and tobacco-related public health issues and community enrichment. The decision affects public health initiatives, community programs, and how resources are allocated to neighborhoods impacted by these issues. The amendments suggest the council refined the approach to better meet community needs.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2250,
+    "output_tokens": 303,
+    "cost_usd": 0.0037649999999999997
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "d06dad40-01d8-406c-b5a9-57d9989adf93",
+  "council_file": "20-0538-S1",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 4-21-25 - Mayor Transmittal",
+  "category": "other",
+  "summary": "# Summary: Van Nuys Airport Customs Facility Reimbursement Agreement Amendment\n\n## What is Being Proposed\nThe Los Angeles City Council is being asked to consider Resolution No. 28140 and approve a second amendment to an existing reimbursement agreement (DA-4914) between Los Angeles World Airports and Signature Flight Support, LLC. This agreement relates to funding for United States Customs and Border Protection (CBP) facility expenses at Van Nuys Airport.\n\n## Background and Rationale\nThe document indicates this is a follow-up action to an existing reimbursement agreement already in place with Signature Flight Support. By amending the agreement a second time, the city appears to be adjusting or updating the terms for how CBP facility costs at Van Nuys Airport are handled and reimbursed between the parties involved.\n\n## Key Details\n- **Location:** Van Nuys Airport\n- **Parties involved:** Los Angeles World Airports, Signature Flight Support LLC, and U.S. Customs and Border Protection\n- **Document date:** July 8, 2025\n- **Recipient:** John Ackerman, Chief Executive Officer of the Department of Airports\n- **Council District:** 6\n\n## Impact\nThis amendment affects operations at Van Nuys Airport and involves the coordination of federal customs facilities with local airport management and private flight support services. The specific details of how residents or airport users will be affected are not detailed in this transmittal document, though the City Administrative Officer report (referenced as attached) would provide additional context.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1985,
+    "output_tokens": 340,
+    "cost_usd": 0.003685
+  }
+}

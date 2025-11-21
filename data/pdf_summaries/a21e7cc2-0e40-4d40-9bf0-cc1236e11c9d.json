@@ -1,0 +1,14 @@
+{
+  "historyId": "a21e7cc2-0e40-4d40-9bf0-cc1236e11c9d",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-17-25 - Staff Report",
+  "category": "staff_report",
+  "summary": "# Summary: Zone Change and Small Lot Subdivision at 20012 West Chase Street\n\n## What is Being Proposed?\n\nThe Department of City Planning is recommending that the City Council approve a Vesting Zone Change for a property in Chatsworth-Porter Ranch from RA-1 (Residential Suburban) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling). This zoning change would enable the demolition of an existing single-family home and its replacement with five new two-story townhouse-style single-family homes, each containing approximately 2,028 square feet and four bedrooms. The accompanying Small Lot Subdivision was already approved by the Deputy Advisory Agency in June 2025.\n\n## Why?\n\nThe current RA-1 zoning designation is outdated and does not correspond to the property's General Plan land use designation of \"Low Medium I Residential,\" which permits the RD4 zone. The project addresses Los Angeles's housing shortage by creating four additional residential units (net gain) on an underutilized lot. The proposed development aligns with the City's Housing Element goals to increase homeownership opportunities and diversify housing types, while also promoting infill development near transit (approximately 0.3 miles from Roscoe Boulevard, which serves the Orange Line and Metrolink).\n\n## Key Details\n\n- **Location**: 20012 West Chase Street (20,499 sq ft property)\n- **Maximum Height**: 26 feet 10 inches\n- **Parking**: Two-car garage per unit plus three shared guest parking spaces\n- **Environmental Status**: Project is exempt from CEQA (Class 32 exemption)\n- **Adjacent Development**: The property directly west is already zoned RD4-1 with nine similar small lot homes\n- **Public Hearing**: Held May 27, 2025; minimal community opposition (concerns addressed regarding parking and tree removal)\n\n## Impact\n\nThis project will benefit prospective homebuyers seeking affordable homeownership opportunities in the San Fernando Valley area and supports citywide housing production goals. Property owners and neighbors in the immediate area should expect construction activity through summer 2026, including tree removal and replacement per city standards. The project requires street dedication and improvements, including a new sidewalk along Chase Street.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 38442,
+    "output_tokens": 505,
+    "cost_usd": 0.040966999999999996
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "144e1d80-5fa6-40d3-a4b4-9f570305a0e0",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-10-2025",
+  "category": "other",
+  "summary": "# Summary: Public Communication on Rent Control (Council File 23-1134)\n\n## What is Being Proposed?\nJesslyn Mitchell-Laguna, a member of the public, is urging the Los Angeles City Council to update LARSO (Los Angeles Rent Stabilization Ordinance) by implementing a 3% rent increase cap. This communication represents public input supporting stronger rent control protections in the city.\n\n## Why?\nThe commenter frames this proposal as a response to the current housing crisis in Los Angeles. The rationale is that a stricter rent cap would serve two key purposes: (1) protect the city from real estate speculation that drives up housing costs, and (2) prevent families from being evicted due to unaffordable rent increases.\n\n## Key Details\n- **Submitted:** July 9, 2025\n- **Proposed Change:** Update LARSO to a 3% annual rent increase cap\n- **Action Requested:** City council members to vote in favor of this measure\n\n## Impact\nThis proposal would affect all renters in Los Angeles, particularly low-to-moderate income families and long-term tenants vulnerable to displacement. A 3% cap would limit how much landlords could raise rent annually, potentially making housing more stable and affordable for existing tenants, though it could also influence landlord behavior regarding maintenance and new housing development.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1875,
+    "output_tokens": 299,
+    "cost_usd": 0.0033699999999999997
+  }
+}

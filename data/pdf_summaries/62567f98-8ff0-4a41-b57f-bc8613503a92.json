@@ -1,0 +1,14 @@
+{
+  "historyId": "62567f98-8ff0-4a41-b57f-bc8613503a92",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report Dated 8-18-25 - Amended Findings.pdf",
+  "category": "findings",
+  "summary": "# Summary: 2250 West Pico Boulevard Hotel Development\n\n## What is Being Proposed?\nThe City Planning Commission is recommending approval of a General Plan Amendment, Zone Change, Height District Change, and Conditional Use Permit to allow construction of a new 125-room hotel at 2250 West Pico Boulevard in South Los Angeles. The project involves demolishing an existing single-story market and surface parking to build two connected six-story buildings (76 feet 6 inches tall) with 77,828 square feet of floor area and a 2.99:1 Floor Area Ratio (FAR).\n\n## Why This Matters?\nThe current zoning restricts development of this underutilized site. The northern portion is zoned for commercial manufacturing with only a 1.5:1 FAR limit, while the southern portion is zoned for residential and doesn't permit hotels. The project addresses a documented shortage of hotel rooms in Los Angeles—the city has grown hotel supply at only 0.9% annually compared to the national rate of 1.8%. The site is strategically located near Downtown LA, along transit corridors, and serves both tourists and business travelers.\n\n## Key Details\n- **Location:** Southwestern corner of Pico Boulevard and Arapahoe Street\n- **Site size:** Approximately 28,003 square feet across seven lots\n- **Project components:** 125 guest rooms (95 studios, 28 suites, 2 ADA-compliant), 84 voluntary parking spaces (subterranean), pool, meeting spaces\n- **Zoning change:** From [Q]C2-1 and RD1.5-1 to C2-2-CPIO (Neighborhood Commercial)\n- **Parking:** All parking below-grade; no curb cuts proposed; electric vehicle charging required\n\n## Impact\nThe project will add hotel capacity near major employment centers and tourist destinations while activating an underutilized site with street-level pedestrian activity. It complies with the General Plan Framework, which identifies Pico Boulevard as a Mixed-Use Boulevard. The project is compatible with surrounding commercial and multi-family residential uses and is located within a transit priority area served by Metro bus lines 2, 30, 33, 204, and 754.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 27040,
+    "output_tokens": 510,
+    "cost_usd": 0.02959
+  }
+}

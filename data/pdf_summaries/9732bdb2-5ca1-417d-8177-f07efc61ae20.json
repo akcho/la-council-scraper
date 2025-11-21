@@ -1,0 +1,14 @@
+{
+  "historyId": "9732bdb2-5ca1-417d-8177-f07efc61ae20",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer 08_15_2017",
+  "category": "staff_report",
+  "summary": "# Summary: 2017-2021 Port Pilots Labor Agreement\n\n## What is Being Proposed?\n\nThe City Administrative Officer is asking the City Council to approve a new four-year labor contract (Memorandum of Understanding) for the Port Pilots bargaining unit, covering June 25, 2017 through July 3, 2021. The agreement has already been negotiated and ratified by the Los Angeles Port Pilots Association, ILWU Local 68. The Council is also being asked to authorize city officials to correct any clerical or technical errors in the final document.\n\n## Why This Matters\n\nThis agreement represents the result of labor negotiations conducted under the Executive Employee Relations Committee's direction. It establishes the wages, benefits, and working conditions for Port Pilots—specialized workers who guide ships into and out of the Port of Los Angeles.\n\n## Key Details\n\nThe agreement includes:\n- **Wage increase**: An overall 12.5% wage increase spread across the four-year term, with salary increases of approximately $450,000 per year\n- **Position changes**: Port Pilot I and Port Pilot II positions become flat-rated (no step increases) effective July 9, 2017\n- **Benefits**: Employees continue contributing to healthcare costs\n- **Training requirement**: The probationary period for new trainees is extended from 18 to 24 months\n\n## Fiscal and Operational Impact\n\nThe $450,000 annual cost will be paid entirely by the Harbor Department and will not impact the City's General Fund. The agreement affects Port Pilots working at the Port of Los Angeles.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2201,
+    "output_tokens": 351,
+    "cost_usd": 0.0039559999999999994
+  }
+}

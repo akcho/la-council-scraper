@@ -1,0 +1,14 @@
+{
+  "historyId": "1831c4aa-2227-4072-9f61-13d65224598c",
+  "council_file": "25-1146",
+  "meeting_id": 17455,
+  "original_filename": "Motion (McOsker - Park) dated 10-01-25",
+  "category": "other",
+  "summary": "# Summary: Motion to Protect Ken Malloy Harbor Regional Park\n\n## What's Being Proposed\n\nThe motion seeks to create stronger protections for Ken Malloy Harbor Regional Park in Harbor City (Council District 15) by making it a trespass to enter designated Protected Areas for Wildlife without authorization. The City Attorney and Department of Recreation and Parks are directed to prepare an ordinance restricting access to trails, walkways, and recreation areas within these protected zones. Additionally, the Department of City Planning is asked to report on further protections for sensitive biological resources, including potential designation as an Environmentally Sensitive Habitat Area under the California Coastal Act.\n\n## Why This Matters\n\nKen Malloy Harbor Regional Park is home to hundreds of bird species that depend on the park's natural water habitat for annual migrations. The centerpiece of the park, Machado Lake, was designated an impaired body of water due to contamination and received over $100 million in rehabilitation efforts, including dredging and water treatment systems. The park is recognized as a Protected Area for Wildlife supporting endangered and threatened species and serves as a critical wildlife corridor through the city. These new restrictions aim to prevent unauthorized human access that could disrupt the park's ecological recovery and wildlife habitat.\n\n## Key Impact\n\nThis motion protects both the City's substantial investment in environmental restoration and the habitat needs of migratory and local wildlife. The ordinance will restrict public access to certain areas, creating a balance between the park's use as a recreational green space and its function as sensitive wildlife habitat.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1770,
+    "output_tokens": 328,
+    "cost_usd": 0.00341
+  }
+}

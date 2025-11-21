@@ -1,0 +1,14 @@
+{
+  "historyId": "3245b84f-04f5-40d4-892e-85e0b977c861",
+  "council_file": "25-1224",
+  "meeting_id": 17283,
+  "original_filename": "Report from Trade, Travel and Tourism Committee 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 25-1224\n\n## What is Being Proposed?\nThe Trade, Travel and Tourism Committee is recommending that the City Council approve a new 30-year permit agreement between the Los Angeles Harbor Department and the Los Angeles County Flood Control District. This permit allows the Flood Control District to operate and maintain a storm drain pipeline located at the Port of Los Angeles near Berth 132 in Wilmington.\n\n## Why?\nThis action represents a successor permit to replace an existing agreement. The current permit generates no revenue for the City, but the new permit will establish a fixed annual rental fee, increasing the port's revenue stream. The permit has been determined to be categorically exempt from environmental review under the California Environmental Quality Act, meaning no environmental impact study is required.\n\n## Key Details\nThe new permit will increase the fixed minimum annual rent from $0 to **$17,151.75 per year**, effective upon execution. This rental amount will be subject to annual adjustments based on the Consumer Price Index, with a minimum floor of three percent annual increase. The 30-year term provides long-term operational certainty for both the port and the Flood Control District. All revenues generated will be deposited into the Harbor Revenue Fund.\n\n## Impact\nThis change has no negative impact on the City's General Fund. For residents and port operations, it represents increased revenue for harbor maintenance and operations while allowing continued essential storm drain infrastructure maintenance at the port. The committee voted unanimously in favor (3-0) on October 28, 2025.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2446,
+    "output_tokens": 334,
+    "cost_usd": 0.004116
+  }
+}

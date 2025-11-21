@@ -1,0 +1,14 @@
+{
+  "historyId": "8443f926-b577-496d-ba83-97a19b9b120f",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Personnel and Hiring Committee Report 10-24-25",
+  "category": "staff_report",
+  "summary": "# Summary: Port Pilots Overtime Compensation Amendment\n\n## What is Being Proposed\nThe Personnel and Hiring Committee recommends that the Los Angeles City Council approve Amendment No. 1 to the 2017-2028 Memorandum of Understanding (MOU) for Port Pilots. The amendment clarifies how overtime compensation is calculated by eliminating the ability for pilots to record eight-hour absences (such as vacation or sick days) in pay periods when they work their remaining six regular shifts.\n\n## Why This Is Needed\nA payroll system error discovered during a transition to the Workday system incorrectly compensated pilots at straight-time rates for hours worked between their 80th and 84th hours in a biweekly pay period. This sparked a grievance from the Port Pilots Association, which argued pilots were working those hours \"for free.\" While management countered that a 7.5% wage increase from 2006 was intended to compensate for this arrangement, the parties agreed the MOU language needed clarification to resolve the dispute.\n\n## Key Details\n- Port pilots work seven 12-hour shifts per biweekly period (84 hours total)\n- They are exempt from federal Fair Labor Standards Act overtime protections but receive negotiated overtime (time-and-a-half) for hours beyond 84\n- The amendment eliminates recording eight-hour absences when pilots work the remaining six shifts, which should prevent future calculation errors\n- The change has no fiscal impact on the General Fund; the Harbor Department covers all costs\n- The Committee voted 2-1 in favor (one member absent)\n\n## Impact\nThis amendment primarily affects the approximately 50-60 Port Pilots who operate vessels in Los Angeles Harbor, ensuring they receive proper compensation according to the negotiated contract and preventing similar payroll errors in the future.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4632,
+    "output_tokens": 400,
+    "cost_usd": 0.006632
+  }
+}

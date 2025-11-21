@@ -1,0 +1,14 @@
+{
+  "historyId": "7ac62633-dc7a-45ae-a7af-c2b6dbd9db0b",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_08-04-2025",
+  "category": "other",
+  "summary": "# Summary: Communications from Public on Council File 23-1134\n\n## What is Being Proposed?\n\nThese are two public comments submitted to the Los Angeles City Council regarding housing and rental regulations. The second commenter, Elaine Loring, specifically advocates for revising LARSO (Los Angeles Rent Stabilization Ordinance) through the \"Keep LA Housed\" proposal, which calls for: a 3% rent cap based on appropriate CPI (Consumer Price Index), elimination of utility and extra person add-ons, and prohibition of rent banking practices.\n\n## Why?\n\nBoth commenters address the severe housing crisis affecting Los Angeles residents. M. Lopez describes decades of deteriorating conditions in the Palms neighborhood, including gentrification, gang violence, rising rents, and inadequate housing maintenance—forcing her and others to shoulder costs for repairs that management should provide. Elaine Loring argues that \"business as usual\" policies will not solve the challenge of rising rents for Angelenos and calls for more aggressive rent control measures.\n\n## Key Details\n\nM. Lopez has lived in her apartment complex for over 15 years and has raised three children and six grandchildren there. Her units have not been updated in over 50 years, lack air conditioning, have a faulty heating system, and feature only shared coin-operated laundry. She is now disabled and facing knee replacement surgery with no ADA accommodations. Elaine Loring specifically addresses Councilmember Nazarian (CD2) and Councilmember Raman (CD4), referencing Nazarian's previous support for a 3% cap at a February town hall.\n\n## Impact\n\nThese comments directly affect tenants across Los Angeles, particularly middle-class and working-poor residents facing displacement. The proposals would limit rent increases, potentially making housing more affordable and stable, while addressing landlord practices that currently shift maintenance costs to tenants. This impacts both current residents and the broader affordability crisis in the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6165,
+    "output_tokens": 431,
+    "cost_usd": 0.008320000000000001
+  }
+}

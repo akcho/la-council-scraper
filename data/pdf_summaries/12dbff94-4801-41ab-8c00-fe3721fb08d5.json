@@ -1,0 +1,14 @@
+{
+  "historyId": "12dbff94-4801-41ab-8c00-fe3721fb08d5",
+  "council_file": "25-0002-S87",
+  "meeting_id": 17455,
+  "original_filename": "Resolution (Blumenfield - Lee) dated 9-26-25",
+  "category": "other",
+  "summary": "# Summary: \"Preventing Auto Recycling Theft Act\" Resolution\n\n## What is Being Proposed?\nThe Los Angeles City Council is adopting a resolution to support two federal bills—S. 2238 and H.R. 5221, collectively known as the \"Preventing Auto Recycling Theft Act.\" These bills would require that Vehicle Identification Numbers (VINs) be etched on all catalytic converters. By passing this resolution, the City is adding its official support to the City's 2025-26 Federal Legislative Program, signaling to Congress that this legislation matters to Los Angeles.\n\n## Why?\nCatalytic converter theft has become a widespread national crime problem. These parts are valuable on the scrap metal market, making them attractive theft targets. Currently, without identifying markings, stolen converters are nearly impossible for law enforcement to trace back to their original vehicles, making it difficult to prosecute thieves or help victims recover losses. The problem disproportionately impacts lower-income communities and small businesses that cannot easily absorb replacement costs and vehicle downtime.\n\n## Key Details\nLos Angeles previously supported California's SB 55 (2022), which requires VIN etching on catalytic converters sold in California. However, the City recognizes that a federal requirement would be more effective because many vehicles in California come from out-of-state and wouldn't be covered by state law alone. The resolution was presented by Councilmember Bob Blumenfield (3rd District) and dated September 26, 2025.\n\n## Impact\nIf passed at the federal level, VIN etching would create a deterrent for thieves, help law enforcement identify stolen parts, and support efforts to dismantle organized theft rings. This directly benefits vehicle owners, small businesses, and law enforcement across the nation.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2332,
+    "output_tokens": 394,
+    "cost_usd": 0.004302
+  }
+}

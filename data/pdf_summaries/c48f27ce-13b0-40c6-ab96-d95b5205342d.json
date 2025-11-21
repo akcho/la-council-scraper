@@ -1,0 +1,14 @@
+{
+  "historyId": "c48f27ce-13b0-40c6-ab96-d95b5205342d",
+  "council_file": "25-0002-S86",
+  "meeting_id": 17455,
+  "original_filename": "Report from Chief Legislative Analyst dated 10-20-25",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council Resolution Supporting S.2468\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to adopt a resolution supporting Senate Bill 2468 (Padilla), which would amend federal immigration law to expand eligibility for permanent residency status. Specifically, the resolution requests that the city include this support in its 2025-2026 Federal Legislative Program.\n\n## Why?\nThe resolution addresses a gap in the current immigration system that has left approximately 11 million undocumented immigrants without a viable pathway to legal status. Section 249 of the Immigration and Nationality Act (the \"Registry statute\") currently allows only those who entered the U.S. before January 1, 1972—a cutoff date that hasn't been updated since 1986. S.2468 would remove this outdated cutoff date and allow immigrants without criminal records who have lived continuously in the U.S. for at least seven years to apply for permanent residency, potentially benefiting over 8 million people including Dreamers, Temporary Protected Status (TPS) holders, visa holders, and skilled workers.\n\n## Key Details\n- The Registry statute was last updated in 1986 by President Reagan, when it allowed nearly 3 million undocumented immigrants to gain legal status\n- From 2015-2019, only 305 individuals could qualify under the current eligibility requirements\n- S.2468 would preempt the need for additional congressional action to update eligibility\n- The resolution was introduced September 5, 2025, and is sponsored by Councilmember Monica Rodriguez (7th District)\n\n## Impact\nThis resolution would position Los Angeles in support of federal legislation that could provide legal status and employment protections to millions of long-term residents, many of whom already contribute to the U.S. economy through taxes and essential work.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6433,
+    "output_tokens": 411,
+    "cost_usd": 0.008488
+  }
+}

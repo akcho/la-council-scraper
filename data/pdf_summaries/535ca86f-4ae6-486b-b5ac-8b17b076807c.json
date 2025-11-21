@@ -1,0 +1,14 @@
+{
+  "historyId": "535ca86f-4ae6-486b-b5ac-8b17b076807c",
+  "council_file": "22-1025-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Department of Aging dated 2-15-23.pdf",
+  "category": "staff_report",
+  "summary": "# Council File 22-1025: SNAP-Ed and CalFresh Nutrition Assistance Funding\n\n## What is Being Proposed\n\nThe Los Angeles Department of Aging (LADOA) is requesting City Council approval to accept $1.53 million in grant funding from the California Department of Aging over three fiscal years (2022-2025): $718,842 for SNAP-Ed (Supplemental Nutrition Assistance Program Education) and $806,751 for CalFresh Healthy Living and Expansion programs. The department also seeks authority to negotiate and execute agreements with service providers to deliver these nutrition education programs.\n\n## Why This Matters\n\nThese federal nutrition programs aim to improve health outcomes among low-income older adults and people with disabilities in Los Angeles. SNAP-Ed provides evidence-based nutrition education to promote healthy food choices and prevent chronic diseases, while CalFresh Expansion increases access to federal food assistance benefits. LADOA, as an Area Agency on Aging, is uniquely positioned to reach seniors and address barriers to program participation among vulnerable populations.\n\n## Key Details\n\nThe funding breaks down as $239,614 annually for SNAP-Ed services and $268,917 annually for CalFresh Expansion, running through September 30, 2025. Consulting Nutritional Services will provide SNAP-Ed nutrition education at congregate meal sites, while three organizations—ONEgeneration Senior Enrichment Center, Mexican American Opportunity Foundation, and VIC-Bernardi Multipurpose Senior Center—will deliver CalFresh services, each receiving $80,675 annually.\n\n## Impact\n\nThis proposal has no negative fiscal impact on the City General Fund, as it relies entirely on state and federal grant money. It will expand nutrition education and food assistance access for eligible low-income seniors and adults with disabilities across Los Angeles, helping reduce food insecurity and improve health outcomes in the community.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 11955,
+    "output_tokens": 412,
+    "cost_usd": 0.014015
+  }
+}

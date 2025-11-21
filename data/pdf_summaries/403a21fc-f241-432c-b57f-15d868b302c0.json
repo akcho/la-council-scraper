@@ -1,0 +1,14 @@
+{
+  "historyId": "403a21fc-f241-432c-b57f-15d868b302c0",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Community Impact Statement submitted by NoHo Neighborhood Council_05-26-2025",
+  "category": "other",
+  "summary": "# Summary: Council File 23-1134 - Rent Stabilization Ordinance Reform\n\n## What is Being Proposed?\nThe NoHo Neighborhood Council has submitted a Community Impact Statement supporting amendments to Council File 23-1134, which concerns reform of Los Angeles's Rent Stabilization Ordinance (RSO). The Council voted 17-0-0 on April 9, 2025, to support the file **if amended** according to specific recommendations from the Keep LA Housed Coalition.\n\n## Why This Matters?\nLos Angeles has a large renter population that needs stronger protections against excessive rent increases. The NoHo Neighborhood Council argues that the current RSO needs reform to better protect tenants from rising housing costs, which are increasingly unaffordable for many residents.\n\n## Key Recommendations\nThe NoHo Neighborhood Council specifically supports adopting a formula that would:\n- **Limit annual rent increases** to 60% of the Consumer Price Index (CPI) or 3%, whichever is lower\n- **Set a 0% floor** (meaning no rent increases in low-inflation years)\n- **Prohibit utility increases, rent banking, and additional occupant fees**\n\n## Impact\nThis proposal would directly affect Los Angeles renters by potentially making rent increases more predictable and limited. If adopted, it would establish one of the strongest tenant protections in California, making housing more affordable and stable for the city's renter population.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6022,
+    "output_tokens": 323,
+    "cost_usd": 0.007637
+  }
+}

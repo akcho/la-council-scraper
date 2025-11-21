@@ -1,0 +1,14 @@
+{
+  "historyId": "286f1f2c-74c0-4864-a59e-dd1a9ad695f7",
+  "council_file": "21-1015-S18",
+  "meeting_id": 17406,
+  "original_filename": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 21-1015-S18\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize the Department of Water and Power (DWP) to submit two grant applications to the U.S. Environmental Protection Agency (EPA) for the Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program for Fiscal Year 2025. If awarded, the Council will later need to approve accepting the grants and any related implementation actions.\n\n## Why?\n\nThe EPA grant program aims to improve drinking water infrastructure resilience and sustainability in mid-sized and large water systems. This funding opportunity allows the City to access federal resources to strengthen its water infrastructure without immediate General Fund impact for the grant application itself.\n\n## Key Details\n\n- **Matching requirement**: The City would need to provide 10% in matching funds if grants are awarded\n- **Committee approval**: Both the Energy and Environment Committee and Budget and Finance Committee unanimously approved this on October 21, 2025\n- **Financial impact**: Currently expected to be zero General Fund impact for the application phase, though this will be reassessed if the City is awarded funding\n- **Next steps**: DWP must report back to Council if grants are awarded and request final approval\n\n## Impact\n\nThis affects all Los Angeles residents who depend on drinking water services. Successful grants could fund infrastructure improvements that enhance water system reliability and sustainability, though residents should note that a 10% local match requirement may eventually require City funding if grants are awarded.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3983,
+    "output_tokens": 325,
+    "cost_usd": 0.005608
+  }
+}

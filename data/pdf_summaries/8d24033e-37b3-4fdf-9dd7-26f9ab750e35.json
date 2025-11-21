@@ -1,0 +1,14 @@
+{
+  "historyId": "8d24033e-37b3-4fdf-9dd7-26f9ab750e35",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-04-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comments on Council File 23-1134\n\n## What is Being Proposed?\nThree residents are submitting public comments in support of strengthening Los Angeles's Rent Stabilization Ordinance (RSO). Their primary recommendation is to cap rent increases at 3% for all RSO units citywide, including units managed by small landlords. Additional protections proposed include eliminating rent increases tied to additional occupants and prohibiting utility cost pass-throughs to tenants.\n\n## Why?\nThe commenters argue that current rent stabilization protections are outdated and inadequate to address Los Angeles's housing affordability crisis. They emphasize that without stronger protections, working families and long-term residents—particularly those born and raised in the city—cannot afford housing or homeownership. One commenter cites research showing that smaller RSO landlords achieve higher rents and lower vacancies while experiencing no greater financial stress than larger landlords, suggesting that exempting small landlords from caps is not justified.\n\n## Key Details\n- Council File: 23-1134\n- Submission Date: July 4, 2025\n- Comments from: Lyra Kilston, Elizabeth, and Gabbie (Highland Park resident since 2013)\n- Proposed rent cap: 3% annually for all RSO units\n- Proposed protections: No occupancy-based increases; no utility surcharges\n\n## Impact\nThese changes would affect rent-stabilized tenants and landlords across Los Angeles. Stronger protections would help stabilize housing costs for working families and long-term residents, while broader application to small landlords could significantly expand coverage of rent controls citywide.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 5289,
+    "output_tokens": 364,
+    "cost_usd": 0.007109000000000001
+  }
+}

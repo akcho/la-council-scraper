@@ -1,0 +1,14 @@
+{
+  "historyId": "7a1c2cc4-2e96-4159-8c60-c25bc4d72456",
+  "council_file": "25-0900-S46",
+  "meeting_id": 17407,
+  "original_filename": "Report from Bureau of Street Lighting dated 8-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Kester Avenue & Chase Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Bureau of Street Lighting is proposing to establish a street lighting maintenance assessment district for Kester Avenue between 165' and 315' south of Chase Street. This would create a special assessment on four nearby properties to fund the ongoing operation, maintenance, and energy costs for one streetlight in this area. The City Council is being asked to adopt an Ordinance of Intention that initiates a formal assessment process, including property owner notification and a weighted ballot vote as required by Proposition 218.\n\n## Why This is Needed\n\nThis appears to be part of a private development project that includes new street lighting. Since approximately 80% of Los Angeles streetlights are financed through maintenance assessments to benefiting properties (rather than general city funds), the property owners adjacent to this lighting must be assessed for its upkeep. Proposition 218 requires that only special benefits to specific properties—not general public benefits—can be funded through such assessments, and it mandates property owner approval through a weighted vote.\n\n## Key Details\n\n- **Total Assessment:** $1,041.59 annually for fiscal year 2025-2026\n- **Affected Parcels:** 4 properties (3 single-family residences and 1 multi-family residence)\n- **Assessment Breakdown:** One parcel (the multi-family) pays 60.98% ($635.12); the three single-family homes split the remaining 39.02% (~$127-$152 each)\n- **Costs Include:** Electric energy ($451), maintenance ($419), and incidentals ($172)\n- **Council District:** 6 (Van Nuys/Panorama City area)\n\n## Impact\n\nProperty owners will receive assessment ballots and can protest before a final City Council hearing. The assessment only takes effect if weighted \"yes\" votes exceed weighted \"no\" votes—meaning votes are weighted by financial obligation, not one-vote-per-person. If rejected, the streetlight system will not be constructed. If approved, the assessments will appear on property tax bills beginning in 2025-2026.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 43300,
+    "output_tokens": 480,
+    "cost_usd": 0.0457
+  }
+}

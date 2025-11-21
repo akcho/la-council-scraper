@@ -1,0 +1,14 @@
+{
+  "historyId": "e1c576cf-f134-464f-85ac-57684a347b07",
+  "council_file": "25-0005-S136",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Recommendation\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council terminate rent reductions and remove five properties from the Rent Escrow Account Program (REAP). These properties have corrected all housing code violations that led to their enrollment in the program. The cases are scheduled for City Council consideration on October 29, 2025.\n\n## Why This Matters\n\nREAP is an enforcement tool that places residential properties with serious code violations into a program where rent is reduced and held in escrow until violations are corrected. Once violations are fixed and verified by LAHD's Code Enforcement Division, properties can be removed from the program. This recommendation indicates that the affected properties have completed necessary repairs and no longer require this enforcement measure.\n\n## Key Details\n\nThe five properties being recommended for removal are located at:\n- 1151 S New Hampshire Ave (Case No. 849794)\n- 733 N Formosa Ave (Case No. 549700) – 2 units, violations corrected since March 2016\n- 590 N New Hampshire Ave (Case Nos. 769444 and 828034)\n- 625 E 120th St (Case No. 828716)\n\nAll properties have met Los Angeles Municipal Code requirements and have paid outstanding utility charges to the Department of Water and Power.\n\n## Impact\n\nOnce approved, tenants at these properties will see their rents restored to original levels within 30 days of notification. Property owners will receive any remaining escrow funds after administrative fees and penalties are deducted. LAHD will conduct follow-up inspections and owners must prepay for two additional annual inspections to ensure continued compliance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6823,
+    "output_tokens": 385,
+    "cost_usd": 0.008748
+  }
+}

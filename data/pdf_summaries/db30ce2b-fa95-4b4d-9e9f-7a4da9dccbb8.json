@@ -1,0 +1,14 @@
+{
+  "historyId": "db30ce2b-fa95-4b4d-9e9f-7a4da9dccbb8",
+  "council_file": "22-1025-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_10-17-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 22-1025-S1\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to accept $844,694 in grant funding for the Supplemental Nutrition Assistance Program Education (SNAP-ED)/CalFresh Healthy Living program from the California Department of Aging. The proposal authorizes the Department of Aging to amend the existing agreement with the state, negotiate updates with local service providers, and make necessary budget adjustments to implement the program.\n\n## Why?\nThe document does not explicitly state the rationale or problem being addressed. However, SNAP-ED programs typically aim to provide nutrition education and healthy living resources to low-income individuals and families receiving SNAP benefits. The grant appears to be funding an expansion or continuation of these services in Los Angeles.\n\n## Key Details\n- **Funding Amount:** $844,694 in grant funds (with no additional cost to the City's General Fund)\n- **Budget Breakdown:** $494,763 for new accounts and $349,931 for increased appropriations within Fund No. 57E (Supplemental Nutrition Assistance Program-Education)\n- **Fund Transfers:** $83,846 will be transferred from the SNAP-Ed program to cover $68,573 in salaries and $15,273 in office/administrative expenses\n- **Agreement:** Standard Agreement CF-2223-25 will be amended, and service provider agreements will be updated\n- **Committee Vote:** The Civil Rights, Equity, Immigration, Aging and Disability Committee approved the recommendations on October 17, 2025 (4-0, with one member absent)\n\n## Impact\nThis funding will support nutrition education and healthy living services for low-income Los Angeles residents. The budget adjustments allow the Department of Aging to hire staff and cover administrative costs to deliver these services through existing community service providers.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4325,
+    "output_tokens": 412,
+    "cost_usd": 0.006385
+  }
+}

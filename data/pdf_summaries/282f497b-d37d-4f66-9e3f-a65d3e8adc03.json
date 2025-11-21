@@ -1,0 +1,14 @@
+{
+  "historyId": "282f497b-d37d-4f66-9e3f-a65d3e8adc03",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 3-15-22 - Site Map",
+  "category": "other",
+  "summary": "# Summary: TRANSMITTAL 1 - Liquid Bulk Terminals Site Map\n\n## What is Being Proposed?\n\nThis document is a site map showing the locations of seven liquid bulk terminal facilities operated by different companies at the Port of Los Angeles. The map identifies the specific berths and geographic locations of terminals operated by Kinder Morgan, Phillips 66, NuStar Energy, Valero, Shell Oil, Vopak, and PBF Energy. These terminals are positioned around key port areas including Wilmington, San Pedro, Terminal Island, and Pier 400.\n\n## Why?\n\nThis appears to be a planning and documentation tool related to Council File 13-0332, created by the Port of Los Angeles' Planning & Economic Development department. The map provides a visual reference for understanding where liquid bulk cargo operations are concentrated within the port and how these facilities are distributed across different terminal areas. This type of mapping is essential for port management, safety planning, environmental review, and land use coordination.\n\n## Key Details\n\nThe seven terminals are distributed across multiple locations with specific berth assignments (ranging from Berth 118-119 to Berth 238-239). The map shows the proximity of these industrial facilities to neighboring communities including Wilmington and Long Beach, as well as major port infrastructure like Pier 400. The document was produced in August 2019 by the Port's Planning Department.\n\n## Impact\n\nThis map affects port operations, surrounding residential communities, and those involved in the oil and gas industry. Understanding terminal locations is critical for emergency response planning, environmental compliance, traffic management, and community safety—particularly for residents in Wilmington and San Pedro who live near these industrial operations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1769,
+    "output_tokens": 365,
+    "cost_usd": 0.003594
+  }
+}

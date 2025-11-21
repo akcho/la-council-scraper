@@ -1,0 +1,14 @@
+{
+  "historyId": "5cc30962-3c09-4a56-aae9-62825c1ed1b7",
+  "council_file": "25-0982",
+  "meeting_id": 17407,
+  "original_filename": "Report from Public Works Committee_10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 25-0982 - Street Easement Acceptance and Rejection\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that Los Angeles City Council accept part of a future street easement as public street (shown in blue) while rejecting another portion (shown in red) at 4539-4545 West Santa Monica Boulevard. The committee approved this recommendation on October 22, 2025, and is forwarding it to the full Council for final approval.\n\n## Why This Matters\n\nThis action involves converting a private future street easement into public street in some areas while keeping other portions private. The City Engineer determined that part of the easement should become public property while rejecting the remainder. The proposal has been found to comply with the City's General Plan and qualifies as a categorical exemption under California's environmental review requirements, meaning no full environmental impact study is needed.\n\n## Key Details\n\n- **Location:** 4539-4545 West Santa Monica Boulevard (Right of Way No. 36000-2557)\n- **Processing Fee:** $7,075.91 was paid for this request\n- **Committee Vote:** 2 in favor (Hernandez, Hutt), 1 absent (Padilla)\n- **Timeline:** City Engineer report dated July 21, 2025; Committee consideration on October 22, 2025\n- **Next Step:** The City Clerk will forward approved resolutions to the Real Estate Division for recording with Los Angeles County Recorder\n\nThis is a routine property/right-of-way matter that primarily affects the property owners and the City's street network management.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2394,
+    "output_tokens": 359,
+    "cost_usd": 0.004189
+  }
+}

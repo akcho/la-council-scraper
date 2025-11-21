@@ -1,0 +1,14 @@
+{
+  "historyId": "56c1c84d-5642-4e7e-b797-bc8610c67727",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_04-24-2025",
+  "category": "other",
+  "summary": "# Summary: Public Communications on LA Rent Stabilization Ordinance (Council File 23-1134)\n\n## What Is Being Proposed?\n\nThese public comments address potential updates to Los Angeles's Rent Stabilization Ordinance (RSO). The second commenter specifically urges the City Council to adopt recommendations from Keep LA Housed to cap rent increases at either 60% of the Consumer Price Index (CPI) or 3%—whichever is lower—with no minimum increase. The proposal also calls for eliminating additional charges for utilities and extra occupants.\n\n## Why Is This Important?\n\nBoth commenters emphasize that rent affordability directly impacts homelessness in Los Angeles. Research shows that homelessness persists not because people aren't entering shelters, but because many residents become newly homeless daily due to unaffordable housing costs. One commenter notes that while rent control alone doesn't solve the housing supply shortage, it is a critical tool to keep people stably housed during economic downturns and rising unemployment.\n\n## Key Details\n\n- **Current issue**: Existing RSO rent increase allowances are deemed too high for struggling renters\n- **Proposed cap**: 60% CPI or 3% maximum (whichever is lower) with no floor increase\n- **Additional reforms requested**: Remove utility surcharges and extra occupant fees\n- **Council file**: 23-1134\n- **Comments submitted**: April 24, 2025\n\n## Impact\n\nThese changes would affect millions of Los Angeles renters. Stricter rent caps could help prevent displacement and homelessness among lower-income residents, while broader housing supply expansion is also needed to fully address the crisis.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3778,
+    "output_tokens": 366,
+    "cost_usd": 0.005608
+  }
+}

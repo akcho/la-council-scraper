@@ -1,0 +1,14 @@
+{
+  "historyId": "7e32d2bc-310d-4489-933f-ab9c366be717",
+  "council_file": "25-1145",
+  "meeting_id": 17406,
+  "original_filename": "Motion (Padilla - Yaroslavsky)  dated 10-01-25",
+  "category": "other",
+  "summary": "# Summary: Motion to Evaluate LADWP Land for Community Space in Sun Valley\n\n## What is Being Proposed?\nThe City Council is requesting the Los Angeles Department of Water and Power (LADWP), in coordination with the Community Land Authority (CLA) and other city departments, to assess LADWP-owned parcels along Ilex Avenue in Sun Valley (between Snelling and Telfair streets) for potential conversion into community spaces. The motion asks for a site assessment, feasibility study, stakeholder engagement, and a report back to the City Council within 90 days with recommendations for possible pilot programs or partnerships.\n\n## Why?\nSun Valley and similar neighborhoods lack sufficient recreational spaces and shade. These LADWP parcels are currently underutilized, unfenced, and directly in front of residential homes. The motion argues that converting these transmission corridor lands into accessible community spaces could improve residents' quality of life while maintaining LADWP's operational and safety requirements. Similar partnerships between LADWP and communities across Los Angeles have successfully created compatible uses on utility land.\n\n## Key Details\n- **Location:** Ilex Avenue, Sun Valley, Council District 6 (from Snelling to Telfair Avenue)\n- **Owner:** Los Angeles Department of Water and Power\n- **Potential Uses:** Passive/active recreation, community gardens, tree planting, shade structures, dog parks, and gathering areas\n- **Timeline:** 90-day report deadline with findings and recommendations\n\n## Impact\nResidents of Sun Valley would benefit from new public gathering spaces and shade infrastructure. The motion requires community input and stakeholder engagement to ensure proposed uses meet neighborhood needs while respecting safety and utility requirements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1790,
+    "output_tokens": 369,
+    "cost_usd": 0.003635
+  }
+}

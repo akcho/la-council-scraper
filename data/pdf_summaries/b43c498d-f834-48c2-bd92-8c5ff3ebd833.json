@@ -1,0 +1,14 @@
+{
+  "historyId": "b43c498d-f834-48c2-bd92-8c5ff3ebd833",
+  "council_file": "25-1060",
+  "meeting_id": 17477,
+  "original_filename": "Report from Personnel Department dated 8-07-25",
+  "category": "staff_report",
+  "summary": "# Summary: LAwell Program Employee Benefits Trust Fund Review FY 2024-25\n\n## What is Being Proposed?\nThe Personnel Department is asking the City Council to note and file a financial review of the LAwell Program Employee Benefits Trust Fund for fiscal year 2024-25. This is a routine annual reporting requirement mandated by Los Angeles Administrative Code to document all money flowing into and out of the employee benefits fund.\n\n## Why?\nThe Trust Fund, established in 1997, serves as the central account managing health and benefit premiums for approximately 27,000 City employees and 33,000 dependents. By law, the Joint Labor-Management Benefits Committee (JLMBC)—composed of five management and five labor representatives—must report annually to the City Council on all receipts, expenditures, and the purposes of spending to ensure transparency and proper fund management.\n\n## Key Details\nFor FY 2024-25, the Trust Fund received approximately $491.4 million in revenues (primarily from employer and employee contributions) and paid out $493.9 million to benefit service providers and administrative costs. As of June 30, 2025, the fund had $1.7 million in available balance after accounting for liabilities and maintaining a required 12.5% reserve (approximately $5.4 million). The LAwell Program covers medical, dental, vision, life insurance, disability, and wellness services through multiple providers including Kaiser Permanente, Blue Shield, and others.\n\n## Impact\nThis report affects all City employees enrolled in the LAwell Program by documenting how their benefit contributions are managed and spent. The healthy fund balance and adequate reserves indicate the benefits program is financially stable and able to continue providing competitive health coverage to the City's workforce.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8626,
+    "output_tokens": 379,
+    "cost_usd": 0.010520999999999999
+  }
+}

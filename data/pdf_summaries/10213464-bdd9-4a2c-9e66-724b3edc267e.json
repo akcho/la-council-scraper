@@ -1,0 +1,14 @@
+{
+  "historyId": "10213464-bdd9-4a2c-9e66-724b3edc267e",
+  "council_file": "23-0670-S2",
+  "meeting_id": 17407,
+  "original_filename": "Report from Neighborhoods and Community Enrichment Committee_3-20-24",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 23-0670-S2\n\n## What is Being Proposed?\n\nThe Neighborhoods and Community Enrichment Committee is recommending five actions to manage Los Angeles's Opioid Settlement and Tobacco Settlement Funds. The most significant recommendation is creating a \"MacArthur Park Harm Reduction Center\" with an initial $3 million allocation to address substance use issues in that area. Additional recommendations include establishing annual reporting procedures, creating an evaluation framework for future funding proposals, and documenting existing treatment programs.\n\n## Why This Matters\n\nLos Angeles has received settlement money from opioid litigation as compensation for the opioid crisis's impact on communities. The committee is establishing guardrails to ensure these funds are spent legally, strategically, and equitably. The recommendations specifically aim to target resources toward areas with the highest fentanyl overdose rates and greatest community need, while consulting with the City Attorney to verify compliance with settlement agreements.\n\n## Key Details\n\n- Annual reporting deadline: September 1\n- MacArthur Park Harm Reduction Center: $3 million initial funding\n- The Chief Legislative Analyst has 90 days to develop an evaluation matrix using fentanyl death data, equity indices, and disparity measures\n- The Department on Disability must report within 30 days on current substance use treatment programs and their service areas\n- All three committee members voted yes (Hernandez, Lee, Hutt)\n\n## Impact\n\nThese recommendations will direct opioid settlement money toward harm reduction services in Los Angeles, with particular focus on high-need areas. Residents in communities most affected by overdoses may see expanded treatment and harm reduction services, though funding amounts for individual neighborhoods will depend on future proposal reviews.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3985,
+    "output_tokens": 374,
+    "cost_usd": 0.005855
+  }
+}

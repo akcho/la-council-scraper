@@ -1,0 +1,14 @@
+{
+  "historyId": "cae71bef-53e4-4177-98ee-5d82f0b5f527",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_11-03-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public - Council File 23-1134\n\n## What is Being Proposed?\n\nBryne, a District 1 resident, is urging the LA City Council to adopt the \"Keep LA Housed\" demands for updating the Rent Stabilization Ordinance (RSO) formula. Specifically, she calls for: (1) capping rent increases at 60% of the Consumer Price Index (CPI) or 3%, whichever is lower, with no automatic minimum increase; and (2) eliminating additional rent increases for utilities and extra occupants.\n\n## Why?\n\nThe communication addresses affordability concerns within LA's existing rent control system. While acknowledging that the RSO is important for housing stability, Bryne argues that current allowed rent increases are unaffordable for struggling Angelenos and contribute to homelessness. She frames housing as a human right and attributes the housing crisis to city policies and actions by wealthy real estate developers and corporate landlords.\n\n## Key Details\n\n- **Urgent timeline:** New rent increases go into effect in July 2025, making immediate City Council action necessary\n- **Affected population:** Tenants already struggling with rent payments who lack discretionary income for food, medical care, transportation, and childcare\n- **Specific formula change:** The proposal would reduce the percentage increase tenants face annually by capping it at the lower of 60% CPI or 3%\n\n## Impact\n\nThis proposal directly affects rent-controlled tenants citywide, particularly low-income renters in LA. The changes would reduce landlord revenue from annual rent increases but could help prevent tenant displacement and homelessness by preserving affordability in existing housing stock.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2081,
+    "output_tokens": 367,
+    "cost_usd": 0.003915999999999999
+  }
+}

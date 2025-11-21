@@ -1,0 +1,14 @@
+{
+  "historyId": "639cd912-c327-454a-9214-5a26a79398d9",
+  "council_file": "23-0670-S2",
+  "meeting_id": 17407,
+  "original_filename": "Report from Chief Legislative Analyst dated 6-20-25",
+  "category": "staff_report",
+  "summary": "# Summary: Opioid Remediation Program - Follow Up Options\n\n## What is Being Proposed?\n\nThe Chief Legislative Analyst is recommending that Los Angeles develop a comprehensive Opioid Remediation Program using settlement funds from pharmaceutical companies. The report provides three main recommendations: (1) ensure existing city opioid programs receive proper reimbursement from settlement funds, (2) pursue a City-County partnership to establish a Westlake Area Harm Reduction Drop-In Center, and (3) choose between two options for expanding opioid services—either through the Los Angeles Housing Department (LAHD) with $3.5 million for seven city regions, or through the Department of Disability (DOD) with $2.1 million for the same areas.\n\n## Why?\n\nThe opioid crisis demands coordinated response using settlement funds that must legally be spent on opioid remediation activities. California Department of Health Care Services guidelines require that at least 50% of settlement funds go toward high-impact activities like harm reduction, treatment infrastructure, and addressing vulnerable populations. Currently, multiple city departments (Mayor's Office, LAHD, DOD) are administering opioid-related services but not systematically capturing reimbursements. The report also notes that harm reduction services are evidence-based and highly effective—people using these services are five times more likely to enter drug treatment.\n\n## Key Details\n\nThe city has approximately $22 million in Opioid Settlement Trust Fund available, with $7.9 million already committed to inpatient treatment and $3 million reserved for the Westlake center. The remaining $11.1 million is available for new programs. The city will receive an estimated $4-5 million annually for approximately 18 more years. Option A (LAHD) proposes contracts of $500,000 per region; Option B (DOD) proposes $300,000 per region. Both options cover East Valley, West Valley, East, Central, Harbor, West, and South Los Angeles.\n\n## Impact\n\nThese programs directly benefit residents experiencing homelessness and opioid use disorder by expanding access to naloxone distribution, syringe services, treatment connections, and overdose prevention. The proposed Westlake center specifically addresses Council District 1 needs. There is no impact to the General Fund, as settlement funds specifically designated for opioid remediation finance these initiatives. Success depends on proper invoicing and reporting to ensure reimbursement and continued annual funding.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 59836,
+    "output_tokens": 545,
+    "cost_usd": 0.062561
+  }
+}

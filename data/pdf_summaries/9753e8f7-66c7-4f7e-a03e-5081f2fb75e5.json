@@ -1,0 +1,14 @@
+{
+  "historyId": "9753e8f7-66c7-4f7e-a03e-5081f2fb75e5",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Report from Department of City Planning dated 10-23-25 - Supplemental Transmittal",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1084\n\n## What is Being Proposed?\n\nThis is a supplemental transmittal from the Department of City Planning regarding a zoning case (APCNV-2019-3202-ZCJ) for properties located at 11144, 11146, 11148 Lorne Street and 8032 Fair Avenue in the San Fernando Valley (Council District 6, zip code 91352). The transmittal includes a Letter to Council and indicates that a Mitigated Negative Declaration (MND) environmental document has been prepared for the project.\n\n## Key Details\n\nThe document is being transmitted to the City Clerk's office on October 23, 2025, by Ricardo Vazquez from the Planning Department. The planner of record is Dang Nguyen. The case involves three separate parcels on Lorne Street and one on Fair Avenue. The procedural regulations note that this case follows Chapter 1 guidelines as of January 21, 2024, and is not subject to the Processes & Procedures Ordinance.\n\n## What This Means\n\nThis transmittal is a procedural step that moves the zoning case forward in the approval process. The inclusion of an environmental assessment (MND) suggests the project has been reviewed for potential environmental impacts and found to have minimal negative effects, either with mitigation measures in place or as proposed. The fact that this is marked \"Supplemental\" indicates this is an updated or additional submission to the City Council, likely clarifying or adding information to a previous filing.\n\n**For Residents:** If you live in or near this area, this project may affect zoning, land use, or development at these four properties, and it is now being formally reviewed by the City Council.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4080,
+    "output_tokens": 387,
+    "cost_usd": 0.006015
+  }
+}

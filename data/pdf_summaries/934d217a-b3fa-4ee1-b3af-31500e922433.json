@@ -1,0 +1,14 @@
+{
+  "historyId": "934d217a-b3fa-4ee1-b3af-31500e922433",
+  "council_file": "25-0005-S142",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department (Case No. 864023) dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Case No. 864023 – Property Removal Request\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove 815 S Bonnie Brae Street (a 28-unit apartment building) from the Rent Escrow Account Program (REAP). This action would terminate the rent reductions currently in place for one unit and close the escrow account that was established to hold rent payments while code violations were being corrected.\n\n## Why?\n\nThe property was placed into REAP in May 2025 after code enforcement cited five violations related to sanitation, maintenance, and plumbing/gas issues in unit #111. According to LAHD's independent evaluation, the property owner has since corrected all cited violations and paid outstanding utility charges. Because the violations have been resolved and all compliance requirements met under Los Angeles Municipal Code Section 162.08, LAHD believes the property should be removed from the program.\n\n## Key Details\n\n- **Property:** 815 S Bonnie Brae Street, Los Angeles CA 90057 (28 total units)\n- **REAP Case Number:** 864023\n- **Case Opened:** May 15, 2025\n- **Units in REAP:** 1 (unit #111)\n- **Violations Cited:** 5 violations (sanitation, maintenance, plumbing/gas)\n- **Current Status:** All violations corrected\n- **Scheduled Vote:** November 12, 2025 City Council meeting\n\n## Impact\n\nTenants in the affected unit will see rent restored to original levels 30 days after notification. The escrow funds will be distributed first to cover LAHD administrative fees and any outstanding fines or registration fees, with any remaining balance returned to the landlord. The property owner must also prepay for two additional annual inspections beyond standard code enforcement requirements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8525,
+    "output_tokens": 428,
+    "cost_usd": 0.010665
+  }
+}

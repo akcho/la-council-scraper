@@ -1,0 +1,14 @@
+{
+  "historyId": "b1789868-fb8d-4210-9e61-5d61575a75bb",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer dated 6-02-25",
+  "category": "staff_report",
+  "summary": "# Summary: Salary Adjustments for City Council and Mayor Staff\n\n## What is Being Proposed\n\nThe City Administrative Officer is recommending that the City Council adopt two ordinances to cancel and reduce previously scheduled salary increases for non-represented (non-union) positions in the offices of the City Council and Mayor. Specifically, the ordinances would remove a 4% salary increase scheduled for June 29, 2025, for Council Aide positions and eliminate multiple salary increases scheduled for June 29, 2025, December 28, 2025, and June 28, 2026, for Mayor's office positions including the Chief of Staff, Deputy Mayor, and Mayoral Aides.\n\n## Why This Action\n\nThe City Council adopted a motion on May 28, 2025, directing this action, and the Mayor also requested similar salary reductions for his office staff. The primary reason is fiscal—the city is seeking to reduce budget expenditures during a period of financial constraints.\n\n## Key Details\n\nThe salary cancellations affect approximately 8-15 non-union positions across both offices. While the June 2025 salary increases will be removed, other previously scheduled salary dates will remain in effect but adjusted downward based on the revised salary figures. The ordinances amend both the Los Angeles Administrative Code Section 4.61 Schedule \"A\" and the 2024-25 Departmental Personnel Ordinance for the City Council.\n\n## Financial Impact\n\nThe city estimates these salary reductions will save the General Fund approximately $3 million in FY2025-26, $4.5 million in FY2026-27, and $4.8 million in FY2027-28. The affected employees are primarily senior administrative staff in city leadership offices.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4358,
+    "output_tokens": 384,
+    "cost_usd": 0.006278
+  }
+}

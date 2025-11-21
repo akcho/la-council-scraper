@@ -1,0 +1,14 @@
+{
+  "historyId": "d397949e-206f-4d2d-91e4-c054e282e5b4",
+  "council_file": "14-1411-S5",
+  "meeting_id": 17283,
+  "original_filename": "Report from Chief Legislative Analyst dated 5-16-24",
+  "category": "staff_report",
+  "summary": "# Summary: TFAR Trust Fund Distribution Recommendations\n\n## What is Being Proposed?\n\nThe Chief Legislative Analyst is recommending that the City Council approve a specific distribution method for $16.6 million in uncommitted funds from the Transfer of Floor Area Rights (TFAR) Public Benefit Payment Trust Fund. The proposed \"Distribution Method 3\" combines a fixed percentage approach (66% of funds) with a land percentage approach (34% of funds) to allocate money among seven eligible Council Districts. Additionally, $3.2 million would be set aside for Citywide projects, and participating Council Districts would be asked to submit project proposals for funding.\n\n## Why This Matters\n\nThe TFAR program requires developers to make payments to a trust fund when they transfer floor area rights from city-owned properties (like the Los Angeles Convention Center) to development projects. Since 2018, seven planning cases have generated $16.6 million in new deposits plus $913,772 in interest. A reconciliation review identified these funds as available for new public benefit projects, prompting the need to fairly distribute them among eligible districts. The recommendation balances two competing interests: recognizing Council Districts 9 and 14's significant role in generating revenue (they hosted the donor sites) while also distributing funds to other impacted districts.\n\n## Key Details\n\nThe recommended distribution allocates funds to Council Districts 1, 8, 9, 10, 13, and 14, with CD 9 and CD 14 each receiving 33% of the district allocations due to their geographic importance. The total Trust Fund balance is $20.6 million, with $2.7 million reserved for past projects not yet completed and $1.8 million reallocated to address prior commitments.\n\n## Impact\n\nCouncil Districts eligible for funds can now identify specific projects—such as affordable housing, parks, public facilities, or community programs—to recommend for Trust Fund allocation. Residents in these districts may benefit from new public benefit projects funded through this mechanism, though actual projects still require formal approval through a subsequent committee process.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14186,
+    "output_tokens": 451,
+    "cost_usd": 0.016441
+  }
+}

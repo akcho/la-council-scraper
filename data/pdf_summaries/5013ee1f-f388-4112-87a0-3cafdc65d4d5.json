@@ -1,0 +1,14 @@
+{
+  "historyId": "5013ee1f-f388-4112-87a0-3cafdc65d4d5",
+  "council_file": "25-0900-S20",
+  "meeting_id": 17406,
+  "original_filename": "Final Ordinance No.188637 dated 06-22-2025.pdf",
+  "category": "other",
+  "summary": "# Summary of Ordinance No. 188637\n\n## What is Being Proposed?\n\nThe City of Los Angeles is establishing a new street lighting district called the **Thatcher Avenue & Washington Boulevard Lighting District** to operate, maintain, repair, and provide electric energy for street lights in fiscal year 2024-2025. The district covers lighting on Thatcher Avenue (from Washington Boulevard to Harbor Crossing Lane), Howard Street, Dickson Street, Burrell Street, Berkeley Drive, and Washington Boulevard in a specified area.\n\n## Why?\n\nThe City Council has determined that street lighting improvements are in the public interest and convenience for this area. The ordinance follows the established legal framework under the Los Angeles Administrative Code, California Government Code, and Proposition 218, which allows cities to create special assessment districts where property owners in a benefiting area share the costs of infrastructure improvements based on the benefit they receive.\n\n## Key Details\n\n- **Fiscal Year:** 2024-2025\n- **Public Hearing:** August 12, 2025, at 10:00 a.m. in the Council Chamber\n- **Assessment Method:** Property owners in the district will be assessed based on proportional financial obligation outlined in an Engineer's Report\n- **Ballot Process:** Property owners vote on the assessment using weighted ballots (voting power proportional to their financial obligation)\n- **Annual Increases:** Assessments may increase annually by no more than the Consumer Price Index (CPI)\n- **Conditions:** Assessments only transfer to property tax rolls if the lighting system is energized by July 1, 2024\n\n## Impact\n\nAffected property owners within the district boundaries will receive notices and ballots. They may file written protests or attend the public hearing to voice concerns. If weighted \"yes\" votes equal or exceed weighted \"no\" votes, the Council will impose the assessment and construct the lighting system. If \"no\" votes prevail, the assessment will not be levied and the lighting system will not be constructed or will be removed from service. Property owners will be responsible for ongoing maintenance costs through annual assessments.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10149,
+    "output_tokens": 453,
+    "cost_usd": 0.012414
+  }
+}

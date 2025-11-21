@@ -1,0 +1,14 @@
+{
+  "historyId": "6b2d5082-14bf-4120-8aaf-e8e6b36c047f",
+  "council_file": "14-1411-S5",
+  "meeting_id": 17283,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: TFAR Public Benefit Payment Trust Fund Reprogramming\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council approve the reallocation of approximately $4.2 million from six existing TFAR (Transfer of Floor Area Rights) Trust Fund public benefit projects to different projects and programs across various council districts. Instead of funding the original designated projects, this money would be redirected to new priorities.\n\n## Why?\n\nThe document does not explicitly state the rationale for why these original projects are being defunded or why the new allocations are needed. However, the reprogramming suggests that the original projects may have encountered delays, completion, or funding challenges, necessitating a redirection of public benefit funds to other community needs.\n\n## Key Details\n\nThe reprogramming involves seven separate transfers:\n- **$1 million** from Casa de Rosas Affordable Housing to First Time Homebuyers Down Payment Assistance (CD 9)\n- **$1 million** from 6th Street PARC to Plaza del Sol Crosswalk (CD 14)\n- **$150,000** from Nonprofit Central Coordinating Agency to Street Lighting Repair (CD 1)\n- **$100,000** from Eviction Defense for Tenants to Emergency Rental Assistance (CD 1)\n- **$1.7 million** from South Central United Assistance & Prevention to Community Grants Program (CD 9)\n- **$100,000** from St. Johns Mobile Clinic to Substance Abuse/Behavioral Health (CD 9)\n- **$150,000** from two programs to increase SEA Mental Health Program funding to $350,000 (CD 9)\n\nThe PLUM Committee voted 4-1 (with one member absent) to approve these recommendations on October 28, 2025.\n\n## Impact\n\nThis affects residents in Council Districts 1, 9, and 14 by shifting resources between programs. Residents who were expecting affordable housing support or community facilities may see those projects delayed, while residents will gain new services in street lighting, rental assistance, mental health, and other community programs.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4269,
+    "output_tokens": 490,
+    "cost_usd": 0.006719
+  }
+}

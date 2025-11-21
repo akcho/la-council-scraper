@@ -1,0 +1,14 @@
+{
+  "historyId": "62143653-fc4e-4a82-a08b-d9484700871b",
+  "council_file": "25-1164",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: Settlement Discussion Request for Traffic Collision Case\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's office is requesting that the City Council hold a **closed session meeting** to discuss settlement options in a pending lawsuit. The case involves a vehicle-versus-vehicle traffic collision that occurred on April 19, 2023, on the westbound 210 Freeway. The City Attorney wants to meet privately with the Council to receive legal advice regarding a Claims Board recommendation before proceeding.\n\n## Why?\nThis closed session is authorized under California Government Code Section 54956.9(d)(1), which allows public agencies to meet privately with legal counsel to discuss pending litigation and settlement strategy. The City Attorney's office believes a closed discussion is necessary before the Council can make an informed decision about how to handle this case, particularly regarding the Claims Board's recommendation.\n\n## Key Details\n- **Case Name & Number:** Juan Velasquez, et al. v. Daniel Steven Orellana, et al. (LASC Case No. 23CHC02588)\n- **Related Claims:** Claim Nos. C23-113397; C24-00181; C24-02638\n- **Incident Date & Location:** April 19, 2023, westbound 210 Freeway\n- **Contact for Questions:** Lala Kahramanian, Deputy City Attorney at (213) 978-0399\n\n## Impact\nThis primarily affects the City Council's ability to make decisions about the lawsuit and potential settlement. Residents involved in the collision may be affected by how the City resolves this matter, though specific settlement details would remain confidential during the closed session.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 365,
+    "cost_usd": 0.005142
+  }
+}

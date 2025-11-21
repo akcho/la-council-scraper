@@ -1,0 +1,14 @@
+{
+  "historyId": "b72bb68f-2533-48dd-9a47-eeea45960db0",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Attested Resolution_09-10-25",
+  "category": "other",
+  "summary": "# Summary: Los Angeles City Council Resolution on January 2025 Wildfires Emergency Response\n\n## What is Being Proposed?\nThe Los Angeles City Council is formally ratifying and continuing the local state of emergency declared by the Mayor on January 7, 2025, in response to the devastating wildfires. The resolution authorizes the suspension of competitive bidding requirements for emergency purchases and contracts, allowing the city to spend money immediately without the normal bureaucratic delays. It also directs all city departments to investigate and prosecute price-gouging, fraud, and theft related to the disaster.\n\n## Why?\nThe Palisades Fire and other concurrent wildfires represent an unprecedented catastrophe for Los Angeles. The Palisades Fire alone has destroyed over 5,000 structures and consumed more than 23,000 acres—making it the second most destructive fire in California history. Firefighters initially faced hurricane-force winds exceeding 100 mph. Over 80,000 residents remain under evacuation orders, and thousands of families are displaced. Federal funding at 100% reimbursement is available from FEMA, but swift action is needed to access these resources and prevent price-gouging that exploits disaster victims.\n\n## Key Details\n- **Fires:** Palisades Fire (23,000+ acres, 14% contained, 5,000+ structures destroyed) and Hurst Fire (800 acres, 95% contained)\n- **Impact:** Over 170,000 people evacuated; financial damage likely exceeds the 1906 San Francisco earthquake and fire\n- **Timeline:** Emergency declared January 7; Mayor updated declaration January 13; Council adopted resolution September 10, 2025\n- **Legal basis:** California Penal Code Section 396 criminalizes price-gouging; City Charter Section 371 allows emergency bidding waivers\n\n## Impact\nThis resolution affects all Los Angeles residents and businesses by enabling rapid city response to the crisis while protecting vulnerable disaster victims from exploitation. City departments gain authority to quickly purchase supplies, equipment, and services without normal procurement delays. The resolution also establishes accountability through bi-weekly reporting requirements and enforcement actions against price-gouging for emergency supplies, medical items, food, reconstruction services, and housing.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8897,
+    "output_tokens": 492,
+    "cost_usd": 0.011357
+  }
+}

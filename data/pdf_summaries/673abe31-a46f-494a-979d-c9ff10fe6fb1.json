@@ -1,0 +1,14 @@
+{
+  "historyId": "673abe31-a46f-494a-979d-c9ff10fe6fb1",
+  "council_file": "14-0738-S1",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Attorney dated 10-07-25",
+  "category": "staff_report",
+  "summary": "# Summary: LADWP Transmission Tariff Amendment\n\n## What is Being Proposed?\n\nThe City Attorney's Office is recommending that the Los Angeles City Council adopt a draft ordinance amending the Los Angeles Administrative Code to expand the Los Angeles Department of Water and Power's (LADWP) authority to enter into transmission service agreements. Specifically, the amendment would allow LADWP's General Manager to execute agreements with longer terms and under different conditions than currently permitted, including two-year terms with automatic renewal options and terms exceeding three years under specific circumstances.\n\n## Why?\n\nCurrently, LADWP can only execute transmission service agreements for periods not exceeding three years. The proposed amendment seeks to modernize and streamline LADWP's ability to manage its transmission system capacity and generate revenue from excess capacity. This change also updates LADWP's Open Access Transmission Tariff (OATT) to comply with operational requirements and standards set by regional electricity coordinators and the City Charter, while ensuring comparable and non-discriminatory service to all qualified customers.\n\n## Key Details\n\nThe ordinance would authorize three new agreement types: (1) two-year terms with automatic renewal options for additional two-year periods, provided LADWP retains sole discretion to terminate and the agreements don't jeopardize the tax-exempt status of municipal bonds; (2) terms exceeding three years under an executed Governmental Person Use Certificate; and (3) agreements pursuant to an approved transmission service tariff. The amended OATT includes standard procedures for interconnecting both large (greater than 20 megawatts) and small (20 megawatts or less) electric generating facilities to LADWP's grid.\n\n## Impact\n\nThis change affects electricity generators seeking to connect to LADWP's transmission system and allows LADWP greater flexibility in revenue generation from excess transmission capacity. The Board of Water and Power Commissioners is requesting Council adoption of the ordinance. Council members should note the City Attorney has determined the amendment is exempt from California Environmental Quality Act (CEQA) review as it involves a fiscal/administrative change without commitment to a specific project.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6424,
+    "output_tokens": 463,
+    "cost_usd": 0.008739
+  }
+}

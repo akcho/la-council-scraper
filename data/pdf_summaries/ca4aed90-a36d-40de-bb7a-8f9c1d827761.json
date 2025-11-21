@@ -1,0 +1,14 @@
+{
+  "historyId": "ca4aed90-a36d-40de-bb7a-8f9c1d827761",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1097\n\n## What is Being Proposed?\nThe Planning and Land Use Management Committee is recommending approval of a zoning change for a property at 20012 West Chase Street in the North Valley. The zoning would change from RA-1 (Residential Suburban) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling), allowing the developer to demolish an existing single-family home and build five new two-story townhomes with attached two-car garages.\n\n## Why This Matters?\nThe project increases housing density in the area by adding four new residential units where there is currently only one. The development is part of Los Angeles's broader effort to address housing shortages by allowing more units in existing neighborhoods. The project has been determined to have no significant environmental impact under California law and was already approved for subdivision on June 12, 2025.\n\n## Key Details\n- **Location:** 20012 West Chase Street (North Valley area)\n- **New units:** Five two-story homes, each 2,028 square feet, with a maximum height of 26 feet 10 inches\n- **Parking:** Three shared guest parking spaces included\n- **Timeline:** Council must vote by December 12, 2025\n- **Vote:** The PLUM Committee voted 4-1 in favor (one member absent)\n- **Applicant:** Kionna Tiffith\n\n## Important Conditions\nThe zoning change includes a six-year time limit—construction must substantially begin within six years or the approval expires. Additionally, the applicant must submit required environmental and Fish and Game fees to the County Clerk, and the City will monitor compliance with project conditions throughout the development's life.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4403,
+    "output_tokens": 388,
+    "cost_usd": 0.006343
+  }
+}

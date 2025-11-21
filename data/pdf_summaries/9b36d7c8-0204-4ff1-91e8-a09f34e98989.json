@@ -1,0 +1,14 @@
+{
+  "historyId": "9b36d7c8-0204-4ff1-91e8-a09f34e98989",
+  "council_file": "25-1037",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles City Planning Commission dated 9-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: Mixed-Use Development Appeal at Melrose Avenue and Harper Avenue\n\n## What is Being Proposed?\n\nThe Los Angeles City Planning Commission approved a mixed-use development project at 8251-8271 West Melrose Avenue and 705-711 North Harper Avenue in Hollywood. The project involves demolishing four existing commercial buildings to construct a six-story, 69-foot-tall building with 90 residential units (including 10 units reserved for very low-income households), 15,271 square feet of ground-floor commercial retail space, and two levels of underground parking with 96 spaces. An appeal of this approval has been filed and is now before the City Council for consideration.\n\n## Why This Matters?\n\nThe project was approved under California's Density Bonus law, which allows developers to exceed standard zoning limits (in this case, height and floor area) in exchange for providing affordable housing. The City Planning Commission found that the requested incentives—a height increase from 30 feet to 69 feet, a floor area increase from 1.5:1 to 4.52:1 ratio, and a 20% reduction in required open space—would enable construction of affordable units that would otherwise be financially infeasible. The project aligns with the City's housing goals and is located near transit, supporting the Mobility Plan's objectives to reduce vehicle trips.\n\n## Key Details\n\nThe project is located in Council District 5 (Yaroslavsky) on a 24,416-square-foot site currently occupied by older commercial buildings and surface parking. The Commission voted 5-0 to approve the project on July 10, 2025. An appellant (Eva Nathanson, represented by attorney Andrew Sachs) filed an appeal on August 18, 2025, challenging the On-Menu Density Bonus approval and the Project Review. The appeal period closed August 21, 2025. The City Council has 75 days from the appeal filing date to act on this matter.\n\n## Impact\n\nThis decision affects housing availability in Hollywood, adding 90 units (including 10 affordable units locked in for 55 years) to the neighborhood. Residents will see a taller building replacing commercial structures, ground-floor retail activation along Melrose Avenue, and reduced parking requirements. The project requires 96 parking spaces instead of the 231 typically required, reflecting the site's proximity to Metro transit. The appeal's outcome will determine whether this development can proceed as approved.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 64082,
+    "output_tokens": 543,
+    "cost_usd": 0.066797
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "7f240956-3db6-4908-816f-95670c9c87e9",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-16-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Zone Change for Residential Development in Sun Valley\n\n## What is Being Proposed\n\nThe City is approving a zone change for a 26,296-square-foot property in Sun Valley from R1-1-CUGU (single-family residential) to (T)(Q)RD1.5-1-CUGU (multi-family residential). This change would allow the demolition of 3 existing single-family homes and their replacement with a 17-unit apartment complex with attached garages—a net increase of 14 residential units.\n\n## Why This Change Is Needed\n\nThe current zoning is inconsistent with the Sun Valley–La Tuna Canyon Community Plan, which designates the site for \"Low Medium II Residential\" use. The proposed zone aligns with the General Plan and supports the City's housing goals outlined in the Mayor's 2019 Green New Deal, which aims to increase housing construction and locate new units near public transit. The site is located 0.4 miles from the Sun Valley Metrolink Station and near multiple Metro bus lines, making it suitable for higher-density residential development.\n\n## Key Details\n\nThe project site is located near San Fernando Road and Sunland Boulevard in Sun Valley, an area with existing commercial services, schools, and public transportation. The proposal includes requirements for street improvements (sidewalks, curbs, and gutter repairs on Lorne Street and Fair Avenue), dedication of land to complete collector street standards, and compliance with the City's Clean Up Green Up (CUGU) Ordinance. Environmental review determined no significant environmental impacts with imposed mitigation measures.\n\n## Impact\n\nThis development would increase housing opportunities in the area while promoting transit-oriented development. The project is designed to transition between the surrounding single-family neighborhoods and multi-family/commercial developments. Residents will gain closer proximity to transit, services, and employment centers, potentially reducing vehicle trips. The City's housing stock increases while minimizing burden on existing infrastructure through required improvements and utility upgrades.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14290,
+    "output_tokens": 435,
+    "cost_usd": 0.016465
+  }
+}

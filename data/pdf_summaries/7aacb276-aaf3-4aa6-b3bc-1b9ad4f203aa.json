@@ -1,0 +1,14 @@
+{
+  "historyId": "7aacb276-aaf3-4aa6-b3bc-1b9ad4f203aa",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 5-15-25 - Chapter 1 Proposed Ordinance.pdf",
+  "category": "other",
+  "summary": "# Summary: Chapter 1 Emergency Shelter Code Amendment (CPC-2025-1648-CA)\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is amending the city's zoning code (Sections 12.80 and 12.81) to align local regulations with California state law regarding homeless shelters during declared shelter crises. The amendment changes how the definition of \"homeless shelter\" is referenced in the municipal code—replacing an internal local definition with the definition provided in California Government Code Section 8698.4(c)(1).\n\n## Why This Matters\n\nThis change is necessary to ensure consistency between local and state law and to streamline the process for establishing emergency shelters during shelter crises declared by the Mayor or City Council. By incorporating the state definition, the ordinance ensures that shelters meeting state criteria can be rapidly deployed without confusion over differing definitions at the local and state levels.\n\n## Key Details\n\nThe amendment addresses two scenarios:\n- **City-owned/leased property (Section 12.80)**: Homeless shelters can be established in any zone without limits on bed count or occupancy\n- **Charitable organizations (Section 12.81)**: Shelters operated by religious institutions or nonprofits can be established in residential, commercial, and industrial zones (R3, RAS3, R4, RAS4, R5, C2, C4, C5, CM, M1, M2, M3) without restrictions\n\nBoth sections include flexibility for parking requirements and building safety standards (including a restriction against using unreinforced masonry buildings).\n\n## Impact\n\nThis ordinance applies retroactively to all shelters established during any declared shelter crisis, benefiting homeless individuals by enabling faster deployment of emergency shelter resources while maintaining basic safety and building code compliance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 5809,
+    "output_tokens": 391,
+    "cost_usd": 0.007764
+  }
+}

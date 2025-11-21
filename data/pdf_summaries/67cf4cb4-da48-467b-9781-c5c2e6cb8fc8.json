@@ -1,0 +1,13 @@
+{
+  "historyId": "67cf4cb4-da48-467b-9781-c5c2e6cb8fc8",
+  "council_file": "25-1294",
+  "meeting_id": 17283,
+  "original_filename": "Motion (Jurado - Raman) 10-31-25",
+  "summary": "# Summary: Manitou Vistas Affordable Housing Preservation\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to approve the sale of two affordable housing properties—Manitou Vistas I and II (67 units total)—to the Housing Authority of the City of Los Angeles (HACLA). The motion would also restructure the city's existing loans to these properties by extending loan terms to 55 years, reducing interest rates to 3%, and forgiving accrued interest through the closing date.\n\n## Why?\n\nThe Manitou Vistas properties, located at 3420 and 3414 Manitou Avenue in Council District 14, are facing imminent foreclosure due to financial distress from deferred maintenance and high operational costs. The original developers were removed in 2012 after numerous violations. LAHD is pursuing this action to prevent the loss of 67 affordable units—particularly important given the city's housing crisis—and allow HACLA to acquire and preserve the properties with a target closing date of October 31, 2025.\n\n## Key Details\n\n- **Properties**: 48 units (MV-I) and 21 units (MV-II), all four-bedroom, two-bathroom apartments\n- **Current city loans**: $2,504,918 (MV-I) and $1,519,500 (MV-II), originally provided in 2006\n- **Affordability**: Currently 47 units at various AMI levels; restructured plan increases to 67 affordable units with 20 units on MV-II meeting Tax Credit Allocation Committee standards\n- **Buyer**: New Way Home Corporation, a nonprofit public benefit corporation created by HACLA\n\n## Impact\n\nThis action preserves 67 units of affordable housing in Council District 14 and allows HACLA to manage both properties as a single functioning asset with shared amenities. Residents benefit from improved maintenance and long-term affordability protections. The restructured loan terms reduce the financial burden on HACLA while protecting the city's investment in affordable housing.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3323,
+    "output_tokens": 462,
+    "cost_usd": 0.005633
+  }
+}

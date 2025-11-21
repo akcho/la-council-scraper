@@ -1,0 +1,14 @@
+{
+  "historyId": "a3006a5b-ac36-4db3-8764-6bd9b171640a",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer dated 11-05-24",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council Document 17-0945\n\n## What Is Being Proposed?\n\nThe City Administrative Officer is recommending that the City Council approve an amended labor agreement (Memorandum of Understanding) with the Los Angeles Port Pilots Association. This agreement extends their current contract from July 2027 to December 2028 and includes wage increases, back pay, and new employee benefits for Port Pilots working at the LA Harbor.\n\n## Why?\n\nThe Port Pilots union and the city negotiated this updated agreement following instructions from the Executive Employee Relations Committee. The agreement has already been approved by the union members themselves. The city is seeking to bring Port Pilots' compensation and benefits in line with what other city employees have negotiated, including restoring wages that were temporarily reduced during the pandemic period (2021-2024).\n\n## Key Details\n\nThe agreement includes:\n- **Wage restoration**: Port Pilots will receive the cash value of a 2.2% wage decrease that occurred from July 2021 through July 2024\n- **New raises**: Scheduled increases ranging from 2-4% annually through June 2028\n- **Efficiency bonus increase**: Minimum guarantee raised from $4,500 to $5,000 biweekly ($13,050 annual increase)\n- **New benefits**: Paid parental time, personal leave, excess sick pay options, and reproductive loss leave\n\n## Impact\n\nThis primarily affects Port Pilots at the LA Harbor. The Harbor Department will absorb all costs, so the city's General Fund is unaffected. The agreement ensures Port Pilots receive compensation comparable to other city workers.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4050,
+    "output_tokens": 356,
+    "cost_usd": 0.00583
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "0b169d79-4528-4011-a7a9-de72d69baa4d",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-29-2025",
+  "category": "other",
+  "summary": "# Summary: Communications from Public on LA Rent Stabilization Ordinance (LARSO) - CF 23-1134\n\n## What is Being Proposed?\nThe Keep LA Housed Coalition is advocating for reforms to Los Angeles's Rent Stabilization Ordinance. Their specific demands include: (1) capping annual rent increases at 0-3% with no floor, (2) basing increases on 60% of the Consumer Price Index (CPI) All Items rather than the current formula, (3) eliminating \"rent banking\" provisions, and (4) removing additional charges for utilities and additional occupants. These communications urge the Housing and Homelessness Committee to adopt these demands when voting on CF 23-1134.\n\n## Why?\nThe current LARSO formula allows rent increases that are unaffordable for struggling tenants and are a major driver of homelessness. Commenters note that a $100 rent increase correlates with a 9% rise in homelessness. Many tenants are forced to choose between paying rent and affording necessities like food, medicine, and transportation. The average rent for a small RSO unit ($2,357/month) requires an annual income of $94,000 to maintain the recommended 30% rent-to-income ratio—placing housing out of reach for working-class Angelenos.\n\n## Key Details\nMultiple commenters oppose \"rent banking,\" a provision recommended by LAHD in their report on CF 23-1134. Rent banking would allow landlords to accumulate unused rent increases from previous years and apply them later. Critics argue this creates unnecessary administrative burden, confusion, and benefits only landlords. The Economic Roundtable Report does not recommend rent banking adoption. Comments were submitted between July 25-29, 2025, primarily from residents in various city districts, tenant advocacy organizations, legal service providers, and working families groups.\n\n## Impact\nThese proposed changes would directly affect millions of Angelenos, particularly renters in rent-stabilized units, immigrant workers, elderly residents on fixed incomes, and low-wage workers. Advocates argue stronger protections would prevent displacement, reduce homelessness, and allow families to afford basic necessities. The changes aim to ensure housing remains accessible while maintaining the city's economic stability through retained residents.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 23804,
+    "output_tokens": 501,
+    "cost_usd": 0.026309
+  }
+}

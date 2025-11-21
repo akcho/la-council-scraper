@@ -1,0 +1,14 @@
+{
+  "historyId": "b48c110a-55f5-4e46-9d98-c043c617f67b",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_10-30-2023",
+  "category": "other",
+  "summary": "# Summary: Communication on RSO Economic Study (CF 23-1134)\n\n## What is Being Proposed?\nThe Central City Association (CCA) is expressing support for Councilmember Blumenfield's motion to conduct a comprehensive economic study of the Rent Stabilization Ordinance (RSO) annual allowable rent adjustment. The CCA urges the City Council to ensure this review is balanced and includes thorough analysis of current costs and market conditions.\n\n## Why?\nThe RSO has not undergone an extensive review in over a decade, while property owners have been unable to raise rents since March 2020 despite significant cost increases in utilities, trash hauling, insurance, labor, and raw materials. The CCA argues that without adequate financial mechanisms for property owners to cover rising costs, the city's aging housing stock will deteriorate, resulting in fewer quality affordable housing options. The study aims to strike an appropriate balance between protecting tenants and ensuring property owners have incentive to maintain and invest in their properties.\n\n## Key Details\n- **Submitter**: Central City Association, representing approximately 300 member organizations focused on Downtown Los Angeles\n- **Issue**: Rent freeze period: March 2020 to present\n- **Last major RSO review**: Over 10 years ago\n- **Goal**: Produce thoughtful, equitable, and data-informed recommendations rather than rushed conclusions\n\n## Impact\nThis study directly affects both renters and property owners across Los Angeles. Results could influence future rent increase policies, property maintenance standards, and the availability of affordable housing for low- and moderate-income residents and families.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3937,
+    "output_tokens": 349,
+    "cost_usd": 0.005682
+  }
+}

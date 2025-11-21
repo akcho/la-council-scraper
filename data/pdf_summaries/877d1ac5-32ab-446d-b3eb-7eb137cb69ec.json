@@ -1,0 +1,14 @@
+{
+  "historyId": "877d1ac5-32ab-446d-b3eb-7eb137cb69ec",
+  "council_file": "25-1110",
+  "meeting_id": 17407,
+  "original_filename": "Report from Cultural Heritage Commission dated 9-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: Siegel House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\n\nThe Cultural Heritage Commission is recommending that the Los Angeles City Council designate the Siegel House, located at 12400 West Deerbrook Lane in Council District 11, as a Historic-Cultural Monument. This recommendation has been unanimously approved by the Commission and now requires City Council approval to become official.\n\n## Why?\n\nThe property has been determined to meet the definition of a Monument under Los Angeles Administrative Code Section 22.171.7, meaning it possesses significant historical, cultural, architectural, or environmental value worthy of preservation. The designation would protect the building from demolition and require review of any future alterations to preserve its historic character.\n\n## Key Details\n\nThe Cultural Heritage Commission voted unanimously (5-0) in favor of the designation on September 18, 2025. The environmental review determined the designation is categorically exempt from California Environmental Quality Act requirements. The City Council has 90 days from the Commission's public hearing to vote on the proposal, with a possible extension of up to 15 additional days. The owner can agree to extend the timeline by up to 60 more days.\n\n## Impact\n\nIf approved, the Siegel House would gain protected status, meaning the property owner would need to obtain permits and approval from the Cultural Heritage Commission before making exterior changes or demolishing the structure. This protects the neighborhood's historic character while potentially affecting the owner's future use or development options for the property.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4201,
+    "output_tokens": 326,
+    "cost_usd": 0.005830999999999999
+  }
+}

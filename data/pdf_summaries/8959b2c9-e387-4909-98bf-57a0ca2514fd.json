@@ -1,0 +1,14 @@
+{
+  "historyId": "8959b2c9-e387-4909-98bf-57a0ca2514fd",
+  "council_file": "25-1109",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Gelb House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\nThe City of Los Angeles is designating the Gelb House, located at 12450 West Rochedale Lane and 736 North Rochedale Way, as a Historic-Cultural Monument (HCM). This designation will protect the property from incompatible alterations and require that any future construction activities comply with historic preservation standards established by the City.\n\n## Why?\nThe Gelb House meets two key criteria for designation. First, it exemplifies significant contributions to the broad cultural, economic, and social history of the nation and community as an excellent example of a residence built as part of the Mutual Housing Association postwar cooperative housing development—a notable effort to bring Mid-Century Modernism to the masses with utopian ideals. Second, it embodies distinctive characteristics of Mid-Century Modern architecture using post-and-beam construction, featuring exposed wood beams, floor-to-ceiling windows, and horizontal massing typical of the style popularized after World War II.\n\n## Key Details\nOf approximately 85 residences originally constructed in the Mutual Housing Association development, only 34 intact homes remain today, making this one of a dwindling number of surviving examples. The Gelb House has experienced only minor alterations and retains high integrity across all preservation criteria: location, design, setting, materials, workmanship, feeling, and association. The property is located in the Brentwood-Pacific Palisades Community Plan Area.\n\n## Impact\nResidents of the Gelb House will need to obtain approval from the City before making significant alterations or demolishing structures. The designation ensures that any future work must comply with the Secretary of the Interior's Standards for the Treatment of Historic Properties, protecting the architectural and historical significance of this important Mid-Century Modern residence for future generations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6425,
+    "output_tokens": 407,
+    "cost_usd": 0.00846
+  }
+}

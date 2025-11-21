@@ -1,0 +1,14 @@
+{
+  "historyId": "ac2bc423-a9fb-459d-80be-d25bbea96c2b",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Attorney dated 10-17-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 24-1587: Homeless Shelter Definition Ordinances\n\n## What is Being Proposed?\nThe City Attorney is recommending that the Los Angeles City Council adopt two draft ordinances that update the city's definition of \"homeless shelter\" in the Los Angeles Municipal Code. The ordinances would align the city's definition with California state law (Government Code Section 8698.4) by removing a six-month residency time limit that currently exists in city regulations for shelters and temporary supportive housing.\n\n## Why?\nThe current city definition includes a six-month time limit for how long people can stay in emergency shelters, but state law does not impose such a limit. According to data cited in the report, shelters in Los Angeles actually experience longer stays—the average time from entering interim housing to obtaining permanent housing is approximately 272 days (9 months) in fiscal year 2024-25. This mismatch means the city's outdated time limit unnecessarily restricts the ability to serve people experiencing homelessness who need shelter for longer periods.\n\n## Key Details\nThe City Council requested these ordinances on June 24, 2025. The changes affect Sections 12.80 and 12.81 of Chapter I and Sections 1.6.2 and 1.6.3 of Chapter 1A of the municipal code. The Department of City Planning supports the change and recommends the ordinances be exempted from environmental review under state law provisions related to emergency actions.\n\n## Impact\nThis change would give homeless shelters in Los Angeles greater flexibility to serve vulnerable populations without arbitrary time restrictions, better matching the city's regulations to real-world needs and state law requirements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6316,
+    "output_tokens": 370,
+    "cost_usd": 0.008166
+  }
+}

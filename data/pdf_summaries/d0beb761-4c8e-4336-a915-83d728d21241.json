@@ -1,0 +1,14 @@
+{
+  "historyId": "d0beb761-4c8e-4336-a915-83d728d21241",
+  "council_file": "25-1274",
+  "meeting_id": 17283,
+  "original_filename": "Motion (Rodriguez - Soto-Martinez) dated 10-24-25",
+  "category": "other",
+  "summary": "# Summary: El Nido Family Centers Lease Expansion Motion\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize changes to the City's lease agreement with El Nido Family Centers at 11243 Glenoaks Boulevard. Specifically, the motion proposes two main actions: (1) granting El Nido authority to add exterior planting and greening improvements to the property while taking on maintenance responsibility for these additions, and (2) authorizing El Nido to expand their operations into Suite 7 on-site, contingent on granting the current tenant a right of first refusal to relocate to another suite at the same location.\n\n## Why?\n\nEl Nido Family Centers, a nonprofit established in 1925 that serves low-income families in Los Angeles, needs additional space to continue and expand their critical services—including tutoring, counseling, career guidance, mental health support, youth development, and crisis assistance. The organization currently operates from the Glenoaks Boulevard property under a lease that began in December 2018, but requires more room, particularly for a kitchen/café facility, to adequately serve their community.\n\n## Key Details\n\n- **Location:** 11243 Glenoaks Boulevard (City-owned property)\n- **Organization:** El Nido Family Centers (nonprofit, founded 1925)\n- **Specific Request:** Expand into Suite 7 and add exterior landscaping improvements\n- **Lease Start:** December 2018\n- **Condition:** Current tenant must receive right of first refusal to move to another on-site suite before El Nido can expand\n\n## Impact\n\nThis expansion allows El Nido to strengthen its services to low-income families in the surrounding community. The greening improvements will enhance the property while becoming El Nido's maintenance responsibility. The right of first refusal protects the displaced tenant's interests in remaining at the location.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1771,
+    "output_tokens": 422,
+    "cost_usd": 0.003881
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "75b21b73-8ecb-4983-9b9a-69e464cb5f7c",
+  "council_file": "25-0005-S134",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department (828034) dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal - 590 N New Hampshire Ave (Case 828034)\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove a property at 590 N New Hampshire Avenue from the Rent Escrow Account Program (REAP) and terminate rent reductions for tenants. This action is being requested for the October 29, 2025 City Council agenda.\n\n## Why?\n\nREAP is an enforcement tool used when landlords fail to maintain properties in safe condition. The property was placed into REAP in August 2023 after the owner was cited for maintenance and plumbing/gas violations. LAHD staff have independently verified that all cited code violations have been corrected, utilities and water charges have been paid, and an outside contractor (Strategic Actions for a Just Economy) has confirmed the work is complete. Since the violations have been remedied, the property can now be removed from the program.\n\n## Key Details\n\n- **Property**: 590 N New Hampshire Ave, Los Angeles CA 90004 (APN 5538-028-005)\n- **Owner**: 596 New Hampshire LLC\n- **Total Units**: 4 (2 were in REAP)\n- **Case Number**: 828034 (opened August 17, 2023)\n- **Current Status**: Property has been demolished\n- **Violations**: Maintenance and plumbing/gas issues\n\n## Impact\n\nOnce removed from REAP, rent reductions will be terminated and restored to original levels 30 days after tenants receive notice. Any remaining funds in the escrow account will be distributed to cover administrative fees and penalties, with any surplus returned to the landlord. The property will no longer be subject to rent reduction restrictions or the escrow account mechanism.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6837,
+    "output_tokens": 406,
+    "cost_usd": 0.008867
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "2a8e722e-ec71-4f5c-b5ec-c180e5cbf51e",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 24-1587\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to adopt two ordinances that would amend the Los Angeles Municipal Code (LAMC) to incorporate the state law definition of \"homeless shelter.\" The amendments would modify sections related to zoning and land use regulations in both Chapter I and Chapter 1A of the LAMC. The ordinances would align Los Angeles's local definition with California state law requirements.\n\n## Why This Matters\n\nThis action is framed as necessary to address homelessness as an emergency situation. The city is leveraging state law provisions (Government Code Section 8698.4) that allow cities to streamline regulatory processes for homeless shelters. By incorporating the state definition into local code, Los Angeles can potentially expedite shelter approvals and removals while still complying with California Environmental Quality Act (CEQA) requirements through applicable statutory exemptions.\n\n## Key Details\n\nThe PLUM Committee reviewed this matter on October 28, 2025, and voted to recommend approval. The committee vote was 4-1 in favor (Blumenfield, Hutt, Lee, and Raman voted yes; Nazarian was absent). Two ordinances dated October 17, 2025, are pending Council adoption. Notably, no fiscal impact statement, financial analysis, or community impact statement was submitted with this report.\n\n## Impact\n\nThis change primarily affects how the city processes homeless shelter applications and regulations. By adopting the state definition, the city gains regulatory flexibility to address homelessness more rapidly. However, the lack of fiscal, financial, or community impact analysis means the full scope of effects on residents, neighborhoods, or city resources is not detailed in this document.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4178,
+    "output_tokens": 375,
+    "cost_usd": 0.006053
+  }
+}

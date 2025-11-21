@@ -1,0 +1,14 @@
+{
+  "historyId": "311ba856-b3ae-4a59-8c22-bb5a29244b96",
+  "council_file": "23-0100",
+  "meeting_id": 17367,
+  "original_filename": "Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25",
+  "category": "staff_report",
+  "summary": "# Summary: Joint POLA-LAWA Sustainability Collaboration Report\n\n## What Is Being Reported\n\nThe Port of Los Angeles (POLA) and Los Angeles World Airports (LAWA) have submitted a joint response to Motion 23-0100, which requested both departments report on their information-sharing practices and coordination related to sustainability and environmental initiatives. Rather than proposing a new action, this document describes existing and planned collaborative efforts between the two city departments.\n\n## Why This Matters\n\nBoth POLA and LAWA are major transportation hubs with significant environmental responsibilities. They face a unique challenge: reducing emissions not only from their own operations but also from tenant-operated equipment (cargo handlers at the port, ground support equipment at the airport) over which they have limited direct control. By sharing knowledge and coordinating strategies, the departments can more effectively address environmental goals and navigate complex regulatory requirements from federal, state, and local agencies.\n\n## Key Collaboration Areas\n\nThe report highlights several existing initiatives: participation in the Mayor's Climate Cabinet and Departmental Chief Sustainability Officers meetings; technology advancement discussions (including ship emission reduction systems, alternative fuels, and energy upgrades); residential noise mitigation programs; zero waste implementation; and regulatory cooperation. A notable example is LAWA's 2019 Memorandum of Understanding with the South Coast Air Quality Management District, which POLA is now pursuing for the port to address emissions from tenant-operated equipment.\n\n## Future Impact\n\nGoing forward, POLA and LAWA plan to expand collaboration through in-person expert exchanges and joint initiatives on zero waste, low-carbon fuels infrastructure, zero-emission vehicles, and technology development. These partnerships could lead to more coordinated environmental policies, cost efficiencies, and improved air quality for communities near both facilities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6346,
+    "output_tokens": 385,
+    "cost_usd": 0.008271
+  }
+}

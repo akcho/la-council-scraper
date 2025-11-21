@@ -1,0 +1,14 @@
+{
+  "historyId": "6c333ac7-798d-4ff3-b3d5-bb2bb632e5a4",
+  "council_file": "25-1124",
+  "meeting_id": 17455,
+  "original_filename": "Motion (Soto-Martinez- Hernandez) dated 9-26-25",
+  "category": "other",
+  "summary": "# Summary: Motion on Heliotrope Drive Properties (Council File 25-1124)\n\n## What is Being Proposed?\nThe motion requests that the City Council authorize the Department of General Services (DGS) to conduct due diligence on three properties located at 1017, 1023, and 1027 N. Heliotrope Drive in Council District 13. Specifically, the motion asks DGS to complete a title search, property appraisal, and environmental review for these parcels, not to exceed $10,000 in cost. Additionally, it authorizes a transfer of $10,000 from Council District 13's Public Benefits Trust Fund to the General Services Department to cover these costs.\n\n## Why?\nThese three properties have become public safety concerns and nuisances, with the Los Angeles Department of Building and Safety having levied liens against them. Despite their current poor condition, the city views them as potential strategic opportunities for addressing critical housing needs in the area. Before the city can pursue acquisition or alternative use of these properties, comprehensive due diligence is necessary to understand their viability.\n\n## Key Details\n- **Properties:** 1017, 1023, and 1027 N. Heliotrope Drive (APNs: 5538-019-024, 5538-019-023)\n- **Location:** Council District 13\n- **Budget:** Up to $10,000 for appraisal, title search, and environmental review\n- **Funding Source:** Council District 13 Public Benefits Trust Fund (Account No. 14V313)\n- **Presented by:** Councilmember Hugo Soto-Martínez\n\n## Impact\nThis motion affects residents in Council District 13 by potentially paving the way for permanent or interim housing solutions on these currently problematic properties. The motion represents an initial exploratory step that could lead to the city acquiring and redeveloping these nuisance sites into affordable housing or similar community benefits.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1783,
+    "output_tokens": 440,
+    "cost_usd": 0.003983
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "7e39da7e-a2d8-4d20-9a0b-01a9c6655864",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_04-17-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comments on LA Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nMultiple community members are calling on the LA City Council to update the Rent Stabilization Ordinance (RSO) formula to cap annual rent increases at either 60% of the Consumer Price Index (CPI) or 3%—whichever is lower—with **no minimum increase**. Currently, the RSO allows higher increases with a built-in minimum, which commenters argue is unaffordable for renters.\n\n## Why This Matters\nRenters and tenant advocacy groups argue that current rent increase allowances are too high and outpacing wage growth. One commenter described a family member with four school-aged children whose rent increases every year while wages stagnate. Another reported a property manager raising rent 10% for each maintenance visit and threatening eviction. These commenters emphasize that lower rent increases would free up tenant money for necessities like food, medical care, transportation, and childcare.\n\n## Key Details\n- **Deadline for action:** New rent increases take effect in July 2025, making immediate council action urgent\n- **Proposed cap:** 3% maximum with no minimum (or 60% of CPI, whichever is lower)\n- **Additional demand:** Elimination of extra charges for utilities and additional occupants\n- **Affected districts:** Comments submitted from Districts 9, 10, 13, and zip code 90022\n- **Organizations involved:** Keep LA Housed, SAJE (Strategic Actions for a Just Economy)\n\n## Impact\nThese changes would directly affect the hundreds of thousands of Angelenos living under RSO protections by limiting how much landlords can raise rent annually, potentially keeping stable housing more affordable for working families and vulnerable renters.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16186,
+    "output_tokens": 400,
+    "cost_usd": 0.018186
+  }
+}

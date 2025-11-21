@@ -1,0 +1,14 @@
+{
+  "historyId": "66dc0741-cedb-4e09-b6d3-6bb92c3b1d40",
+  "council_file": "25-0391",
+  "meeting_id": 17367,
+  "original_filename": "Report from City Administrative Officer dated 4-10-25",
+  "category": "staff_report",
+  "summary": "# Summary of City Charter Amendment FF Implementation Report\n\n## What is Being Proposed?\n\nThe City Administrative Officer is recommending that the City Council instruct the City Attorney to draft ordinances necessary to implement City Charter Amendment FF, which Los Angeles voters approved in November 2024. The measure allows certain sworn peace officers employed by the LAPD, Department of Airports, Los Angeles Harbor Department, and Department of Recreation and Parks to make a one-time, irrevocable election to transfer their pension membership from LACERS (Los Angeles City Employees' Retirement System) to Tier 6 of LAFPP (Los Angeles Fire and Police Pensions).\n\n## Why?\n\nThis measure was approved by voters in response to negotiations with police unions and as a policy decision to offer pension options to eligible officers. The amendment also authorizes tax-compliant, interest-free refunds to officers who previously purchased years of service or enhanced benefits under prior pension amendments. The measure is designed to be cost-neutral for both pension systems, with all costs covered by the city's General Fund and special funds.\n\n## Key Details\n\n- **Eligible officers** must have been actively employed as of January 12, 2025\n- The transfer option is available to officers who previously declined earlier transfer opportunities and to certain Department of Recreation and Parks officers transferring for the first time\n- **Estimated cost**: $109.5 million one-time (if all eligible officers participate), including $106 million in transfer costs and $3.5 million in refunds\n- **Annual ongoing cost**: approximately $6.3 million, adjusted annually for payroll changes\n\n## Impact\n\nThis primarily affects law enforcement and parks personnel currently in LACERS. The General Fund will bear costs for LAPD and parks department transfers, while the Department of Airports and Harbor Department will cover their own employees' costs. Implementation requires new city ordinances to be reviewed by council committees before full council approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4194,
+    "output_tokens": 416,
+    "cost_usd": 0.006274
+  }
+}

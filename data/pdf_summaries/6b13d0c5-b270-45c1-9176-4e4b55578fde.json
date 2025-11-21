@@ -1,0 +1,14 @@
+{
+  "historyId": "6b13d0c5-b270-45c1-9176-4e4b55578fde",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 02202020 - Map 02_20_2020",
+  "category": "other",
+  "summary": "# Summary of Council File 11-0122-S3\n\n## What is Being Proposed?\n\nThis document presents a vacation (closure) of a portion of McKinley Place, specifically the section southerly of 87th Street in Los Angeles. The vacation boundary is shown on the attached map, which identifies the specific streets and parcels involved in this public right-of-way closure action.\n\n## Why?\n\nThe document indicates this is a preliminary proposal subject to change. While the specific rationale is not detailed in the visible portions of this map exhibit, street vacations are typically pursued when property owners or the City determine that a street segment is no longer needed for public use, or when consolidating parcels would serve community interests better than maintaining the existing street configuration.\n\n## Key Details\n\n- **Location:** McKinley Place, southerly of 87th Street, Los Angeles\n- **Work Order:** VAC-E1401340\n- **Engineering District:** Central (T.G. 704-E3)\n- **District Map:** 096A207\n- **Council District:** 3\n- **Date Reference:** December 26, 1906 (historical boundary establishment); Map dated 02-20-2020\n- **Issuing Agency:** City of Los Angeles Department of Public Works, Bureau of Engineering\n\n## Impact\n\nThis vacation would remove public access to the affected portion of McKinley Place. Property owners adjacent to the vacated segment would typically gain use of that land, while the public would lose access rights to that route. Residents in the area and stakeholders with properties bordering McKinley Place would be directly affected by this change.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3435,
+    "output_tokens": 355,
+    "cost_usd": 0.00521
+  }
+}

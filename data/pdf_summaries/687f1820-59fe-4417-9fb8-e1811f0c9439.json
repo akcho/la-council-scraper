@@ -1,0 +1,14 @@
+{
+  "historyId": "687f1820-59fe-4417-9fb8-e1811f0c9439",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Updated Report from Mayor dated 1-13-25",
+  "category": "staff_report",
+  "summary": "# Summary: Updated Declaration of Local Emergency - Los Angeles Fires (January 13, 2025)\n\n## What is Being Proposed?\n\nMayor Karen Bass has updated and reinforced the Declaration of Local Emergency originally issued on January 7, 2025, in response to devastating wildfires affecting Los Angeles. The updated declaration directs all city departments to take necessary protective actions and requests that the City Council adopt resolutions to expedite procurement and contracting processes for emergency response and recovery efforts.\n\n## Why?\n\nLos Angeles is experiencing an unprecedented fire crisis driven by extreme Santa Ana winds (100+ mph gusts) and severe drought conditions. The Palisades Fire—still only 14% contained as of January 13—has become the second-most destructive fire in California history, with over 5,000 structures damaged or destroyed. Combined with other fires like the Hurst Fire, these are the most destructive fires in Los Angeles city history, exceeding the scale of the 1906 San Francisco earthquake and fire in financial impact.\n\n## Key Details\n\n- **Palisades Fire:** 23,000+ acres burned since January 7, with over 5,000 structures damaged/destroyed\n- **Hurst Fire (formerly Sylmar Fire):** 800 acres, 95% contained\n- **Displacement:** Approximately 150,000 people under evacuation orders—exceeding the 125,000 displaced during the 1994 Northridge Earthquake\n- **Federal Support:** President Biden authorized FEMA to reimburse 100% of specified costs including debris removal and fire suppression\n- **Date Filed:** January 13, 2025, at 3:28 p.m.\n\n## Impact\n\nThis declaration enables the city to bypass normal procurement procedures to rapidly acquire emergency supplies and services. It affects all residents in evacuation zones and those seeking recovery assistance, while directing city agencies to coordinate rebuilding efforts and maximize FEMA and state reimbursements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6251,
+    "output_tokens": 433,
+    "cost_usd": 0.008416
+  }
+}

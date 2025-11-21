@@ -1,0 +1,14 @@
+{
+  "historyId": "0474317d-3ef6-4fae-b854-1a8878e61afc",
+  "council_file": "21-0392",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Administrative Officer dated 7-23-24",
+  "category": "staff_report",
+  "summary": "# Summary: First Amendment to ASPCA Spay/Neuter Clinic Contract\n\n## What is Being Proposed\nThe City is requesting authorization to extend its contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) for one additional year to operate the spay and neuter clinic at the Chesterfield Square Animal Services Center (1850 W. 60th Street). This extension would run from July 1, 2024, through June 30, 2025, with a maximum payment of $350,000.\n\n## Why This is Needed\nThe ASPCA has been providing spay/neuter and related veterinary services at the Chesterfield Square facility since July 2021 under an original three-year contract. The first three-year term is expiring, and the City is exercising its contractual right to extend the agreement for one additional year. The contract includes an option to renew for up to two more one-year terms, and the City intends to proceed with this extension to continue providing these services to the community.\n\n## Key Details\n- **Total contract value**: The amendment brings the cumulative total to $1,400,000 (original $1,050,000 plus this year's $350,000)\n- **Funding source**: Animal Sterilization Trust Fund (Fund No. 842), which is supported by city budget appropriations, licensing fees, adoption fees, and donations\n- **Services included**: Spay/neuter surgeries for dogs, cats, and rabbits; pre-surgical exams; vaccines; microchipping; and support for various City programs (pre-release, post-release, pre-adoption, and community cat programs)\n- **Staff requirements**: The ASPCA must maintain minimum daily surgical minimums (10 dogs, 5 female cats, unlimited male cats, 2 rabbits) and operate at least four days per week\n- **Discount**: The ASPCA provides a 50% discount on City animal surgeries and contributes 1% of gross revenue from other services back to the City\n\n## Impact\nThis extension ensures continued access to affordable spay/neuter services for Los Angeles residents and shelter animals. The program directly benefits pet owners using discount coupons or free certificates, newly adopted animals, shelter operations, and the community cat program. The contract includes quality control measures, performance evaluations, and comprehensive insurance requirements to protect both the City and the public.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 159072,
+    "output_tokens": 538,
+    "cost_usd": 0.161762
+  }
+}

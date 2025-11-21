@@ -1,0 +1,14 @@
+{
+  "historyId": "a0ce4f47-7d77-44c8-8419-1998d53a82cb",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report Dated 8-18-25 - T Conditions.pdf",
+  "category": "conditions",
+  "summary": "# Summary: Conditions for Tentative Classification Removal\n\n## What is Being Proposed?\nThis document outlines the specific conditions required to remove the \"(T) Tentative Classification\" from a property (Case No. CPC-2018-3544) located at the intersection of Pico Boulevard and Arapahoe Street in Los Angeles. The tentative classification is a planning designation that restricts development until certain public improvements and dedications are completed. The document details what the developer must accomplish before this restriction can be lifted.\n\n## Why?\nThe tentative classification ensures that development does not proceed until the property adequately contributes to necessary public infrastructure improvements. This protects both the city and residents by requiring developers to address impacts on streets, utilities, drainage, parking, and safety before construction begins. The conditions reflect requirements from multiple city departments including Engineering, Transportation, and the Fire Department.\n\n## Key Details\nThe property has frontage on three thoroughfares requiring specific improvements:\n- **Pico Boulevard**: 3-foot land dedication plus improvements including 15-foot concrete sidewalk, curb, gutter, and new curb ramp\n- **Arapahoe Street**: 5-foot land dedication plus 12-foot concrete sidewalk and ADA-compliant driveways\n- **Alley (west of Arapahoe)**: 4-foot dedication on both sides to complete a 20-foot right-of-way\n\nAdditional requirements include sewer infrastructure upgrades, parking/driveway design approval, a $205 Department of Transportation fee, and submission of various plans to multiple agencies before permits can be issued.\n\n## Impact\nThis affects the developer/property owner, who must fund and complete all improvements at no expense to the City. Residents benefit from improved streets, sidewalks, drainage, parking safety, and accessibility compliance. No Certificates of Occupancy will be issued until all public improvements are completed to the City Engineer's satisfaction.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6847,
+    "output_tokens": 426,
+    "cost_usd": 0.008976999999999999
+  }
+}

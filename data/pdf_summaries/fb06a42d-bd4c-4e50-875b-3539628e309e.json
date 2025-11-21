@@ -1,0 +1,14 @@
+{
+  "historyId": "fb06a42d-bd4c-4e50-875b-3539628e309e",
+  "council_file": "25-0391",
+  "meeting_id": 17367,
+  "original_filename": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase",
+  "category": "other",
+  "summary": "# Summary: Actuarial Analysis of Police and Ranger Transfer to LAFPP Tier 6\n\n## What is Being Proposed\n\nThis document analyzes the financial cost of transferring approximately 413 Sworn Peace Officers and Park Rangers from the City's current pension plan (LACERS) to the Fire and Police Pension Plan (LAFPP) Tier 6. The study calculates how much the City's ongoing pension contributions would increase if these employees switch plans, based on a valuation date of June 30, 2024.\n\n## Why This Matters\n\nThe City is considering consolidating these peace officers and rangers into LAFPP Tier 6, with the full cost of the transfer to be covered by the City. This analysis provides the actuarial foundation needed to understand the long-term pension expense implications. The study examines both the upfront cost to convert past service and the ongoing normal cost increases for future service contributions.\n\n## Key Financial Details\n\nIf the transfer occurs, the City's combined normal cost rates (retirement and health plans) would increase by **10.35% of payroll** across all eligible members, representing an annual cost of approximately **$5.535 million**. The increases vary by department: LAPD (13.49%), LAWA Police (9.73%), Municipal Police (13.81%), Park Rangers (13.08%), and Port Police (12.08%). The 413 eligible members have a combined projected annual payroll of $53.46 million.\n\n## Impact\n\nThe City's pension costs would rise significantly, but the analysis confirms there would be **no adverse impact on LAFPP's funded ratio** if the City pays the full upfront cost to convert past LACERS service. Employees would continue paying 11% of their salary as their contribution rate. This transfer would affect officers and rangers in five different city departments, consolidating their retirement benefits under a single pension system.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 18940,
+    "output_tokens": 414,
+    "cost_usd": 0.021009999999999997
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "e96bfa0c-b8b0-46f9-b11a-36993f1925b7",
+  "council_file": "25-1162",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: Request for Closed Session on Settlement Discussion\n\n## What is Being Proposed?\nThe City Attorney's Office is requesting that the Los Angeles City Council hold a closed session to discuss and receive legal advice regarding a settlement recommendation in the pending litigation case *Dohree Batongbacal v. City of Los Angeles* (LASC Case No. 24STC15901, Claim No. C24-05481).\n\n## Why?\nThis request is authorized under California Government Code Section 54956.9(d)(1), which permits public agencies to hold closed sessions when discussing pending litigation with legal counsel. The closed session will allow the City Council and the Board of Public Works Commission to confer privately with the City Attorney about potential settlement options without public disclosure of litigation strategy.\n\n## Key Details\n- **Incident:** A trip and fall incident occurred on January 23, 2024, at a curb near 216 North Commonwealth Avenue in Los Angeles\n- **Contact:** Deputy City Attorney David L. Weisberg (213) 978-7129 will be available to answer questions\n- **Report Number:** R25-0474, dated September 25, 2025\n\n## Impact\nThis matter affects the City's liability exposure for the personal injury claim. The closed session allows city officials to evaluate settlement options confidentially before making a public decision, protecting the City's negotiating position while ultimately ensuring transparency through a public council vote on any final settlement.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 317,
+    "cost_usd": 0.004902
+  }
+}

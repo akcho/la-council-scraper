@@ -1,0 +1,14 @@
+{
+  "historyId": "f0abf480-e059-460a-a0b7-098aa95003f1",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-17-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary of Zone Change Findings (APCNV-2022-8497-VZC)\n\n## What is Being Proposed?\nThe City is recommending a zone change for a property in the Chatsworth-Porter Ranch community from RA-1 (agricultural/rural) zoning to (T)(Q)RD4-1 zoning. This change would allow development of a five-unit small lot residential subdivision (similar to townhouses) on a single family property, replacing one existing home with five new homes for a net increase of four units.\n\n## Why?\nThe current RA-1 zoning is outdated and does not correspond to the area's General Plan designation of \"Low Medium I Residential.\" The zone change aligns the property with the community's comprehensive land use plan and addresses Los Angeles's housing shortage. The location is ideal for residential development, being approximately 0.3 miles from Roscoe Boulevard with access to Orange Line and Metrolink transit, plus nearby schools, parks, and shopping centers.\n\n## Key Details\nThe project will create five for-sale homeownership units (not rental apartments) and will include pedestrian-friendly design with dedicated walkways. The property is near Winnetka Elementary School (1,500 feet away) and Winnetka Recreation Center (500 feet away). The development complies with small lot design standards and includes improvements to Chase Street, including 5-foot sidewalk construction and 3-foot land dedication.\n\n## Impact\nThis decision affects current and future residents of the Winnetka community by increasing housing options and ownership opportunities in an area with existing infrastructure. The project is exempt from detailed environmental review under CEQA and is located outside flood zones. The \"T\" and \"Q\" classifications impose conditions to ensure the development is compatible with surrounding neighborhoods and meets public needs.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 11170,
+    "output_tokens": 403,
+    "cost_usd": 0.013184999999999999
+  }
+}

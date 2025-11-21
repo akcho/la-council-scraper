@@ -1,0 +1,14 @@
+{
+  "historyId": "21bca7cd-3167-4221-9cf2-fc68dfefdce5",
+  "council_file": "13-0347-S1",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 09292020 - Map 09_29_2020",
+  "category": "other",
+  "summary": "# Summary: L-Shaped Alley Vacation - Council File 13-0347-S1\n\n## What is Being Proposed?\n\nThe City of Los Angeles Department of Public Works is proposing to **vacate (close and remove from public use) an L-shaped alley** located northerly of Olympic Boulevard and westerly of Mateo Street in Council District 14. The vacation area is clearly marked on the district map and would effectively remove this public right-of-way from city ownership.\n\n## Why?\n\nWhile the document itself does not explicitly state the rationale, alley vacations are typically pursued when the public has little need for the right-of-way, or when adjacent property owners request closure to improve land use, reduce maintenance burdens, or consolidate properties for development or other purposes.\n\n## Key Details\n\n- **Work Order Number:** VAC-E1401355\n- **Council File:** 13-0347-S1\n- **Location:** L-shaped alley near Olympic Boulevard and Mateo Street\n- **Council District:** 14\n- **Engineering District:** Central (Map Index 130, T.G. 634-H7)\n- **Map Reference:** District Map 121.5 A 217\n- **Status:** Information is preliminary and subject to change\n\n## Impact\n\nThis vacation would affect property owners adjacent to the alley, potentially allowing them to expand their properties or consolidate land parcels. Residents and businesses currently using this alley for access or parking would lose that public right-of-way. The vacation requires City Council approval as indicated by the council file number.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3584,
+    "output_tokens": 352,
+    "cost_usd": 0.005344
+  }
+}

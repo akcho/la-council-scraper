@@ -1,0 +1,14 @@
+{
+  "historyId": "86eadc1e-2bd3-4bee-8a80-271e083bb27e",
+  "council_file": "25-1168",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Attorney Report on Settlement Discussion - Zakaryan v. City of Los Angeles\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's Office is requesting that the City Council hold a closed session to discuss settlement negotiations in a pending litigation case (Magdalina Zakaryan v. City of Los Angeles, LASC Case No. 23STCV27130). This closed session would allow council members to receive legal advice from the City Attorney regarding the recommended Claims Board action in this case.\n\n## Background and Rationale\nThe dispute stems from an employment matter involving a religious exemption appeal. On September 3, 2022, the plaintiff's religious exemption from the City's COVID-19 vaccination requirement was denied, and she was informed she would be terminated for non-compliance with the vaccination mandate. This litigation case subsequently arose from that employment action.\n\n## Key Details\n- **Case Number:** LASC Case No. 23STCV27130 (Claim No. C23-107466)\n- **Report Number:** R25-0483, dated September 25, 2025\n- **Legal Basis:** The closed session is authorized under California Government Code Section 54956.9(d)(1), which permits confidential discussions regarding pending litigation\n- **Contact:** Managing Assistant City Attorney Aneta Freeman at (213) 978-8200 will be available to answer questions\n\n## Impact\nThis affects city employees and sets precedent regarding religious accommodations for vaccine mandates. The closed session allows leadership to discuss settlement strategy confidentially before any public decision is made by the Claims Board.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 353,
+    "cost_usd": 0.005082
+  }
+}

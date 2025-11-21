@@ -1,0 +1,14 @@
+{
+  "historyId": "d11ddcbe-14da-4ad7-8a08-5837c628ab49",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Engineering 04_12_2018",
+  "category": "staff_report",
+  "summary": "# Summary: McKinley Place Street Vacation Request\n\n## What is Being Proposed?\n\nThe City of Los Angeles is initiating a vacation proceeding to vacate (permanently close) a portion of McKinley Place located south of 87th Street. This is the first step in a formal legal process that would allow the currently paved, vacant street to be converted into a neighborhood park on approximately half an acre of land.\n\n## Why?\n\nThe petitioner, North East Trees (representing Heal The Bay), submitted this request to transform underutilized public right-of-way into green space for community benefit. The street vacation process is governed by California Streets and Highways Code and requires investigation of feasibility before proceeding to a public hearing and City Council vote.\n\n## Key Details\n\n- **Filing Date:** March 29, 2018\n- **Case Number:** VAC E1401340\n- **Location:** McKinley Place south of 87th Street (Council District 9)\n- **Petitioner Fee:** $14,980.00 paid for investigation costs\n- **Proposed Size:** Approximately ½ acre\n- **Current Condition:** Vacant and paved with asphalt\n\n## Impact & Next Steps\n\nThis report does not approve the vacation—it merely initiates the investigation process. The Bureau of Engineering will study feasibility, present findings to the Public Works and Gang Reduction Committee, and eventually schedule a public hearing before the City Council makes a final decision. Residents and stakeholders will have opportunity to comment during that public hearing phase.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3906,
+    "output_tokens": 337,
+    "cost_usd": 0.0055910000000000005
+  }
+}

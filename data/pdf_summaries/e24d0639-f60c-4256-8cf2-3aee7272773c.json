@@ -1,0 +1,14 @@
+{
+  "historyId": "e24d0639-f60c-4256-8cf2-3aee7272773c",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 5-15-25 - Staff Report.pdf",
+  "category": "staff_report",
+  "summary": "# Summary: Emergency Shelter Code Amendment (CF 24-1587)\n\n## What is Being Proposed?\nThe City Planning Commission is recommending that the City Council adopt an ordinance amending Los Angeles Municipal Code (LAMC) Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3, to align local emergency shelter regulations with California state law (Government Code Section 8698.4). The key change is **removing a six-month residency limit** that currently applies to emergency shelters in the city's zoning code, harmonizing it with state law which contains no such time restriction.\n\n## Why?\nThe proposal addresses Los Angeles's severe homelessness crisis: approximately 45,252 individuals are experiencing homelessness in the city, with 65% unsheltered on any given night. The state's shelter crisis law allows jurisdictions to streamline emergency shelter approvals during declared crises. By aligning local code with state definitions, the city aims to reduce regulatory barriers and provide greater certainty for shelter providers attempting to open and operate facilities. The current six-month limit is unnecessarily restrictive—data shows residents need an average of nine months to transition from interim to permanent housing.\n\n## Key Details\n- The city has operated under a declared shelter crisis since April 17, 2018\n- Only one public comment was received, opposing the amendment and claiming it violates SB 2 (2007)\n- The amendment applies retroactively to shelters already established during the crisis period\n- The provisions only apply on publicly-owned/leased land or property owned by charitable/religious organizations during a declared emergency\n- The amendment does not create new shelter allowances but clarifies definitions to match state law\n\n## Impact\nThis affects individuals experiencing homelessness by removing barriers to shelter availability and duration. It impacts shelter operators and nonprofits by providing regulatory clarity. The citywide application means all Los Angeles neighborhoods could potentially benefit from expanded shelter capacity under the declared emergency.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 46812,
+    "output_tokens": 446,
+    "cost_usd": 0.049042
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "31ce01d4-adca-447a-93b2-943d84cb2b43",
+  "council_file": "25-1235",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Attorney dated 10-09-25",
+  "category": "staff_report",
+  "summary": "# Summary: Notice of Offer to Compromise - Dog Bite Litigation\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's office is requesting a closed session with the City Council to discuss and seek legal advice regarding a settlement recommendation for a pending litigation case (Jimmie Lindsey v. Fred K. Boone, et al., LASC Case No. 23STC02808). The request is made under California Government Code Section 54956.9(d)(1), which allows closed meetings to discuss matters with legal counsel regarding pending lawsuits.\n\n## Background and Rationale\nThis case involves injuries caused by two dogs that attacked on December 16, 2022, at 5739 Brynhurst Avenue in Los Angeles. The City Attorney's office believes it is appropriate to settle this claim (Claim No. C23-101902) and is seeking the Council's legal and strategic guidance before proceeding. The closed session allows the City Council to receive confidential legal advice without disclosing the settlement terms publicly.\n\n## Key Details\n- **Incident Date:** December 16, 2022\n- **Location:** 5739 Brynhurst Avenue, Los Angeles, CA 90043\n- **Plaintiff:** Jimmie Lindsey\n- **Case Number:** 23STC02808\n- **Contact:** Joshua A. Quinones, Deputy City Attorney (213) 645-9988\n\n## Impact\nThis affects residents involved in the incident and impacts the City's liability and budget. The closed session allows the Council to deliberate confidentially about settlement strategy and legal exposure related to the dog bite injuries.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 360,
+    "cost_usd": 0.005117
+  }
+}

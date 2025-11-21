@@ -1,0 +1,14 @@
+{
+  "historyId": "384fa11f-c765-4dc2-b8e3-de819f67f2dd",
+  "council_file": "25-0987",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Report Dated 07-23-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Safety Element Amendment to Los Angeles General Plan\n\n## What is Being Proposed?\nThe City is amending the Safety Element of the General Plan to incorporate an updated Local Hazard Mitigation Plan (LHMP). This is an administrative update that applies citywide and focuses on three main goals: Disaster Prevention, Emergency Response, and Disaster Recovery.\n\n## Why?\nThe amendment addresses the growing threats of natural disasters and climate change to Los Angeles residents and infrastructure. By updating the Safety Element, the City aims to better protect communities by preventing disasters through smart land use decisions, ensuring rapid emergency response, and enabling equitable recovery after disasters occur. The update emphasizes climate resilience, greenhouse gas reduction, and protecting vulnerable communities from disproportionate disaster impacts.\n\n## Key Details\nThe amendment includes policies for using zoning and infrastructure to mitigate hazards in high-risk areas (such as flood plains and fire zones), establishing stormwater management systems, promoting sustainable energy and water systems, and ensuring coordinated emergency response through mutual aid agreements. It incorporates strategies for on-site detention of stormwater, floodproofing, habitat creation, and equitable post-disaster housing recovery that allows residents to return to their homes.\n\n## Impact\nThis update affects all Los Angeles residents by establishing citywide standards for disaster prevention and recovery. It particularly benefits vulnerable communities and low-income families by prioritizing equitable climate resilience, anti-displacement protections, and accessible emergency resources. The amendment aligns the Safety Element with other General Plan elements covering housing, transportation, health, and open space to create a comprehensive, coordinated approach to urban safety and sustainability.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 17323,
+    "output_tokens": 353,
+    "cost_usd": 0.019088
+  }
+}

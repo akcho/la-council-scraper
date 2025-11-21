@@ -1,0 +1,14 @@
+{
+  "historyId": "4bc8cf06-f4fb-4f5e-b0f7-4e3355e47b9e",
+  "council_file": "13-0347-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Committee_pw_5-22-24",
+  "category": "staff_report",
+  "summary": "# Summary: Street Vacation - L-Shaped Alley (Olympic Boulevard & Mateo Street)\n\n## What Is Being Proposed?\n\nThe Los Angeles City Council is being asked to approve the vacation (closure and removal from public use) of an L-shaped alley located north of Olympic Boulevard and west of Mateo Street. The Public Works Committee voted unanimously (3-0) on May 22, 2024, to recommend approval of this street vacation.\n\n## Why?\n\nThe petitioner has requested this vacation to acquire the alley land for developing a residential building. The city determined there is a public benefit to vacating this street, as it would relieve the city of ongoing maintenance obligations and eliminate potential liability associated with owning and maintaining the alley easement.\n\n## Key Details\n\n- **File Number:** VAC-E1401355\n- **Investigation Fee:** The petitioner has already paid $14,980 for the city's investigation, with any cost overages to be charged to the petitioner\n- **Environmental Status:** The vacation is exempt from California Environmental Quality Act review under the city's categorical exemption guidelines\n- **Compliance:** The vacation meets California Streets and Highways Code requirements, is not needed for non-motorized transportation, and is not necessary for present or future public use\n- **Committee Vote:** All three members (Lee, Blumenfield, Padilla) voted \"Yes\"\n\n## Impact\n\nThis affects property owners and residents in the area seeking development. The city saves money on maintenance while transferring the vacated land to the developer. The document notes no community impact statement was submitted.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4071,
+    "output_tokens": 350,
+    "cost_usd": 0.005821
+  }
+}

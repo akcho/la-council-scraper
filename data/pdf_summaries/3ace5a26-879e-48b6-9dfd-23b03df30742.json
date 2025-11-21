@@ -1,0 +1,14 @@
+{
+  "historyId": "3ace5a26-879e-48b6-9dfd-23b03df30742",
+  "council_file": "25-1108",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1108\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council officially designate **Grant House, located at 815 North Bramble Way, as a Historic-Cultural Monument**. This designation would add the property to the city's official list of protected historic sites.\n\n## Why?\n\nThe Cultural Heritage Commission (CHC) evaluated Grant House and determined it meets the definition of a Monument under Los Angeles Administrative Code Section 22.171.7, making it eligible for historic protection. The PLUM Committee reviewed the CHC's report and supported the designation recommendation following a public comment period at their October 28, 2025 meeting.\n\n## Key Details\n\n- **Property**: Grant House at 815 North Bramble Way\n- **Applicant**: Cory Buckner, Architect\n- **Owner**: Bramble Rambler LLC\n- **Case Number**: CHC-2025-3523-HCM\n- **Committee Vote**: 4-0 in favor (one member absent)\n- **Deadline for Council Action**: December 12, 2025\n- **Environmental**: The designation is categorically exempt from California Environmental Quality Act (CEQA) review\n- **Fiscal Impact**: None reported\n\n## Impact\n\nIf approved by the full City Council, Grant House would gain historic protection status, which typically restricts major alterations and demolition, helping preserve the property's historic character for future generations. No significant fiscal impact is anticipated from this designation.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3880,
+    "output_tokens": 347,
+    "cost_usd": 0.005615
+  }
+}

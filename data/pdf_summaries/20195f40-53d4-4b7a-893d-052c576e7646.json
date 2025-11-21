@@ -1,0 +1,14 @@
+{
+  "historyId": "20195f40-53d4-4b7a-893d-052c576e7646",
+  "council_file": "25-0005-S142",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department (Case No. 864143) dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Removal for 815 S Bonnie Brae Street\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove a 28-unit apartment building at 815 S Bonnie Brae Street from the Rent Escrow Account Program (REAP) and terminate rent reductions for tenants. The proposal also calls for releasing escrow funds held by the city and restoring rent to normal levels 30 days after tenants are notified.\n\n## Why?\n\nREAP is a code enforcement tool that places properties in escrow when landlords fail to maintain buildings safely. In this case, one unit (Unit #111) at the property was placed into REAP in May 2025 after inspectors found five violations related to sanitation, maintenance, and plumbing/gas issues. LAHD determined that the property owner has corrected all cited violations, paid outstanding utility charges to the Department of Water and Power, and completed the required work to the satisfaction of LAHD's Code Enforcement Division.\n\n## Key Details\n\n- **Case Number:** 864023 (one of seven REAP cases being removed)\n- **Property:** 815 S Bonnie Brae St, Los Angeles CA 90057 (28 total units)\n- **Case Opened:** May 15, 2025\n- **Units Affected:** 1 unit in REAP\n- **Status:** All violations corrected\n- **Scheduled Hearing:** November 12, 2025, City Council meeting\n\n## Impact\n\nTenants in Unit #111 will see their rents restored to original levels after a 30-day notice period. The property owner will receive any remaining escrow funds after LAHD deducts administrative fees and inspection costs. The city will also conduct expedited inspections and require the owner to prepay for two additional annual inspections.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8525,
+    "output_tokens": 431,
+    "cost_usd": 0.01068
+  }
+}

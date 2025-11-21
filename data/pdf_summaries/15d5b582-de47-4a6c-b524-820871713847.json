@@ -1,0 +1,14 @@
+{
+  "historyId": "15d5b582-de47-4a6c-b524-820871713847",
+  "council_file": "25-0783",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Attorney dated 7-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: Request for Closed Session - Griffith Trust v. City Litigation\n\n## What is Being Proposed?\nThe City Attorney's Office is requesting that the City Council hold a closed session to discuss and receive legal advice regarding pending litigation. The closed session would be held pursuant to California Government Code Section 54956.9(d)(1), which allows public agencies to meet in private when discussing litigation matters with legal counsel.\n\n## Why?\nThe litigation involves a Petition for Writ of Mandate filed by the Griffith J. Griffith Charitable Trust against the City of Los Angeles. The plaintiffs are challenging the City Council's August 2, 2023 approval of the Los Angeles Zoo Vision Plan and the certification of its revised final environmental impact report, claiming violations of the California Environmental Quality Act (CEQA). Because this is pending litigation with potential settlement discussions, the City Attorney recommends confidential legal discussions to protect the City's legal strategy.\n\n## Key Details\n- **Case Name:** Griffith J. Griffith Charitable Trust et al. v. City of Los Angeles et al.\n- **Case Number:** LASC NO. 23STCP03390\n- **Location:** Council District 4\n- **Type of Challenge:** California Environmental Quality Act (CEQA) claims\n- **Contact:** Deputy City Attorney Steven G. Martin at (213) 978-8253\n\n## Impact\nThis primarily affects the City Council and City staff managing the Zoo Vision Plan project. The closed session allows confidential discussion of settlement offers and legal strategy without public disclosure, which is standard practice for pending litigation but limits public transparency on this matter.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3906,
+    "output_tokens": 358,
+    "cost_usd": 0.005696
+  }
+}

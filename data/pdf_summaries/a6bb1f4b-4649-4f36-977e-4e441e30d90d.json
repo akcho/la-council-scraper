@@ -1,0 +1,14 @@
+{
+  "historyId": "a6bb1f4b-4649-4f36-977e-4e441e30d90d",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Corrected Report from Public Works Engineering 08_13_2020",
+  "category": "staff_report",
+  "summary": "# Street Vacation Summary: McKinley Place\n\n## What is Being Proposed?\nThe City is being asked to approve the vacation (removal from public use) of a 32.5-foot by 135-foot portion of McKinley Place south of 87th Street in Council District 9. Once vacated, this street segment would be transferred to the adjacent private property owner, North East Trees (representing Heal the Bay), to create a neighborhood park instead of maintaining it as a public street.\n\n## Why?\nThe street segment is underutilized and not essential for public circulation. The petitioner plans to develop the vacated area into a community park featuring shade trees, gardens, fitness stations, a walking track, and outdoor classrooms to serve students at Wisdom Academy for Young Scientists (WAYS) and the surrounding South Los Angeles community. The city would benefit by eliminating ongoing maintenance costs and potential liability associated with owning this street easement.\n\n## Key Details\n- **Location:** Portion of McKinley Place south of 87th Street, identified as the northerly portion of Lot 12 of Tract 473\n- **Applicant:** George Ballteria on behalf of North East Trees\n- **Timeline:** Initial approval was February 6, 2019; this corrected report is dated August 13, 2020\n- **Conditions:** The petitioner must dedicate 3 additional feet to McKinley Avenue, construct various street improvements (sidewalks, curbs, gutters, and curb ramps), plant street trees, and install lighting\n- **Fiscal Impact:** The petitioner has already paid a $14,980 deposit; any additional costs will be billed to them\n\n## Impact\n**Who:** Residents and students in the underserved Southeast Los Angeles area gain a new recreational facility; the City reduces maintenance obligations. **Support:** The Fire Department, City Planning, and Department of Transportation all approved the project with conditions. **Process:** The vacation requires a public hearing and final City Council vote after committee approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14632,
+    "output_tokens": 443,
+    "cost_usd": 0.016847
+  }
+}

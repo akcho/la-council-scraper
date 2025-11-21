@@ -1,0 +1,14 @@
+{
+  "historyId": "11425511-e6bd-439b-bc18-ba334ec04b29",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Council Action 10_01_2014",
+  "category": "other",
+  "summary": "# Summary of Council File 12-0344\n\n## What is Being Proposed?\n\nThe Los Angeles City Council approved an amendment to a permit (Permit No. 897) held by Catalina Channel Express, Inc., which operates ferry services between San Pedro and Catalina Island. The amendment reflects a settlement agreement that adjusts rental compensation the company owes to the Port of Los Angeles for the next five years (July 2014 through July 2019).\n\n## Why?\n\nIn March 2012, the company relocated to different berths at the Port of Los Angeles to continue its passenger ferry operations. This move created disputes over rental compensation under the original agreement. The amendment finalizes a negotiated settlement that resolves these disputes and establishes new, clearly defined rental terms going forward. All parties agreed to release any outstanding claims related to the relocation.\n\n## Key Details\n\nThe amended permit covers Berth 95 in the Port of Los Angeles and establishes a phased rental compensation schedule. The annual rent will gradually increase over the five-year period, reaching a full market rate of **$128,484 by the fifth year** (2019). Compensation includes fixed minimum fees, Consumer Price Index adjustments, and a percentage of the company's gross receipts. The company will continue operating and maintaining its passenger ferry facilities during this period.\n\n## Impact\n\nThis primarily affects Catalina Channel Express, Inc. and the Port of Los Angeles' revenue. However, it also ensures continuity of the popular tourist and commuter ferry service connecting San Pedro to Catalina Island. The settlement resolves potential litigation, providing stability for both the business operator and the port.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6046,
+    "output_tokens": 355,
+    "cost_usd": 0.007821
+  }
+}

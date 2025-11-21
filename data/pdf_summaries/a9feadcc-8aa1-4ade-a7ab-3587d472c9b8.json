@@ -1,0 +1,14 @@
+{
+  "historyId": "a9feadcc-8aa1-4ade-a7ab-3587d472c9b8",
+  "council_file": "14-0958",
+  "meeting_id": 17406,
+  "original_filename": "Report from Bureau of Engineering dated 11-29-22",
+  "category": "staff_report",
+  "summary": "# Summary: Temporary Closure of 121st Street\n\n## What is Being Proposed?\nThe City Engineer recommends temporarily closing 121st Street between Figueroa Street and Hoover Street for 18 months. The closure would be accomplished by installing a gate at one end of the street, not a complete blockade. The proposal requires City Council approval and must comply with several conditions, including approval from the Fire Department, Department of Water and Power, Department of Transportation, and Bureau of Sanitation.\n\n## Why?\nThe closure is intended to reduce criminal activity in the area. According to the Los Angeles Police Department, over 120 crimes occurred in the area over two years, including robberies, assaults, prostitution, and vehicle thefts, primarily along Figueroa Street near the Athens on the Hill community. Police Captain Clint L. Dohmen supports the closure as a crime-reduction strategy.\n\n## Key Details\n- **Location:** 121st Street between Figueroa and Hoover Streets (Council District 15)\n- **Duration:** 18 months\n- **Original Request:** First submitted February 5, 2013; approved and implemented in 2014 but expired when extension wasn't requested\n- **Cost:** Bureau of Engineering absorbs ~$5,000 in processing costs; the property owner/petitioner must install and remove the gate at no cost to the City\n- **Conditions:** Over 30 neighboring residents and organizations were notified and must be involved in cleanup and maintenance\n\n## Impact\nResidents living on and adjacent to 121st Street will experience restricted vehicle access through this section of street. The closure aims to deter criminals from using the street as a thoroughfare for illegal activities while maintaining necessary emergency vehicle and utility access through keyed gates.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 11847,
+    "output_tokens": 390,
+    "cost_usd": 0.013797
+  }
+}

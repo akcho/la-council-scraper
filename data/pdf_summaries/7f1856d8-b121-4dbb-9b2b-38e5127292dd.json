@@ -1,0 +1,14 @@
+{
+  "historyId": "7f1856d8-b121-4dbb-9b2b-38e5127292dd",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from Los Angeles City Planning Commission dated 5-15-25.pdf",
+  "category": "staff_report",
+  "summary": "# Summary of Emergency Shelter Code Amendment (CPC-2025-1648-CA)\n\n## What is Being Proposed?\n\nThe Los Angeles City Planning Commission is recommending that the City Council adopt an ordinance amending the Los Angeles Municipal Code to align local emergency shelter regulations with California State Law (Government Code Section 8698 et seq.). The amendment modifies Sections 12.80 and 12.81 in Chapter 1 and Sections 1.6.2 and 1.6.3 in Chapter 1A, allowing homeless shelters to operate by-right (without special permits) in certain zones during a declared shelter crisis. The key change replaces references to \"transitional shelters\" with the state's definition of \"homeless shelter,\" making local rules consistent with state provisions.\n\n## Why This Matters\n\nLos Angeles has declared a shelter crisis emergency, and state law provides streamlined procedures for establishing emergency shelters during such crises. This ordinance ensures that local zoning code does not create unnecessary barriers to operating shelters. By aligning local regulations with state law, the city removes regulatory obstacles that could delay shelter operations when people experiencing homelessness need immediate assistance. The amendment also supports the city's 2021-2029 Housing Element Program 115, which prioritizes reducing zoning barriers to homeless housing.\n\n## Key Details\n\nThe Planning Commission voted 8-0 in favor on April 24, 2025. The amendment allows city-owned/leased properties to establish shelters in any zone and permits nonprofit or religious organizations to operate shelters in specific residential and commercial zones (R3, R4, R5, C2, C4, C5, CM, M1, M2, M3). Parking requirements are waived if insufficient space exists. Unreinforced masonry and non-ductile concrete buildings are prohibited. The ordinance applies retroactively to shelters already established during the declared crisis.\n\n## Who This Affects\n\nThis primarily affects homeless service providers, religious institutions, nonprofits, and unhoused individuals. The city has 90 days to act on the commission's recommendation. The amendment is exempt from environmental review under state law, as it is an administrative change that does not create new shelters but rather removes regulatory impediments to existing shelter operations during the declared emergency.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 30027,
+    "output_tokens": 504,
+    "cost_usd": 0.032547
+  }
+}

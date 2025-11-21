@@ -1,0 +1,14 @@
+{
+  "historyId": "e1ce60ce-9bcc-43ba-9287-61acd3310cf4",
+  "council_file": "25-1070",
+  "meeting_id": 17283,
+  "original_filename": "Council Action dated 9-18-25",
+  "category": "other",
+  "summary": "# Summary of Council File 25-1070\n\n## What is Being Proposed?\nThe Los Angeles City Council has approved the appointment of Patrice Y. Lattimore as the permanent City Clerk of Los Angeles, effective September 24, 2025. This action was initiated through a communication from Mayor Karen Bass and was adopted as a Government Operations Committee Report.\n\n## Background and Rationale\nPatrice Lattimore was serving as Division Manager of the Council and Public Services Division at the Office of the City Clerk. The appointment of a permanent City Clerk follows the interim leadership of Petty F. Santos, who held the position of Interim City Clerk during the transition period.\n\n## Key Details\n- **Effective Date:** September 24, 2025\n- **Vote:** The appointment passed with 14 YES votes and 1 ABSENT (Councilmember Price Jr.)\n- **Committee:** Government Operations Committee approved and adopted the report on September 16, 2025\n- **Office Location:** Council and Public Services Division, 200 N. Spring Street, Room 395, Los Angeles, CA 90012\n\n## Impact\nThis appointment establishes permanent leadership for the City Clerk's office, which maintains official city records, processes council documents, and manages public services for the City of Los Angeles. A permanent City Clerk provides continuity and stability in managing these essential municipal functions for Los Angeles residents and businesses.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2108,
+    "output_tokens": 311,
+    "cost_usd": 0.0036630000000000005
+  }
+}

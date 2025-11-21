@@ -1,0 +1,14 @@
+{
+  "historyId": "681a7026-7909-4ec3-a0da-16224f6ddb8e",
+  "council_file": "25-0900-S48",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-17-25 - Draft Ordinance of Intention",
+  "category": "other",
+  "summary": "# Summary: Killion Street and Vesper Avenue No. 1 Lighting District Ordinance\n\n## What is Being Proposed?\n\nThe City Council is proposing to establish a new special assessment district to fund street lighting operations, maintenance, and repairs for a specific section of Killion Street in Los Angeles for the 2025-2026 fiscal year. The lighting system covers Killion Street from 280 to 430 feet west of Van Nuys Boulevard. All costs would be charged directly to property owners within the designated district rather than paid from the city's general budget.\n\n## Why?\n\nThis ordinance is necessary to formalize the funding mechanism for street lighting in this area. Under California law (specifically Proposition 218), local governments must obtain voter approval from affected property owners before imposing special assessments. The ordinance follows the legal framework required by the Los Angeles Administrative Code and California Government Code to ensure the process is transparent and complies with constitutional requirements for special assessments.\n\n## Key Details\n\n- **Location:** Killion Street, 280' to 430' west of Van Nuys Boulevard\n- **Fiscal Year:** 2025-2026\n- **Assessment Method:** Weighted by each property's proportional financial obligation\n- **Approval Requirement:** Majority of weighted \"yes\" votes needed (per Proposition 218)\n- **Implementation Date:** Assessments transfer to property tax rolls only if system is energized by July 1, 2025\n- **Future Increases:** Assessments may increase annually by the Consumer Price Index (CPI) without further ballot approval\n- **Public Hearing:** City Council will hold a hearing where residents can submit written protests or oral comments\n\n## Impact\n\nProperty owners in the designated district will be assessed and billed for lighting costs on their property tax bills. However, the assessment only takes effect if property owners approve it through a weighted ballot vote, ensuring that those paying for the improvement have a say in whether it proceeds. The specific assessment amounts will be determined by the Bureau of Street Lighting's Engineer's Report.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8413,
+    "output_tokens": 449,
+    "cost_usd": 0.010658
+  }
+}

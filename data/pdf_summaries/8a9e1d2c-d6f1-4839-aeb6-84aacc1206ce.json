@@ -1,0 +1,14 @@
+{
+  "historyId": "8a9e1d2c-d6f1-4839-aeb6-84aacc1206ce",
+  "council_file": "25-1154",
+  "meeting_id": 17455,
+  "original_filename": "Government Operations Committee Report 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Watts Towers Arts Center Campus Development Agreement\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize the Department of General Services and Department of Recreation and Parks to grant a use rights agreement to the Los Angeles Neighborhood Land Trust (LANLT), a nonprofit organization. This agreement would allow LANLT to access and develop the five-acre Watts Towers Arts Center Campus in Watts.\n\n## Why?\n\nLANLT has been partnering with the Watts Towers Arts Center and local community for over a decade to develop a comprehensive community improvement project. The organization specializes in addressing the shortage of parks and green spaces in low-income communities of color. LANLT has created a development plan at its own expense and is ready to begin construction to transform the site into a welcoming cultural campus.\n\n## Key Details\n\nThe Watts Towers Arts Center Campus currently consists of five acres that host the Watts Towers Arts Center and the Charles Mingus Youth Arts Center. LANLT's planned improvements include a wellness walk, interactive play elements, an outdoor amphitheater, and California native shade trees and grassland gardens. Before construction begins, the Bureau of Engineering must review and approve the designs to ensure compliance with city public space standards. Once completed, the Department of Cultural Affairs will accept the facilities as a donation and the city will assume responsibility for ongoing maintenance and repairs through the annual budget process.\n\n## Impact\n\nThis development directly benefits Watts residents of all ages by creating safe, accessible green space in a community that currently lacks adequate parks. Since 2002, LANLT has helped create 30 parks and gardens, adding 22 acres of green space to Los Angeles. This project advances environmental justice and improves public health in an underserved neighborhood.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4107,
+    "output_tokens": 380,
+    "cost_usd": 0.006007
+  }
+}

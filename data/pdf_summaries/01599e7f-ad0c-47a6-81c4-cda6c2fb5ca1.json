@@ -1,0 +1,14 @@
+{
+  "historyId": "01599e7f-ad0c-47a6-81c4-cda6c2fb5ca1",
+  "council_file": "25-1155",
+  "meeting_id": 17406,
+  "original_filename": "Report from Energy and Environment Committee_10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1155\n\n## What is Being Proposed?\n\nThe Energy and Environment Committee is recommending that the Los Angeles City Council authorize the Bureau of Sanitation to apply for a federal EPA Brownfields Cleanup Grant. This grant would fund the remediation and cleanup of contaminated brownfield sites located in Council District Eight. If the grant is awarded, the Bureau of Sanitation must also report back to the Council on the steps needed to accept and use the EPA funds.\n\n## Why This Matters\n\nBrownfields are abandoned or underutilized properties contaminated by hazardous substances, pollutants, or other environmental concerns. Securing federal EPA funding for cleanup helps address environmental health risks in the community without requiring the City to use its own budget. The motion was initiated by Council Members Harris-Dawson and Hutt, indicating this is a priority for the district.\n\n## Key Details\n\nThe Committee meeting occurred on October 21, 2025, and all five committee members present (Nazarian, Yaroslavsky, Jurado, Raman, and Padilla) voted unanimously in favor. The proposal specifically targets Council District Eight and involves coordination between multiple city departments, including the Economic and Workforce Development Department. Notably, the City's financial analysts have not yet completed a fiscal impact analysis of this proposal.\n\n## Impact\n\nThis proposal primarily affects residents and businesses in Council District Eight by potentially removing environmental contamination from their community. A successful grant would enable site remediation, which could lead to economic revitalization, improved public health, and potential future development of currently unusable properties.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2163,
+    "output_tokens": 348,
+    "cost_usd": 0.0039030000000000002
+  }
+}

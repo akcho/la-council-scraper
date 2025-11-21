@@ -1,0 +1,14 @@
+{
+  "historyId": "07a146f8-2578-4c5f-a2a8-c2143c10f5e8",
+  "council_file": "25-1206",
+  "meeting_id": 17283,
+  "original_filename": "Report from Board of Airport Commissioners dated 8-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: Third Amendment to Contract DA-5605 with Swinerton Builders\n\n## What is Being Proposed?\nThe Board of Airport Commissioners is requesting City Council approval for a Third Amendment to an existing contract with Swinerton Builders. The amendment would add $5,000,000 to the project allowance and extend the contract term by 13 months to complete offsite work related to the Landside Access Modernization Program at Los Angeles International Airport (LAX).\n\n## Why?\nThe document does not explicitly state the reasons for the amendment. However, the extension of the contract timeline and increased funding suggest that additional work or unforeseen circumstances require more time and resources to complete the Intermodal Transportation Facility Auxiliary Curbs Project—part of LAX's broader modernization effort to improve ground transportation access.\n\n## Key Details\n- **Contractor:** Swinerton Builders\n- **Contract Number:** DA-5605\n- **Additional Funding:** Up to $5,000,000\n- **Contract Extension:** 13 months\n- **Project:** Landside Access Modernization Program Intermodal Transportation Facility Auxiliary Curbs Project at LAX\n- **Approved by:** Board of Airport Commissioners on August 21, 2025 (Resolution 28221)\n- **Impact to General Fund:** None\n\n## Impact\nThis action affects LAX operations and transportation infrastructure improvements. There is no financial impact to the City's General Fund, suggesting the project is funded through airport revenues rather than general tax dollars. The extended timeline may affect the overall modernization program schedule at LAX.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2241,
+    "output_tokens": 355,
+    "cost_usd": 0.0040160000000000005
+  }
+}

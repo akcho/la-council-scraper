@@ -1,0 +1,14 @@
+{
+  "historyId": "e2de6fc9-1cc4-4f53-9d34-a23012b630fd",
+  "council_file": "21-0748",
+  "meeting_id": 17283,
+  "original_filename": "Report from Housing and Homelessness Committee - 11-5-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 21-0748 - Southside Senior Housing Bond Issuance\n\n## What is Being Proposed?\n\nThe Housing and Homelessness Committee is recommending that the Los Angeles City Council approve the issuance of up to $1,579,936 in supplemental tax-exempt bonds to finance the Southside Senior Housing Supportive Housing Project located at 1623 West Manchester Avenue in Council District 8. This is a \"conduit\" bond, meaning the City acts as the issuer but does not incur any financial liability or obligation to repay the bonds.\n\n## Why This Matters\n\nThis financing enables the development of supportive housing specifically designed for seniors. The bonds will be repaid solely from the project's revenues (such as tenant rents), not from the City's General Fund. Because the City bears no financial risk or obligation, this allows the project to move forward without impacting the city budget or taxpayers.\n\n## Key Details\n\n- **Project Location:** 1623 West Manchester Avenue (CD 8)\n- **Bond Amount:** Up to $1,579,936\n- **Committee Vote:** Unanimously approved (5 YES votes) on November 5, 2025\n- **Next Steps:** Requires Mayor approval and City Council adoption; the General Manager of the Los Angeles Housing Department is authorized to negotiate and execute financing documents\n\n## Impact\n\nThis project will add senior supportive housing units in the Southside area with no direct cost to the City. The financing structure protects the municipal budget while enabling affordable housing development for seniors in need of support services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4140,
+    "output_tokens": 349,
+    "cost_usd": 0.005885
+  }
+}

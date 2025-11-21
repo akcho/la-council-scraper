@@ -1,0 +1,14 @@
+{
+  "historyId": "643226d8-af63-4b88-a344-5b3a304973d1",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_04-25-2025",
+  "category": "other",
+  "summary": "# Summary: Public Communications on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nTwo residents from District 14 are submitting public comments urging the Los Angeles City Council to update the Rent Stabilization Ordinance formula to cap annual rent increases at a maximum of 3%. Currently, the ordinance allows rent increases that both commenters argue are too high and unaffordable for struggling tenants.\n\n## Why This Matters\nBoth Diana Ibarra and Priscilla Castaneda cite the affordability crisis facing Los Angeles renters. Castaneda reports moving three times in three years due to extreme rent increases exceeding 8% annually. They argue that higher rent increases force tenants to cut spending on necessities like food, healthcare, transportation, and childcare. Ibarra also notes that landlords raise rents despite failing to maintain and rehabilitate apartments, while tenant concerns are ignored.\n\n## Key Details\n- **Current situation**: Annual rent increases under the Rent Stabilization Ordinance reportedly exceed 8%\n- **Proposed change**: Cap rent increases at 3% annually\n- **Affected community**: District 14 residents and broader Los Angeles renters struggling with housing affordability\n- **Commenters**: Both are affiliated with Keep LA Housed advocacy organization and represent personal experiences of housing instability\n\n## Impact\nA 3% cap would significantly reduce rent burden for struggling families, allowing them to allocate resources toward food, healthcare, childcare, and maintaining stable housing. For renters like Castaneda facing repeated displacement, this measure could promote residential stability.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3925,
+    "output_tokens": 358,
+    "cost_usd": 0.005715
+  }
+}

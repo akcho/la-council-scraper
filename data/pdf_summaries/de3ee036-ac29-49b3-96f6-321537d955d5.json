@@ -1,0 +1,14 @@
+{
+  "historyId": "de3ee036-ac29-49b3-96f6-321537d955d5",
+  "council_file": "25-0900-S47",
+  "meeting_id": 17407,
+  "original_filename": "Report from Bureau of Street Lighting dated 9-17-25",
+  "category": "staff_report",
+  "summary": "# Summary: Mission Road and Jesse Street No. 1 Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Department of Public Works Bureau of Street Lighting is proposing to establish a maintenance assessment district for street lighting on Mission Road (from Whittier Boulevard to Jesse Street) and Jesse Street (from Mission Road to 221 feet east of Rio Street). If approved, property owners in this district would be assessed annual fees to pay for the operation, maintenance, and electric energy costs of 11 new streetlights serving 5 affected properties.\n\n## Why?\n\nThis is a proposed private development project that requires new street lighting infrastructure. Under Proposition 218 (a state law limiting local property taxes and assessments), the City cannot pay for these streetlights from general funds—the costs must be covered through assessments on the properties receiving special benefit from the lights. The streetlights are designed to illuminate roadways and sidewalks to provide security, safety, and improved nighttime visibility for the nearby properties.\n\n## Key Details\n\n- **Total Assessment**: $3,498.29 for fiscal year 2025-2026\n- **Number of Properties**: 5 affected parcels (all industrial/commercial)\n- **Number of Streetlights**: 11\n- **Cost Breakdown**: $1,515 for electric energy, $1,406 for maintenance, $577 for incidentals\n- **Process**: Property owners must vote on the assessment via weighted ballot before City Council can approve it. Ballots are weighted by financial obligation (larger assessments have more voting power)\n\n## Impact\n\nThe five property owners in the district will pay annual assessments ranging from $124.60 to $2,065.36 per property. If weighted voting results favor the assessment (yes votes ≥ no votes), the assessments will be collected on property tax bills starting in 2025-2026. If property owners vote against it, the streetlights will not be constructed and no assessments will be imposed.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 43589,
+    "output_tokens": 443,
+    "cost_usd": 0.045804000000000004
+  }
+}

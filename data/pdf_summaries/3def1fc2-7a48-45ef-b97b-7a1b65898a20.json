@@ -1,0 +1,14 @@
+{
+  "historyId": "3def1fc2-7a48-45ef-b97b-7a1b65898a20",
+  "council_file": "25-0002-S82",
+  "meeting_id": 17455,
+  "original_filename": "Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: AB 1088 State Legislative Support\n\n## What is Being Proposed\nThe Los Angeles City Council is being asked to add support for Assembly Bill 1088 (AB 1088) to the City's 2025-26 State Legislative Program. This bill would regulate kratom products containing 7-hydroxymitragynine under California's Sherman Food, Drug, and Cosmetic Law and prohibit their sale to people under 21 years old.\n\n## Why This Matters\nThe bill addresses concerns about kratom abuse, which has increased in recent years. While some people use kratom as a potential treatment for opioid addiction (according to the National Institutes of Health), the Drug Enforcement Administration reports a rise in kratom abuse with documented cases of psychosis. Individuals addicted to kratom have exhibited psychiatric symptoms including hallucinations, delusions, and confusion.\n\n## Key Details\nThe Rules, Elections and Intergovernmental Relations Committee voted unanimously (5-0) on October 21, 2025, to recommend the Council approve this resolution. The bill would specifically target kratom products and require age restrictions similar to other regulated substances. No fiscal impact or community impact statements were submitted.\n\n## Impact\nThis action establishes the City's official position supporting state-level regulation of kratom products. If passed at the state level, the bill would protect minors from access to kratom while allowing continued regulation as a controlled substance, potentially protecting public health from documented abuse-related psychiatric complications.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2367,
+    "output_tokens": 325,
+    "cost_usd": 0.003992
+  }
+}

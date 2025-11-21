@@ -1,0 +1,14 @@
+{
+  "historyId": "b81395fd-4b40-49bf-9893-dfceb0c804d7",
+  "council_file": "25-0783",
+  "meeting_id": 17283,
+  "original_filename": "Report from Zoo Department dated 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Los Angeles Zoo Vision Plan Modifications\n\n## What is Being Proposed?\n\nThe Zoo Department is asking the City Council to approve significant modifications to the Los Angeles Zoo Vision Plan that was originally approved in August 2023. Specifically, the revised project would eliminate two major planned developments: the 18,000-square-foot California Visitor Center and the Condor Canyon (a 60-foot-deep cut through the ridgeline). In place of the visitor center, the Zoo may build up to three small outdoor shade structures (maximum 1,500 square feet each) with supporting amenities like seating and restrooms. Additionally, a 5-acre area along the ridgeline would remain largely undeveloped, with only limited improvements like trails and a funicular allowed.\n\n## Why?\n\nThese modifications were made as part of a settlement agreement with the Griffith J. Griffith Charitable Trust and others who filed a lawsuit challenging the original vision plan. The City Council authorized the Zoo Director to execute this settlement in August 2025. The changes represent a significant reduction in development intensity while still allowing for some visitor enhancements and conservation efforts.\n\n## Key Details\n\n- **Original Visitor Center**: 18,000 square feet with dining, classrooms, and event spaces\n- **Replacement**: Three outdoor shade structures, each no larger than 1,500 square feet\n- **Protected Area**: 5 contiguous acres along the ridgeline in the California area will have development withheld\n- **Lighting Restrictions**: Pathway lighting will not exceed 6 feet in height; no digital advertising displays near interpretive sites\n- **Special Species Protection**: If endangered flora species like Nevin's barberry are found before construction, they must be avoided and mitigated\n\n## Impact\n\nThe modifications reduce the scope of Zoo expansion, which may satisfy conservation concerns while still allowing some visitor amenities. Environmental review found that these changes do not create new significant environmental impacts—in fact, they reduce overall impacts by eliminating major excavation work. The Zoo retains flexibility to pursue other development projects in the future through separate approvals.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 33460,
+    "output_tokens": 459,
+    "cost_usd": 0.035754999999999995
+  }
+}

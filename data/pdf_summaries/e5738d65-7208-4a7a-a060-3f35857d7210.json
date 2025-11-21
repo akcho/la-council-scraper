@@ -1,0 +1,14 @@
+{
+  "historyId": "e5738d65-7208-4a7a-a060-3f35857d7210",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report Dated 8-18-25 - Staff Report.pdf",
+  "category": "staff_report",
+  "summary": "# Summary of CPC-2018-3544: Pico Boulevard Hotel Development\n\n## What is Being Proposed?\n\nThe City Planning Commission is recommending approval of a new 125-room hotel development at 2250-2270 West Pico Boulevard in the Pico Union neighborhood. The project consists of two six-story buildings (76.5 feet tall) separated by an alley, containing 77,828 square feet of floor area. The development would replace an existing 9,627-square-foot market and surface parking lot with underground parking (84 spaces across three subterranean levels).\n\n## Why This Project?\n\nThe site currently has conflicting zoning designations—part is zoned Commercial Manufacturing and part is zoned Low Medium II Residential—making it difficult to develop. The proposed changes would streamline this by unifying the site under a single zoning designation. According to the Council Motion (File 17-0727), this hotel would address Los Angeles's shortage of hotel rooms and provide reasonably priced accommodations west of the 110 Freeway, helping serve visitors to the Convention Center and supporting local economic development in an underdeveloped commercial area.\n\n## Key Details\n\n- **Location:** Southwest corner of Pico Boulevard and Arapahoe Street\n- **Approvals required:** General Plan Amendment, Zone Change, Height District Change, Conditional Use Permit, and Site Plan Review\n- **Zoning change:** From [Q]C2-1 and RD1.5-1 to C2-2-CPIO\n- **Height:** 76 feet 6 inches (six stories)\n- **Public hearing dates:** January 10, 2024 and March 13, 2025\n- **Applicant:** Min Chun Helen Chen, Da Yuh Development Inc\n\n## Impact\n\nThis project affects South Los Angeles residents and the Pico Union community by converting a vacant market site into a commercial hotel use. The development is expected to generate approximately 409 daily trips (45 in morning peak hour, 19 in evening peak hour). Environmental review found no significant impacts requiring an Environmental Impact Report. Nearby residential properties would see a neighboring commercial hotel use, though traffic studies found no significant impacts at surrounding intersections.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 193911,
+    "output_tokens": 501,
+    "cost_usd": 0.196416
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "5537c729-a15e-437c-bbd0-f1409df53606",
+  "council_file": "25-1037",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Report dated 9-03-25 - NOE",
+  "category": "other",
+  "summary": "# Summary: Notice of Exemption for 8251 West Melrose Avenue Development\n\n## What is Being Proposed?\nThe City of Los Angeles Department of City Planning has approved a mixed-use development project at 8251-8271 West Melrose Avenue and 705-711 North Harper Avenue in Hollywood (Council District 5). The project involves demolishing four existing commercial buildings and a surface parking lot to construct a new six-story building with 90 residential units and 15,271 square feet of commercial space.\n\n## Why?\nThe project qualifies for a \"Class 32 Urban Infill Exemption\" under the California Environmental Quality Act (CEQA), meaning it does not require a full environmental review. The City determined that the development is consistent with local zoning, occurs on a previously developed urban site (0.56 acres), and will not result in significant environmental impacts related to traffic, noise, air quality, or water quality. The project also provides affordable housing through the Density Bonus/Affordable Housing Incentive Program (with at least 11% of units designated as very low income).\n\n## Key Details\n- **Location:** Hollywood area, west of Harper Avenue\n- **Building specs:** 6-story structure, 110,300 total square feet, 69-foot height\n- **Parking:** 96 automobile spaces (in two basement levels) and 94 bicycle spaces\n- **Unit mix:** 68 one-bedroom, 17 two-bedroom, and 5 three-bedroom units\n- **Environmental conditions:** No protected trees on-site; project requires export of approximately 20,194 cubic yards of soil\n- **Entitlements approved:** Density Bonus and Project Review\n\n## Impact\nThis exemption allows the project to proceed without extensive environmental review, expediting approval. The development will add housing (including affordable units) to a walkable urban neighborhood while replacing older commercial buildings. Residents and nearby property owners may experience temporary construction impacts, managed through haul route monitoring by the Department of Building and Safety, but the City has determined there will be no significant long-term environmental effects.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14577,
+    "output_tokens": 467,
+    "cost_usd": 0.016912
+  }
+}

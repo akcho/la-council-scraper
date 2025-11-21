@@ -1,0 +1,14 @@
+{
+  "historyId": "b281eef3-00e0-4810-b707-2b07a3ef5f85",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: File 25-1009 – Hotel Development at West Pico Boulevard\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending approval of a new hotel development on two properties in South Los Angeles: 2250–2270 West Pico Boulevard and 1309–1315 South Arapahoe Street. The project involves rezoning the land and amending the General Plan to allow construction of two six-story hotel buildings (76.5 feet tall) containing 125 guest rooms and approximately 77,828 square feet of floor space, with 84 underground parking spaces across three levels.\n\n## Why This Matters\n\nThe project requires a General Plan Amendment (changing the area's designation from Commercial Manufacturing to Neighborhood Commercial) and a zone change to proceed. The developer, Min Chun Helen Chen and Da Yuh Development Inc., must demolish an existing market and surface parking to make way for the new development. The city conducted an environmental review (Mitigated Negative Declaration) and determined that with mitigation measures in place, the project will not have significant environmental impacts. No trees will be removed from the site.\n\n## Key Details\n\n- **Location:** 2250–2270 West Pico Boulevard and 1309–1315 South Arapahoe Street\n- **Project Size:** 125 guest rooms, 77,828 sq ft, 2.99:1 floor area ratio\n- **Height:** Two buildings, each 76 feet 6 inches tall\n- **Parking:** 84 spaces in underground parking\n- **Demolition:** 9,627 sq ft market and surface parking\n- **Environmental Review:** No. ENV-2018-3545-MND\n- **Council Deadline:** November 7, 2025 (last day for action)\n\n## Impact\n\nThe PLUM Committee voted 4–1 in favor (one absent), recommending the City Council approve the project. The applicant must comply with mitigation conditions and maintain them throughout the project's life. If the qualified zoning classification is not developed within six years, it will expire and revert to previous zoning. The project has no projected General Fund impact, as administrative costs are covered through fees.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4802,
+    "output_tokens": 504,
+    "cost_usd": 0.007322
+  }
+}

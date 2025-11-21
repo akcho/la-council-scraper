@@ -1,0 +1,14 @@
+{
+  "historyId": "a2a7fc5a-f615-4a0d-aab4-84f27ce57b50",
+  "council_file": "25-0900-S51",
+  "meeting_id": 17407,
+  "original_filename": "Report from Bureau of Street Lighting dated 9-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: Vineland Avenue & Weddington Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Public Works is proposing to establish a new Street Lighting Maintenance Assessment District for 2 streetlights on Vineland Avenue (from 44 feet north to 204 feet south of Weddington Street). If approved, this would create an annual assessment of $254.87 on the single affected property to pay for the operation, maintenance, and electric energy costs for these lights. The proposal requires a vote by the affected property owner(s) under Proposition 218 rules—the assessment can only proceed if weighted \"yes\" votes equal or exceed weighted \"no\" votes.\n\n## Why?\n\nThe proposed lighting system is part of a private development project that will install permanent street lighting to meet City standards for safety and illumination. Under City policy, approximately 80% of streetlight costs are financed through maintenance assessments on benefiting properties, with the remainder covered by the Department of Water and Power. Proposition 218 (a 1996 voter-approved measure) requires that such assessments receive property owner approval before being imposed.\n\n## Key Details\n\n- **Affected Properties:** 1 parcel (5260 Vineland Ave, owned by Vineland Ave LLC)\n- **Annual Assessment:** $254.87 (for tax year 2025-2026)\n- **Number of Streetlights:** 2\n- **Project Type:** Proposed private development project\n- **Process Timeline:** Council must hold a public hearing, ballots must be distributed and counted, and only if \"yes\" votes prevail can the final assessment be imposed\n- **Assessment Diagram:** City page number 16024\n\n## Impact\n\nThe property owner at 5260 Vineland Avenue will receive a ballot to vote on whether to accept the $254.87 annual assessment. If they vote \"no,\" the lighting system will not be constructed or will be removed from service. The property receives the benefit of improved safety and visibility from the street lighting, which also enhances the area's character. The assessment can increase annually up to the Consumer Price Index (CPI) without requiring additional approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 43125,
+    "output_tokens": 484,
+    "cost_usd": 0.045544999999999995
+  }
+}

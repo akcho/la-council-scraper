@@ -1,0 +1,14 @@
+{
+  "historyId": "cb5e0475-b64e-424b-b3df-2f17f77c9c2d",
+  "council_file": "24-1200-S11",
+  "meeting_id": 17406,
+  "original_filename": "Report from Mayor dated 10-06-25",
+  "category": "staff_report",
+  "summary": "# Summary: Reappointment of Andrea Garcia to Native American Indian Commission\n\n## What is Being Proposed\nMayor Karen Bass is recommending the reappointment of Ms. Andrea Garcia to the Los Angeles City/County Native American Indian Commission for a new four-year term ending October 7, 2029. This reappointment is subject to confirmation by the Los Angeles City Council.\n\n## Why\nMs. Garcia's current term expires on October 7, 2025. The Mayor certifies that Garcia is \"especially qualified by reason of training and experience for the work which shall devolve upon her\" and that the appointment is made \"solely in the interest of the City.\" Garcia has been serving on the Commission since October 2017.\n\n## Key Details\nDr. Andrea Garcia is a Native American physician specialist employed by the Los Angeles County Department of Mental Health. She holds an M.D. from UC San Francisco and an M.S. in Health and Medical Sciences from UC Berkeley. Garcia has extensive experience in Native American health advocacy, research, and policy work, including leadership roles with organizations focused on health equity, homelessness, and indigenous health. She currently serves as President of We Are Healers and recently received the George D. Nickel Award for Outstanding Contributions to Social Welfare (February 2025).\n\n## Impact and Next Steps\nThis reappointment affects the governance of the Commission dedicated to Native American affairs in Los Angeles. Garcia must complete several confirmation steps including submitting required forms within 7 days, undergoing a background check, meeting with City Council members, and appearing before the Arts, Parks, Libraries, and Community Enrichment Committee before the full Council vote.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 17226,
+    "output_tokens": 361,
+    "cost_usd": 0.019031000000000003
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "c615fb9c-560f-45fc-a165-f3ebf0d2b0a8",
+  "council_file": "25-1202",
+  "meeting_id": 17406,
+  "original_filename": "Report from Public Works Committee_10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1202\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that the Los Angeles City Council authorize the addition of one Civil Engineering Associate IV position for the Bureau of Engineering's Sidewalk Repair Program. This new position would provide technical expertise to support the Bureau's ADA (Americans with Disabilities Act) Coordinator.\n\n## Why?\n\nThe proposal aims to supplement the capacity of the Bureau's ADA Coordinator by adding specialized technical expertise and knowledge. This would help the Sidewalk Repair Program better fulfill its responsibilities, likely in ensuring sidewalk repairs comply with ADA accessibility requirements.\n\n## Key Details\n\n- **Total funding needed:** $205,859.12\n- **Funding sources:** $105,859.12 from the Sidewalk Repair Fund (departmental appropriation) and $100,000 from another account\n- **Committee vote:** Passed 2-1 (Hernandez and Hutt voted yes; Padilla was absent)\n- **Meeting date:** October 22, 2025\n- **Status:** Not official until the full City Council acts on it\n\n## Impact\n\nThis affects residents by potentially improving ADA compliance and efficiency in the sidewalk repair process. The position would help ensure that sidewalk repairs better accommodate people with disabilities. The proposal requires mayoral approval before Council action.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2304,
+    "output_tokens": 297,
+    "cost_usd": 0.003789
+  }
+}

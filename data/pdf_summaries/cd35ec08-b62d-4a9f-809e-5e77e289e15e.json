@@ -1,0 +1,14 @@
+{
+  "historyId": "cd35ec08-b62d-4a9f-809e-5e77e289e15e",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 6-06-25 - Corrected Recommended Actions",
+  "category": "other",
+  "summary": "# Summary: Emergency Shelter Code Amendment (CF 24-1587)\n\n## What is Being Proposed?\nThe Los Angeles City Planning Commission is recommending that the City Council adopt amendments to the Los Angeles Municipal Code that would modify regulations for emergency shelters in the city. The proposal involves two separate ordinances: one amending Chapter 1 (Sections 12.80 and 12.81) and another amending Chapter 1A (Sections 1.6.2 and 1.6.3) of the zoning code. The City Planning Commission unanimously approved these changes on April 24, 2025.\n\n## Why This Matters?\nThis code amendment appears designed to update how emergency shelters are regulated and permitted within Los Angeles, likely to streamline the process of establishing or operating emergency shelter facilities. The amendment has been exempted from California Environmental Quality Act (CEQA) review, indicating the city determined it does not constitute a \"project\" requiring environmental analysis, which suggests it is primarily a procedural or regulatory clarification rather than a major new initiative.\n\n## Key Details\n- **Case Numbers:** CPC-2025-1648-CA and ENV-2025-1649-SE\n- **Commission Vote:** Approved without amendment on April 24, 2025\n- **Status:** Now being forwarded to the PLUM Committee of the City Council for consideration\n- **Required Actions:** The Council is asked to determine CEQA exemption applies, adopt both ordinances, and accept the Commission's findings\n\n## Impact\nThis amendment affects anyone involved in establishing, operating, or residing near emergency shelters in Los Angeles, including nonprofit organizations, service providers, city departments, and potentially affected neighborhoods. The changes could streamline shelter operations and may impact where and how quickly new shelters can be established throughout the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4100,
+    "output_tokens": 396,
+    "cost_usd": 0.00608
+  }
+}

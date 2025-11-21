@@ -1,0 +1,14 @@
+{
+  "historyId": "3a316ad9-36d8-47fe-859d-b9f2e4974bc9",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Communication from City Administrative Officer submitted 7-31-24 - 2nd Revised Attachment B-II",
+  "category": "other",
+  "summary": "# Summary: General Manager Salary Schedule for Los Angeles City\n\n## What is Being Proposed?\n\nThis document establishes biweekly salary ranges for Los Angeles City General Managers and related executive positions across multiple departments, effective through July 1, 2028. The 2nd Revision updates the salary schedule with specific dollar amounts for each position at nine different effective dates, with the final amounts becoming effective December 26, 2027, and remaining unchanged through July 1, 2028.\n\n## Why?\n\nThe salary schedule implements a series of planned cost-of-living adjustments (COLAs) to keep city executive compensation competitive and attract qualified leadership. The schedule reflects increases of 4% (June 2024), 2% (December 2024), 4% (June 2025), 2% (December 2025), 4% (June 2026), 2% (December 2026), 2% (June 2027), 2% (December 2027), and 0% (July 2028). These adjustments help maintain salary purchasing power and ensure the city can retain experienced managers.\n\n## Key Details\n\nThe schedule covers positions ranging from M-13 (highest) to M-7 (lowest) salary ranges, including the Chief Legislative Analyst ($23,220 biweekly by 2028), Fire Chief ($19,929.60), City Engineer ($17,404), and various department managers. Some positions—including General Manager positions at Airports, Water and Power, Harbor Department, Police, and others—show asterisks indicating \"Salary pending Board/Commission action,\" meaning those specific amounts require separate approval.\n\n## Impact\n\nThis affects approximately 40+ executive positions across the city government. City employees in these roles will receive predictable salary increases over the next three years, though residents will see these costs reflected in city budgets. The document enables the Mayor and relevant Boards/Commissions to set competitive salaries within established ranges under LA Charter Section 508.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8534,
+    "output_tokens": 437,
+    "cost_usd": 0.010719
+  }
+}

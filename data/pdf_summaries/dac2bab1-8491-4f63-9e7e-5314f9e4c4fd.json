@@ -1,0 +1,14 @@
+{
+  "historyId": "dac2bab1-8491-4f63-9e7e-5314f9e4c4fd",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Report from Department of City Planning dated 10-23-25 - Supplemental Transmittal",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1084\n\n## What is Being Proposed?\n\nThis is a supplemental transmittal from the City Planning Department to the City Clerk's Office regarding a zoning case (APCNV-2019-3202-ZCJ) for properties located at 11144, 11146, 11148 Lorne Street and 8032 Fair Avenue in the San Fernando Valley (Council District 6, ZIP code 91352). The document transmits a Letter to Council along with environmental documentation to support the proposed action.\n\n## Environmental Review\n\nThe project has been evaluated under the California Environmental Quality Act (CEQA) using a Mitigated Negative Declaration (MND), case number ENV-2019-3203-MND. This indicates that while the project may have some environmental impacts, those impacts can be mitigated to acceptable levels through specific conditions and requirements.\n\n## Key Details\n\n- **Planner Contact:** Dang Nguyen, (818) 374-5027\n- **Transmittal Date:** October 23, 2025\n- **Procedural Status:** Subject to Chapter 1 regulations as of January 21, 2024\n- **Transmitted By:** Ricardo Vazquez\n\n## What Residents Should Know\n\nWhile this transmittal form itself doesn't detail the specific proposal, it appears the City Planning Department is moving forward with a recommendation to the City Council regarding land use changes for these San Fernando Valley properties. The inclusion of a Letter to Council suggests the recommendation and rationale will be explained directly to council members for their consideration and potential action.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4080,
+    "output_tokens": 355,
+    "cost_usd": 0.005855000000000001
+  }
+}

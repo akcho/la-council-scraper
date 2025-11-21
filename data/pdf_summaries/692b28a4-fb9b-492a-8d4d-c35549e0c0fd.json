@@ -1,0 +1,14 @@
+{
+  "historyId": "692b28a4-fb9b-492a-8d4d-c35549e0c0fd",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 10-23-25 - Letter of Determination Correction",
+  "category": "other",
+  "summary": "# Summary: Correction to Zone Change Project Site (CF: 25-1084)\n\n## What is Being Proposed?\n\nThe Department of City Planning is requesting that the City Council correct the official project site boundaries for a previously approved zone change in Sun Valley. The original determination letter identified the project as being located at \"11146-11148 Lorne Street,\" but the correction seeks to formally include three addresses: **11144 Lorne Street, 11146-11148 Lorne Street, and 8032 N Fair Avenue**. The underlying project itself—a zone change from R1-1 to (T)(Q)RD1.5-1-CUGU to allow construction of a 17-unit apartment building—has already been approved and no appeals were filed.\n\n## Why This Correction is Necessary\n\nThe correction addresses two address omissions from the August 2025 determination letter. The address **8032 N Fair Avenue was inadvertently left out** despite being properly noticed in the original hearing and shown on all project plans and zone change maps. Additionally, **11144 Lorne Street**, while not officially recognized by the Bureau of Engineering, was raised during the public hearing by a resident who claimed not to have received proper notice. The Planning Department confirmed that this address is subject to the Rent Stabilization Ordinance according to the Housing and Community Investment Department, making it part of the actual project site.\n\n## Key Details\n\n- **Project Case Number:** APCNV-2019-3202-ZCJ\n- **Location:** Sun Valley-La Tuna Canyon Community Plan area, Los Angeles (ZIP 91352)\n- **Project Type:** Demolition and construction of 17-unit apartment complex\n- **Original Determination Date:** August 11, 2025\n- **Correction Request Date:** October 3, 2025 (supplemental transmittal); formally submitted October 22, 2025\n\n## Impact\n\nThis correction ensures **full transparency and proper legal documentation** for residents and property owners at all affected addresses, particularly protecting rent-stabilized tenants at 11144 Lorne Street who may have housing rights under Los Angeles ordinances.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4315,
+    "output_tokens": 482,
+    "cost_usd": 0.006725
+  }
+}

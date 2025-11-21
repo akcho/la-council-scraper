@@ -1,0 +1,14 @@
+{
+  "historyId": "04fc1544-4c80-4528-b209-c06b534232d5",
+  "council_file": "23-0100",
+  "meeting_id": 17367,
+  "original_filename": "Report from Trade, Travel, and Tourism Committee_02-7-23",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 23-0100\n\n## What is Being Proposed?\n\nThe Trade, Travel, and Tourism Committee is recommending that the Los Angeles City Council instruct two major city agencies—the Port of Los Angeles and Los Angeles World Airports—to submit a report on their sustainability practices and information-sharing efforts.\n\n## Why?\n\nThe motion, sponsored by Council Members McOsker and Yaroslavsky, seeks to improve coordination and transparency around sustainability initiatives across Los Angeles's major transportation hubs. By requiring these agencies to report on their practices, the city aims to identify best practices, share lessons learned, and ensure regional sustainability efforts are coordinated rather than siloed.\n\n## Key Details\n\nThe report should address: (1) emerging sustainability technologies and policies being used; (2) lessons learned about the effectiveness of current initiatives; and (3) how these agencies coordinate with other regional sustainability efforts. The committee unanimously approved the motion on February 7, 2023, with all three members voting yes. Notably, neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis, and no community impact statement was submitted.\n\n## Impact\n\nThis affects Los Angeles residents by potentially improving air quality, reducing emissions, and advancing climate goals at two critical transportation hubs. The report will help the city understand how well these agencies are working together and inform future sustainability policy decisions across the region.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2162,
+    "output_tokens": 298,
+    "cost_usd": 0.003652
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "093e88e2-5bc1-4713-b636-9299dc4b7f86",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Report from Housing and Homelessness Committee - 11-5-25",
+  "category": "staff_report",
+  "summary": "# Summary: Rent Stabilization Ordinance Amendment (File 23-1134)\n\n## What Is Being Proposed?\n\nThe Housing and Homelessness Committee is recommending changes to how annual rent increases are calculated for Los Angeles's rent-controlled apartments under the Rent Stabilization Ordinance (RSO). The committee wants to reduce the percentage of inflation that triggers rent increases from the current formula to 60%, establish a floor of 0% and a ceiling of 3% for annual increases, eliminate extra increases for gas and electricity costs, and ensure that having more family members doesn't automatically trigger higher rent increases.\n\n## Why These Changes?\n\nThe recommendations are based on an economic study conducted by the Los Angeles Housing Department. The goal is to provide more stability and predictability for rent-controlled tenants while still allowing landlords some compensation for inflation and operating costs. The committee also wants to help small landlords (those owning 2-10 units) with increased funding for maintenance and repairs rather than allowing unlimited rent increases.\n\n## Key Details\n\nThe committee voted 3-2 in favor of the recommendations on November 5, 2025 (Raman, Jurado, and Hutt voted yes; Blumenfield and McOsker voted no). The City Attorney has been asked to draft the formal ordinance. The changes would specifically modify Los Angeles Municipal Code sections 151.06.D, 151.07.A6, and 151.06.G. Funding for landlord repair programs would come from Measure ULA and County affordable housing resources.\n\n## Impact\n\nThis directly affects the roughly 600,000 Los Angeles residents living in rent-controlled housing. Tenants would face more predictable, capped rent increases. However, landlords—particularly small property owners—would see their income from rent increases limited, though they'd have access to repair funding programs.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4144,
+    "output_tokens": 410,
+    "cost_usd": 0.006194
+  }
+}

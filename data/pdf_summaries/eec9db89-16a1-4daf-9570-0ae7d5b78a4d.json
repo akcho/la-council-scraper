@@ -1,0 +1,14 @@
+{
+  "historyId": "eec9db89-16a1-4daf-9570-0ae7d5b78a4d",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_6-10-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 24-1587\n\n## What Is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the LA City Council approve technical amendments to the Los Angeles Municipal Code (LAMC) related to emergency shelter provisions. Specifically, the proposal would modify Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3 to align local regulations with state emergency shelter laws. The committee has asked the City Attorney to prepare two draft ordinances to implement these changes.\n\n## Why?\n\nLos Angeles declared a local shelter crisis, and California State law (Government Code Section 8698 et. seq.) established emergency shelter provisions to address this crisis. These proposed code amendments are technical modifications designed to bring the city's municipal code into alignment with the state's emergency shelter requirements, enabling the city to better implement state-mandated protections and provisions for homeless individuals during the declared crisis period.\n\n## Key Details\n\nThe PLUM Committee held a regular meeting on June 10, 2025, where it reviewed reports from the LA City Planning Commission (LACPC) and Department of City Planning (DCP). Four of five committee members present voted in favor (Blumenfield, Hutt, Nazarian, and Lee voted YES; Raman was absent). The proposal is categorically exempt from California Environmental Quality Act (CEQA) review under state law provisions related to emergency shelter crises. No fiscal impact statement or community impact statement was submitted with the report.\n\n## Impact\n\nThis primarily affects how the city administers emergency shelter programs during the declared shelter crisis. The amendments will facilitate compliance with state law and potentially streamline the approval and operation of emergency shelters in Los Angeles. The changes are administrative and technical in nature, intended to remove local barriers and align city code with state requirements for emergency shelter services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4074,
+    "output_tokens": 416,
+    "cost_usd": 0.006154
+  }
+}

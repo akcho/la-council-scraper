@@ -1,0 +1,14 @@
+{
+  "historyId": "4b7ff217-9d0a-450a-93c2-01c497a3be69",
+  "council_file": "25-1110",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Staff Report",
+  "category": "staff_report",
+  "summary": "# Summary: Siegel House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\n\nThe City of Los Angeles is recommending that the Siegel House at 12400 W. Deerbrook Lane in Brentwood be officially designated as a Historic-Cultural Monument (HCM). This designation would protect the property from incompatible alterations and ensure any future changes comply with historic preservation standards.\n\n## Why?\n\nThe Siegel House, completed in 1950, is an excellent example of Mid-Century Modern residential architecture designed by renowned architects A. Quincy Jones and Whitney R. Smith as part of the Mutual Housing Association (MHA)—a pioneering postwar cooperative housing development. The property exemplifies significant contributions to Los Angeles's cultural and social history by representing an innovative, successful large-scale housing cooperative with utopian ideals that brought modernist architecture to ordinary residents. Of the approximately 85 original MHA homes built, only 34 remain intact today, making this example particularly valuable.\n\n## Key Details\n\nThe one-story residence features characteristic Mid-Century Modern elements including exposed post-and-beam construction, open floor plans, floor-to-ceiling windows, concrete masonry block, and redwood siding. The property was designed by a joint venture of master architects A. Quincy Jones (1913-1979) and Whitney R. Smith (1911-2002), with structural engineer Edgardo Contini. The house has experienced some alterations since 1950, including carport enclosure (1953) and bedroom/bathroom expansion (1986). The Cultural Heritage Commission's hearing was scheduled for September 18, 2025, with an expiration date of September 30, 2025.\n\n## Impact\n\nDesignation as an HCM would protect the property's historic integrity and require any future modifications to comply with the Secretary of the Interior's Standards for historic preservation. This affects the current owners (James Sewell and Natasha Wellesley Miller) by restricting certain alterations, but helps preserve an important example of postwar American modernism and cooperative housing innovation for future generations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 141860,
+    "output_tokens": 464,
+    "cost_usd": 0.14418
+  }
+}

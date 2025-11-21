@@ -1,0 +1,14 @@
+{
+  "historyId": "07f75f4d-e7da-490b-a63d-12d48b24e1d6",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners 03_19_2013",
+  "category": "staff_report",
+  "summary": "# Summary: First Amendment to Permit 708 - Kinder Morgan Tank Storage Terminals\n\n## What is Being Proposed?\n\nThe Board of Harbor Commissioners is requesting City Council approval to extend Permit 708 with Kinder Morgan Tank Storage Terminals LLC for an additional five years (from 25 to 30 years total). The permit allows Kinder Morgan to operate a marine oil terminal at Berths 118-119 in the Port of Los Angeles. Under the amendment, Kinder Morgan would continue limited operations through April 2017, then gradually demolish facilities and remediate the contaminated site by April 2018.\n\n## Why?\n\nThe permit was set to expire in April 2013. Kinder Morgan requested an extension because construction delays at the Port of Long Beach prevented their planned relocation. More importantly, this amendment is tied to a settlement of ongoing litigation over another contaminated Kinder Morgan terminal at Berths 171-173, where the City is spending approximately $18 million to remediate roughly 256,000 tons of contaminated soil. By extending Permit 708, the City secures Kinder Morgan's commitment to comprehensive site cleanup at the current location while facilitating settlement of the separate legal dispute.\n\n## Key Details\n\n- **Rent adjustment:** Increased from $29 to $32 per square foot annually, generating approximately $1.8 million per year in rent for the first 2.5 years, then $800,000 for the final 2.5 years\n- **Surrender deadline:** Eastern tank farm must be surrendered by December 31, 2015; full site by April 14, 2018\n- **Remediation standard:** Kinder Morgan must remove all soil with petroleum hydrocarbon concentrations exceeding 1,000 mg/kg and install permanent groundwater monitoring wells\n- **Penalty for delay:** Rent increases up to 250% if Kinder Morgan holds over without authorization\n- **Parent company guarantee:** Kinder Morgan Energy Partners LP guarantees all obligations\n\n## Impact\n\nThis affects Port of Los Angeles operations and environmental cleanup. The amendment ensures contaminated industrial land will be remediated to environmental standards while generating City revenue during the transition. It also removes uncertainty around the separate $18 million cleanup lawsuit. Local residents and environmental advocates may be concerned about the timeline and remediation standards, while the Port and City benefit from continued rent payments and guaranteed cleanup obligations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 46925,
+    "output_tokens": 533,
+    "cost_usd": 0.04959
+  }
+}

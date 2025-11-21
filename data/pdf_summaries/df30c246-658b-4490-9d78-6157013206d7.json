@@ -1,0 +1,14 @@
+{
+  "historyId": "df30c246-658b-4490-9d78-6157013206d7",
+  "council_file": "25-0005-S134",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department (769444) dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Removal for 590 N New Hampshire Ave (Case No. 769444)\n\n## What is Being Proposed?\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove a property at 590 N New Hampshire Ave from the Rent Escrow Account Program (REAP) and terminate the rent reductions currently in effect for tenants. This action would restore rents to their original levels and close the escrow account holding funds collected during the enforcement period.\n\n## Why?\nThe property was placed into REAP in September 2022 after Code Enforcement cited 24 violations including fire safety issues, weatherproofing problems, maintenance deficiencies, and plumbing/gas concerns. According to LAHD, all code violations have now been corrected and independently verified. The property owner has also paid all outstanding water and electric charges. Because the violations have been resolved, LAHD determines the property no longer needs to remain in the enforcement program.\n\n## Key Details\n- **Property**: 590 N New Hampshire Ave, Los Angeles CA 90004 (4 units total)\n- **Case Number**: 769444\n- **Case Opened**: September 8, 2022\n- **Current Status**: Property has been demolished\n- **Scheduled for City Council Vote**: October 29, 2025\n\n## Impact\nTenants currently receiving reduced rent will have their rents restored to original levels 30 days after notification. The escrow account funds will be distributed first to cover LAHD administrative fees and penalties, then to the landlord. Future inspections will be required, and the owner must prepay for two additional annual inspections.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6853,
+    "output_tokens": 373,
+    "cost_usd": 0.008718
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "72666209-7277-4a8e-a775-85309f1c7917",
+  "council_file": "25-1200-S54",
+  "meeting_id": 17283,
+  "original_filename": "Report from Mayor dated 9-29-25",
+  "category": "staff_report",
+  "summary": "# Summary of Mayor's Report on Board of Library Commissioners Appointment\n\n## What is Being Proposed\nMayor Karen Bass is asking the Los Angeles City Council to confirm the appointment of Fabian Renee Wesson to the Board of Library Commissioners for a term ending June 30, 2027. This appointment fills a vacancy created by the departure of Hiram Sims.\n\n## Why\nThe Board of Library Commissioners provides governance and oversight for the Los Angeles Public Library system. The Mayor certifies that Ms. Wesson is \"especially qualified by reason of training and experience\" for this position and that the appointment is made \"solely in the interest of the City.\"\n\n## Key Details\nMs. Wesson is an African American female resident of Council District 10 (South Los Angeles) and a registered voter in Los Angeles. She holds an Associate Arts degree in Business Administration and previously served as Assistant Deputy Executive Officer/Public Advisor at the South Coast Air Quality Management District (2016-2020), where she managed the Environmental Justice Program. She also has extensive experience in California state government as a principal consultant to multiple state senators and legislators. She currently serves on the California Science Center State Board of Directors and has held past positions with the LA Memorial Coliseum Commission.\n\n## Impact and Next Steps\nIf confirmed, Ms. Wesson would join four other commissioners representing different Los Angeles districts. The City Council must confirm this appointment. Ms. Wesson must complete required steps including background checks, ethics filings (Form 700), and attend committee hearings before the full Council vote and oath of office.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 11334,
+    "output_tokens": 342,
+    "cost_usd": 0.013044
+  }
+}

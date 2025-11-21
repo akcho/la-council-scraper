@@ -1,0 +1,14 @@
+{
+  "historyId": "1eb5b80f-9a6a-4318-9e22-744854cee5ff",
+  "council_file": "25-0002-S88",
+  "meeting_id": 17455,
+  "original_filename": "Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Airport Noise Reduction Act Support (File 25-0002-S88)\n\n## What is Being Proposed?\nThe Rules, Elections and Intergovernmental Relations Committee is recommending that the City of Los Angeles officially support H.R. 5205, the Airport Noise Reduction Act, as part of the city's 2025-26 Federal Legislative Program. This support requires approval from the full City Council, subject to the Mayor's concurrence.\n\n## Why?\nResidents living near airports face significant health impacts from aircraft noise, including sleep disturbance, increased stress levels, and impaired cognitive function. However, current federal law prevents airport owners and operators from imposing flight restrictions to reduce noise pollution. H.R. 5205 would provide the City of Los Angeles with additional legal tools to address noise issues at general aviation airports, particularly those affecting nearby residential communities.\n\n## Key Details\nThe original resolution was introduced on October 7, 2025, and considered by the committee on October 21, 2025. All five committee members—Harris-Dawson, Raman, Yaroslavsky, Soto-Martinez, and Lee—voted unanimously in favor of the recommendation. No financial analysis has been completed, and no community impact statement was submitted.\n\n## Impact\nThis resolution would benefit residents in communities adjacent to general aviation airports by potentially enabling the city to implement noise mitigation measures currently prohibited under federal law. The action is primarily symbolic at the local level but positions Los Angeles to advocate for federal legislative change that could improve quality of life and public health for affected neighborhoods.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2266,
+    "output_tokens": 346,
+    "cost_usd": 0.0039959999999999996
+  }
+}

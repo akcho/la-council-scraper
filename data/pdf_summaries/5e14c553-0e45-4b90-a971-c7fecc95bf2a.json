@@ -1,0 +1,14 @@
+{
+  "historyId": "5e14c553-0e45-4b90-a971-c7fecc95bf2a",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Council Action dated 9-15-25",
+  "category": "other",
+  "summary": "# Summary of Council File 25-0030\n\n## What is Being Proposed?\n\nThe Los Angeles City Council adopted a resolution on September 10, 2025, that formally recognizes and validates the Mayor's declarations of local emergency issued on January 7, 2025, and updated on January 13, 2025. This resolution, sponsored by Council Members Harris-Dawson and Blumenfield, gives official council approval to the emergency status that was initially declared by Mayor Karen Bass.\n\n## Why?\n\nThe emergency declarations were necessary in response to a severe windstorm and extreme fire weather system that caused devastating wildfires across Los Angeles in January 2025. By formally adopting this resolution, the City Council officially recognizes the emergency conditions and provides legal authorization under Los Angeles Administrative Code Section 8.27 for emergency response measures and resource allocation.\n\n## Key Details\n\n- **Council Vote:** Unanimous approval (15-0) with all voting members present voting \"YES\"\n- **Emergency Dates:** Initial declaration January 7, 2025; updated January 13, 2025\n- **Cause:** Windstorm, extreme fire weather, and devastating wildfires\n- **Action Date:** September 10, 2025 (Council Meeting)\n- **Sponsors:** Council Members Harris-Dawson and Blumenfield\n\n## Impact\n\nThis resolution enables the city to continue implementing emergency response protocols, accessing emergency funds, and deploying resources for wildfire recovery and relief efforts. It affects all Los Angeles residents impacted by the January wildfires by formalizing the emergency status needed for federal assistance, expedited permitting, and other emergency procedures.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2185,
+    "output_tokens": 361,
+    "cost_usd": 0.00399
+  }
+}

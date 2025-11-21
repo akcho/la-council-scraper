@@ -1,0 +1,14 @@
+{
+  "historyId": "eb7c0cb4-d00b-402f-beb5-90e9a7d4a422",
+  "council_file": "25-1163",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Attorney Request for Closed Session on Settlement Discussion\n\n## What is Being Proposed?\n\nThe City Attorney is requesting that the Los Angeles City Council hold a closed session to discuss settlement negotiations in the case of **Agavni Khachatryan v. City of Los Angeles** (LASC Case No. 22VEV02252). This closed session would allow council members to receive legal advice from the City Attorney's office regarding the recommendation for Claims Board action in this pending litigation.\n\n## Why?\n\nThis matter arises from a **trip and fall accident that occurred on June 22, 2022, on an uneven sidewalk at 7346 Beck Avenue in North Hollywood, California**. The City of Los Angeles is defendant in the lawsuit, and settlement discussions are underway. Under California Government Code Section 54956.9(d)(1), the city is authorized to hold closed sessions to confer with legal counsel regarding pending litigation.\n\n## Key Details\n\n- **Case:** Agavni Khachatryan v. City of Los Angeles\n- **Claim Number:** C23-00733\n- **Incident Date:** June 22, 2022\n- **Location:** 7346 Beck Avenue, North Hollywood\n- **Contact:** Dikran Sassounian, Assistant Chief, Civil Litigation Branch, (213) 978-8335\n\n## Impact\n\nThis affects residents through potential settlement of a personal injury claim against the city. The closed session allows legal discussions to occur confidentially before any public action is taken, protecting the city's litigation strategy while ultimately determining how city resources are used in this case.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 356,
+    "cost_usd": 0.005097
+  }
+}

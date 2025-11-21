@@ -1,0 +1,14 @@
+{
+  "historyId": "6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955",
+  "council_file": "25-1037",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Communication dated 10-23-25 - Appeal Response",
+  "category": "appeal",
+  "summary": "# Summary of Appeal Response for 8251 West Melrose Avenue Project\n\n## What is Being Proposed?\nThe City Planning Department is recommending that the Los Angeles City Council **deny an appeal** filed against the City Planning Commission's August 6, 2025 approval of a mixed-use development project at 8251 West Melrose Avenue in Hollywood. The project involves demolishing four existing commercial buildings and constructing a 110,300 square-foot mixed-use building with 90 residential units (10 restricted for very low-income households) and 15,271 square feet of commercial space.\n\n## The Appeal and Key Concerns\nEva Nathanson, an abutting property owner, appealed the project approval, raising three main objections: (1) the project doesn't comply with all applicable General Plan policies regarding mobility, safety, noise, air quality, and housing; (2) the environmental review lacks substantial evidence that the project won't significantly impact traffic, noise, air quality, or water quality; and (3) unusual circumstances and cumulative impacts from other nearby density bonus projects should prevent use of the categorical exemption from environmental review.\n\n## City Planning's Response\nThe Department of City Planning argues that the appellant has not provided sufficient evidence to support these claims. They assert that: the project meets all required General Plan policies through analysis already completed; traffic modeling shows the project won't exceed thresholds requiring a full transportation study; independent noise and air quality studies confirm impacts are within acceptable limits; and site conditions like high water tables are typical urban conditions, not unusual circumstances. The City also notes that under state law, once the City demonstrates substantial evidence supporting the exemption, the burden shifts to the appellant to prove otherwise.\n\n## Recommendation and Impact\nPlanning Staff recommends the Council deny the appeal and approve the project, which would add 90 housing units (including affordable units) to Hollywood while converting underutilized commercial properties. The decision affects the surrounding West Hollywood/Hollywood community and sets precedent for how the City applies environmental exemptions to infill development projects.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14371,
+    "output_tokens": 443,
+    "cost_usd": 0.016586
+  }
+}

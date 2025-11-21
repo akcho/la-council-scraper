@@ -1,0 +1,14 @@
+{
+  "historyId": "62467f64-b55b-4de0-9964-c31404eab541",
+  "council_file": "25-0906",
+  "meeting_id": 17406,
+  "original_filename": "Report from Board of Recreation and Park Commissioners dated 8-07-25",
+  "category": "staff_report",
+  "summary": "# Summary: Communication Services Fund Transfer for Recreation and Parks\n\n## What is Being Proposed?\n\nThe Board of Recreation and Park Commissioners is requesting approval to transfer $400,000 from the Department of Recreation and Parks (RAP) to the Information Technology Agency (ITA) for Fiscal Year 2025-26. This appropriation would allow RAP to reimburse ITA for various communication services on an as-needed basis without delays.\n\n## Why?\n\nITA provides essential communication services to RAP that are necessary for park operations and management. Rather than requesting funds reactively as services are needed, this upfront appropriation allows both departments to operate efficiently, ensuring RAP can access required services as they arise throughout the fiscal year.\n\n## Key Details\n\nThe $400,000 will be transferred from RAP's special fund (not the General Fund) to ITA's Communication Services account. Services covered include: City Network Interconnection, Internet Service, Network Port Activation, Intrusion Alarm System, Security Camera System, Public Address Systems, Radio Programming, and VoIP/prepaid phone services. RAP's Chief Accounting Employee will transfer funds in cash as proper documentation is received and approved by RAP's IT Division. The Board approved this on July 17, 2025, pending Mayor and City Council approval.\n\n## Impact\n\nThis affects all Los Angeles parks and recreation facilities that depend on ITA's communication infrastructure. There is no negative impact on RAP's General Fund, as the source is RAP's special fund. The arrangement supports RAP's strategic goal of maintaining world-class parks and facilities through improved technology solutions.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 10078,
+    "output_tokens": 349,
+    "cost_usd": 0.011823
+  }
+}

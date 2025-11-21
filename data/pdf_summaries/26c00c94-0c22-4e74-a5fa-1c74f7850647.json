@@ -1,0 +1,14 @@
+{
+  "historyId": "26c00c94-0c22-4e74-a5fa-1c74f7850647",
+  "council_file": "25-0900-S46",
+  "meeting_id": 17283,
+  "original_filename": "Report from Bureau of Street Lighting dated 8-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Kester Avenue & Chase Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Department of Public Works' Bureau of Street Lighting is proposing to establish a street lighting maintenance assessment district for Kester Avenue (between 165' and 315' south of Chase Street) in Council District 6. The proposal would create a special assessment on four affected property parcels to fund the operation, maintenance, and electric energy costs for one new streetlight in this area. The City Council is being asked to adopt an Ordinance of Intention to proceed with this assessment under Proposition 218 requirements, which mandates that property owners must vote to approve such assessments.\n\n## Why This is Being Proposed?\n\nThis is a proposed private development project that requires a new streetlight as part of its conditions. Per City policy and Proposition 218, the property owners who directly benefit from this street lighting must pay for its operation and maintenance costs—not the general taxpayer. The Bureau must follow a specific legal process: establish the assessment district, notify property owners, conduct a weighted ballot vote, and only proceed if weighted \"yes\" votes equal or exceed weighted \"no\" votes.\n\n## Key Details\n\n- **Location:** Kester Avenue at Chase Street, Council District 6\n- **Affected Parcels:** 4 properties\n- **Total Annual Assessment:** $1,041.59 for fiscal year 2025-2026\n- **Assessment Breakdown:** One property (MFR) pays $635.12 (60.98%); three single-family residences pay $152.43, $127.02, and $127.02 respectively\n- **Benefit Zone:** Zone 2 (modern lighting system on residential streets at $101.62 per base unit)\n- **Type of Project:** Proposed private development\n\n## Impact\n\nThese four property owners will receive ballots and must vote on whether to approve the assessment. Only if weighted \"yes\" votes meet or exceed weighted \"no\" votes will the assessments be levied. If approved, property owners will pay approximately $101-$635 annually to maintain the streetlight. If rejected, the lighting system will not be constructed or will be removed from service.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 43300,
+    "output_tokens": 484,
+    "cost_usd": 0.04572
+  }
+}

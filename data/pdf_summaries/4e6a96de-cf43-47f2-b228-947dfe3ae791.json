@@ -1,0 +1,14 @@
+{
+  "historyId": "4e6a96de-cf43-47f2-b228-947dfe3ae791",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1084\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council approve a zone change and new housing development at three properties in the North Valley area: 11144 Lorne Street, 11146-11148 Lorne Street, and 8032 North Fair Avenue. The rezoning would change the properties from single-family residential (R1-1-CUGU) to a mixed-use residential zone (T)(Q)RD1.5-1-CUGU), enabling the demolition of three existing single-family homes and their replacement with a 17-unit apartment complex with attached garages on the approximately 26,300 square foot lot.\n\n## Why This Matters\n\nThe project advances the City's housing goals by creating new residential units, including two permanently affordable units (one for extremely low-income households and one for very low-income households) alongside 15 market-rate units. The Committee determined that with required mitigation measures, the project will have no substantial environmental impact. The project was reviewed and approved by the North Valley Area Planning Commission and is now ready for full City Council consideration.\n\n## Key Details\n\n- **Project**: 17-unit apartment complex replacing 3 single-family homes\n- **Affordable Housing**: 2 units (11.8% of total units)\n- **Applicant**: Sogomon Petrosyan (Oscar Ensafi, representative)\n- **Environmental Review**: Mitigated Negative Declaration (MND) with mitigation measures\n- **Deadline**: Council must act by December 12, 2025\n- **Fiscal Impact**: No General Fund impact; administrative costs recovered through fees\n\n## Impact\n\nThis project adds housing capacity to the North Valley neighborhood and contributes to the City's affordable housing supply. The zone change requires substantial development within six years or the approval expires. Residents in the area may experience temporary construction impacts, though these are deemed mitigable through conditions of approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4567,
+    "output_tokens": 450,
+    "cost_usd": 0.006817
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "cb056b04-9ab5-466b-99c4-62423756d596",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Council Action 08_30_2017",
+  "category": "other",
+  "summary": "# Summary of Council File 12-0344\n\n## What is Being Proposed?\nThe Los Angeles City Council approved the Third Amendment to Permit No. 897 with Catalina Channel Express, Inc. at the Port of Los Angeles. This amendment expands the company's permitted premises to accommodate freight operations and increases the minimum annual rent paid to the city.\n\n## Background and Rationale\nThe amendment relates to a sublease arrangement between Catalina Channel Express, Inc. and Avalon Freight Services, LLC. The expansion of permitted premises is needed to support freight operations under this sublease agreement. By increasing the minimum annual rent alongside the expanded operations, the city ensures appropriate compensation for the additional port space being utilized.\n\n## Key Details\n- **Permit:** Permit No. 897 with Catalina Channel Express, Inc.\n- **Location:** Port of Los Angeles\n- **Related Party:** Avalon Freight Services, LLC. (sublease operator)\n- **Committee Action:** Trade, Travel and Tourism Committee Report adopted on August 25, 2017\n- **Vote:** 12 council members voted YES, 4 were ABSENT\n- **Exemptions:** Administrative and categorical exemptions were approved\n\n## Impact\nThis action enables expanded freight operations at the Port of Los Angeles while generating increased revenue for the city through higher minimum annual rent. The decision supports commercial activity at the port and reflects the city's management of its maritime facilities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2267,
+    "output_tokens": 313,
+    "cost_usd": 0.003832
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "9d28f4e5-b9d9-4564-b213-b7d12add28bc",
+  "council_file": "25-0008-S24",
+  "meeting_id": 17406,
+  "original_filename": "Resolution (Park - Rodriguez)  dated 9-05-25",
+  "category": "other",
+  "summary": "# Summary: Oversized Vehicle Parking Restriction Resolution\n\n## What is Being Proposed?\nThe Los Angeles City Council is adopting a resolution to prohibit parking of oversized vehicles (those exceeding 22 feet in length or 7 feet in height) during nighttime hours (2:00 a.m. to 6:00 a.m.) on three street segments in Council District 11. The Department of Transportation will post \"tow away, no parking\" signs at these locations to inform the public of the restriction.\n\n## Why?\nThe resolution addresses a growing problem in District 11 where large vehicles are frequently parked overnight on residential streets, obstructing travel lanes and creating dangerous traffic conditions. This action is authorized under California Vehicle Code Section 22507 and Los Angeles Municipal Code Section 80.69.4, which grant cities the authority to restrict oversized vehicle parking.\n\n## Key Details\nThe parking restrictions apply to both sides of three street segments:\n- **Stoner Avenue** (Brookhaven Avenue to Sardis Avenue)\n- **Imlay Avenue** (Culver Drive to Utopia Avenue)\n- **Lucerne Avenue** (Sepulveda Boulevard to Beloit Avenue)\n\nRestrictions are in effect from 2:00 a.m. to 6:00 a.m. daily. The resolution was presented by Councilwoman Traci Park (District 11) and dated September 5, 2025.\n\n## Impact\nResidents in the affected neighborhoods will see enforcement of overnight parking restrictions on large vehicles. The measure aims to improve traffic flow and public safety by clearing lanes during nighttime hours while still allowing oversized vehicle parking during daytime hours.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1771,
+    "output_tokens": 379,
+    "cost_usd": 0.003666
+  }
+}

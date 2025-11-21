@@ -1,0 +1,14 @@
+{
+  "historyId": "e04f79dd-2c09-4826-a931-6b19846dedfd",
+  "council_file": "23-0670-S2",
+  "meeting_id": 17407,
+  "original_filename": "Report from Housing and Homelessness Committee - 7-30-25",
+  "category": "staff_report",
+  "summary": "# Summary: Opioid Settlement Fund Programs and Services\n\n## What is Being Proposed?\n\nThe Housing and Homelessness Committee is recommending that Los Angeles City Council approve a comprehensive plan to use Opioid Settlement Funds for expanding community-based opioid remediation services across the city. The main action includes allocating $2.1 million to the Department on Disability (DOD) to create a competitive bidding process for organizations to deliver opioid recovery services in seven regions: East Valley, West Valley, East, Central, Harbor, West, and South Los Angeles. Each region would receive $300,000 in funding. The committee also recommends streamlining reimbursements for existing opioid services and establishing a new Westlake Area Harm Reduction Drop-In Center through a City/County partnership.\n\n## Why This Is Needed\n\nLos Angeles has received opioid settlement funds from pharmaceutical litigation and expects to receive approximately $4-5 million annually for the next 18 years. Rather than letting these funds sit unused, the city aims to maximize their impact by supporting proven opioid remediation strategies. The recommendations ensure that existing programs administered by the Housing Department and Department on Disability receive proper reimbursement, while also expanding services to underserved areas through community-based health organizations.\n\n## Key Details\n\nThe Opioid Trust Fund currently has approximately $22 million, with $7.9 million already encumbered for inpatient services and $3 million set aside for the Westlake Drop-In Center, leaving about $11.1 million available. The Committee voted 2-1 (with one absent) on July 30, 2025, to approve these measures. Additional requirements include staffing support funded through the settlement money and 90-day and ongoing progress reports to track outcomes.\n\n## Impact\n\nThis plan will make opioid recovery services more accessible across all seven regions of Los Angeles, particularly benefiting unhoused individuals and those with substance use disorders. It affects community-based health organizations that will compete for contracts, city departments coordinating the programs, and most importantly, residents struggling with opioid addiction who will have expanded access to harm reduction and remediation services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4288,
+    "output_tokens": 483,
+    "cost_usd": 0.006703000000000001
+  }
+}

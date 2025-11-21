@@ -1,0 +1,14 @@
+{
+  "historyId": "30fb338b-0035-4c25-809c-63f7c1ede640",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_04-10-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comments on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\n\nTwo housing rights advocates affiliated with LA CAN (Los Angeles Community Action Network) are submitting public comments urging the Los Angeles City Council to reform the Rent Stabilization Ordinance (RSO). They specifically demand that the Council adopt \"Keep LA Housed\" proposals to modify the RSO formula by: (1) capping annual rent increases at 60% of the Consumer Price Index (CPI) or 3%, whichever is lower, with no minimum increase guarantee, and (2) eliminating additional rent increases currently applied for utilities and extra occupants.\n\n## Why?\n\nThe commenters argue that current rent increase allowances under the RSO are unaffordable and unsustainable for struggling Los Angeles tenants, even though the ordinance is credited with helping keep millions housed. They cite research showing that a $100 increase in median rent correlates with a 9% increase in homelessness. They also contend that charging families extra fees simply for having children or elderly relatives in their household is unjust. Other jurisdictions—LA County, Santa Monica, and West Hollywood—have successfully implemented more reasonable rent caps without harming their housing markets.\n\n## Key Details & Impact\n\n**Urgency:** New rent increases take effect in July 2025, making immediate City Council action critical. **Geographic scope:** The speakers represent Council District 14 (and beyond) and represent renters throughout Los Angeles. **Affected populations:** Primarily low-income families, elderly residents, and households with children who face cost-of-living pressures beyond housing, including food, medical care, transportation, and childcare. The commenters emphasize that every percentage point increase in rent directly reduces tenants' ability to afford other necessities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4095,
+    "output_tokens": 403,
+    "cost_usd": 0.006109999999999999
+  }
+}

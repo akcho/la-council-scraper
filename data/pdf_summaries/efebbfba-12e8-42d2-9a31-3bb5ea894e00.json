@@ -1,0 +1,14 @@
+{
+  "historyId": "efebbfba-12e8-42d2-9a31-3bb5ea894e00",
+  "council_file": "25-1037",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Communication dated 10-23-25 - Revised Findings",
+  "category": "findings",
+  "summary": "# Summary of Council File 25-1037: Mixed-Use Development with Affordable Housing\n\n## What is Being Proposed?\n\nThe City Planning Commission is approving a mixed-use development project at the corner of Melrose Avenue and Harper Avenue in Hollywood that will replace four existing commercial buildings with a new six-story building containing 90 residential units and approximately 15,271 square feet of ground-floor commercial retail space. Importantly, the project includes 10 affordable units (15% of total units) reserved for Very Low Income households for 55 years.\n\n## Why This Matters\n\nThe project requests three special land-use incentives under California's Density Bonus Program to make the affordable housing feasible. These incentives allow the developer to exceed normal zoning limits on building height (69 feet instead of 30 feet), floor area ratio (4.52:1 instead of 1.5:1), and reduce required open space slightly (from 9,800 to 7,840 square feet). The document establishes that these incentives directly reduce construction costs, allowing the developer to afford the affordable units while providing varied unit sizes and neighborhood services.\n\n## Key Details\n\n- **Location:** Hollywood Community Plan area (C4-1XL zone)\n- **Project Size:** 110,300 total square feet; 90 units (68 one-bedroom, 17 two-bedroom, 5 three-bedroom units)\n- **Affordable Component:** 10 Very Low Income units at restricted rents for 55 years\n- **Parking:** 96 vehicle spaces (well below the 231 normally required) and 94 bicycle parking spaces\n- **Environmental Status:** Project is exempt from full environmental review under California's Class 32 in-fill exemption\n\n## Impact\n\nThis project will add needed housing in a transit-rich area (near Metro Bus routes) while creating affordable options for very low-income residents. The development aligns with the City's Housing Element goals and contributes to the Hollywood area's economic vitality through ground-floor retail activation. Neighbors can expect a six-story building with improved pedestrian retail along Melrose Avenue, though the project's height represents a significant change from the current two-story commercial buildings in the area.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 36948,
+    "output_tokens": 496,
+    "cost_usd": 0.039428000000000005
+  }
+}

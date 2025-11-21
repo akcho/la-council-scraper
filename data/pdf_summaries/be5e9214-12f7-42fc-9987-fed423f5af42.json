@@ -1,0 +1,14 @@
+{
+  "historyId": "be5e9214-12f7-42fc-9987-fed423f5af42",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_05-08-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public on LARSO Rent Increase Formula (CF 23-1134)\n\n## What is Being Proposed?\n\nMaria Briones, writing on behalf of the Keep LA Housed Coalition, is urging the City Council to amend the Los Angeles Rent Stabilization Ordinance (LARSO) by adopting a new formula for annual rent increases. The proposed formula would cap annual rent increases at **60% of the Consumer Price Index (CPI) or 3%, whichever is lower**, with no utility pass-throughs, no increases for additional tenants, no rent banking, and no exemptions for small landlords.\n\n## Why?\n\nLos Angeles tenants are facing a severe rent burden crisis, with many already unable to afford basic necessities alongside rent payments. The writer argues that the current LARSO formula fails to adequately protect tenants from displacement and homelessness. The proposed 3%/60% CPI formula would protect tenants during high-inflation years while remaining constitutionally sound and providing reasonable returns for landlords. The letter notes that similar formulas already exist in other California cities, including several in Los Angeles County.\n\n## Key Details\n\n- **Council File Number:** 23-1134\n- **Submission Date:** May 8, 2025\n- **Proposed Formula:** Lower of 3% or 60% CPI change\n- **Supporting Organization:** Keep LA Housed Coalition, ACCE\n\n## Impact\n\nThis policy would directly affect both tenants and landlords across Los Angeles. Tenants would face more predictable, potentially lower rent increases, reducing displacement risk. Landlords would receive regulated but constitutionally protected returns on their investments. The letter emphasizes that each percentage point matters—small differences could determine whether tenants can remain housed.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2306,
+    "output_tokens": 393,
+    "cost_usd": 0.0042710000000000005
+  }
+}

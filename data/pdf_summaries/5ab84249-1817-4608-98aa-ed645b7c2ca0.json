@@ -1,0 +1,14 @@
+{
+  "historyId": "5ab84249-1817-4608-98aa-ed645b7c2ca0",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_10-30-2025",
+  "category": "other",
+  "summary": "# Summary: Los Angeles Rent Stabilization Ordinance Annual Rent Increase Formula (CF 23-1134)\n\n## What is Being Proposed?\nImmigrants Are Los Angeles, on behalf of the Keep LA Housed Coalition, is urging the City Council to amend the current rent increase formula under the Los Angeles Rent Stabilization Ordinance (LARSO). The organization proposes adopting a \"3%/60% CPI formula\" that would cap annual allowable rent increases at whichever is lower: 60% of the change in the Consumer Price Index or 3%. The proposal also eliminates utility pass-throughs, prohibits increases for additional tenants, eliminates rent banking, and removes exemptions for small landlords.\n\n## Why?\nLos Angeles tenants face a severe rent burden crisis, with many already forced to choose between paying rent and affording basic necessities like food and medicine. The organization argues that the current formula fails to adequately protect tenants from displacement and homelessness, particularly during periods of high inflation. They contend that the proposed formula is both constitutionally sound and aligns with rent stabilization practices in other California cities, including several in Los Angeles County.\n\n## Key Details\nThe letter emphasizes that each additional percentage point in the annual rent increase formula can determine whether a tenant can afford to remain housed or faces displacement. The organization frames the 3%/60% CPI formula as striking a balance between protecting tenants from unaffordable steep increases and ensuring landlords receive constitutionally reasonable returns on their investments.\n\n## Impact\nThis policy directly affects Los Angeles renters and landlords. Lower rent increase caps would help stabilize housing costs for vulnerable tenants, particularly immigrants and low-income households, while potentially reducing landlord revenue during inflationary periods. The change could influence housing stability and homelessness rates across the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4288,
+    "output_tokens": 405,
+    "cost_usd": 0.006313
+  }
+}

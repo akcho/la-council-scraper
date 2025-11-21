@@ -1,0 +1,14 @@
+{
+  "historyId": "e1224371-2d65-4d48-a86b-79fa1e85f8f0",
+  "council_file": "25-1207",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Attorney dated 10-15-25",
+  "category": "staff_report",
+  "summary": "# Summary: Proposed Legal Services for City Deferred Compensation Plan\n\n## What is Being Proposed\n\nThe City Attorney's Office is requesting City Council authorization to enter into three-year contracts with three law firms—Groom Law Group, Kutak Rock LLP, and Nossaman LLP—to provide fiduciary counsel services for the Board of Deferred Compensation Administration. An initial budget of $30,000 is requested to be split jointly or severally among the three firms, with funding coming from the Deferred Compensation Plan itself.\n\n## Why This is Needed\n\nThe City Attorney's Office determined that the Board of Deferred Compensation Administration requires specialized outside legal counsel with fiduciary expertise. These law firms will provide guidance on fiduciary responsibilities and related legal matters. The request is being submitted as a closed-session item under California Government Code Section 54956.9(d)(1), suggesting sensitive personnel or legal considerations warrant confidential discussion.\n\n## Key Details\n\n- **Report Number:** R25-0515 (dated October 15, 2025)\n- **Contract Duration:** Three years\n- **Initial Budget:** $30,000 (subject to potential supplemental funding if needed)\n- **Funding Source:** Deferred Compensation Plan\n- **Contact:** Assistant City Attorney Charles Hong at (213) 978-7782\n\n## Impact\n\nThis affects City of Los Angeles employees who participate in the Deferred Compensation Plan. The specialized legal counsel will help ensure the plan operates in compliance with fiduciary laws, protecting plan participants' retirement savings and ensuring proper plan administration.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3734,
+    "output_tokens": 350,
+    "cost_usd": 0.005484
+  }
+}

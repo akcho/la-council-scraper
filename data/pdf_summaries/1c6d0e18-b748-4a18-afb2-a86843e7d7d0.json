@@ -1,0 +1,14 @@
+{
+  "historyId": "1c6d0e18-b748-4a18-afb2-a86843e7d7d0",
+  "council_file": "14-0958",
+  "meeting_id": 17406,
+  "original_filename": "Report from Public Works and Gang Reduction Committee 08_28_2014",
+  "category": "staff_report",
+  "summary": "# Council File 14-0958 Summary\n\n## What is Being Proposed?\n\nThe Public Works and Gang Reduction Committee is recommending the temporary closure of 121st Street between Figueroa Street and Hoover Street for a period of 18 months. This action requires full City Council approval to take effect.\n\n## Why?\n\nThe street closure is proposed as a gang reduction and public safety measure. The committee found substantial evidence of serious and continual criminal activities occurring on this street. The theory is that closing the street will reduce criminal activity by eliminating vehicle and pedestrian traffic that currently contributes to these crimes. Property owners adjacent to the street have agreed to the closure, indicating community support.\n\n## Key Details\n\n- **Location:** 121st Street between Figueroa and Hoover Streets\n- **Duration:** 18 months (temporary)\n- **Legal Basis:** California State Vehicle Code Section 21101.4\n- **Cost:** Bureau of Engineering absorbing approximately $5,000 in processing costs; maintenance expenses by City forces will be eliminated\n- **Committee Vote:** Two members voted YES (Buscaino, Price); one ABSENT (Cedillo)\n- **Date Considered:** August 20, 2014\n\n## Impact\n\nResidents and property owners in the area will lose direct vehicular and pedestrian access to this street segment. However, the committee determined this closure will not substantially harm traffic flow on adjacent streets or affect emergency vehicle operations. The primary impact is a public safety measure intended to reduce gang and criminal activity in the neighborhood.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3861,
+    "output_tokens": 339,
+    "cost_usd": 0.005556
+  }
+}

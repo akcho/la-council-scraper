@@ -1,0 +1,14 @@
+{
+  "historyId": "30588c15-47fe-4a28-a56c-6c2220cd17c2",
+  "council_file": "25-1250",
+  "meeting_id": 17283,
+  "original_filename": "Report from Housing and Homelessness Committee - 11-5-25",
+  "category": "staff_report",
+  "summary": "# Summary: El Dorado Family Apartments Loan Extension (File 25-1250)\n\n## What is Being Proposed?\nThe Housing and Homelessness Committee recommends extending the loan term for El Dorado Family Apartments, a affordable housing project located at 12129 El Dorado Avenue in Council District 7. Specifically, the committee is asking the City to extend the maturity date of a HOME loan (BA0517) to November 13, 2061, aligning it with when the property's affordability restrictions expire. The City Attorney is also being asked to prepare necessary legal documents to support this extension.\n\n## Why?\nThe document does not explicitly state the rationale, but the action appears designed to preserve long-term affordability at this housing project. By extending the loan term to match the affordability restrictions expiration date, the City is ensuring the property remains subject to affordable housing requirements for the extended period.\n\n## Key Details\n- **Property:** 12129 El Dorado Avenue, CD 7\n- **New loan maturity date:** November 13, 2061\n- **Loans involved:** HOME loan BA0517 and CRA loan CRA872559-002\n- **Fiscal impact:** None to the General Fund\n- **Committee vote:** Unanimous approval (5-0, all members voting YES)\n\n## Impact\nThis action preserves affordable housing for residents in Council District 7 at no cost to the City's general budget. The extension ensures that El Dorado Family Apartments will remain affordable for an extended period, supporting the City's housing stability goals.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2311,
+    "output_tokens": 351,
+    "cost_usd": 0.004066
+  }
+}

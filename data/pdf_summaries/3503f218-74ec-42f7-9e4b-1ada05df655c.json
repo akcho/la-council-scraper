@@ -1,0 +1,14 @@
+{
+  "historyId": "3503f218-74ec-42f7-9e4b-1ada05df655c",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Council Action  dated 3-23-22",
+  "category": "other",
+  "summary": "# Summary: Council File 13-0332 - Kinder Morgan Marine Oil Terminal Permit Amendment\n\n## What is Being Proposed?\nThe Los Angeles City Council approved a Third Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC on March 23, 2022. This amendment allows the company to continue operating a marine oil terminal at Berths 118-119 in the Port of Los Angeles until April 13, 2024, with a requirement to fully restore and surrender the site to the City by April 13, 2025.\n\n## Why?\nThe amendment extends the operational timeline for an existing oil terminal facility. The document references a California State Lands Commission (CSLC) Extension Letter among its supporting attachments, indicating that state-level approval was also sought for this continuation. This appears to be part of a structured wind-down process for the facility, with a defined deadline for operations to cease and the site to be returned to municipal control.\n\n## Key Details\n- **Company:** Kinder Morgan Tank Storage Terminals, LLC\n- **Location:** Berths 118-119 (Port of Los Angeles)\n- **Operation End Date:** April 13, 2024\n- **Site Restoration Deadline:** April 13, 2025\n- **Council Vote:** 14 YES votes, 1 ABSENT (Koretz), adopted immediately\n- **Sponsoring Motion:** Buscaino-Bonin\n\n## Impact\nThis decision affects port operations and the future use of waterfront real estate in Los Angeles. The phased approach ensures continued economic activity from the terminal while establishing a clear timeline for environmental remediation and eventual site redevelopment by the City.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2338,
+    "output_tokens": 378,
+    "cost_usd": 0.004228
+  }
+}

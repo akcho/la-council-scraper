@@ -1,0 +1,14 @@
+{
+  "historyId": "622f65d6-4802-4eaf-9964-ae642a192e57",
+  "council_file": "25-1070",
+  "meeting_id": 17283,
+  "original_filename": "Report from Mayor dated 9-11-25.pdf",
+  "category": "staff_report",
+  "summary": "# Summary: Appointment of City Clerk - Ms. Patrice Lattimore\n\n## What is Being Proposed\nMayor Karen Bass is appointing Ms. Patrice Lattimore as the City Clerk of Los Angeles, effective September 24, 2025. The appointment is subject to confirmation by the City Council, as required by the City Charter Section 508(b).\n\n## Why This Matters\nThe City Clerk is a critical administrative position responsible for managing City Council operations, legislative processing, and public records. Ms. Lattimore brings 20 years of professional experience, including 6 years as Division Manager in the City Clerk's Office. Mayor Bass certifies that Lattimore is \"especially qualified by reason of training and experience\" for this role and that the appointment is made \"solely in the interest of the City.\"\n\n## Key Details\nMs. Lattimore currently serves as Chief Management Analyst overseeing the Council & Public Services Division, where she manages 30 employees and oversees approximately 400 City Council and committee meetings annually, processes about 15,000 legislative documents per year, and attests over 2,100 contracts. She holds a B.A. in Psychology from USC (1997), an M.A. in Industrial & Organizational Psychology (2018), and is pursuing a Ph.D. in the same field. She is a Senior Certified Professional with the Public Sector HR Association.\n\n## Who This Affects\nThis appointment affects all Los Angeles residents and businesses that interact with city government, as the City Clerk manages transparency, accessibility, and the official record of all City Council actions and decisions. The appointment requires City Council confirmation before Lattimore can officially assume the position.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6219,
+    "output_tokens": 370,
+    "cost_usd": 0.008069
+  }
+}

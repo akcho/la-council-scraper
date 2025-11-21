@@ -1,0 +1,14 @@
+{
+  "historyId": "b59476bc-8ea5-4c15-8d97-94e0ffc46d07",
+  "council_file": "25-1124",
+  "meeting_id": 17455,
+  "original_filename": "Government Operations Committee Report 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Government Operations Committee Report 25-1124\n\n## What is Being Proposed?\n\nThe Government Operations Committee recommends that the City of Los Angeles conduct preliminary due diligence on three properties located at 1017, 1023, and 1027 North Heliotrope Drive in Council District 13. Specifically, the committee proposes to instruct the Department of General Services to complete a title search and property appraisal for these parcels and authorize transferring up to $10,000 from the Council District 13 Public Benefits Trust Fund for Affordable Housing to cover these costs.\n\n## Why?\n\nThe properties have become \"nuisance properties\" subject to public safety concerns. The Los Angeles Department of Building and Safety has placed liens against these sites due to code violations. Despite their current deteriorated condition, the City sees potential strategic value—these properties could potentially be redeveloped for permanent or interim housing to address the critical housing shortage in the area. The due diligence (title verification, appraisal, and environmental review) is necessary before determining whether the City should pursue acquisition or alternative uses.\n\n## Key Details\n\n- **Location:** 1017, 1023, and 1027 North Heliotrope Drive, Council District 13\n- **Budget:** Up to $10,000 from the Affordable Housing sub-account\n- **Committee Vote:** Unanimous approval (Padilla, Lee, Jurado all voted YES)\n- **Consideration Date:** October 21, 2025\n\n## Impact\n\nThis action would allow the City to explore whether acquiring these problem properties could address local housing needs and public safety issues. The modest $10,000 investment in due diligence is a preliminary step with no commitment to purchase.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3982,
+    "output_tokens": 384,
+    "cost_usd": 0.005902
+  }
+}

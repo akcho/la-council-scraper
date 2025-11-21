@@ -1,0 +1,14 @@
+{
+  "historyId": "10ad9c97-37f6-4094-ac1d-1061ca0e36d1",
+  "council_file": "25-1169",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: Settlement Discussion Request - Robert Marc Evans v. City of Los Angeles\n\n## What Is Being Proposed?\nThe City Attorney's office is requesting that the Los Angeles City Council hold a closed-door session to discuss settlement negotiations and receive legal advice regarding a pending discrimination and retaliation lawsuit. The meeting would be conducted in private pursuant to California Government Code Section 54956.9(d)(1), which allows closed sessions for attorney-client discussions about litigation.\n\n## Why?\nThe lawsuit, filed by Robert Marc Evans against the City of Los Angeles (Case No. 22STC31938), alleges discrimination, retaliation, and failure to prevent discrimination and retaliation in violation of the California Fair Employment & Housing Act (FEHA). The City Attorney's office needs to discuss settlement strategy and receive legal counsel confidentially before potential Claims Board action on this matter.\n\n## Key Details\n- **Case Number:** 22STC31938\n- **Plaintiff:** Robert Marc Evans\n- **Assigned Contact:** Deputy City Attorney Karen Park, (213) 978-8288\n- **Report Number:** R25-0404, dated September 25, 2025\n- **Required Notification:** The City Council must publicly state which Government Code section authorizes the closed meeting and confirm it concerns pending litigation\n\n## Impact\nThis affects current and former City employees by demonstrating how the City addresses employment discrimination claims. The closed session allows the City to negotiate settlement terms confidentially with legal counsel before presenting recommendations to the full City Council.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 327,
+    "cost_usd": 0.004952
+  }
+}

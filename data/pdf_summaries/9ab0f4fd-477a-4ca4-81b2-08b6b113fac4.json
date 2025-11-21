@@ -1,0 +1,14 @@
+{
+  "historyId": "9ab0f4fd-477a-4ca4-81b2-08b6b113fac4",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners 07_26_2017",
+  "category": "staff_report",
+  "summary": "# Summary: Third Amendment to Catalina Channel Express Permit\n\n## What is Being Proposed?\nThe Port of Los Angeles is seeking City Council approval to expand Permit No. 897 with Catalina Channel Express, Inc. through a Third Amendment. This expansion would increase the permitted premises by 32,881 square feet to accommodate freight operations being conducted through a sublease with Avalon Freight Services, LLC.\n\n## Why?\nThe larger space is needed to support expanded freight operations at the port facility. The additional area will allow Catalina Channel Express and its sublessee to conduct their shipping and logistics activities more effectively.\n\n## Key Details\n- **Permit holder:** Catalina Channel Express, Inc.\n- **Sublessee:** Avalon Freight Services, LLC\n- **Area increase:** 32,881 square feet\n- **Financial impact:** 18.9% increase in minimum annual rent\n- **Approved by:** Board of Harbor Commissioners on June 1, 2017\n- **Council District:** CD 15\n- **Environmental status:** Exempt from California Environmental Quality Act (CEQA) requirements\n\n## Impact\nThere is no impact to the City's General Fund. The expansion allows for increased commercial activity at the port, which should generate additional revenue through higher rental payments. The change primarily affects port operations and the businesses involved in freight handling.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2402,
+    "output_tokens": 298,
+    "cost_usd": 0.003892
+  }
+}

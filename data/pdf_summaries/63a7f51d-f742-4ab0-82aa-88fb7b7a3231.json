@@ -1,0 +1,14 @@
+{
+  "historyId": "63a7f51d-f742-4ab0-82aa-88fb7b7a3231",
+  "council_file": "25-0005-S135",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary of LAHD REAP Removal Recommendation\n\n## What is Being Proposed\n\nThe Los Angeles Housing Department (LAHD) is requesting City Council approval to remove five residential properties from the Rent Escrow Account Program (REAP) and terminate rent reductions for tenants at these properties. The properties have allegedly corrected all code violations that led to their enrollment in REAP. LAHD is asking for this matter to be calendared for the October 29, 2025 City Council meeting.\n\n## Why This is Happening\n\nREAP is an enforcement program that places properties into escrow when landlords fail to maintain safe, habitable housing conditions. When violations are corrected and the property meets all requirements under Los Angeles Municipal Code Section 162.08, the property can be removed from the program. According to LAHD, all five properties have now met these requirements after their violations were independently verified as corrected by the Code Enforcement Division.\n\n## Key Details\n\nThe five properties being recommended for removal are located at: 1151 S New Hampshire Ave (20 units, Case No. 849794); 733 N Formosa Ave (Case No. 549700); 590 N New Hampshire Ave (two cases: Nos. 769444 and 828034); and 625 E 120th St (Case No. 828716). The property with the most detailed information (1151 S New Hampshire) was cited for 25 violations in June 2025 involving fire safety, sanitation, maintenance, electrical, plumbing, and heating systems—all reportedly now corrected.\n\n## Impact on Residents\n\nTenant rents will be restored to original levels 30 days after notification. Escrow funds will be distributed first to pay outstanding administrative fees and penalties, with any remaining funds returned to the landlord. Tenants should expect rent increases once the program terminates, though they will no longer face rent reductions tied to property code violations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6849,
+    "output_tokens": 433,
+    "cost_usd": 0.009014000000000001
+  }
+}

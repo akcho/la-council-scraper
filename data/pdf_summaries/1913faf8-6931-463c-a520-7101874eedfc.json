@@ -1,0 +1,14 @@
+{
+  "historyId": "1913faf8-6931-463c-a520-7101874eedfc",
+  "council_file": "25-1188",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1188: Santa Monica-Highland Parking Meter Zone Expansion\n\n## What is Being Proposed?\n\nThe Transportation Committee recommends expanding the Santa Monica-Highland Parking Meter Zone (PMZ) in Council District 13 (Hollywood Media District). The expansion would add metered parking to eight additional street segments, including parts of Highland Avenue, Sycamore Avenue, Orange Drive, Mansfield Avenue, Citrus Avenue, Willoughby Avenue, and Romaine Street. The City Attorney is asked to prepare an ordinance to amend the Los Angeles Municipal Code, and the Department of Transportation (LADOT) would install parking meters directly in front of commercial properties in these expanded areas.\n\n## Why?\n\nLADOT conducted parking studies in the Hollywood Media District that demonstrated insufficient parking availability and the need to create better parking turnover in the area. The expansion aims to address parking demand while improving traffic flow through metered parking management.\n\n## Key Details\n\n- **Location:** Council District 13 (Hollywood Media District)\n- **Committee Vote:** 3 Yes (Hutt, Hernandez, Nazarian), 2 Absent (Park, Padilla)\n- **Cost:** $515,000 initial investment for equipment, signs, stall markings, and red curb installation\n- **Revenue:** Estimated $1.6 million in annual gross revenue, plus additional General Fund revenue from parking citations\n- **Funding Source:** Street Parking Revenue Fund (no impact to General Fund)\n\n## Impact\n\nThis expansion will require visitors and workers in the Hollywood Media District to pay for parking on previously unmetered streets. The metered parking is intended to increase turnover, helping customers access nearby commercial properties more easily. Revenue generated will fund the parking program and potentially support other city services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4022,
+    "output_tokens": 398,
+    "cost_usd": 0.006012
+  }
+}

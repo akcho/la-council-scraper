@@ -1,0 +1,14 @@
+{
+  "historyId": "be537072-7f9b-4d2a-bce3-8f8d0354c1d2",
+  "council_file": "25-0008-S26",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Oversize Vehicle Parking Restrictions on Chase Street\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the City Council prohibit oversized vehicles from parking along a segment of Chase Street in Council District 3 (between Winnetka Avenue and Corbin Avenue) during late-night/early-morning hours. Specifically, vehicles exceeding 22 feet in length or 7 feet in height would be prohibited from parking on both sides of the street between 2:00 a.m. and 6:00 a.m. The Los Angeles Department of Transportation (LADOT) would post \"tow away, no parking\" signs to notify the public of this restriction.\n\n## Why Is This Being Done?\n\nThe document does not explicitly state the reasoning or background behind this proposal. However, such restrictions are typically implemented to address concerns about oversized vehicles (such as commercial trucks, RVs, or semi-trailers) parking in residential neighborhoods, which can create traffic hazards, reduce visibility, and negatively impact neighborhood character—particularly during nighttime hours when visibility is already limited.\n\n## Key Details\n\n- **Location:** Chase Street between Winnetka Avenue and Corbin Avenue (CD 3)\n- **Restricted Hours:** 2:00 a.m. to 6:00 a.m. daily\n- **Vehicle Size Limits:** Over 22 feet long OR over 7 feet tall\n- **Legal Basis:** Los Angeles Municipal Code Section 80.69.4\n- **Committee Vote:** The committee submitted the recommendation \"without recommendation\" (meaning they are neutral), with split votes: two YES votes (Hutt, Nazarian), one NO vote (Hernandez), and two absent votes (Park, Padilla)\n\n## Who Is Affected?\n\nThis primarily affects residents and businesses in the Chase Street area between Winnetka and Corbin Avenues, as well as anyone regularly parking oversized vehicles in that neighborhood. Vehicle owners would face towing if they park prohibited vehicles during the restricted hours.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3891,
+    "output_tokens": 454,
+    "cost_usd": 0.006161
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "bc7abdd2-0187-4621-b8f3-02c93a5f98bb",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 05072015 - Site Map (5 of 5) 05_07_2015",
+  "category": "other",
+  "summary": "# Summary: Site Map - Council File 12-0344\n\n## What is Being Proposed?\n\nThis site map document illustrates a development project in Los Angeles that involves multiple parcels of land. The map identifies three distinct areas: Zone 8 (green), Zone 9A (light blue), Zone 9B (darker blue), and an \"Optional Area\" (red). The map also references both \"Current Premises\" and \"2nd Amendment Premises,\" indicating this is likely a revised or amended proposal to an existing project.\n\n## Key Details\n\nThe project is located near Seaside Freeway and Shirley Street in what appears to be an industrial or mixed-use area of Los Angeles. The site map shows parking areas, green space, and existing structures. The presence of both current and amended premises suggests this document is part of a modification to an earlier approved project, with the optional area potentially representing an expansion or alternative configuration of the development.\n\n## Why This Matters\n\nThis site map is a planning tool that helps clarify the physical scope and layout of the proposed development. By visually depicting the different zones and the optional area, it allows City Council members, planning staff, and the public to understand exactly what land is involved and how the project is organized spatially.\n\n## Potential Impact\n\nResidents in the surrounding area should be aware that this project may affect local traffic patterns, parking availability, and the character of the neighborhood. The presence of an \"optional area\" suggests flexibility in the project's final scope, meaning the full extent of development may still be subject to negotiation or approval conditions.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1784,
+    "output_tokens": 340,
+    "cost_usd": 0.003484
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "dd9484bd-1a23-446c-81ab-7e957fd632a0",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Council Action dated 6-25-25",
+  "category": "other",
+  "summary": "# Summary of Council File 24-1587\n\n## What is Being Proposed?\nThe Los Angeles City Council has adopted technical amendments to the Los Angeles Municipal Code (LAMC) designed to align local shelter regulations with California State law. Specifically, the amendments modify Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3, to accommodate emergency shelter provisions codified in Government Code Section 8698 et seq.\n\n## Why?\nLos Angeles has declared a local shelter crisis. The state has provided legal authority for emergency shelter operations under Government Code Section 8698 et seq. These technical code amendments are necessary to remove local regulatory barriers and allow the city to effectively implement emergency shelter solutions consistent with state law during this crisis period.\n\n## Key Details\n- **Council Vote**: The measure passed with strong support—13 YES votes, 2 ABSENT (Raman and Rodriguez), 0 NO votes\n- **Action Date**: June 24, 2025\n- **Committee**: Planning and Land Use Management Committee recommended adoption (June 10, 2025)\n- **Classification**: Categorical Exemption (meaning environmental review requirements are waived)\n\n## Impact\nThese amendments affect how and where emergency shelters can operate in Los Angeles. Residents may see changes in shelter operations and placement procedures citywide. The modifications streamline city code to match state emergency shelter authority, potentially expediting shelter deployment to address homelessness during the declared crisis.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2202,
+    "output_tokens": 335,
+    "cost_usd": 0.0038770000000000002
+  }
+}

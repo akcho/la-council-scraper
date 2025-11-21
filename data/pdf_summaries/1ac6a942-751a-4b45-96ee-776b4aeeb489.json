@@ -1,0 +1,14 @@
+{
+  "historyId": "1ac6a942-751a-4b45-96ee-776b4aeeb489",
+  "council_file": "25-1250",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: El Dorado Family Apartments Loan Modification\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department is requesting City Council approval to modify the terms of two existing City loans for the El Dorado Family Apartments in Sylmar. Specifically, LAHD wants to extend the HOME loan maturity date to November 13, 2061, and subordinate both the City HOME loan and the CRA loan to allow the property owner to refinance its first mortgage with new financing.\n\n## Why This is Needed\n\nThe property owner is seeking to refinance its first mortgage, which has a balloon payment of approximately $1.8 million due in May 2027. A new 30-year loan at 6.33% interest would eliminate this balloon payment and stabilize the project's finances. However, the new senior lender requires that all existing City loans be subordinated (moved to second and third-lien positions) and mature after the new loan. By extending the HOME loan maturity and agreeing to subordinate City loans, the City reduces its financial risk from the 2027 balloon payment and strengthens the project's long-term viability.\n\n## Key Details\n\nThe El Dorado Family Apartments is a 60-unit affordable housing complex serving families earning 30-60% of Area Median Income. The City's HOME loan currently totals $10.4 million in outstanding principal and interest, with a CRA loan of $2.9 million also outstanding. The refinancing will generate approximately $60,000 in operating cash for property maintenance and reserves, extending affordable housing without additional City subsidy.\n\n## Impact\n\nThis action protects the City's financial exposure while preserving 60 affordable family units in the community through 2061. There is no fiscal impact to the General Fund, and the modification benefits current and future residents by ensuring the property's long-term stability and habitability.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6166,
+    "output_tokens": 415,
+    "cost_usd": 0.008241
+  }
+}

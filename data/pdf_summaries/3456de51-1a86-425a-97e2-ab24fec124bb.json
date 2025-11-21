@@ -1,0 +1,14 @@
+{
+  "historyId": "3456de51-1a86-425a-97e2-ab24fec124bb",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Report from Personnel, Audits, and Hiring Committee 7-02-24",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 24-0777\n\n## What is Being Proposed?\n\nThe Personnel, Audits, and Hiring Committee is recommending that the City Council adopt an ordinance to update salary classifications and wage adjustments for certain non-represented city employees (those not covered by union contracts). The ordinance amends Los Angeles Administrative Code Section 4.61 and applies to fiscal years 2023-24 through 2028-29, with an effective date of June 30, 2024 through July 1, 2028.\n\n## Why?\n\nThe document does not explicitly state the rationale or background for these adjustments. However, salary adjustments for non-represented positions are typically made to address cost-of-living increases, market competitiveness for talent retention, or to align compensation with other city employees and similar positions elsewhere.\n\n## Key Details\n\n- The ordinance covers multiple job classifications with specific salary adjustments outlined in four attachments (A-I, A-II, B-I, and B-II)\n- Details are contained in City Administrative Officer (CAO) reports dated June 27 and June 28, 2024\n- The committee voted unanimously to approve the measure (3-0) on July 2, 2024\n- The ordinance requires Mayor approval before it becomes official\n\n## Impact\n\nThis affects non-represented city employees and the city budget. The fiscal impact details are referenced in the CAO report but not fully detailed in this committee summary document. The changes would adjust what these employees earn over the six-year period specified.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2300,
+    "output_tokens": 343,
+    "cost_usd": 0.0040149999999999995
+  }
+}

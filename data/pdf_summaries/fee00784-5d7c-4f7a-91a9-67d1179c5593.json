@@ -1,0 +1,14 @@
+{
+  "historyId": "fee00784-5d7c-4f7a-91a9-67d1179c5593",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Report from Trade, Commerce and Tourism Committee 05_12_2015",
+  "category": "staff_report",
+  "summary": "# Summary: Catalina Channel Express Permit Amendment (File 12-0344)\n\n## What is Being Proposed?\n\nThe Trade, Commerce and Tourism Committee is recommending that the Los Angeles City Council approve a second amendment to the permit agreement with Catalina Channel Express, Inc. This amendment would allow Catalina to construct an administrative office and freight facility at the Port of Los Angeles in San Pedro. The committee voted unanimously to approve this recommendation (2 yes, 1 absent).\n\n## Why?\n\nCatalina Channel Express currently operates ferry services between San Pedro and Catalina Island under a 25-year permit that began in 2012. The company wants to relocate its reservations center and approximately 35-40 jobs from Long Beach to San Pedro. Building new office and warehouse facilities will provide additional space for ferry operations, maintenance, storage, and handling of cargo shipped to and from Catalina Island.\n\n## Key Financial and Operational Details\n\nUnder this amendment, Catalina will lease approximately 55,442 square feet (1.3 acres) of additional land at an annual cost of $128,659 to the Port of Los Angeles. Catalina will invest no less than $3.5 million in construction and improvements. In exchange, the Harbor Department will provide $1.5 million in rental credits (capped at 50% of any single year's rent) and $280,000 in wharf improvements. The amendment does not extend the current permit, which expires in March 2037.\n\n## Impact\n\nThis project will bring approximately 35-40 jobs to the San Pedro area and generate ongoing revenue for the Port. All tenant improvements made by Catalina will become Port of Los Angeles property at the end of the contract. The project was determined to be exempt from environmental review under the California Environmental Quality Act (CEQA), and will have no impact on the City's General Fund.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4282,
+    "output_tokens": 414,
+    "cost_usd": 0.006352
+  }
+}

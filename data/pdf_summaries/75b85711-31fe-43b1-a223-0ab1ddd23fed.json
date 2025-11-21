@@ -1,0 +1,14 @@
+{
+  "historyId": "75b85711-31fe-43b1-a223-0ab1ddd23fed",
+  "council_file": "25-0391",
+  "meeting_id": 17367,
+  "original_filename": "Personnel and Hiring Committee Report 5-9-25",
+  "category": "staff_report",
+  "summary": "# Summary: Charter Amendment FF Implementation (File 25-0391)\n\n## What Is Being Proposed?\n\nThe Personnel and Hiring Committee is recommending that the City Council request the City Attorney to draft ordinances necessary to implement Measure FF, a charter amendment approved by Los Angeles voters in November 2024. The measure allows certain sworn police officers currently in the Los Angeles City Employees Retirement System (LACERS) to make a one-time, permanent transfer to the Los Angeles Fire and Police Pensions (LAFPP) Tier 6 retirement plan.\n\n## Background and Rationale\n\nThis proposal addresses retirement options for specific groups of sworn peace officers employed by the Los Angeles Police Department, Department of Airports, Los Angeles Harbor Department, and Department of Recreation and Parks. Some of these officers had previously declined earlier transfer opportunities under prior charter amendments. Measure FF also includes provisions for tax-compliant, interest-free refunds to officers who personally funded enhanced retirement benefits under the old system.\n\n## Key Financial and Operational Details\n\nThe estimated total cost is **$109.5 million** if all eligible officers transfer, including $106 million in transfer costs and $3.5 million in refunds. Additional annual costs are projected at **$6.3 million**, adjusted for payroll changes. Importantly, the Department of Airports and Los Angeles Housing Department will cover costs for their affected members, with the General Fund covering remaining costs. An updated actuarial report will accompany the implementing ordinances.\n\n## Impact\n\nThis affects current LACERS members in four city departments who will have a one-time opportunity to switch retirement systems. The measure is structured to be cost-neutral for both LACERS and LAFPP, with all expenses covered by the city's General Fund and special funds. The committee voted unanimously to recommend approval on May 9, 2025.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4288,
+    "output_tokens": 402,
+    "cost_usd": 0.006298
+  }
+}

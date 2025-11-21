@@ -1,0 +1,14 @@
+{
+  "historyId": "0fedce30-eff8-4ccd-b83e-f44f3a85d493",
+  "council_file": "25-1108",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-23-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Grant House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\nThe City of Los Angeles is designating the Grant House at 815 North Bramble Way as a Historic-Cultural Monument (HCM). This designation will place the property under city regulations to protect it from incompatible alterations, demolition, or new construction that could damage its historic character.\n\n## Why?\nThe Grant House meets two key criteria for historic designation. First, it exemplifies the Mutual Housing Association (MHA) postwar cooperative housing development—a significant mid-20th century effort to bring modernist design to middle-class homeowners. Of approximately 85 original MHA homes built, only 34 remain intact, making this property increasingly rare. Second, it is an excellent example of Mid-Century Modern architecture with distinctive design features including post-and-beam construction, exposed wood beams, floor-to-ceiling windows, and low-pitched roofs. The house retains high integrity with only minor alterations.\n\n## Key Details\nThe Grant House was built as part of the MHA project, which operated as a prototype for California modern living with utopian ideals. The property features characteristic Mid-Century Modern elements influenced by the Case Study House Program (1945-1966), including open floor plans, rectangular massing with glass walls, concrete block and redwood siding, and integration of indoor-outdoor spaces. The designation was found exempt from environmental review under California Environmental Quality Act (CEQA) categorical exemptions for environmental protection and historic preservation.\n\n## Impact\nThis designation protects an irreplaceable piece of Los Angeles architectural and social history from demolition or inappropriate modification. The property owner and any future owners must comply with City regulations requiring historically appropriate treatment per the Secretary of the Interior's Standards for any work on the building, ensuring its preservation for future generations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6351,
+    "output_tokens": 400,
+    "cost_usd": 0.008351
+  }
+}

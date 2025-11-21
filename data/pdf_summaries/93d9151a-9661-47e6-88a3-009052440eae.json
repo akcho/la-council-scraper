@@ -1,0 +1,14 @@
+{
+  "historyId": "93d9151a-9661-47e6-88a3-009052440eae",
+  "council_file": "25-0005-S137",
+  "meeting_id": 17455,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Recommendation\n\n## What is Being Proposed?\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove five residential properties from the Rent Escrow Account Program (REAP) and terminate rent reductions for tenants at these locations. The properties include units at 1151 S New Hampshire Ave, 733 N Formosa Ave, 590 N New Hampshire Ave (two separate cases), and 625 E 120th St. The department is requesting City Council approval on October 29, 2025.\n\n## Why?\nREAP is a code enforcement program designed to encourage landlord compliance with housing safety standards. When properties have serious code violations, the city places them in REAP, which involves rent reductions for tenants and holds escrow funds. All five properties have met the requirements under Los Angeles Municipal Code 162.08 for removal, meaning their owners have corrected all cited violations and paid outstanding utility bills to the satisfaction of the Department of Water and Power.\n\n## Key Details\nThe properties contain between 1-3 units each. The most detailed case (625 E 120th St) involved 9 initial violations related to illegal construction cited by Code Enforcement in January 2024. That property owner has paid LAHD administrative fees and inspection costs; any remaining escrow funds will be returned to the landlord after these costs are recovered. Tenants' rent will return to original levels 30 days after they receive notice.\n\n## Impact\nTenants at these properties will see rent increases return to pre-REAP levels, while landlords will recover remaining escrow funds after paying any outstanding fees and penalties. This affects approximately 5-13 residential units across Los Angeles where code violations have been resolved.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6776,
+    "output_tokens": 392,
+    "cost_usd": 0.008736
+  }
+}

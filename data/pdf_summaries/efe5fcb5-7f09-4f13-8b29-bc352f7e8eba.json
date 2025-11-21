@@ -1,0 +1,14 @@
+{
+  "historyId": "efe5fcb5-7f09-4f13-8b29-bc352f7e8eba",
+  "council_file": "25-1061",
+  "meeting_id": 17406,
+  "original_filename": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: EPA Brownfields Community-Wide Assessment Grant\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize the Bureau of Sanitation to accept and manage a grant from the U.S. Environmental Protection Agency (EPA) for a Brownfields Community-Wide Assessment (CWA) Grant. Specifically, the Council would authorize the Director and General Manager of the Bureau of Sanitation to negotiate, execute agreements, submit applications, and handle all related documents necessary to secure and receive these federal grant funds.\n\n## Why This Matters?\n\nBrownfields are abandoned or underutilized properties contaminated by pollutants, hazardous substances, or petroleum products. A Community-Wide Assessment Grant helps cities identify and evaluate these sites to understand the scope of contamination and plan appropriate remediation. This grant enables Los Angeles to conduct comprehensive assessments of contaminated properties in the city, which is a critical first step toward environmental cleanup and community revitalization.\n\n## Key Details\n\nBoth the Energy and Environment Committee (meeting October 7, 2025) and the Budget and Finance Committee (meeting October 21, 2025) voted unanimously to approve this measure. Notably, there is **no impact to the City's General Fund**, meaning this grant is fully funded by federal dollars. The City Attorney must approve all documents as to form before execution.\n\n## Impact\n\nThis grant will benefit Los Angeles residents by identifying contaminated properties that pose environmental and health risks. It supports the city's ability to address pollution legacies, protect public health, and potentially enable future redevelopment of brownfield sites into productive community assets without using local taxpayer dollars.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2234,
+    "output_tokens": 356,
+    "cost_usd": 0.004014
+  }
+}

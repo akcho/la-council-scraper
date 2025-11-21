@@ -1,0 +1,14 @@
+{
+  "historyId": "29ebff7f-97f8-493d-9249-e4fc8c114e83",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report Dated 8-18-25 - Modified Conditions of Approval.pdf",
+  "category": "conditions",
+  "summary": "# Summary of Conditions of Approval for Hotel Project (CPC-2018-3544)\n\n## What is Being Proposed?\nThe City Planning Commission has approved conditions for the construction and operation of a 125-guest room hotel in Los Angeles. These are detailed requirements that the developer must follow during construction and ongoing operations. The conditions were modified at the Commission's meeting on March 13, 2025, and cover everything from building design and height restrictions to environmental protections and construction management.\n\n## Why These Conditions Matter?\nThese conditions exist to protect the public interest by ensuring the project complies with city planning standards, minimizes impacts on nearby residents and schools, and incorporates sustainable design features. The conditions address concerns about noise, traffic, building appearance, environmental impacts, and pedestrian safety during the construction and operation phases.\n\n## Key Details\n**Project Specifications:** Maximum 125 guest rooms, 76 feet 6 inches tall, with 77,828 square feet of floor space. The project provides 84 parking spaces (though none are required under AB 2097). **Design Requirements:** The building must include varied rooflines, recesses, and material changes for visual interest, with mechanical equipment screened from view and decorative walls along the alleyway. **Construction Constraints:** Work limited to 7am-6pm weekdays and 8am-6pm Saturdays, with haul trucks restricted to 9am-3pm and limited to two vehicles at a time. **School Protections:** Contractors must coordinate with nearby Magnolia Avenue Elementary, Berends Middle, and W Adams High schools to maintain safe pedestrian and bus routes.\n\n## Impact\nThese conditions primarily affect the developer/applicant, who must comply with all requirements before and during construction. Residents near the project benefit from noise limits, traffic management, improved pedestrian safety, and landscaping requirements. The developer also faces significant financial obligations, including an initial litigation deposit of at least $50,000 to cover potential City legal costs related to project challenges.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16442,
+    "output_tokens": 440,
+    "cost_usd": 0.018642
+  }
+}

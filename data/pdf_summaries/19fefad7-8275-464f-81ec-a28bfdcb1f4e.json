@@ -1,0 +1,14 @@
+{
+  "historyId": "19fefad7-8275-464f-81ec-a28bfdcb1f4e",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer dated 10-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: Marketing Specialist Classification Restoration (C.F. 24-0777)\n\n## What is Being Proposed?\nThe City Administrative Officer is recommending that the Los Angeles City Council adopt an ordinance to restore the \"Marketing Specialist\" job classification (Class Code 1807) to Schedule \"A\" of the Los Angeles Administrative Code. This is a non-represented (non-union) civilian position that was inadvertently removed from official city employment classifications.\n\n## Why?\nThe Marketing Specialist classification was originally established by the City Council in August 2008 and was effective starting January 1, 2007. However, when the city updated its official list of civilian job classifications in subsequent ordinances—most recently in July 2024 (Ordinance No. 188307)—the Marketing Specialist position was accidentally omitted. This ordinance corrects that administrative error by formally restoring the classification to the official records.\n\n## Key Details\n- **Original establishment:** Ordinance No. 180119 (August 12, 2008)\n- **Class Code:** 1807\n- **Status:** Non-represented classification\n- **Problem discovered:** Missing from most recent Schedule \"A\" update (Ordinance No. 188307, adopted July 2, 2024)\n\n## Impact\nThe restoration has **no fiscal impact** on the city's budget. Any costs associated with hiring employees into this classification will be absorbed within existing budgeted funds for fiscal year 2025-26. This action primarily addresses an administrative oversight and ensures accurate record-keeping of authorized city job classifications.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3922,
+    "output_tokens": 348,
+    "cost_usd": 0.005662
+  }
+}

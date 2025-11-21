@@ -1,0 +1,14 @@
+{
+  "historyId": "479a98cf-da4e-4d8c-aaca-88f2df5850b8",
+  "council_file": "25-0366",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Administrative Officer dated 4-08-25",
+  "category": "staff_report",
+  "summary": "# Summary: Innovation Fund Recommendation for 3D Printing Project\n\n## What is Being Proposed?\n\nThe City Administrative Officer recommends that the City Council note and file a report regarding LA Lights' Innovation Fund proposal to implement 3D printing technology for producing street lighting fixtures used in public right-of-way installations. The Innovation and Performance Commission (IPC) approved $150,000 in funding for this pilot project, which would involve purchasing two 3D printers to produce between one-quarter and one-half of LA Lights' lighting needs in-house.\n\n## Why This Matters\n\nLA Lights faces significantly rising material costs, particularly for electrical system components needed for street lighting connections. By shifting to in-house 3D printing production, the department aims to reduce per-unit costs from $300 to approximately $80—a savings of $220 per unit. LA Lights estimates that if these cost reductions were applied to FY 23/24 purchases, it would have generated nearly $800,000 in savings. The project would also train field staff on new technology and enable faster, customized solutions for addressing vandalism and theft.\n\n## Key Details\n\n- **IPC Approval**: $150,000 funding recommended\n- **Cost Reduction**: From $300 per box to $80 per box (73% reduction)\n- **Current Impact**: A 20% increase in basic material costs on existing spending\n- **Innovation Fund Balance**: Currently $2,768,922.75\n\n## Important Note\n\n**This report does NOT recommend approval at this time.** The City Administrative Officer states that despite IPC approval, this Office does not recommend funding the proposal \"as presented at this time\" due to extraordinary budget constraints outlined in the Third Mid-Year Financial Status Report.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4646,
+    "output_tokens": 385,
+    "cost_usd": 0.006571
+  }
+}

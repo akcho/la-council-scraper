@@ -1,0 +1,14 @@
+{
+  "historyId": "17a6e9fe-9aa3-4b14-87fa-0364f5192964",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-16-25 - T Conditions",
+  "category": "conditions",
+  "summary": "# Summary: Tentative Classification Removal Conditions\n\n## What is Being Proposed?\n\nThis document outlines the conditions required to remove the \"(T) Tentative Classification\" from a property development project (APCNV-2019-3202-ZCJ). The Tentative Classification is a planning designation that prevents certain development activities until specific public improvements and dedications are completed. Removal of this classification allows the project to proceed with building permits and development.\n\n## Why?\n\nThe Tentative Classification was placed on the property to ensure that necessary public infrastructure improvements are made before development occurs. This protects the community by requiring developers to address street conditions, utilities, fire safety, and other public needs as part of their project. The conditions outlined here detail exactly what the applicant/developer must complete or guarantee before the classification can be removed.\n\n## Key Details\n\nThe property is located at the intersection of **Lorne Street and Fair Avenue**. Major requirements include:\n\n- **Dedication**: A 3-foot strip of land along Fair Avenue to complete a 33-foot half right-of-way\n- **Street improvements**: New sidewalks, curb/gutter repairs, ADA-compliant driveways, and new street lighting on both streets\n- **Urban forestry**: Preservation of healthy mature trees with potential 2:1 replacement if removal is necessary\n- **Fire safety**: Knox Boxes, proper access roads (minimum 20-28 feet wide), fire hydrants, and specific building design standards\n- **Drainage and sewers**: Proper site drainage and potential extension of sewer connections\n\nMultiple city departments oversee compliance, including the Bureau of Engineering, Fire Department, Urban Forestry Division, and Bureau of Street Lighting.\n\n## Impact\n\nThese conditions affect the **developer/applicant**, who must guarantee completion of all improvements before building permits are issued. **Residents** benefit from improved streets, sidewalks, safety infrastructure, and tree preservation. The process ensures public infrastructure is upgraded in conjunction with private development, at no cost to the City.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 9384,
+    "output_tokens": 447,
+    "cost_usd": 0.011619
+  }
+}

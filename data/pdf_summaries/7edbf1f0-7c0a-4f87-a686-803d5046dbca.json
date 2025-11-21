@@ -1,0 +1,14 @@
+{
+  "historyId": "7edbf1f0-7c0a-4f87-a686-803d5046dbca",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works and Gang Reduction Committee 08_21_2020",
+  "category": "staff_report",
+  "summary": "# Summary: McKinley Place Street Vacation (File 11-0122-S3)\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to approve the vacation (removal from public ownership) of a 32.5-foot by 135-foot portion of McKinley Place, located southerly of 87th Street. This means the City would give up its ownership and maintenance responsibilities for this small section of street, and it would likely become private property or be incorporated into an adjacent property.\n\n## Why?\nThe City identifies several benefits to this vacation. Most importantly, it would eliminate the City's ongoing obligation to maintain this portion of street and remove the City's potential liability from owning the easement. The vacation is determined to be unnecessary for current or future public use and is not needed for non-motorized transportation (like bike paths). The petitioner (the property owner requesting the vacation) has already paid a $14,980 deposit to cover investigation costs.\n\n## Key Details\n- **Location:** Portion of McKinley Place south of 87th Street (Lot 12 of Tract 473)\n- **Committee Vote:** Unanimously approved (5-0) on August 19, 2020\n- **CEQA Status:** Exempt from environmental review\n- **Petitioner Costs:** Already paid $14,980; may owe additional fees for deficit costs\n\n## Impact\nThis primarily affects the property owner adjacent to the street section, who would gain access to this land. Los Angeles residents would see a minor reduction in publicly maintained street. The City saves on maintenance costs and liability exposure. The document notes no community impact statement was submitted, suggesting minimal public concern was raised.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4077,
+    "output_tokens": 371,
+    "cost_usd": 0.005932
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "b05d7efd-1831-4eba-b437-4d545205d19d",
+  "council_file": "20-0538-S1",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Airport Commissioners dated 4-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Second Amendment to Reimbursement Agreement with Signature Flight Support LLC\n\n## What is Being Proposed?\n\nThe Board of Airport Commissioners is asking the City Council to approve a second amendment to an existing reimbursement agreement (DA-4914) with Signature Flight Support LLC. The amendment would extend the current contract term by three years, with two additional one-year extension options available.\n\n## What is the Agreement About?\n\nThis reimbursement agreement covers costs related to United States Customs and Border Protection (CBP) facility operations at Van Nuys Airport. Under the agreement, Signature Flight Support reimburses Los Angeles World Airports (LAWA) for expenses associated with maintaining the CBP facility, which processes international travelers and cargo at the airport.\n\n## Key Details\n\n- **Location:** Van Nuys Airport\n- **Extension:** 3 years with 2 optional one-year renewals (potential total of 5 additional years)\n- **Financial Impact:** No impact to the City's General Fund—costs are covered through reimbursements from the private contractor\n- **Approval Date:** Board of Airport Commissioners approved this on April 17, 2025 (Resolution 28140)\n- **Environmental Status:** Determined exempt from California Environmental Quality Act (CEQA) requirements\n\n## Impact\n\nThis agreement primarily affects airport operations and international travel processing at Van Nuys Airport. By extending the contract, it ensures continued funding for CBP facility maintenance without requiring City General Fund support, allowing the airport to maintain federal customs operations efficiently.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2253,
+    "output_tokens": 340,
+    "cost_usd": 0.003953
+  }
+}

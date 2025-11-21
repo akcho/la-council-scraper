@@ -1,0 +1,14 @@
+{
+  "historyId": "2d6f3880-59fc-4351-8b0c-616acd00ed71",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_09-21-2024",
+  "category": "other",
+  "summary": "# Summary: Council File 23-1134 – Public Comments on Rent Increase Caps\n\n## What is Being Proposed?\n\nThe council is considering rent control policy changes for Los Angeles, with multiple public submissions addressing how much rent-controlled (RSO) apartments can increase annually. The primary proposal supported by several commenters is to cap rent increases at **60% of inflation, or 3%, whichever is lower—with no minimum rent hikes**. An alternative recommendation calls for a flat **3% cap with no exceptions** for utilities or small landlords.\n\n## Why This Matters\n\nLos Angeles faces a severe affordability crisis. According to the comments, rents across Los Angeles County have increased 54% while incomes have only risen 16%. Tenants in rent-controlled units report devastating cumulative impacts: one long-term resident's rent increased 38% over 20 years ($675 to $1,085), while their income rose only 24% and inflation was 66%. With market-rate studios now reaching $1,700+ monthly, many residents face displacement or homelessness. The underlying problem is described as both insufficient housing supply and escalating landlord costs.\n\n## Key Positions and Stakeholder Concerns\n\n**Tenant advocates** (Vakil, Miller, Carcieri, McFadden) argue that rent increases exceed inflation and income growth, making housing unaffordable even in controlled units. **Housing providers** (Max M, Resnick) counter that caps below inflation force small landlords to absorb rising maintenance, taxes, utilities, and code compliance costs, pushing them out of the market and leading to corporate consolidation. One commenter (Hancock) advocates for a broader federal solution: massive public housing construction and income-based rent (1/8 of monthly income maximum).\n\n## Impact\n\nThis directly affects thousands of rent-controlled tenants and small/large landlords. Stricter caps could provide immediate relief for struggling renters but may reduce housing supply if landlords exit. The broader debate reflects disagreements about whether regulation or supply-side solutions better address affordability.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14933,
+    "output_tokens": 458,
+    "cost_usd": 0.017223
+  }
+}

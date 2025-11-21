@@ -1,0 +1,14 @@
+{
+  "historyId": "b43fd1a0-fa2f-4e81-b00e-e1d5ebb16853",
+  "council_file": "25-4118-S13",
+  "meeting_id": 17407,
+  "original_filename": "Resolution (Yaroslavsky - Lee) dated 10-28-25",
+  "category": "other",
+  "summary": "# Summary: Resolution #51 - Enforcement Zone Designation\n\n## What is Being Proposed?\nThe Los Angeles City Council is designating 7253 Melrose Avenue (an Interim Housing Facility) as an enforcement zone where the city can prohibit and penalize people for sitting, lying, sleeping, storing personal property, or obstructing the public right-of-way. City departments will post notice of these prohibitions at the location and begin enforcement after the required posting period expires.\n\n## Why?\nUnder Municipal Code §41.18, the Council can designate specific areas for enforcement against activities that obstruct public spaces when the Council determines that public health, safety, or welfare is being served. In this case, the Council found that sleeping or lodging within the stated proximity to this interim housing facility is \"unhealthy, unsafe, or incompatible with safe passage\" for the public.\n\n## Key Details\n- **Location:** 7253 Melrose Avenue (Interim Housing Facility)\n- **Presented by:** Councilmember Katy Yaroslavsky (District 5)\n- **Date:** October 28, 2025\n- **Restrictions:** Apply to maximum distance and time period as prescribed in the Municipal Code\n\n## Impact\nThis resolution allows enforcement action against unhoused individuals sleeping or sitting in the vicinity of the Melrose Avenue facility. Residents and business operators in the area may see increased police activity, while unhoused persons could face citations or citations if found violating these prohibitions.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1773,
+    "output_tokens": 333,
+    "cost_usd": 0.003438
+  }
+}

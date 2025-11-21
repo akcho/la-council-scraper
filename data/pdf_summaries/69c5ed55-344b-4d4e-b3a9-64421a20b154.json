@@ -1,0 +1,14 @@
+{
+  "historyId": "69c5ed55-344b-4d4e-b3a9-64421a20b154",
+  "council_file": "25-1224",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 10-17-25 - Permit No. 968",
+  "category": "other",
+  "summary": "# Summary of Permit No. 968 - LA County Flood Control District\n\n## What is Being Proposed?\n\nThe City of Los Angeles is granting Permit No. 968 to the Los Angeles County Flood Control District for the operation and maintenance of a subsurface stormwater drain system outlet structure (identified as BI-0078) located in the Port of Los Angeles at the Northwest Slip of West Basin. This is a 30-year permit agreement that formalizes the District's right to use and maintain this critical drainage infrastructure.\n\n## Why?\n\nThe BI-0078 storm drain serves a large tributary area of approximately 15,000 acres across nine municipalities (including Carson, Lomita, Los Angeles, Palos Verdes Estates, Rancho Palos Verdes, Rolling Hills, Rolling Hills Estates, and Torrance). The drain is part of a regional stormwater system regulated under the National Pollutant Discharge Elimination System (NPDES) Municipal Separate Storm Sewer System Permit. This formal permit ensures coordination among multiple water quality permittees who share responsibility for managing stormwater runoff and water quality compliance.\n\n## Key Details\n\n- **Permit Area:** 8,405 square feet of subsurface storm drain\n- **Initial Annual Rent:** $17,151.75, subject to annual adjustments (minimum 3% increase annually)\n- **Security Deposit:** $2,859.00\n- **Environmental Fund Deposit:** 1% of Base Rent (up to $100,000 annually)\n- **Term:** 30 years from the effective date\n- **Insurance Requirements:** General liability ($1M), auto liability ($1M), workers' compensation (statutory), and environmental impairment liability ($5M)\n\n## Impact\n\nThis permit affects water quality management across a large portion of South Los Angeles County. It establishes clear operational responsibilities, financial obligations, and environmental compliance requirements for the Flood Control District while protecting the City's interests through rent payments, security deposits, and performance standards. The agreement includes provisions for environmental remediation, maintenance obligations, and restoration requirements to ensure the stormwater system operates safely and effectively.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 182653,
+    "output_tokens": 482,
+    "cost_usd": 0.185063
+  }
+}

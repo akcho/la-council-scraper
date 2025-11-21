@@ -1,0 +1,14 @@
+{
+  "historyId": "926ff98c-ad89-4c26-9a0b-3fdbd0bcb27a",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners (1 of 2) 09_16_2014",
+  "category": "staff_report",
+  "summary": "# Summary: First Amendment to Permit No. 897 with Catalina Channel Express, Inc.\n\n## What is Being Proposed?\nThe Port of Los Angeles is seeking City Council approval to amend Permit No. 897 with Catalina Channel Express, Inc., the ferry operator that provides passenger service between San Pedro and Catalina Island. The amendment updates the permit to reflect additional property dimensions and adjusts rental compensation accordingly. The proposal was approved by the Board of Harbor Commissioners on July 24, 2014.\n\n## Why?\nCatalina was forced to relocate from Berth 96 to Berth 95 to accommodate China Shipping's expansion at the port. During the relocation, modifications to the new facility required additional land and submerged land areas beyond what was originally permitted. The amendment also settles disputes over overpaid percentage rent under the previous permit (Permit No. 768) through a negotiated Settlement Agreement and Release of Claims. Catalina invested approximately $5 million in the relocation, including adaptive reuse of an existing port building.\n\n## Key Details\n- **Property Changes**: The amendment adds 19,424 square feet of submerged land and 1,190 square feet of land\n- **Rental Schedule**: Fixed monthly compensation increases from $5,027 (Year 1) to $10,707 (Years 5-7, covering 2016-2019), reaching a full annual market rent of $128,484 by Year 5\n- **Timeline**: Compensation covers July 2012 through July 2024, with rates reset to market rate in Year 8\n- **Location**: Berth 95, Port of Los Angeles\n\n## Impact\nThis action ensures Catalina Channel Express can continue operating the popular tourist and commuter ferry service while the Port receives increased revenue. Residents using the ferry will see stable operations and continued service to Catalina Island. The amendment is deemed exempt from environmental review as the relocation was previously analyzed in environmental impact reports for China Shipping and the San Pedro Waterfront Project.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 23332,
+    "output_tokens": 456,
+    "cost_usd": 0.025612
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "59c008c3-6444-46ff-bab9-46fecca7ef79",
+  "council_file": "25-0002-S82",
+  "meeting_id": 17455,
+  "original_filename": "Report from Chief Legislative Analyst dated 9-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: AB 1088 Kratom Regulation Support\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to support AB 1088 (Bains), a state bill that would regulate kratom products by adding them to California's Food, Drug, and Cosmetic Law. The bill would prohibit selling kratom and 7-hydroxymitragynine (7-OH) products to anyone under 21 years old, require child-resistant packaging, ban products attractive to children, and limit 7-OH concentration to 2% or less of total alkaloids.\n\n## Why This Matters\nKratom, a plant-based product currently legal and widely sold online and in stores across the U.S., has seen increased abuse in recent years. The Drug Enforcement Administration reports rising cases of psychosis linked to kratom addiction, with users experiencing hallucinations, delusions, and confusion. Additionally, some kratom products contain harmful contaminants like heavy metals and disease-causing bacteria. California accounts for nearly 25% of the $1.3 billion kratom industry, making regulation particularly relevant locally.\n\n## Key Details\nAn estimated 1.7 million Americans used kratom in 2021. From 2011-2017, poison control centers received 1,807 calls related to kratom exposure. Kratom costs $9-20 per ounce and produces effects ranging from stimulant (small doses) to opioid-like (moderate-high doses) to sedative (very high doses). The FDA named kratom a \"substance of concern\" in 2022. Other California cities—San Diego, Oceanside, and Newport Beach—have already banned kratom sales.\n\n## Who This Affects\nThis primarily affects young people (under 21) who may use kratom, businesses selling kratom products, and public health agencies managing kratom-related health emergencies. Passage would make Los Angeles part of a broader state effort to regulate a largely uncontrolled substance market.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6899,
+    "output_tokens": 442,
+    "cost_usd": 0.009108999999999999
+  }
+}

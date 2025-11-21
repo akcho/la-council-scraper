@@ -1,0 +1,14 @@
+{
+  "historyId": "c0219422-5f6d-49e8-9e47-710ef5eaf5b0",
+  "council_file": "25-1146",
+  "meeting_id": 17455,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-14-25",
+  "category": "staff_report",
+  "summary": "# Council File 25-1146 Summary: Wildlife Protection at Ken Malloy Harbor Regional Park\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management Committee is recommending that the City Attorney prepare an ordinance making it illegal (trespass) for visitors to leave designated trails and walkways at Ken Malloy Harbor Regional Park and enter into Protected Areas for Wildlife without authorization. This would create enforceable penalties for unauthorized access to sensitive wildlife areas within the park.\n\n## Why?\n\nThe ordinance aims to protect sensitive biological resources and wildlife habitats at Ken Malloy Harbor Regional Park and the Harbor City Waterway. The motion recognizes that these areas need stronger legal protections and proposes that both locations be designated as Environmentally Sensitive Habitat Areas under California's Coastal Act, which provides additional state-level protections.\n\n## Key Details\n\nThe PLUM Committee unanimously approved this motion on October 14, 2025, with all five members voting yes (Blumenfield, Hutt, Nazarian, Lee, and Raman). The Committee also requested that the City Attorney report within 30 days on existing protections for parks, sensitive areas, protected areas, and wilderness areas citywide before drafting the ordinance. The motion was initiated by Councilmember McOsker and amended by Councilmember Raman.\n\n## Impact\n\nThis primarily affects park visitors and the community in Harbor City. The ordinance would restrict public access to certain areas of Ken Malloy Harbor Regional Park to protect wildlife and habitats. Residents and visitors would need to stay on designated trails, while the park and wildlife would benefit from reduced human disturbance in sensitive ecological areas.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3914,
+    "output_tokens": 370,
+    "cost_usd": 0.005764
+  }
+}

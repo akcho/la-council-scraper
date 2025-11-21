@@ -1,0 +1,14 @@
+{
+  "historyId": "4fa588f4-d556-4c1f-bd7f-3f2bbcd3df6e",
+  "council_file": "25-1206",
+  "meeting_id": 17283,
+  "original_filename": "Report from Trade, Travel and Tourism Committee 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: LAX Auxiliary Curbs Project Contract Amendment\n\n## What is Being Proposed\nThe Trade, Travel and Tourism Committee is recommending City Council approval of a Third Amendment to the construction contract with Swinerton Builders for offsite roadway improvements at Los Angeles International Airport (LAX). The amendment would reallocate $5 million from the project's contingency fund to the main contract, increase the total contract amount from $234 million to $239 million, and extend the project completion deadline by 13 months to February 26, 2027.\n\n## Why This is Needed\nThe amendment addresses funding and scheduling needs for the Landside Access Modernization Program's Intermodal Transportation Facility (ITF) Auxiliary Curbs Project. The $5 million reallocation and 13-month extension appear necessary to complete the offsite roadway work as currently planned.\n\n## Key Details\n- **Contract:** DA-5605 with Swinerton Builders\n- **Funding reallocation:** $5 million from project contingency to contract authority\n- **New contract amount:** $239,095,953 (previously $234,095,953)\n- **Overall project budget:** Remains unchanged at $289,737,127\n- **New completion date:** February 26, 2027\n- **Committee vote:** Unanimous approval (Park, McOsker, Rodriguez all voted YES)\n- **Date:** October 28, 2025 committee meeting\n\n## Impact\nThis affects LAX operations and airport access improvements. The financial impact on the City is neutral—no new funding is required, as the money comes from existing project reserves. The work will continue modernizing ground transportation access to the airport.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2509,
+    "output_tokens": 380,
+    "cost_usd": 0.004409
+  }
+}

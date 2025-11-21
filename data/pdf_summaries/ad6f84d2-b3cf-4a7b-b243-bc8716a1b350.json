@@ -1,0 +1,14 @@
+{
+  "historyId": "ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+  "council_file": "19-0898-S6",
+  "meeting_id": 17432,
+  "original_filename": "Report from Board of Public Works dated 11-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: Fourth Amended and Restated Agreement – Destination Crenshaw Outdoor Museum Project\n\n## What is Being Proposed?\n\nThe Board of Public Works recommends approving a Fourth Amended and Restated Agreement with Destination Crenshaw (a non-profit organization) to increase funding for the Destination Crenshaw Outdoor Museum Project from $54.9 million to $73.8 million, and extend the project completion deadline from March 1, 2026, to January 1, 2027. The board also recommends authorizing the execution of a Second Amendment with LA Metro to secure additional transit funding.\n\n## Why?\n\nConstruction on the project stopped in November 2024 due to funding shortages. The additional $18.9 million in funding is needed to pay outstanding invoices from contractors (Build Group and PCL), cover stop-notice payments totaling $1.3 million, and remobilize contractors to resume and complete the project. The City Council has already approved approximately $15.8 million in additional city funds from various sources, and LA Metro has authorized $3.4 million in transit funding.\n\n## Key Details\n\nThe project is a 1.3-mile public art and streetscape transformation along Crenshaw Boulevard designed to address historic disinvestment and celebrate Black Los Angeles culture. It includes new gathering spaces, pocket parks, improved facades, landscaping, broadband infrastructure, and commissioned artwork. Funding comes from three sources: LA Metro ($18.4 million), State of California ($18.4 million), and City of Los Angeles ($37.1 million). Destination Crenshaw and their construction manager (RMS) are solely responsible for project management; the City's Bureau of Engineering provides administrative support but does not oversee construction.\n\n## Impact\n\nThis amendment directly affects Crenshaw Boulevard residents and the broader Los Angeles community by enabling completion of a major cultural and economic development project. The extension allows adequate time for construction without rushing contractors. There is no impact to the city's General Fund, as funding comes from specialized sources including transit, state, and special city funds (gas tax, parking revenue).",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 22584,
+    "output_tokens": 468,
+    "cost_usd": 0.024924
+  }
+}

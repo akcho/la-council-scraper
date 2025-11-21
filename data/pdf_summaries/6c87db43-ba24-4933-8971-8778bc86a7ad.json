@@ -1,0 +1,14 @@
+{
+  "historyId": "6c87db43-ba24-4933-8971-8778bc86a7ad",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Report from City Administrative Officer dated 10-15-25",
+  "category": "staff_report",
+  "summary": "# Summary of CAO Report on Port Pilots MOU Amendment\n\n## What is Being Proposed\nThe City Administrative Officer recommends that the City Council approve an amendment to the labor contract (MOU 26) between the City of Los Angeles and the Los Angeles Port Pilots Association. The amendment clarifies how overtime pay is calculated for port pilots by eliminating the ability to record an 8-hour absence when a pilot works their remaining six regular shifts in a pay period.\n\n## Why This Amendment is Needed\nA payroll system error during the transition to Workday revealed a long-standing compensation dispute. Port pilots work 84 hours per biweekly period but were only being paid for 80 hours under the original contract. When pilots took one day off and worked extra hours on other days, the system incorrectly paid them straight-time rates for hours 80-84, rather than the appropriate overtime rate. The Port Pilots Association filed a grievance claiming they were effectively \"working for free.\" Management noted that a 7.5% wage increase from 2006 was intended to compensate for this arrangement, but the amendment now clarifies the rules to resolve the dispute.\n\n## Key Details\n- The current MOU 26 has been in place since 2017 and expires December 23, 2028\n- Port pilots' regular schedule consists of seven 12-hour shifts per biweekly pay period (84 hours total)\n- Pilots are classified as salaried \"seamen\" under federal law and are exempt from standard overtime rules\n- The amendment eliminates recording 8-hour absences when pilots work six remaining shifts, preventing the pay calculation error\n- The Harbor Department will absorb all costs; there is no impact to the General Fund\n\n## Impact\nThis amendment primarily affects Los Angeles port pilots by clarifying their overtime compensation and resolving the grievance. It removes ambiguity in payroll administration and ensures consistent application of the overtime rules going forward.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4514,
+    "output_tokens": 425,
+    "cost_usd": 0.006638999999999999
+  }
+}

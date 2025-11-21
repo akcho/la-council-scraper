@@ -1,0 +1,14 @@
+{
+  "historyId": "06951114-c525-44e5-bf70-7d55a2598782",
+  "council_file": "25-1110",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Siegel House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to approve the inclusion of Siegel House, located at 12400 West Deerbrook Lane, in the city's list of Historic-Cultural Monuments. This designation would formally recognize the property as a culturally or historically significant landmark worthy of preservation and protection.\n\n## Why?\nThe Cultural Heritage Commission (CHC) has recommended this designation after determining that Siegel House meets the definition of a Monument under Los Angeles Administrative Code Section 22.171.7. The Planning and Land Use Management (PLUM) Committee reviewed the CHC's recommendation at its October 28, 2025 meeting and agreed, recommending approval to the full City Council.\n\n## Key Details\n- **Property:** Siegel House at 12400 West Deerbrook Lane\n- **Owners:** James Sewell and Natasha Wellesley Miller\n- **Applicant:** Cory Buckner, Architect\n- **Case Numbers:** CHC-2025-3531-HCM and ENV-2025-3532-CE\n- **Committee Vote:** 4-0 in favor (with one member absent)\n- **Deadline:** Council must act by December 12, 2025\n\n## Impact\nMonument designation typically restricts alterations to the building and provides it with legal protection against demolition or inappropriate modifications. There is no fiscal impact noted. The designation preserves the property's historical or cultural significance for future generations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3900,
+    "output_tokens": 345,
+    "cost_usd": 0.005625
+  }
+}

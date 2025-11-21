@@ -1,0 +1,14 @@
+{
+  "historyId": "720d932e-f0e8-4421-9899-8f92b1ee5d7d",
+  "council_file": "20-0504",
+  "meeting_id": 17283,
+  "original_filename": "Report from Department of Transportation 04_24_2020",
+  "category": "staff_report",
+  "summary": "# Summary: Metro Active Transport (MAT) Cycle 1 Program - Letters of Interest\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Transportation (LADOT) is seeking City Council approval to submit Letters of Interest (LOI) to compete for funding from Metro's Active Transport (MAT) Program Cycle 1. LADOT proposes **11 projects total: 8 First/Last Mile station improvements and 3 Active Transportation corridors**, requesting up to $56 million in potential funding. The City Council is being asked to receive and file this report.\n\n## Why?\n\nMetro released the MAT Cycle 1 solicitation in February 2020 with $75 million available for five-year projects (2021-2025) aimed at increasing biking and walking usage while expanding transit reach. The program targets high-need areas and emphasizes equity. LADOT identified these 11 projects based on Metro's prioritization criteria combined with LADOT's own Mobility Investment Program tool to ensure alignment with City transportation values and policies.\n\n## Key Details\n\nThe 11 proposed projects include transit stations across multiple council districts (LAX/Aviation, Cypress Park/Lincoln Heights, Hollywood/Highland, Hollywood/Vine, Sepulveda/OL, Culver City Expo Line, Van Nuys/Vanowen, and Western/Slauson) seeking up to $5 million each, plus three transit corridors (Avalon/MLK Jr./Gage, Slauson, and Manchester/Broadway/Vermont) requesting up to $8 million each. The April 30, 2020 deadline was extended from April 2 due to COVID-19 impacts.\n\n## Impact\n\nIf projects are awarded funding, the City will benefit from improved pedestrian and bicycle infrastructure near transit stations and along key corridors, particularly in equity-focused communities. There is no impact to the City's General Fund, and no local funding match is required—though future City appropriations may be needed for project design and implementation if grants are awarded.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8409,
+    "output_tokens": 455,
+    "cost_usd": 0.010683999999999999
+  }
+}

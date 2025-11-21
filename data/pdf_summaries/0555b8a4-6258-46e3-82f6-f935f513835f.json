@@ -1,0 +1,14 @@
+{
+  "historyId": "0555b8a4-6258-46e3-82f6-f935f513835f",
+  "council_file": "25-1200-S54",
+  "meeting_id": 17283,
+  "original_filename": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1200-S54\n\n## What is Being Proposed?\nThe Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve and confirm the Mayor's appointment of Fabian Renee Wesson to the Board of Library Commissioners. This is a standard appointment confirmation process.\n\n## Key Details\nFabian Renee Wesson would serve a term ending June 30, 2027, and currently resides in Council District 10. The appointee has submitted a required Financial Disclosure Statement, though their background check is still pending. No community impact statement was submitted. The committee voted in favor (2 yes votes, 1 absent) on October 28, 2025.\n\n## Current Board Composition\nThe appointment would result in a Board of Library Commissioners with the following composition: 0 male members, 1 non-binary member, and 3 female members. This suggests the board prioritizes gender diversity.\n\n## Deadline and Impact\nThe Council must act by **November 12, 2025** to approve this appointment. Library Commissioners oversee the Los Angeles Public Library system, so this appointment affects library policy and management decisions that impact all residents who use city library services.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2153,
+    "output_tokens": 279,
+    "cost_usd": 0.003548
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "9ee45cd8-5dc8-42e9-a66c-41971d5c7ed9",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 07262017 - Letter of Subsequent Audit 07_26_2017",
+  "category": "other",
+  "summary": "# Summary: Kinder Morgan LA Harbor Terminal MOTEMS Audit Agreement\n\n## What is Being Proposed?\nKinder Morgan Tank Storage Terminals, LLC has agreed to conduct a subsequent safety audit in 2017 of their marine oil terminal facility located at Berths 118-120 in the Port of Los Angeles. This audit follows the Marine Oil Terminal Engineering and Maintenance Standards (MOTEMS) of the California Building Code and will be conducted by the third-party contractor AECOM.\n\n## Why?\nThe California State Lands Commission (CSLC) requested this audit because Kinder Morgan is seeking to extend its lease with the Port of Los Angeles beyond the prior 2018 expiration date. This additional lease extension is necessary for the company to continue operating at Berth 118 while developing a relocation site. The audit will determine what repairs or upgrades are needed to ensure safe operations and protect public health, safety, and the environment.\n\n## Key Details\nThis is a subsequent audit following previous audits submitted in January 2010 and November 2013. Kinder Morgan has already demolished numerous tanks and structures at the terminal and plans to mitigate agreed-upon operational and seismic deficiencies. The audit will identify any additional outstanding deficiencies requiring repairs or upgrades, with Kinder Morgan noting that recommendations will be evaluated in light of the facility's limited remaining operational life.\n\n## Impact\nThe audit results will determine what safety improvements are necessary for continued operations at this marine terminal, affecting environmental protection and public safety in the Port of Los Angeles area. The findings will guide any required upgrades before the facility's eventual relocation or closure.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3902,
+    "output_tokens": 362,
+    "cost_usd": 0.005712
+  }
+}

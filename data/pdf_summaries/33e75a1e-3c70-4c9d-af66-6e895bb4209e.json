@@ -1,0 +1,14 @@
+{
+  "historyId": "33e75a1e-3c70-4c9d-af66-6e895bb4209e",
+  "council_file": "25-1083",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Senate Bill 79 (SB 79) Implementation Assessment\n\n## What is Being Proposed\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council instruct multiple city departments to conduct comprehensive studies and reports on the impacts of California's Senate Bill 79 before implementation. SB 79 is state legislation that allows increased housing density near transit stops. The City is asking for detailed analysis to inform decisions about how—or whether—to implement this law by the July 1, 2026 deadline.\n\n## Why This Matters\n\nSB 79 would allow significantly more housing development in areas near transit stations throughout Los Angeles. However, the City is concerned about potential impacts on infrastructure, utilities, emergency services, historic resources, fire safety, and coastal areas. The City wants to understand the full scope of these impacts before committing to implementation, and to explore alternative approaches like developing its own transit-oriented development plan (TODAP) or requesting a delayed effective date from the state.\n\n## Key Details and Timeline\n\nThe Department of City Planning must report by **December 1, 2025** with definitions, detailed maps of affected areas, and implementation options. A more comprehensive infrastructure and impact assessment is due by **January 5, 2026**. The City Administrative Officer will identify funding and staffing needs, while various departments will analyze effects on rent-stabilized housing, historic districts, fire hazard zones, coastal areas, schools, and job creation. The Committee voted 4-0 to support this analysis (one member absent).\n\n## Impact\n\nThis affects Los Angeles residents by potentially influencing where and how much new housing can be built near transit. The analysis will determine if the City implements SB 79 as written, creates alternatives that balance development with community needs, or requests state permission to delay implementation.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8622,
+    "output_tokens": 396,
+    "cost_usd": 0.010602
+  }
+}

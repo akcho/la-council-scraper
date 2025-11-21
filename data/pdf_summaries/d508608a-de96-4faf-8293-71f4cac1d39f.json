@@ -1,0 +1,14 @@
+{
+  "historyId": "d508608a-de96-4faf-8293-71f4cac1d39f",
+  "council_file": "25-0987",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Report Dated 07-23-25 - Resolution",
+  "category": "other",
+  "summary": "# Summary: Safety Element General Plan Amendment\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is approving an updated Safety Element for the City's General Plan, which incorporates the 2024 Local Hazard Mitigation Plan (LHMP). This amendment replaces the previous Safety Element adopted in 2021 and includes comprehensive policies for protecting the community from various hazards and disasters.\n\n## Why?\n\nCalifornia law requires cities to maintain a Safety Element addressing seismic hazards, flooding, wildfire, and other natural disasters. The City Council previously adopted the updated 2024 LHMP and directed the Department of City Planning to amend the Safety Element accordingly. The update ensures the city complies with both state requirements and federal disaster mitigation standards (FEMA guidelines), while incorporating recommendations from state agencies like CAL FIRE and the Department of Conservation.\n\n## Key Details\n\n- The City Planning Commission held a public hearing on June 26, 2025\n- Public notice was published in the Daily Journal (June 2, 2025) and Daily News (June 16, 2025)\n- The amendment incorporates hazard identification, risk analysis, and both short and long-term mitigation strategies involving planning, policy changes, programs, and projects\n- The resolution includes a reversion clause: if the amendment is blocked by court order, the 2021 Safety Element automatically returns to effect until the issue is resolved\n\n## Impact\n\nThis affects all Los Angeles residents and property owners by establishing the city's disaster prevention, response, and recovery policies. The updated plan addresses emerging hazards and modernizes community protections across seismic, flood, fire, and other natural disaster risks.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6100,
+    "output_tokens": 367,
+    "cost_usd": 0.007935000000000001
+  }
+}

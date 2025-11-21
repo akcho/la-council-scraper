@@ -1,0 +1,14 @@
+{
+  "historyId": "f5ce3a28-6042-4709-a1aa-287eba40e233",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_01-28-25",
+  "category": "staff_report",
+  "summary": "# Council File 24-1587 Summary\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the City Council instruct the Department of City Planning, in consultation with the City Attorney, to revise Los Angeles Municipal Code (LAMC) Section 12.80. The goal is to update the city's definition of \"Homeless Shelter\" to match the definition found in California Government Code Section 8698.4(c)1.\n\n## Why?\n\nThe proposed revision aims to \"harmonize\" or align the local Los Angeles code with state law. When local and state definitions differ, it can create confusion, inconsistencies in how regulations are applied, and potential legal complications. By aligning these definitions, the city ensures consistency between local and state homeless shelter regulations and removes any conflicts that might exist between the two.\n\n## Key Details\n\nThe PLUM Committee voted unanimously (5-0) on January 28, 2025, to approve this recommendation. Committee members voting yes were Blumenfield, Hutt, Nazarian, Lee, and Raman. Notably, no financial analysis has been completed, and no community impact statement was submitted with this report.\n\n## Impact\n\nThis change primarily affects how homeless shelters are defined and regulated in Los Angeles. While the specific impacts depend on how the state definition differs from the current local code, harmonizing these definitions could affect shelter operators, city planning decisions regarding shelter locations, and services for unhoused residents. The revision is still pending full City Council approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2193,
+    "output_tokens": 338,
+    "cost_usd": 0.003883
+  }
+}

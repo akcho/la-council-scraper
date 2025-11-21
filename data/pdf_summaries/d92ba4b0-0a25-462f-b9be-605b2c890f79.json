@@ -1,0 +1,14 @@
+{
+  "historyId": "d92ba4b0-0a25-462f-b9be-605b2c890f79",
+  "council_file": "21-1015-S18",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Administrative Officer dated 9-24-25",
+  "category": "staff_report",
+  "summary": "# Summary: EPA Grant Applications for Water Infrastructure Projects\n\n## What is Being Proposed\n\nThe Los Angeles Department of Water and Power (LADWP) is seeking City Council authorization to submit two federal grant applications to the U.S. Environmental Protection Agency (EPA) totaling approximately **$4.75 million** in requested funding. The two projects are: (1) the Earthquake Resistant Pipeline Mainline Installation Program requesting $2.375 million, and (2) the Landscape Efficiency Assistance Program (LEAP) requesting $2.375 million.\n\n## Why This Matters\n\nLos Angeles is responding to an EPA funding opportunity focused on building resilience in drinking water systems against natural hazards and extreme weather events. The Earthquake Resistant Pipeline project directly addresses earthquake risk by retrofitting water mains in hazard-prone areas with earthquake and subsidence-resistant materials to prevent catastrophic failures during seismic events. LEAP addresses water conservation and equity by providing free landscape upgrades to eligible residents in disadvantaged communities, reducing residential water consumption while lowering costs for vulnerable populations.\n\n## Key Details\n\n- **Funding Available:** $9.5 million total EPA program (six grants expected; Los Angeles is one of two applicants in the \"Large Community\" category seeking $2-2.375 million each)\n- **Cost Sharing Required:** 10% local match ($1 million for Pipeline; $237,500 for LEAP), funded through LADWP Water Revenue Fund and staff time\n- **Timeline:** Applications due October 6, 2025; awards expected May 2026; projects complete by May 2030\n- **Scope:** Pipeline project affects water distribution citywide; LEAP targets 700-1,000 residential properties in disadvantaged communities\n\n## Impact\n\nIf awarded, these grants would improve public safety and water security for all Los Angeles residents by making the water system more resilient to earthquakes and drought. LEAP specifically benefits low-income residents in disadvantaged communities by providing free water-saving upgrades. The report notes no General Fund impact, though LADWP will need to return to Council for final approval if grants are awarded.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 24595,
+    "output_tokens": 467,
+    "cost_usd": 0.02693
+  }
+}

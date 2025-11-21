@@ -1,0 +1,14 @@
+{
+  "historyId": "db6b3993-ba84-4045-9fcf-fee95520d282",
+  "council_file": "25-1223",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Attorney dated 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Attorney Request for Closed Session - Los Angeles Press Club v. City of Los Angeles\n\n## What is Being Proposed?\nThe City Attorney is requesting that the Los Angeles City Council hold a closed (private) session to discuss and receive legal advice regarding pending litigation in the case *Los Angeles Press Club v. City of Los Angeles*. This is a federal lawsuit currently in the U.S. District Court (Case No. 2:25-cv-05423-HDV-E) and has been appealed to the Ninth Circuit Court of Appeals (Case No. 25-6331).\n\n## Why?\nThis matter involves \"various incidents involving members of the Los Angeles Police Department during the spring and summer of 2025.\" The City Attorney is seeking private legal counsel with the Council before taking official action on this case. Under California Government Code Section 54956.9(d)(1), the city is permitted to hold closed sessions specifically for conferring with legal counsel about pending litigation, which protects attorney-client privilege and litigation strategy.\n\n## Key Details\n- **Report Date:** October 22, 2025\n- **Case Status:** Active federal litigation with a Ninth Circuit appeal pending\n- **Contact:** Supervising Assistant City Attorney Shaun Dabby Jacobs (213) 978-2704\n- **Affected Parties:** Los Angeles Police Department personnel are copied on the distribution list, suggesting the litigation involves LAPD conduct or policy\n\n## Impact\nThis closed session will allow city leadership to discuss legal strategy and receive attorney advice before making public decisions about how the city will respond to this lawsuit. Once the closed session concludes, the Council's actual decision or action would typically be announced publicly, though the legal deliberations themselves remain confidential.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4078,
+    "output_tokens": 379,
+    "cost_usd": 0.005973
+  }
+}

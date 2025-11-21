@@ -1,0 +1,14 @@
+{
+  "historyId": "96679d1f-0c4b-49ed-8ada-45eb229fa520",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Report from Bureau of Engineering dated 10-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: McKinley Place Street Vacation - Council File 11-0122-S3\n\n## What is Being Proposed?\nThe City Council is being asked to formally adopt a Resolution to Vacate (Resolution No. 25-1401340) for a portion of McKinley Place located southerly of 87th Street in Council District 9. This action follows up on a previous City Council decision from September 22, 2020, and implements that decision through an accelerated review process.\n\n## Why?\nThe vacation of this street portion was previously approved by the City Council on September 22, 2020. No protests were filed against the vacation at that time, and all conditions imposed by the Council have been fulfilled. The current action is simply finalizing and formalizing what was already approved five years ago, as instructed by the City Council. The resolution has been reviewed and approved by the City Attorney for form and legality.\n\n## Key Details\n- **Location:** Portion of McKinley Place south of 87th Street, Council District 9\n- **Case Number:** VAC – E1401340\n- **Original Approval:** September 22, 2020\n- **Environmental Status:** The project is exempt from California Environmental Quality Act requirements under categorical exemptions (Class 5(3))\n- **Charter Compliance:** The action complies with Section 556 of the Los Angeles City Charter\n\n## Impact\nAdopting this resolution formally removes this street portion from public right-of-way. This allows the affected property owners or developers to use the vacated street area for private purposes. The lack of protests when originally proposed suggests minimal community opposition.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3887,
+    "output_tokens": 360,
+    "cost_usd": 0.005687
+  }
+}

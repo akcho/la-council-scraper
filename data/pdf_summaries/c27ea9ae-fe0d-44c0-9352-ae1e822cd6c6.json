@@ -1,0 +1,14 @@
+{
+  "historyId": "c27ea9ae-fe0d-44c0-9352-ae1e822cd6c6",
+  "council_file": "25-1236",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Attorney dated 10-17-25",
+  "category": "staff_report",
+  "summary": "# Summary: Settlement Discussion Request for Dog Bite Litigation\n\n**What is being proposed?**\nThe City Attorney's office is requesting that the Los Angeles City Council hold a closed session to discuss and receive legal advice regarding settlement of a pending lawsuit. The discussion will specifically address claims stemming from a serious dog bite incident and any recommendation for Claims Board action.\n\n**Why?**\nThis matter involves litigation (Kristin Wright et al. v. City of Los Angeles, Case No. 23STCV19436) arising from a dog bite incident that occurred on August 15, 2022. The plaintiffs adopted a dog from the South LA Animal Shelter and were bitten shortly after bringing the animal home. The City Attorney is seeking a closed session under California Government Code Section 54956.9(d)(1) to confidentially discuss legal strategy and settlement options with counsel, as public discussion could compromise the city's negotiating position.\n\n**Key Details**\n- **Incident Date:** August 15, 2022\n- **Location:** Plaintiffs' residence\n- **Plaintiffs:** Kristin Wright and Hoyt Hart\n- **Case Number:** 23STCV19436 (Claim Nos. C23-66844; 67533)\n- **Contact:** Anthony M. Miera, Managing Senior Assistant City Attorney, (213) 978-6929\n\n**Impact**\nThis affects Los Angeles taxpayers, as any settlement would potentially be paid from city funds. The closed session allows the city to privately evaluate settlement strategy without public disclosure that might weaken its legal position.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3873,
+    "output_tokens": 348,
+    "cost_usd": 0.005613
+  }
+}

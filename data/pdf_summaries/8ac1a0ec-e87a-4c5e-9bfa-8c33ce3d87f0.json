@@ -1,0 +1,14 @@
+{
+  "historyId": "8ac1a0ec-e87a-4c5e-9bfa-8c33ce3d87f0",
+  "council_file": "14-0738-S1",
+  "meeting_id": 17407,
+  "original_filename": "Report from Energy and Environment Committee_10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 14-0738-S1\n\n## What is Being Proposed?\n\nThe Energy and Environment Committee is recommending that the Los Angeles City Council approve amendments to the Department of Water and Power's (DWP) Open Access Transmission Tariff (OATT). The proposal includes approving two specific amendments (Amendments No. 5 and No. 6) to the transmission tariff agreement and granting the Board of Water and Power Commissioners authority to delegate certain transmission service agreements to the General Manager.\n\n## Why?\n\nThe amendments modify existing terms and conditions for how the DWP provisions transmission and ancillary services to electric generating facilities connecting to the DWP transmission system. According to the fiscal impact statement, these changes do not affect rates or tariff revenue—they only adjust non-rate operational terms and conditions. The City Administrative Officer confirmed there is no impact on the General Fund.\n\n## Key Details\n\n- The committee met on October 21, 2025, and voted unanimously (5-0) to approve the recommendations\n- The ordinance amends Section 23.133 of the Los Angeles Administrative Code\n- A CEQA exemption determination was made, finding these administrative/fiscal activities do not constitute a \"project\" requiring environmental review\n- The last day for Council action is November 14, 2025, with a final deadline of November 30, 2025\n\n## Impact\n\nThis change primarily affects businesses and entities seeking to interconnect electric generating facilities to the DWP's transmission system. By streamlining the approval process through delegation authority, the city can more efficiently manage transmission service agreements while maintaining oversight through policy parameters.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4105,
+    "output_tokens": 359,
+    "cost_usd": 0.0059
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "ddf5b5ab-bdee-43f1-a299-395e2445a704",
+  "council_file": "25-1188",
+  "meeting_id": 17406,
+  "original_filename": "Report from Board of Transportation Commissioners dated 9-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: Amendment to Santa Monica-Highland Parking Meter Zone\n\n## What is Being Proposed?\nThe Los Angeles Department of Transportation (LADOT) is requesting approval to expand the boundaries of the Santa Monica-Highland Parking Meter Zone in Council District 13 (Hollywood Media District). The expansion would add approximately 300 new metered parking spaces across eight additional street segments in the area, including portions of Highland Avenue, Sycamore Avenue, Orange Drive, Mansfield Avenue, Citrus Avenue, Willoughby Avenue, and Romaine Street.\n\n## Why?\nParking studies conducted in October 2022 and October 2024 found that the Hollywood Media District experiences significantly high parking occupancy rates—averaging 88% in the 2024 study, well above LADOT's typical 70-80% target range. This indicates insufficient available parking and increased demand. The expansion aims to improve parking turnover, create better access for customers to nearby businesses, and make enforcement of parking violations easier for traffic officers. Additionally, the area has experienced substantial commercial growth and development over the past decade, driving increased parking demand.\n\n## Key Details\n- **Location**: Hollywood Media District bounded by Santa Monica Boulevard, Highland Avenue, Willoughby Avenue, and La Brea Avenue\n- **Estimated Cost**: $515,000 for installation of parking meter equipment, signs, stall markings, and red curbs\n- **Revenue**: Approximately $1.6 million in annual gross revenue, with parking citations generating additional General Fund revenue\n- **Implementation Timeline**: Six months to one year, with installation anticipated by mid-2026\n- **Parking Rate**: $1.50 per hour (existing rate for the Santa Monica-Highland zone)\n- **Community Support**: Letters of support from the Hollywood Media District Business Improvement District, Central Hollywood Neighborhood Council, and Council District 13\n\n## Impact\nThis expansion primarily affects businesses, residents, and visitors in the Hollywood Media District. Residents and business owners benefit from improved parking availability and turnover, making it easier to find street parking near commercial establishments. The Special Parking Revenue Fund will fund the implementation costs, with no impact to the City's General Fund. Revenue generated will support parking management operations and can generate additional General Fund revenue through parking citations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14538,
+    "output_tokens": 496,
+    "cost_usd": 0.017018000000000002
+  }
+}

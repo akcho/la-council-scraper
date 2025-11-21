@@ -1,0 +1,14 @@
+{
+  "historyId": "449b8314-90f4-43f9-8cdc-7b887f6552b8",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners dated 3-15-22",
+  "category": "staff_report",
+  "summary": "# Summary: Kinder Morgan Tank Storage Terminal Amendment\n\n## What is Being Proposed?\n\nThe Board of Harbor Commissioners is recommending that the City Council approve a Third Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC. This amendment would allow Kinder Morgan to continue operating marine oil terminal facilities at Berths 118-119 in the Port of Los Angeles until at least April 13, 2025.\n\n## Why?\n\nKinder Morgan had requested to relocate operations to Berth 120 and construct new Marine Oil Terminal Engineering & Maintenance Structures (MOTEMS) to remain compliant with environmental regulations. However, Berth 120 is not currently available due to ongoing negotiations with adjacent tenants. The amendment provides a temporary solution by allowing continued operations at the current location while the Harbor Department works to determine Berth 120's availability over the next two years.\n\n## Key Details\n\n- **Deadline:** April 13, 2025 for the current arrangement\n- **Contingency:** If Berth 120 is deemed unavailable for construction, Kinder Morgan must cease operations and vacate Berths 118-119\n- **Financial Impact:** All maintenance, repair, and MOTEMS compliance costs are borne by Kinder Morgan with no impact to the city's General Fund\n- **Environmental Status:** The action is considered administratively exempt from California Environmental Quality Act (CEQA) requirements\n\n## Impact\n\nThis affects Port operations and environmental compliance. The amendment maintains current maritime commerce activity while buying time for the city and Kinder Morgan to resolve facility constraints. Residents and environmental stakeholders should note the two-year timeline for determining the terminal's long-term future.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1768,
+    "output_tokens": 379,
+    "cost_usd": 0.003663
+  }
+}

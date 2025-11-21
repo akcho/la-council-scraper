@@ -1,0 +1,14 @@
+{
+  "historyId": "85a76f05-a1c6-4f24-9df9-1bdd420776c0",
+  "council_file": "25-1109",
+  "meeting_id": 17407,
+  "original_filename": "Report from Cultural Heritage Commission dated 9-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: Gelb House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\nThe Cultural Heritage Commission is recommending that the City Council designate the Gelb House, located at 12450 West Rochedale Lane and 736 North Rochedale Way (Council District 11), as a Historic-Cultural Monument. This designation would add the property to Los Angeles's official list of protected historic properties.\n\n## Why?\nThe Commission determined that the Gelb House meets the definition of a Monument under Los Angeles Administrative Code Section 22.171.7, meaning it possesses significant historical, cultural, or architectural value worthy of preservation. The proposed designation has been determined to be categorically exempt from environmental review under California law.\n\n## Key Details\nThe Cultural Heritage Commission voted unanimously (5-0) on September 18, 2025 to recommend this designation. The motion was moved by Commissioner Kennard and seconded by Commissioner Barron, with Commissioners Buelna, Rubio, and Milofsky voting in favor.\n\n## What Happens Next and Impact\nThe City Council now has 90 days from the Commission's public hearing to approve or disapprove the designation. If approved, the Gelb House would receive legal protections that typically restrict major alterations and demolition. The property owner can extend the Council's decision timeline by up to 60 additional days with written consent. If the Council takes no action within the timeframe, the designation will be automatically denied.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4213,
+    "output_tokens": 329,
+    "cost_usd": 0.0058579999999999995
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "99eda28e-0990-4b34-aa8d-187d40f7f8d6",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Report from Los Angeles City Planning Commission dated 8-18-25",
+  "category": "staff_report",
+  "summary": "# Summary: Hotel Development at Pico Boulevard and Arapahoe Street\n\n## What is Being Proposed?\n\nThe Los Angeles City Planning Commission is recommending approval of a new 125-room hotel development at 2250-2270 West Pico Boulevard and 1309-1315 South Arapahoe Street in South Los Angeles. The project consists of two six-story buildings (76 feet 6 inches tall) separated by an alley, with 77,828 square feet of floor area and a 2.99:1 Floor Area Ratio. The developer proposes 84 voluntary parking spaces in underground parking, plus 12 bicycle parking spaces.\n\n## Why?\n\nThe project requires a General Plan Amendment to change the land use designation from \"Commercial Manufacturing and Low Medium II\" to \"Neighborhood Commercial,\" along with a zone change from [Q]C2-1 and RD1.5-1 to C2-2-CPIO. The existing zoning severely limits development potential—the commercial portion allows only 1.5:1 FAR, and the residential portion doesn't permit hotels. The City Planning Commission found that the hotel addresses an identified shortage of hotel rooms in proximity to Downtown LA and would revitalize an underutilized site on a major commercial corridor with good transit access.\n\n## Key Details\n\n- **Vote:** 8-0 approval by the Planning Commission on March 13, 2025\n- **Location:** Southwest corner of Pico Boulevard and Arapahoe Street, Council District 1\n- **Project specs:** 125 guest rooms, demolition of existing market and surface parking, zero trees removed, 24,900 cubic yards of soil grading\n- **Environmental review:** Mitigated Negative Declaration approved (ENV-2018-3545-MND)\n- **Transit access:** Site is within a Transit Priority Area near Metro bus lines 2, 30, 33, 204, and 754\n- **Council action deadline:** 75 or 90 days from August 18, 2025\n\n## Impact\n\nThe project will enhance a commercial corridor by replacing a single-story market with a modern hotel that serves tourists, business travelers, and visitors. Residential neighbors to the south will have an approximately 76-foot tall building 15-18 feet away, though the project includes design features like an open courtyard and alley widening to minimize impacts. The development requires significant public improvements including street dedications, sidewalk construction, and infrastructure upgrades, with multiple conditions of approval governing construction activities, environmental protections, and design standards.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 71714,
+    "output_tokens": 574,
+    "cost_usd": 0.074584
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "ac6f298f-5c93-4179-9e5a-ef027efd80c5",
+  "council_file": "25-1202",
+  "meeting_id": 17406,
+  "original_filename": "Motion (Hernandez - Yaroslavsky) dated 10-15-25",
+  "category": "other",
+  "summary": "# Summary: Motion to Support ADA Accessibility Compliance (CF 25-1202)\n\n## What Is Being Proposed?\n\nThe City Council is being asked to authorize the creation of a new Civil Engineering Associate IV position within the Bureau of Engineering to support the ADA (Americans with Disabilities Act) Coordinator's office. This new staff position would help ensure the City complies with accessibility requirements for people with disabilities. The motion also requests transferring $205,859.12 in funding to pay for this position.\n\n## Why?\n\nUnder the Willis Settlement Agreement, the City committed to ensuring that sidewalks and public spaces are accessible to people with disabilities. The current ADA Coordinator is overwhelmed with responsibilities including inspections, compliance reviews, handling complaints, and coordinating with multiple city departments (Public Works, Transportation, and others). This lack of dedicated support staff limits the City's ability to meet legal accessibility requirements and increases risk of violating the settlement. The timing is especially urgent as the City prepares for the 2028 Olympic and Paralympic Games, which will require extensive accessibility compliance.\n\n## Key Details\n\n- **New Position:** Civil Engineering Associate IV (must be a Certified Access Specialist within 18 months)\n- **Funding:** $205,859.12 total (transferred from existing BOE departmental funds and the Sidewalk Repair Program)\n- **Sponsor:** Councilmembers Hernandez and Yaroslavsky\n- **Date:** October 15, 2025\n\n## Impact\n\nThis position would improve accessibility compliance citywide, expedite design reviews, increase responsiveness to accessibility requests, and help ensure consistency across different city departments and programs. Residents with disabilities would benefit from better-maintained sidewalks and more accessible public spaces.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1772,
+    "output_tokens": 380,
+    "cost_usd": 0.003672
+  }
+}

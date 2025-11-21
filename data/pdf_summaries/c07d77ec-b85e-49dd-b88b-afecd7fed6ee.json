@@ -1,0 +1,14 @@
+{
+  "historyId": "c07d77ec-b85e-49dd-b88b-afecd7fed6ee",
+  "council_file": "25-1187",
+  "meeting_id": 17406,
+  "original_filename": "Report from Budget and Finance Committee dated 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1187\n\n## What is Being Proposed?\nThe Budget and Finance Committee recommends that the Los Angeles City Council approve removing $979,896.66 in uncollectible debt from the city's active accounts receivable. This involves writing off 258 invoices from the Los Angeles Housing Department that have been determined to be uncollectible.\n\n## Key Details\nThe write-off consists of two groups of invoices:\n- 12 invoices totaling $146,043.70\n- 246 invoices totaling $833,852.96\n\nThe Collections Board of Review (CBR) made this recommendation, and it was considered at a Budget and Finance Committee meeting on October 21, 2025. All five committee members voted in favor of approval (Yaroslavsky, Blumenfield, Hutt, McOsker, and Hernandez).\n\n## Why This Matters\nThese invoices have been classified as uncollectible, meaning the city has determined it is unlikely to recover these funds despite collection efforts. By formally removing them from active receivables, the city can present a more accurate accounting of its actual financial assets rather than carrying debt that has no realistic prospect of payment.\n\n## Impact\nThis action primarily affects the city's financial records and accounting practices rather than directly impacting residents. It represents a realistic adjustment to the city's books by eliminating nearly $1 million in uncollectible debt, allowing for more accurate budgeting and financial planning going forward.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2097,
+    "output_tokens": 330,
+    "cost_usd": 0.003747
+  }
+}

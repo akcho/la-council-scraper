@@ -1,0 +1,14 @@
+{
+  "historyId": "c75d5393-0d92-4417-b146-bc6904eb6889",
+  "council_file": "25-1014",
+  "meeting_id": 17407,
+  "original_filename": "Report from Mayor dated 9-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: Confirmation of Todd Bouey as LACERS General Manager\n\n## What is Being Proposed\nMayor Karen Bass is approving the confirmation of Todd Bouey as General Manager of the Los Angeles City Employees' Retirement System (LACERS). This approval is being sent to the City Council for their formal confirmation, which is required by the City Charter before Mr. Bouey can be fully confirmed and sworn in.\n\n## Background and Process\nOn August 26, 2025, the Board of Administration of LACERS appointed Todd Bouey to the General Manager position. However, City Charter Section 1108(b) requires that this appointment be confirmed by both the Mayor and the City Council. Mayor Bass's letter documents her mayoral approval of this appointment and paves the way for the City Council to vote on the final confirmation.\n\n## Key Details\n- **Council File:** 25-1014\n- **Date of Board Appointment:** August 26, 2025\n- **Mayor's Approval Date:** September 23, 2025\n- **Next Step:** City Council confirmation vote required\n- **Charter Authority:** City Charter Section 1108(b)\n\n## Impact\nThis action affects all Los Angeles City employees who are members of LACERS, as the General Manager oversees the retirement system that manages their pension benefits. Once the City Council votes to confirm Mr. Bouey, he will be able to assume his duties managing this critical employee benefit system.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2133,
+    "output_tokens": 318,
+    "cost_usd": 0.0037229999999999997
+  }
+}

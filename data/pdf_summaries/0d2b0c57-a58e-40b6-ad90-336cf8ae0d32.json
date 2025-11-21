@@ -1,0 +1,13 @@
+{
+  "historyId": "0d2b0c57-a58e-40b6-ad90-336cf8ae0d32",
+  "council_file": "25-1294",
+  "meeting_id": 17283,
+  "original_filename": "Housing Committee Report (11-5-25)",
+  "summary": "# Summary of LA City Council File 25-1294\n\n## What is Being Proposed?\n\nThe Housing and Homelessness Committee recommends transferring ownership of two affordable housing properties—Manitou Vistas I (3420 Manitou Avenue) and Manitou Vistas II (3414 Manitou Avenue)—to New Way Home Corporation, a nonprofit entity created by the Housing Authority of the City of Los Angeles (HACLA). This includes assigning existing city loans totaling $4,024,418 to the new owner and restructuring the loan terms and affordability requirements.\n\n## Key Changes to Loan Terms\n\nThe proposal significantly improves the financial structure for the projects: the interest rate would be reduced to 3% (simple interest), all accrued interest would be forgiven, and the loan term would be extended to 55 years. Additionally, the affordability restrictions on Manitou Vistas II would expand from 10 units to 20 units, with new income-based allocations (ranging from 30% to 60% of Area Median Income). Revenue sharing between the City and HACLA would shift to 75% HACLA/25% City for the first 10 years, with a potential 50/50 split if certain capital events occur.\n\n## Impact and Significance\n\nLocated in Council District 14, these changes will preserve and expand affordable housing opportunities while transferring operational control to HACLA. The expanded affordability requirements at Manitou Vistas II mean more residents at lower income levels will have access to housing. The committee approved this motion unanimously on November 5, 2025, and it now moves to the full City Council for final approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4178,
+    "output_tokens": 374,
+    "cost_usd": 0.006048
+  }
+}

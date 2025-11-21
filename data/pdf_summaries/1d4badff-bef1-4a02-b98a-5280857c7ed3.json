@@ -1,0 +1,14 @@
+{
+  "historyId": "1d4badff-bef1-4a02-b98a-5280857c7ed3",
+  "council_file": "25-0006-S85",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 10-16-25",
+  "category": "staff_report",
+  "summary": "# Summary: Legal Services Agreement for Palisades Fire Litigation\n\n## What is Being Proposed?\n\nThe City Attorney's Office is recommending that the City Council authorize a contract with the law firm Munger, Tolles & Olson (MTO) for $750,000 over an initial three-year term to handle legal representation related to the January 2025 Palisades Fire. Additionally, the Council is being asked to approve \"informed written consent\" allowing MTO to continue representing Southern California Edison Company (SCE) in matters unrelated to the wildfire.\n\n## Why?\n\nThe Palisades Fire, which began on January 7, 2025, has triggered significant litigation exposure for the City. MTO is already defending the City in the Grigsby case (Case No. 25STCV00832) and has experience defending against major wildfire lawsuits, including recent Maui fire litigation. Rather than hire separate counsel and risk duplication, the City Attorney argues it makes financial and operational sense to retain the same firm that is already familiar with the City's evidence and defense strategy. Additionally, MTO can represent the City in related federal investigations into the wildfire.\n\n## Key Details\n\n- **Initial contract value**: $750,000 for three years\n- **Litigation defendant**: City of Los Angeles (among others) in Grigsby case\n- **Fire date**: January 7, 2025\n- **Conflict disclosure**: MTO represents Edison International and SCE but states this representation is not adverse to the City and relates to unrelated matters and wildfire legislation advocacy\n\n## Impact\n\nLos Angeles residents and property owners affected by the Palisades Fire may pursue claims against the City. This legal contract will fund the City's defense against those claims and federal investigations, ultimately affecting how City resources are allocated to address wildfire liability issues.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6082,
+    "output_tokens": 406,
+    "cost_usd": 0.008112
+  }
+}

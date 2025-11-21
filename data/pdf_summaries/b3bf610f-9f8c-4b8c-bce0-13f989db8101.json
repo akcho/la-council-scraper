@@ -1,0 +1,14 @@
+{
+  "historyId": "b3bf610f-9f8c-4b8c-bce0-13f989db8101",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Communication from the Clerk 08_14_2020",
+  "category": "other",
+  "summary": "# Summary: L-Shaped Alley Vacation Request (VAC-E1401370)\n\n## What is Being Proposed?\nThe City of Los Angeles is proposing to vacate (discontinue public use of) an L-shaped alley located northerly of Riverside Drive and westerly of Riverton Avenue in Council District 4. This vacation is being considered as part of a transit priority development project in the area.\n\n## Why?\nThe alley vacation is intended to support a transit priority development project that would benefit the community. The project has been analyzed under the California Environmental Quality Act (CEQA) and determined to be statutorily exempt from full environmental review, meeting all required legal standards for this type of development.\n\n## Key Details\n- **Council File Number:** 19-1189\n- **Committee Hearing:** Wednesday, August 19, 2020 at 1:00 PM (Public Works and Gang Reduction Committee)\n- **City Council Vote:** Tuesday, September 22, 2020 at 10:00 AM\n- **Format:** Both meetings conducted telephonically due to COVID-19\n- **Public Comment:** Community members can participate by calling (669) 254-5252 with specific meeting IDs provided for each session\n\n## Impact\nThis decision affects property owners and residents in the Riverton-Riverside Drive area. The alley vacation would eliminate public access to this space to facilitate the development project. Residents have the opportunity to submit written comments or participate in public comment during both the committee and full council meetings.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4382,
+    "output_tokens": 341,
+    "cost_usd": 0.0060869999999999995
+  }
+}

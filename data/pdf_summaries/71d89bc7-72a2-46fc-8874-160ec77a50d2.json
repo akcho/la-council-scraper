@@ -1,0 +1,14 @@
+{
+  "historyId": "71d89bc7-72a2-46fc-8874-160ec77a50d2",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 04122018 - Application 04_12_2018",
+  "category": "other",
+  "summary": "# Summary: Application for Vacation of Public Right of Way\n\n## What is Being Proposed?\n\nNorth East Trees, represented by Project Manager George Baliteria, is applying to vacate a public right of way at McKinley Place @ 87th Street in Los Angeles (Council District 9). The vacation area encompasses approximately 4,387.3 square feet of public street between McKinley Avenue and McKinley Place, and between 87th Street and 87th Place.\n\n## Why?\n\nThe purpose of vacating this public right of way is to develop the currently vacant, asphalt-paved area into a neighborhood park. The project will convert approximately half an acre of underutilized public space into green space for community use. This vacation is being pursued in conjunction with a B-Permit (BR 003792).\n\n## Key Details\n\n- **Applicant/Owner**: City of Los Angeles through Heal the Bay organization (President & CEO: Shelley Luce), located in Santa Monica\n- **Contact**: George Baliteria, 570 West Avenue 26, Suite 200, Los Angeles, CA 90065; (951) 201-2710\n- **Location**: McKinley Place @ 87th Street; Central Engineering District\n- **Size**: 4,387.3 square feet\n- **Application Date**: March 24, 2018 (received March 30, 2018)\n\n## Impact\n\nSince the vacation area is under 10,000 square feet, it qualifies for categorical exemption from California Environmental Quality Act review, reducing processing time and costs. The City of Los Angeles, through Heal the Bay, will benefit from expanded public park space, while the community gains improved neighborhood amenities and green space access.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4482,
+    "output_tokens": 387,
+    "cost_usd": 0.006417
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "8de59d24-333c-410b-82a5-b203e1bf3f94",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-16-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Zone Change and Housing Development Project - Sun Valley\n\n## What is Being Proposed?\n\nThe City is approving a zone change for a property in Sun Valley from R1-1-CUGU (single-family residential) to (T)(Q)RD1.5-1-CUGU (multi-family residential with conditions). This will allow the demolition of 3 existing single-family homes and construction of a new 17-unit apartment complex with attached garages on approximately 26,300 square feet of land.\n\n## Why?\n\nThe project supports multiple city goals, including Mayor Garcetti's LA Green New Deal to increase housing production (100,000 new units by 2021) and locate housing near transit. The current zoning is inconsistent with the Sun Valley-La Tuna Canyon Community Plan's Low Medium II Residential designation. The proposed development increases the city's housing supply, provides a net gain of 14 units, and supports neighborhood transit-oriented development.\n\n## Key Details\n\n- **Location:** Sun Valley area, approximately 0.4 miles from Sun Valley Metrolink Station and near San Fernando Road/Sunland Boulevard intersection\n- **Transit Access:** Close to Metro bus lines 90, 169, and 294; near elementary school (Arminta Elementary)\n- **Project Scale:** 17 new residential units replacing 3 homes\n- **Conditions:** Project includes street improvements (sidewalks, curb/gutter repairs), land dedication for Fair Avenue, ADA-compliant driveway, and compliance with green building standards\n- **Environmental Review:** Mitigated Negative Declaration approved with mitigation measures\n\n## Impact\n\nResidents in the area will see increased housing density in a transitional zone between single-family neighborhoods and multi-family/commercial developments. The project benefits the broader city by increasing housing options near public transit, supporting affordability goals, and requiring infrastructure improvements (better pedestrian access, street repairs) that benefit the community.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14290,
+    "output_tokens": 435,
+    "cost_usd": 0.016465
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "d5729356-e0a5-4d30-a3f5-d695ef39fa2e",
+  "council_file": "25-1176",
+  "meeting_id": 17406,
+  "original_filename": "Report from Budget and Finance Committee dated 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1176\n\n## What is Being Proposed?\n\nThe Budget and Finance Committee recommends approving a $7.4 million fund transfer to support the Los Angeles Fire Department's participation in California's Medi-Cal Intergovernmental Transfer (IGT) program. The city would send this money to the State Department of Health Care Services by November 21, 2025, with the goal of accessing federal Medicaid funds to support emergency medical and ambulance transport services.\n\n## Why This Matters\n\nThe IGT program is a financing mechanism that allows local government agencies to contribute funds toward the Medi-Cal program in exchange for accessing federal Medicaid matching funds. By participating, the LAFD can leverage state and federal dollars to help fund its emergency medical and ambulance services, making this an investment that generates additional revenue for the city.\n\n## Key Details\n\nThe $7.4 million will be transferred from the Fire Department's Salaries Sworn Account and sent to the state. Once the LAFD receives CY 2024 IGT program receipts back from the state, those funds will be deposited into a special trust fund and returned to the Fire Department's Salaries Sworn Account. The deadline for payment is November 21, 2025. The Budget and Finance Committee voted unanimously (5-0) to recommend approval on October 21, 2025.\n\n## Impact\n\nThis affects LAFD operations and the city's budget by creating a temporary cash flow involving emergency medical services funding. The proposal is subject to the Mayor's approval and allows for technical adjustments as needed, though notably, neither the City Administrative Officer nor the Chief Legislative Analyst has completed a full financial analysis of the proposal.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4062,
+    "output_tokens": 376,
+    "cost_usd": 0.005941999999999999
+  }
+}

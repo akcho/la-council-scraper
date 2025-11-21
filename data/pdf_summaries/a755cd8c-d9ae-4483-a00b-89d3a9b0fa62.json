@@ -1,0 +1,14 @@
+{
+  "historyId": "a755cd8c-d9ae-4483-a00b-89d3a9b0fa62",
+  "council_file": "25-0916",
+  "meeting_id": 17283,
+  "original_filename": "Motion (McOsker - Lee) dated 8-12-25",
+  "category": "other",
+  "summary": "# Summary of Motion 25-0916\n\n## What is Being Proposed?\n\nCouncilmember Tim McOsker is proposing that the City Council direct the Department of City Planning (DCP) to prepare an Interim Control Ordinance (ICO) that would prohibit the establishment or expansion of retail businesses selling tobacco or nicotine products—particularly \"smoke shops\"—near sensitive uses within Council District 15. The motion also calls for a 45-day report on best practices from other cities for regulating tobacco and smoke-shop businesses.\n\n## Why This Action?\n\nThe City is experiencing a proliferation of smoke shops in overburdened communities like Wilmington in the Harbor Area. These businesses often locate near schools, parks, day-care centers, and churches, and frequently sell flavored tobacco and snack foods that attract youth. Unlike cannabis businesses, smoke shops can currently open \"by-right\" under existing zoning with only minimal oversight. Other cities like Redondo Beach have already taken proactive steps through interim moratoriums and stricter regulations to protect youth and ensure responsible land use.\n\n## Key Details\n\n- The ICO will include an urgency clause, making it effective immediately upon publication\n- The ordinance will run for 45 days, extendable by Council Resolution for up to 10 months and 15 days\n- Can be further extended for 1 year or until permanent regulatory controls are adopted\n- The DCP must consult with the City Attorney, Department of Building and Safety (LADBS), and Department of Cannabis Regulation (DCR)\n- The follow-up report must examine best practices from Redondo Beach, Long Beach, San Francisco, and New York City\n\n## Impact\n\nThis primarily affects residents of Council District 15 and the Wilmington/Harbor Area community, particularly youth who may be targeted by these businesses. The motion aims to protect children from tobacco and nicotine products while allowing the City time to develop comprehensive long-term regulations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1770,
+    "output_tokens": 430,
+    "cost_usd": 0.00392
+  }
+}

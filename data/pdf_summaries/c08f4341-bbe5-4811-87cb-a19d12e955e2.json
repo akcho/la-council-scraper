@@ -1,0 +1,14 @@
+{
+  "historyId": "c08f4341-bbe5-4811-87cb-a19d12e955e2",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Communication(s) from Public_01-10-2025",
+  "category": "other",
+  "summary": "# Summary: Communication(s) from Public_01-10-2025\n\n## What is Being Proposed?\n\nThis document contains three separate public communications to the Los Angeles City Clerk submitted in January 2025 regarding emergency preparedness and city operations. The submissions include suggestions for civil emergency planning, feedback on press conference procedures, and concerns about media accessibility during official communications.\n\n## Why?\n\nThese communications appear to be responses to recent fire emergencies affecting Los Angeles. Residents are providing unsolicited suggestions for improving the city's emergency preparedness, residential safety policies, and public communication practices. The feedback reflects concerns about how city officials have handled emergency communications and what preventive measures could better protect residents.\n\n## Key Details\n\n**Anne Brown's submission (Jan 10)** proposes five suggestions: (1) rezoning Malibu from residential to hotel/motel/restaurant use; (2) increasing palm tree landscaping along highways; (3) mandatory residential legislation including underground emergency shelters, efficient sprinkler systems, and appropriate vegetation; (4) underground sprinkler systems around foothills to protect the city; and (5) underground archival storage for Hollywood records.\n\n**Mike Gannuscio and Carrie Broggie's submissions (Jan 11)** both critique the Saturday press conference format, noting that reporters lack microphones to ask questions, making the press conference one-sided and difficult for the public to hear reporters' questions or understand the Mayor's context.\n\n## Impact\n\nThese communications highlight public frustration with emergency preparedness infrastructure and city communication transparency. The suggestions could inform future emergency planning and communication protocols for city officials and relevant departments handling fire response and public information.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4871,
+    "output_tokens": 361,
+    "cost_usd": 0.0066760000000000005
+  }
+}

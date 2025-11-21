@@ -1,0 +1,14 @@
+{
+  "historyId": "864d4133-63bf-4719-a0b9-03552d18eece",
+  "council_file": "13-0347-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Engineering 09_29_2020",
+  "category": "staff_report",
+  "summary": "# Summary: Street Vacation Request for L-Shaped Alley (Council File 13-0347-S1)\n\n## What is Being Proposed?\nThe City Engineer is recommending that Los Angeles vacate (officially close and remove from public ownership) an L-shaped public alley located north of Olympic Boulevard and west of Mateo Street in Council District 14. This would transfer the alley land to the adjacent private property owners. The petition for this vacation was filed on January 22, 2019, and the City Council initiated the vacation process on March 19, 2019.\n\n## Why?\nThe property owner (represented by David Evans and Associates) wants to vacate the alley to develop a residential building on the combined property. The City Engineer determined this vacation serves a public benefit because: (1) the City will no longer need to maintain the alley, (2) the City will be relieved of potential liability issues, and (3) the alley is unnecessary for public use. No objections were received, and three city departments (Transportation, Fire, and Planning) stated they have no objection. A temporary alley closure is already in effect at this location.\n\n## Key Details\n- **Location:** L-shaped alley north of Olympic Boulevard, west of Mateo Street (Central City North area, zoned for heavy manufacturing)\n- **Petitioner:** Taylor Miller of David Evans and Associates, representing the property owners\n- **Deposit:** The petitioner has paid $14,980 for investigation costs\n- **Conditions:** The petitioner must complete 11 conditions within 2 years, including sidewalk/curb repairs on Mateo Street, utility easement arrangements, and securing consents from adjoining property owners and Caltrans\n- **Required Improvements:** Repair and replace damaged sidewalk, curb, and gutter along Mateo Street; fill in parkway area with concrete\n\n## Impact\nThis vacation primarily benefits the property developer by expanding their usable land for residential development. Residents will not be significantly impacted since the alley is already temporarily closed and is not needed for pedestrian, bicycle, or vehicle circulation. The neighboring property owners must consent to the vacation, and utility companies must either remove their facilities or secure easement rights to keep them in place.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 12370,
+    "output_tokens": 498,
+    "cost_usd": 0.014860000000000002
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "9be76ed5-82d8-481e-8b02-f6a6c07d8d4f",
+  "council_file": "25-1197",
+  "meeting_id": 17407,
+  "original_filename": "Report from Mayor dated 10-14-25",
+  "category": "staff_report",
+  "summary": "# Summary: Deputy City Engineer Exemption Request\n\n## What is Being Proposed?\n\nMayor Karen Bass is requesting approval to exempt one Deputy City Engineer position (Class Code 9490) from the city's civil service requirements. This exemption would allow the Department of Public Works – Bureau of Engineering to hire this position outside the standard civil service process, giving them greater flexibility in recruitment and selection.\n\n## Why?\n\nThe exemption is needed to fill a critical leadership role for the $2.6 billion Los Angeles Convention Center Expansion and Modernization Project. The Deputy City Engineer will serve as Project Executive overseeing up to 38 staff members and managing all reporting to the Mayor's Office, City Council, the Board of Public Works, and community oversight committees. The position is time-sensitive because the design/build contractor is scheduled to receive its first Notice to Proceed on September 30, 2025, and the city aims to fill the position by mid-October 2025.\n\n## Key Details\n\nThe position requires a Bachelor's degree in Civil Engineering, current California Professional Engineer registration, and at least two years of experience as a Principal Civil Engineer. Under City Charter Section 1001(b), Los Angeles can exempt up to 150 positions from civil service; this request would be the 122nd approved exemption (121 currently approved plus this one). If unfilled within six months, the Mayor's approval to fill the position will expire.\n\n## Impact\n\nThis exemption allows the city to recruit and hire the most qualified candidate with specialized expertise needed for this major infrastructure project, rather than following standard civil service hiring procedures. The position is essential for successful project delivery and stakeholder communication during a complex, fast-moving development.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4125,
+    "output_tokens": 365,
+    "cost_usd": 0.00595
+  }
+}

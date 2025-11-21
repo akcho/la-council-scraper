@@ -1,0 +1,14 @@
+{
+  "historyId": "57ce8d04-7f7b-468c-9c21-4d0e79caab92",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Communication from Department of City Planning dated 10-03-25 - Corrected Transmittal",
+  "category": "other",
+  "summary": "# Summary: Zone Change Application for Lorne Street and Fair Avenue\n\n## What is Being Proposed?\nThe Planning Department is recommending a zoning change for a property located at 11144, 11146, 11148 Lorne Street and 8032 Fair Avenue in the San Fernando Valley (Council District 6). The proposed change would rezone the property from R1-1-CUGU (single-family residential) to (T)(Q)RD1.5-1-CUGU (a more flexible residential zone). The North Valley Area Planning Commission unanimously approved this recommendation on June 5, 2025, by a vote of 4-0.\n\n## Why This Matters?\nThe zoning change would allow for different residential development on the property. The \"(T)\" and \"(Q)\" designations indicate conditional restrictions and qualifications that would apply to the site. This transmittal is formally sending the Planning Commission's recommendation to the City Council for final consideration and legislative action, including preparation of a draft ordinance by the City Attorney.\n\n## Key Details\n- **Applicant:** Sogomon Petrosyan, represented by Oscar Ensafi\n- **Case Numbers:** APCNV-2019-3202-ZCJ (Planning) and ENV-2019-3203-MND (Environmental)\n- **Environmental Review:** A Mitigated Negative Declaration was prepared, meaning no significant environmental impacts are anticipated with mitigation measures\n- **Commission Vote:** Unanimous 4-0 approval on June 5, 2025\n- **Last Day to Appeal:** September 1, 2025 (no appeals were filed)\n\n## Who This Affects\nResidents and property owners in the surrounding area may be affected by changes to the site's development potential. The City Council must now formally act on this recommendation through an ordinance before the zoning change becomes official.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6343,
+    "output_tokens": 416,
+    "cost_usd": 0.008423
+  }
+}

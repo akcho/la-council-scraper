@@ -1,0 +1,14 @@
+{
+  "historyId": "ec94bd4f-a3fe-46a0-aa5f-1d8f3363d52f",
+  "council_file": "25-1191",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council File 25-1191\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the Los Angeles Department of Transportation (LADOT) enter into a contract with Syncromatics Corp. (doing business as GMV Syncromatics) to provide design, procurement, implementation, support, integration, and maintenance services for transit technologies. The contract would run for an initial three years with two optional one-year extensions, potentially lasting up to five years total, with a maximum cost of $43,144,545.\n\n## Key Details\n\nThe contract is valued at approximately $43.1 million for the entire term. Funding for the first year (2025-26) has been allocated through the Proposition A Local Transit Assistance Fund in the City's adopted budget. Future years' funding will require separate approval through the annual budget process. The deadline for City Council action is December 9, 2025. The Transportation Committee voted 3-0 in favor on October 22, 2025 (with two members absent), and the contract requires City Attorney approval as to form.\n\n## Impact\n\nThis contract will modernize and maintain LADOT's transit technologies across its vehicle fleet and systems. Residents dependent on Los Angeles public transportation will benefit from improved transit technology services, including updates to existing systems and implementation of new technologies. The City's financial obligation is limited to available appropriations, and there is no impact to the General Fund since the contract is funded through dedicated transit assistance funds.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3954,
+    "output_tokens": 323,
+    "cost_usd": 0.005569
+  }
+}

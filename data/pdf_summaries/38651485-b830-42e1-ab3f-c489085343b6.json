@@ -1,0 +1,14 @@
+{
+  "historyId": "38651485-b830-42e1-ab3f-c489085343b6",
+  "council_file": "25-1009",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report Dated 8-18-25 - Exhibit A - Plans.pdf",
+  "category": "other",
+  "summary": "# Summary: Holiday Inn Express Project at 2250 W. Pico Boulevard\n\n## What is Being Proposed?\n\nThe document presents architectural plans and designs for a new Holiday Inn Express hotel to be constructed at 2250 W. Pico Boulevard in Los Angeles (near the corner of W. Pico Blvd and Arapahoe Street). The project involves a multi-story hotel development with ground-floor commercial/retail space and hotel rooms across multiple floors, along with structured parking and associated amenities.\n\n## Key Details\n\nThe project includes two main buildings interconnected by a shared courtyard/atrium space. Building 1 appears to contain most of the hotel rooms organized on upper floors, while Building 2 houses additional guest rooms. The ground floor features retail/commercial spaces, a lobby, restaurant/dining areas, and back-of-house functions. The design incorporates contemporary architecture with exterior finishes including cement stucco (painted in various colors), stone elements, and storefront systems. The project includes landscaping with street trees and pedestrian-oriented ground-level design facing W. Pico Boulevard.\n\n## Impact and Significance\n\nThis development would add hotel capacity to the West Los Angeles area and activate the street frontage along Pico Boulevard with ground-floor retail and hospitality uses. The project affects the immediate neighborhood by introducing increased foot traffic, commercial activity, and employment opportunities while also requiring adequate parking and traffic management. The architectural design emphasizes compatibility with the surrounding urban context through varied material finishes and a human-scale street presence.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 25663,
+    "output_tokens": 336,
+    "cost_usd": 0.027343
+  }
+}

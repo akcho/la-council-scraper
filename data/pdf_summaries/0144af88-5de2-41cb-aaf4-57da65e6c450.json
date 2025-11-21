@@ -1,0 +1,14 @@
+{
+  "historyId": "0144af88-5de2-41cb-aaf4-57da65e6c450",
+  "council_file": "25-1037",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Report dated 9-03-25 - Findings",
+  "category": "findings",
+  "summary": "# Summary: Mixed-Use Development with Affordable Housing in Hollywood\n\n## What is Being Proposed?\n\nThe City Planning Commission is approving a mixed-use residential and commercial development project in Hollywood (located at the intersection of Melrose Avenue and Harper Avenue). The project involves demolishing four existing commercial buildings and constructing a new six-story building with 90 residential units and 15,271 square feet of commercial retail space. Importantly, the project will set aside 10 units (15% of total units) for Very Low Income households for 55 years.\n\n## Why?\n\nThe project is designed to address Los Angeles's housing shortage by adding needed residential units in an urban infill location near public transit. The developer is requesting three incentives under California's Density Bonus / Affordable Housing Program to make the affordable housing economically feasible. These incentives allow the project to exceed normal zoning limits (increased building height from 30 to 69 feet, increased floor area from 1.5:1 to 4.52:1 FAR, and reduced open space requirements). The incentives are permitted under state law when at least 15% of units are reserved for very low-income households.\n\n## Key Details\n\n- **Location:** Melrose Avenue and Harper Avenue, Hollywood\n- **Size:** 110,300 total square feet (95,029 residential; 15,271 commercial)\n- **Units:** 90 total residential units with 10 affordable units for very low-income households\n- **Height/Bulk:** 69 feet, 6 stories (vs. standard 30 feet, 2 stories)\n- **Parking:** 96 vehicle spaces and 94 bicycle spaces; reduced from standard 231 spaces due to proximity to transit\n- **Transit Access:** Within one-half mile of Metro Bus Routes 10/48 and 105\n\n## Impact\n\nThe project will provide much-needed housing in a transit-accessible area while preserving three existing street trees and maintaining ground-floor commercial activity along Melrose Avenue. Residents will benefit from reduced vehicle trips through proximity to public transit. The 10 affordable units help address Los Angeles's affordable housing crisis, though the project requires zoning modifications to proceed.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 33028,
+    "output_tokens": 492,
+    "cost_usd": 0.035488000000000006
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "7edd4026-3f9a-4c3e-86cb-f29c1e5f25e9",
+  "council_file": "13-0347-S1",
+  "meeting_id": 17283,
+  "original_filename": "Report from Bureau of Engineering dated 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: L-Shaped Alley Vacation - Council File 13-0347-S1\n\n## What is Being Proposed?\nThe City Council is being asked to formally adopt a Resolution to Vacate (No. 25-1401355) for an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street in Council District 14. This action follows up on a June 25, 2024 City Council meeting where the initial decision was made and no protests were filed against the vacation.\n\n## Why?\nThe vacation is proceeding as originally authorized by the City Council in June 2024. The document indicates that all conditions from that earlier action have been fulfilled, and the formal resolution is now being presented to finalize the vacation process. The Bureau of Engineering is using an accelerated review process to move this through to completion.\n\n## Key Details\n- **Project ID:** VAC-E1401355\n- **Original Council Action:** June 25, 2024 (Council File No. 13-0347-S1)\n- **Current Date:** October 21, 2025\n- **Location:** Council District 14 (South Los Angeles area)\n- **Environmental Status:** Exempt from California Environmental Quality Act under categorical exemptions (Class 5(3))\n- **Legal Compliance:** Complies with Los Angeles City Charter Section 556 and the General Plan\n\n## Impact\nThis vacation allows the city to relinquish public right-of-way in this alley, likely enabling adjacent property owners to gain control or use of the space. No public protests were filed during the comment period, suggesting minimal community opposition.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3884,
+    "output_tokens": 365,
+    "cost_usd": 0.005709
+  }
+}

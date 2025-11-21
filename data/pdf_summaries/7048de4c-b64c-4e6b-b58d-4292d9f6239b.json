@@ -1,0 +1,14 @@
+{
+  "historyId": "7048de4c-b64c-4e6b-b58d-4292d9f6239b",
+  "council_file": "25-0008-S25",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Oversize Vehicle Parking Restrictions on Shoup Avenue\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the City Council establish parking restrictions for oversized vehicles on a segment of Shoup Avenue in Council District 3. Specifically, vehicles exceeding 22 feet in length or 7 feet in height would be prohibited from parking on the east side of Shoup Avenue between Roscoe Boulevard and Strathern Street during the hours of 2:00 a.m. to 6:00 a.m.\n\n## How It Will Work\n\nIf approved, the Los Angeles Department of Transportation (LADOT) would post \"tow away, no parking\" signs at the affected locations and establish a permit system for overnight parking. This would allow oversize vehicle owners to purchase permits to park in this area during the restricted hours, in accordance with Los Angeles Municipal Code Section 80.69.4.\n\n## Key Details\n\n- **Location:** East side of Shoup Avenue between Roscoe Boulevard and Strathern Street (Council District 3)\n- **Restricted hours:** 2:00 a.m. to 6:00 a.m. daily\n- **Vehicle size limits:** Over 22 feet in length or over 7 feet in height\n- **Committee vote:** 2 YES (Hutt, Nazarian), 1 NO (Hernandez), 2 ABSENT (Park, Padilla)\n- **Recommendation:** The Committee submitted this \"without recommendation,\" meaning it is neutral and deferring to the full Council for a decision\n\n## Impact\n\nThis ordinance would affect residents and businesses with oversized vehicles (such as RVs, large commercial vehicles, or trucks) in the specified area, requiring them to either relocate their vehicles during early morning hours or purchase an overnight parking permit.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3940,
+    "output_tokens": 413,
+    "cost_usd": 0.006005
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "60a11038-38a4-4ec3-ab92-8f78ec649dea",
+  "council_file": "25-0982",
+  "meeting_id": 17407,
+  "original_filename": "Report from Bureau of Engineering dated 7-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Street Easement Rejection and Acceptance at 4539-4545 West Santa Monica Boulevard\n\n## What is Being Proposed\n\nThe City is being asked to reject a portion of a future street easement (shown in red on the map) and accept a different portion (shown in blue) at 4539-4545 West Santa Monica Boulevard in Council District 13. This involves modifying the street right-of-way dimensions that were originally promised for dedication to the city back in 1973.\n\n## Why This Change Is Needed\n\nThe property owner, represented by Gary Benjamin, is proposing a 100% affordable housing development on the site. The current street easement dimensions don't align with today's street standards under the city's Mobility Plan 2035. By rejecting part of the easement and accepting another portion, the right-of-way width will conform to the Modified Avenue I standards, allowing the development to proceed while ensuring the street dimensions match current city standards. Properties in the area can be adequately served through private driveways or common access rather than the oversized public street.\n\n## Key Details\n\n- **Location:** 4539-4545 West Santa Monica Boulevard (Right of Way No. 36000-2557)\n- **Original easement:** Recorded September 26, 1973\n- **Processing fee:** $7,075.91\n- **Supporting agencies:** Engineering's Central District, Department of Transportation, and City Planning all support the request\n\n## Impact\n\nThis action removes burden from an affordable housing development by reducing unnecessary street dedication requirements, making the project more feasible while still maintaining adequate public access standards. The city will record both resolutions with the County Recorder.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6030,
+    "output_tokens": 369,
+    "cost_usd": 0.007875
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "d23f5575-0323-44bb-aab2-78898f16bb1b",
+  "council_file": "25-1043",
+  "meeting_id": 17367,
+  "original_filename": "Report from Board of Fire Commissioners dated 9-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: LA Fire Department Revolving Training Fund Annual Report FY 2024-25\n\n## What is Being Proposed?\nThe Board of Fire Commissioners is transmitting an annual report on the Los Angeles Fire Department's Revolving Training Fund 40K for fiscal year 2024-25 to the Mayor and City Council for approval. This fund supports the training and professional development of the department's Paramedic and Firefighter personnel through a partnership with the United Firefighters of Los Angeles City (UFLAC).\n\n## Why?\nCity Ordinance No. 171714 requires an annual report on this revolving fund. The fund operates through the California Joint Apprenticeship Committee (CAL-JAC) agreement, which reimburses the LAFD for training costs related to apprenticeships for probationary and newly promoted firefighters. The department pays $4.60 per hour of apprentice training from the fund.\n\n## Key Details\nFor FY 2024-25, the fund managed $4.2 million in total resources, ending with a balance of $4,191,000 as of June 30, 2025. The fund received $2,655,000 in new deposits and $61,787 in interest income, while spending $1,002,110 on training improvements. Major expenditures included State Fire Training certifications, expanded instructor cadre, upgraded training facilities (including the Frank Hotchkin Memorial Training Center), equipment for specialized training like Urban Search and Rescue, and technology upgrades at the Operations Valley Bureau and Drill Tower 81.\n\n## Impact\nThere is no impact to the city's General Fund. These funds are dedicated solely to enhancing firefighter and paramedic training infrastructure and capabilities, ensuring personnel are well-equipped to serve the community safely and effectively. The fund demonstrates fiscal responsibility while supporting critical professional development for LAFD personnel.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6837,
+    "output_tokens": 414,
+    "cost_usd": 0.008907
+  }
+}

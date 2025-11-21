@@ -1,0 +1,14 @@
+{
+  "historyId": "f7314abc-75e0-4de5-b69c-64d6ede55be3",
+  "council_file": "21-0392",
+  "meeting_id": 17406,
+  "original_filename": "Report from City Administrative Officer dated 5-12-21.pdf",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 21-0392\n\n## What is Being Proposed?\nThe City is recommending that the Los Angeles City Council authorize the Department of Animal Services to enter into a three-year contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to operate the spay/neuter clinic at the Chesterfield Square Animal Service Center. The agreement would run from July 1, 2021 through June 30, 2024, with two optional one-year extensions, for a total cost not to exceed $350,000 annually ($1,050,000 for the initial three-year term).\n\n## Why This is Needed?\nLos Angeles Municipal Code requires that all animals adopted from city shelters be spayed or neutered before release. The Department of Animal Services lacks sufficient in-house capacity to perform all necessary surgeries. By contracting with ASPCA, the city can augment its ability to provide these services to both animals being adopted from the shelter and to qualifying Los Angeles residents who bring their own pets for sterilization. The ASPCA was selected as the first qualified respondent on a pre-approved vendor list.\n\n## Key Details\n- **Location:** Chesterfield Square Animal Service Center, 1850 West 60th Street, Los Angeles\n- **Services:** Spay/neuter surgeries for dogs, cats, and rabbits; includes physical exams, vaccinations, and post-operative care\n- **Reimbursement rates:** Range from $30-$125 per procedure depending on animal type and funding source (discount coupons, free certificates, or direct reimbursement)\n- **Minimum surgeries:** 10 dogs, 5 female cats, 2 rabbits per day of operation\n- **Funding source:** Animal Sterilization Trust Fund (no General Fund impact)\n\n## Who This Affects\nThis contract benefits Los Angeles residents by expanding access to affordable spay/neuter services through the city's program, which serves both adoptable shelter animals and pets owned by qualifying residents. There is no fiscal impact to the city's General Fund, as costs are covered entirely by the dedicated Animal Sterilization Trust Fund.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 148086,
+    "output_tokens": 484,
+    "cost_usd": 0.150506
+  }
+}

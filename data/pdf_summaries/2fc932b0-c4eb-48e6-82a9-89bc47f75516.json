@@ -1,0 +1,14 @@
+{
+  "historyId": "2fc932b0-c4eb-48e6-82a9-89bc47f75516",
+  "council_file": "25-0782",
+  "meeting_id": 17455,
+  "original_filename": "Government Operations Committee Report 10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary: Franchise Renewal and Transfer for PS Southern California One, LLC\n\n## What is Being Proposed?\nThe Government Operations Committee recommends that the City Council approve a franchise renewal and transfer for PS Southern California One, LLC. The committee is asking the City Attorney to draft an ordinance that would allow this company to continue operating a telecommunications facility in the city's public rights-of-way for a 10-year term.\n\n## Why?\nPS Southern California One, LLC operates an internal telecommunications system that connects two of their own buildings located at 1617 Pontius Avenue and 1606 Cotner Avenue (north of Santa Monica Boulevard). The company uses a city alleyway to run cables for signal transmission between these buildings. This is not a service provided to customers but rather internal infrastructure. The franchise renewal allows the company to continue this established operation under the city's permit system, as governed by City Ordinance No. 184530.\n\n## Key Details\nThe facility consists of six one-inch diameter conduits running through an unnamed city alleyway, containing four video co-axial cables, one intercom co-axial cable, and one keypad shielded cable. The committee considered this matter on October 21, 2025, based on an Information Technology Agency (ITA) report dated July 15, 2025. All three voting councilmembers (Padilla, Lee, and Jurado) voted \"YES\" to recommend approval.\n\n## Financial and Community Impact\nThe city will receive $2,500 in application fees and $450 in annual franchise fees over the 10-year term, totaling $4,500. No community impact statement was submitted regarding this proposal.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3896,
+    "output_tokens": 370,
+    "cost_usd": 0.005746
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "3cffb8ad-4b0c-4b64-9e0f-67b16b8cbd87",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-17-25 - T Conditions",
+  "category": "conditions",
+  "summary": "# Summary: Tentative Classification Removal Conditions\n\n## What is Being Proposed?\n\nThis document outlines the conditions required to remove the \"(T)\" or \"[T]\" Tentative Classification from a property subdivision (APCNV-2022-8497-VZC). The tentative classification is a regulatory status that restricts development until certain public improvements and land dedications are completed or guaranteed. The document specifies exactly what the developer must do to clear this restriction and proceed with building permits.\n\n## Why?\n\nThe tentative classification exists to ensure that subdivisions include necessary public infrastructure and dedications before development occurs. This protects the city and future residents by requiring developers to provide adequate streets, utilities, and public right-of-way access. Once the developer guarantees these improvements through the City Engineer's B-permit process, the restriction can be lifted.\n\n## Key Details\n\nThe developer must provide:\n- **Land dedication**: A 3-foot-wide strip along Chase Street to create a complete 33-foot half right-of-way meeting Collector Street standards\n- **Street improvements**: A new 5-foot-wide concrete sidewalk with parkway landscaping along Chase Street, plus curb, gutter, and pavement repairs\n- **Infrastructure**: On-site sewer mainline and house sewers to serve the development\n- **Special requirements**: ADA-compliant driveways and coordination with Urban Forestry Division regarding an existing oak tree\n\nThe developer must obtain written verification from responsible agencies (Bureau of Engineering, Department of Transportation, Fire Department, etc.) acknowledging their consultation and approval.\n\n## Impact\n\nThis primarily affects the developer/applicant, who must complete or guarantee these improvements before construction can begin. Residents benefit through improved street infrastructure, accessibility compliance, and proper utility connections serving the new development.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2387,
+    "output_tokens": 393,
+    "cost_usd": 0.004352
+  }
+}

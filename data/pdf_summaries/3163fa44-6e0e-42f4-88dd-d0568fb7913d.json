@@ -1,0 +1,14 @@
+{
+  "historyId": "3163fa44-6e0e-42f4-88dd-d0568fb7913d",
+  "council_file": "14-0958",
+  "meeting_id": 17406,
+  "original_filename": "Attested Resolution_12-09-22",
+  "category": "other",
+  "summary": "# Summary: Temporary Street Closure of 121st Street\n\n## What is Being Proposed?\nThe Los Angeles City Council is authorizing a temporary closure of 121st Street between Figueroa Street and Hoover Street for a maximum period of 18 months. The closure will be gated approximately 180 feet west of Figueroa Street, meaning the street will remain open and accessible for pedestrians and vehicular traffic from Hoover Street to the gate location, but will be fully closed beyond that point.\n\n## Why?\nThe Police Department recommended this temporary closure due to serious and continual criminal activities occurring in the alley. The Council determined that closing this street segment will help reduce criminal activities in the area while not substantially disrupting traffic flow, emergency vehicle operations, or municipal services in the surrounding neighborhoods.\n\n## Key Details\n- **Location:** 121st Street between Figueroa Street and Hoover Street\n- **Duration:** Maximum 18 months from the resolution's adoption (December 9, 2022)\n- **Partial Access:** The street will remain open and accessible for pedestrians and vehicles up to approximately 180 feet west of Figueroa Street\n- **Authority:** This action is authorized under California State Vehicle Code Section 21101.4\n\n## Impact\nThis closure primarily affects residents and businesses in the immediate area who use 121st Street between Figueroa and Hoover. The partial closure is designed to minimize traffic disruptions while addressing public safety concerns specific to that alley segment.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3316,
+    "output_tokens": 331,
+    "cost_usd": 0.004971
+  }
+}

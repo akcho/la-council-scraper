@@ -1,0 +1,14 @@
+{
+  "historyId": "1655ed1e-4b7f-4795-a30b-ae380fdc9e0f",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners 04_02_2013",
+  "category": "staff_report",
+  "summary": "# Summary: Settlement and Permit Amendment with Kinder Morgan\n\n## What is Being Proposed\n\nThe City is seeking City Council approval for two related agreements with Kinder Morgan companies regarding marine oil terminal operations at the Port of Los Angeles. First, a Settlement and Release Agreement with Kinder Morgan Liquids Terminals LLC to resolve a long-running lawsuit over contamination cleanup at Berths 171-173. Second, a First Amendment to Permit 708 with Kinder Morgan Tank Storage Terminals LLC to extend operations at Berths 118-119 for five additional years (until 2018) with specific cleanup obligations.\n\n## Why This Matters\n\nThe City filed suit in 2005 against Kinder Morgan and other companies over environmental contamination at two separate harbor terminal sites dating back decades. The proposed settlement resolves disputes over past rent obligations and future contamination liability at Berths 171-173. Concurrently, extending Permit 708 allows Kinder Morgan to continue limited operations using vapor recovery systems while fulfilling demolition and soil remediation requirements at Berths 118-119, where a 1997 cleanup order remains outstanding.\n\n## Key Details\n\n- **Berths 118-119**: Permit extension runs April 2013 to April 2018; rent increases from $29 to $32 per square foot; Kinder Morgan must surrender the eastern tank farm by December 31, 2015\n- **Berths 171-173**: 14-acre site heavily contaminated from 75 years of terminal operations; estimated remediation cost of approximately $18 million involving excavation and disposal of 256,000 tons of soil\n- **Financial commitment**: Kinder Morgan agrees to pay 60% of past, future, and post-remediation costs, capped at $15 million combined\n- **Remediation standards**: Tenant must remove soil with petroleum hydrocarbon concentrations exceeding 1,000 mg/kg and install permanent groundwater monitoring wells\n\n## Impact\n\nThis settlement avoids costly litigation and establishes clear timelines for environmental cleanup at two contaminated harbor sites. The Port continues collecting rent revenue while Kinder Morgan phases out operations and completes remediation. Local environmental conditions should improve through systematic soil removal and groundwater treatment, though the cleanup extends beyond the permit period through long-term monitoring obligations.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 104502,
+    "output_tokens": 517,
+    "cost_usd": 0.107087
+  }
+}

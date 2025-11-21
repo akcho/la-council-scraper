@@ -1,0 +1,14 @@
+{
+  "historyId": "d4f85253-fdbc-44d8-a4c3-454d78426b1d",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Council Action - Mayor Concurrence dated 6-24-25",
+  "category": "other",
+  "summary": "# Summary of Council File 24-0777\n\n## What is Being Proposed?\n\nThe Los Angeles City Council has adopted ordinances to amend the salary schedules for non-represented (non-union) employees in the offices of the City Council and Mayor. The action removes previously scheduled salary increases and adjusts salary ranges downward on future dates. This represents a reversal of earlier compensation plans for these administrative positions.\n\n## Why?\n\nWhile the document doesn't explicitly state the rationale, the context suggests this action addresses fiscal constraints or budget concerns. The decision to remove scheduled increases and lower future salary ranges indicates the city is adjusting compensation expectations for these positions, likely as part of broader budget management efforts.\n\n## Key Details\n\n- **Council File:** 24-0777\n- **Meeting Date:** June 24, 2025\n- **Vote:** Adopted with strong support (14 YES votes, 2 ABSENT: Raman and Rodriguez)\n- **Affected Positions:** Non-represented classifications in City Council and Mayor offices\n- **Regulatory Basis:** Amends Schedule A of Los Angeles Administrative Code Section 4.61\n- **Mayor Action Deadline:** July 7, 2025 (the document shows \"APPROVED,\" indicating the Mayor signed on 6/24/2025)\n\n## Impact\n\nThis primarily affects administrative staff and executives in City Council and Mayor office positions who are not part of represented (union) bargaining units. These employees will not receive previously planned salary increases and will face lower salary ranges going forward, affecting their compensation and career advancement opportunities.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3838,
+    "output_tokens": 341,
+    "cost_usd": 0.005542999999999999
+  }
+}

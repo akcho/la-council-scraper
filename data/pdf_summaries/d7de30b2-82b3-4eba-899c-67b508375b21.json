@@ -1,0 +1,14 @@
+{
+  "historyId": "d7de30b2-82b3-4eba-899c-67b508375b21",
+  "council_file": "25-1217",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 25-1217\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council approve a new ordinance that would update the city's building codes. Specifically, the ordinance would incorporate the 2025 Edition of the California Building Standards Code into Chapter IX of the Los Angeles Municipal Code (LAMC) and allow for local adjustments based on Los Angeles' unique administrative, climatic, geological, topographical, and environmental conditions.\n\n## Why This Matters\n\nBuilding codes are the technical standards that govern how buildings must be constructed to ensure public safety, health, and welfare. California updates its statewide building standards periodically, and cities must adopt these updates into their local codes. This ordinance ensures that Los Angeles' building standards remain current and aligned with state requirements while also allowing the city to make necessary local modifications that account for factors like LA's specific climate, earthquake risk, and environmental conditions.\n\n## Key Details\n\nThe PLUM Committee held a meeting on October 28, 2025, where the committee voted to recommend approval. Four of the five committee members voted yes (Blumenfield, Hutt, Lee, and Raman), with one member absent (Nazarian). The committee also requested that the City Attorney prepare the final draft ordinance and include an environmental review. No fiscal impact analysis has been completed at this time.\n\n## Impact\n\nThis ordinance affects anyone building or renovating structures in Los Angeles, as it establishes the rules contractors and developers must follow. Updated building codes typically incorporate improvements in safety standards, energy efficiency, and disaster resilience—making buildings safer for residents and workers.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2235,
+    "output_tokens": 364,
+    "cost_usd": 0.004055
+  }
+}

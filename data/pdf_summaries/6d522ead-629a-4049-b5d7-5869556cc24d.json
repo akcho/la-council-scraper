@@ -1,0 +1,14 @@
+{
+  "historyId": "6d522ead-629a-4049-b5d7-5869556cc24d",
+  "council_file": "25-1070",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Administrative Officer dated 10-14-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Clerk Salary Recommendation\n\n## What is Being Proposed?\nThe City Administrative Officer is recommending that the City Council confirm Mayor Karen Bass's appointment of Ms. Patrice Lattimore as the permanent City Clerk, with an annual salary of **$300,588.48**. This appointment becomes effective September 24, 2025, pending Council confirmation.\n\n## Why?\nMs. Lattimore was appointed by the Mayor on September 11, 2025, to fill the permanent position of City Clerk. According to the Mayor's certification, Ms. Lattimore is \"especially qualified by reason of training and experience for the work which shall devolve upon her.\" She brings 20 years of professional experience, including 6 years as a Division Manager in the City Clerk's Office, with demonstrated expertise in City Council support, legislative processing, and administrative management.\n\n## Key Details\n- **Salary breakdown**: $143.96 hourly / $11,516.80 biweekly / $300,588.48 annually\n- **Salary range**: General Manager M-10 ($239,514–$424,845)\n- **Effective date**: September 24, 2025\n- **Qualifications**: Ms. Lattimore holds a Ph.D. in Industrial & Organizational Psychology and an M.A. in the same field; she currently manages 30 employees and oversees major Council operations including 400+ annual meetings and 15,000 document submissions\n\n## Impact\nThis appointment directly affects City operations, as the City Clerk manages all legislative processes, Council meetings, and administrative coordination. The recommended salary has no fiscal impact on the City's 2025-26 General Fund. City Council confirmation is required for this permanent appointment to become official.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8702,
+    "output_tokens": 393,
+    "cost_usd": 0.010667
+  }
+}

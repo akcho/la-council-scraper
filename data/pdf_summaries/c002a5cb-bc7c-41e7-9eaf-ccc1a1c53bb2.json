@@ -1,0 +1,14 @@
+{
+  "historyId": "c002a5cb-bc7c-41e7-9eaf-ccc1a1c53bb2",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_08-27-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public on Rent Stabilization Ordinance Updates\n\n## What is Being Proposed?\n\nGina G. is urging the Los Angeles City Council to adopt more tenant-friendly amendments to the Rent Stabilization Ordinance (Council File 23-1134). Specifically, she is requesting four key changes: (1) base rent increases on 60% of the Consumer Price Index (CPI) All Items, (2) implement a 3% cap on increases with no minimum floor, (3) eliminate additional charges for utilities and occupant increases, and (4) eliminate rent banking provisions.\n\n## Why?\n\nThe communication addresses Los Angeles' ongoing housing crisis and the problem of escalating rents making it difficult for residents to remain housed. While acknowledging that the Housing Department's current proposal represents some improvement, Gina G. contends these measures are insufficient to adequately protect tenants. The submitter is calling for more aggressive rent stabilization protections.\n\n## Key Details\n\nThe submission was filed on August 27, 2025, under Council File No. 23-1134, which specifically concerns rent increases in Los Angeles' Rent Stabilization Ordinance. The proposed changes reference CPI indexing and establish specific numerical caps (3% maximum) rather than allowing flexible increases tied to broader inflation measures.\n\n## Impact\n\nThese changes would directly affect Los Angeles tenants and renters by limiting how much landlords can increase rent annually. The proposals aim to keep lower-income households housed by reducing the financial pressure of rising rents, while potentially affecting property owners' ability to adjust rents for operational costs and occupancy changes.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2023,
+    "output_tokens": 356,
+    "cost_usd": 0.003803
+  }
+}

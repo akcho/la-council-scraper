@@ -1,0 +1,14 @@
+{
+  "historyId": "64738e17-4c3c-4f25-a2e9-3bf94d0c617a",
+  "council_file": "25-0391",
+  "meeting_id": 17367,
+  "original_filename": "Report from City Attorney dated 9-08-25",
+  "category": "staff_report",
+  "summary": "# Summary: LACERS to LAFPP Pension Transfer for Sworn Peace Officers\n\n## What is Being Proposed?\n\nThe City Attorney is transmitting a draft ordinance that would implement Measure FF, which Los Angeles voters approved in November 2024. The ordinance would allow certain sworn peace officers currently in the Los Angeles City Employees' Retirement System (LACERS) to transfer their membership and service credit to Tier 6 of the Los Angeles Fire and Police Pension Plan (LAFPP). Eligible employees from the Police Department, Harbor Department, Department of Airports, and Department of Recreation and Parks would make a one-time, irrevocable election to transfer or remain in LACERS by January 9, 2026, with the transfer effective January 11, 2026.\n\n## Why?\n\nThe transfer addresses pension benefit equity for sworn peace officers hired into positions that were originally covered by LACERS rather than LAFPP. The City has commissioned actuarial studies showing the cost and benefits of consolidating these employees into LAFPP Tier 6, where they would receive retroactive service credit dating to their original employment, giving them access to enhanced retirement benefits including the Deferred Retirement Option Plan (DROP) and retiree health benefits.\n\n## Key Details\n\nThe ordinance amends multiple sections of the Los Angeles Administrative Code and involves approximately 421 eligible members (413 active, 8 inactive as of June 30, 2024). The total estimated cost to the City is $79.2 million for past service transfers. Eligible participants would continue paying 11% member contributions (consistent with current LACERS rates) and would maintain tax compliance. The transfer is cost-neutral for LACERS and LAFPP's funded status because the City will pay all transfer costs and unfunded actuarial accrued liabilities upfront.\n\n## Impact\n\nThis affects sworn peace officers in five departments who would gain improved retirement benefits at City expense. No direct cost falls on employees. The ordinance also provides interest-free refunds for certain Airport Peace Officers who previously paid $5,700 to receive enhanced LACERS benefits and subsequently elect to transfer to LAFPP Tier 6. Implementation requires Charter amendment approval, which voters provided through Measure FF.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 80930,
+    "output_tokens": 490,
+    "cost_usd": 0.08338
+  }
+}

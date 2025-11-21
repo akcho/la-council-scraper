@@ -1,0 +1,14 @@
+{
+  "historyId": "b36b73db-71d3-48ae-8923-bdd8b950d208",
+  "council_file": "25-1212",
+  "meeting_id": 17406,
+  "original_filename": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1212\n\n## What is Being Proposed?\n\nThe Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve an agreement with Volunteers of America of Los Angeles to operate a Head Start preschool program in a city-owned building at Valley Plaza Park in North Hollywood. The organization would have exclusive use of a stand-alone building located at 12331 Vanowen Street for this purpose.\n\n## Why This Matters\n\nHead Start is a federal program that provides early childhood education and services to low-income families. By partnering with Volunteers of America, the City is expanding access to quality preschool services in the North Hollywood area without requiring city funding. The program is self-sustaining, meaning the organization covers all operational and program costs through other funding sources.\n\n## Key Details\n\n- **Location:** 12331 Vanowen Street, North Hollywood, CA 91606 (Valley Plaza Park)\n- **Partner Organization:** Volunteers of America of Los Angeles\n- **Committee Vote:** Approved 2-1 (Jurado and Hernandez voted yes; Nazarian was absent)\n- **Fiscal Impact:** No cost to the city's General Fund\n- **Environmental Review:** Determined to be categorically exempt from California Environmental Quality Act (CEQA) requirements\n- **Filing Fee:** $75 for Notice of Exemption\n\n## Impact\n\nThis agreement will provide early childhood education services to families in North Hollywood with no negative impact on the city budget. The community gains increased access to Head Start programming, while the city maintains oversight through an agreement with a qualified nonprofit organization.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4148,
+    "output_tokens": 362,
+    "cost_usd": 0.005958
+  }
+}

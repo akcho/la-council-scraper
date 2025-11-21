@@ -1,0 +1,14 @@
+{
+  "historyId": "3e553376-1079-4d49-834d-03553c94493c",
+  "council_file": "12-0344",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners dated  10-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: Fourth Amendment to Catalina Channel Express Permit No. 897\n\n## What is Being Proposed?\nThe Port of Los Angeles is seeking City Council approval to amend the operating permit for Catalina Channel Express, Inc. through Resolution No. 25-10591 and Order No. 25-7406. The amendment will retroactively clarify how the company's compensation to the city is calculated and collected, specifically implementing a percentage rent compensation system for the five-year period from July 25, 2024 through July 24, 2029.\n\n## Why?\nThe document indicates this is a technical correction to the permit language. By retroactively amending the permit to define compensation years and outline requirements for percentage rent compensation, the city is establishing clear, standardized terms for how Catalina Channel Express will pay for its operating rights. There is no financial impact to the city's General Fund.\n\n## Key Details\n- This is the **Fourth Amendment** to Permit No. 897\n- The compensation period covers **five years: July 25, 2024 - July 24, 2029**\n- The amendment is classified as administratively and categorically exempt from California Environmental Quality Act (CEQA) requirements\n- The Port of Los Angeles and City Council District 15 are the primary stakeholders\n\n## Impact\nThis change primarily affects Catalina Channel Express's business operations and payment obligations to the city. Residents who use or rely on the ferry service may indirectly benefit from clearer operational terms, though no service changes are described in this document.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2260,
+    "output_tokens": 343,
+    "cost_usd": 0.003974999999999999
+  }
+}

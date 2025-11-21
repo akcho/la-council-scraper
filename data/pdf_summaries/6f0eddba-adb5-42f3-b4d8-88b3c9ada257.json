@@ -1,0 +1,14 @@
+{
+  "historyId": "6f0eddba-adb5-42f3-b4d8-88b3c9ada257",
+  "council_file": "25-1082",
+  "meeting_id": 17406,
+  "original_filename": "Report from Public Works Committee_10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Public Works Committee Report - File 25-1082\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that the City Council declare the property at 228 North Gaffey Street a public nuisance and authorize the Board of Public Works to abate (eliminate) the nuisance conditions. The City would then bill the property owner for all cleanup costs incurred.\n\n## Why?\n\nThe property has accumulated excessive trash and debris, is being used for junk storage, and contains dangerous structures or conditions that pose a threat to public health and safety. These conditions warrant official intervention under Los Angeles Administrative Code Section 7.35.2(c).\n\n## Key Details\n\n- **Property:** 228 North Gaffey Street (APN 7448031028)\n- **Committee Vote:** 2 YES votes (Hernandez, Hutt); 1 ABSENT (Padilla)\n- **Committee Meeting Date:** October 22, 2025\n- **Status:** Forwarded to full City Council for final approval\n- **Financial Impact:** No fiscal analysis has been completed yet\n\n## Impact\n\nThis declaration allows the City to clean up the property and recover costs from the owner. Residents in the area should benefit from the removal of hazardous conditions and accumulated debris. Property owners should note this process sets a precedent for how similar violations are handled citywide.\n\n**Note:** This action is not official until the full City Council votes to approve it.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2264,
+    "output_tokens": 324,
+    "cost_usd": 0.0038840000000000003
+  }
+}

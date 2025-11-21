@@ -1,0 +1,14 @@
+{
+  "historyId": "f0ca8a96-9471-4aeb-b1c6-05a2af319ad6",
+  "council_file": "23-0670-S2",
+  "meeting_id": 17407,
+  "original_filename": "Report from Chief Legislative Analyst dated 10-30-23.pdf",
+  "category": "staff_report",
+  "summary": "# Summary: Opioid Settlement and Tobacco Settlement Funds Report\n\n## What is Being Proposed?\n\nThe Chief Legislative Analyst is recommending that the LA City Council establish clear processes for managing and spending settlement funds from opioid litigation and tobacco settlements. The key recommendations are: (1) instruct the CAO to report annually by September 1st on available opioid settlement funding and seek Council District proposals for spending; (2) require the CLA and CAO to consult with the City Attorney before proposing any opioid settlement expenditures to ensure compliance with settlement agreements.\n\n## Why?\n\nDuring 2023-24 budget deliberations, the Council approved transferring $11.8 million in Substance Use Disorder Treatment Beds and $11.7 million in Opioid Settlement funds to an Unappropriated Balance, pending guidance on how to spend them. The City has recently begun receiving substantial opioid settlement funds from major litigation against pharmaceutical manufacturers and distributors (estimated $29.6 million to $53.3 million over 18 years), in addition to ongoing tobacco settlement revenue (~$10.7 million annually). The report establishes what these funds can and cannot be used for under California Department of Health Care Services guidelines.\n\n## Key Details\n\n- **Opioid settlements**: Five major retailers (Teva, Allergan, Walmart, Walgreens, CVS) totaling up to $18.52 billion nationally; LA's maximum proceeds estimated at $43.18 million\n- **Tobacco settlement**: City receives approximately $10.7 million annually with no restrictions on use\n- **Spending requirements**: At least 80% of opioid funds must support opioid remediation; only 20% can fund other opioid-related projects or reimburse past expenses\n- **Allowable uses**: Treatment programs, harm reduction, naloxone distribution, support for pregnant/postpartum women, incarcerated populations, prevention programs, and workforce development\n\n## Impact\n\nThis affects residents struggling with opioid addiction by clarifying how the City will deploy substantial new settlement funds for treatment, recovery services, and harm reduction. The annual reporting requirement ensures transparency and allows Council Districts to request specific programs. However, the restricted nature of opioid funds versus unrestricted tobacco funds means strategic planning is needed to maximize impact on the City's substance abuse crisis.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 31267,
+    "output_tokens": 523,
+    "cost_usd": 0.033882
+  }
+}

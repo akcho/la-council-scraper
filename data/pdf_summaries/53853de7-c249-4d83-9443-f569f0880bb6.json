@@ -1,0 +1,14 @@
+{
+  "historyId": "53853de7-c249-4d83-9443-f569f0880bb6",
+  "council_file": "25-1187",
+  "meeting_id": 17406,
+  "original_filename": "Report from Collections Board of Review dated 10-08-25",
+  "category": "staff_report",
+  "summary": "# Summary: Write-Off of Delinquent Housing Department Accounts\n\n## What is Being Proposed\n\nThe Collections Board of Review is recommending that the Los Angeles City Council approve the write-off of 258 uncollectible invoices totaling $979,896.66 from the Los Angeles Housing Department (LAHD). These are delinquent accounts from property owners who owe $5,000 or more per account. The Board requests removal of these accounts from the city's active receivables, acknowledging they cannot be collected.\n\n## Why This Is Happening\n\nThe Collections Board determined that all reasonable collection efforts on these accounts have been exhausted. According to the Board, attempting further collection efforts would be disproportionately costly compared to the likelihood of actually collecting the money. This is a standard practice authorized by the Los Angeles Administrative Code (Sections 5.182-5.184) to clean up uncollectible debts from city books.\n\n## Key Details\n\nThe proposal involves two separate requests from LAHD:\n- **First request (March 2025):** 12 invoices from 8 property owners totaling $146,043.70\n- **Second request (July 2025):** 246 invoices from 75 property owners totaling $833,852.96\n\nAll accounts represent $5,000 or more in individual debt, requiring City Council approval (smaller debts can be approved by the Collections Board alone). The Board unanimously supports both write-off requests.\n\n## Impact\n\nApproving this proposal will decrease the city's receivable base by nearly $980,000, reflecting a realistic accounting of uncollectible debts. For residents, this means the city is acknowledging these funds won't be recovered and removing them from financial records.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4222,
+    "output_tokens": 390,
+    "cost_usd": 0.006172
+  }
+}

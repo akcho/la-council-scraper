@@ -1,0 +1,14 @@
+{
+  "historyId": "44200036-92c9-4796-b25d-8ecd3af158cf",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_02-28-2024",
+  "category": "other",
+  "summary": "# Summary: Communication from Public - Council File 23-1134\n\n## What is Being Proposed?\nThis is a public comment submitted in opposition to proposed additional rent control measures in Los Angeles County. The commenter is urging the council to reject stricter limitations on rent increases beyond existing policies.\n\n## Why?\nThe property owner argues that landlords' operating costs have risen dramatically over the past four years—far exceeding the allowed annual rent increases. Specific cost increases cited include maintenance, contractor services, insurance, appliances with shorter lifespans, and water/sewer fees. The commenter contends that artificially strict rent caps discourage landlords from maintaining rental units on the market and may drive them to remove properties from available housing stock.\n\n## Key Details\n- **Submitted:** February 28, 2024\n- **Position:** Opposition to additional rent-limiting measures\n- **Landlord's Background:** The commenter previously built affordable housing for a non-profit, indicating experience and credibility in housing policy\n- **Preferred Alternative:** The commenter supports CPI (Consumer Price Index) based caps, similar to California's state measure, which they view as a more balanced approach\n\n## Impact\nThis comment represents landlord interests in the rent control debate. The stance taken here directly affects housing availability—the commenter argues that overly restrictive rent caps could reduce the supply of rental units, potentially worsening the housing shortage for renters seeking affordable options.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2040,
+    "output_tokens": 313,
+    "cost_usd": 0.003605
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "3419a0ac-77e6-49e8-a64d-2db895941245",
+  "council_file": "20-0538-S1",
+  "meeting_id": 17407,
+  "original_filename": "Report from Trade, Travel and Tourism Committee 10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 20-0538-S1\n## Second Amendment to Customs and Border Protection Reimbursement Agreement at Van Nuys Airport\n\n**What is being proposed:**\nThe Los Angeles City Council is being asked to approve a Second Amendment to a reimbursement agreement (DA-4914) between Los Angeles World Airports (LAWA) and Signature Flight Support LLC. The amendment extends the agreement's term by three years with two optional one-year extensions, running through May 20, 2030. This agreement covers the costs of maintaining a United States Customs and Border Protection (CBP) facility at Van Nuys Airport.\n\n**Why and key details:**\nThe amendment addresses the ongoing need to support federal customs operations at Van Nuys Airport. Under this arrangement, LAWA pays $480,000 annually for CBP facility expenses, but this cost is fully reimbursed by Signature Flight Support LLC—meaning there is no cost to the City's General Fund. The original agreement began in 2015 and this extension will bring the total term to 15 years (2015-2030).\n\n**Importantly added by the committee:**\nThe Trade, Travel and Tourism Committee approved the recommendation with an additional amendment requesting that LAWA and the City Attorney develop protections and protocols for future reimbursement and lease agreements regarding immigration enforcement requests to access airport property. This reflects community concerns about immigration enforcement activities.\n\n**Impact:**\nThis primarily affects Van Nuys Airport operations and maintains federal customs screening capabilities. The approval allows continued CBP operations with no financial burden to the city, while the committee's additional request seeks to establish safeguards around immigration enforcement access to city airport property.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4077,
+    "output_tokens": 370,
+    "cost_usd": 0.005927
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "7810a1c2-0676-416b-a4e9-b0cb2ebb98a3",
+  "council_file": "11-0122-S3",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 08132020 - Application 08_13_2020",
+  "category": "other",
+  "summary": "# Summary: Application for Vacation of Public Right of Way - McKinley Place @ 87th Street\n\n## What is Being Proposed?\n\nNorth East Trees, represented by Project Manager George Baliteria, is applying to vacate a public right of way located at McKinley Place @ 87th Street in Los Angeles (Council District 9). The proposed vacation area is approximately 4,387.3 square feet and is situated between McKinley Avenue & McKinley Place and 87th Street and 87th Place.\n\n## Why?\n\nThe vacation is being requested to enable the development of a neighborhood park on the currently vacant and asphalt-paved parcel. The project will convert an underutilized public right of way into a community green space, approximately half an acre in size. The vacation is being pursued in conjunction with a B-Permit (BR 003792).\n\n## Key Details\n\n- **Project Manager/Petitioner:** George Baliteria, North East Trees, 570 West Avenue 26, Suite 200, Los Angeles, CA 90065\n- **Property Owner:** City of Los Angeles, with signatory Shelley Luce (President & CEO)\n- **Size:** Approximately 4,387.3 square feet\n- **Location:** Central Engineering District, Council District 9, District Map Nos. 096 A 207 & 097 SA 207\n- **Application Date:** March 29, 2018\n\n## Impact\n\nThis project will benefit the local community by transforming an underutilized asphalt-covered area into accessible green space. The vacation is small enough (under 10,000 sq. ft.) to potentially qualify for categorical exemption from California Environmental Quality Act review, though residents should note that city agencies like LADOT may require additional fees for referral and investigation.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4482,
+    "output_tokens": 405,
+    "cost_usd": 0.006507
+  }
+}

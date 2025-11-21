@@ -1,0 +1,14 @@
+{
+  "historyId": "5f352eaf-5b80-4213-b308-cdff445ba974",
+  "council_file": "25-1082",
+  "meeting_id": 17406,
+  "original_filename": "Resolution (McOsker - Blumenfield) dated 9-16-25",
+  "category": "other",
+  "summary": "# Summary: Resolution to Address Nuisance Property at 228 N. Gaffey Street\n\n## What is Being Proposed?\nThe City Council is declaring the property at 228 N. Gaffey Street in San Pedro (APN 7448031028) a public nuisance and authorizing the Board of Public Works to proceed with abatement—cleanup and remediation—of the site. The resolution directs the Board to issue notices and take necessary action to eliminate the nuisance conditions, then bill the property owner for all costs incurred by the City.\n\n## Why?\nCommunities across Los Angeles struggle with abandoned and neglected properties that attract blight, crime, and reduce neighborhood quality of life. This specific San Pedro property has excessive trash and debris, stored junk, and dangerous structures or conditions. Previous abatement efforts have been unsuccessful, making this formal declaration necessary to compel action and cost recovery.\n\n## Key Details\n- **Location:** 228 N. Gaffey Street, Council District 15 (San Pedro)\n- **Presented by:** Councilmember Tim McOsker (15th District)\n- **Seconded by:** Councilmember Blumenfield\n- **Authority:** Los Angeles Administrative Code Section 7.35.2(c)\n- **Date:** September 16, 2025\n\n## Impact\nProperty owners will be legally responsible for paying all cleanup and abatement costs. Residents in the San Pedro area should see improved neighborhood conditions once the nuisance is eliminated. This action provides a pathway to reclaim neglected properties and hold owners accountable for maintaining their sites.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1773,
+    "output_tokens": 361,
+    "cost_usd": 0.003578
+  }
+}

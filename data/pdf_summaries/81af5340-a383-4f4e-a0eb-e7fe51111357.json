@@ -1,0 +1,14 @@
+{
+  "historyId": "81af5340-a383-4f4e-a0eb-e7fe51111357",
+  "council_file": "25-1243",
+  "meeting_id": 17283,
+  "original_filename": "Report from City Attorney dated 10-09-25",
+  "category": "staff_report",
+  "summary": "# Summary: City Attorney Report on Settlement Discussion\n\n## What is Being Proposed?\nThe City Attorney's Office is requesting that the Los Angeles City Council hold a closed session to discuss settlement of a pending lawsuit. The closed session would allow the City Council to meet privately with legal counsel to discuss a Claims Board recommendation regarding the case *Olivier Jean-Pierre Martinez v. City of Los Angeles* (LASC Case No. 23SCV31797). Two related claims are also involved (Claim Nos. C24-00700 & C24-02211).\n\n## Why?\nThis closed session is authorized under California Government Code Section 54956.9(d)(1), which permits public agencies to privately confer with legal counsel about pending litigation and settlement strategies. Holding this discussion in a closed session protects the City's legal strategy and negotiating position in the case.\n\n## Key Details\nThe incident giving rise to the lawsuit occurred on **April 3, 2023**, on Fairfax Avenue near 5th Street in Los Angeles. The matter involves a fall incident. Deputy City Attorney Jaime Hernández is the designated contact for questions about the case and will be present when the Council considers the matter. The Board of Public Works Commission is also copied on the report.\n\n## Impact\nThis affects Los Angeles taxpayers and residents by potentially resolving a liability claim through settlement rather than trial. The closed session allows the City to strategize privately before Council takes action, though the ultimate settlement terms would typically be reported publicly once finalized.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 329,
+    "cost_usd": 0.004961999999999999
+  }
+}

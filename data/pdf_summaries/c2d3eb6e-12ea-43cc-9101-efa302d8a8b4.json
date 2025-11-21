@@ -1,0 +1,14 @@
+{
+  "historyId": "c2d3eb6e-12ea-43cc-9101-efa302d8a8b4",
+  "council_file": "25-0974",
+  "meeting_id": 17406,
+  "original_filename": "Report from Energy and Environment Committee_10-21-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-0974: ShadeLA Campaign Initiative\n\n## What is Being Proposed?\n\nThe Energy and Environment Committee is recommending that Los Angeles formally participate in the ShadeLA campaign—a citywide initiative focused on increasing shade and cooling infrastructure throughout the city. The proposal asks multiple city departments to designate liaisons to coordinate shade-tracking efforts and create a public-facing dashboard to monitor shade and cooling resources. Additionally, the Bureau of Engineering is instructed to evaluate and streamline permitting processes for shade-related projects within 60 days.\n\n## Why This Matters\n\nThe initiative addresses heat resilience and climate preparedness in Los Angeles by aligning with the draft Urban Forest Management Plan and Heat Action and Resilience Plan. As cities face increasing heat challenges, expanding shade infrastructure—through trees, parks, and structures—is a critical public health strategy that can reduce urban heat island effects and protect vulnerable residents during extreme heat events.\n\n## Key Details\n\nThe proposal requires coordination among seven departments: Bureau of Street Services, Bureau of Engineering, Department of City Planning, Recreation and Parks, Transportation, Emergency Management, and others. The Bureau of Engineering must report within 60 days with recommendations on: automating shade permitting, establishing expedited approvals for shade structures (bus bench shades, canopies, shade sails), optimal tree-planting practices, and implementation timelines for shade structures under the existing Sidewalk and Transit Amenities Program contract.\n\n## Impact\n\nAll Los Angeles residents stand to benefit from expanded cooling infrastructure, particularly those in underserved neighborhoods vulnerable to extreme heat. The streamlined permitting process will make it easier for the city and community partners to install shade elements in public spaces. The committee unanimously approved the motion on October 21, 2025, though the Palms Neighborhood Council expressed concerns unless amendments are made.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4083,
+    "output_tokens": 395,
+    "cost_usd": 0.006058
+  }
+}

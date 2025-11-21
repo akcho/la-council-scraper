@@ -1,0 +1,14 @@
+{
+  "historyId": "a4020508-6e2e-477f-8e14-d929218d4e9c",
+  "council_file": "21-0586",
+  "meeting_id": 17283,
+  "original_filename": "Report from Bureau of Engineering dated 5-18-21.pdf",
+  "category": "staff_report",
+  "summary": "# Summary: Street Vacation Request for Vermont Avenue\n\n## What is Being Proposed?\n\nThe City is initiating vacation proceedings to remove a portion of Vermont Avenue that runs northerly from 43rd Street from the public street system. This would convert the street into private property, allowing the adjacent property owner to incorporate it into their development project.\n\n## Why?\n\nThe property owner, Parviz Shamtoub of Vermont Capital Fuel LLC (represented by Alicia Ley of Michael Pauls Associates), requested this vacation to increase the usable land area available for development. The Bureau of Engineering is conducting a feasibility investigation before any final decision is made.\n\n## Key Details\n\n- **Application Date:** March 30, 2021\n- **Case Number:** VAC - E1401398\n- **Council District:** 9\n- **Deposit Paid:** $14,980.00 (petitioner's deposit to fund the investigation)\n- **Report Date:** May 18, 2021\n\nThe process follows California Streets and Highways Code Division 9, Part 3, which governs public street vacations.\n\n## Impact\n\nThe report emphasizes that adoption of these recommendations does **not** constitute approval of the vacation—it only initiates the investigative process. The Bureau of Engineering will study the feasibility and present findings to the Public Works Committee. Any additional costs beyond the deposit will be billed to the petitioner. The outcome will determine whether this section of Vermont Avenue remains public or becomes private property.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3868,
+    "output_tokens": 327,
+    "cost_usd": 0.005503
+  }
+}

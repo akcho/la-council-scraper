@@ -1,0 +1,14 @@
+{
+  "historyId": "14128792-1b49-49c2-bd2a-b028ac3799ae",
+  "council_file": "23-1022-S12",
+  "meeting_id": 17283,
+  "original_filename": "Report from Municipal Facilities Committee dated 10-30-25",
+  "category": "staff_report",
+  "summary": "# Summary: Tiny Home Village Ground Lease Agreement at 5301 Sierra Vista Avenue\n\n## What is Being Proposed?\n\nThe City Council is being asked to authorize the Department of General Services to negotiate and execute a ground lease agreement with GMA – Sierra Vista, LLC and Sierra Vista – Y, LLC to operate a Tiny Home Village at 5301 Sierra Vista Avenue in Council District 13. This is a revised request following renegotiations that updated lease terms since initial Council approval in April 2025.\n\n## Why This Project?\n\nThe Tiny Home Village is designed to provide emergency interim housing for people experiencing homelessness. The City previously allocated $3.87 million in Emergency Stabilization Beds Grant funds for construction of the site, which will include 45 tiny home units providing 51 beds total, plus support facilities like hygiene cabins, laundry facilities, and offices. A nonprofit service provider (to be selected) will operate the housing once construction is complete, with the project expected to open by mid-2027.\n\n## Key Details\n\nThe lease runs for five years from January 1, 2026 through December 31, 2030 with no extension options. Rent is waived for the first three months, then increases over time: $20,000/month (April-December 2026), $31,930/month (2027-mid-2028), $32,887.90/month (mid-2028-mid-2029), and $33,874.54/month (mid-2029-end of 2030). Council District 13 discretionary funds will cover the $60,000 lease cost for Fiscal Year 2025-26.\n\n## Impact\n\nThis project directly addresses homelessness in Council District 13 by providing 51 beds of interim housing. The City retains responsibility for major building systems, while the selected operator covers utilities and day-to-day maintenance. There is no immediate General Fund impact for 2025-26, though lease costs for years beyond 2026 may require General Fund support in future budgets.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14183,
+    "output_tokens": 458,
+    "cost_usd": 0.016472999999999998
+  }
+}

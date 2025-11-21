@@ -1,0 +1,14 @@
+{
+  "historyId": "d739b2c2-7455-48e7-8bdb-4ef74897b762",
+  "council_file": "18-0553-S2",
+  "meeting_id": 17407,
+  "original_filename": "Report from Public Works Committee 8-13-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 18-0553-S2\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that the City Council authorize the Bureau of Engineering to issue a revocable permit to ICON Panorama (a development company) to temporarily close, fence, and occupy public right-of-way space in order to commence construction of a major development project. The permit would allow the company to demolish and excavate portions of public alleys and streets at three interconnected addresses in what appears to be the Panorama City area.\n\n## Why?\n\nICON Panorama is developing a residential or mixed-use project that requires access to and use of public streets and alleys during construction. The revocable permit is a standard mechanism that allows developers to use public space while construction is underway, contingent on the project's completion and proper restoration of the area. The permit is tied to the pending recordation of a final tract map (subdivision approval) for the development.\n\n## Key Details\n\nThe project spans three addresses: 14665-14697 West Roscoe Boulevard, 8300-8406 North Cedros Avenue, and 8321-8413 North Tobias Avenue. The permit is based on Vesting Tentative Tract Map No. 74315. As conditions, ICON Panorama must post a financial bond to guarantee restoration of affected public improvements if the project fails to complete, and must obtain approval of an alley closure plan from both the Bureau of Street Services and Department of Transportation. The Committee voted unanimously to approve (3-0).\n\n## Impact\n\nThis affects residents near the project site who may experience temporary disruption to alley and street access during construction. The financial bond requirement protects the public by ensuring the developer restores the area if the project is abandoned. The document notes no formal fiscal or community impact statements were completed prior to this committee review.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2435,
+    "output_tokens": 412,
+    "cost_usd": 0.004495
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "3972c83f-33ed-43a5-ad4d-012099d05055",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Attachment to Report dated 9-16-25 - T Conditions",
+  "category": "conditions",
+  "summary": "# Summary: Tentative Classification Removal Conditions\n\n## What is Being Proposed?\n\nThis document outlines the conditions required to remove a \"(T) Tentative Classification\" from a property in Los Angeles (identified as APCNV-2019-3202-ZCJ). A tentative classification restricts development until specific public improvements and dedications are completed. Once these conditions are met through final map recordation or City Engineer guarantees, the restriction can be lifted and development can proceed.\n\n## Why?\n\nThe tentative classification exists to ensure that new development contributes necessary public infrastructure improvements. Before buildings can be constructed on or near this property, the city requires guarantees that improvements to neighboring streets, utilities, and public spaces will be completed to standards. This protects both the public and future property owners by ensuring adequate infrastructure.\n\n## Key Details\n\nThe property fronts **Fair Avenue and Lorne Street**. Required improvements include:\n- **Dedication**: A 3-foot strip of land on Fair Avenue to complete a 33-foot half right-of-way\n- **Street improvements**: New concrete sidewalks, curb/gutter repair, and ADA-compliant driveways on both streets\n- **Street trees**: Installation of new street trees with root barriers\n- **Street lighting**: One new streetlight on Lorne Street\n- **Fire access**: Proper fire lanes, hydrants, and Knox Boxes for Fire Department access\n- Coordination with multiple city agencies (Bureau of Engineering, Urban Forestry, Fire Department, Department of Transportation)\n\n## Impact\n\nThis affects the property owner/developer, who must complete or guarantee these improvements before building permits are issued. For nearby residents and users, these conditions ensure the streets will have improved sidewalks, safety features, and pedestrian infrastructure. The conditions primarily impact the immediate area around Fair Avenue and Lorne Street where construction will occur.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 9384,
+    "output_tokens": 410,
+    "cost_usd": 0.011434
+  }
+}

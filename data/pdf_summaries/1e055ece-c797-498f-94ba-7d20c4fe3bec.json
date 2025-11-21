@@ -1,0 +1,14 @@
+{
+  "historyId": "1e055ece-c797-498f-94ba-7d20c4fe3bec",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-05-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nNikki Harris, a clinical psychologist from District 5, is urging the City Council to update the Rent Stabilization Ordinance (RSO) formula for calculating annual rent increases. She is advocating for the specific demands put forward by Keep LA Housed, which include: basing rent increases on 60% of the Consumer Price Index (CPI) for all items, implementing a 3% cap with no floor, eliminating rent banking, and removing additional charges for utilities and extra occupants.\n\n## Why?\nHarris argues that current rent increases allowed under the RSO are unaffordable for struggling Angelenos and are preventing people from remaining stably housed. She emphasizes that every additional percentage point of rent increase reduces money available for basic necessities like food, medical care, transportation, and childcare. The urgency is heightened because new rent increases go into effect in July 2025.\n\n## Key Details\nHarris provides a stark affordability example: the average rent for a unit in a small RSO property is $2,357 per month, which requires an annual income of approximately $94,000 to stay within the recommended 30% rent-to-income ratio. She notes that even rent-stabilized units are already deeply unaffordable under current formulas, and the Council must vote immediately to prevent further increases.\n\n## Impact\nThis affects all rent-stabilized tenants across Los Angeles, particularly lower-income residents already struggling with housing costs. Harris's personal concern—that she cannot afford to stay in her own home—underscores how the current RSO formula impacts even professional workers.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2166,
+    "output_tokens": 380,
+    "cost_usd": 0.004066
+  }
+}

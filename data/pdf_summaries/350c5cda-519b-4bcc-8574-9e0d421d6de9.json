@@ -1,0 +1,14 @@
+{
+  "historyId": "350c5cda-519b-4bcc-8574-9e0d421d6de9",
+  "council_file": "25-0008-S24",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-0008-S24\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that Los Angeles establish parking restrictions for oversized vehicles on three street segments in Council District 11: Stoner Avenue (from Brookhaven to Sardis Avenue), Imlay Avenue (from Culver Drive to Utopia Avenue), and Lucerne Avenue (from Sepulveda Boulevard to Beloit Avenue). The restriction would prohibit vehicles exceeding 22 feet in length or 7 feet in height from parking on these streets between 2:00 a.m. and 6:00 a.m., with violators subject to towing.\n\n## Why?\n\nWhile the document doesn't explicitly detail the rationale, these restrictions are authorized under Los Angeles Municipal Code Section 80.69.4 and California Vehicle Code Section 22507. The proposal appears aimed at addressing nighttime parking issues related to large commercial vehicles in residential neighborhoods during early morning hours when such vehicles would be most disruptive.\n\n## Key Details\n\n- **File Number:** 25-0008-S24\n- **Committee Vote:** 2 YES (Hutt, Nazarian), 1 NO (Hernandez), 2 ABSENT (Park, Padilla)\n- **Restriction Hours:** 2:00 a.m. to 6:00 a.m. daily\n- **Enforcement:** LADOT will post signage and enforce tow-away violations\n- **Committee Stance:** Submitted \"without recommendation\" to full Council\n- **Fiscal Impact:** Not yet analyzed\n\n## Impact\n\nResidents and businesses in CD 11 will be unable to park oversized vehicles overnight on these three street segments. The Committee submitted the measure without a recommendation, meaning the full City Council will make the final determination on adoption.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3977,
+    "output_tokens": 411,
+    "cost_usd": 0.006031999999999999
+  }
+}

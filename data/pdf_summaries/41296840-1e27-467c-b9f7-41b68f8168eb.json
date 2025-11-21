@@ -1,0 +1,14 @@
+{
+  "historyId": "41296840-1e27-467c-b9f7-41b68f8168eb",
+  "council_file": "25-1187",
+  "meeting_id": 17406,
+  "original_filename": "Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025",
+  "category": "other",
+  "summary": "# Summary: Los Angeles Housing Department Write-Off Request for Uncollectible Accounts\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is requesting approval to write off $833,852.96 in uncollectible accounts receivable for the quarter ending June 30, 2025. This write-off covers 246 invoices from 75 property owners across 133 different property accounts (identified by Assessor Parcel Numbers).\n\n## Why?\n\nThese accounts have been deemed uncollectible after LAHD exhausted all reasonable collection efforts. The write-off request meets specific criteria established by Los Angeles Administrative Code Section 5.182: the amounts are uncollectible, the write-off will not harm the City's legal position, all collection efforts have been exhausted, debtors cannot be located or have discharged through bankruptcy, and applicable statutes of limitations for debt collection have expired.\n\n## Key Details\n\nThe $833,852.96 total breaks down as follows: SCEP (Seismic and Code Enforcement Program) violations account for the largest portion at $562,966.05 (67.51%), followed by RSO (Residential Rent Stabilization Ordinance) at $154,084.08 (18.48%), and REAP Administrative violations at $102,035.58 (12.24%). Most accounts (225 invoices totaling $693,544.76) originated from 2023, with smaller portions from 2022 (17 invoices) and 2021 (4 invoices). The accounts involve various property types and debtors throughout Los Angeles, many with addresses outside the city.\n\n## Impact\n\nIf approved, this write-off removes these uncollectible debts from LAHD's active collections efforts, allowing the department to focus resources on recoverable accounts. The action has no direct financial impact on residents but reflects LAHD's accounting practices for debt that cannot be recovered. The write-off is submitted to the Collections Board of Review for consideration, as required by city code.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 56186,
+    "output_tokens": 459,
+    "cost_usd": 0.058481
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "aa4150b0-470c-4e2c-9873-7138d5b1f5e7",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-29-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comment on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What Is Being Proposed?\n\nAhva Ajmani, representing LA CAN from District CD14, is urging the City Council to adopt specific reforms to Los Angeles's Rent Stabilization Ordinance (RSO). The proposed changes include: basing rent increases on 60% of the Consumer Price Index (CPI) for All Items, capping increases at 3% with no minimum floor, eliminating rent banking, and removing additional charges for utilities and additional occupants.\n\n## Why This Matters\n\nThe speaker argues that current allowable rent increases are unaffordable for struggling Angelenos and directly contribute to homelessness. Research cited in the comment shows that a $100 increase in median rent correlates with a 9% increase in homelessness. The speaker frames the housing crisis as fundamentally an affordability problem requiring moral action from city leadership, not politically convenient decisions.\n\n## Key Details and Stakeholders\n\nThe comment also addresses conditions at 17 buildings recently purchased by Hope For An Affordable LA (HALA). Tenants from these buildings submitted a separate letter on June 3, 2025, demanding: (1) immediate, on-site lawful mail delivery for all 15 occupied buildings, and (2) restoration of 24/7 tenant-protective security. The letter was sent to all LA City Council members, the Mayor, Los Angeles Housing Department, and other housing authorities.\n\n## Impact\n\nThese proposals would directly affect millions of Los Angeles renters by limiting rent increases and improving living conditions in HALA-managed buildings. The stricter RSO formula could help prevent displacement and homelessness among lower-income households across the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2246,
+    "output_tokens": 387,
+    "cost_usd": 0.004181
+  }
+}

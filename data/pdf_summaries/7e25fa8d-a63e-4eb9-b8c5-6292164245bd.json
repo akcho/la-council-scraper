@@ -1,0 +1,14 @@
+{
+  "historyId": "7e25fa8d-a63e-4eb9-b8c5-6292164245bd",
+  "council_file": "25-0916",
+  "meeting_id": 17283,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-0916\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Department of City Planning prepare a report on best practices for regulating tobacco and nicotine retailers in Council District 15. The report should examine how other cities (including Redondo Beach, Long Beach, San Francisco, and New York City) have used zoning, licensing, buffer zones, and youth-access controls to restrict tobacco sales near sensitive locations like schools and parks.\n\n## Why?\n\nThe motion, initiated by Councilmembers McOsker and Lee, seeks to address concerns about tobacco retailers (commonly called \"smoke-shops\") operating near sensitive uses in Council District 15. The proposed regulation would prohibit the establishment or expansion of tobacco retail businesses within buffer zones around these sensitive areas. Three neighborhood councils—Westside, Wilmington, and Coastal San Pedro—support this initiative.\n\n## Key Details\n\nThe report must be completed within 45 days and must specifically address five critical questions: (1) What makes tobacco sales unique in District 15?; (2) How will buffer zones be applied and enforced?; (3) How will the Department of Finance determine if a business is within a buffer zone or being expanded?; (4) What resources are needed for implementation and enforcement?; and (5) What public health emergency justifies bypassing the normal code amendment process? The Committee voted 4-1 to approve (Blumenfield, Hutt, Lee, and Raman voted yes; Nazarian was absent).\n\n## Impact\n\nThis decision affects tobacco retailers and residents in Council District 15 by potentially restricting where smoke-shops can operate. The report will serve as the foundation for deciding whether to implement an Interim Control Ordinance, which would temporarily halt new tobacco retail establishments and expansions pending permanent regulatory changes.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4110,
+    "output_tokens": 412,
+    "cost_usd": 0.00617
+  }
+}

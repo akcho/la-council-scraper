@@ -1,0 +1,14 @@
+{
+  "historyId": "1ca3925f-7a0a-40f4-99de-d24d918c8dc9",
+  "council_file": "25-0005-S146",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles Housing Department dated 11-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Recommendation\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove seven residential properties from the Rent Escrow Account Program (REAP) and terminate the rent reductions that were imposed on these properties. The properties are located across Los Angeles, including sites in Downtown LA, South LA, and Wilmington. Once removed, rent will be restored to original levels, and escrow funds will be distributed according to a specified priority order.\n\n## Why?\n\nREAP is a code enforcement program that places properties in escrow when landlords fail to maintain safe and sanitary housing conditions. Tenants' rent is reduced and held in an escrow account until violations are corrected. LAHD is recommending removal because all cited code violations at these seven properties have been independently verified as corrected by LAHD's Code Enforcement Division. Additionally, property owners have paid all outstanding utility charges to the Department of Water and Power.\n\n## Key Details\n\nThe seven cases involve five distinct properties: 1029 S Union Ave, 815 S Bonnie Brae St (which has three separate cases), 325 W 53rd St, 327 N Welcome St, and 846 N Neptune Ave in Wilmington (15 units). The Wilmington property case was opened November 15, 2024, and had 7 initial violations related to sanitation and weatherproofing. The cases are scheduled for City Council consideration on November 12, 2025.\n\n## Impact\n\nTenants at these properties will see their rent restored to pre-REAP levels 30 days after notification. Landlords will receive remaining escrow funds after LAHD recovers administrative fees, inspection costs, and any outstanding registration fees. The city will also conduct expedited re-inspections and collect prepaid fees for two additional annual inspections to ensure ongoing compliance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8466,
+    "output_tokens": 425,
+    "cost_usd": 0.010591
+  }
+}

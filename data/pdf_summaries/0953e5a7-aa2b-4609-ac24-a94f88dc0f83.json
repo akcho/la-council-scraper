@@ -1,0 +1,14 @@
+{
+  "historyId": "0953e5a7-aa2b-4609-ac24-a94f88dc0f83",
+  "council_file": "20-1328-S1",
+  "meeting_id": 17406,
+  "original_filename": "Report from Transportation Committee 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Personal Delivery Devices (PDD) Program Review\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the Los Angeles Department of Transportation conduct a comprehensive assessment of the Personal Delivery Devices (PDD) program—which uses small autonomous robots for deliveries on city sidewalks—and submit recommendations for improvement. The assessment should evaluate the current permit fee structure, review operational practices, and analyze enforcement responsibilities. Additionally, the department should explore whether data collected by PDDs can be leveraged to support the city's infrastructure data collection efforts.\n\n## Why?\n\nAccording to the motion, the City has not reassessed the PDD program's outcomes or fee structure since adopting Ordinance No. 187715, which established the original regulatory framework for this pilot program. This review is timely to determine whether the current system is functioning effectively and generating appropriate revenue for the city.\n\n## Key Details\n\nThe Committee specifically requested evaluation of alternative fee models, including per-trip fees, utilization fees, and tiered advertising schedules. The motion was sponsored by Councilmembers Hernandez and Soto-Martinez and was considered by the Transportation Committee on October 22, 2025. Three committee members voted in favor (Hutt, Hernandez, and Nazarian), with two absent.\n\n## Impact\n\nThis affects residents and businesses using delivery services throughout Los Angeles. The recommendations could result in changes to how PDD companies operate and are charged, potentially impacting delivery costs and sidewalk usage for pedestrians. No fiscal impact analysis has been completed yet.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3775,
+    "output_tokens": 337,
+    "cost_usd": 0.0054600000000000004
+  }
+}

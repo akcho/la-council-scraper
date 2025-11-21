@@ -1,0 +1,13 @@
+{
+  "historyId": "7b9facb7-3191-40bd-8b1c-23c7702da1c8",
+  "council_file": "25-1294",
+  "meeting_id": 17477,
+  "original_filename": "Motion (Jurado - Raman) 10-31-25",
+  "summary": "# Motion Summary: Manitou Vistas Project Preservation\n\n## What is Being Proposed?\n\nThe City Council is being asked to authorize the sale of two affordable housing properties (Manitou Vistas I and II) to the Housing Authority of the City of Los Angeles (HACLA), restructure the City's loans to these properties, and amend loan terms to preserve 67 affordable housing units. Specifically, the motion proposes: extending loan terms to 55 years, reducing interest rates to 3 percent, forgiving accrued interest, revising how rental income is split between the City and HACLA, and increasing affordability restrictions on one building from 10 to 20 units.\n\n## Why?\n\nThe two properties—48-unit and 21-unit buildings on Manitou Avenue in Council District 14—are in financial distress facing imminent foreclosure by lenders. The previous owner was removed in 2012 due to violations, leading to deferred maintenance, high operational costs, and the borrowers' inability to pay debt. Without intervention, the lenders will foreclose and 67 affordable units will be lost. HACLA has proposed acquiring and preserving these properties through repairs and long-term affordability agreements.\n\n## Key Details\n\n- **Properties:** MV-I (3420 Manitou Avenue, 48 units) and MV-II (3414 Manitou Avenue, 21 units)\n- **Financing:** City currently holds loans of $2.5 million and $1.5 million\n- **Timeline:** Target closing for MV-II is October 31, 2025 (urgent deadline)\n- **Affordability:** All units are 4-bedroom/2-bathroom; currently 67 restricted units with 47 on MV-I and 20 on MV-II\n- **New Terms:** 55-year affordability period, reduced interest rates, and revised revenue-sharing favoring HACLA\n\n## Impact\n\nThis preserves 67 affordable housing units that would otherwise be lost to foreclosure, ensuring continued housing for low-income families. The City restructures its loans at lower rates while maintaining some revenue participation, and HACLA assumes operational responsibility and investment in necessary repairs and maintenance.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3323,
+    "output_tokens": 500,
+    "cost_usd": 0.005823
+  }
+}

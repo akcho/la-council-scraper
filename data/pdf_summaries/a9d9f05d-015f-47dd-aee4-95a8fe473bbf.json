@@ -1,0 +1,14 @@
+{
+  "historyId": "a9d9f05d-015f-47dd-aee4-95a8fe473bbf",
+  "council_file": "23-1376-S1",
+  "meeting_id": 17477,
+  "original_filename": "Report from Department of Transportation dated 7-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: LADOT Transit Vehicle Advertising Report\n\n**What is Being Proposed?**\nThe Department of Transportation is providing a status report on Los Angeles's transit vehicle advertising program. The recommendation is simply that the City Council note and file the report. There is no new action being requested—this is an informational report responding to a February 2025 Council directive.\n\n**Why?**\nCouncil requested this report to understand how LADOT's advertising program operates, including how many vehicles carry ads, what revenue is generated, and how it compares to other transit agencies like LA Metro and Long Beach Transit. The program, which began in 2006, generates revenue that supports transit operations with no cost to the City.\n\n**Key Details**\nLADOT currently has advertisements on 387 transit vehicles (Commuter Express buses, Community DASH buses, and Cityride vehicles). The contractor, Outfront Media Group LLC, receives 60% of net revenues (with no minimum guarantee waived since COVID-19). Over the past nine years (2017-2025), the program has generated between roughly $300,000 to $1.2 million annually, though revenues remain about 30% below pre-pandemic levels. A new three-year contract with Outfront is pending City Council approval, expected by October 2025, which will expand advertising to 155 new battery-electric buses not previously available.\n\n**Impact**\nRevenue from advertising supports the City's Proposition A Local Transit Assistance Fund, which directly funds transit services. Residents primarily see this as advertisements displayed on buses they ride. The program affects advertising companies choosing between LADOT and Metro buses based on their target neighborhoods.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 11458,
+    "output_tokens": 363,
+    "cost_usd": 0.013273
+  }
+}

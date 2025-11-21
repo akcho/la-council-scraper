@@ -1,0 +1,14 @@
+{
+  "historyId": "c3b0b5be-a9c0-4e56-b79b-9b4c766fce31",
+  "council_file": "17-0945",
+  "meeting_id": 17407,
+  "original_filename": "Report from Personnel and Animal Welfare Committee 11_04_2020",
+  "category": "staff_report",
+  "summary": "# Summary: Port Pilots Labor Agreement Amendment (File 17-0945)\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to approve an amended labor contract (Memorandum of Understanding) with the Los Angeles Port Pilots Association, which represents pilots who guide ships through the Port of Los Angeles. The Personnel and Animal Welfare Committee has recommended approval of this amended 2017-27 agreement, which was previously considered on November 4, 2020, and has already been ratified by the bargaining unit members.\n\n## Why?\nThe Port Pilots Association and the city engaged in negotiations to amend the original labor agreement that was set to end in June 2022. The amended agreement extends the contract through July 2027 and includes cost-saving measures for the city while also making updates to align with other city labor agreements and Los Angeles Administrative Code requirements.\n\n## Key Details\nThe main provisions include:\n- **Wage changes**: A 2.2% base wage reduction for Port Pilot IIs effective July 2021, with full wage restoration to July 2020 levels by July 2024\n- **Financial impact**: Estimated savings of $50,000 annually for FY 2021-22 and 2022-23, and $66,000 in FY 2023-24, plus additional savings from reduced overtime and holiday pay\n- **Holiday pay**: Reduced from 14 to 12 hours for working holidays, with elimination of compensation for not working holidays\n- **Other updates**: Changes to overtime exemptions, call-back pay rules, vacation accruals, and healthcare contributions\n\n## Impact\nThese changes primarily affect the Harbor Department's budget and the Port Pilots themselves, with estimated cost savings to the city. The committee voted unanimously in favor of approval.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4188,
+    "output_tokens": 396,
+    "cost_usd": 0.006168
+  }
+}

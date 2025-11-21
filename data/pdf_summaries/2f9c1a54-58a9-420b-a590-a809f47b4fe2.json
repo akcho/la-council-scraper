@@ -1,0 +1,14 @@
+{
+  "historyId": "2f9c1a54-58a9-420b-a590-a809f47b4fe2",
+  "council_file": "25-1155",
+  "meeting_id": 17406,
+  "original_filename": "Motion (Harris-Dawson - Hutt) dated 10-03-25",
+  "category": "other",
+  "summary": "# Summary: EPA Brownfields Cleanup Grant Application for Council District 8\n\n## What is Being Proposed?\n\nThe motion authorizes the Bureau of Sanitation to apply for a United States Environmental Protection Agency (EPA) Brownfields Cleanup Grant to fund the remediation of contaminated sites in Council District 8. If awarded, the grant would support cleanup activities on brownfield sites (abandoned, contaminated properties) within the district.\n\n## Why?\n\nCouncil District 8 has experienced decades of disinvestment and redlining, resulting in numerous blighted brownfields and contaminated sites that remain unremediated. These environmental hazards contribute to public health risks and discourage development. A specific opportunity exists to remediate the site at 9402 S. Broadway, where the Bureau of Sanitation plans to develop a high-quality grocery store, retail spaces, and over 180 housing units. The EPA grant would remove a major barrier to this transformative investment by addressing land contamination while addressing critical community needs for food access and affordable housing.\n\n## Key Details\n\n- **Location:** Council District 8, with focus on 9402 S. Broadway\n- **Funding Source:** EPA Brownfields Cleanup Grant Program\n- **Coordination:** The BOS Citywide Brownfields Program will oversee the application process to ensure compliance with EPA requirements\n- **Support Agencies:** Economic and Workforce Development Department and other city departments will assist\n\n## Impact\n\nThis affects residents of Council District 8 by removing environmental barriers to community development, potentially bringing food access, retail opportunities, and new housing to an underserved area.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 1773,
+    "output_tokens": 350,
+    "cost_usd": 0.003523
+  }
+}

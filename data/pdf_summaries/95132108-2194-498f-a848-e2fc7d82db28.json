@@ -1,0 +1,14 @@
+{
+  "historyId": "95132108-2194-498f-a848-e2fc7d82db28",
+  "council_file": "25-1097",
+  "meeting_id": 17283,
+  "original_filename": "Report from Los Angeles City Planning Commission dated 9-17-25",
+  "category": "staff_report",
+  "summary": "# Summary of LA City Council Document 25-1097\n\n## What is Being Proposed?\n\nThe North Valley Area Planning Commission is recommending approval of a Vesting Zone Change (VZC) to rezone a property at 20012 West Chase Street in the Chatsworth-Porter Ranch area from RA-1 (Residential Suburban Zone) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling Zone). This change would enable the demolition of an existing single-family home and construction of five new two-story single-family dwellings through a small lot subdivision.\n\n## Why?\n\nThe current RA-1 zoning is outdated and doesn't correspond to the area's General Plan designation of Low Medium I Residential. The proposed RD4-1 zone aligns with the General Plan and allows for more efficient use of the underutilized property. The project supports the city's housing goals by increasing homeownership opportunities and adding four net new residential units to address the local housing shortage. The project is also strategically located near transit access and neighborhood services.\n\n## Key Details\n\n- **Location:** 20012 West Chase Street, Council District 3 (Blumenfield)\n- **Project:** Five two-story single-family homes at 2,028 square feet each, maximum height 26 feet 10 inches, with three shared guest parking spaces\n- **Vote:** Commission approved 3-0 on July 3, 2025 with no appeals filed\n- **Environmental:** Project qualifies for a Categorical Exemption under CEQA\n- **Council Action Timeline:** 90 days to act from the September 17, 2025 transmittal date\n\n## Impact\n\nThe project will increase housing supply in an established residential neighborhood while maintaining compatibility with surrounding development through conditions addressing landscaping, tree protection, mechanical screening, and infrastructure improvements along Chase Street. Residents will benefit from new homeownership opportunities at market rates, though the project requires dedication of additional right-of-way and streetscape improvements.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 36593,
+    "output_tokens": 453,
+    "cost_usd": 0.038858000000000004
+  }
+}

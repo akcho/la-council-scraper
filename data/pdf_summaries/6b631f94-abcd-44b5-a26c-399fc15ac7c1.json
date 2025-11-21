@@ -1,0 +1,14 @@
+{
+  "historyId": "6b631f94-abcd-44b5-a26c-399fc15ac7c1",
+  "council_file": "14-0958",
+  "meeting_id": 17406,
+  "original_filename": "Report from Public Works Committee_10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary: Council File 14-0958 – 121st Street Closure Extension\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the City Council instruct the City Engineer to report on extending the temporary closure of 121st Street (between Figueroa Street and Hoover Street) for an additional 18 months. This motion was originally brought forward by Council Members McOsker and Lee.\n\n## Why?\nThe street closure is being extended for **reasons of public safety**, though the specific safety concerns are not detailed in this committee report. The document indicates this is a temporary closure that was already in place and is now being considered for a longer extension.\n\n## Key Details\n- **Location:** 121st Street between Figueroa Street and Hoover Street\n- **Extension Duration:** 18 months\n- **Committee Vote:** The Public Works Committee voted on October 22, 2025, with members Hernandez and Hutt voting YES, member Padilla absent, and one vote noted as \"ME\" (unclear)\n- **Fiscal Impact:** No financial analysis has been completed yet\n- **Community Input:** No community impact statement was submitted\n\n## Impact\nThis decision primarily affects residents and businesses in the affected area of 121st Street, as the closure will continue to restrict vehicle access to that corridor. The next step requires City Council approval before the extension can be implemented.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2076,
+    "output_tokens": 307,
+    "cost_usd": 0.003611
+  }
+}

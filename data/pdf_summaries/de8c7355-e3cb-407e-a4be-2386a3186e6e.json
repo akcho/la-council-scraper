@@ -1,0 +1,14 @@
+{
+  "historyId": "de8c7355-e3cb-407e-a4be-2386a3186e6e",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-30-2025",
+  "category": "other",
+  "summary": "# Summary: Public Communications on Rent Stabilization Ordinance (Council File 23-1134)\n\n## What is Being Proposed?\nTwo community advocates are urging the Los Angeles City Council to adopt specific reforms to the Rent Stabilization Ordinance (RSO). The proposed changes would modify how rent increases are calculated, specifically requesting: rent increases based on 60% of the Consumer Price Index (CPI) All Items, a 3% cap with no floor, elimination of rent banking, and removal of bumps for utilities and additional occupants.\n\n## Why?\nThe commenters argue that current RSO rent increases are too high and unaffordable for struggling Angelenos. Research cited shows that a $100 increase in median rent correlates with a 9% increase in homelessness. Even in RSO-protected units, rents are deeply unaffordable—the average rent in small RSO properties is $2,357, requiring renters to earn nearly $94,000 annually to stay within the recommended 30% rent-to-income ratio. The advocates emphasize that rising rents force workers into impossible financial choices between housing and other necessities like food, medical care, and childcare.\n\n## Key Details\nBoth commenters represent organizations serving vulnerable populations (LA CAN and Safe Place for Youth in Venice). Adam Smith also raises urgent secondary concerns about conditions in 17 buildings recently purchased by Hope For An Affordable LA (HALA), demanding immediate on-site mail delivery and restoration of 24/7 tenant-protective security across the HALA portfolio. The comments emphasize urgency, noting that new rent increases go into effect in July 2025.\n\n## Impact\nThese changes would directly affect millions of Los Angeles renters in RSO-protected units by limiting annual rent growth. The advocates frame this as a moral imperative to prevent homelessness and keep low-income tenants housed, particularly affecting workers, at-risk youth, and people experiencing housing instability across Los Angeles.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4218,
+    "output_tokens": 434,
+    "cost_usd": 0.0063880000000000004
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "9fcf36fc-8b70-4ebf-ab1a-a200fde3fbf8",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners dated 10-03-25",
+  "category": "staff_report",
+  "summary": "# Summary: Fourth Amendment to Kinder Morgan Permit No. 708\n\n## What is Being Proposed?\n\nThe Port of Los Angeles is requesting City Council approval to extend Kinder Morgan Tank Storage Terminals' operating permit for their marine oil terminal at Berths 118-119 by an additional five years. This is the fourth amendment to the original Permit No. 708, and the extension would be retroactive, meaning it covers time that has already passed.\n\n## Why?\n\nThe document does not explicitly state the rationale for the extension. However, the retroactive nature of the extension suggests that Kinder Morgan has already continued operations beyond the previous permit expiration date, and this amendment formalizes and extends that authorization going forward.\n\n## Key Details\n\n- **Facility:** Marine oil terminal at Berths 118-119 in the Port of Los Angeles\n- **Company:** Kinder Morgan Tank Storage Terminals, LLC\n- **Extension:** Five years (retroactive)\n- **Environmental Review:** The Board of Harbor Commissioners determined the project is categorically exempt from California Environmental Quality Act (CEQA) requirements\n- **Financial Impact:** None to the city's General Fund\n- **District:** This affects Council District 15\n\n## Impact\n\nThis decision primarily affects the Port of Los Angeles operations and the surrounding community in CD-15. The approval allows continued oil terminal operations at the port. There is no direct financial cost to the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2208,
+    "output_tokens": 313,
+    "cost_usd": 0.003773
+  }
+}

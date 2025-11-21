@@ -1,0 +1,14 @@
+{
+  "historyId": "a109b85c-98f2-4c77-a97a-afc12ef6e894",
+  "council_file": "25-0972",
+  "meeting_id": 17432,
+  "original_filename": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
+  "category": "other",
+  "summary": "# Summary: Council File 25-0972 Community Impact Statement\n\n## What is Being Proposed?\n\nThe Los Feliz Neighborhood Council submitted a Community Impact Statement supporting Council File 25-0972, which is a motion directing the Bureau of Street Lighting to investigate the feasibility of using remote sensors to quickly identify broken street lamps in Los Angeles.\n\n## Why This Matters?\n\nThe motion addresses a significant problem in street lamp maintenance: currently, it can take six months to a year for the city to repair broken street lights once they are reported. By implementing remote sensors, the city could automatically detect malfunctioning lamps without waiting for community complaints, thereby reducing response times and improving public safety and neighborhood lighting.\n\n## Key Details\n\n- **Council File Number:** 25-0972\n- **Voting Result:** Passed unanimously (20-0-0) by the Los Feliz Neighborhood Council\n- **Submitting Organization:** Los Feliz Neighborhood Council\n- **Submission Date:** September 23, 2025\n\n## Impact\n\nThis proposal benefits all Los Angeles residents by potentially accelerating street light repairs, which improves public safety, visibility for pedestrians and drivers, and community security. The faster identification and repair of broken street lights would enhance neighborhood conditions across the city.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6003,
+    "output_tokens": 280,
+    "cost_usd": 0.007403
+  }
+}

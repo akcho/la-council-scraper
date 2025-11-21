@@ -1,0 +1,14 @@
+{
+  "historyId": "13055df2-934d-4c9e-86f3-f110e2becef3",
+  "council_file": "25-1070",
+  "meeting_id": 17283,
+  "original_filename": "Government Operations Committee Report 9-16-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1070\n\n## What is Being Proposed?\nThe Government Operations Committee is recommending that the Los Angeles City Council approve and confirm the Mayor's appointment of Patrice Lattimore as the permanent City Clerk, effective September 24, 2025.\n\n## Committee Action and Reasoning\nOn September 16, 2025, the Government Operations Committee reviewed the Mayor's appointment recommendation along with a City Ethics Commission report. After considering the materials and allowing for public comment, the committee voted to recommend approval. Two of three committee members present voted in favor (Padilla and Jurado voted YES; Lee was absent).\n\n## Key Details\n- **Position:** Permanent City Clerk\n- **Appointee:** Patrice Lattimore\n- **Start Date:** September 24, 2025\n- **Required Documentation:** A Financial Disclosure Statement has been submitted; a background review is still pending\n- **Deadline:** The full City Council must act by October 24, 2025, or this matter will expire on October 26, 2025\n\n## Impact\nThis appointment is not official until the full City Council votes to approve it. If confirmed, Lattimore will serve as the city's permanent City Clerk, a key administrative position responsible for official city records and council proceedings.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2076,
+    "output_tokens": 285,
+    "cost_usd": 0.003501
+  }
+}

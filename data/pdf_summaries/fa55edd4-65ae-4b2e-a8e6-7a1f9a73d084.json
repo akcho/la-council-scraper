@@ -1,0 +1,14 @@
+{
+  "historyId": "fa55edd4-65ae-4b2e-a8e6-7a1f9a73d084",
+  "council_file": "25-0600-S126",
+  "meeting_id": 17283,
+  "original_filename": "Report from Budget and Finance Committee_11-04-25",
+  "category": "staff_report",
+  "summary": "# Summary: First Financial Status Report for FY 2025-26\n\n## What is Being Proposed?\n\nThe Budget and Finance Committee is recommending that the Los Angeles City Council approve the City Administrative Officer's (CAO) First Financial Status Report for Fiscal Year 2025-26. The report includes several specific budget adjustments: reappropriating funds for equipment and elected officials' transition expenses, transferring $1.86 million from the Measure M Local Return Fund to the Bureau of Engineering's Sidewalk Repair Program, and directing the Los Angeles Police Department (LAPD) to identify savings and restructuring options.\n\n## Why?\n\nThe city faces a significant financial challenge with $263.20 million in projected over-expenditures identified in the current fiscal year. The report recommends using approximately $493.04 million in transfers, appropriations, and other budgetary adjustments—including $10 million added to the city's Reserve Fund—to balance the budget and address these shortfalls while complying with the city's Financial Policies.\n\n## Key Details\n\nThe most substantial action reallocates $1.86 million specifically for sidewalk repair work, with funding distributed across salaries ($200,000 general, $1.01 million overtime), hiring hall overtime ($450,000), equipment, uniforms, and supplies. The Committee unanimously approved the recommendations on November 4, 2025, with all five members voting yes.\n\n## Impact\n\nThese adjustments affect multiple city departments and services, with particular focus on street maintenance and police operations. Residents benefit from the sidewalk repair program funding, while the overall budget adjustments help ensure the city maintains essential services and financial stability through the fiscal year.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4204,
+    "output_tokens": 371,
+    "cost_usd": 0.006059
+  }
+}

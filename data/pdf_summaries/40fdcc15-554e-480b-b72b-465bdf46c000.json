@@ -1,0 +1,14 @@
+{
+  "historyId": "40fdcc15-554e-480b-b72b-465bdf46c000",
+  "council_file": "25-1267",
+  "meeting_id": 17455,
+  "original_filename": "Attachment to Report dated 10-20-25 - Board Report",
+  "category": "other",
+  "summary": "# Summary: Consent to Change of Control of Airport Food & Beverage Concessions\n\n## What is Being Proposed?\nThe Los Angeles World Airports (LAWA) is requesting Board approval to allow Areas USA, Inc. to take over food and beverage concession operations currently run by Delaware North Companies Travel Hospitality Services, Inc. (DNC/THS) at Los Angeles International Airport. This change of control requires City Council approval and includes a waiver of any termination rights that might otherwise be triggered by the ownership change.\n\n## Why?\nDNC/THS requested this change of control on July 29, 2025, as part of a business transaction. LAWA is granting consent to ensure the transition does not constitute a breach of the existing concession agreements and allows Areas to seamlessly continue operations under the current terms.\n\n## Key Details\nThe two concession agreements affected are:\n- **LAA-8589** (approved June 2011): Covers Terminal 5 food court and two coffee locations\n- **LAA-8549** (approved October 2010): Covers casual dining/bar concepts in Terminals 5 and 7\n\nThese agreements were originally 10-year terms, extended twice due to COVID-19 and to delay replacements until after the 2026 FIFA World Cup and 2028 Olympic Games. The change requires no new funding or fiscal impact.\n\n## Impact\nThis primarily affects LAX travelers and airport operations. The change is administrative—passengers will see no disruption to food and beverage services at these terminal locations, as Areas will maintain operations under the existing agreements and service standards.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4296,
+    "output_tokens": 358,
+    "cost_usd": 0.006086
+  }
+}

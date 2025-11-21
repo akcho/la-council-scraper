@@ -1,0 +1,14 @@
+{
+  "historyId": "22d5bd77-8647-40ac-ac20-767eb9e1a802",
+  "council_file": "25-1108",
+  "meeting_id": 17407,
+  "original_filename": "Report from Cultural Heritage Commission dated 9-23-25",
+  "category": "staff_report",
+  "summary": "# Summary: Grant House Historic-Cultural Monument Designation\n\n## What is Being Proposed?\nThe Cultural Heritage Commission is recommending that the Grant House, located at 815 North Bramble Way in Council District 11, be designated as a Historic-Cultural Monument. This recommendation now goes to the Los Angeles City Council for final approval. The Commission voted unanimously (5-0) on September 18, 2025 to support this designation.\n\n## Why?\nHistoric-Cultural Monument designations protect buildings and sites that have significant historical, cultural, or architectural importance to Los Angeles. The Commission determined that the Grant House meets the legal definition of a Monument under Los Angeles Administrative Code Section 22.171.7 and is categorically exempt from environmental review under California law.\n\n## Key Details\n- **Property:** Grant House, 815 North Bramble Way, Council District 11\n- **Case Numbers:** CHC-2025-3523-HCM (Historic-Cultural Monument); ENV-2025-3524-CE (Environmental)\n- **Commission Vote:** 5-0 in favor (Commissioners Barron, Buelna, Milofsky, Kennard, and Rubio)\n- **Timeline:** The City Council has 90 days from the Commission's public hearing to vote on approval or disapproval (extendable to 105 days for good cause, or up to 165 days with the property owner's written consent)\n\n## Impact\nIf approved by City Council, the Grant House designation will provide legal protection for the property and require compliance with preservation standards for any future modifications. This affects the property owner and future development plans while preserving an important piece of Los Angeles's cultural heritage.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4193,
+    "output_tokens": 375,
+    "cost_usd": 0.006068
+  }
+}

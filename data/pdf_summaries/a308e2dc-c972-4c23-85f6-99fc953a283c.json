@@ -1,0 +1,14 @@
+{
+  "historyId": "a308e2dc-c972-4c23-85f6-99fc953a283c",
+  "council_file": "25-1109",
+  "meeting_id": 17407,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1109\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council designate the Gelb House as a Historic-Cultural Monument. The Gelb House is located at two addresses: 12450 West Rochedale Lane and 736 North Rochedale Way. If approved by Council, the property will be added to the city's official list of protected historic sites.\n\n## Why?\n\nThe Cultural Heritage Commission (CHC) reviewed the property and determined it meets the definition of a Monument under Los Angeles Administrative Code Section 22.171.7, making it worthy of historic protection. The PLUM Committee considered the CHC's findings at its October 28, 2025 meeting and recommended approval after allowing for public comment.\n\n## Key Details\n\n- **Owner:** Landis Green, Trustee of the Landis Green Living Trust\n- **Applicant/Architect:** Cory Buckner\n- **Case Numbers:** CHC-2025-3509-HCM (historic case) and ENV-2025-3510-CE (environmental)\n- **Committee Vote:** 4-0 in favor (Blumenfield, Hutt, Lee, and Raman voted YES; Nazarian was absent)\n- **Deadline:** The City Council must take action by December 12, 2025\n\n## Impact\n\nDesignating this property as a Historic-Cultural Monument will protect it from demolition and require any future modifications to comply with historic preservation guidelines. This affects the property owner and any future developers, ensuring the building's historic character is maintained for the community.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3934,
+    "output_tokens": 375,
+    "cost_usd": 0.005809
+  }
+}

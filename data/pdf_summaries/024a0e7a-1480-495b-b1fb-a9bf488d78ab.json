@@ -1,0 +1,14 @@
+{
+  "historyId": "024a0e7a-1480-495b-b1fb-a9bf488d78ab",
+  "council_file": "25-1083",
+  "meeting_id": 17407,
+  "original_filename": "Communication from Council District Four - Amendments_10-28-25",
+  "category": "other",
+  "summary": "# Summary of CF 25-1083 Amendments\n\n## What is Being Proposed\nCouncilmember Nithya Raman is requesting amendments to Item 12 (CF 25-1083) on the October 28, 2025 PLUM Committee agenda. The proposed changes add three sets of additional recommendations requiring detailed analysis of how Senate Bill 79 (SB 79) would affect Los Angeles, along with a new directive for city planning to report on housing compliance within 90 days.\n\n## Why This Matters\nSB 79 allows certain development projects to be exempt from some local regulations. Councilmember Raman's amendments aim to ensure the city thoroughly understands SB 79's impacts before implementation, particularly on vulnerable communities and historically significant areas. The amendments also seek to verify that the city can still meet its housing production goals while complying with fair housing laws and the Regional Housing Needs Assessment (RHNA) requirements.\n\n## Key Details\nThe amendments request analysis of SB 79's effects on low-resource areas, rent-controlled units, coastal and fire hazard zones, historic districts, and evacuation routes. They also call for economic impact projections including property tax revenues, job creation, school enrollment changes, and affordable housing production. Additionally, the Department of City Planning must report on capacity modeling in low- and high-resource areas, including Transit Oriented Incentive Areas and Opportunity Corridors, within 90 days.\n\n## Impact\nThese amendments affect residents citywide by ensuring comprehensive planning around SB 79 development, particularly protecting low-income neighborhoods, historically significant areas, and coastal communities from unintended consequences while maintaining the city's ability to address its housing shortage.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2319,
+    "output_tokens": 375,
+    "cost_usd": 0.004194
+  }
+}

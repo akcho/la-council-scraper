@@ -1,0 +1,14 @@
+{
+  "historyId": "fa4c9cda-7884-486f-81ad-af5d886951ee",
+  "council_file": "24-0617",
+  "meeting_id": 17455,
+  "original_filename": "Report from City Attorney dated 9-25-25",
+  "category": "staff_report",
+  "summary": "# Summary: Settlement Discussion for LAPD Bomb Squad Incident\n\n## What is Being Proposed\nThe City Attorney's office is requesting that the Los Angeles City Council hold a **closed session meeting** to discuss a settlement recommendation regarding pending litigation related to a June 30, 2021 incident involving the LAPD Bomb Squad. The case involves multiple claimants (Rosalina Reyes and others) in LASC Case No. 22SCV39329, with seven related claim numbers (C22-02487 through C22-02668).\n\n## Why This is Happening\nOn June 30, 2021, the LAPD Bomb Squad detonated an explosive device on East 27th Street in Los Angeles. This incident resulted in claims and litigation against the City. The City Attorney's office is recommending that the City Council discuss settlement options with legal counsel in a closed session, as permitted under California Government Code Section 54956.9(d)(1), which allows public bodies to meet privately to confer with legal counsel about pending litigation.\n\n## Key Details\n- **Incident Date:** June 30, 2021\n- **Location:** East 27th Street, Los Angeles\n- **Case Number:** 22SCV39329 (with 7 related claim numbers)\n- **Contact:** Steven M. McGuire, Deputy City Attorney, (213) 978-6943\n- **Multiple plaintiffs/claimants** are involved in the litigation\n\n## Impact\nThis affects Los Angeles residents whose property or safety may have been impacted by the Bomb Squad detonation. The council's settlement decision will determine how the City addresses claims and potentially avoid costly trial proceedings.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3317,
+    "output_tokens": 372,
+    "cost_usd": 0.005177
+  }
+}

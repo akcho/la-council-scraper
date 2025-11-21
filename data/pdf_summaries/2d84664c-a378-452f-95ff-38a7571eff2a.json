@@ -1,0 +1,14 @@
+{
+  "historyId": "2d84664c-a378-452f-95ff-38a7571eff2a",
+  "council_file": "25-1084",
+  "meeting_id": 17283,
+  "original_filename": "Report from Planning and Land Use Management Committee_10-28-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1084\n\n## What is Being Proposed?\nThe Planning and Land Use Management Committee is recommending approval of a zone change and new development project at three properties in the North Valley: 11144 Lorne Street, 11146-11148 Lorne Street, and 8032 North Fair Avenue. The zone would change from single-family residential (R1-1-CUGU) to a mixed-use residential zone (T)(Q)RD1.5-1-CUGU, allowing construction of a 17-unit apartment building with attached garages to replace three existing single-family homes.\n\n## Why?\nThe project aims to increase housing availability in Los Angeles, including affordable units. Of the 17 units, 2 are designated as affordable housing (1 for extremely low-income households and 1 for very low-income households), with 15 remaining market-rate units. The project has undergone environmental review under the California Environmental Quality Act (CEQA) and been approved with mitigation measures to address potential impacts.\n\n## Key Details\n- **Project size**: 26,296.6 square feet with 17 total units\n- **Affordable housing**: 2 of 17 units designated as affordable\n- **Applicant**: Sogomon Petrosyan, represented by Oscar Ensafi\n- **Committee vote**: 4-0 in favor (one member absent)\n- **Deadline**: Council must act by December 12, 2025\n- **Important condition**: The \"Q\" qualified zoning expires in 6 years unless substantial development occurs\n\n## Impact\nThis project will increase residential density in the area and add two permanently affordable units to the city's housing stock. The environmental review found no significant environmental impacts with mitigation measures in place. The development will replace single-family homes with apartments, representing a shift toward denser housing in this neighborhood.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 4567,
+    "output_tokens": 425,
+    "cost_usd": 0.006692
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+  "council_file": "25-1063",
+  "meeting_id": 17432,
+  "original_filename": "Joint Report from Public Works and Transportation Committees 10-22-25",
+  "category": "staff_report",
+  "summary": "# Summary of Council File 25-1063\n\n## What is Being Proposed?\n\nThe Transportation and Public Works Committees are recommending that the City Council instruct the Bureau of Street Services—with assistance from the Bureau of Engineering and Department of Transportation—to study and report back with recommendations for streamlining the permitting process for work in Los Angeles's public right-of-way (streets, sidewalks, etc.) related to major national and international events.\n\n## Why?\n\nLos Angeles will be hosting several high-profile events in the coming years, including the FIFA World Cup, the Super Bowl, the NBA All-Star Game, and the 2028 Olympic and Paralympic Games. The Motion argues that current permitting processes could cause unnecessary delays that would undermine the City's readiness to host these events. By reviewing and streamlining these procedures now, the City can avoid bottlenecks and ensure smoother coordination of work related to event preparation and infrastructure.\n\n## Key Details\n\n- The original Motion was introduced on September 10, 2025, by Council Members Rodriguez and Hernandez\n- Both committees voted on October 22, 2025, with strong support (3 YES votes and 2 ABSENT in each committee)\n- This is not yet official—it requires full City Council approval\n- No financial analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n\n## Impact\n\nThis primarily affects City departments and contractors who need permits for public right-of-way work. Streamlined permitting could reduce delays and costs for event-related infrastructure projects, ultimately helping the City demonstrate readiness for major international events.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3786,
+    "output_tokens": 350,
+    "cost_usd": 0.005536
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "historyId": "a2c35cb8-5d63-407c-9198-6e39f72a679a",
+  "council_file": "25-0030",
+  "meeting_id": 17407,
+  "original_filename": "Attested Resolution_05-28-25",
+  "category": "other",
+  "summary": "# Summary of Los Angeles City Council Resolution 56A\n\n## What is Being Proposed?\n\nThe Los Angeles City Council has adopted a resolution ratifying the Mayor's declaration of local emergency related to the January 2025 wildfires and authorizing the suspension of competitive bidding requirements for emergency purchases and contracts. The resolution also directs all city departments to investigate and enforce price-gouging, fraud, and theft related to the disaster response.\n\n## Why?\n\nOn January 7, 2025, extreme winds exceeding 100 mph—described as a \"dry hurricane\"—sparked multiple catastrophic wildfires across Los Angeles. The Palisades Fire alone has destroyed over 5,000 structures and consumed 23,000 acres, making it the second most destructive fire in California history. Over 80,000 people remain under evacuation orders, with thousands of families displaced. The combined fires represent the most destructive disaster in Los Angeles history. President Biden authorized FEMA to reimburse 100% of specified emergency costs, but swift action is needed to mobilize resources effectively.\n\n## Key Details\n\n- **Fires:** Palisades Fire (23,000+ acres, 14% contained) and Hurst Fire (800 acres, 95% contained), plus several contained fires\n- **Evacuation:** Over 170,000 people evacuated; 80,000+ remain under orders\n- **Damage:** Second most destructive fire in California history in terms of structures destroyed\n- **Federal Support:** President declared major disaster on January 8; FEMA authorized 100% reimbursement for debris removal and firefighting costs\n- **Competitive Bidding:** Suspended until emergency ends to enable immediate purchases of emergency supplies, reconstruction materials, and services\n\n## Impact\n\nThis resolution enables the city to respond rapidly without typical procurement delays while protecting residents from price-gouging under California Penal Code Section 396. All city departments are instructed to investigate exploitative pricing on emergency supplies, medical supplies, food, reconstruction services, and housing. Departments must report bi-weekly on emergency purchases to ensure accountability.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8893,
+    "output_tokens": 460,
+    "cost_usd": 0.011193
+  }
+}

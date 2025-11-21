@@ -1,0 +1,14 @@
+{
+  "historyId": "1d4e5ea2-9c09-4c24-bbff-310cd97801df",
+  "council_file": "14-0958",
+  "meeting_id": 17406,
+  "original_filename": "Report from Public Works Engineering (1 of 2) 07_16_2014",
+  "category": "staff_report",
+  "summary": "# Summary: Temporary Street Closure of 121st Street\n\n## What Is Being Proposed?\n\nThe City Engineer is recommending the temporary closure of 121st Street between Figueroa Street and Hoover Street in the Athens on the Hill community (Council District 15) for a period of **18 months**. The closure would be accomplished by installing gates at the street's endpoints, with a physical barrier required within 6 months of City Council approval.\n\n## Why?\n\nResidents and the Los Angeles Police Department have documented serious and persistent criminal activity along this street segment, including prostitution, narcotics sales, burglary, and other crimes. The LAPD believes that closing the street would deter criminal activity by eliminating it as a through-traffic route. Additionally, residents report that apartment dwellers from a nearby development on South Figueroa Street use the street for parking and access, contributing to the problems. The closure is viewed as a crime prevention measure that would improve public safety and quality of life in the neighborhood.\n\n## Key Details\n\n- **Location:** 121st Street between Figueroa Street and Hoover Street (500 and 600 blocks)\n- **Duration:** 18 months (temporary)\n- **Cost:** Approximately $5,000 to City for processing; installation of gates at no cost to the City\n- **Approval Status:** Affected property owners have agreed to the closure\n- **Requirements:** Gates must be approved by Fire Department, Department of Water and Power, Department of Transportation, and Bureau of Sanitation; property owners must maintain the closed area and remove gates after the closure period ends\n\n## Impact\n\nThis closure primarily affects the 29 property owners and residents along 121st Street. While they will need to access their properties via Hoover Street instead of directly from 121st and Figueroa, they have consented to the measure, believing the crime reduction benefits outweigh the inconvenience. The City Council must find that the closure will not substantially affect traffic flow, emergency services, or commercial delivery to nearby streets.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 55406,
+    "output_tokens": 449,
+    "cost_usd": 0.057650999999999994
+  }
+}

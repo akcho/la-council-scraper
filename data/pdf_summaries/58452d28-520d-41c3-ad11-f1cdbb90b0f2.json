@@ -1,0 +1,14 @@
+{
+  "historyId": "58452d28-520d-41c3-ad11-f1cdbb90b0f2",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_08-02-2025",
+  "category": "other",
+  "summary": "# Summary: Communication from Public - Council File 23-1134\n\n## What is Being Proposed?\nCrystal Santoso is urging the LA City Council to adopt tenant-friendly reforms to the Los Angeles Rent Stabilization Ordinance (LARSO). Specifically, she advocates for the \"Keep LA Housed Coalition\" proposals, which include: rent increases based on 60% of the Consumer Price Index (CPI), a 3% rent cap with no floor, elimination of rent banking, no additional charges for utilities or occupants, and uniform formulas for all landlords and tenants.\n\n## Why?\nThe current rent increase formula allows rents to rise faster than inflation, making housing increasingly unaffordable for renters. The writer emphasizes that even stabilized units are pricing out low-to-moderate income tenants. With average RSO rents at $2,357 monthly, renters would need to earn nearly $94,000 annually to meet the recommended 30% rent-to-income ratio, making it difficult for tenants to afford other necessities like food, medical care, and childcare.\n\n## Key Details\n- The LA Housing Department has already recommended updating the rent formula\n- Rent increases take effect July 1 annually\n- The majority of Angelenos are renters, and most live in stabilized units\n- The submitter (Crystal Santoso, 91801) notes that while the Housing Department's current proposal is an improvement, it remains insufficient\n\n## Impact\nThis affects LA's substantial renter population—particularly low-to-moderate income households—by potentially stabilizing housing costs and preserving affordability. Urgent action is needed before the next rent increase cycle begins.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2260,
+    "output_tokens": 370,
+    "cost_usd": 0.00411
+  }
+}

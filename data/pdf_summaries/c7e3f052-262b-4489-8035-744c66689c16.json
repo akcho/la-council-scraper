@@ -1,0 +1,14 @@
+{
+  "historyId": "c7e3f052-262b-4489-8035-744c66689c16",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Final Ordinance No. 188655 dated 6-27-25.pdf",
+  "category": "other",
+  "summary": "# Summary of Los Angeles City Council Ordinance No. 188655\n\n## What Is Being Proposed?\n\nOrdinance No. 188655 freezes and reduces salary increases for non-represented (non-union) employees in the Office of the Mayor and City Council offices. Specifically, it removes three previously-scheduled salary increases (June 29, 2025; December 28, 2025; and June 28, 2026) and provides adjusted lower salary ranges for subsequent pay adjustment dates through July 1, 2028.\n\n## Why?\n\nThe ordinance appears to be a fiscal measure to control city spending by canceling planned salary increases for executive and administrative staff in City Hall. This represents a reversal of salary growth that was previously authorized under Ordinance No. 188307. The document does not explicitly state the reason, but this typically reflects budget constraints or fiscal priorities.\n\n## Key Details\n\nThe salary freeze affects approximately 18 job classifications, including the Chief of Staff to the Mayor, Deputy Mayor, and seven levels of Council Aides and Mayoral Aides. The changes take effect on different dates between June 29, 2025, and July 1, 2028. For example, Council Aide I salaries are reduced from a previously scheduled range, and similar adjustments apply across all affected positions.\n\n## Impact\n\nThis affects approximately 100+ non-represented City Hall staff members who will receive no salary increases during the freeze period and face lower salary ranges in future years. While executive-level positions (Chief of Staff, Deputy Mayor) see minimal changes, lower-level administrative staff experience more significant reductions relative to their salaries. The ordinance was passed by the Council on June 24, 2025, and became effective June 27, 2025.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 12421,
+    "output_tokens": 387,
+    "cost_usd": 0.014355999999999999
+  }
+}

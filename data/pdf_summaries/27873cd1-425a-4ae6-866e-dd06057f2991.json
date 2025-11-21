@@ -1,0 +1,14 @@
+{
+  "historyId": "27873cd1-425a-4ae6-866e-dd06057f2991",
+  "council_file": "25-0005-S141",
+  "meeting_id": 17406,
+  "original_filename": "Report from Los Angeles Housing Department dated 10-24-25",
+  "category": "staff_report",
+  "summary": "# Summary: REAP Property Removal Recommendation\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove three residential properties from the Rent Escrow Account Program (REAP) and terminate the rent reductions currently in place for tenants at these properties. The three properties are located at 10520 W Eastborne Ave (Los Angeles), 2300 S Pisani Pl (Venice), and 837 W 165th Pl (Gardena). This matter is scheduled for City Council consideration on November 5, 2025.\n\n## Why?\n\nThese properties were placed into REAP because their owners had violated housing codes—specifically, the Eastborne Ave property was cited for illegal construction. REAP is an enforcement tool that reduces rent collection and places the funds into escrow accounts to incentivize landlords to correct code violations. According to LAHD, all three properties have now met the requirements under Los Angeles Municipal Code Section 162.08 by correcting their violations. LAHD's Code Enforcement Division has independently verified that violations were corrected and that utilities are current.\n\n## Key Details\n\n- **Case No. 858268** (Eastborne Ave): 3 total units, 2 units in REAP; case opened September 4, 2024; violation was illegal construction\n- Property owner: Daryoush & Leila A Shamtoob\n- All properties must have outstanding utilities paid and clearance from the Inner City Law Center before removal\n\n## Impact\n\nTenants will benefit immediately, as rent reductions will terminate and rents will return to original levels 30 days after notification. Escrow funds will be distributed to cover administrative fees, outstanding penalties, and registration fees, with remaining funds returned to the landlord. This signals that the landlord has complied with housing standards.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6700,
+    "output_tokens": 417,
+    "cost_usd": 0.008785000000000001
+  }
+}

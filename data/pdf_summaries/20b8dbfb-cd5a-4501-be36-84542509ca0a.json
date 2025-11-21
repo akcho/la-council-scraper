@@ -1,0 +1,14 @@
+{
+  "historyId": "20b8dbfb-cd5a-4501-be36-84542509ca0a",
+  "council_file": "23-1134",
+  "meeting_id": 17283,
+  "original_filename": "Communication(s) from Public_07-01-2025",
+  "category": "other",
+  "summary": "# Summary: Public Comments on Council File 23-1134\n\n## What is Being Proposed?\nTwo members of the public are submitting comments in support of passing a rent stabilization act for Los Angeles, specifically advocating for a 3% rent cap and support for LARSO (Los Angeles Renters' Solidarity Organization).\n\n## Why?\nThe commenters argue that Los Angeles is experiencing a severe housing crisis driven by real estate corporations and manufactured housing manufacturers. They frame housing as a human right and express concern that the city is failing residents by not taking stronger action to protect renters from rising costs and corporate wealth accumulation.\n\n## Key Details\n- **Council File:** 23-1134\n- **Submission Dates:** July 1, 2025 (8:55 PM and 10:35 PM)\n- **Proposed Policy:** 3% rent cap through rent stabilization legislation\n- **Supporting Organization:** LARSO (Los Angeles Renters' Solidarity Organization)\n- Both commenters pledge close monitoring of this issue going forward\n\n## Impact\nThese comments represent renter advocacy calling on City Council to pass stronger protections against rent increases. If enacted, rent stabilization would limit how much landlords can raise rents annually, directly affecting both renters (who would see more stable housing costs) and property owners (whose rental income growth would be restricted). This reflects ongoing public pressure on the council to address Los Angeles's affordability crisis.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3508,
+    "output_tokens": 315,
+    "cost_usd": 0.005083
+  }
+}

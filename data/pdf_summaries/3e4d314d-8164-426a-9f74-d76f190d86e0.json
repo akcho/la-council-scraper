@@ -1,0 +1,14 @@
+{
+  "historyId": "3e4d314d-8164-426a-9f74-d76f190d86e0",
+  "council_file": "25-0986",
+  "meeting_id": 17283,
+  "original_filename": "Report from Public Works Committee_9-10-25",
+  "category": "staff_report",
+  "summary": "# Summary: List of Citywide Special Events - File 25-0986\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the Los Angeles City Council adopt a list of citywide special events prepared by the Chief Legislative Analyst (CLA). This list follows the City's established Special Event Permit Procedure outlined in Ordinance No. 180881. Notably, the recommendation includes an amendment that replaces the original Council District 10 recommendations with a revised list and budget amounts provided in a separate communication from CD 10.\n\n## Why?\nThe City has a formal procedure for managing special events across Los Angeles. By adopting an official list, the City establishes which events receive permits and potentially city support or resources. The amendment to CD 10's recommendations suggests that the district submitted changes to the originally proposed list, which the committee incorporated into their recommendation.\n\n## Key Details\n- The Public Works Committee met on September 10, 2025, and voted to approve the motion\n- Three committee members voted yes: Hernandez, Padilla, and Hutt\n- The motion was originally initiated by Councilmembers Hernandez and Lee\n- Notably, **no fiscal impact analysis has been completed** by either the City Administrative Officer or the CLA\n- No community impact statement was submitted\n\n## Impact\nThis decision affects how special events are organized and permitted across the city. The amendment process shows that individual council districts have input into which events in their areas are officially recognized and supported. However, without a completed financial analysis, the full cost implications for the city remain unclear.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2117,
+    "output_tokens": 345,
+    "cost_usd": 0.003842
+  }
+}

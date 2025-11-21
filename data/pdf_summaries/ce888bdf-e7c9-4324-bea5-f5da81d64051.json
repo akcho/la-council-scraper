@@ -1,0 +1,14 @@
+{
+  "historyId": "ce888bdf-e7c9-4324-bea5-f5da81d64051",
+  "council_file": "25-1084",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 9-16-25 - ZC Ordinance and Map",
+  "category": "other",
+  "summary": "# Summary: Zoning Change Ordinance for Sun Valley Property\n\n## What is Being Proposed?\n\nThe ordinance amends the zoning map to reclassify a property in Sun Valley from its current zone to **(T)(Q)RD1.5-1-CUGU**, which permits residential development with qualified restrictions. The property is located on Fair Avenue and Lorne Street and comprises approximately 0.35 acres. This zoning change allows the development of a multifamily residential project on the site.\n\n## Why?\n\nThe zoning change is being pursued to enable housing development on an underutilized property. The \"Q\" (Qualified) designation indicates the City has imposed specific conditions to ensure the project aligns with community goals, including affordable housing requirements, design standards, and labor protections. The North Valley Area Planning Commission recommended adoption of this ordinance on June 5, 2025.\n\n## Key Details\n\nThe project is limited to **17 dwelling units maximum**. Critical conditions include: (1) a minimum of 5% of units affordable to Extremely Low Income households and either 6% for Very Low Income or 15% for Lower Income households for 55 years; (2) one unit reserved for Extremely Low Income and one for Very Low Income households; (3) construction labor requirements including 30% local hiring and prevailing wages; (4) comprehensive design guidelines addressing pedestrian safety, energy efficiency, landscaping, and stormwater management; and (5) mechanical equipment screening and outdoor lighting restrictions.\n\n## Impact\n\nThis ordinance affects the property owner/developer and future Sun Valley residents. It generates approximately 17 new housing units while requiring a significant portion (11-16 units) to remain affordable long-term. The project must comply with strict design, environmental, and labor standards. Neighboring residents may experience construction impacts, though design conditions aim to minimize negative effects on the surrounding neighborhood character.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 22593,
+    "output_tokens": 417,
+    "cost_usd": 0.024678
+  }
+}

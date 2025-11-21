@@ -1,0 +1,14 @@
+{
+  "historyId": "035f183d-93cd-4767-a8f3-c06521849fa9",
+  "council_file": "24-0777",
+  "meeting_id": 17407,
+  "original_filename": "Communication from City Administrative Officer submitted 6-28-24 - Revised Attachment B-II",
+  "category": "other",
+  "summary": "# Summary: General Manager Salary Schedule Revision (Council File 24-0777)\n\n## What is Being Proposed?\nThe City Administrative Officer is proposing a revised salary schedule for Los Angeles City General Manager positions under the Los Angeles Administrative Code Section 4.61. This document establishes biweekly compensation rates for approximately 40 General Manager and executive director positions across various city departments, with scheduled salary increases spanning from June 2024 through July 2028.\n\n## Why?\nThe salary adjustments are designed to provide predictable, phased compensation increases for city leadership positions. The schedule reflects a structured approach to salary growth over approximately four years, with increases timed to occur twice annually (typically in June and December). This framework helps attract and retain qualified executives to lead major city departments and agencies.\n\n## Key Details\nThe salary increases follow this pattern: 4% (June 30, 2024), 2% (December 29, 2024), 4% (June 29, 2025), 2% (December 28, 2025), 4% (June 28, 2026), 2% (December 27, 2026), 2% (June 27, 2027), 2% (December 26, 2027), and 0% (July 1, 2028). Positions are classified into salary ranges (M-7 through M-13), with higher-level positions like the City Administrative Officer, Fire Chief, and City Engineer receiving salaries ranging from approximately $14,000 to $23,000 biweekly by 2028. Some positions remain marked with asterisks, indicating they are subject to separate determination by the Mayor or appropriate Board/Commission.\n\n## Impact\nThis proposal affects approximately 40 senior city managers and executive directors across departments including Police, Fire, Planning, Transportation, Housing, Recreation and Parks, and numerous other city agencies. The salary schedule provides transparency and consistency in executive compensation while potentially increasing annual city payroll costs for these positions due to the cumulative percentage increases over the four-year period.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 8519,
+    "output_tokens": 455,
+    "cost_usd": 0.010794000000000002
+  }
+}

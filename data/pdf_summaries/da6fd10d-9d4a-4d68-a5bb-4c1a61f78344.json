@@ -1,0 +1,14 @@
+{
+  "historyId": "da6fd10d-9d4a-4d68-a5bb-4c1a61f78344",
+  "council_file": "13-0332",
+  "meeting_id": 17407,
+  "original_filename": "Report from Board of Harbor Commissioners 07_26_2017",
+  "category": "staff_report",
+  "summary": "# Summary: Resolution No. 17-8094 – Kinder Morgan Tank Storage Terminal Extension\n\n## What is Being Proposed?\n\nThe Port of Los Angeles is seeking City Council approval to extend Kinder Morgan Storage Terminals' marine oil terminal operating permit at Berths 118-119 for another five years, until October 13, 2023. This is the second amendment to the existing Permit No. 708. Additionally, the amendment includes a provision to automatically adjust the company's land rent payments annually based on the Consumer Price Index.\n\n## Why?\n\nThis amendment allows Kinder Morgan to continue operating their marine oil storage and transfer facility at the port. The extension is contingent upon the company receiving approval from the California State Lands Commission to clean up and restore a separate marine terminal site (Berths 171-173) by April 2018, indicating environmental remediation is a condition of the renewal.\n\n## Key Details\n\n- **Facility Location:** Berths 118-119 at the Port of Los Angeles\n- **Extension Period:** Five years through October 13, 2023\n- **Contingency:** CSLS cleanup approval for Berths 171-173 required by April 2018\n- **Financial Impact:** No impact to the city's General Fund\n- **Environmental Review:** The action is exempt from California Environmental Quality Act (CEQA) requirements under Class 1(14) of LA City CEQA Guidelines\n\n## Impact\n\nThis decision primarily affects the Port of Los Angeles operations and the oil storage industry. The permit extension ensures continued maritime commerce and economic activity, while the environmental cleanup requirement protects coastal and marine resources. Residents in the surrounding San Pedro area may be affected by continued operational activities at the facility.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2463,
+    "output_tokens": 378,
+    "cost_usd": 0.004353
+  }
+}

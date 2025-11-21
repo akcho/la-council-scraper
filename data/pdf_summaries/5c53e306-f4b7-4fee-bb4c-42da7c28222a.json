@@ -1,0 +1,14 @@
+{
+  "historyId": "5c53e306-f4b7-4fee-bb4c-42da7c28222a",
+  "council_file": "20-0504",
+  "meeting_id": 17283,
+  "original_filename": "Report from Department of Transportation 05_12_2021",
+  "category": "staff_report",
+  "summary": "# Summary: Metro Active Transportation Program Cycle 1 Funding\n\n## What is Being Proposed?\n\nThe City Council is being asked to authorize the Department of Transportation and other city departments to execute funding agreements and contracts to accept grant money from Los Angeles County's Metro Active Transportation (MAT) Program. This funding supports active transportation projects—such as biking and walking infrastructure—and transit station improvements across Los Angeles.\n\n## Why?\n\nThe Metro MAT Program, funded through Measure M, distributes $63.1 million (reduced from the originally planned $75 million due to COVID-19 revenue impacts) to expand active transportation and improve transit access. The City of Los Angeles submitted applications for 11 projects, and Metro awarded funding for 7 of them in January 2021. The City needs formal authorization to enter into agreements with Metro and begin spending the awarded funds starting July 1, 2021.\n\n## Key Details\n\n**Los Angeles Projects Funded:**\n- **6 First/Last Mile Stations** (improving pedestrian/bike access to transit stations): LAX/Aviation, Hollywood/Highland, Hollywood/Vine, Sepulveda OL, Western/Slauson, and Culver City Expo Line\n- **1 Active Transportation Corridor**: Avalon/MLK/Gage\n\n**Not funded:** Cypress Park/Lincoln Heights and Van Nuys/Vanowen stations, plus the Slauson and Broadway/Manchester/Vermont corridors. The projects are led by LADOT, StreetsLA, Board of Education, and other city agencies.\n\n## Impact\n\nThis authorization enables the City to secure grant funding at no local cost (no matching funds required) to improve walkability, biking infrastructure, and transit connections in neighborhoods throughout Los Angeles. Future city budgets will need to appropriate funds to implement the projects once agreements are finalized.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 15301,
+    "output_tokens": 410,
+    "cost_usd": 0.017351
+  }
+}

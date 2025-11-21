@@ -1,0 +1,14 @@
+{
+  "historyId": "bc830aa5-1a4c-4da6-9eda-0bb6c3f88b03",
+  "council_file": "24-1587",
+  "meeting_id": 17407,
+  "original_filename": "Attachment to Report dated 5-15-25 - Findings.pdf",
+  "category": "findings",
+  "summary": "# Summary: Emergency Shelter Code Amendment (CPC-2025-1648-CA)\n\n## What is Being Proposed?\nThe City is amending Los Angeles Municipal Code (LAMC) sections 12.80, 12.81, and 1.6.2-1.6.3 to align local zoning regulations with California state law regarding emergency shelters for homeless individuals. The amendment facilitates \"by-right\" operation of emergency shelters (meaning they can proceed without special permits) when the Mayor or City Council declares a shelter crisis emergency.\n\n## Why?\nLos Angeles is experiencing a declared shelter crisis, and current local regulations create unnecessary barriers that delay shelter operations. The proposed changes reduce regulatory and procedural hurdles to enable faster establishment of emergency housing. This aligns with the City's General Plan goals to prevent and end homelessness and with Housing Element Program 115, which specifically addresses zoning and development standards for homeless housing.\n\n## Key Details\nThe amendment is part of the 2021-2029 Housing Element and responds to state law provisions (California Government Code § 8698.4 et seq.). The ordinance only applies during declared shelter crisis emergencies, which can be revoked by the Mayor or City Council at any time. The changes are considered administrative and organizational adjustments rather than new substantive policies.\n\n## Impact\nThis affects unhoused residents by enabling faster access to emergency shelter during crisis periods. It benefits shelter providers and nonprofits by reducing approval timelines. The City has determined the amendment is exempt from environmental review (CEQA) since it's administrative in nature and doesn't create new shelter capacity—it simply removes procedural delays on existing allowances.",
+  "processing": {
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6845,
+    "output_tokens": 364,
+    "cost_usd": 0.008665
+  }
+}
