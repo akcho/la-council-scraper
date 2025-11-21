@@ -498,7 +498,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
         <div class="container">
             <div class="breadcrumb">
                 <a href="../index.html">Home</a> /
-                <a href="index.html">Council Files</a> /
+                <a href="index.html">Council files</a> /
                 {council_file}
             </div>
             <div class="file-number">{council_file}</div>
@@ -522,7 +522,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
                 </div>
             </div>
             {f'''<div class="official-title">
-                <span class="official-title-label">Official Title:</span>
+                <span class="official-title-label">Official title:</span>
                 {title}
             </div>''' if has_ai_summary else ''}
         </div>
@@ -577,7 +577,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
 
         if with_summaries:
             html += """        <section class="section">
-            <h2 class="section-title">Related Documents</h2>
+            <h2 class="section-title">Related documents</h2>
 """
 
             for attachment in with_summaries:
@@ -903,9 +903,9 @@ def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path) -> No
     <header>
         <div class="container">
             <div class="breadcrumb">
-                <a href="../index.html">Home</a> / Council Files
+                <a href="../index.html">Home</a> / Council files
             </div>
-            <h1>Council Files</h1>
+            <h1>Council files</h1>
             <p class="subtitle">Track issues across multiple meetings</p>
         </div>
     </header>

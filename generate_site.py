@@ -165,13 +165,13 @@ def improve_section_title(title):
     """
     # Mapping of common bureaucratic titles to clearer alternatives
     title_improvements = {
-        "Items Noticed for Public Hearing": "Items With Scheduled Hearings",
-        "Items for which Public Hearings Have Been Held": "Items With Completed Hearings",
-        "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)": "Items Without Public Hearings (Require 10 Votes)",
-        "Closed Session": "Closed Session Items",
-        "Commendatory Resolutions, Introductions and Presentations": "Commendations and Presentations",
-        "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public Comment",
-        "Multiple Agenda Item Comment": "General Public Comment",
+        "Items Noticed for Public Hearing": "Scheduled hearings",
+        "Items for which Public Hearings Have Been Held": "Completed hearings",
+        "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)": "No hearings held (requires 10 votes)",
+        "Closed Session": "Closed sessions",
+        "Commendatory Resolutions, Introductions and Presentations": "Commendations and presentations",
+        "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public comments",
+        "Multiple Agenda Item Comment": "General public comments",
     }
 
     # Return improved title if available, otherwise return original
