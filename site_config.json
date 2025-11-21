@@ -1,9 +1,9 @@
 {
-  "site_name": "LA Council Tracker",
-  "site_url": "",
+  "site_name": "Council Reader",
+  "site_url": "https://councilreader.com",
   "analytics": {
     "provider": "plausible",
-    "domain": ""
+    "domain": "councilreader.com"
   },
-  "description": "Track Los Angeles City Council meetings, agendas, and decisions"
+  "description": "Making Los Angeles City Council meetings readable and accessible with AI-powered summaries"
 }

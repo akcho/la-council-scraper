@@ -36,7 +36,7 @@ Keep your summary:
 - Objective and factual (no political spin)
 - Skip routine ceremonial items unless truly significant
 
-If the meeting was mostly ceremonial (commendations, routine approvals), say so in one sentence and only highlight any actual substantive business."""
+IMPORTANT: Do NOT start your summary with meta-commentary about the meeting being "mostly ceremonial" or "primarily routine". Start directly with the KEY DECISIONS section. Let the content speak for itself."""
 
 def summarize_with_claude(transcript: str, api_key: str = None) -> str:
     """

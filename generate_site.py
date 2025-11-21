@@ -389,6 +389,20 @@ def generate_all_meetings():
 
     # Generate index page
     if meetings_data:
+        # Sort meetings by date (most recent first)
+        # Parse the formatted dates back to compare them
+        def parse_meeting_date(meeting):
+            try:
+                date_str = meeting['date']
+                # Parse "November 07, 2025 at 06:00 PM" format
+                dt = datetime.strptime(date_str, "%B %d, %Y at %I:%M %p")
+                return dt
+            except:
+                # If parsing fails, put it at the end
+                return datetime.min
+
+        meetings_data.sort(key=parse_meeting_date, reverse=True)
+
         print()
         generate_index_page(meetings_data)
 

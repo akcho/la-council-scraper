@@ -538,7 +538,10 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
             <div class="timeline">
 """
 
-        for appearance in appearances:
+        # Sort appearances by date (most recent first)
+        sorted_appearances = sorted(appearances, key=lambda x: x.get('date', ''), reverse=True)
+
+        for appearance in sorted_appearances:
             date = format_date(appearance['date'])
             meeting_id = appearance.get('meeting_id', '')
 
