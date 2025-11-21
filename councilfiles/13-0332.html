@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 13-0332 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 13-0332: CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to he Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summaries ul {
+            margin-top: 0.75rem;
+            padding-left: 1.5rem;
+        }
+
+        .no-summaries li {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                13-0332
+            </div>
+            <div class="file-number">13-0332</div>
+            <h1>CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to he Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC, to allow continued operation of t...</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 15</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>30 additional document(s) without AI summaries</summary>
+                <ul>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=32d94528-25c6-46fb-9ba2-9a32cda4b9e5" class="doc-link" target="_blank">Report from Trade, Travel and Tourism Commitee 10-14-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fcf36fc-8b70-4ebf-ab1a-a200fde3fbf8" class="doc-link" target="_blank">Report from Board of Harbor Commissioners dated 10-03-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fc65a74-87fb-4399-9eb1-d2934d1fb774" class="doc-link" target="_blank">Attachment to Report dated 10-03-25 - CAO Report</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d425749-0882-4136-a38c-dd0dc13e3839" class="doc-link" target="_blank">Attachment to Report dated 10-03-25 - Resolution</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f12b1bf2-d71e-4d94-8053-1cda4f61bce1" class="doc-link" target="_blank">Attachment to Report dated 10-03-25 - Kinder Morgan Site Map</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=474fe66b-5b90-4fe5-80d7-15c0cf1e0631" class="doc-link" target="_blank">Attachment to Report dated 10-03-25 - Amendment</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee0b690b-5d94-4a76-acf2-e9c823de1341" class="doc-link" target="_blank">Attachment to Report dated 10-03-25 - Transmittal</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7266f5aa-7f51-4bac-adf6-7442b1acce98" class="doc-link" target="_blank">Communication(s) from Public_05-09-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3503f218-74ec-42f7-9e4b-1ada05df655c" class="doc-link" target="_blank">Council Action  dated 3-23-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66472440-c221-4f37-b539-3c7c8c227992" class="doc-link" target="_blank">Buscaino-Bonin Motion_3-23-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=449b8314-90f4-43f9-8cdc-7b887f6552b8" class="doc-link" target="_blank">Report from Board of Harbor Commissioners dated 3-15-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45209df9-de7e-41a3-a726-fa536ea23070" class="doc-link" target="_blank">Attachment to Report dated 3-15-22 - City Administrative Officer Report</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2f56b6fc-b8a8-4b0a-821f-75062042ab10" class="doc-link" target="_blank">Attachment to Report dated 3-15-22 - Board Resolution</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=282f497b-d37d-4f66-9e3f-a65d3e8adc03" class="doc-link" target="_blank">Attachment to Report dated 3-15-22 - Site Map</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b21d898-838c-474c-85b1-5ae0dddd26ba" class="doc-link" target="_blank">Attachment to Report dated 3-15-22 -  Third Amendment</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4edce305-6d7c-4ca7-8cc3-b30203c5f7dd" class="doc-link" target="_blank">Attachment to Report dated 3-15-22 - CSLC Extension Letter</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=203d737f-e75f-4705-9a96-c42e72e69484" class="doc-link" target="_blank">Council Action 08_30_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb103810-7427-4c44-9032-733d65cf4547" class="doc-link" target="_blank">Report from Trade, Travel, and Tourism Committee 08_25_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0805f8f7-2602-4c9a-9a0b-a1c2d7a58937" class="doc-link" target="_blank">Speaker Card(s) 08_25_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ff3e81d-b866-47d0-bac0-f57eb0ad04e8" class="doc-link" target="_blank">Speaker Card(s) 08_15_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=da6fd10d-9d4a-4d68-a5bb-4c1a61f78344" class="doc-link" target="_blank">Report from Board of Harbor Commissioners 07_26_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ee45cd8-5dc8-42e9-a66c-41971d5c7ed9" class="doc-link" target="_blank">Attachment to Report dated 07262017 - Letter of Subsequent Audit 07_26_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a289c7f7-dc62-4ba6-b70c-a2bdea25ad63" class="doc-link" target="_blank">Attachment to Report dated 07262017 - Second Amendment 07_26_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=00ecf258-a4a0-4dcc-a619-a85223df72d5" class="doc-link" target="_blank">Attachment to Report dated 07262017 - Resolution 07_26_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=77b13f11-899a-42b5-b17b-0b233c75e045" class="doc-link" target="_blank">Attachment to Report dated 07262017 - City Administrative Officer Report 07_26_2</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d19e594b-0196-4165-84c1-6180f71c16a7" class="doc-link" target="_blank">Attachment to Report dated 07262017 - Site Map 07_26_2017</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2974009d-e3a9-40e6-a645-cc6105064ab0" class="doc-link" target="_blank">Adopted Recommendation(s) 04_09_2013</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d106d676-6699-4256-ba0e-6d4b18fb70db" class="doc-link" target="_blank">Council Action 04_09_2013</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1655ed1e-4b7f-4795-a30b-ae380fdc9e0f" class="doc-link" target="_blank">Report from Board of Harbor Commissioners 04_02_2013</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=07f75f4d-e7da-490b-a63d-12d48b24e1d6" class="doc-link" target="_blank">Report from Board of Harbor Commissioners 03_19_2013</a></li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+</html>

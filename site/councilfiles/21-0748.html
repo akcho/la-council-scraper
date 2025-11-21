@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 21-0748 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 21-0748: HOUSING AND HOMELESSNESS COMMITTEE REPORT and RESOLUTION relative to issuing a supplemental tax-exempt multifamily conduit revenue bond in an amount u">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summaries ul {
+            margin-top: 0.75rem;
+            padding-left: 1.5rem;
+        }
+
+        .no-summaries li {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                21-0748
+            </div>
+            <div class="file-number">21-0748</div>
+            <h1>HOUSING AND HOMELESSNESS COMMITTEE REPORT and RESOLUTION relative to issuing a supplemental tax-exempt multifamily conduit revenue bond in an amount up to $1,579,936 for the Southside Senior Housing S...</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 8</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>21 additional document(s) without AI summaries</summary>
+                <ul>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2de6fc9-1cc4-4f53-9d34-a23012b630fd" class="doc-link" target="_blank">Report from Housing and Homelessness Committee - 11-5-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df2d83ab-738b-4e24-9fb2-32384fe68884" class="doc-link" target="_blank">Attested Resolution_10-24-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9246f95-a4e4-4a80-a843-85c38f66f91d" class="doc-link" target="_blank">Council Action - Mayor Concurrence dated 10-24-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e317805a-cf1e-4190-a587-ebc415bbd155" class="doc-link" target="_blank">Report from Housing and Homelessness Committee_10-2-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4af38621-3dad-4968-baf6-51ce238156fb" class="doc-link" target="_blank">Speaker Card(s)_10-02-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=badf0495-58fb-4f97-a5ba-20dbaf773982" class="doc-link" target="_blank">Report from City Administrative Officer dated 9-26-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31645a60-1928-421b-acd1-30eacb462a25" class="doc-link" target="_blank">Report from Los Angeles Housing Department dated 9-16-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fa13608-970c-458e-a388-d7994d7820fe" class="doc-link" target="_blank">Attachment to Report dated 9-16-24 - Resolution</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=20e4e083-aa61-4149-ae24-adb5c0dee6ab" class="doc-link" target="_blank">Council Action - Mayor Concurrence  dated 5-17-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5dee05fc-e3d2-45ab-9291-cafbabf0cc02" class="doc-link" target="_blank">Communication(s) from Public_05-17-2022</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=46f88315-9520-45e3-ad56-e8bdc7b6f1d9" class="doc-link" target="_blank">21-0748_misc_05-17-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa543f1b-0ab0-4a63-b0fd-964a88f64dd2" class="doc-link" target="_blank">21-0748 Motion (de Leon - Wesson) 5-17-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b90001c2-a60c-4df9-8822-838fa5915623" class="doc-link" target="_blank">Report from City Administrative Officer dated 5-04-22.pdf</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=80aaf66d-b958-409c-ae8f-276a2ef2da8c" class="doc-link" target="_blank">Report from Los Angeles Housing Department dated 4-12-22.pdf</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0cdf251c-8930-4c27-9220-c49761efe76a" class="doc-link" target="_blank">Attachment to Report dated 4-12-22 - Resolution.pdf</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fbfa157-4c3b-438f-9cf7-fdb947ceaa21" class="doc-link" target="_blank">Attested Resolution_07-14-2021</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1809b80-e395-4fbb-8b07-6b92eacc7175" class="doc-link" target="_blank">Council Action - Mayor Concurrence  dated 6-30-21</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8857644-a2f7-4bdf-844a-d8d3f553efd2" class="doc-link" target="_blank">Motion (Harris-Dawson - Blumenfield) dated 6-25-21</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16308081-8aec-40f9-a4b8-e0aea89728d0" class="doc-link" target="_blank">Report from Los Angeles Housing Department dated 10-22-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5d57c76c-c77b-45c4-b4b7-21b2b5d278f5" class="doc-link" target="_blank">Attachment to Report dated 10-22-25 - Resolution</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbb1c5ae-18bf-46f2-9a1b-28bd7862a6c4" class="doc-link" target="_blank">Report from City Administrative Officer dated 10-29-25</a></li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+</html>

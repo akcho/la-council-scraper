@@ -1,0 +1,30 @@
+{
+  "council_file": "25-1276",
+  "title": "COMMUNICATION FROM THE MAYOR relative to the appointment of Mr. Jaime Moore as the Fire Chief.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17432,
+      "date": "2025-11-14T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(5)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "eff8d461-d50a-41d3-a246-c8e5347c6988",
+      "text": "Report from Mayor dated 10-24-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988",
+      "meeting_id": 17432,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-14T18:00:00",
+  "last_seen": "2025-11-14T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

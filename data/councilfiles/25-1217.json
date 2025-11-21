@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1217",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to a proposed Ordinance amending Chapter IX of the Los Angeles Municipal Code (LAMC) to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(14)",
+      "recommendation": "APPROVE the proposed Ordinance amending Chapter IX of the LAMC to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code and to make local administrative, climatic, geological, topographical or environmental changes, included in the Department of Building and Safety (DBS) report dated October 17, 2025, attached to the Council file. REQUEST the City Attorney to prepare and present the draft Ordinance, including the environmental clearance. Fiscal Impact Statement: None submitted by the DBS. Neither the Chief Legislative Analyst nor the City Administrative Officer has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Planning and Land Use Management Committee_10-28-25 Report from Department of Building and Safety dated 10-17-2025"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "d7de30b2-82b3-4eba-899c-67b508375b21",
+      "text": "Report from Planning and Land Use Management Committee_10-28-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7de30b2-82b3-4eba-899c-67b508375b21",
+      "meeting_id": 17407,
+      "has_summary": false
+    },
+    {
+      "historyId": "29be23b2-0fd3-4a6b-8798-8d7f63f74c0a",
+      "text": "Report from Department of Building and Safety dated 10-17-2025",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29be23b2-0fd3-4a6b-8798-8d7f63f74c0a",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1275",
+  "title": "COMMUNICATION FROM THE CITY ENGINEER relative to the final map of Tract No. 84622, located at 1361 South Kelton Avenue, southerly of Rochester Avenue.",
+  "district": "CD 5",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "item_number": "(39)",
+      "recommendation": "APPROVE the final map of Tract No. 84622, located at 1361 South Kelton Avenue, southerly of Rochester Avenue, and accompanying Subdivision Improvement Agreement and Contract with security documents. Owner: 1361 Kelton LLC Surveyor: Bryan Gentry Fiscal Impact Statement: The City Engineer reports that the subdivider has paid a fee of $9,064 for the processing of this final tract map pursuant to Section 19.02(A)(2) of the Los Angeles Municipal Code. No additional City funds are needed. Community Impact Statement: None submitted. Report from Bureau of Engineering dated 10-24-25 Attachment to Report dated 10-24-25 - Planning Actions"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "a58b5269-db9b-4dd4-bba2-62a5841ec6a3",
+      "text": "Report from Bureau of Engineering dated 10-24-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a58b5269-db9b-4dd4-bba2-62a5841ec6a3",
+      "meeting_id": 17407,
+      "has_summary": false
+    },
+    {
+      "historyId": "a74ac726-1f54-4ac2-905d-96bfad24b952",
+      "text": "Attachment to Report dated 10-24-25 - Planning Actions",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a74ac726-1f54-4ac2-905d-96bfad24b952",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

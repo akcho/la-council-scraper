@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1250",
+  "title": "HOUSING AND HOMELESSNESS COMMITTEE REPORT relative to extending the loan agreement term for the El Dorado Family Apartments located at 12129 El Dorado Avenue in Council District Seven (CD 7).",
+  "district": "CD 7",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(16)",
+      "recommendation": "AUTHORIZE the General Manager, Los Angeles Housing Department (LAHD), or designee, to: Negotiate and execute all documents required to extend the loan term for the El Dorado Family Apartments (HOME loan BA0517) to mature on November 13, 2061, and align with the affordability restrictions expiration date. Negotiate and execute all documents, including but not limited to subordinating all City loans (BA0517 and CRA872559-002), required for El Dorado Family Apartments per the terms of the loan agreement or as set forth herein. REQUEST the City Attorney to prepare all necessary documents, including but not limited to a renewal and modification of a loan agreement (and/or amendments and restatements of any necessary documents) to preserve and support an affordable housing project on the properties located at El Dorado Family Apartments; and any other technical adjustments that may be required or deemed appropriate. Fiscal Impact Statement: The LAHD reports that there is no impact to the General Fund Community Impact Statement: None submitted Report from Housing and Homelessness Committee - 11-5-25 Report from Los Angeles Housing Department dated 10-22-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "30588c15-47fe-4a28-a56c-6c2220cd17c2",
+      "text": "Report from Housing and Homelessness Committee - 11-5-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=30588c15-47fe-4a28-a56c-6c2220cd17c2",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "1ac6a942-751a-4b45-96ee-776b4aeeb489",
+      "text": "Report from Los Angeles Housing Department dated 10-22-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ac6a942-751a-4b45-96ee-776b4aeeb489",
+      "meeting_id": 17283,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T18:00:00",
+  "last_seen": "2025-11-12T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

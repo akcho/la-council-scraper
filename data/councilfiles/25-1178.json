@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1178",
+  "title": "TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to waiving the fee charged by the Los Angeles Tourism and Convention Board for restaurants to participate in DineLA.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(24)",
+      "recommendation": "DIRECT the City Tourism Department to work with the Los Angeles Tourism and Convention Board, to waive the participation fee for restaurants. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Trade, Travel and Tourism Committee 10-14-25 Motion (Rodriguez - Yaroslavsky) dated 10-07-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "e5ec6aef-5bc1-47d6-ad7b-bf927110df36",
+      "text": "Report from Trade, Travel and Tourism Committee 10-14-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5ec6aef-5bc1-47d6-ad7b-bf927110df36",
+      "meeting_id": 17407,
+      "has_summary": false
+    },
+    {
+      "historyId": "c77c5867-fab6-4ee6-a8bb-2e659a473365",
+      "text": "Motion (Rodriguez - Yaroslavsky) dated 10-07-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c77c5867-fab6-4ee6-a8bb-2e659a473365",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

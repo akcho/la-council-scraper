@@ -1,0 +1,30 @@
+{
+  "council_file": "25-1292",
+  "title": "MOTION (JURADO - McOSKER) relative to an instruction to the City Clerk to sign the petition for the City-owned parcels included in the Downtown Industrial Business Improvement District (BID).",
+  "district": "CD 14",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T18:00:00",
+      "section": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "item_number": "(24)",
+      "recommendation": "INSTRUCT the City Clerk, or designee, to sign the petition for the City-owned parcels included in the Downtown Industrial BID. AUTHORIZE the City Clerk to make any changes or adjustments to the above instruction in order to effectuate the intent of this Motion. Motion (Jurado - McOsker) dated 10-31-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "0b9e1164-be16-4a1f-afb3-e511f8211566",
+      "text": "Motion (Jurado - McOsker) dated 10-31-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0b9e1164-be16-4a1f-afb3-e511f8211566",
+      "meeting_id": 17283,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T18:00:00",
+  "last_seen": "2025-11-12T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

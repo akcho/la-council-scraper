@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1043",
+  "title": "PUBLIC SAFETY and BUDGET AND FINANCE COMMITTEES’ REPORT relative to the Los Angeles Fire Department (LAFD) Revolving Training Fund 40K Fiscal Year 2024-25 Annual Report.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17367,
+      "date": "2025-10-31T17:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(2)",
+      "recommendation": "NOTE and FILE the Board of Fire Commissioners report dated September 3, 2025, attached to Council file No. 25-1043, relative to the LAFD Revolving Training Fund 40K Fiscal Year 2024-25. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Safety Committee and Budget and Finance Committee 10-21-25 Report from Board of Fire Commissioners dated 9-03-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "12bbb78c-a994-4640-86d1-71462775586d",
+      "text": "Report from Public Safety Committee and Budget and Finance Committee 10-21-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12bbb78c-a994-4640-86d1-71462775586d",
+      "meeting_id": 17367,
+      "has_summary": false
+    },
+    {
+      "historyId": "d23f5575-0323-44bb-aab2-78898f16bb1b",
+      "text": "Report from Board of Fire Commissioners dated 9-03-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d23f5575-0323-44bb-aab2-78898f16bb1b",
+      "meeting_id": 17367,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-10-31T17:00:00",
+  "last_seen": "2025-10-31T17:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "council_file": "24-0887",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills.",
+  "district": "CD 11",
+  "appearances": [
+    {
+      "meeting_id": 17477,
+      "date": "2025-11-07T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(2)",
+      "recommendation": "NOTE and FILE the Bureau of Sanitation report, dated December 19, 2024, relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Report from Bureau of Sanitation dated 12-19-24 Report from Public Works Committee_8-14-24 Council Action dated 8-29-24 Speaker Card(s)_08-14-2024 Motion (Park - Yaroslavsky) dated 8-02-24"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+      "text": "Report from Public Works Committee_10-22-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "39f8e793-0737-4824-bd32-e10444eb596b",
+      "text": "Report from Bureau of Sanitation dated 12-19-24",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f8e793-0737-4824-bd32-e10444eb596b",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+      "text": "Report from Public Works Committee_8-14-24",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+      "text": "Council Action dated 8-29-24",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+      "text": "Speaker Card(s)_08-14-2024",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "68f20d33-76cd-4745-9390-96a957ff72a3",
+      "text": "Motion (Park - Yaroslavsky)  dated 8-02-24",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f20d33-76cd-4745-9390-96a957ff72a3",
+      "meeting_id": 17477,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-07T18:00:00",
+  "last_seen": "2025-11-07T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 6,
+    "attachments_with_summaries": 0
+  }
+}

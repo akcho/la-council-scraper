@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 21-1330 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 21-1330: ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the Fourth Amendment to the Second Memorandum of Understanding with the Discovery Cube Los Angeles">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summaries ul {
+            margin-top: 0.75rem;
+            padding-left: 1.5rem;
+        }
+
+        .no-summaries li {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                21-1330
+            </div>
+            <div class="file-number">21-1330</div>
+            <h1>ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the Fourth Amendment to the Second Memorandum of Understanding with the Discovery Cube Los Angeles (DCLA) to develop, promote, and assist with Burea...</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 7</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17367.html" class="timeline-card">
+                        <div class="timeline-date">October 31, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>15 additional document(s) without AI summaries</summary>
+                <ul>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0" class="doc-link" target="_blank">Report from Energy and Environment Committee_10-21-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6" class="doc-link" target="_blank">Report from City Administrative Officer dated 10-16-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89" class="doc-link" target="_blank">Council Action dated 1-21-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7" class="doc-link" target="_blank">Speaker Card(s)_01-14-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4" class="doc-link" target="_blank">Report from City Administrative Officer dated 11-21-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f" class="doc-link" target="_blank">Council Action dated 11-09-23</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80" class="doc-link" target="_blank">Communication(s) from Public_11-08-2023</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1" class="doc-link" target="_blank">Speaker Card(s)_11-03-2023</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6" class="doc-link" target="_blank">Report from Energy and Environment Committee_11-03-23</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0" class="doc-link" target="_blank">Report from City Administrative Officer dated 8-15-23.pdf</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf" class="doc-link" target="_blank">Council Action  dated 11-23-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98" class="doc-link" target="_blank">Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2" class="doc-link" target="_blank">Report from City Administrative Officer dated 9-30-22</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d" class="doc-link" target="_blank">Council Action  dated 11-24-21</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239" class="doc-link" target="_blank">Report from City Administrative Officer dated 11-02-21.pdf</a></li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+</html>

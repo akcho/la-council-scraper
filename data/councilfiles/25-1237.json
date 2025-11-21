@@ -1,0 +1,30 @@
+{
+  "council_file": "25-1237",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T18:00:00",
+      "section": "Closed Session",
+      "item_number": "(52)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "ef522c0f-d43f-4588-9ccc-a59830c24d0b",
+      "text": "Report from City Attorney dated 10-09-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ef522c0f-d43f-4588-9ccc-a59830c24d0b",
+      "meeting_id": 17283,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T18:00:00",
+  "last_seen": "2025-11-12T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "council_file": "25-1076",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\"",
+  "district": "CD 7",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(23)",
+      "recommendation": "DESIGNATE the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\" DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "348dfe72-ab15-4696-8e61-ee879ddcf6e0",
+      "text": "Report from Public Works Committee_10-22-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=348dfe72-ab15-4696-8e61-ee879ddcf6e0",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "566bfa67-134a-4c24-9012-53715f837293",
+      "text": "Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=566bfa67-134a-4c24-9012-53715f837293",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

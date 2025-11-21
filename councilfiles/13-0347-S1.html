@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 13-0347-S1 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 13-0347-S1: CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating an L-shaped alley northerly of Olympic Boule">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summaries ul {
+            margin-top: 0.75rem;
+            padding-left: 1.5rem;
+        }
+
+        .no-summaries li {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                13-0347-S1
+            </div>
+            <div class="file-number">13-0347-S1</div>
+            <h1>CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating an L-shaped alley northerly of Olympic Boulevard and Westerly of Mateo Street, VAC-E1401355.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 14</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>18 additional document(s) without AI summaries</summary>
+                <ul>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7edd4026-3f9a-4c3e-86cb-f29c1e5f25e9" class="doc-link" target="_blank">Report from Bureau of Engineering dated 10-21-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=84b8fe59-d076-497f-b95c-4deaf0ec7105" class="doc-link" target="_blank">Attachment to Report dated 10-21-25 - Resolution to Vacate</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1984acc2-45d3-45cf-9aa6-57e7884fe86b" class="doc-link" target="_blank">Council Action dated 6-27-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2220c3b-0fd8-49b5-af8a-5785ff916e7b" class="doc-link" target="_blank">Speaker Card(s)_06-25-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bc8cf06-f4fb-4f5e-b0f7-4e3355e47b9e" class="doc-link" target="_blank">Report from Public Works Committee_pw_5-22-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3997f28-2a95-4cb2-b2be-122fe62b6054" class="doc-link" target="_blank">Communication from Committee Clerk (Notice)_5-22-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9d61453-01f5-4c93-a0b6-c8501ac1890d" class="doc-link" target="_blank">Motion (de Leon - Lee) dated 4-16-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a94c4c9a-eb19-477e-8f32-f76b6c0e9818" class="doc-link" target="_blank">Council Action dated 4-30-24</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=864d4133-63bf-4719-a0b9-03552d18eece" class="doc-link" target="_blank">Report from Public Works Engineering 09_29_2020</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae772f0b-68d8-419d-97fe-55bb218f6ba2" class="doc-link" target="_blank">Attachment to Report dated 09292020 - Application for Right of Way 09_29_2020</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21bca7cd-3167-4221-9cf2-fc68dfefdce5" class="doc-link" target="_blank">Attachment to Report dated 09292020 - Map 09_29_2020</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=439ea6db-2e29-47e5-ae23-d5f5d93076d8" class="doc-link" target="_blank">Council Action 03_20_2019</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=54064c14-590c-43d5-ae8e-de3cbf2a3015" class="doc-link" target="_blank">Speaker Card(s) 03_19_2019</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2520c62-329d-4d51-9cc3-e908a8b95a4e" class="doc-link" target="_blank">Attachment to Report dated 02132019 - Application 02_13_2019</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6bc463a0-313e-456a-8535-3dd1f86c19bc" class="doc-link" target="_blank">Attachment to Report dated 02132019 - District Map 02_13_2019</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ccfa2cf-755c-43d1-8c70-ba2879aab577" class="doc-link" target="_blank">Report from Public Works Engineering 02_13_2019</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dcecdae6-43e1-45da-b5fb-882c9015796a" class="doc-link" target="_blank">Speaker Card(s)_04-26-2024</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f49a8ee-f69e-411d-af57-b7588b6226f0" class="doc-link" target="_blank">Speaker Card(s)_05-22-2024</a></li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+</html>

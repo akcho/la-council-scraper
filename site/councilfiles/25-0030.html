@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-0030 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-0030: RESOLUTION (HARRIS-DAWSON - BLUMENFIELD) relative to the Declaration of Local Emergency by the Mayor dated January 7, 2025, and Updated Declaration of">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summaries ul {
+            margin-top: 0.75rem;
+            padding-left: 1.5rem;
+        }
+
+        .no-summaries li {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-0030
+            </div>
+            <div class="file-number">25-0030</div>
+            <h1>RESOLUTION (HARRIS-DAWSON - BLUMENFIELD) relative to the Declaration of Local Emergency by the Mayor dated January 7, 2025, and Updated Declaration of Local Emergency by the Mayor dated January 13, 20...</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value"></span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>41 additional document(s) without AI summaries</summary>
+                <ul>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3b4bd7ff-b798-405b-8023-d846d76dcb0b" class="doc-link" target="_blank">Council Action dated 10-09-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba3aa856-11c6-4e1e-a2a3-4ea0b4c60fdf" class="doc-link" target="_blank">Speaker Card(s)_10-07-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b659f77d-78a1-4f65-8051-f32aa25963e6" class="doc-link" target="_blank">Attested Resolution_10-07-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e14c553-0e45-4b90-a971-c7fecc95bf2a" class="doc-link" target="_blank">Council Action dated 9-15-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b72bb68f-2533-48dd-9a47-eeea45960db0" class="doc-link" target="_blank">Attested Resolution_09-10-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b0c284d-1dc2-458e-b8f1-d117f8a0c261" class="doc-link" target="_blank">Speaker Card(s)_09-10-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6fb6daf-3342-4fd4-95c8-c446d1696ea6" class="doc-link" target="_blank">Council Action dated 8-25-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=561f7c66-7af3-4d84-bcdd-a2efc55de055" class="doc-link" target="_blank">Speaker Card(s)_08-20-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5b530c3-5de2-44f2-9a5b-39179b1e43d1" class="doc-link" target="_blank">Attested Resolution_08-20-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a07b225-0256-44a3-88bf-a5983bbef1a1" class="doc-link" target="_blank">Attested Resolution_08-01-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f3678de-2485-49a2-ab69-8999080c6c81" class="doc-link" target="_blank">Speaker Card(s)_07-30-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=43fca0f2-61ac-413b-8c09-e910c75632a6" class="doc-link" target="_blank">Council Action dated 8-01-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4decb80-2e0e-47d1-89af-83380b4685d3" class="doc-link" target="_blank">Communication(s) from Public_07-30-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=298271aa-bdfb-4d33-aa1d-84dba73c51f1" class="doc-link" target="_blank">Attested Resolution_07-01-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3f8eee1-c4b2-4a38-a72f-4d052d3bca54" class="doc-link" target="_blank">Council Action dated 7-03-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=07ede853-8597-4e4b-b9a4-21d6cc5c4265" class="doc-link" target="_blank">Council Action dated 6-23-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0fe9f10-ee5f-48bb-8f69-5591f246711a" class="doc-link" target="_blank">Attested Resolution_06-18-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=20b72ce9-2d57-477e-be35-818d91e452b8" class="doc-link" target="_blank">Speaker Card(s)_06-18-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=049deaf2-6231-4496-920d-815e1be6301e" class="doc-link" target="_blank">Council Action dated 6-02-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2c35cb8-5d63-407c-9198-6e39f72a679a" class="doc-link" target="_blank">Attested Resolution_05-28-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3288933a-7719-42cc-8d8f-23d765c32215" class="doc-link" target="_blank">Speaker Card(s)_05-28-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1677ded4-50d5-4ffb-9f55-42dddf7e64a8" class="doc-link" target="_blank">Communication(s) from Public_05-28-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=30b13445-9752-4978-b091-3da83d26e21c" class="doc-link" target="_blank">Council Action dated 5-09-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=03253ece-7093-4760-84ad-d6547e0aa54d" class="doc-link" target="_blank">Speaker Card(s)_05-07-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4da2f809-6f28-4e66-9b64-662c44da1743" class="doc-link" target="_blank">Attested Resolution_05-07-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dfcbbc5f-c969-4938-b13d-c839d4bcbe68" class="doc-link" target="_blank">Attested Resolution_04-11-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6de2fbca-f59e-47b5-9612-534095141c4f" class="doc-link" target="_blank">Council Action dated 4-11-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d88923f0-16b2-4c6d-9b2a-246da7b6d838" class="doc-link" target="_blank">Speaker Card(s)_04-11-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d9bd288-6332-4a65-beca-ad8b1db4635e" class="doc-link" target="_blank">Attested Resolution 3-27-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=044e8ec2-4472-4fcf-b210-815883db51ce" class="doc-link" target="_blank">Council Action dated 3-26-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b6a845a-ffb0-4a2f-98aa-018dcbd71427" class="doc-link" target="_blank">Speaker Card(s)_03-21-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ef4ea9c7-d66b-496c-9a48-5ca07fb50e40" class="doc-link" target="_blank">Council Action dated 2-27-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b0c5e3c8-c881-4fa0-ac7a-c3860d80fcdb" class="doc-link" target="_blank">Speaker Card(s)_02-25-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d722a470-c447-4e7d-a871-205197b8e3cd" class="doc-link" target="_blank">Attested Resolution_02-25-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36100a5d-33f7-4735-8803-9f363d0bd550" class="doc-link" target="_blank">Council Action dated 2-06-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5fde6810-2556-422d-b7db-5ceaf816d986" class="doc-link" target="_blank">Attested Resolution_02-04-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=38397cb4-d748-4506-8642-14710f7c0a4a" class="doc-link" target="_blank">Council Action dated 1-15-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d1503c1-38d8-4f02-ba56-895b60fc2822" class="doc-link" target="_blank">Resolution (Harris-Dawson - Blumenfield) dated 1-14-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=687f1820-59fe-4417-9fb8-e1811f0c9439" class="doc-link" target="_blank">Updated Report from Mayor dated 1-13-25</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c08f4341-bbe5-4811-87cb-a19d12e955e2" class="doc-link" target="_blank">Communication(s) from Public_01-10-2025</a></li>
+                    <li><a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d99ae884-f43f-4d7c-8acb-437e93408b47" class="doc-link" target="_blank">Report from Mayor dated 1-07-25</a></li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+</html>

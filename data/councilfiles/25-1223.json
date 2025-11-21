@@ -1,0 +1,51 @@
+{
+  "council_file": "25-1223",
+  "title": "The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Closed Session",
+      "item_number": "(40)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3cb44075-3b92-4218-89f6-de13adaaba46",
+      "text": "Community Impact Statement submitted by Central Hollywood Neighborhood Council_10-29-2025",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cb44075-3b92-4218-89f6-de13adaaba46",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "bd620ae5-780a-4a90-b976-997ce4f2b6a6",
+      "text": "Council Action dated 10-17-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd620ae5-780a-4a90-b976-997ce4f2b6a6",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "d379bbe8-6f9b-4d1e-8f16-0a028012b605",
+      "text": "Motion (Hernandez - Soto-Martinez, et al.) dated 10-17-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d379bbe8-6f9b-4d1e-8f16-0a028012b605",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "db6b3993-ba84-4045-9fcf-fee95520d282",
+      "text": "Report from City Attorney dated 10-22-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db6b3993-ba84-4045-9fcf-fee95520d282",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 4,
+    "attachments_with_summaries": 0
+  }
+}
