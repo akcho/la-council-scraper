@@ -1,641 +1,213 @@
-# Session Handoff - Council File Pivot Project
+# Session Handoff - 2025-11-21
 
-**Date:** 2025-11-19 (Updated - UI Polish & Clarity Improvements)
-**Status:** Clean UI with Clear Section Headers ✅
+## Current Status
 
----
+**Site is LIVE and fully functional at https://councilreader.com** ✅
 
-## 🟢 COMPLETED: UI Polish & Clarity Improvements (2025-11-19 Session - Latest)
+### What Just Happened (Last Hour)
 
-**Current state:**
-- ✅ All "AI" badges removed from UI for cleaner look
-- ✅ Section headers simplified with plain language
-- ✅ Meeting summaries properly formatted with markdown rendering
-- ✅ Empty district badges removed from council file index
-- ✅ All 7 meeting pages + 194 council file pages regenerated
+1. **Restored all summary data** - Recovered 471 PDF summaries and 7 video summaries from git history that were lost during initial deployment
+2. **Successfully deployed to GitHub Pages** - Site is live with all summaries displaying correctly
+3. **Verified deployment** - Checked that video summaries appear on meeting pages and PDF summaries appear on council file pages
 
-**What was completed this session:**
-
-1. ✅ **Improved section header clarity** ([generate_site.py:167-170](../generate_site.py))
-   - "Items for which Public Hearings Have Not Been Held..." → "Items Without Public Hearings (Require 10 Votes)"
-   - "Items Noticed for Public Hearing" → "Items With Scheduled Hearings"
-   - "Items for which Public Hearings Have Been Held" → "Items With Completed Hearings"
-   - All headers now use status-based language that's clear to laypeople
-
-2. ✅ **Removed AI badges from UI** ([generate_councilfile_pages.py:580,599,967-971](../generate_councilfile_pages.py))
-   - Changed "Document Summaries" → "Related Documents"
-   - Removed "AI Summary" badge from individual document sections
-   - Removed "AI Summaries" badge from council file index cards
-   - Removed empty district badges when district is "Unknown"
-
-3. ✅ **Fixed meeting summary formatting** ([generate_site.py:23-40,244-264](../generate_site.py))
-   - Added markdown header (`##`) to HTML conversion
-   - Section headers now render as `<strong>` tags properly
-   - Removed introductory sentences ("This was mostly...")
-   - Meeting summaries now start directly with section headers
-
-**Files modified this session:**
-- `generate_site.py` - Updated section title mappings, enhanced markdown_to_html(), removed intro sentences
-- `generate_councilfile_pages.py` - Removed AI badges, changed "Document Summaries" to "Related Documents", hide empty district badges
-- `site/meetings/*.html` - All 7 regenerated with clearer headers and proper formatting
-- `site/councilfiles/*.html` - All 194 regenerated with cleaner UI
-
-**Resume command:**
-```
-Read docs/SESSION_HANDOFF.md for current state. UI is now cleaner with all AI badges removed and section headers using plain language.
-```
-
----
-
-## 🟢 COMPLETED: UX Improvements - Collapsible Sections & Timeline Redesign (2025-11-19 Session - Previous)
-
-**Current state:**
-- ✅ Meeting page sections now collapsible (default: collapsed)
-- ✅ Council file timeline shows clean meeting cards (date + title only)
-- ✅ Timeline bug fixed: Shows actual meeting dates instead of parse timestamps
-- ✅ All 7 meeting pages + 194 council file pages regenerated
-
-**What was completed this session:**
-
-1. ✅ **Made meeting sections collapsible** ([templates/meeting.html:316-371](../templates/meeting.html))
-   - Changed from `<section>` to `<details>` elements
-   - Sections default to collapsed state
-   - Added rotating arrow indicator (▶ when collapsed, ▼ when expanded)
-   - Smooth CSS transitions on expand/collapse
-
-2. ✅ **Fixed timeline date bug** ([aggregate_council_files.py:81,107](../aggregate_council_files.py))
-   - Was showing parse timestamp (November 15) instead of meeting date (October 29)
-   - Now uses `meeting_datetime` from agendas instead of `parsed_at`
-   - Regenerated all 194 council file JSONs with correct dates
-
-3. ✅ **Redesigned council file timeline** ([generate_councilfile_pages.py:14-50,559-584](../generate_councilfile_pages.py))
-   - **Before:** Showed section name + item number + recommendation (cluttered)
-   - **After:** Clean cards with just meeting date + title
-   - Added `load_meeting_metadata()` to get meeting info
-   - Entire timeline card is clickable link to meeting
-   - Removed unnecessary section/item details
-   - Added hover effects (lift up, blue border)
-
-4. ✅ **Updated timeline CSS** ([generate_councilfile_pages.py:326-362](../generate_councilfile_pages.py))
-   - Cards are now `<a>` tags (fully clickable)
-   - Hover: shadow increase, border color change, slight lift
-   - Clean typography hierarchy
-
-**Files modified this session:**
-- `templates/meeting.html` - Added collapsible sections with <details>/<summary>
-- `aggregate_council_files.py` - Fixed to use meeting_datetime instead of parsed_at
-- `generate_councilfile_pages.py` - Added meeting metadata loading, redesigned timeline HTML
-- `data/councilfiles/*.json` - All 194 regenerated with correct meeting dates
-- `site/meetings/*.html` - All 7 regenerated with collapsible sections
-- `site/councilfiles/*.html` - All 194 regenerated with improved timeline
-
-**Resume command:**
-```
-Read docs/SESSION_HANDOFF.md for current state. Meeting sections are now collapsible and timeline shows clean meeting cards.
-```
-
----
-
-## 🟢 COMPLETED: Markdown Formatting Fixes (2025-11-19 Session - Previous)
-
-**Current state:**
-- ✅ All markdown formatting (`**bold**`, `*italic*`) now properly renders as HTML across the entire site
-- ✅ Video summaries display bold formatting (e.g., "**KEY DECISIONS**" now shows as bold)
-- ✅ Card titles cleaned up (removed raw markdown headers like "# Summary:")
-- ✅ Card title font weight reduced to 400 (normal) for better readability
-- ✅ Council file page summaries render markdown properly
-- ✅ All 7 meeting pages + 194 council file pages regenerated
-
-**What was completed this session:**
-1. ✅ **Added markdown-to-HTML conversion** ([generate_site.py:23-37](../generate_site.py), [generate_councilfile_pages.py:14-28](../generate_councilfile_pages.py))
-   - Converts `**bold**` to `<strong>bold</strong>`
-   - Converts `*italic*` to `<em>italic</em>`
-
-2. ✅ **Fixed video summary markdown** ([generate_site.py:235-237](../generate_site.py), [templates/meeting.html:310](../templates/meeting.html))
-   - Video summaries now render markdown formatting
-   - "**KEY DECISIONS**" displays as bold
-
-3. ✅ **Fixed card title markdown headers** ([generate_site.py:126-137](../generate_site.py))
-   - Removed raw `# Summary:` and `## What is Being Proposed` from card titles
-   - Fallback now skips all markdown headers (lines starting with `#`)
-
-4. ✅ **Improved card title styling** ([templates/meeting.html:171-185](../templates/meeting.html))
-   - Reduced font-weight from 500 to 400 (normal)
-   - Explicitly set `<strong>` to font-weight: 700 for better contrast
-   - Card titles now match body text weight for consistency
-
-5. ✅ **Fixed council file page summaries** ([generate_councilfile_pages.py:573,583](../generate_councilfile_pages.py))
-   - Full document summaries now render markdown
-   - H1 titles changed to font-weight: 500 (from 600)
-   - Brief summaries convert markdown to HTML
-
-**Files modified this session:**
-- `generate_site.py` - Added markdown conversion, fixed video summaries, cleaned card titles
-- `generate_councilfile_pages.py` - Added markdown conversion, reduced h1 weight
-- `templates/meeting.html` - Reduced card title font-weight, added strong/em styles, marked summaries as safe HTML
-- `site/meetings/*.html` - All 7 regenerated
-- `site/councilfiles/*.html` - All 194 regenerated
-
-**Resume command:**
-```
-Read docs/SESSION_HANDOFF.md for current state. All markdown formatting is now working correctly across the site.
-```
-
----
-
-## 🟢 COMPLETED: Meeting Page UX Overhaul (2025-11-19 Session - Previous)
-
-**Current state:**
-- ✅ Stage 1 & 2: 471 PDF summaries generated
-- ✅ Meeting pages: Major UX improvements with AI summaries, clickable cards, clean design
-- ✅ Meeting dates extracted from agenda HTML (no longer showing "Date TBD")
-- ✅ Video summaries: 7/7 meetings have YouTube video summaries
-- ✅ All HTML pages regenerated with improvements
-- 🟡 Optional: Run Stage 3 PDF processing (~420 docs, ~$2.40)
-- 🟢 Future: Architecture refactor when scale demands (see ARCHITECTURE_REFACTOR.md)
-
-**What was completed this session:**
-1. ✅ **Date extraction from agendas** - Meetings now show correct dates (e.g., "October 29, 2025 at 05:00 PM")
-2. ✅ **Removed redundant meeting IDs from titles** - Cleaner "City Council Meeting" heading
-3. ✅ **Made entire item cards clickable** - Click anywhere to go to council file page
-4. ✅ **AI summaries replace bureaucratic titles** - Clear, plain-English descriptions
-5. ✅ **Collapsible "Official Recommendation"** - Dense bureaucratic text hidden by default
-
-**Resume command:**
-```
-Read docs/SESSION_HANDOFF.md for current state. Continue with meeting page improvements or other enhancements.
-```
-
-**Quick Summary of This Session:**
-Meeting pages are now WAY more user-friendly:
-- ✅ Correct dates showing (extracted from HTML)
-- ✅ Cleaner titles (no redundant IDs)
-- ✅ Entire cards clickable (not just tiny tags)
-- ✅ AI summaries instead of bureaucratic jargon
-- ✅ Dense text collapsed by default
-
-**Example:** See [site/meetings/17455.html](../site/meetings/17455.html)
-
----
-
-## 📋 Architecture Refactor (Deferred)
-
-**Status:** Documented but NOT urgent for MVP
-
-**Rationale for deferring:**
-- Current scale (7 meetings) works fine with static HTML
-- MVP priority: Ship and get user feedback
-- Refactor when we hit ~30-50 meetings OR performance issues
-- Plan documented in [ARCHITECTURE_REFACTOR.md](ARCHITECTURE_REFACTOR.md) for future reference
-
-**Current focus:** UX improvements within existing architecture
-
----
-
-## What We Just Completed (2025-11-19 Meeting Page UX Overhaul)
-
-### ✅ Meeting Page UX Overhaul (COMPLETE)
-
-**Session focus:** Major improvements to meeting page usability and information hierarchy
-
-**Changes made:**
-
-1. **Date Extraction from Agendas** (parse_agenda.py:235-270, generate_site.py:145-167)
-   - Added `_extract_meeting_datetime()` method to parse dates from HTML `<title>` tags
-   - Format: "City Council Meeting - 10/29/2025 5:00:00 PM"
-   - Handles multiple title tags (outer page + embedded iframe)
-   - Falls back to parsed date when `recent_meetings.json` metadata unavailable
-   - Re-parsed all 7 meetings to extract dates
-   - **Result:** All meetings now show correct dates (e.g., "October 29, 2025 at 05:00 PM")
-
-2. **Removed Redundant Meeting IDs** (generate_site.py:131, 142, 264)
-   - Changed meeting title from "City Council Meeting 17455" to just "City Council Meeting"
-   - Meeting ID still shown below date as "Meeting ID: 17455" for reference
-   - Applies to both meeting pages and index page
-   - **Result:** Cleaner, less cluttered page headers
-
-3. **Clickable Item Cards** (templates/meeting.html:289-334)
-   - Wrapped entire card content in link when council file exists
-   - Added CSS classes: `.item-card-clickable`, `.item-card-link`
-   - Changed council file tag from `<a>` to `<span>` (card is the link now)
-   - Attachments section remains outside clickable area
-   - Hover effects: blue border, increased shadow, cursor pointer
-   - **Result:** Click anywhere on card to navigate to council file page
-
-4. **AI Summaries Replace Bureaucratic Titles** (generate_site.py:70-126, templates/meeting.html:309-313)
-   - Added `load_council_file()` to load council file data
-   - Added `get_brief_summary()` to extract "What is Being Proposed?" section
-   - Enriches agenda items with `ai_summary` field during page generation
-   - Template prefers `ai_summary` over bureaucratic `title`
-   - **Result:** Clear, plain-English descriptions instead of jargon
-
-5. **Collapsible "Official Recommendation"** (templates/meeting.html:337-342)
-   - Moved dense recommendation text into collapsible `<details>` element
-   - Labeled as "Official Recommendation" (not "Full Details" - that's the council file page)
-   - Styled with light gray background, left border, comfortable padding
-   - Hidden by default to reduce clutter
-   - **Result:** Cleaner cards by default, details available on demand
-
-**Files modified this session:**
-- `parse_agenda.py` - Added meeting datetime extraction
-- `generate_site.py` - Added council file loading, AI summary extraction, date fallback logic
-- `templates/meeting.html` - Made cards clickable, added AI summaries, made recommendation collapsible
-- `data/agendas/agenda_*.json` - Re-parsed all 7 meetings with dates (meeting_datetime field added)
-- `site/meetings/*.html` - All 7 meeting pages regenerated
-- `site/index.html` - Regenerated with correct dates
-
-**Files NOT modified:**
-- Council file pages (councilfiles/*.html) - No changes this session
-- PDF summaries - No new processing
-
----
-
-## Previous Completions (Earlier 2025-11-19 Session)
-
-### ✅ Video Integration & Section Headers (COMPLETE)
-
-1. **Improved Section Headers** (generate_site.py:128-148)
-   - Added `improve_section_title()` function to convert bureaucratic titles to clear language
-   - Examples:
-     - "Items for which Public Hearings Have Been Held" → "Public Hearing Items"
-     - "Closed Session" → "Closed Session Items"
-     - "Public Testimony of Non-agenda Items..." → "Public Comment"
-   - Made available as Jinja2 filter in template
-
-2. **YouTube Video Discovery** (parse_agenda.py:227-245)
-   - Added `_extract_video_url()` method to extract YouTube video IDs from JavaScript
-   - Searches for: `var videoUrl = "DOToW8i10KE"` pattern
-   - Re-parsed all 7 meetings - all have videos!
-   - Updated generate_site.py to use video URLs from agenda data
-
-3. **Video Summarization System** (NEW: generate_video_summaries.py)
-   - Created automated video summary generation script
-   - Downloads YouTube transcripts using yt-dlp
-   - Generates AI summaries using Claude (via existing summarize_meeting.py)
-   - Handles rate limits with 60-second delays between requests
-   - Resume capability - skips already-processed videos
-   - **Result:** 7/7 meetings successfully summarized (~$0.70 cost)
-
-4. **Video Summary Display** (templates/meeting.html:71-91, 276-281)
-   - Added CSS styling for video summary boxes
-   - Summary appears prominently at top of each meeting page
-   - Shows key decisions, notable discussions, and bottom line
-
-**Files created:**
-- `generate_video_summaries.py` - Video transcript download and summarization
-- `data/video_summaries/meeting_*.json` - 7 summary files
-
-**Files modified:**
-- `parse_agenda.py` - Added video URL extraction
-- `generate_site.py` - Added video summary loading and title improvement
-- `templates/meeting.html` - Added video summary display section
-
-**Data generated:**
-- 7 video summaries in `data/video_summaries/`
-- All agenda JSONs updated with `video_url` field
-- All meeting HTML pages regenerated with summaries
-
----
-
-## Previous Completions
-
-### ✅ Stage 2 PDF Processing (COMPLETE - Earlier Session)
-
-Processed 150 random "other" documents to assess value:
-
-**Results:**
-- ✅ Processed: **145 documents successfully (96.7%)**
-- ❌ Failed: 5 documents (extremely large PDFs >200k tokens)
-- 💰 Cost: $1.62 (higher than estimated $0.87, but reasonable)
-- 📊 Total summaries now: **471** (326 from Stage 1 + 145 from Stage 2)
-
-**Content discovered:**
-- Public communications from residents, advocacy groups
-- Motions and resolutions from councilmembers
-- Council actions and procedural documents
-- Amendments, transmittals, and notices
-- Board resolutions and agreements
-
-**Decision:** "Other" category contains valuable content - Stage 3 recommended if budget allows
-
-### ✅ Data Aggregation & HTML Regeneration (COMPLETE)
-
-Regenerated all pages with Stage 2 summaries:
-
-**Updated:**
-- 170/194 council files now have AI summaries (87.6%)
-- 471 documents with summaries (46.6% of all attachments)
-- All HTML pages regenerated with new summaries
-
-**UX Improvements:**
-- Meeting pages now link council file numbers (clickable tags)
-- Empty meeting sections hidden (Roll Call, Approval of Minutes, etc.)
-- Council file pages show rich document summaries
-- Better coverage of public input and councilmember actions
-
-### ✅ Architecture Planning (COMPLETE)
-
-Created comprehensive refactor plan:
-
-**Documented in:** [docs/ARCHITECTURE_REFACTOR.md](ARCHITECTURE_REFACTOR.md)
-
-**Key decisions:**
-- Move to JSON API + client-side rendering (not static HTML)
-- Use vanilla JavaScript (no framework overhead)
-- Single external CSS file (cached across pages)
-- Lazy-load summaries on demand
-- Support filtering, sorting, pagination
-
-**Rationale:**
-- Current approach creates 95KB HTML files that will balloon
-- Duplicate CSS in every file wastes bandwidth
-- Can't scale past ~50 meetings without performance issues
-- Need client-side interactivity for better UX
-
----
-
-## Previous Completion: Stage 1 PDF Processing
-
-### ✅ Stage 1 PDF Processing (COMPLETE)
-
-Successfully processed high-value documents using the staged approach with automatic page extraction:
-
-**Created scripts:**
-1. **[process_pdfs_staged.py](../process_pdfs_staged.py)** - Smart filtering with staging, rate limit handling, resume capability, automatic page extraction
-
-**Stage 1 Final Results:**
-- ✅ Processed: **326 documents successfully (93.7% coverage)**
-- ❌ Failed: 22 documents (edge cases - accepted)
-- 💰 Cost: ~$2.15 (estimated)
-- 📊 Categories processed:
-  - Staff reports: 328 total
-  - Findings: 12 total
-  - Conditions: 6 total
-  - Appeals: 2 total
-
-**Final failure breakdown:**
-- 16 PDFs with >200k tokens (extremely dense content, even after extracting first 100 pages)
-- 5 PDFs 26-140 MB (request too large - massive environmental reports)
-- 1 PDF corrupt/unprocessable
-
-**Decision:** Accept 93.7% coverage as excellent. The 22 failures are ultra-technical reports (environmental impact studies, comprehensive infrastructure plans) that are edge cases and still available for direct download.
-
-**Key features implemented:**
-- **Smart categorization:** Auto-identifies high-value vs low-value docs
-- **Rate limit handling:** Exponential backoff (60s, 120s, 240s)
-- **Resume capability:** Skips already-processed documents
-- **Cost tracking:** Real-time token usage and cost per PDF
-- **Detailed logging:** All output saved to `pdf_processing.log`
-- **🆕 Automatic page extraction:** Handles large PDFs by extracting first 100 pages
-
-### ✅ HTML Page Generation (COMPLETE - USER-FRIENDLY DISPLAY)
-
-Successfully built the full HTML generation system for council files with human-readable summaries:
-
-**Created scripts:**
-1. **[generate_councilfile_pages.py](../generate_councilfile_pages.py)** - Generates all council file HTML pages and index
-
-**Generated pages:**
-- `site/councilfiles/` - 194 individual council file pages
-- `site/councilfiles/index.html` - Searchable/filterable index of all files
-- Updated `site/index.html` - Added prominent link to council files section
-
-**Features:**
-- **Human-readable titles:** Files with AI summaries show brief summaries as titles, not bureaucratic jargon
-- **Timeline view:** Shows appearances across meetings
-- **Smart document display:** AI summaries shown prominently, documents without summaries hidden in collapsed section
-- **Clickable document links:** All documents (with or without summaries) link directly to PDFs
-- **Search & filter:** By file number, title, or council district
-- **Mobile-responsive design**
-- **Breadcrumb navigation**
-
-**Example pages:**
-- [site/councilfiles/25-1294.html](../site/councilfiles/25-1294.html) - "Manitou Vistas Affordable Housing Preservation" (with AI summaries)
-- [site/councilfiles/25-1037.html](../site/councilfiles/25-1037.html) - CEQA exemption (now has AI summaries!)
-- [site/councilfiles/index.html](../site/councilfiles/index.html) - Browse all 194 files
-
----
-
-## Current State
-
-### Data Inventory
+### Working Directory State
 
 ```
-data/
-├── agendas/                    # 7 meeting agenda JSONs
-├── pdf_summaries/              # ~321 AI summaries
-├── councilfiles/               # 194 council file JSONs
-│   ├── 25-1294.json           # Example: Manitou Vistas (with summaries)
-│   ├── 25-1037.json           # Example: CEQA appeal (with summaries)
-│   └── index.json             # Master index
-
-site/
-├── index.html                  # Main page (links to council files)
-├── meetings/                   # 7 meeting pages
-└── councilfiles/               # 194 council file pages + index
-    ├── index.html             # Searchable index
-    ├── 25-1294.html          # Individual file pages
-    └── ...
+master branch: Clean (all changes committed and pushed)
+gh-pages branch: Deployed successfully at f56bb5e
 ```
 
-### Stats
+All changes are committed. No outstanding work in progress.
 
-- **Council files:** 194 total
-- **Meetings:** 7 agendas parsed
-- **Attachments:** 1,010 total
-  - High-value (Stage 1): 348 documents → **326 processed (93.7%)** ✅
-  - Low-value (skipped): 89 documents
-  - Other (Stage 2): 570 documents → **145 sampled (96.7%)** ✅
-  - Other (Stage 3): ~420 remaining 🔴 **OPTIONAL**
-- **PDF summaries:** 471 generated ✅
-- **Video summaries:** 7/7 meetings (100%) ✅
-- **HTML pages:** 195 generated (194 council files + 1 index) ✅
-- **Meeting pages:** 7 generated (all with video summaries) ✅
-- **Cost so far:** ~$4.47 ($2.15 Stage 1 + $1.62 Stage 2 + $0.70 videos)
-- **Coverage:** 87.6% of council files have PDF summaries, 100% of meetings have video summaries
+## Project Overview
 
----
+**Council Reader** - Makes LA City Council meetings readable with AI-powered summaries
 
-## Next Steps
+- **Live site**: https://councilreader.com
+- **Repo**: https://github.com/akcho/la-council-scraper
+- **Data source**: LA City PrimeGov API
 
-### Priority 1: 🟡 Optional Enhancements
+### Key Components
 
-**Possible improvements:**
+1. **Data pipeline**: Fetch → Parse → Aggregate → Summarize → Generate → Deploy
+2. **Static site generator**: Python scripts → Jinja2 templates → HTML
+3. **GitHub Pages**: Deployed to gh-pages branch with custom domain
+4. **Analytics**: Plausible (plausible.io/councilreader.com)
 
-1. **Stage 3 PDF Processing** (~420 remaining documents)
-   - Cost: ~$2.40
-   - Would increase coverage from 87.6% to ~95%+
-   - Command: `python process_pdfs_staged.py --stage 3 --yes`
+## Data Directories (IMPORTANT)
 
-2. **Council File Page UX**
-   - Make PDF summaries more scannable
-   - Add "Show more" functionality for long summaries
-   - Better visual hierarchy
-   - Back links from council files to meetings
+These directories are **gitignored** but essential for generation:
 
-3. **Performance Optimization**
-   - Extract CSS to external file (reduce page sizes)
-   - Lazy-load PDF summaries
-   - Consider JSON API approach (see ARCHITECTURE_REFACTOR.md)
+- `data/pdf_summaries/` - 471 AI summaries of PDF attachments (COMMITTED to master)
+- `data/video_summaries/` - 7 AI summaries of meeting videos (COMMITTED to master)
+- `data/councilfiles/` - 194 aggregated council file JSONs (REGENERATED each time, gitignored)
+- `data/agendas/` - Raw meeting agenda JSONs from API
 
----
+**Critical**: Before deploying, always ensure `data/councilfiles/` exists by running:
+```bash
+python aggregate_council_files.py
+```
 
-## Important Context
+## Key Scripts
 
-### Strategic Planning
-See [docs/COUNCIL_FILE_PIVOT.md](COUNCIL_FILE_PIVOT.md) for full strategy.
+### Generation
+- `generate_site.py` - Generates meeting HTML pages from agenda data + video summaries
+- `generate_councilfile_pages.py` - Generates council file pages with PDF summaries
+- `aggregate_council_files.py` - Creates councilfiles data from agendas + PDF summaries
 
-**Core principle:** Shift from meeting-centric to council-file-centric pages
+### Summarization
+- `summarize_meeting.py` - Creates video summaries from meeting videos via Claude
+- `summarize_pdf.py` - Creates PDF summaries from attachments via Claude (uses claude-3-5-sonnet-20241022)
 
-**Why:**
-- Meetings are arbitrary snapshots (whatever was ready that week)
-- Council files tell coherent stories over time
-- Residents care about specific issues, not random meeting collections
-- Provides value beyond official site's single-meeting view
+### Data Fetching
+- `fetch_agendas.py` - Fetches recent meeting agendas from PrimeGov API
+- `parse_agenda.py` - Parses agenda HTML into structured JSON
 
-### PDF Processing Findings
+### Deployment
+- `deploy.sh` - Builds site and deploys to gh-pages branch
 
-**Key insights:**
-- PDF summaries are significantly more valuable than titles
-- Cost is very affordable (~$0.006 per PDF)
-- Claude Haiku 4.5 produces high-quality, resident-friendly summaries
-- Smart filtering is critical - skipped 89 low-value docs (speaker cards, procedural)
-- Rate limiting is an issue - need exponential backoff
-- Resume capability is essential - process can be interrupted and resumed
+## Current Data Stats
 
-**Limitations discovered:**
-- Claude API has 100-page PDF limit (14 docs affected)
-- Large PDFs (26-140 MB) exceed 32MB base64 limit (11 docs affected)
-- Very dense PDFs can exceed 200k token limit (1 doc affected)
-- Some PDFs are corrupted/unprocessable (1-2 docs)
+- **Meetings**: 7 meetings with full agendas
+- **Council files**: 194 unique council files tracked
+- **PDF summaries**: 471 summaries (170/194 council files have at least one)
+- **Video summaries**: 7 meeting summaries
+- **Attachments**: 1,010 total attachments across all meetings
 
-**🆕 Large PDF Handling Strategy:**
+## Known Issues & Quirks
 
-We implemented automatic page extraction to handle large PDFs:
+### 1. Deploy Script Behavior
+The `deploy.sh` script has a quirk where it stashes changes during branch switching. This can sometimes cause gitignored data directories to disappear. Always run `python aggregate_council_files.py` before deploying to ensure council files data is fresh.
 
-1. **Automatic retry with page extraction** - When API returns page/size/token errors, automatically extract first 100 pages and retry
-2. **Success rate:** Handles ~15 of 27 failed docs (page_limit + token_limit errors)
-3. **Still fail:** 11 truly massive PDFs (26-140 MB) still fail even after page extraction
-4. **Decision:** Skip the 11 massive files - they're mostly environmental reports with extensive appendices
-5. **Final coverage:** 336/348 (96.6%) of Stage 1 docs successfully processed
+### 2. Data Directory Management
+The data directories have different persistence patterns:
+- `pdf_summaries/` and `video_summaries/` are committed to master (recovered from git history)
+- `councilfiles/` is regenerated each time (gitignored, fast to rebuild)
+- `agendas/` is gitignored but fetched from API
 
-**Implementation:**
-- Installed `pypdf` library for PDF manipulation
-- Added `extract_first_n_pages()` function to extract pages
-- Modified `summarize_pdf_with_claude()` to auto-retry with extraction on size errors
-- Logs show: "📑 Extracted X of Y pages" when extraction occurs
+### 3. Video Summary Rate Limiting
+The `summarize_meeting.py` script calls the Claude API and may hit rate limits with large batches. Videos are processed with 2-hour chunks for better summaries.
 
----
+### 4. PDF Summary Model
+PDF summaries use `claude-3-5-sonnet-20241022` model (hardcoded in summarize_pdf.py line 11). This is intentional - don't change without testing.
 
-## Key Files & Scripts
+## Pre-Launch Checklist (Remaining Tasks)
+
+Based on earlier discussions, here are tasks that were mentioned but not completed:
+
+- [ ] Add more event tracking to Plausible (section expansion, council file clicks, etc.)
+- [ ] Add About/Disclaimer section to site
+- [ ] Consider adding backend logging for analytics
+- [ ] Test on mobile devices for responsiveness
+- [ ] Set up Plausible account and verify analytics dashboard access
+
+## File Structure
 
 ```
 la-council-scraper/
-├── docs/
-│   ├── COUNCIL_FILE_PIVOT.md          # Strategic planning
-│   ├── DATA_EXPLORATION_RESULTS.md    # Initial exploration
-│   ├── PROTOTYPE_RESULTS.md           # PDF processing validation
-│   ├── ARCHITECTURE_REFACTOR.md       # Future scalability plan
-│   └── SESSION_HANDOFF.md             # This file
-├── data/
-│   ├── agendas/                       # 7 meeting JSONs (with video_url)
-│   ├── pdf_summaries/                 # 471 AI summaries
-│   ├── video_summaries/               # 7 video summaries (NEW!)
-│   └── councilfiles/                  # 194 aggregated council files
-├── site/
-│   ├── index.html                     # Main page
-│   ├── meetings/                      # 7 meeting pages (with video summaries)
-│   └── councilfiles/                  # 194 council file pages
-├── templates/
-│   ├── meeting.html                   # Meeting page template (updated with video)
-│   └── ...                            # Other templates
-├── generate_councilfile_pages.py      # Council file HTML generator
-├── generate_site.py                   # Meeting HTML generator (updated)
-├── generate_video_summaries.py        # Video summarization (NEW!)
-├── process_pdfs_staged.py             # Staged PDF processing
-├── parse_agenda.py                    # Agenda parser (updated with video)
-├── aggregate_council_files.py         # Data aggregation
-├── get_transcripts.py                 # YouTube transcript downloader
-├── summarize_meeting.py               # Claude summarization
-└── run_pipeline.py                    # Main pipeline
+├── data/                      # Data files (most gitignored)
+│   ├── agendas/              # Raw meeting JSONs
+│   ├── pdf_summaries/        # AI summaries (COMMITTED)
+│   ├── video_summaries/      # AI summaries (COMMITTED)
+│   ├── councilfiles/         # Aggregated data (gitignored)
+│   └── council_file_analysis.json
+├── site/                      # Generated HTML (gitignored except CNAME)
+│   ├── meetings/
+│   ├── councilfiles/
+│   ├── index.html
+│   └── CNAME                 # Custom domain file
+├── templates/                 # Jinja2 templates
+│   ├── meeting.html
+│   ├── councilfile.html
+│   └── index.html
+├── docs/                      # Documentation
+│   └── logs/                 # Daily work logs
+├── generate_site.py           # Main site generator
+├── generate_councilfile_pages.py
+├── aggregate_council_files.py
+├── summarize_meeting.py
+├── summarize_pdf.py
+├── fetch_agendas.py
+├── parse_agenda.py
+├── deploy.sh                  # Deployment script
+├── site_config.json          # Site configuration
+└── requirements.txt
+
+Deployed to:
+├── gh-pages branch           # Contains flattened site/ contents
+    ├── meetings/
+    ├── councilfiles/
+    ├── data/                 # Data files copied for reference
+    ├── index.html
+    └── CNAME
 ```
 
----
+## Quick Commands
 
-## Environment Setup
-
-**Required:**
-- Python 3.13 with virtual environment (`venv/`)
-- Dependencies installed (see `requirements.txt`)
-- `.env` file with `ANTHROPIC_API_KEY` for PDF processing
-- Sufficient Anthropic API credits (~$5 for full processing)
-
-**To check progress:**
 ```bash
-# Count summaries generated
-ls data/pdf_summaries/*.json | wc -l
+# Fetch latest meetings
+python fetch_agendas.py
 
-# Watch processing log
-tail -f pdf_processing.log
+# Generate video summaries (costs API credits)
+python summarize_meeting.py
+
+# Generate PDF summaries (costs API credits)
+python summarize_pdf.py
+
+# Aggregate council files (ALWAYS run before deploying)
+python aggregate_council_files.py
+
+# Generate site locally
+python generate_site.py
+python generate_councilfile_pages.py
+
+# Deploy to production
+./deploy.sh
+
+# Check what's deployed
+git show gh-pages:index.html | head -50
+curl -s https://councilreader.com | head -50
 ```
 
-**To regenerate pages:**
-```bash
-source venv/bin/activate
-python aggregate_council_files.py       # Update council files with summaries
-python generate_councilfile_pages.py    # Regenerate all HTML
-```
+## Important URLs
 
-**To process PDFs:**
-```bash
-source venv/bin/activate
-# Stage 1: High-value docs (staff reports, findings, appeals)
-python process_pdfs_staged.py --stage 1 --yes
+- **Live site**: https://councilreader.com
+- **GitHub repo**: https://github.com/akcho/la-council-scraper
+- **GitHub Pages settings**: https://github.com/akcho/la-council-scraper/settings/pages
+- **PrimeGov API**: https://lacity.primegov.com/api
+- **Plausible analytics**: https://plausible.io/councilreader.com
 
-# Stage 2: Sample 150 "other" docs
-python process_pdfs_staged.py --stage 2 --yes
+## Configuration Files
 
-# Stage 3: All remaining docs (if Stage 2 looks good)
-python process_pdfs_staged.py --stage 3 --yes
-```
+- `site_config.json` - Site name, URL, analytics config
+- `.env` - API keys (gitignored, has ANTHROPIC_API_KEY)
+- `.gitignore` - Excludes most data files, generated HTML, and secrets
 
----
+## Next Steps for Future Sessions
 
-## Resume Command for Next Session
+1. **Monitor analytics** - Check Plausible dashboard to see if tracking is working
+2. **Add more tracking events** - Implement click tracking for attachments, council files, etc.
+3. **Create About page** - Add disclaimer about AI-generated content
+4. **Fetch more meetings** - Run fetch_agendas.py to get newer meetings
+5. **Generate more summaries** - Run summarize scripts for new content (costs API credits)
 
-**To continue this work:**
+## Recent Git History
 
 ```
-Continue the PDF processing work - retry Stage 1 failures, then run Stage 2. Read docs/SESSION_HANDOFF.md for current state.
+8469feb (HEAD -> master, origin/master) Update deploy script and regenerate site files
+5667541 Restore PDF and video summaries from git history
+43cf136 Remove unnecessary intro sentences from meeting summaries
+d0ada15 Standardize heading capitalization to sentence case
+1ffa89c Polish UI and improve section header clarity
 ```
 
-**Specific tasks:**
+## Notes for Next Claude
 
-1. Read [docs/SESSION_HANDOFF.md](SESSION_HANDOFF.md) for current state
-2. Check progress: `ls data/pdf_summaries/*.json | wc -l`
-3. Retry Stage 1 failures: `python process_pdfs_staged.py --stage 1 --yes`
-4. Run Stage 2 sampling: `python process_pdfs_staged.py --stage 2 --yes`
-5. Regenerate aggregations: `python aggregate_council_files.py`
-6. Update HTML pages: `python generate_councilfile_pages.py`
-7. Review updated council file pages in browser
-8. Decide if Stage 3 is worth running
+- Site is working perfectly - all summaries are live
+- DNS is configured correctly (councilreader.com points to GitHub Pages)
+- Data recovery was successful - all summaries are safely committed
+- Deploy script works but requires data/councilfiles/ to exist first
+- No urgent issues - focus on enhancements and new features
+- Check docs/logs/2025-11-21.md for detailed session log
 
----
-
-## Questions Answered ✅
-
-From the original planning doc:
-
-- ✅ What does a typical PDF attachment contain? → Committee reports, motions with detailed context
-- ✅ Are PDF summaries more useful than titles? → Yes, significantly! Reveals critical details
-- ✅ What's the right granularity? → 2-4 paragraphs covering what/why/details/impact
-- ✅ Should we process ALL attachments? → No, use smart filtering to skip procedural files
-- ✅ How should council file pages be structured? → Timeline view with summaries embedded
-- ✅ How to browse all council files? → Searchable/filterable index page
-- ✅ What about rate limiting? → Implement exponential backoff + 2s delays
-- ✅ How to handle interruptions? → Resume capability by checking for existing summaries
-- ✅ What about very large PDFs? → API limit is 100 pages - need to skip or handle specially
-
----
-
-**Status:** Stage 1 mostly complete (321/348) ✅ - Retry failures, then Stage 2 🚀
+**Everything is in a clean, working state. Ready for next session!** ✅
