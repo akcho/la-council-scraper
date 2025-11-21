@@ -1,0 +1,114 @@
+{
+  "council_file": "20-0504",
+  "title": "COMMUNICATION FROM THE BUREAUS OF ENGINEERING, STREET SERVICES, AND CONTRACT ADMINISTRATION relative to the Los Angeles County Metropolitan Transportation Authority Active Transportation Cycle 1 awarded projects.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(18)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "a37a7951-543a-44a2-adab-97e09f061ab0",
+      "text": "Report from Bureaus of Engineering, Street Services, and Contract Administration 10-22-25",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a37a7951-543a-44a2-adab-97e09f061ab0",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "84c0b2de-594f-4031-be05-5cacded37948",
+      "text": "Community Impact Statement submitted by North Westwood Neighborhood Council_09-05-2024",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=84c0b2de-594f-4031-be05-5cacded37948",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "4ed552e5-ea75-4a8c-8aa5-12f2486eb6ed",
+      "text": "Council Action - Mayor Concurrence  dated 5-18-21",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ed552e5-ea75-4a8c-8aa5-12f2486eb6ed",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "4abecfad-6070-43ba-942f-2cf2eab95756",
+      "text": "Council Action 05_27_2020",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4abecfad-6070-43ba-942f-2cf2eab95756",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "40f4fd77-54f9-456d-b87b-94e5e43ae4ad",
+      "text": "Report from Transportation Committee 05_22_2020",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40f4fd77-54f9-456d-b87b-94e5e43ae4ad",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary of Council File 20-0504\n\n## What Is Being Proposed?\n\nThe Transportation Committee is recommending that the Los Angeles City Council receive and file a Los Angeles Department of Transportation (LADOT) report regarding transit projects that will compete for funding from the Los Angeles County Metropolitan Transportation Authority (Metro). Specifically, LADOT is proposing to submit Letters of Interest for active transportation corridors and eight First/Last Mile station projects to Metro's Active Transport Cycle 1 Call for Projects.\n\n## Why?\n\nThis program aims to increase the use of active transportation modes like biking and walking, and to expand the reach of public transit. The Metro Active Transport Cycle 1 Call for Projects makes $75 million in funding available. LADOT evaluated potential projects based on existing planning efforts, unmet funding needs, and Measure M guidelines to identify the strongest candidates for funding.\n\n## Key Details\n\nMetro is dividing the $75 million funding pool into two categories: First/Last Mile projects (limited to 138 pre-ranked locations) and Active Transportation Corridors (25 pre-ranked corridors). LADOT identified eight First/Last Mile station projects and multiple active transportation corridors as recommended projects. The deadline to submit Letters of Interest was April 30, 2020. The Transportation Committee voted on May 18, 2020, with two members voting yes (Bonin and Koretz) and one member absent (Martinez).\n\n## Impact\n\nThese projects, if funded, will improve pedestrian and bicycle access to transit stations and create safer, more accessible active transportation routes throughout Los Angeles. This affects all residents, particularly those who rely on public transportation or active modes of transportation for mobility.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3783,
+        "output_tokens": 366,
+        "cost_usd": 0.005613
+      }
+    },
+    {
+      "historyId": "720d932e-f0e8-4421-9899-8f92b1ee5d7d",
+      "text": "Report from Department of Transportation 04_24_2020",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=720d932e-f0e8-4421-9899-8f92b1ee5d7d",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Metro Active Transport (MAT) Cycle 1 Program - Letters of Interest\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Transportation (LADOT) is seeking City Council approval to submit Letters of Interest (LOI) to compete for funding from Metro's Active Transport (MAT) Program Cycle 1. LADOT proposes **11 projects total: 8 First/Last Mile station improvements and 3 Active Transportation corridors**, requesting up to $56 million in potential funding. The City Council is being asked to receive and file this report.\n\n## Why?\n\nMetro released the MAT Cycle 1 solicitation in February 2020 with $75 million available for five-year projects (2021-2025) aimed at increasing biking and walking usage while expanding transit reach. The program targets high-need areas and emphasizes equity. LADOT identified these 11 projects based on Metro's prioritization criteria combined with LADOT's own Mobility Investment Program tool to ensure alignment with City transportation values and policies.\n\n## Key Details\n\nThe 11 proposed projects include transit stations across multiple council districts (LAX/Aviation, Cypress Park/Lincoln Heights, Hollywood/Highland, Hollywood/Vine, Sepulveda/OL, Culver City Expo Line, Van Nuys/Vanowen, and Western/Slauson) seeking up to $5 million each, plus three transit corridors (Avalon/MLK Jr./Gage, Slauson, and Manchester/Broadway/Vermont) requesting up to $8 million each. The April 30, 2020 deadline was extended from April 2 due to COVID-19 impacts.\n\n## Impact\n\nIf projects are awarded funding, the City will benefit from improved pedestrian and bicycle infrastructure near transit stations and along key corridors, particularly in equity-focused communities. There is no impact to the City's General Fund, and no local funding match is required—though future City appropriations may be needed for project design and implementation if grants are awarded.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 8409,
+        "output_tokens": 455,
+        "cost_usd": 0.010683999999999999
+      }
+    },
+    {
+      "historyId": "5bd93eaa-e967-49af-9fee-684ca4982589",
+      "text": "Report from Los Angeles Department of Transportation dated 5-12-21",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5bd93eaa-e967-49af-9fee-684ca4982589",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Metro Active Transportation Program Cycle 1 Funding for Los Angeles\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Transportation (LADOT) is asking the City Council to authorize the acceptance of grant funding from the Los Angeles County Metropolitan Transportation Authority (Metro) for active transportation projects. Specifically, the city is seeking approval to enter into funding agreements and cooperative contracts to implement one active transportation corridor project and six first/last mile transit station improvement projects, with no local match required.\n\n## Why?\n\nThe Metro Active Transportation (MAT) Program, funded through Measure M, aims to increase biking and walking while expanding transit access across Los Angeles County. Metro released a $75 million solicitation in February 2020 (later reduced to $63.1 million due to COVID-19 revenue impacts). LADOT submitted applications in April 2020, and Metro approved the city's projects in January 2021. The City Council authorization is needed to formally execute agreements and begin spending funds starting July 1, 2021.\n\n## Key Details\n\n**Projects Awarded:**\n- **Active Transportation Corridor:** Avalon/Martin Luther King Jr./Gage Corridor (led by LADOT)\n- **First/Last Mile Stations:** Hollywood/Highland, Hollywood/Vine, LAX/Aviation, Sepulveda (G Line), Western/Slauson, and Culver City Expo Line (with Culver City as co-lead)\n\nOf the 11 projects submitted (3 corridors and 8 station areas), 7 were selected for funding. The timeframe for this effort was compressed—Metro released solicitations on February 18, 2020, with an April 2 deadline later extended to April 30 due to COVID-19.\n\n## Impact\n\nThis funding supports active transportation infrastructure improvements across multiple neighborhoods, particularly benefiting transit riders who need safe biking and walking connections to metro stations. There is no cost to the city's General Fund, but future budget appropriations will be needed to deliver the projects over the five-year cycle (fiscal years 2021-2025).",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 15303,
+        "output_tokens": 465,
+        "cost_usd": 0.017628
+      }
+    },
+    {
+      "historyId": "c9f942f3-7680-49cb-b21e-813f122ee9dc",
+      "text": "Mayor ConcurrenceCouncil Action 05_27_2021",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9f942f3-7680-49cb-b21e-813f122ee9dc",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "5c53e306-f4b7-4fee-bb4c-42da7c28222a",
+      "text": "Report from Department of Transportation 05_12_2021",
+      "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c53e306-f4b7-4fee-bb4c-42da7c28222a",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Metro Active Transportation Program Cycle 1 Funding\n\n## What is Being Proposed?\n\nThe City Council is being asked to authorize the Department of Transportation and other city departments to execute funding agreements and contracts to accept grant money from Los Angeles County's Metro Active Transportation (MAT) Program. This funding supports active transportation projects—such as biking and walking infrastructure—and transit station improvements across Los Angeles.\n\n## Why?\n\nThe Metro MAT Program, funded through Measure M, distributes $63.1 million (reduced from the originally planned $75 million due to COVID-19 revenue impacts) to expand active transportation and improve transit access. The City of Los Angeles submitted applications for 11 projects, and Metro awarded funding for 7 of them in January 2021. The City needs formal authorization to enter into agreements with Metro and begin spending the awarded funds starting July 1, 2021.\n\n## Key Details\n\n**Los Angeles Projects Funded:**\n- **6 First/Last Mile Stations** (improving pedestrian/bike access to transit stations): LAX/Aviation, Hollywood/Highland, Hollywood/Vine, Sepulveda OL, Western/Slauson, and Culver City Expo Line\n- **1 Active Transportation Corridor**: Avalon/MLK/Gage\n\n**Not funded:** Cypress Park/Lincoln Heights and Van Nuys/Vanowen stations, plus the Slauson and Broadway/Manchester/Vermont corridors. The projects are led by LADOT, StreetsLA, Board of Education, and other city agencies.\n\n## Impact\n\nThis authorization enables the City to secure grant funding at no local cost (no matching funds required) to improve walkability, biking infrastructure, and transit connections in neighborhoods throughout Los Angeles. Future city budgets will need to appropriate funds to implement the projects once agreements are finalized.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 15301,
+        "output_tokens": 410,
+        "cost_usd": 0.017351
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T18:00:00",
+  "last_seen": "2025-11-12T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 9,
+    "attachments_with_summaries": 4
+  }
+}
