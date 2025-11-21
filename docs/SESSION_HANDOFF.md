@@ -1,11 +1,53 @@
 # Session Handoff - Council File Pivot Project
 
-**Date:** 2025-11-19 (Updated - UX Improvements)
-**Status:** Collapsible Sections & Timeline Improvements ✅
+**Date:** 2025-11-19 (Updated - UI Polish & Clarity Improvements)
+**Status:** Clean UI with Clear Section Headers ✅
 
 ---
 
-## 🟢 COMPLETED: UX Improvements - Collapsible Sections & Timeline Redesign (2025-11-19 Session - Latest)
+## 🟢 COMPLETED: UI Polish & Clarity Improvements (2025-11-19 Session - Latest)
+
+**Current state:**
+- ✅ All "AI" badges removed from UI for cleaner look
+- ✅ Section headers simplified with plain language
+- ✅ Meeting summaries properly formatted with markdown rendering
+- ✅ Empty district badges removed from council file index
+- ✅ All 7 meeting pages + 194 council file pages regenerated
+
+**What was completed this session:**
+
+1. ✅ **Improved section header clarity** ([generate_site.py:167-170](../generate_site.py))
+   - "Items for which Public Hearings Have Not Been Held..." → "Items Without Public Hearings (Require 10 Votes)"
+   - "Items Noticed for Public Hearing" → "Items With Scheduled Hearings"
+   - "Items for which Public Hearings Have Been Held" → "Items With Completed Hearings"
+   - All headers now use status-based language that's clear to laypeople
+
+2. ✅ **Removed AI badges from UI** ([generate_councilfile_pages.py:580,599,967-971](../generate_councilfile_pages.py))
+   - Changed "Document Summaries" → "Related Documents"
+   - Removed "AI Summary" badge from individual document sections
+   - Removed "AI Summaries" badge from council file index cards
+   - Removed empty district badges when district is "Unknown"
+
+3. ✅ **Fixed meeting summary formatting** ([generate_site.py:23-40,244-264](../generate_site.py))
+   - Added markdown header (`##`) to HTML conversion
+   - Section headers now render as `<strong>` tags properly
+   - Removed introductory sentences ("This was mostly...")
+   - Meeting summaries now start directly with section headers
+
+**Files modified this session:**
+- `generate_site.py` - Updated section title mappings, enhanced markdown_to_html(), removed intro sentences
+- `generate_councilfile_pages.py` - Removed AI badges, changed "Document Summaries" to "Related Documents", hide empty district badges
+- `site/meetings/*.html` - All 7 regenerated with clearer headers and proper formatting
+- `site/councilfiles/*.html` - All 194 regenerated with cleaner UI
+
+**Resume command:**
+```
+Read docs/SESSION_HANDOFF.md for current state. UI is now cleaner with all AI badges removed and section headers using plain language.
+```
+
+---
+
+## 🟢 COMPLETED: UX Improvements - Collapsible Sections & Timeline Redesign (2025-11-19 Session - Previous)
 
 **Current state:**
 - ✅ Meeting page sections now collapsible (default: collapsed)

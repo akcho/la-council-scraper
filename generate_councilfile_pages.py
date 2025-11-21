@@ -577,7 +577,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
 
         if with_summaries:
             html += """        <section class="section">
-            <h2 class="section-title">Document Summaries</h2>
+            <h2 class="section-title">Related Documents</h2>
 """
 
             for attachment in with_summaries:
@@ -596,7 +596,6 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
                     html += title_text
 
                 html += """</div>
-                    <span class="attachment-badge">AI Summary</span>
                 </div>
 """
 
@@ -961,16 +960,16 @@ def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path) -> No
                 <div class="file-number">
                     <a href="{council_file}.html">{council_file}</a>
                 </div>
-                <div class="file-badges">
+"""
+
+        # Only show badges if there's a valid district
+        if district and district != 'Unknown':
+            html += f"""                <div class="file-badges">
                     <span class="badge badge-district">{district}</span>
+                </div>
 """
 
-        if has_summaries:
-            html += """                    <span class="badge badge-summary">AI Summaries</span>
-"""
-
-        html += f"""                </div>
-            </div>
+        html += f"""            </div>
             <div class="file-title">{title}</div>
             <div class="file-meta">
                 <span>Last seen: {last_seen}</span>

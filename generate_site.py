@@ -23,10 +23,13 @@ SITE_CONFIG_FILE = Path("site_config.json")
 def markdown_to_html(text):
     """
     Convert simple markdown formatting to HTML.
-    Handles **bold**, *italic*, and preserves line breaks.
+    Handles **bold**, *italic*, ## headers, and preserves line breaks.
     """
     if not text:
         return text
+
+    # Convert ## headers to <strong> (for section headers)
+    text = re.sub(r'^## (.+)$', r'<strong>\1</strong>', text, flags=re.MULTILINE)
 
     # Convert **bold** to <strong>
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
@@ -162,8 +165,9 @@ def improve_section_title(title):
     """
     # Mapping of common bureaucratic titles to clearer alternatives
     title_improvements = {
-        "Items for which Public Hearings Have Been Held": "Public Hearing Items",
-        "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)": "Items Pending Public Hearing",
+        "Items Noticed for Public Hearing": "Items With Scheduled Hearings",
+        "Items for which Public Hearings Have Been Held": "Items With Completed Hearings",
+        "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)": "Items Without Public Hearings (Require 10 Votes)",
         "Closed Session": "Closed Session Items",
         "Commendatory Resolutions, Introductions and Presentations": "Commendations and Presentations",
         "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public Comment",
@@ -243,6 +247,25 @@ def generate_meeting_page(meeting_id):
     if video_summary_data:
         # Convert markdown in video summary to HTML
         raw_summary = video_summary_data.get('summary', '')
+
+        # Remove the introductory sentence (first paragraph before the first ##)
+        # These typically start with "This was mostly..." or similar
+        lines = raw_summary.split('\n')
+        filtered_lines = []
+        found_first_header = False
+
+        for line in lines:
+            # Skip lines before the first ## header
+            if line.strip().startswith('##'):
+                found_first_header = True
+
+            if found_first_header:
+                filtered_lines.append(line)
+
+        # If we found headers, use filtered version; otherwise use original
+        if filtered_lines:
+            raw_summary = '\n'.join(filtered_lines)
+
         context['video_summary'] = markdown_to_html(raw_summary)
 
     # Set up Jinja2 environment
