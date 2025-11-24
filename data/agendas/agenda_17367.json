@@ -1,7 +1,7 @@
 {
   "meeting_id": 17367,
   "template_id": 146637,
-  "parsed_at": "2025-11-19T14:49:54.703079",
+  "parsed_at": "2025-11-24T14:22:34.101649",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=146637",
   "sections": [
     {
@@ -45,100 +45,76 @@
           "mig": "5d68d2af-613a-4256-9fba-c25d9992faa1",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
+              "historyId": "64738e17-4c3c-4f25-a2e9-3bf94d0c617a",
+              "title": "Report from City Attorney dated 9-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=64738e17-4c3c-4f25-a2e9-3bf94d0c617a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
             },
             {
-              "text": "Report from City Attorney dated 9-08-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
+              "historyId": "fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69",
+              "title": "Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
+              "historyId": "6e0f7820-c6ba-439f-b0a5-2b7b771ec742",
+              "title": "Council Action dated 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e0f7820-c6ba-439f-b0a5-2b7b771ec742",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
             },
             {
-              "text": "Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
+              "historyId": "8759b3dc-194c-409d-aee3-85133f5675c7",
+              "title": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8759b3dc-194c-409d-aee3-85133f5675c7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8759b3dc-194c-409d-aee3-85133f5675c7"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
+              "historyId": "fb06a42d-bd4c-4e50-875b-3539628e309e",
+              "title": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb06a42d-bd4c-4e50-875b-3539628e309e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fb06a42d-bd4c-4e50-875b-3539628e309e"
             },
             {
-              "text": "Council Action dated 9-30-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
+              "historyId": "a9ec20d5-9b2d-4e2d-ab58-a1abced22835",
+              "title": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9ec20d5-9b2d-4e2d-ab58-a1abced22835",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=8759b3dc-194c-409d-aee3-85133f5675c7"
+              "historyId": "161f6fef-e9e1-4f00-9d56-4903c0fa79da",
+              "title": "Council Action dated 5-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=161f6fef-e9e1-4f00-9d56-4903c0fa79da",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
             },
             {
-              "text": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8759b3dc-194c-409d-aee3-85133f5675c7"
+              "historyId": "9c8aa625-c30c-4f26-b073-7b23c3e6c8ec",
+              "title": "Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=fb06a42d-bd4c-4e50-875b-3539628e309e"
+              "historyId": "214868d2-9e4e-442a-a177-2ea03c9714db",
+              "title": "Speaker Card(s)_05-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=214868d2-9e4e-442a-a177-2ea03c9714db",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=214868d2-9e4e-442a-a177-2ea03c9714db"
             },
             {
-              "text": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb06a42d-bd4c-4e50-875b-3539628e309e"
+              "historyId": "4f12659e-730f-4950-9cc8-ea450dbb7c47",
+              "title": "Speaker Card(s)_05-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f12659e-730f-4950-9cc8-ea450dbb7c47",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f12659e-730f-4950-9cc8-ea450dbb7c47"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
+              "historyId": "75b85711-31fe-43b1-a223-0ab1ddd23fed",
+              "title": "Personnel and Hiring Committee Report 5-9-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b85711-31fe-43b1-a223-0ab1ddd23fed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=75b85711-31fe-43b1-a223-0ab1ddd23fed"
             },
             {
-              "text": "Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
-            },
-            {
-              "text": "Council Action dated 5-28-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
-            },
-            {
-              "text": "Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=214868d2-9e4e-442a-a177-2ea03c9714db"
-            },
-            {
-              "text": "Speaker Card(s)_05-27-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=214868d2-9e4e-442a-a177-2ea03c9714db"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=4f12659e-730f-4950-9cc8-ea450dbb7c47"
-            },
-            {
-              "text": "Speaker Card(s)_05-20-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f12659e-730f-4950-9cc8-ea450dbb7c47"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=75b85711-31fe-43b1-a223-0ab1ddd23fed"
-            },
-            {
-              "text": "Personnel and Hiring Committee Report 5-9-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b85711-31fe-43b1-a223-0ab1ddd23fed"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
-            },
-            {
-              "text": "Report from City Administrative Officer dated 4-10-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
+              "historyId": "66dc0741-cedb-4e09-b6d3-6bb92c3b1d40",
+              "title": "Report from City Administrative Officer dated 4-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
             }
           ]
         },
@@ -154,20 +130,16 @@
           "mig": "ca0d0f8b-946b-4020-8852-083ff1088bbd",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=12bbb78c-a994-4640-86d1-71462775586d"
+              "historyId": "12bbb78c-a994-4640-86d1-71462775586d",
+              "title": "Report from Public Safety Committee and Budget and Finance Committee 10-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12bbb78c-a994-4640-86d1-71462775586d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12bbb78c-a994-4640-86d1-71462775586d"
             },
             {
-              "text": "Report from Public Safety Committee and Budget and Finance Committee 10-21-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12bbb78c-a994-4640-86d1-71462775586d"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=d23f5575-0323-44bb-aab2-78898f16bb1b"
-            },
-            {
-              "text": "Report from Board of Fire Commissioners dated 9-03-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d23f5575-0323-44bb-aab2-78898f16bb1b"
+              "historyId": "d23f5575-0323-44bb-aab2-78898f16bb1b",
+              "title": "Report from Board of Fire Commissioners dated 9-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d23f5575-0323-44bb-aab2-78898f16bb1b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d23f5575-0323-44bb-aab2-78898f16bb1b"
             }
           ]
         },
@@ -183,44 +155,34 @@
           "mig": "e9ee3428-a89a-4596-a717-ace216b31ebe",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=9c9278ec-88e7-4194-81c4-c40e77a108f0"
+              "historyId": "9c9278ec-88e7-4194-81c4-c40e77a108f0",
+              "title": "Report from Trade, Travel and Tourism Committee 10-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c9278ec-88e7-4194-81c4-c40e77a108f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c9278ec-88e7-4194-81c4-c40e77a108f0"
             },
             {
-              "text": "Report from Trade, Travel and Tourism Committee 10-14-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c9278ec-88e7-4194-81c4-c40e77a108f0"
+              "historyId": "311ba856-b3ae-4a59-8c22-bb5a29244b96",
+              "title": "Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=311ba856-b3ae-4a59-8c22-bb5a29244b96",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=311ba856-b3ae-4a59-8c22-bb5a29244b96"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=311ba856-b3ae-4a59-8c22-bb5a29244b96"
+              "historyId": "e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc",
+              "title": "Council Action  dated 2-27-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
             },
             {
-              "text": "Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=311ba856-b3ae-4a59-8c22-bb5a29244b96"
+              "historyId": "04fc1544-4c80-4528-b209-c06b534232d5",
+              "title": "Report from Trade, Travel, and Tourism Committee_02-7-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=04fc1544-4c80-4528-b209-c06b534232d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=04fc1544-4c80-4528-b209-c06b534232d5"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
-            },
-            {
-              "text": "Council Action  dated 2-27-23",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=04fc1544-4c80-4528-b209-c06b534232d5"
-            },
-            {
-              "text": "Report from Trade, Travel, and Tourism Committee_02-7-23",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=04fc1544-4c80-4528-b209-c06b534232d5"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
-            },
-            {
-              "text": "Motion (McOsker - Yaroslavsky) dated 1-27-23",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
+              "historyId": "3a4cd40c-7b67-4e8b-872d-b2fc5677346e",
+              "title": "Motion (McOsker - Yaroslavsky) dated 1-27-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3a4cd40c-7b67-4e8b-872d-b2fc5677346e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
             }
           ]
         },
@@ -237,124 +199,94 @@
           "mig": "724faf4c-3a18-4359-ae91-74a8a80b45b2",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=d1259b93-ed21-4a23-ac45-76afb80794b0"
+              "historyId": "d1259b93-ed21-4a23-ac45-76afb80794b0",
+              "title": "Report from Energy and Environment Committee_10-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d1259b93-ed21-4a23-ac45-76afb80794b0"
             },
             {
-              "text": "Report from Energy and Environment Committee_10-21-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0"
+              "historyId": "26d20a0e-15d1-44d0-9baa-6efe718ec7d6",
+              "title": "Report from City Administrative Officer dated 10-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
+              "historyId": "87e7c59c-359f-442d-ad9e-8a39e2af2c89",
+              "title": "Council Action dated 1-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
             },
             {
-              "text": "Report from City Administrative Officer dated 10-16-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
+              "historyId": "6738abee-3bd8-483f-baba-ba7fc0b573f7",
+              "title": "Speaker Card(s)_01-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6738abee-3bd8-483f-baba-ba7fc0b573f7"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
+              "historyId": "6789ca93-dd1c-4264-98dc-2edbb94d27b4",
+              "title": "Report from City Administrative Officer dated 11-21-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
             },
             {
-              "text": "Council Action dated 1-21-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
+              "historyId": "c6344e69-3d70-4d1b-9047-d982e50c683f",
+              "title": "Council Action dated 11-09-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6344e69-3d70-4d1b-9047-d982e50c683f"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=6738abee-3bd8-483f-baba-ba7fc0b573f7"
+              "historyId": "8757f8b7-471a-4f3f-9dd2-de48be4e8d80",
+              "title": "Communication(s) from Public_11-08-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
             },
             {
-              "text": "Speaker Card(s)_01-14-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7"
+              "historyId": "415a77b4-d6f0-41f5-a5c7-b52815f9afd1",
+              "title": "Speaker Card(s)_11-03-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
+              "historyId": "af121f86-5809-408d-9c73-f08dd1b3cdd6",
+              "title": "Report from Energy and Environment Committee_11-03-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af121f86-5809-408d-9c73-f08dd1b3cdd6"
             },
             {
-              "text": "Report from City Administrative Officer dated 11-21-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
+              "historyId": "16989270-b1d6-427d-a269-36b32a8bcea0",
+              "title": "Report from City Administrative Officer dated 8-15-23.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=16989270-b1d6-427d-a269-36b32a8bcea0"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=c6344e69-3d70-4d1b-9047-d982e50c683f"
+              "historyId": "662c1f33-2f2f-451e-b3c5-feac90c96cdf",
+              "title": "Council Action  dated 11-23-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
             },
             {
-              "text": "Council Action dated 11-09-23",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f"
+              "historyId": "c5eeca89-6d7a-402e-813d-dc2a442deb98",
+              "title": "Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c5eeca89-6d7a-402e-813d-dc2a442deb98"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
+              "historyId": "a4da8614-79f2-4358-965b-7b2c09066ec2",
+              "title": "Report from City Administrative Officer dated 9-30-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a4da8614-79f2-4358-965b-7b2c09066ec2"
             },
             {
-              "text": "Communication(s) from Public_11-08-2023",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
+              "historyId": "afb10f71-8188-4661-9580-c7ff7fd1104d",
+              "title": "Council Action  dated 11-24-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=afb10f71-8188-4661-9580-c7ff7fd1104d"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
-            },
-            {
-              "text": "Speaker Card(s)_11-03-2023",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=af121f86-5809-408d-9c73-f08dd1b3cdd6"
-            },
-            {
-              "text": "Report from Energy and Environment Committee_11-03-23",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=16989270-b1d6-427d-a269-36b32a8bcea0"
-            },
-            {
-              "text": "Report from City Administrative Officer dated 8-15-23.pdf",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
-            },
-            {
-              "text": "Council Action  dated 11-23-22",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=c5eeca89-6d7a-402e-813d-dc2a442deb98"
-            },
-            {
-              "text": "Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=a4da8614-79f2-4358-965b-7b2c09066ec2"
-            },
-            {
-              "text": "Report from City Administrative Officer dated 9-30-22",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=afb10f71-8188-4661-9580-c7ff7fd1104d"
-            },
-            {
-              "text": "Council Action  dated 11-24-21",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=9ed99d3e-0427-4682-b03b-a5fb7f650239"
-            },
-            {
-              "text": "Report from City Administrative Officer dated 11-02-21.pdf",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239"
+              "historyId": "9ed99d3e-0427-4682-b03b-a5fb7f650239",
+              "title": "Report from City Administrative Officer dated 11-02-21.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ed99d3e-0427-4682-b03b-a5fb7f650239"
             }
           ]
         }

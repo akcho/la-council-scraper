@@ -112,17 +112,18 @@ def aggregate_council_files():
                 }
                 cf["appearances"].append(appearance)
 
-                # Process attachments
-                for attachment in item.get("attachments", []):
-                    history_id = extract_history_id_from_url(attachment.get("url", ""))
+                # Process attachments (now structured as documents with preview/download URLs)
+                for doc in item.get("attachments", []):
+                    history_id = doc.get("historyId")
 
                     if not history_id:
                         continue
 
                     attachment_data = {
                         "historyId": history_id,
-                        "text": attachment.get("text", ""),
-                        "url": attachment.get("url", ""),
+                        "title": doc.get("title", ""),
+                        "downloadUrl": doc.get("downloadUrl", ""),
+                        "previewUrl": doc.get("previewUrl"),
                         "meeting_id": meeting_id,
                         "has_summary": history_id in pdf_summaries
                     }

@@ -256,18 +256,57 @@
         .attachment-list {
             margin-top: 0.5rem;
             padding-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
 
-        .attachment-list a {
-            display: block;
+        .document-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .document-title {
             font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.25rem 0;
+            color: #1a1a1a;
+            font-weight: 500;
         }
 
-        .attachment-list a:hover {
-            text-decoration: underline;
+        .document-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .document-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.25rem 0.625rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .document-action.view {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .document-action.view:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .document-action.download {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .document-action.download:hover {
+            background: #0052a3;
+            border-color: #0052a3;
         }
 
         .empty-section {
@@ -398,200 +437,296 @@ This was largely a ceremonial meeting with community recognition events, though 
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (24)</summary>
+                        <summary>Documents (12)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Attorney dated 9-08-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=64738e17-4c3c-4f25-a2e9-3bf94d0c617a"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Report from City Attorney dated 9-08-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action dated 9-30-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8759b3dc-194c-409d-aee3-85133f5675c7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8759b3dc-194c-409d-aee3-85133f5675c7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fb06a42d-bd4c-4e50-875b-3539628e309e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb06a42d-bd4c-4e50-875b-3539628e309e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e0f7820-c6ba-439f-b0a5-2b7b771ec742"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Council Action dated 9-30-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8759b3dc-194c-409d-aee3-85133f5675c7"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action dated 5-28-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8759b3dc-194c-409d-aee3-85133f5675c7"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fb06a42d-bd4c-4e50-875b-3539628e309e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_05-27-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=214868d2-9e4e-442a-a177-2ea03c9714db"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=214868d2-9e4e-442a-a177-2ea03c9714db"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb06a42d-bd4c-4e50-875b-3539628e309e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_05-20-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4f12659e-730f-4950-9cc8-ea450dbb7c47"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f12659e-730f-4950-9cc8-ea450dbb7c47"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Personnel and Hiring Committee Report 5-9-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=75b85711-31fe-43b1-a223-0ab1ddd23fed"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b85711-31fe-43b1-a223-0ab1ddd23fed"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9ec20d5-9b2d-4e2d-ab58-a1abced22835"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=161f6fef-e9e1-4f00-9d56-4903c0fa79da"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Council Action dated 5-28-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=214868d2-9e4e-442a-a177-2ea03c9714db"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=214868d2-9e4e-442a-a177-2ea03c9714db"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Speaker Card(s)_05-27-2025
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4f12659e-730f-4950-9cc8-ea450dbb7c47"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f12659e-730f-4950-9cc8-ea450dbb7c47"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Speaker Card(s)_05-20-2025
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=75b85711-31fe-43b1-a223-0ab1ddd23fed"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b85711-31fe-43b1-a223-0ab1ddd23fed"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Personnel and Hiring Committee Report 5-9-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155475">
-                                Report from City Administrative Officer dated 4-10-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 4-10-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155475">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155475">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -628,40 +763,56 @@ This was largely a ceremonial meeting with community recognition events, though 
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (4)</summary>
+                        <summary>Documents (2)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=12bbb78c-a994-4640-86d1-71462775586d"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156091">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Public Safety Committee and Budget and Finance Committee 10-21-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=12bbb78c-a994-4640-86d1-71462775586d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156091">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12bbb78c-a994-4640-86d1-71462775586d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156091">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12bbb78c-a994-4640-86d1-71462775586d"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156091">
-                                Report from Public Safety Committee and Budget and Finance Committee 10-21-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d23f5575-0323-44bb-aab2-78898f16bb1b"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156091">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d23f5575-0323-44bb-aab2-78898f16bb1b"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156091">
-                                Report from Board of Fire Commissioners dated 9-03-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Board of Fire Commissioners dated 9-03-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d23f5575-0323-44bb-aab2-78898f16bb1b"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156091">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d23f5575-0323-44bb-aab2-78898f16bb1b"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156091">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -698,88 +849,128 @@ This was largely a ceremonial meeting with community recognition events, though 
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (10)</summary>
+                        <summary>Documents (5)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9c9278ec-88e7-4194-81c4-c40e77a108f0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Trade, Travel and Tourism Committee 10-14-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9c9278ec-88e7-4194-81c4-c40e77a108f0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156090">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c9278ec-88e7-4194-81c4-c40e77a108f0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156090">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c9278ec-88e7-4194-81c4-c40e77a108f0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Report from Trade, Travel and Tourism Committee 10-14-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=311ba856-b3ae-4a59-8c22-bb5a29244b96"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156090">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=311ba856-b3ae-4a59-8c22-bb5a29244b96"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156090">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=311ba856-b3ae-4a59-8c22-bb5a29244b96"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action  dated 2-27-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156090">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156090">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=311ba856-b3ae-4a59-8c22-bb5a29244b96"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Joint Report from Los Angeles World Airport and Port of Los Angeles dated 8-04-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Trade, Travel, and Tourism Committee_02-7-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=04fc1544-4c80-4528-b209-c06b534232d5"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156090">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=04fc1544-4c80-4528-b209-c06b534232d5"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156090">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7f05d5b-2827-4ee2-bc4d-cb67832d4cbc"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Council Action  dated 2-27-23
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=04fc1544-4c80-4528-b209-c06b534232d5"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=04fc1544-4c80-4528-b209-c06b534232d5"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Report from Trade, Travel, and Tourism Committee_02-7-23
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156090">
-                                Motion (McOsker - Yaroslavsky) dated 1-27-23
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Motion (McOsker - Yaroslavsky) dated 1-27-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156090">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3a4cd40c-7b67-4e8b-872d-b2fc5677346e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156090">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -818,248 +1009,368 @@ This was largely a ceremonial meeting with community recognition events, though 
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (30)</summary>
+                        <summary>Documents (15)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d1259b93-ed21-4a23-ac45-76afb80794b0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Energy and Environment Committee_10-21-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d1259b93-ed21-4a23-ac45-76afb80794b0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from Energy and Environment Committee_10-21-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 10-16-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action dated 1-21-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from City Administrative Officer dated 10-16-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_01-14-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6738abee-3bd8-483f-baba-ba7fc0b573f7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 11-21-24</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Council Action dated 1-21-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action dated 11-09-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c6344e69-3d70-4d1b-9047-d982e50c683f"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6738abee-3bd8-483f-baba-ba7fc0b573f7"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_11-08-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Speaker Card(s)_01-14-2025
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_11-03-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Energy and Environment Committee_11-03-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=af121f86-5809-408d-9c73-f08dd1b3cdd6"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from City Administrative Officer dated 11-21-24
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 8-15-23.pdf</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=16989270-b1d6-427d-a269-36b32a8bcea0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c6344e69-3d70-4d1b-9047-d982e50c683f"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action  dated 11-23-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Council Action dated 11-09-23
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c5eeca89-6d7a-402e-813d-dc2a442deb98"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 9-30-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a4da8614-79f2-4358-965b-7b2c09066ec2"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Communication(s) from Public_11-08-2023
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Council Action  dated 11-24-21</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=afb10f71-8188-4661-9580-c7ff7fd1104d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Speaker Card(s)_11-03-2023
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=af121f86-5809-408d-9c73-f08dd1b3cdd6"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from Energy and Environment Committee_11-03-23
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=16989270-b1d6-427d-a269-36b32a8bcea0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from City Administrative Officer dated 8-15-23.pdf
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Council Action  dated 11-23-22
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c5eeca89-6d7a-402e-813d-dc2a442deb98"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a4da8614-79f2-4358-965b-7b2c09066ec2"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from City Administrative Officer dated 9-30-22
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=afb10f71-8188-4661-9580-c7ff7fd1104d"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Council Action  dated 11-24-21
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9ed99d3e-0427-4682-b03b-a5fb7f650239"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156223">
-                                Report from City Administrative Officer dated 11-02-21.pdf
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 11-02-21.pdf</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9ed99d3e-0427-4682-b03b-a5fb7f650239"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156223">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156223">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -1085,7 +1396,7 @@ This was largely a ceremonial meeting with community recognition events, though 
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-11-21 11:57:22</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-24 14:29:15</p>
         </div>
     </footer>
 

@@ -1,7 +1,7 @@
 {
   "meeting_id": 17477,
   "template_id": 147583,
-  "parsed_at": "2025-11-19T14:49:59.546588",
+  "parsed_at": "2025-11-24T14:22:37.596903",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147583",
   "sections": [
     {
@@ -45,20 +45,16 @@
           "mig": "846bb921-aa8b-445c-8cc1-d2011d954c6d",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=b895802d-32fd-4331-b46c-f79a9aefffe1"
+              "historyId": "b895802d-32fd-4331-b46c-f79a9aefffe1",
+              "title": "Personnel and Hiring Committee Report 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b895802d-32fd-4331-b46c-f79a9aefffe1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b895802d-32fd-4331-b46c-f79a9aefffe1"
             },
             {
-              "text": "Personnel and Hiring Committee Report 10-24-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b895802d-32fd-4331-b46c-f79a9aefffe1"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=b43c498d-f834-48c2-bd92-8c5ff3ebd833"
-            },
-            {
-              "text": "Report from Personnel Department dated 8-07-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b43c498d-f834-48c2-bd92-8c5ff3ebd833"
+              "historyId": "b43c498d-f834-48c2-bd92-8c5ff3ebd833",
+              "title": "Report from Personnel Department dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b43c498d-f834-48c2-bd92-8c5ff3ebd833",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b43c498d-f834-48c2-bd92-8c5ff3ebd833"
             }
           ]
         },
@@ -75,52 +71,40 @@
           "mig": "5d6d3de6-d91f-4d91-9dd4-57dee153c6f0",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=3f82de68-d739-4a22-a436-cbd3a7f1c1ff"
+              "historyId": "3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+              "title": "Report from Public Works Committee_10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3f82de68-d739-4a22-a436-cbd3a7f1c1ff"
             },
             {
-              "text": "Report from Public Works Committee_10-22-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f82de68-d739-4a22-a436-cbd3a7f1c1ff"
+              "historyId": "39f8e793-0737-4824-bd32-e10444eb596b",
+              "title": "Report from Bureau of Sanitation dated 12-19-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f8e793-0737-4824-bd32-e10444eb596b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=39f8e793-0737-4824-bd32-e10444eb596b"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=39f8e793-0737-4824-bd32-e10444eb596b"
+              "historyId": "b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+              "title": "Report from Public Works Committee_8-14-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b8a4130e-4b8a-4529-b6bf-88d40d1b564e"
             },
             {
-              "text": "Report from Bureau of Sanitation dated 12-19-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f8e793-0737-4824-bd32-e10444eb596b"
+              "historyId": "19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+              "title": "Council Action dated 8-29-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=b8a4130e-4b8a-4529-b6bf-88d40d1b564e"
+              "historyId": "6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+              "title": "Speaker Card(s)_08-14-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3"
             },
             {
-              "text": "Report from Public Works Committee_8-14-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a4130e-4b8a-4529-b6bf-88d40d1b564e"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6"
-            },
-            {
-              "text": "Council Action dated 8-29-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3"
-            },
-            {
-              "text": "Speaker Card(s)_08-14-2024",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=68f20d33-76cd-4745-9390-96a957ff72a3"
-            },
-            {
-              "text": "Motion (Park - Yaroslavsky)  dated 8-02-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f20d33-76cd-4745-9390-96a957ff72a3"
+              "historyId": "68f20d33-76cd-4745-9390-96a957ff72a3",
+              "title": "Motion (Park - Yaroslavsky)  dated 8-02-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f20d33-76cd-4745-9390-96a957ff72a3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=68f20d33-76cd-4745-9390-96a957ff72a3"
             }
           ]
         },
@@ -136,68 +120,52 @@
           "mig": "f2b9be24-4e43-4b15-b18a-ce7dd86c352b",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=40aa9bea-d099-42b4-82a3-359e987b772a"
+              "historyId": "40aa9bea-d099-42b4-82a3-359e987b772a",
+              "title": "Report from Transportation Committee 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40aa9bea-d099-42b4-82a3-359e987b772a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=40aa9bea-d099-42b4-82a3-359e987b772a"
             },
             {
-              "text": "Report from Transportation Committee 10-22-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40aa9bea-d099-42b4-82a3-359e987b772a"
+              "historyId": "7d06b6ca-8eef-44d9-af3e-6e39ddddd530",
+              "title": "Communication(s) from Public_07-29-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7d06b6ca-8eef-44d9-af3e-6e39ddddd530",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7d06b6ca-8eef-44d9-af3e-6e39ddddd530"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=7d06b6ca-8eef-44d9-af3e-6e39ddddd530"
+              "historyId": "a9d9f05d-015f-47dd-aee4-95a8fe473bbf",
+              "title": "Report from Department of Transportation dated 7-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9d9f05d-015f-47dd-aee4-95a8fe473bbf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a9d9f05d-015f-47dd-aee4-95a8fe473bbf"
             },
             {
-              "text": "Communication(s) from Public_07-29-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7d06b6ca-8eef-44d9-af3e-6e39ddddd530"
+              "historyId": "3ce1f381-ca33-4255-86d2-a7ea99fd6a57",
+              "title": "Council Action dated 3-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce1f381-ca33-4255-86d2-a7ea99fd6a57",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ce1f381-ca33-4255-86d2-a7ea99fd6a57"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=a9d9f05d-015f-47dd-aee4-95a8fe473bbf"
+              "historyId": "d55d7b30-a05f-47c3-8c62-afe8b481fd5e",
+              "title": "Speaker Card(s)_03-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d55d7b30-a05f-47c3-8c62-afe8b481fd5e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d55d7b30-a05f-47c3-8c62-afe8b481fd5e"
             },
             {
-              "text": "Report from Department of Transportation dated 7-22-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9d9f05d-015f-47dd-aee4-95a8fe473bbf"
+              "historyId": "7cb747a2-a535-44b0-9161-6e0f1e4de508",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_02-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7cb747a2-a535-44b0-9161-6e0f1e4de508",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7cb747a2-a535-44b0-9161-6e0f1e4de508"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=3ce1f381-ca33-4255-86d2-a7ea99fd6a57"
+              "historyId": "b5bfd506-948c-4fbb-9385-a751bb3bfda1",
+              "title": "Motion (Hutt - Lee) dated 1-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5bfd506-948c-4fbb-9385-a751bb3bfda1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b5bfd506-948c-4fbb-9385-a751bb3bfda1"
             },
             {
-              "text": "Council Action dated 3-18-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce1f381-ca33-4255-86d2-a7ea99fd6a57"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=d55d7b30-a05f-47c3-8c62-afe8b481fd5e"
-            },
-            {
-              "text": "Speaker Card(s)_03-14-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d55d7b30-a05f-47c3-8c62-afe8b481fd5e"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=7cb747a2-a535-44b0-9161-6e0f1e4de508"
-            },
-            {
-              "text": "Community Impact Statement submitted by Westside Neighborhood Council_02-14-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7cb747a2-a535-44b0-9161-6e0f1e4de508"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=b5bfd506-948c-4fbb-9385-a751bb3bfda1"
-            },
-            {
-              "text": "Motion (Hutt - Lee) dated 1-31-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5bfd506-948c-4fbb-9385-a751bb3bfda1"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e"
-            },
-            {
-              "text": "Report from Transportation Committee_02-12-24",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e"
+              "historyId": "8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e",
+              "title": "Report from Transportation Committee_02-12-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e"
             }
           ]
         },
@@ -213,16 +181,10 @@
           "mig": "d2e4f104-c252-47b5-b304-d409b18d1cbb",
           "attachments": [
             {
-              "text": "www.lacouncilfile.com",
-              "url": "http://www.lacouncilfile.com"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=7b9facb7-3191-40bd-8b1c-23c7702da1c8"
-            },
-            {
-              "text": "Motion (Jurado - Raman) dated 10-31-25.pdf",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b9facb7-3191-40bd-8b1c-23c7702da1c8"
+              "historyId": "7b9facb7-3191-40bd-8b1c-23c7702da1c8",
+              "title": "Motion (Jurado - Raman) dated 10-31-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b9facb7-3191-40bd-8b1c-23c7702da1c8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7b9facb7-3191-40bd-8b1c-23c7702da1c8"
             }
           ]
         }

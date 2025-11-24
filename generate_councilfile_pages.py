@@ -378,6 +378,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
             justify-content: space-between;
             align-items: start;
             margin-bottom: 1rem;
+            gap: 1rem;
         }}
 
         .attachment-title {{
@@ -385,6 +386,43 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
             font-weight: 600;
             color: #1a1a1a;
             flex: 1;
+        }}
+
+        .attachment-actions {{
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }}
+
+        .doc-action {{
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }}
+
+        .doc-action.view-action {{
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }}
+
+        .doc-action.view-action:hover {{
+            background: #0066cc;
+            color: #fff;
+        }}
+
+        .doc-action.download-action {{
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }}
+
+        .doc-action.download-action:hover {{
+            background: #0052a3;
+            border-color: #0052a3;
         }}
 
         .attachment-badge {{
@@ -472,15 +510,28 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
             font-weight: 600;
         }}
 
-        .no-summaries ul {{
+        .no-summary-docs {{
             margin-top: 0.75rem;
-            padding-left: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }}
 
-        .no-summaries li {{
+        .doc-item {{
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }}
+
+        .doc-title {{
             font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.25rem;
+            color: #333;
+            font-weight: 500;
+        }}
+
+        .doc-links {{
+            display: flex;
+            gap: 0.5rem;
         }}
 
         .doc-link {{
@@ -584,21 +635,28 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
 """
 
             for attachment in with_summaries:
-                title_text = attachment.get('text', 'Untitled Document')
+                title_text = attachment.get('title', 'Untitled Document')
                 summary_text = attachment.get('summary', '')
-                url = attachment.get('url', '')
+                download_url = attachment.get('downloadUrl', '')
+                preview_url = attachment.get('previewUrl')
 
                 html += f"""            <div class="attachment">
                 <div class="attachment-header">
-                    <div class="attachment-title">"""
+                    <div class="attachment-title">{title_text}</div>
+                    <div class="attachment-actions">"""
 
-                if url:
-                    full_url = f"https://lacity.primegov.com{url}"
-                    html += f"""<a href="{full_url}" class="doc-link" target="_blank">{title_text}</a>"""
-                else:
-                    html += title_text
+                if preview_url:
+                    full_preview_url = f"https://lacity.primegov.com{preview_url}"
+                    html += f"""
+                        <a href="{full_preview_url}" class="doc-action view-action" target="_blank">View</a>"""
 
-                html += """</div>
+                if download_url:
+                    full_download_url = f"https://lacity.primegov.com{download_url}"
+                    html += f"""
+                        <a href="{full_download_url}" class="doc-action download-action" target="_blank">Download</a>"""
+
+                html += """
+                    </div>
                 </div>
 """
 
@@ -644,21 +702,33 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
             html += f"""        <section class="section">
             <details class="no-summaries">
                 <summary>{len(without_summaries)} additional document(s) without AI summaries</summary>
-                <ul>
+                <div class="no-summary-docs">
 """
             for attachment in without_summaries:
-                title_text = attachment.get('text', 'Untitled Document')
-                url = attachment.get('url', '')
-                if url:
-                    # Convert relative API URL to full URL
-                    full_url = f"https://lacity.primegov.com{url}"
-                    html += f"""                    <li><a href="{full_url}" class="doc-link" target="_blank">{title_text}</a></li>
-"""
-                else:
-                    html += f"""                    <li>{title_text}</li>
+                title_text = attachment.get('title', 'Untitled Document')
+                download_url = attachment.get('downloadUrl', '')
+                preview_url = attachment.get('previewUrl')
+
+                html += f"""                    <div class="doc-item">
+                        <span class="doc-title">{title_text}</span>
+                        <div class="doc-links">"""
+
+                if preview_url:
+                    full_preview_url = f"https://lacity.primegov.com{preview_url}"
+                    html += f"""
+                            <a href="{full_preview_url}" class="doc-action view-action" target="_blank">View</a>"""
+
+                if download_url:
+                    full_download_url = f"https://lacity.primegov.com{download_url}"
+                    html += f"""
+                            <a href="{full_download_url}" class="doc-action download-action" target="_blank">Download</a>"""
+
+                html += """
+                        </div>
+                    </div>
 """
 
-            html += """                </ul>
+            html += """                </div>
             </details>
         </section>
 """

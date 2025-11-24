@@ -256,18 +256,57 @@
         .attachment-list {
             margin-top: 0.5rem;
             padding-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
 
-        .attachment-list a {
-            display: block;
+        .document-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .document-title {
             font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.25rem 0;
+            color: #1a1a1a;
+            font-weight: 500;
         }
 
-        .attachment-list a:hover {
-            text-decoration: underline;
+        .document-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .document-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.25rem 0.625rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .document-action.view {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .document-action.view:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .document-action.download {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .document-action.download:hover {
+            background: #0052a3;
+            border-color: #0052a3;
         }
 
         .empty-section {
@@ -380,16 +419,32 @@
 
                     {% if item.attachments %}
                     <details class="item-attachments">
-                        <summary>Attachments ({{ item.attachments|length }})</summary>
+                        <summary>Documents ({{ item.attachments|length }})</summary>
                         <div class="attachment-list">
-                            {% for attachment in item.attachments %}
-                            <a href="https://lacity.primegov.com{{ attachment.url }}"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="{{ item.item_id }}">
-                                {{ attachment.text }}
-                            </a>
+                            {% for doc in item.attachments %}
+                            <div class="document-item">
+                                <span class="document-title">{{ doc.title }}</span>
+                                <div class="document-links">
+                                    {% if doc.previewUrl %}
+                                    <a href="https://lacity.primegov.com{{ doc.previewUrl }}"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="{{ item.item_id }}">
+                                        View
+                                    </a>
+                                    {% endif %}
+                                    <a href="https://lacity.primegov.com{{ doc.downloadUrl }}"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="{{ item.item_id }}">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             {% endfor %}
                         </div>
                     </details>

@@ -1,7 +1,7 @@
 {
   "meeting_id": 17432,
   "template_id": 147181,
-  "parsed_at": "2025-11-19T14:49:57.704024",
+  "parsed_at": "2025-11-24T14:22:36.471728",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147181",
   "sections": [
     {
@@ -46,20 +46,16 @@
           "mig": "358b6d88-833d-462c-83ac-11e6f92c7b2b",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=8853072d-7887-4479-adcc-e22e882b3c98"
+              "historyId": "8853072d-7887-4479-adcc-e22e882b3c98",
+              "title": "Communication from Department of Building and Safety dated 8-12-25 - Updated Reports",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8853072d-7887-4479-adcc-e22e882b3c98",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8853072d-7887-4479-adcc-e22e882b3c98"
             },
             {
-              "text": "Communication from Department of Building and Safety dated 8-12-25 - Updated Reports",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8853072d-7887-4479-adcc-e22e882b3c98"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=236a8a3f-295b-44f2-a131-c5e1f003f55c"
-            },
-            {
-              "text": "Report from Department of Building and Safety dated 4-11-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=236a8a3f-295b-44f2-a131-c5e1f003f55c"
+              "historyId": "236a8a3f-295b-44f2-a131-c5e1f003f55c",
+              "title": "Report from Department of Building and Safety dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=236a8a3f-295b-44f2-a131-c5e1f003f55c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=236a8a3f-295b-44f2-a131-c5e1f003f55c"
             }
           ]
         }
@@ -81,20 +77,16 @@
           "mig": "34cccfad-d1b4-4689-8296-6e31a7a84242",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=18deece7-1ad6-4ae1-8100-561533e811ad"
+              "historyId": "18deece7-1ad6-4ae1-8100-561533e811ad",
+              "title": "Personnel and Hiring Committee Report 11-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=18deece7-1ad6-4ae1-8100-561533e811ad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=18deece7-1ad6-4ae1-8100-561533e811ad"
             },
             {
-              "text": "Personnel and Hiring Committee Report 11-5-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=18deece7-1ad6-4ae1-8100-561533e811ad"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
-            },
-            {
-              "text": "Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
+              "historyId": "b3572fc0-5ca8-4cf8-af0c-e56cf9930f32",
+              "title": "Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
             }
           ]
         },
@@ -110,20 +102,16 @@
           "mig": "4bd98265-37de-46c9-892c-336c2e0ef5bd",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
+              "historyId": "3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+              "title": "Joint Report from Public Works and Transportation Committees 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
             },
             {
-              "text": "Joint Report from Public Works and Transportation Committees 10-22-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
-            },
-            {
-              "text": "Motion (Rodriguez - Hernandez) dated 9-10-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
+              "historyId": "e9f24c1e-c386-4067-a67d-a9249f13ff2f",
+              "title": "Motion (Rodriguez - Hernandez) dated 9-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
             }
           ]
         },
@@ -139,52 +127,40 @@
           "mig": "8e1ebecc-ae19-48bc-b445-d2ce691d0d7c",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=11499e57-42bd-47c6-a841-d90bcbcab328"
+              "historyId": "11499e57-42bd-47c6-a841-d90bcbcab328",
+              "title": "Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=11499e57-42bd-47c6-a841-d90bcbcab328"
             },
             {
-              "text": "Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328"
+              "historyId": "1098ca69-1573-4f61-92f0-3d2e1e5b4788",
+              "title": "Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+              "historyId": "387dac89-5c99-462f-994b-8fafa50b384e",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=387dac89-5c99-462f-994b-8fafa50b384e"
             },
             {
-              "text": "Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+              "historyId": "a109b85c-98f2-4c77-a97a-afc12ef6e894",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a109b85c-98f2-4c77-a97a-afc12ef6e894"
             },
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=387dac89-5c99-462f-994b-8fafa50b384e"
+              "historyId": "6af65d3f-2457-466d-8937-132ffb0d8b5c",
+              "title": "Report from Public Works Committee_9-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6af65d3f-2457-466d-8937-132ffb0d8b5c"
             },
             {
-              "text": "Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=a109b85c-98f2-4c77-a97a-afc12ef6e894"
-            },
-            {
-              "text": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=6af65d3f-2457-466d-8937-132ffb0d8b5c"
-            },
-            {
-              "text": "Report from Public Works Committee_9-10-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c"
-            },
-            {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=8fa7e061-6ad8-47c0-9840-8395595a204c"
-            },
-            {
-              "text": "Motion (Hutt - Nazarian) dated 8-20-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c"
+              "historyId": "8fa7e061-6ad8-47c0-9840-8395595a204c",
+              "title": "Motion (Hutt - Nazarian) dated 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8fa7e061-6ad8-47c0-9840-8395595a204c"
             }
           ]
         },
@@ -199,12 +175,10 @@
           "mig": "ce90e477-bed8-47b3-abf4-1675384430d2",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=eff8d461-d50a-41d3-a246-c8e5347c6988"
-            },
-            {
-              "text": "Report from Mayor dated 10-24-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988"
+              "historyId": "eff8d461-d50a-41d3-a246-c8e5347c6988",
+              "title": "Report from Mayor dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eff8d461-d50a-41d3-a246-c8e5347c6988"
             }
           ]
         }
@@ -227,12 +201,10 @@
           "mig": "db9f03cd-104b-4201-b7f9-f55237d34037",
           "attachments": [
             {
-              "text": "Attachment",
-              "url": "/viewer/preview?id=0&type=8&uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
-            },
-            {
-              "text": "Report from Board of Public Works dated 11-10-25",
-              "url": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
+              "historyId": "ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+              "title": "Report from Board of Public Works dated 11-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
             }
           ]
         }

@@ -219,9 +219,19 @@ class AgendaParser:
         return None
 
     def _extract_attachments(self, item_cell: Tag) -> List[Dict]:
-        """Extract attachment links from item cell."""
-        attachments = []
+        """
+        Extract attachment links from item cell and group them as documents.
+        Each document has a preview link and a download link with the same historyId.
+
+        Returns:
+            List of documents, each with historyId, title, previewUrl, and downloadUrl
+        """
+        documents = []
         links = item_cell.find_all('a', href=True)
+
+        # First pass: collect all links
+        preview_links = {}  # uuid -> preview url
+        download_links = {}  # uuid -> {url, text}
 
         for link in links:
             href = link.get('href', '')
@@ -231,12 +241,38 @@ class AgendaParser:
             if not href or len(href) < 5:
                 continue
 
-            attachments.append({
-                'text': text if text else 'Attachment',
-                'url': href
-            })
+            # Check if this is a preview link
+            if '/viewer/preview?' in href and 'uid=' in href:
+                # Extract UUID from preview URL
+                import re
+                match = re.search(r'uid=([a-f0-9\-]+)', href)
+                if match:
+                    uuid = match.group(1)
+                    preview_links[uuid] = href
 
-        return attachments
+            # Check if this is a download link
+            elif 'historyId=' in href:
+                # Extract historyId from download URL
+                import re
+                match = re.search(r'historyId=([a-f0-9\-]+)', href)
+                if match:
+                    uuid = match.group(1)
+                    download_links[uuid] = {
+                        'url': href,
+                        'text': text if text else 'Document'
+                    }
+
+        # Second pass: pair up preview and download links
+        for uuid, download_info in download_links.items():
+            document = {
+                'historyId': uuid,
+                'title': download_info['text'],
+                'downloadUrl': download_info['url'],
+                'previewUrl': preview_links.get(uuid)  # May be None if no preview
+            }
+            documents.append(document)
+
+        return documents
 
     def _extract_meeting_datetime(self) -> Optional[str]:
         """

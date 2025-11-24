@@ -256,18 +256,57 @@
         .attachment-list {
             margin-top: 0.5rem;
             padding-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
 
-        .attachment-list a {
-            display: block;
+        .document-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .document-title {
             font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.25rem 0;
+            color: #1a1a1a;
+            font-weight: 500;
         }
 
-        .attachment-list a:hover {
-            text-decoration: underline;
+        .document-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .document-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.25rem 0.625rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .document-action.view {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .document-action.view:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .document-action.download {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .document-action.download:hover {
+            background: #0052a3;
+            border-color: #0052a3;
         }
 
         .empty-section {
@@ -402,40 +441,56 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (4)</summary>
+                        <summary>Documents (2)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8853072d-7887-4479-adcc-e22e882b3c98"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155866">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Communication from Department of Building and Safety dated 8-12-25 - Updated Reports</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8853072d-7887-4479-adcc-e22e882b3c98"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155866">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8853072d-7887-4479-adcc-e22e882b3c98"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155866">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8853072d-7887-4479-adcc-e22e882b3c98"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155866">
-                                Communication from Department of Building and Safety dated 8-12-25 - Updated Reports
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=236a8a3f-295b-44f2-a131-c5e1f003f55c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155866">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=236a8a3f-295b-44f2-a131-c5e1f003f55c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="155866">
-                                Report from Department of Building and Safety dated 4-11-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Department of Building and Safety dated 4-11-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=236a8a3f-295b-44f2-a131-c5e1f003f55c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="155866">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=236a8a3f-295b-44f2-a131-c5e1f003f55c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="155866">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -482,40 +537,56 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (4)</summary>
+                        <summary>Documents (2)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=18deece7-1ad6-4ae1-8100-561533e811ad"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156495">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Personnel and Hiring Committee Report 11-5-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=18deece7-1ad6-4ae1-8100-561533e811ad"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156495">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=18deece7-1ad6-4ae1-8100-561533e811ad"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156495">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=18deece7-1ad6-4ae1-8100-561533e811ad"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156495">
-                                Personnel and Hiring Committee Report 11-5-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156495">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156495">
-                                Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Motion (Yaroslavsky, Raman - Jurado) dated 10-17-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156495">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3572fc0-5ca8-4cf8-af0c-e56cf9930f32"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156495">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -552,40 +623,56 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (4)</summary>
+                        <summary>Documents (2)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156496">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Joint Report from Public Works and Transportation Committees 10-22-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156496">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156496">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156496">
-                                Joint Report from Public Works and Transportation Committees 10-22-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156496">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156496">
-                                Motion (Rodriguez - Hernandez) dated 9-10-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Motion (Rodriguez - Hernandez) dated 9-10-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156496">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156496">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -622,104 +709,152 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (12)</summary>
+                        <summary>Documents (6)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=11499e57-42bd-47c6-a841-d90bcbcab328"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=11499e57-42bd-47c6-a841-d90bcbcab328"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=387dac89-5c99-462f-994b-8fafa50b384e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a109b85c-98f2-4c77-a97a-afc12ef6e894"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=387dac89-5c99-462f-994b-8fafa50b384e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Public Works Committee_9-10-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6af65d3f-2457-466d-8937-132ffb0d8b5c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a109b85c-98f2-4c77-a97a-afc12ef6e894"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6af65d3f-2457-466d-8937-132ffb0d8b5c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Report from Public Works Committee_9-10-25
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8fa7e061-6ad8-47c0-9840-8395595a204c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156506">
-                                Motion (Hutt - Nazarian) dated 8-20-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Motion (Hutt - Nazarian) dated 8-20-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8fa7e061-6ad8-47c0-9840-8395595a204c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156506">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156506">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -751,24 +886,32 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (2)</summary>
+                        <summary>Documents (1)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eff8d461-d50a-41d3-a246-c8e5347c6988"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156564">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156564">
-                                Report from Mayor dated 10-24-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Mayor dated 10-24-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eff8d461-d50a-41d3-a246-c8e5347c6988"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156564">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8d461-d50a-41d3-a246-c8e5347c6988"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156564">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -817,24 +960,32 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
 
                     
                     <details class="item-attachments">
-                        <summary>Attachments (2)</summary>
+                        <summary>Documents (1)</summary>
                         <div class="attachment-list">
                             
-                            <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156682">
-                                Attachment
-                            </a>
-                            
-                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
-                               target="_blank"
-                               rel="noopener"
-                               data-plausible-event="attachment-click"
-                               data-item-id="156682">
-                                Report from Board of Public Works dated 11-10-25
-                            </a>
+                            <div class="document-item">
+                                <span class="document-title">Report from Board of Public Works dated 11-10-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156682">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156682">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
                             
                         </div>
                     </details>
@@ -860,7 +1011,7 @@ The council confirmed a new fire chief and spent most of the meeting on ceremoni
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-11-21 11:57:22</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-24 14:29:15</p>
         </div>
     </footer>
 
