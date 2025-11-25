@@ -142,14 +142,14 @@ def get_brief_summary(council_file_data):
     return None
 
 def format_meeting_date(date_str):
-    """Format meeting date from ISO format to readable format."""
+    """Format meeting date from ISO format to readable format (date only, no time)."""
     if not date_str:
         return "Date TBD"
 
     try:
         # Try parsing ISO format
         dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-        return dt.strftime("%B %d, %Y at %I:%M %p")
+        return dt.strftime("%B %d, %Y")
     except:
         return date_str
 
