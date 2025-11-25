@@ -1,0 +1,620 @@
+{
+  "meeting_id": 17528,
+  "template_id": 148051,
+  "parsed_at": "2025-11-24T23:01:37.233093",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148051",
+  "sections": [
+    {
+      "section_id": "358252",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "358253",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "358254",
+      "title": "Capital planning and infrastructure",
+      "items": [
+        {
+          "item_id": "156573",
+          "item_number": "(1)",
+          "has_attachments": false,
+          "raw_text": "-----\nVerbal presentation from the Mayor’s Office relative to the City’s Capital Planning process, including updates on the Capital Improvement Plan, Executive Directive 9, and the Capital Planning Steering Committee.",
+          "title": "Verbal presentation from the Mayor’s Office relative to the City’s Capital Planning process, including updates on the Capital Improvement Plan, Executive Directive 9, and the Capital Planning Steering Committee.",
+          "mig": "05d30bcb-7a2b-454e-ab33-830f7228acb1"
+        },
+        {
+          "item_id": "156569",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "19-1353-S3\nCity Administrative Officer report relative to the annual Five-Year Capital and Technology Improvement Plan Book for Municipal Facilities and Information Technology.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 8-28-25",
+          "council_file": "19-1353-S3",
+          "title": "City Administrative Officer report relative to the annual Five-Year Capital and Technology Improvement Plan Book for Municipal Facilities and Information Technology.",
+          "mig": "58d05da7-3743-42e5-ac1d-83a07608a0ae",
+          "attachments": [
+            {
+              "historyId": "ee514dca-e69c-4844-ba5e-ab0524885fc9",
+              "title": "Report from City Administrative Officer dated 8-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee514dca-e69c-4844-ba5e-ab0524885fc9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ee514dca-e69c-4844-ba5e-ab0524885fc9"
+            }
+          ]
+        },
+        {
+          "item_id": "156570",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1141\nMotion (Price – Hernandez, Nazarian) relative to a citywide tree replacement strategy.\nCommunity Impact Statement:\nYes\nFor:\nWestside Neighborhood Council\nFor if Amended:\nLos Feliz Neighborhood Council\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_11-4-25\nCommunity Impact Statement submitted by Westside Neighborhood Council_10-09-2025\nMotion (Price - Hernandez, Nazarian) dated 9-30-25",
+          "council_file": "25-1141",
+          "title": "Motion (Price – Hernandez, Nazarian) relative to a citywide tree replacement strategy.",
+          "mig": "6aae31ba-117c-41b0-a510-2b22b74814fe",
+          "attachments": [
+            {
+              "historyId": "65a0a105-319c-41fc-8141-0b235f5ccb22",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_11-4-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65a0a105-319c-41fc-8141-0b235f5ccb22",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=65a0a105-319c-41fc-8141-0b235f5ccb22"
+            },
+            {
+              "historyId": "da06d62c-0f32-4123-a923-a36c20bc3bba",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_10-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=da06d62c-0f32-4123-a923-a36c20bc3bba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=da06d62c-0f32-4123-a923-a36c20bc3bba"
+            },
+            {
+              "historyId": "8032c780-e2be-4dd5-a17e-b168fdb6c818",
+              "title": "Motion (Price - Hernandez, Nazarian) dated 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8032c780-e2be-4dd5-a17e-b168fdb6c818",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8032c780-e2be-4dd5-a17e-b168fdb6c818"
+            }
+          ]
+        },
+        {
+          "item_id": "156571",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0962\nMotion (Nazarian – Padilla) relative to a collaboration with ShadeLA on shade expansion, tracking tree-planting efforts, Sidewalk and Transit Amenities Program impacts, and related matters.\n(This item was referred to Energy and Environment Committee, Public Works Committee, and Ad Hoc Committee on the 2028 Olympic and Paralympic Games. On October 21, 2025, the Energy and Environment Committee approved this item as amended)\nCommunity Impact Statement:\nYes\nAgainst Unless Amended:\nPalms Neighborhood Council.\nCommunity Impact Statement submitted by Palms Neighborhood Council_9-5-25\nMotion (Nazarian - Padilla) dated 8-19-25",
+          "council_file": "25-0962",
+          "title": "Motion (Nazarian – Padilla) relative to a collaboration with ShadeLA on shade expansion, tracking tree-planting efforts, Sidewalk and Transit Amenities Program impacts, and related matters.",
+          "mig": "19e0458c-5503-4117-a12e-11668ea7f1dd",
+          "attachments": [
+            {
+              "historyId": "e14727b2-eade-4a86-82c3-797c43dd84af",
+              "title": "Community Impact Statement submitted by Palms Neighborhood Council_9-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e14727b2-eade-4a86-82c3-797c43dd84af",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e14727b2-eade-4a86-82c3-797c43dd84af"
+            },
+            {
+              "historyId": "d3912440-ded3-44aa-ac0f-3477e76d1ceb",
+              "title": "Motion (Nazarian - Padilla) dated 8-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3912440-ded3-44aa-ac0f-3477e76d1ceb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d3912440-ded3-44aa-ac0f-3477e76d1ceb"
+            }
+          ]
+        },
+        {
+          "item_id": "156572",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1139\nMotion (Rodriguez, Hernandez – Jurado) relative to designating the intersection of North Spring Street and West Ann Street as “Bruce Saito Square.\"\nCommunity Impact Statement:\nNone submitted\nMotion (Rodriguez, Hernandez - Jurado) dated 9-30-25",
+          "council_file": "25-1139",
+          "title": "Motion (Rodriguez, Hernandez – Jurado) relative to designating the intersection of North Spring Street and West Ann Street as “Bruce Saito Square.\"",
+          "mig": "5631c2ff-e15b-4a70-b994-d3f7d8be7d69",
+          "attachments": [
+            {
+              "historyId": "578abf47-b531-4c56-aaf2-2e9810430600",
+              "title": "Motion (Rodriguez, Hernandez - Jurado) dated 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=578abf47-b531-4c56-aaf2-2e9810430600",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=578abf47-b531-4c56-aaf2-2e9810430600"
+            }
+          ]
+        },
+        {
+          "item_id": "156574",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0176\nCD 2, CD 4, CD 6\nBoard of Public Works report relative to Los Angeles County Metropolitan Transportation Authority G-Line Bus Rapid Transit Improvements Project.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Public Works dated 2-14-25",
+          "council_file": "25-0176",
+          "district": "CD 2",
+          "title": "CD 2, CD 4, CD 6",
+          "mig": "8b4339d3-de0e-4070-b816-beb2fc7f8499",
+          "attachments": [
+            {
+              "historyId": "48365a6d-8f63-48be-8035-3045145caedd",
+              "title": "Report from Board of Public Works dated 2-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48365a6d-8f63-48be-8035-3045145caedd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48365a6d-8f63-48be-8035-3045145caedd"
+            }
+          ]
+        },
+        {
+          "item_id": "156575",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-0822\nCD 13\nMotion (Soto-Martínez – Yaroslavsky) relative to issuing a Revocable Permit for the construction of permanent improvements within the public right-of-way at Moss Avenue from Fletcher Drive to its southeasterly terminus joining Roswell Street to the intersection of Estara Avenue prior to the adoption of the Street Vacation (VAC-E1401463).\nCommunity Impact Statement:\nNone submitted\nMotion (Soto-Martinez - Yaroslavsky) dated 10-07-25\nCouncil Action dated 8-15-25\nSpeaker Card(s)_08-12-2025\nReport from Bureau of Engineering dated 6-23-25\nAttachment to Report dated 6-23-25 - Application\nAttachment to Report dated 6-23-25 - Exhibit A",
+          "council_file": "25-0822",
+          "district": "CD 13",
+          "title": "Motion (Soto-Martínez – Yaroslavsky) relative to issuing a Revocable Permit for the construction of permanent improvements within the public right-of-way at Moss Avenue from Fletcher Drive to its southeasterly terminus joining Roswell Street to the intersection of Estara Avenue prior to the adoption of the Street Vacation (VAC-E1401463).",
+          "mig": "ee139260-d244-421c-aaa3-67ae953bdc5c",
+          "attachments": [
+            {
+              "historyId": "6dc4d091-f65d-4d53-ac79-3881710294be",
+              "title": "Motion (Soto-Martinez - Yaroslavsky) dated 10-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6dc4d091-f65d-4d53-ac79-3881710294be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6dc4d091-f65d-4d53-ac79-3881710294be"
+            },
+            {
+              "historyId": "2079e5d2-fbb6-4d97-b37c-f9a830b29f16",
+              "title": "Council Action dated 8-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2079e5d2-fbb6-4d97-b37c-f9a830b29f16",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2079e5d2-fbb6-4d97-b37c-f9a830b29f16"
+            },
+            {
+              "historyId": "20d3bb19-faba-4e7d-a987-221d20d41e21",
+              "title": "Speaker Card(s)_08-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20d3bb19-faba-4e7d-a987-221d20d41e21",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20d3bb19-faba-4e7d-a987-221d20d41e21"
+            },
+            {
+              "historyId": "c995f3f2-3f50-426d-be3a-e6a1878a59cf",
+              "title": "Report from Bureau of Engineering dated 6-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c995f3f2-3f50-426d-be3a-e6a1878a59cf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c995f3f2-3f50-426d-be3a-e6a1878a59cf"
+            },
+            {
+              "historyId": "30644662-f12e-414e-9e38-0ff90c39c510",
+              "title": "Attachment to Report dated 6-23-25 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=30644662-f12e-414e-9e38-0ff90c39c510",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=30644662-f12e-414e-9e38-0ff90c39c510"
+            },
+            {
+              "historyId": "3602e072-161c-4599-a405-80f516acca80",
+              "title": "Attachment to Report dated 6-23-25 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3602e072-161c-4599-a405-80f516acca80",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3602e072-161c-4599-a405-80f516acca80"
+            }
+          ]
+        },
+        {
+          "item_id": "156576",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "24-0806-S1\nCD 9\nMotion (Price - Hutt) relative to the expansion of the South Los Angeles Greenway to include Avalon Boulevard, from Jefferson Boulevard to Slauson Avenue, and Martin Luther King Jr. Boulevard, from the 110 Freeway to Central Avenue.\nCommunity Impact Statement:\nNone submitted\nMotion (Price - Hutt) dated 8-08-25",
+          "council_file": "24-0806-S1",
+          "district": "CD 9",
+          "title": "Motion (Price - Hutt) relative to the expansion of the South Los Angeles Greenway to include Avalon Boulevard, from Jefferson Boulevard to Slauson Avenue, and Martin Luther King Jr. Boulevard, from the 110 Freeway to Central Avenue.",
+          "mig": "47920286-8c44-4ea5-8263-9698a2ca3972",
+          "attachments": [
+            {
+              "historyId": "5a27b0c0-1fc9-4adf-9103-75e5b8e94f87",
+              "title": "Motion (Price - Hutt) dated 8-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a27b0c0-1fc9-4adf-9103-75e5b8e94f87",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a27b0c0-1fc9-4adf-9103-75e5b8e94f87"
+            }
+          ]
+        },
+        {
+          "item_id": "156577",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1201\nMotion (Lee – Hernandez) relative to the status and improvements to the Special Events Permit.\nMotion (Lee - Hernandez) dated 10-15-25",
+          "council_file": "25-1201",
+          "title": "Motion (Lee – Hernandez) relative to the status and improvements to the Special Events Permit.",
+          "mig": "6f930f9d-fd33-448c-94b2-6c3f2ad76d3e",
+          "attachments": [
+            {
+              "historyId": "9d82797f-42f9-46d8-9c8e-42c89ee59e68",
+              "title": "Motion (Lee - Hernandez) dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d82797f-42f9-46d8-9c8e-42c89ee59e68",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d82797f-42f9-46d8-9c8e-42c89ee59e68"
+            }
+          ]
+        },
+        {
+          "item_id": "156578",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "23-1027-S11\nMotion (Rodriguez – Hernandez) relative to streamlining the use of alternative project delivery methods for City projects.\n(Referred to Public Works Committee and Rules, Elections and Intergovernmental Relations Committee)\nCommunity Impact Statement:\nNone submitted\nMotion (Rodriguez - Hernandez) dated 8-19-25",
+          "council_file": "23-1027-S11",
+          "title": "Motion (Rodriguez – Hernandez) relative to streamlining the use of alternative project delivery methods for City projects.",
+          "mig": "67ba3edc-e6da-4bfd-b7aa-c46720d29c3f",
+          "attachments": [
+            {
+              "historyId": "95029a10-029d-462f-bcbb-f828fb3fd6ae",
+              "title": "Motion (Rodriguez - Hernandez) dated 8-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95029a10-029d-462f-bcbb-f828fb3fd6ae",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95029a10-029d-462f-bcbb-f828fb3fd6ae"
+            }
+          ]
+        },
+        {
+          "item_id": "156579",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "24-0876\nCD 11\nEnvironmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of Century Boulevard from Sepulveda Boulevard to its westerly terminus at Sky Way and a westerly portion of Sepulveda Boulevard (VAC- E1401444).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Bureau of Engineering dated 10-07-25\nAttachment to Report dated 10-07-25 - Memo in Lieu of ATMP MMRP\nAttachment to Report dated 10-07-25 - CEQA Review Memo\nAttachment to Report dated 10-07-25 - Statement of Overriding Considerations\nAttachment to Report dated 10-07-25 - Memo in lieu of DEIR and EIR LAMP\nAttachment to Report dated 10-07-25 - Memo in lieu of DEIR and EIR ATMP\nAttachment to Report dated 10-07-25 - Memo in lieu of Addendum to the ATMP EIR\nAttachment to Report dated 10-07-25 - Application\nAttachment to Report dated 10-07-25  - Memo in lieu of LAMP MMRP\nAttachment to Report dated 10-07-25 - Exhibit A\nAttachment to Report dated 10-07-25 - Statement of Overriding Considerations\nCommunity Impact Statement submitted by Sun Valley Area Neighborhood Council_08-22-2024\nReport from Bureau of Engineering dated 07-23-24\nCouncil Action dated 8-19-24\nSpeaker Card(s)_08-16-2024\nAttachment to Report dated 07-23-24 - Application\nAttachment to Report dated 07-23-24 - Exhibit A",
+          "council_file": "24-0876",
+          "district": "CD 11",
+          "title": "Environmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of Century Boulevard from Sepulveda Boulevard to its westerly terminus at Sky Way and a westerly portion of Sepulveda Boulevard (VAC- E1401444).",
+          "mig": "6dfb273c-fca4-4ab4-9656-d3818cc82034",
+          "attachments": [
+            {
+              "historyId": "2233839a-a4c7-46b7-ba02-5e37182955f0",
+              "title": "Report from Bureau of Engineering dated 10-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2233839a-a4c7-46b7-ba02-5e37182955f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2233839a-a4c7-46b7-ba02-5e37182955f0"
+            },
+            {
+              "historyId": "c98d0eb3-5f6c-4312-a06d-df934080b777",
+              "title": "Attachment to Report dated 10-07-25 - Memo in Lieu of ATMP MMRP",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c98d0eb3-5f6c-4312-a06d-df934080b777",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c98d0eb3-5f6c-4312-a06d-df934080b777"
+            },
+            {
+              "historyId": "c552360d-b904-420f-abd3-8d97a751e91c",
+              "title": "Attachment to Report dated 10-07-25 - CEQA Review Memo",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c552360d-b904-420f-abd3-8d97a751e91c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c552360d-b904-420f-abd3-8d97a751e91c"
+            },
+            {
+              "historyId": "685e5908-1066-4b24-a063-7e8f7c9b66c6",
+              "title": "Attachment to Report dated 10-07-25 - Statement of Overriding Considerations",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=685e5908-1066-4b24-a063-7e8f7c9b66c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=685e5908-1066-4b24-a063-7e8f7c9b66c6"
+            },
+            {
+              "historyId": "93bf402c-35ba-4226-b763-e7f5a5d8a1c2",
+              "title": "Attachment to Report dated 10-07-25 - Memo in lieu of DEIR and EIR LAMP",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=93bf402c-35ba-4226-b763-e7f5a5d8a1c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=93bf402c-35ba-4226-b763-e7f5a5d8a1c2"
+            },
+            {
+              "historyId": "48f8d5ea-f9a4-48cb-996c-281d36f8f149",
+              "title": "Attachment to Report dated 10-07-25 - Memo in lieu of DEIR and EIR ATMP",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48f8d5ea-f9a4-48cb-996c-281d36f8f149",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48f8d5ea-f9a4-48cb-996c-281d36f8f149"
+            },
+            {
+              "historyId": "b496a612-13b9-4783-9658-19360ee8f737",
+              "title": "Attachment to Report dated 10-07-25 - Memo in lieu of Addendum to the ATMP EIR",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b496a612-13b9-4783-9658-19360ee8f737",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b496a612-13b9-4783-9658-19360ee8f737"
+            },
+            {
+              "historyId": "f84db106-fb05-4acd-a4b7-e78622df025f",
+              "title": "Attachment to Report dated 10-07-25 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f84db106-fb05-4acd-a4b7-e78622df025f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f84db106-fb05-4acd-a4b7-e78622df025f"
+            },
+            {
+              "historyId": "f122e25b-7803-4cbd-8311-972a0496d6d3",
+              "title": "Attachment to Report dated 10-07-25  - Memo in lieu of LAMP MMRP",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f122e25b-7803-4cbd-8311-972a0496d6d3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f122e25b-7803-4cbd-8311-972a0496d6d3"
+            },
+            {
+              "historyId": "6d871625-3900-4bf6-b809-41c1c37a27eb",
+              "title": "Attachment to Report dated 10-07-25 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d871625-3900-4bf6-b809-41c1c37a27eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d871625-3900-4bf6-b809-41c1c37a27eb"
+            },
+            {
+              "historyId": "f8791bc7-2338-463c-a641-1e67c3b6160c",
+              "title": "Attachment to Report dated 10-07-25 - Statement of Overriding Considerations",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8791bc7-2338-463c-a641-1e67c3b6160c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f8791bc7-2338-463c-a641-1e67c3b6160c"
+            },
+            {
+              "historyId": "86196346-f9cb-4369-a459-68aad14da95d",
+              "title": "Community Impact Statement submitted by Sun Valley Area Neighborhood Council_08-22-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86196346-f9cb-4369-a459-68aad14da95d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86196346-f9cb-4369-a459-68aad14da95d"
+            },
+            {
+              "historyId": "78162f20-38d4-4d89-882b-2d811f862658",
+              "title": "Report from Bureau of Engineering dated 07-23-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=78162f20-38d4-4d89-882b-2d811f862658",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=78162f20-38d4-4d89-882b-2d811f862658"
+            },
+            {
+              "historyId": "4d071fac-c604-4dd7-9d3f-7bdae2e6b7de",
+              "title": "Council Action dated 8-19-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d071fac-c604-4dd7-9d3f-7bdae2e6b7de",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4d071fac-c604-4dd7-9d3f-7bdae2e6b7de"
+            },
+            {
+              "historyId": "d6ac83c0-c7c3-436d-8919-1067349ca1a3",
+              "title": "Speaker Card(s)_08-16-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6ac83c0-c7c3-436d-8919-1067349ca1a3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d6ac83c0-c7c3-436d-8919-1067349ca1a3"
+            },
+            {
+              "historyId": "c8448702-ba9e-48f3-bfea-a45eb0a49ccc",
+              "title": "Attachment to Report dated 07-23-24 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c8448702-ba9e-48f3-bfea-a45eb0a49ccc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c8448702-ba9e-48f3-bfea-a45eb0a49ccc"
+            },
+            {
+              "historyId": "0966645e-fba2-4867-9047-43574fa130fd",
+              "title": "Attachment to Report dated 07-23-24 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0966645e-fba2-4867-9047-43574fa130fd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0966645e-fba2-4867-9047-43574fa130fd"
+            }
+          ]
+        },
+        {
+          "item_id": "156580",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "24-1499\nCD 11\nEnvironmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of 96th Street from Sepulveda Boulevard to its westerly terminus, approximately 410-feet variable width strip of land westerly of Sepulveda Boulevard, and the portion of ramp westerly of Sepulveda Boulevard northerly of 96th Street (VAC- E1401445).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Bureau of Engineering dated 10-15-25\nAttachment to Report dated 10-15-25 - Airfield and Terminal Modernization Project\nAttachment to Report dated 10-15-25 - Mitigation Monitoring and Reporting Program\nAttachment to Report dated 10-15-25 - Statement of Overriding Considerations\nAttachment to Report dated 10-15-25 - Notice of Determination\nAttachment to Report dated 10-15-25 - CEQA Review\nAttachment to Report dated 10-15-25 - Airfield and Terminal Modernization Project Addendum\nAttachment to Report dated 10-15-25 - Exhibit A\nAttachment to Report dated 10-15-25 - Application\nCouncil Action dated 12-11-24\nSpeaker Card(s)_12-10-2024\nReport from Bureau of Engineering dated 11-26-24\nAttachment to Report dated 11-26-24 - Application\nAttachment to Report dated 11-26-24 - Exhibit A",
+          "council_file": "24-1499",
+          "district": "CD 11",
+          "title": "Environmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of 96th Street from Sepulveda Boulevard to its westerly terminus, approximately 410-feet variable width strip of land westerly of Sepulveda Boulevard, and the portion of ramp westerly of Sepulveda Boulevard northerly of 96th Street (VAC- E1401445).",
+          "mig": "dbbb855b-7d03-4607-97e4-43d252e4f22b",
+          "attachments": [
+            {
+              "historyId": "6bf6762f-21e3-464e-9445-64d16efdcafd",
+              "title": "Report from Bureau of Engineering dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6bf6762f-21e3-464e-9445-64d16efdcafd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6bf6762f-21e3-464e-9445-64d16efdcafd"
+            },
+            {
+              "historyId": "a475146a-f5d3-48d9-90cf-6e04fceb1c2d",
+              "title": "Attachment to Report dated 10-15-25 - Airfield and Terminal Modernization Project",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a475146a-f5d3-48d9-90cf-6e04fceb1c2d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a475146a-f5d3-48d9-90cf-6e04fceb1c2d"
+            },
+            {
+              "historyId": "303d877b-2533-4749-8b4f-a413ffc17598",
+              "title": "Attachment to Report dated 10-15-25 - Mitigation Monitoring and Reporting Program",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=303d877b-2533-4749-8b4f-a413ffc17598",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=303d877b-2533-4749-8b4f-a413ffc17598"
+            },
+            {
+              "historyId": "2a322264-7a1e-41a5-86f3-ed14c3e7ee37",
+              "title": "Attachment to Report dated 10-15-25 - Statement of Overriding Considerations",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a322264-7a1e-41a5-86f3-ed14c3e7ee37",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2a322264-7a1e-41a5-86f3-ed14c3e7ee37"
+            },
+            {
+              "historyId": "207fbe56-7b91-40da-a2c9-80a7f886bcb6",
+              "title": "Attachment to Report dated 10-15-25 - Notice of Determination",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=207fbe56-7b91-40da-a2c9-80a7f886bcb6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=207fbe56-7b91-40da-a2c9-80a7f886bcb6"
+            },
+            {
+              "historyId": "34e23cc4-210d-48dc-a9c3-8620d3f50f65",
+              "title": "Attachment to Report dated 10-15-25 - CEQA Review",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=34e23cc4-210d-48dc-a9c3-8620d3f50f65",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=34e23cc4-210d-48dc-a9c3-8620d3f50f65"
+            },
+            {
+              "historyId": "2bbeb364-9b23-4707-8d3d-b1da6da2b06e",
+              "title": "Attachment to Report dated 10-15-25 - Airfield and Terminal Modernization Project Addendum",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bbeb364-9b23-4707-8d3d-b1da6da2b06e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bbeb364-9b23-4707-8d3d-b1da6da2b06e"
+            },
+            {
+              "historyId": "631c15ee-31dd-4886-a889-12be26c58a9a",
+              "title": "Attachment to Report dated 10-15-25 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=631c15ee-31dd-4886-a889-12be26c58a9a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=631c15ee-31dd-4886-a889-12be26c58a9a"
+            },
+            {
+              "historyId": "45840ed4-1ad2-4290-99c3-9c97edc24d40",
+              "title": "Attachment to Report dated 10-15-25 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=45840ed4-1ad2-4290-99c3-9c97edc24d40",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=45840ed4-1ad2-4290-99c3-9c97edc24d40"
+            },
+            {
+              "historyId": "61882b35-918f-4e82-bc0b-7db8b487b92d",
+              "title": "Council Action dated 12-11-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=61882b35-918f-4e82-bc0b-7db8b487b92d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=61882b35-918f-4e82-bc0b-7db8b487b92d"
+            },
+            {
+              "historyId": "4a35874b-8a3e-4a32-9a9f-8390771895c0",
+              "title": "Speaker Card(s)_12-10-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a35874b-8a3e-4a32-9a9f-8390771895c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4a35874b-8a3e-4a32-9a9f-8390771895c0"
+            },
+            {
+              "historyId": "3ea61f5a-9641-4507-8252-75fe3af63ce0",
+              "title": "Report from Bureau of Engineering dated 11-26-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ea61f5a-9641-4507-8252-75fe3af63ce0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ea61f5a-9641-4507-8252-75fe3af63ce0"
+            },
+            {
+              "historyId": "e0247bac-9404-4a61-86d1-21a05d9b1e0d",
+              "title": "Attachment to Report dated 11-26-24 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0247bac-9404-4a61-86d1-21a05d9b1e0d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e0247bac-9404-4a61-86d1-21a05d9b1e0d"
+            },
+            {
+              "historyId": "ecb9ae32-f787-471e-90b9-3877b3a008f7",
+              "title": "Attachment to Report dated 11-26-24 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ecb9ae32-f787-471e-90b9-3877b3a008f7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ecb9ae32-f787-471e-90b9-3877b3a008f7"
+            }
+          ]
+        },
+        {
+          "item_id": "156581",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "22-0022\nCD 8\nCity Engineer report relative to the vacation of an alley west of Broadway between 87th Street and 88th Street (re-initiation) (VAC- E1401411).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Bureau of Engineering dated 10-29-25\nAttachment to Report dated 10-29-25 - Exhibit B\nAttachment to Report dated 10-29-25 - Application\nCouncil Action dated 8-21-25\nReport from Public Works Committee_8-13-25\nSpeaker Card(s)_08-13-2025\nMotion (Harris-Dawson - Soto-Martinez) dated 1-21-25\nCouncil Action  dated 9-21-22\nSpeaker Card(s)_09-20-2022\nReport from Public Works Committee_8-10-22\nCommunication from Committee Clerk (Notice)_8-4-22\nReport from Bureau of Engineering dated 6-30-22\nAttachment to Report dated 6-30-22 - Revised Application\nAttachment to Report dated 6-30-22 - Exhibit A\nCouncil Action  dated 5-19-22\nCommunication(s) from Public_05-17-2022\n22-0022 Motion (Harris-Dawson - Blumenfield) 5-17-22\nRevised Report from Bureau of Engineering dated 3-22-22\nAttachment to Revised Report dated 3-22-22 - Application.pdf\nAttachment to Revised Report dated 3-22-22 - Exhibit A.pdf\nReport from Bureau of Engineering dated 12-01-21.pdf\nAttachment to Report dated 12-01-21 - Application.pdf\nAttachment to Report dated 12-01-21 - Exhibit A.pdf",
+          "council_file": "22-0022",
+          "district": "CD 8",
+          "title": "City Engineer report relative to the vacation of an alley west of Broadway between 87th Street and 88th Street (re-initiation) (VAC- E1401411).",
+          "mig": "a5b2fdfa-a044-4a41-8022-bfbd21dc032d",
+          "attachments": [
+            {
+              "historyId": "c5d17e7c-8cb4-40b8-991a-2612c9b05f6a",
+              "title": "Report from Bureau of Engineering dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5d17e7c-8cb4-40b8-991a-2612c9b05f6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c5d17e7c-8cb4-40b8-991a-2612c9b05f6a"
+            },
+            {
+              "historyId": "b825a4df-2e26-49c0-99d2-e57d2c82dd5d",
+              "title": "Attachment to Report dated 10-29-25 - Exhibit B",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b825a4df-2e26-49c0-99d2-e57d2c82dd5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b825a4df-2e26-49c0-99d2-e57d2c82dd5d"
+            },
+            {
+              "historyId": "839554bc-3065-49d8-853a-bff65ced4478",
+              "title": "Attachment to Report dated 10-29-25 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=839554bc-3065-49d8-853a-bff65ced4478",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=839554bc-3065-49d8-853a-bff65ced4478"
+            },
+            {
+              "historyId": "1a5e7293-b358-48a3-a600-7993727b10c4",
+              "title": "Council Action dated 8-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a5e7293-b358-48a3-a600-7993727b10c4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1a5e7293-b358-48a3-a600-7993727b10c4"
+            },
+            {
+              "historyId": "002bab61-330b-4688-b46f-91781af85df1",
+              "title": "Report from Public Works Committee_8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=002bab61-330b-4688-b46f-91781af85df1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=002bab61-330b-4688-b46f-91781af85df1"
+            },
+            {
+              "historyId": "80fe5cc5-0b65-4a12-be14-3c5108727590",
+              "title": "Speaker Card(s)_08-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=80fe5cc5-0b65-4a12-be14-3c5108727590",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=80fe5cc5-0b65-4a12-be14-3c5108727590"
+            },
+            {
+              "historyId": "e91de706-9cf4-4373-b460-d2dfff15d2ff",
+              "title": "Motion (Harris-Dawson - Soto-Martinez) dated 1-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e91de706-9cf4-4373-b460-d2dfff15d2ff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e91de706-9cf4-4373-b460-d2dfff15d2ff"
+            },
+            {
+              "historyId": "bc4c9bcc-bd19-41f6-a5fa-d6dbd96f019a",
+              "title": "Council Action  dated 9-21-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc4c9bcc-bd19-41f6-a5fa-d6dbd96f019a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bc4c9bcc-bd19-41f6-a5fa-d6dbd96f019a"
+            },
+            {
+              "historyId": "b4702345-596a-462b-8c48-c448fccef055",
+              "title": "Speaker Card(s)_09-20-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b4702345-596a-462b-8c48-c448fccef055",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b4702345-596a-462b-8c48-c448fccef055"
+            },
+            {
+              "historyId": "13bc6b80-9f6c-47f8-afd1-3a29f5ad9b49",
+              "title": "Report from Public Works Committee_8-10-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13bc6b80-9f6c-47f8-afd1-3a29f5ad9b49",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=13bc6b80-9f6c-47f8-afd1-3a29f5ad9b49"
+            },
+            {
+              "historyId": "9f139867-4c0b-4289-a4f6-fd6244931087",
+              "title": "Communication from Committee Clerk (Notice)_8-4-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f139867-4c0b-4289-a4f6-fd6244931087",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9f139867-4c0b-4289-a4f6-fd6244931087"
+            },
+            {
+              "historyId": "85bd7573-3001-4c9f-88fd-8293d47bc1a6",
+              "title": "Report from Bureau of Engineering dated 6-30-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85bd7573-3001-4c9f-88fd-8293d47bc1a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85bd7573-3001-4c9f-88fd-8293d47bc1a6"
+            },
+            {
+              "historyId": "85764bde-0ef4-4ce6-a184-f919e04a87c0",
+              "title": "Attachment to Report dated 6-30-22 - Revised Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85764bde-0ef4-4ce6-a184-f919e04a87c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85764bde-0ef4-4ce6-a184-f919e04a87c0"
+            },
+            {
+              "historyId": "f70918f3-5aaa-47a8-9947-009f2d2f013b",
+              "title": "Attachment to Report dated 6-30-22 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f70918f3-5aaa-47a8-9947-009f2d2f013b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f70918f3-5aaa-47a8-9947-009f2d2f013b"
+            },
+            {
+              "historyId": "42f4b7a5-93ec-4bab-9fff-e95c825a5d55",
+              "title": "Council Action  dated 5-19-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42f4b7a5-93ec-4bab-9fff-e95c825a5d55",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42f4b7a5-93ec-4bab-9fff-e95c825a5d55"
+            },
+            {
+              "historyId": "3d03b16e-cd46-402f-a1f6-68c62771045c",
+              "title": "Communication(s) from Public_05-17-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d03b16e-cd46-402f-a1f6-68c62771045c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d03b16e-cd46-402f-a1f6-68c62771045c"
+            },
+            {
+              "historyId": "ce2ee66f-cf6a-437a-abde-086e50d4129c",
+              "title": "22-0022 Motion (Harris-Dawson - Blumenfield) 5-17-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ce2ee66f-cf6a-437a-abde-086e50d4129c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ce2ee66f-cf6a-437a-abde-086e50d4129c"
+            },
+            {
+              "historyId": "8ae37c93-de22-481e-aa39-09a3544e8fe3",
+              "title": "Revised Report from Bureau of Engineering dated 3-22-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ae37c93-de22-481e-aa39-09a3544e8fe3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8ae37c93-de22-481e-aa39-09a3544e8fe3"
+            },
+            {
+              "historyId": "1e87b4e2-f6f0-4c96-b2fc-73c9b392dd42",
+              "title": "Attachment to Revised Report dated 3-22-22 - Application.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e87b4e2-f6f0-4c96-b2fc-73c9b392dd42",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1e87b4e2-f6f0-4c96-b2fc-73c9b392dd42"
+            },
+            {
+              "historyId": "6e5782b3-b400-437f-8dbe-4fdce08f188d",
+              "title": "Attachment to Revised Report dated 3-22-22 - Exhibit A.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e5782b3-b400-437f-8dbe-4fdce08f188d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6e5782b3-b400-437f-8dbe-4fdce08f188d"
+            },
+            {
+              "historyId": "aaa0b57c-0c30-4743-8c09-368c0e51b172",
+              "title": "Report from Bureau of Engineering dated 12-01-21.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aaa0b57c-0c30-4743-8c09-368c0e51b172",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aaa0b57c-0c30-4743-8c09-368c0e51b172"
+            },
+            {
+              "historyId": "b30834b1-2ba3-4d8b-84a2-5f297bd3de1d",
+              "title": "Attachment to Report dated 12-01-21 - Application.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b30834b1-2ba3-4d8b-84a2-5f297bd3de1d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b30834b1-2ba3-4d8b-84a2-5f297bd3de1d"
+            },
+            {
+              "historyId": "12487418-f0cc-48a3-b4e6-a07f1d3ea918",
+              "title": "Attachment to Report dated 12-01-21 - Exhibit A.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12487418-f0cc-48a3-b4e6-a07f1d3ea918",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12487418-f0cc-48a3-b4e6-a07f1d3ea918"
+            }
+          ]
+        },
+        {
+          "item_id": "156582",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-1147\nMotion (Jurado - Lee) relative to the acceptance of smartpole equipment, software, and services as part of the Cisco's Country Digitization – City of Los Angeles, Public Safety & Mobility Project.\nCommunity Impact Statement:\nNone submitted\nMotion (Jurado - Lee) dated 10-01-25",
+          "council_file": "25-1147",
+          "title": "Motion (Jurado - Lee) relative to the acceptance of smartpole equipment, software, and services as part of the Cisco's Country Digitization – City of Los Angeles, Public Safety & Mobility Project.",
+          "mig": "928e756a-71a3-49a4-af95-59fe566159f4",
+          "attachments": [
+            {
+              "historyId": "0df40c8f-81a4-4a12-8db2-db472708e439",
+              "title": "Motion (Jurado - Lee) dated 10-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0df40c8f-81a4-4a12-8db2-db472708e439",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0df40c8f-81a4-4a12-8db2-db472708e439"
+            }
+          ]
+        }
+      ],
+      "original_title": "(This item was referred to Energy and Environment Committee, Public Works Committee, and Ad Hoc Committee on the 2028 Olympic and Paralympic Games. On October 21, 2025, the Energy and Environment Committee approved this item as amended)"
+    }
+  ],
+  "total_items": 14,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-12T23:30:00",
+  "video_url": "https://www.youtube.com/watch?v=y5bJKclxmTk"
+}

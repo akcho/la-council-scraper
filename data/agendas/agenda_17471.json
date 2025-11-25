@@ -1,0 +1,570 @@
+{
+  "meeting_id": 17471,
+  "template_id": 147553,
+  "parsed_at": "2025-11-25T00:01:11.860350",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147553",
+  "sections": [
+    {
+      "section_id": "357621",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "357622",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "357623",
+      "title": "Transportation infrastructure improvements",
+      "items": [
+        {
+          "item_id": "156437",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "20-0504\nBureaus of Engineering, Street Services, and Contract Administration joint report relative to the Los Angeles County Metropolitan Transportation Authority Active Transportation Cycle 1 awarded projects.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nYes.\nNeutral Position: North Westwood Neighborhood Council\nReport from Bureaus of Engineering, Street Services, and Contract Administration 10-22-25\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_09-05-2024\nCouncil Action - Mayor Concurrence  dated 5-18-21\nCouncil Action 05_27_2020\nReport from Transportation Committee 05_22_2020\nReport from Department of Transportation 04_24_2020\nReport from Los Angeles Department of Transportation dated 5-12-21\nMayor ConcurrenceCouncil Action 05_27_2021\nReport from Department of Transportation 05_12_2021",
+          "council_file": "20-0504",
+          "title": "Bureaus of Engineering, Street Services, and Contract Administration joint report relative to the Los Angeles County Metropolitan Transportation Authority Active Transportation Cycle 1 awarded projects.",
+          "mig": "0dd3bb15-b712-4eea-8426-deafd1707341",
+          "attachments": [
+            {
+              "historyId": "c37376f2-763e-4cc2-bf05-afcc8835ff73",
+              "title": "Report from Bureaus of Engineering, Street Services, and Contract Administration 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c37376f2-763e-4cc2-bf05-afcc8835ff73",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c37376f2-763e-4cc2-bf05-afcc8835ff73"
+            },
+            {
+              "historyId": "b81d8367-b1bb-4c04-b053-0daf39b7408d",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_09-05-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b81d8367-b1bb-4c04-b053-0daf39b7408d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b81d8367-b1bb-4c04-b053-0daf39b7408d"
+            },
+            {
+              "historyId": "6a8b86f0-f38b-4671-b5f2-aeb7abedd7d1",
+              "title": "Council Action - Mayor Concurrence  dated 5-18-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a8b86f0-f38b-4671-b5f2-aeb7abedd7d1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a8b86f0-f38b-4671-b5f2-aeb7abedd7d1"
+            },
+            {
+              "historyId": "d278a846-8729-4e4d-97aa-45a361f4faf0",
+              "title": "Council Action 05_27_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d278a846-8729-4e4d-97aa-45a361f4faf0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d278a846-8729-4e4d-97aa-45a361f4faf0"
+            },
+            {
+              "historyId": "a627441e-c1b0-4b5c-bc2e-7bb66c8213b4",
+              "title": "Report from Transportation Committee 05_22_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a627441e-c1b0-4b5c-bc2e-7bb66c8213b4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a627441e-c1b0-4b5c-bc2e-7bb66c8213b4"
+            },
+            {
+              "historyId": "c65f7614-2900-4b29-ad06-4344e6594dad",
+              "title": "Report from Department of Transportation 04_24_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c65f7614-2900-4b29-ad06-4344e6594dad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c65f7614-2900-4b29-ad06-4344e6594dad"
+            },
+            {
+              "historyId": "260e942a-6598-413e-b39f-150741ae74f8",
+              "title": "Report from Los Angeles Department of Transportation dated 5-12-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=260e942a-6598-413e-b39f-150741ae74f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=260e942a-6598-413e-b39f-150741ae74f8"
+            },
+            {
+              "historyId": "eede6683-f7b6-4aeb-8162-07caeb679251",
+              "title": "Mayor ConcurrenceCouncil Action 05_27_2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eede6683-f7b6-4aeb-8162-07caeb679251",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eede6683-f7b6-4aeb-8162-07caeb679251"
+            },
+            {
+              "historyId": "06e364c1-f23d-4077-9e9a-8c54147c7436",
+              "title": "Report from Department of Transportation 05_12_2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06e364c1-f23d-4077-9e9a-8c54147c7436",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=06e364c1-f23d-4077-9e9a-8c54147c7436"
+            }
+          ]
+        },
+        {
+          "item_id": "156438",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "23-0441\nCD 4\nLos Angeles Department of Transportation (LADOT) report relative to the redeployment of LADOT buses as a pilot Transit-to-Parks service connecting the existing Metro B Line (Red) to Griffith Park’s northern amenities.\nCommunity Impact Statement:\nNone submitted.\nReport from Department of Transportation dated 8-13-25\nCouncil Action  dated 6-17-23\nJoint Report from Neighborhoods and Community Enrichment and Public Works Committees_5-17-23\nSpeaker Card(s)_05-24-2023\nSpeaker Card(s)_05-17-2023\nCommunication(s) from Public_05-15-2023\nMotion (Raman - Hernandez) dated 4-21-23\nSpeaker Card(s)_06-14-2023",
+          "council_file": "23-0441",
+          "district": "CD 4",
+          "title": "Los Angeles Department of Transportation (LADOT) report relative to the redeployment of LADOT buses as a pilot Transit-to-Parks service connecting the existing Metro B Line (Red) to Griffith Park’s northern amenities.",
+          "mig": "242fcf94-f6bc-4ca2-9024-5eb3a65efe26",
+          "attachments": [
+            {
+              "historyId": "74d51904-9e96-42bd-b788-d267fa1189af",
+              "title": "Report from Department of Transportation dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=74d51904-9e96-42bd-b788-d267fa1189af",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=74d51904-9e96-42bd-b788-d267fa1189af"
+            },
+            {
+              "historyId": "c9db41e4-ee0e-4337-9a76-01ff5afde0ec",
+              "title": "Council Action  dated 6-17-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9db41e4-ee0e-4337-9a76-01ff5afde0ec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c9db41e4-ee0e-4337-9a76-01ff5afde0ec"
+            },
+            {
+              "historyId": "55563386-de79-4195-b845-5a07234ad6bc",
+              "title": "Joint Report from Neighborhoods and Community Enrichment and Public Works Committees_5-17-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=55563386-de79-4195-b845-5a07234ad6bc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=55563386-de79-4195-b845-5a07234ad6bc"
+            },
+            {
+              "historyId": "9b9fbae6-0c1a-481a-b1b7-06ad8d5f70b4",
+              "title": "Speaker Card(s)_05-24-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b9fbae6-0c1a-481a-b1b7-06ad8d5f70b4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9b9fbae6-0c1a-481a-b1b7-06ad8d5f70b4"
+            },
+            {
+              "historyId": "03e99693-e559-4e6f-bb31-9fead98e2605",
+              "title": "Speaker Card(s)_05-17-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=03e99693-e559-4e6f-bb31-9fead98e2605",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=03e99693-e559-4e6f-bb31-9fead98e2605"
+            },
+            {
+              "historyId": "38c3d6a2-a38e-441c-b2de-b285c09f2150",
+              "title": "Communication(s) from Public_05-15-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=38c3d6a2-a38e-441c-b2de-b285c09f2150",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=38c3d6a2-a38e-441c-b2de-b285c09f2150"
+            },
+            {
+              "historyId": "8642fabb-31e6-4a63-97fe-ce8f2d5030d3",
+              "title": "Motion (Raman - Hernandez) dated 4-21-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8642fabb-31e6-4a63-97fe-ce8f2d5030d3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8642fabb-31e6-4a63-97fe-ce8f2d5030d3"
+            },
+            {
+              "historyId": "83717286-dc96-45ae-ae63-41fff0188ad6",
+              "title": "Speaker Card(s)_06-14-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=83717286-dc96-45ae-ae63-41fff0188ad6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=83717286-dc96-45ae-ae63-41fff0188ad6"
+            }
+          ]
+        },
+        {
+          "item_id": "156439",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "23-1188\nCD 15\nLADOT report relative to pedestrian improvements on Paseo Del Mar at Joan Milke Flores Park.\nCommunity Impact Statement:\nNone submitted.\nReport from Department of Transportation dated 10-30-25\nCouncil Action dated 1-11-24\nTransportation Committee Report 12-6-23\nSpeaker Card(s)_12-06-2023\nMotion (McOsker - Hutt) dated 10-24-23\nSpeaker Card(s)_01-09-2024",
+          "council_file": "23-1188",
+          "district": "CD 15",
+          "title": "LADOT report relative to pedestrian improvements on Paseo Del Mar at Joan Milke Flores Park.",
+          "mig": "7234216a-8fc3-4936-b62b-e2dff3990109",
+          "attachments": [
+            {
+              "historyId": "8cac90f7-dff7-4e53-9e85-de8ee47ee82f",
+              "title": "Report from Department of Transportation dated 10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cac90f7-dff7-4e53-9e85-de8ee47ee82f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8cac90f7-dff7-4e53-9e85-de8ee47ee82f"
+            },
+            {
+              "historyId": "f7b550bb-c800-442d-8e6a-40402ef04082",
+              "title": "Council Action dated 1-11-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7b550bb-c800-442d-8e6a-40402ef04082",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f7b550bb-c800-442d-8e6a-40402ef04082"
+            },
+            {
+              "historyId": "49e16f81-0339-4b18-9c29-be50cad31269",
+              "title": "Transportation Committee Report 12-6-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=49e16f81-0339-4b18-9c29-be50cad31269",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=49e16f81-0339-4b18-9c29-be50cad31269"
+            },
+            {
+              "historyId": "b3473aa5-bfb9-409d-9a03-1f964c244eeb",
+              "title": "Speaker Card(s)_12-06-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3473aa5-bfb9-409d-9a03-1f964c244eeb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3473aa5-bfb9-409d-9a03-1f964c244eeb"
+            },
+            {
+              "historyId": "dc92ef02-4f14-4b6f-b0be-9f59f4c8883c",
+              "title": "Motion (McOsker - Hutt) dated 10-24-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc92ef02-4f14-4b6f-b0be-9f59f4c8883c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dc92ef02-4f14-4b6f-b0be-9f59f4c8883c"
+            },
+            {
+              "historyId": "1b96dc76-26e9-466b-93c7-81f967fa3345",
+              "title": "Speaker Card(s)_01-09-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b96dc76-26e9-466b-93c7-81f967fa3345",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1b96dc76-26e9-466b-93c7-81f967fa3345"
+            }
+          ]
+        },
+        {
+          "item_id": "156194",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0913\nCD 15\nCity Attorney report and ordinance relative to amending the Los Angeles Municipal Code (LAMC) to restrict the use of vehicles weighing over 6,000 pounds on Del Amo Boulevard, between South Western Avenue and Denker Avenue.\nCommunity Impact Statement:\nYes.\nFor: Harbor Gateway South Neighborhood Council\nReport from City Attorney dated 10-02-25\nAttachment to Report dated 10-02-25 - Draft Ordinance\nCommunity Impact Statement submitted by Harbor Gateway South Neighborhood Council_09-24-2025\nCouncil Action dated 9-07-25\nReport from Transportation Committee 8-27-25\nSpeaker Card(s)_08-27-2025\nMotion (McOsker - Hutt) dated 8-08-25",
+          "council_file": "25-0913",
+          "district": "CD 15",
+          "title": "City Attorney report and ordinance relative to amending the Los Angeles Municipal Code (LAMC) to restrict the use of vehicles weighing over 6,000 pounds on Del Amo Boulevard, between South Western Avenue and Denker Avenue.",
+          "mig": "f53e2e98-18e3-41c1-b9a7-9c9d43b4aa56",
+          "attachments": [
+            {
+              "historyId": "f1d60eb9-6939-4e3b-8826-2ada8a4aa723",
+              "title": "Report from City Attorney dated 10-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1d60eb9-6939-4e3b-8826-2ada8a4aa723",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f1d60eb9-6939-4e3b-8826-2ada8a4aa723"
+            },
+            {
+              "historyId": "92c0d169-0fa7-4a4a-addb-f78b79658132",
+              "title": "Attachment to Report dated 10-02-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=92c0d169-0fa7-4a4a-addb-f78b79658132",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=92c0d169-0fa7-4a4a-addb-f78b79658132"
+            },
+            {
+              "historyId": "48bf3670-6a80-4f56-8586-b97a4198a9f4",
+              "title": "Community Impact Statement submitted by Harbor Gateway South Neighborhood Council_09-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48bf3670-6a80-4f56-8586-b97a4198a9f4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48bf3670-6a80-4f56-8586-b97a4198a9f4"
+            },
+            {
+              "historyId": "91e1c086-81b3-46c2-87a2-77a300f56426",
+              "title": "Council Action dated 9-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=91e1c086-81b3-46c2-87a2-77a300f56426",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=91e1c086-81b3-46c2-87a2-77a300f56426"
+            },
+            {
+              "historyId": "07b76353-dbf2-447f-b2a7-6a92d4b20b04",
+              "title": "Report from Transportation Committee 8-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07b76353-dbf2-447f-b2a7-6a92d4b20b04",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07b76353-dbf2-447f-b2a7-6a92d4b20b04"
+            },
+            {
+              "historyId": "e0fb6fb4-9993-4c50-88b7-c9b00d8de492",
+              "title": "Speaker Card(s)_08-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0fb6fb4-9993-4c50-88b7-c9b00d8de492",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e0fb6fb4-9993-4c50-88b7-c9b00d8de492"
+            },
+            {
+              "historyId": "4437a342-93b3-4480-a33f-404b19bd1882",
+              "title": "Motion (McOsker - Hutt) dated 8-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4437a342-93b3-4480-a33f-404b19bd1882",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4437a342-93b3-4480-a33f-404b19bd1882"
+            }
+          ]
+        },
+        {
+          "item_id": "156440",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1232\nMotion (Hernandez – Hutt) relative to implementing a Smart Loading Zone or similar curb management program.\nCommunity Impact Statement:\nNone submitted.\nMotion (Hernandez - Hutt) dated 10-21-25",
+          "council_file": "25-1232",
+          "title": "Motion (Hernandez – Hutt) relative to implementing a Smart Loading Zone or similar curb management program.",
+          "mig": "6504b137-b5af-402b-a098-bd8767967384",
+          "attachments": [
+            {
+              "historyId": "fec69d1c-5dcc-4258-9609-0bf0f5382463",
+              "title": "Motion (Hernandez - Hutt) dated 10-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fec69d1c-5dcc-4258-9609-0bf0f5382463",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fec69d1c-5dcc-4258-9609-0bf0f5382463"
+            }
+          ]
+        },
+        {
+          "item_id": "156441",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1256\nCD 2\nMotion (Nazarian – Hernandez) relative to proactive and coordinated strategies for traffic control and storm preparation during inclement weather.\nCommunity Impact Statement:\nNone submitted.\n(Referred to Public Safety and Transportation Committees)\nMotion (Nazarian - Hernandez) dated 10-22-25",
+          "council_file": "25-1256",
+          "district": "CD 2",
+          "title": "Motion (Nazarian – Hernandez) relative to proactive and coordinated strategies for traffic control and storm preparation during inclement weather.",
+          "mig": "25da5ac4-7dbe-44b5-a176-df96a51d6394",
+          "attachments": [
+            {
+              "historyId": "5de2fd52-ec57-43fa-9eb2-fb038a388e60",
+              "title": "Motion (Nazarian - Hernandez) dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5de2fd52-ec57-43fa-9eb2-fb038a388e60",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5de2fd52-ec57-43fa-9eb2-fb038a388e60"
+            }
+          ]
+        },
+        {
+          "item_id": "156442",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1257\nMotion (Park – Hutt, Lee) relative to implementing Assembly Bill 630 (Gonzalez), which increases the $500 dollar threshold to an estimated value of $4,000 or less, to authorize the removal and dismantling of abandoned RVs.\nCommunity Impact Statement:\nNone submitted.\n(Referred to Public Safety and Transportation Committees)\nMotion (Park - Lee, Hutt) dated 10-22-25",
+          "council_file": "25-1257",
+          "title": "Motion (Park – Hutt, Lee) relative to implementing Assembly Bill 630 (Gonzalez), which increases the $500 dollar threshold to an estimated value of $4,000 or less, to authorize the removal and dismantling of abandoned RVs.",
+          "mig": "8db6b47f-c2a8-4437-872c-437901b8198e",
+          "attachments": [
+            {
+              "historyId": "41be3649-8b77-48db-9d0b-49afaaea6999",
+              "title": "Motion (Park - Lee, Hutt) dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41be3649-8b77-48db-9d0b-49afaaea6999",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=41be3649-8b77-48db-9d0b-49afaaea6999"
+            }
+          ]
+        },
+        {
+          "item_id": "156598",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1321\nCity Administrative Officer (CAO) report relative to the Transportation Grant Fund request for Fiscal Year 2025-26.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\n(Referred to Transportation and Budget and Finance Committees)\nReport from City Administrative Officer dated 10-29-25.pdf",
+          "council_file": "25-1321",
+          "title": "City Administrative Officer (CAO) report relative to the Transportation Grant Fund request for Fiscal Year 2025-26.",
+          "mig": "ae2afb73-1b2a-4233-ba06-48a4b69712a1",
+          "attachments": [
+            {
+              "historyId": "02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+              "title": "Report from City Administrative Officer dated 10-29-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=02e9059e-94e6-4941-8e7c-0e7b3aeda165"
+            }
+          ]
+        },
+        {
+          "item_id": "156586",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1319\nCAO report relative to the 2025-26 Second Transportation-Related Construction Projects Report.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nDebt Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\n(Referred to Transportation and Budget and Finance Committees)\nReport from City Administrative Officer dated 11-06-25",
+          "council_file": "25-1319",
+          "title": "CAO report relative to the 2025-26 Second Transportation-Related Construction Projects Report.",
+          "mig": "913abf2b-2d82-4b03-b07a-b50abf11c237",
+          "attachments": [
+            {
+              "historyId": "db5864af-602f-4f60-9184-1c087f02c0df",
+              "title": "Report from City Administrative Officer dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db5864af-602f-4f60-9184-1c087f02c0df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=db5864af-602f-4f60-9184-1c087f02c0df"
+            }
+          ]
+        },
+        {
+          "item_id": "156596",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "16-0804-S1\nCAO report relative to the proposed Sixth Amendment to Contract C-128057 with AAMCOM, LLC for operation and management of the Cityride Paratransit Program and Transit Technology Service Program.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nTIME LIMIT FILE - JANUARY 5, 2026\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from city Administrative Officer dated 10-31-25",
+          "council_file": "16-0804-S1",
+          "title": "CAO report relative to the proposed Sixth Amendment to Contract C-128057 with AAMCOM, LLC for operation and management of the Cityride Paratransit Program and Transit Technology Service Program.",
+          "mig": "1028f2ca-7f20-48f5-b4ad-cc75270aa001",
+          "attachments": [
+            {
+              "historyId": "f924a964-e5d8-4b7b-922c-ae23b6b5f01c",
+              "title": "Report from city Administrative Officer dated 10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f924a964-e5d8-4b7b-922c-ae23b6b5f01c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f924a964-e5d8-4b7b-922c-ae23b6b5f01c"
+            }
+          ]
+        },
+        {
+          "item_id": "156443",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-0583\nCONTINUED FROM 8/27/25\nLADOT and CAO reports relative to establishing the 2024-25 private ambulance service rates in the City of Los Angeles and a new methodology for future rate adjustments.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nReport from Department of Transportation dated 10-24-25\nCommunication(s) from Public_10-02-2025\nSpeaker Card(s)_08-27-2025\nCommunication from CD1 8-27-25 - Amendment\nCommunication from Cedars Sinai submitted 8-27-2025\nCommunication from Mission Community Hospital submitted 8-27-25\nCommunication from United Steelworkers Local 12911 8-25-25\nCommunication from United Teamsters District 12 8-23-25\nReport from City Administrative Officer dated 5-13-25",
+          "council_file": "25-0583",
+          "title": "CONTINUED FROM 8/27/25",
+          "mig": "95e307d4-e59d-4881-b150-9d851de36221",
+          "attachments": [
+            {
+              "historyId": "8c8c2b3a-6bb2-4cdb-9224-96b29d19101e",
+              "title": "Report from Department of Transportation dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c8c2b3a-6bb2-4cdb-9224-96b29d19101e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8c8c2b3a-6bb2-4cdb-9224-96b29d19101e"
+            },
+            {
+              "historyId": "9d1278b2-d747-4aa8-9800-e491fa85e1e4",
+              "title": "Communication(s) from Public_10-02-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d1278b2-d747-4aa8-9800-e491fa85e1e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d1278b2-d747-4aa8-9800-e491fa85e1e4"
+            },
+            {
+              "historyId": "1676602f-5635-4095-bebb-fd7a4c4e4a91",
+              "title": "Speaker Card(s)_08-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1676602f-5635-4095-bebb-fd7a4c4e4a91",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1676602f-5635-4095-bebb-fd7a4c4e4a91"
+            },
+            {
+              "historyId": "a0354d0e-d36c-475f-8813-5953a65e326d",
+              "title": "Communication from CD1 8-27-25 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0354d0e-d36c-475f-8813-5953a65e326d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a0354d0e-d36c-475f-8813-5953a65e326d"
+            },
+            {
+              "historyId": "95fca88a-a5c5-4eb6-af33-818221a712ed",
+              "title": "Communication from Cedars Sinai submitted 8-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95fca88a-a5c5-4eb6-af33-818221a712ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95fca88a-a5c5-4eb6-af33-818221a712ed"
+            },
+            {
+              "historyId": "6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5",
+              "title": "Communication from Mission Community Hospital submitted 8-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5"
+            },
+            {
+              "historyId": "bc438e2e-c0ff-4d93-aad3-d61481f2a509",
+              "title": "Communication from United Steelworkers Local 12911 8-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc438e2e-c0ff-4d93-aad3-d61481f2a509",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bc438e2e-c0ff-4d93-aad3-d61481f2a509"
+            },
+            {
+              "historyId": "a396c24f-fe71-450c-a8a0-478e5c628f27",
+              "title": "Communication from United Teamsters District 12 8-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a396c24f-fe71-450c-a8a0-478e5c628f27",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a396c24f-fe71-450c-a8a0-478e5c628f27"
+            },
+            {
+              "historyId": "bbcc44fb-b55e-4e3c-ad93-d59097d21eb0",
+              "title": "Report from City Administrative Officer dated 5-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bbcc44fb-b55e-4e3c-ad93-d59097d21eb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bbcc44fb-b55e-4e3c-ad93-d59097d21eb0"
+            }
+          ]
+        },
+        {
+          "item_id": "156594",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "24-0332\nLADOT report relative to an update on the methodology for the Residential Speed Hump Program.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nPalms Neighborhood Council\nStudio City Neighborhood Council\nFor if Amended:\nNoHo Neighborhood Council\nReport from Department of Transportation dated 11-05-25\nCommunity Impact Statement submitted by Palms Neighborhood Council_07-08-2025\nCommunity Impact Statement submitted by Studio City Neighborhood Council_07-07-2025\nCommunity Impact Statement submitted by NoHo Neighborhood Council_05-23-2025\nCouncil Action dated 5-05-25\nAmending Motion 18A (Lee - Park) dated 4-30-25\nMotion (Blumenfield - Lee) to Add Recommendation 3 dated 4-30-25\nMotion (Blumenfield - Lee) to Add Recommendation 1 - Failed of Adoption dated 4-30-25\nReport from Transportation Committee 4-09-25\nCommunity Impact Statement submitted by Coastal San Pedro Neighborhood Council_04-24-2025\nSpeaker Card(s)_04-09-2025\nReport from Department of Transportation dated 3-04-25\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_08-08-2024\nCouncil Action dated 4-22-24\nReport from Transportation Committee dated 04-03-24\nSpeaker Card(s)_04-03-2024\nDepartment of Transportation dated 3-14-24",
+          "council_file": "24-0332",
+          "title": "LADOT report relative to an update on the methodology for the Residential Speed Hump Program.",
+          "mig": "faee08c7-31ff-4587-8693-d87a91a497e8",
+          "attachments": [
+            {
+              "historyId": "218099a2-d691-4b74-9434-c1de1b18141f",
+              "title": "Report from Department of Transportation dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=218099a2-d691-4b74-9434-c1de1b18141f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=218099a2-d691-4b74-9434-c1de1b18141f"
+            },
+            {
+              "historyId": "52e485d0-a68b-4d5b-a718-6f34254d4bf6",
+              "title": "Community Impact Statement submitted by Palms Neighborhood Council_07-08-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=52e485d0-a68b-4d5b-a718-6f34254d4bf6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=52e485d0-a68b-4d5b-a718-6f34254d4bf6"
+            },
+            {
+              "historyId": "2bc10dec-dc1c-430a-a542-db56b5d8e469",
+              "title": "Community Impact Statement submitted by Studio City Neighborhood Council_07-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bc10dec-dc1c-430a-a542-db56b5d8e469",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bc10dec-dc1c-430a-a542-db56b5d8e469"
+            },
+            {
+              "historyId": "19d63a20-34d9-4491-98d4-b5b12632246a",
+              "title": "Community Impact Statement submitted by NoHo Neighborhood Council_05-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19d63a20-34d9-4491-98d4-b5b12632246a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=19d63a20-34d9-4491-98d4-b5b12632246a"
+            },
+            {
+              "historyId": "0429eabc-5095-4199-8c87-7c9ed7268157",
+              "title": "Council Action dated 5-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0429eabc-5095-4199-8c87-7c9ed7268157",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0429eabc-5095-4199-8c87-7c9ed7268157"
+            },
+            {
+              "historyId": "f8b40206-28b0-4183-87e2-8be31c1aa0b0",
+              "title": "Amending Motion 18A (Lee - Park) dated 4-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8b40206-28b0-4183-87e2-8be31c1aa0b0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f8b40206-28b0-4183-87e2-8be31c1aa0b0"
+            },
+            {
+              "historyId": "9816a48a-abfe-4090-b111-48fa1a5e21fb",
+              "title": "Motion (Blumenfield - Lee) to Add Recommendation 3 dated 4-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9816a48a-abfe-4090-b111-48fa1a5e21fb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9816a48a-abfe-4090-b111-48fa1a5e21fb"
+            },
+            {
+              "historyId": "65e92814-8b69-48c4-8162-47a96580ffc3",
+              "title": "Motion (Blumenfield - Lee) to Add Recommendation 1 - Failed of Adoption dated 4-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65e92814-8b69-48c4-8162-47a96580ffc3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=65e92814-8b69-48c4-8162-47a96580ffc3"
+            },
+            {
+              "historyId": "17108c9a-5a01-47dc-8c4d-74e7d9c44d05",
+              "title": "Report from Transportation Committee 4-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=17108c9a-5a01-47dc-8c4d-74e7d9c44d05",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=17108c9a-5a01-47dc-8c4d-74e7d9c44d05"
+            },
+            {
+              "historyId": "ce104732-5e89-4de4-8718-f4e76f1e28b7",
+              "title": "Community Impact Statement submitted by Coastal San Pedro Neighborhood Council_04-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ce104732-5e89-4de4-8718-f4e76f1e28b7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ce104732-5e89-4de4-8718-f4e76f1e28b7"
+            },
+            {
+              "historyId": "6b7b80fb-3650-4a2e-b4f6-a5e3c024c693",
+              "title": "Speaker Card(s)_04-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b7b80fb-3650-4a2e-b4f6-a5e3c024c693",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6b7b80fb-3650-4a2e-b4f6-a5e3c024c693"
+            },
+            {
+              "historyId": "51adc74c-5a97-4e9e-913d-1ea8410d6aee",
+              "title": "Report from Department of Transportation dated 3-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51adc74c-5a97-4e9e-913d-1ea8410d6aee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51adc74c-5a97-4e9e-913d-1ea8410d6aee"
+            },
+            {
+              "historyId": "e64ca3ae-0bd1-446e-a327-2a90567cbf8b",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_08-08-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e64ca3ae-0bd1-446e-a327-2a90567cbf8b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e64ca3ae-0bd1-446e-a327-2a90567cbf8b"
+            },
+            {
+              "historyId": "c240ebd1-dd7c-4ed9-9646-f8377d646b83",
+              "title": "Council Action dated 4-22-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c240ebd1-dd7c-4ed9-9646-f8377d646b83",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c240ebd1-dd7c-4ed9-9646-f8377d646b83"
+            },
+            {
+              "historyId": "c1cd5ffa-f0b5-481b-9181-f0d8b4ac0340",
+              "title": "Report from Transportation Committee dated 04-03-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c1cd5ffa-f0b5-481b-9181-f0d8b4ac0340",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c1cd5ffa-f0b5-481b-9181-f0d8b4ac0340"
+            },
+            {
+              "historyId": "c05cfdb5-2098-409e-a2bc-7c4ca57ae406",
+              "title": "Speaker Card(s)_04-03-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c05cfdb5-2098-409e-a2bc-7c4ca57ae406",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c05cfdb5-2098-409e-a2bc-7c4ca57ae406"
+            },
+            {
+              "historyId": "e3ddf244-d5d2-4dd9-8dea-d85780bb67a5",
+              "title": "Department of Transportation dated 3-14-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e3ddf244-d5d2-4dd9-8dea-d85780bb67a5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e3ddf244-d5d2-4dd9-8dea-d85780bb67a5"
+            }
+          ]
+        },
+        {
+          "item_id": "156461",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-0510\nCONTINUED FROM 8/27/25\nMotion (Lee – Raman) relative to a list of ten eligible street segments for speed hump installation and funding sources to install a minimum of two.\nCommunity Impact Statement:\nNone submitted.\nSpeaker Card(s)_08-27-2025\nMotion (Lee - Raman) dated 5-07-25",
+          "council_file": "25-0510",
+          "title": "CONTINUED FROM 8/27/25",
+          "mig": "96e1fd31-d8db-4635-bdbb-eebe8bd98d61",
+          "attachments": [
+            {
+              "historyId": "ea80eb01-39d8-42ac-88ae-596c24a7216c",
+              "title": "Speaker Card(s)_08-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea80eb01-39d8-42ac-88ae-596c24a7216c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea80eb01-39d8-42ac-88ae-596c24a7216c"
+            },
+            {
+              "historyId": "435be656-7d93-4aa1-9e5a-bf616ba5f1b6",
+              "title": "Motion (Lee - Raman) dated 5-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=435be656-7d93-4aa1-9e5a-bf616ba5f1b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=435be656-7d93-4aa1-9e5a-bf616ba5f1b6"
+            }
+          ]
+        },
+        {
+          "item_id": "156462",
+          "item_number": "(14)",
+          "has_attachments": false,
+          "raw_text": "General Manager, LADOT, and staff verbal report relative to an update on the status of the 2028 Olympic and Paralympic Games Transportation Plan.",
+          "title": "General Manager, LADOT, and staff verbal report relative to an update on the status of the 2028 Olympic and Paralympic Games Transportation Plan.",
+          "mig": "58fd3edc-d57b-4dc5-a8cf-0dd088f92ef0"
+        }
+      ],
+      "original_title": "(Referred to Public Safety and Transportation Committees)"
+    }
+  ],
+  "total_items": 14,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-12T16:45:00",
+  "video_url": "https://www.youtube.com/watch?v=x3cX4JMYOBE"
+}

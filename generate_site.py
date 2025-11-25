@@ -217,7 +217,9 @@ def generate_meeting_page(meeting_id):
 
     # Add metadata if available
     if metadata:
-        context['meeting_title'] = metadata.get('name', 'City Council Meeting')
+        # Use committee name as title if meeting name is empty
+        meeting_title = metadata.get('name') or metadata.get('committeeName') or 'City Council Meeting'
+        context['meeting_title'] = meeting_title
         # Try dateTime first, then meetingDate
         date_value = metadata.get('dateTime') or metadata.get('meetingDate')
         context['meeting_date'] = format_meeting_date(date_value)
@@ -297,8 +299,23 @@ def generate_index_page(meetings_data):
     """Generate the index page with list of all meetings."""
     config = load_site_config()
 
+    # Extract unique committees for filter tabs
+    committees = {}
+    for meeting in meetings_data:
+        cid = meeting.get('committee_id', 1)
+        cname = meeting.get('committee_name', 'City Council Meeting')
+        if cid not in committees:
+            committees[cid] = cname
+
+    # Sort committees: City Council (1) first, then alphabetically
+    sorted_committees = sorted(
+        committees.items(),
+        key=lambda x: (0 if x[0] == 1 else 1, x[1])
+    )
+
     context = {
         'meetings': meetings_data,
+        'committees': [{'id': cid, 'name': cname} for cid, cname in sorted_committees],
         'generated_at': datetime.now().strftime("%Y-%m-%d"),
     }
 
@@ -376,11 +393,26 @@ def generate_all_meetings():
                 meeting_datetime = agenda.get('meeting_datetime')
                 meeting_date = format_meeting_date(meeting_datetime) if meeting_datetime else 'Date TBD'
 
+            # Get committee info from metadata
+            committee_name = None
+            committee_id = None
+            if metadata:
+                committee_name = metadata.get('committeeName')
+                committee_id = metadata.get('committeeId')
+
+            # Use committee name as title if meeting name is empty
+            meeting_title = None
+            if metadata:
+                meeting_title = metadata.get('name') or committee_name
+            meeting_title = meeting_title or 'City Council Meeting'
+
             meetings_data.append({
                 'meeting_id': meeting_id,
-                'title': metadata.get('name', 'City Council Meeting') if metadata else 'City Council Meeting',
+                'title': meeting_title,
                 'date': meeting_date,
-                'items_count': items_count
+                'items_count': items_count,
+                'committee_name': committee_name or 'City Council Meeting',
+                'committee_id': committee_id or 1
             })
 
         except Exception as e:

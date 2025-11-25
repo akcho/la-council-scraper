@@ -1,0 +1,250 @@
+{
+  "meeting_id": 17469,
+  "template_id": 147530,
+  "parsed_at": "2025-11-24T23:01:41.574499",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147530",
+  "sections": [
+    {
+      "section_id": "357605",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "357606",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "357607",
+      "title": "Untitled Section",
+      "items": [
+        {
+          "item_id": "156397",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S70\nChief Legislative Analyst (CLA) report and Resolution (Padilla – Hernandez) relative to establishing the City’s position on Assembly Bill 564 (Haney), which would delay an increase in the Cannabis Excise Tax to be effective in fiscal year 2030-31.\nCommunity Impact Statement:\nNone submitted.\nCommunication(s) from Public_08-05-2025\nResolution (Padilla - Hernandez) dated 7-30-25\nReport from Chief Legislative Analyst dated 10-24-25",
+          "council_file": "25-0002-S70",
+          "title": "Chief Legislative Analyst (CLA) report and Resolution (Padilla – Hernandez) relative to establishing the City’s position on Assembly Bill 564 (Haney), which would delay an increase in the Cannabis Excise Tax to be effective in fiscal year 2030-31.",
+          "mig": "fae289d2-bcaf-4475-a5bb-fa74718fd433",
+          "attachments": [
+            {
+              "historyId": "51d5e8aa-93be-41a8-9604-bda5637be3a8",
+              "title": "Communication(s) from Public_08-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51d5e8aa-93be-41a8-9604-bda5637be3a8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51d5e8aa-93be-41a8-9604-bda5637be3a8"
+            },
+            {
+              "historyId": "57bd49e9-3774-426b-9785-186fcb84074c",
+              "title": "Resolution (Padilla - Hernandez) dated 7-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=57bd49e9-3774-426b-9785-186fcb84074c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=57bd49e9-3774-426b-9785-186fcb84074c"
+            },
+            {
+              "historyId": "17482c5f-b36c-41aa-85c3-b4aa0218351e",
+              "title": "Report from Chief Legislative Analyst dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=17482c5f-b36c-41aa-85c3-b4aa0218351e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=17482c5f-b36c-41aa-85c3-b4aa0218351e"
+            }
+          ]
+        },
+        {
+          "item_id": "156398",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1254\nMotion (Soto-Martinez – Blumenfield) relative to amending the Los Angeles Municipal Code to meet the requirements of the Americans with Disabilities Act Title II Regulations, as amended by the Title II Web and Mobile Accessibility Final Rule and including Subpart H requirements.\nCommunity Impact Statement:\nNone submitted.\nMotion (Soto-Martinez - Blumenfield) dated 10-22-25",
+          "council_file": "25-1254",
+          "title": "Motion (Soto-Martinez – Blumenfield) relative to amending the Los Angeles Municipal Code to meet the requirements of the Americans with Disabilities Act Title II Regulations, as amended by the Title II Web and Mobile Accessibility Final Rule and including Subpart H requirements.",
+          "mig": "e0b6cb9d-8387-4806-867e-1daa51866183",
+          "attachments": [
+            {
+              "historyId": "600b6b7c-8346-42f1-a6ca-7f7ce23733cd",
+              "title": "Motion (Soto-Martinez - Blumenfield) dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=600b6b7c-8346-42f1-a6ca-7f7ce23733cd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=600b6b7c-8346-42f1-a6ca-7f7ce23733cd"
+            }
+          ]
+        },
+        {
+          "item_id": "156399",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S54\nCLA report and Resolution (Hernandez – Jurado) relative to establishing the City’s position on Senate Bill 610 (Perez), which would clarify landlord and tenant obligations and responsibilities regarding post-disaster remediation and rental obligations, alter court timelines to respond to eviction proceedings, and expand regulation of mobile homes.\nCommunity Impact Statement:\nYes.\nFor: NoHo Neighborhood Council\nCommunity Impact Statement submitted by NoHo Neighborhood Council_10-03-2025\nReport from Chief Legislative Analyst dated 7-25-25\nResolution (Hernandez - Jurado) 6-03-25",
+          "council_file": "25-0002-S54",
+          "title": "CLA report and Resolution (Hernandez – Jurado) relative to establishing the City’s position on Senate Bill 610 (Perez), which would clarify landlord and tenant obligations and responsibilities regarding post-disaster remediation and rental obligations, alter court timelines to respond to eviction proceedings, and expand regulation of mobile homes.",
+          "mig": "6121e7b4-9679-45ee-a5eb-a47762e4b2f5",
+          "attachments": [
+            {
+              "historyId": "d6729110-7e53-47a4-a4b3-b7759dc76b33",
+              "title": "Community Impact Statement submitted by NoHo Neighborhood Council_10-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6729110-7e53-47a4-a4b3-b7759dc76b33",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d6729110-7e53-47a4-a4b3-b7759dc76b33"
+            },
+            {
+              "historyId": "41b783e9-e6c5-424a-be73-bfdc3b9f2b70",
+              "title": "Report from Chief Legislative Analyst dated 7-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41b783e9-e6c5-424a-be73-bfdc3b9f2b70",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=41b783e9-e6c5-424a-be73-bfdc3b9f2b70"
+            },
+            {
+              "historyId": "13fe68c1-c0fe-4265-9c51-ebb9f740cf00",
+              "title": "Resolution (Hernandez - Jurado) 6-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13fe68c1-c0fe-4265-9c51-ebb9f740cf00",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=13fe68c1-c0fe-4265-9c51-ebb9f740cf00"
+            }
+          ]
+        },
+        {
+          "item_id": "156400",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S52\nCLA report and Resolution (Blumenfield – Padilla) relative to establishing the City’s position on Assembly Bill 255 (Haney) to authorize State programs to fund abstinence-based recovery housing and expand the housing options for people experiencing or at risk of homelessness.\nCommunity Impact Statement:\nYes.\nFor: NoHo Neighborhood Council\nCommunity Impact Statement submitted by NoHo Neighborhood Council_10-03-2025\nReport from Chief Legislative Analyst dated 7-25-25\nResolution (Blumenfield - Padilla) dated 6-03-25",
+          "council_file": "25-0002-S52",
+          "title": "CLA report and Resolution (Blumenfield – Padilla) relative to establishing the City’s position on Assembly Bill 255 (Haney) to authorize State programs to fund abstinence-based recovery housing and expand the housing options for people experiencing or at risk of homelessness.",
+          "mig": "005f16ba-20c5-4f87-bbbc-393e44406ef0",
+          "attachments": [
+            {
+              "historyId": "8cf2a4e4-119b-4584-8a91-a7d93be1f311",
+              "title": "Community Impact Statement submitted by NoHo Neighborhood Council_10-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cf2a4e4-119b-4584-8a91-a7d93be1f311",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8cf2a4e4-119b-4584-8a91-a7d93be1f311"
+            },
+            {
+              "historyId": "f2a50c34-333a-4633-8a0b-fa0cce70ce5f",
+              "title": "Report from Chief Legislative Analyst dated 7-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2a50c34-333a-4633-8a0b-fa0cce70ce5f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f2a50c34-333a-4633-8a0b-fa0cce70ce5f"
+            },
+            {
+              "historyId": "d8ed0300-6a2a-4710-8360-521da549ac24",
+              "title": "Resolution (Blumenfield - Padilla) dated 6-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d8ed0300-6a2a-4710-8360-521da549ac24",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d8ed0300-6a2a-4710-8360-521da549ac24"
+            }
+          ]
+        },
+        {
+          "item_id": "156401",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S77\nCLA report and Resolution (Nazarian – Jurado) relative to establishing the City’s position on Senate Bill 682 (Allen) which would require the California Department of Toxic Substances Control to identify consumer products containing perfluoralkyl and polyflouralkyl, to evaluate and regulate their use.\nCommunity Impact Statement:\nYes.\nFor: Westside Neighborhood Council\nCommunity Impact Statement submitted by Westside Neighborhood Council_9-11-25\nReport from Chief Legislative Analyst dated 9-09-25\nResolution (Nazarian - Jurado) dated 8-15-25",
+          "council_file": "25-0002-S77",
+          "title": "CLA report and Resolution (Nazarian – Jurado) relative to establishing the City’s position on Senate Bill 682 (Allen) which would require the California Department of Toxic Substances Control to identify consumer products containing perfluoralkyl and polyflouralkyl, to evaluate and regulate their use.",
+          "mig": "0c3f3d3a-742b-4b32-9558-7bebfbcbf3ec",
+          "attachments": [
+            {
+              "historyId": "94f9d873-0619-481a-bfe7-1a151547840f",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_9-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=94f9d873-0619-481a-bfe7-1a151547840f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=94f9d873-0619-481a-bfe7-1a151547840f"
+            },
+            {
+              "historyId": "01ecb5ea-40a2-44ee-8003-a11dfefc23bb",
+              "title": "Report from Chief Legislative Analyst dated 9-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01ecb5ea-40a2-44ee-8003-a11dfefc23bb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01ecb5ea-40a2-44ee-8003-a11dfefc23bb"
+            },
+            {
+              "historyId": "65f742f6-8aeb-44b0-b68c-b679fc76b8b0",
+              "title": "Resolution (Nazarian - Jurado) dated 8-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65f742f6-8aeb-44b0-b68c-b679fc76b8b0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=65f742f6-8aeb-44b0-b68c-b679fc76b8b0"
+            }
+          ]
+        },
+        {
+          "item_id": "156402",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S59\nCLA to report and Resolution (Lee – Raman) relative to establishing a position on Assembly Bill 648 (Zbur), which would exempt the construction of faculty and staff housing projects, student housing projects, and university housing development projects, from local zoning regulations of any city and/or county when constructed on property owned or leased by a community college district.\nCommunity Impact Statement:\nYes.\nFor: Westside Neighborhood Council\nCommunity Impact Statement submitted by Westside Neighborhood Council_08-14-2025\nResolution (Lee - Raman) dated 6-10-25",
+          "council_file": "25-0002-S59",
+          "title": "CLA to report and Resolution (Lee – Raman) relative to establishing a position on Assembly Bill 648 (Zbur), which would exempt the construction of faculty and staff housing projects, student housing projects, and university housing development projects, from local zoning regulations of any city and/or county when constructed on property owned or leased by a community college district.",
+          "mig": "f311b284-46bf-4fa9-861b-9f8a6c663677",
+          "attachments": [
+            {
+              "historyId": "9d395483-6c51-414a-a98b-a5e43da0368d",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_08-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d395483-6c51-414a-a98b-a5e43da0368d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d395483-6c51-414a-a98b-a5e43da0368d"
+            },
+            {
+              "historyId": "2e6eeb63-b2b9-4729-b268-9127ddc98a4c",
+              "title": "Resolution (Lee - Raman) dated 6-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e6eeb63-b2b9-4729-b268-9127ddc98a4c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e6eeb63-b2b9-4729-b268-9127ddc98a4c"
+            }
+          ]
+        },
+        {
+          "item_id": "156403",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-0002-S29\nCLA report and Resolution (Blumenfield – Hernandez) relative to establishing the City’s position on Assembly Bill 867 (Lee), which would prohibit the declawing of cats, unless medically necessary.\nCommunity Impact Statement:\nNone submitted.\nReport from Chief Legislative Analyst dated 5-16-25\nResolution (Blumenfield - Hernandez) dated 4-08-25",
+          "council_file": "25-0002-S29",
+          "title": "CLA report and Resolution (Blumenfield – Hernandez) relative to establishing the City’s position on Assembly Bill 867 (Lee), which would prohibit the declawing of cats, unless medically necessary.",
+          "mig": "a94c172b-99ad-491c-ac46-3f05db40c20e",
+          "attachments": [
+            {
+              "historyId": "7312ee20-d2fc-4d93-8691-11f80ab3d909",
+              "title": "Report from Chief Legislative Analyst dated 5-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7312ee20-d2fc-4d93-8691-11f80ab3d909",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7312ee20-d2fc-4d93-8691-11f80ab3d909"
+            },
+            {
+              "historyId": "dd005ed4-6965-4bdd-944e-414425d19aca",
+              "title": "Resolution (Blumenfield - Hernandez) dated 4-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd005ed4-6965-4bdd-944e-414425d19aca",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dd005ed4-6965-4bdd-944e-414425d19aca"
+            }
+          ]
+        },
+        {
+          "item_id": "156429",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S36\nCouncil President Pro Tempore report and communication relative to the appointment of Dennis P. Zine to the Charter Reform Commission.\nCommunity Impact Statement:\nYes.\nAgainst: Reseda Neighborhood Council\nCommunication from Council President Pro Tempore 10-09-25\nCommunication(s) from Public_08-31-2025\nCommunity Impact Statement submitted by Sunland-Tujunga Neighborhood Council_8-19-25\nCommunity Impact Statement submitted by Reseda Neighborhood Council_08-18-2025\nReport from Council President Pro-Tempore dated 8-01-25",
+          "council_file": "25-1200-S36",
+          "title": "Council President Pro Tempore report and communication relative to the appointment of Dennis P. Zine to the Charter Reform Commission.",
+          "mig": "ab63ff03-df4a-4916-91c7-fe6d0a7644ca",
+          "attachments": [
+            {
+              "historyId": "f2ed0c7a-4896-4066-ba2e-6ddf8a46d5ed",
+              "title": "Communication from Council President Pro Tempore 10-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2ed0c7a-4896-4066-ba2e-6ddf8a46d5ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f2ed0c7a-4896-4066-ba2e-6ddf8a46d5ed"
+            },
+            {
+              "historyId": "c4c5db97-9ede-491a-bc7e-e47cfc6efa6a",
+              "title": "Communication(s) from Public_08-31-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c4c5db97-9ede-491a-bc7e-e47cfc6efa6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c4c5db97-9ede-491a-bc7e-e47cfc6efa6a"
+            },
+            {
+              "historyId": "1ba990fe-4267-4bec-97b0-2ca22c346f5e",
+              "title": "Community Impact Statement submitted by Sunland-Tujunga Neighborhood Council_8-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ba990fe-4267-4bec-97b0-2ca22c346f5e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ba990fe-4267-4bec-97b0-2ca22c346f5e"
+            },
+            {
+              "historyId": "9c434d08-317b-4742-803a-9d9043ffa4b6",
+              "title": "Community Impact Statement submitted by Reseda Neighborhood Council_08-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c434d08-317b-4742-803a-9d9043ffa4b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c434d08-317b-4742-803a-9d9043ffa4b6"
+            },
+            {
+              "historyId": "46395a5d-03da-49b6-a69f-bb5d8815e579",
+              "title": "Report from Council President Pro-Tempore dated 8-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46395a5d-03da-49b6-a69f-bb5d8815e579",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=46395a5d-03da-49b6-a69f-bb5d8815e579"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 8,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-07T17:00:00",
+  "video_url": "https://www.youtube.com/watch?v=tLI6XYI8tcw"
+}

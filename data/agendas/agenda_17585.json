@@ -1,0 +1,184 @@
+{
+  "meeting_id": 17585,
+  "template_id": 148691,
+  "parsed_at": "2025-11-24T23:01:35.075845",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148691",
+  "sections": [
+    {
+      "section_id": "359141",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "359142",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "359143",
+      "title": "Committee referrals",
+      "items": [
+        {
+          "item_id": "156999",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S14\nReport from the Mayor and City Ethics Commission report relative to the appointment of Adam Bierman to the Cannabis Regulation Commission for the term ending June 30, 2026.\nFinancial Disclosure Statement\n: Filed\nBackground Review\n:  Complete\nCommunity Impact Statement:\nNone submitted.\nTIME LIMIT FILE - JANUARY 4, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 2, 2026)\nCommunication from City Ethics Commission dated 7-01-25\nOath 6-30-25\nCouncil Action dated 6-25-25\nSpeaker Card(s)_06-17-2025\nGovernment Operations Committee Report 6-17-25\nReport from Mayor dated 5-12-25\nReport from Mayor dated 11-20-25",
+          "council_file": "25-1200-S14",
+          "title": "Report from the Mayor and City Ethics Commission report relative to the appointment of Adam Bierman to the Cannabis Regulation Commission for the term ending June 30, 2026.",
+          "mig": "f6398b95-dc9c-42a8-a9f8-18a93af62dcb",
+          "attachments": [
+            {
+              "historyId": "4e3c0af4-a1f2-4c14-b563-624ac9cc28b6",
+              "title": "Communication from City Ethics Commission dated 7-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e3c0af4-a1f2-4c14-b563-624ac9cc28b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4e3c0af4-a1f2-4c14-b563-624ac9cc28b6"
+            },
+            {
+              "historyId": "70888cd0-74da-4336-9a8e-c2c7486b5b29",
+              "title": "Oath 6-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=70888cd0-74da-4336-9a8e-c2c7486b5b29",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=70888cd0-74da-4336-9a8e-c2c7486b5b29"
+            },
+            {
+              "historyId": "91940249-1a59-49b7-b7ce-8cfc0c118402",
+              "title": "Council Action dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=91940249-1a59-49b7-b7ce-8cfc0c118402",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=91940249-1a59-49b7-b7ce-8cfc0c118402"
+            },
+            {
+              "historyId": "a4bef5e2-27de-46ed-8a0f-3110bd9f6023",
+              "title": "Speaker Card(s)_06-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4bef5e2-27de-46ed-8a0f-3110bd9f6023",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a4bef5e2-27de-46ed-8a0f-3110bd9f6023"
+            },
+            {
+              "historyId": "b3a4e2a0-590d-40b7-b59c-a0bdebcf6183",
+              "title": "Government Operations Committee Report 6-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3a4e2a0-590d-40b7-b59c-a0bdebcf6183",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3a4e2a0-590d-40b7-b59c-a0bdebcf6183"
+            },
+            {
+              "historyId": "b45fbfda-ff67-4dfa-ae0f-4745623577d6",
+              "title": "Report from Mayor dated 5-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b45fbfda-ff67-4dfa-ae0f-4745623577d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b45fbfda-ff67-4dfa-ae0f-4745623577d6"
+            },
+            {
+              "historyId": "40208bb6-2c10-4e95-8180-c9170fff0f15",
+              "title": "Report from Mayor dated 11-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40208bb6-2c10-4e95-8180-c9170fff0f15",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=40208bb6-2c10-4e95-8180-c9170fff0f15"
+            }
+          ]
+        },
+        {
+          "item_id": "156971",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-0874-S2\nCity Administrative Officer report relative to the Fiscal Year 2025-26 Third Constructions Projects Report.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nDebt Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\n(Referred to the Government Operations and  Budget and Finance Committees.)\nReport from City Administrative Officer dated  11-13-25",
+          "council_file": "25-0874-S2",
+          "title": "City Administrative Officer report relative to the Fiscal Year 2025-26 Third Constructions Projects Report.",
+          "mig": "7008ddf6-bb56-4e40-af50-b5e5429a0080",
+          "attachments": [
+            {
+              "historyId": "7f52fef1-74f1-4477-8259-ee86e2b864fa",
+              "title": "Report from City Administrative Officer dated  11-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f52fef1-74f1-4477-8259-ee86e2b864fa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f52fef1-74f1-4477-8259-ee86e2b864fa"
+            }
+          ]
+        },
+        {
+          "item_id": "156977",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "24-0684\nCD 1\nMunicipal Facilties Committee report relative to proposed a non-profit lease agreement with the Foundation for Early Childhood Education, Inc. for the City-owned property located at 1010 Douglas Street, Los Angeles CA, 90026.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nReport from Municipal Facilities Committee dated 10-31-25\nCouncil Action dated 10-01-24\nMotion (Hernandez - Padilla) dated 6-07-24\nSpeaker Card(s)_10-01-2024",
+          "council_file": "24-0684",
+          "district": "CD 1",
+          "title": "Municipal Facilties Committee report relative to proposed a non-profit lease agreement with the Foundation for Early Childhood Education, Inc. for the City-owned property located at 1010 Douglas Street, Los Angeles CA, 90026.",
+          "mig": "7b40598f-a268-44b8-85b3-f931f3b4a702",
+          "attachments": [
+            {
+              "historyId": "5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2",
+              "title": "Report from Municipal Facilities Committee dated 10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2"
+            },
+            {
+              "historyId": "ec9333ee-287e-4be3-961b-7ec5c721c711",
+              "title": "Council Action dated 10-01-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec9333ee-287e-4be3-961b-7ec5c721c711",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec9333ee-287e-4be3-961b-7ec5c721c711"
+            },
+            {
+              "historyId": "b2c94c77-5d00-4900-89fc-e38bcc9afe4e",
+              "title": "Motion (Hernandez - Padilla) dated 6-07-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2c94c77-5d00-4900-89fc-e38bcc9afe4e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b2c94c77-5d00-4900-89fc-e38bcc9afe4e"
+            },
+            {
+              "historyId": "d2904269-49a0-448c-b972-31973996b8a3",
+              "title": "Speaker Card(s)_10-01-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2904269-49a0-448c-b972-31973996b8a3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d2904269-49a0-448c-b972-31973996b8a3"
+            }
+          ]
+        },
+        {
+          "item_id": "156975",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1026\nCD 14\nCONTINUED FROM OCTOBER 7, 2025\nMotion (Jurado – Blumenfield) relative to the sale of the City’s interest in the property located north of Nordyke Street at the end of Avenue 56 (APN 5480-031-901).\nCommunity Impact Statement:\nNone submitted.\nCommunication(s) from Public_10-06-2025\nMotion (Jurado - Blumenfield) dated 8-02-25",
+          "council_file": "25-1026",
+          "district": "CD 14",
+          "title": "CONTINUED FROM OCTOBER 7, 2025",
+          "mig": "32e2cc15-29e6-4a1b-878a-0c9c870ba5f9",
+          "attachments": [
+            {
+              "historyId": "cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c",
+              "title": "Communication(s) from Public_10-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c"
+            },
+            {
+              "historyId": "ac884dc7-bdc1-4283-a09b-044eed8ae057",
+              "title": "Motion (Jurado - Blumenfield) dated 8-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac884dc7-bdc1-4283-a09b-044eed8ae057",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ac884dc7-bdc1-4283-a09b-044eed8ae057"
+            }
+          ]
+        },
+        {
+          "item_id": "157053",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1358\nMotion (Padilla – Rodriguez) relative to the impacts of Senate Bill 707 will have on current City procedures and the necessary changes the City would be required to complete to be in compliance with the new adaptations to the Brown Act.\nCommunity Impact Statement:\nYes\nFor:\nReseda Neighborhood Council\nCommunity Impact Statement submitted by Reseda Neighborhood Council_11-21-2025\nMotion (Padilla - Rodriguez) dated 11-14-25",
+          "council_file": "25-1358",
+          "title": "Motion (Padilla – Rodriguez) relative to the impacts of Senate Bill 707 will have on current City procedures and the necessary changes the City would be required to complete to be in compliance with the new adaptations to the Brown Act.",
+          "mig": "05fbe743-5426-406c-b15e-d897f772f694",
+          "attachments": [
+            {
+              "historyId": "8458da71-b466-4072-bc2f-c537097c1948",
+              "title": "Community Impact Statement submitted by Reseda Neighborhood Council_11-21-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8458da71-b466-4072-bc2f-c537097c1948",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8458da71-b466-4072-bc2f-c537097c1948"
+            },
+            {
+              "historyId": "fa533e2c-f665-4a53-bc9b-00ffc68e78e4",
+              "title": "Motion (Padilla - Rodriguez) dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa533e2c-f665-4a53-bc9b-00ffc68e78e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa533e2c-f665-4a53-bc9b-00ffc68e78e4"
+            }
+          ]
+        }
+      ],
+      "original_title": "(Referred to the Government Operations and  Budget and Finance Committees.)"
+    }
+  ],
+  "total_items": 5,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-02T16:30:00",
+  "video_url": "https://www.youtube.com/watch?v=S7ntVelAgFs"
+}

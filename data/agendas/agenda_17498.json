@@ -1,0 +1,332 @@
+{
+  "meeting_id": 17498,
+  "template_id": 147858,
+  "parsed_at": "2025-11-25T00:01:10.132573",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147858",
+  "sections": [
+    {
+      "section_id": "358089",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "358091",
+      "title": "Housing and homelessness reports",
+      "items": [
+        {
+          "item_id": "156477",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0207-S1\nCity Administrative Officer and Los Angeles Housing Department (LAHD) reports relative to staffing plan, responsibilities and priorities for the LAHD’s Bureau of Homelessness Oversight.\n(Referred to Housing and Homelessness and Personnel and Hiring Committees)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Los Angeles Housing Department dated 10-30-25\nReport from City Administrative Officer dated 11-10-25",
+          "council_file": "25-0207-S1",
+          "title": "City Administrative Officer and Los Angeles Housing Department (LAHD) reports relative to staffing plan, responsibilities and priorities for the LAHD’s Bureau of Homelessness Oversight.",
+          "mig": "bd78f783-0365-4be5-9b71-b054f3dbb428",
+          "attachments": [
+            {
+              "historyId": "686fb41b-507a-4eed-a86c-0d69d7935b9c",
+              "title": "Report from Los Angeles Housing Department dated 10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=686fb41b-507a-4eed-a86c-0d69d7935b9c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=686fb41b-507a-4eed-a86c-0d69d7935b9c"
+            },
+            {
+              "historyId": "917c2419-8403-491c-9a28-26905f445495",
+              "title": "Report from City Administrative Officer dated 11-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=917c2419-8403-491c-9a28-26905f445495",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=917c2419-8403-491c-9a28-26905f445495"
+            }
+          ]
+        },
+        {
+          "item_id": "156504",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "22-1313\nCD 7\nCity Administrative Officer report relative to the Request for Proposal released by the Los Angeles Homeless Services Authority, the list of approved service providers, and the scope of required service that outlines the Recreational Vehicle (RV)-to-Home Program model.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 10-02-25\nCouncil Action dated 9-13-24\nSpeaker Card(s)_09-10-2024\nReport from Housing and Homelessness Committee_08-28-24\nSpeaker Card(s)_08-28-2024\nCommunication(s) from Public_08-27-2024\nReport from City Administrative Officer dated 8-01-24\nCommunity Impact Statement submitted by North Hollywood Northeast Neighborhood Council_02-16-2024\nCommunication(s) from Public_02-13-2024\nCommunication(s) from Public_06-27-2023\nCommunication(s) from Public_06-01-2023\nCommunication(s) from Public_05-24-2023\nCommunication(s) from Public_05-22-2023\nCommunication(s) from Public_05-21-2023\nCommunication(s) from Public_05-20-2023\nCommunication(s) from Public_05-18-2023\nCommunication(s) from Public_05-17-2023\nCouncil Action  dated 3-23-23\nCommunication(s) from Public_03-22-2023\nSpeaker Card(s)_03-22-2023\nReport from Housing and Homelessness Committee 3-1-23\nReport from City Administrative Officer dated 2-10-23\nCommunity Impact Statement submitted by Reseda Neighborhood Council_01-18-2023\nCouncil Action  dated 11-30-22\nCommunication(s) from Public_11-29-2022\nReport from Homelessness and Poverty Committee 11-10-22\nCommunity Impact Statement submitted by Palms Neighborhood Council_11-07-2022\nMotion (Raman - Price - Harris-Dawson) dated 11-02-22",
+          "council_file": "22-1313",
+          "district": "CD 7",
+          "title": "City Administrative Officer report relative to the Request for Proposal released by the Los Angeles Homeless Services Authority, the list of approved service providers, and the scope of required service that outlines the Recreational Vehicle (RV)-to-Home Program model.",
+          "mig": "2a4cf350-1222-4cbe-a8fd-42d3e0b48813",
+          "attachments": [
+            {
+              "historyId": "253dc6c8-4289-469f-85a4-03fc0db196ca",
+              "title": "Report from City Administrative Officer dated 10-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=253dc6c8-4289-469f-85a4-03fc0db196ca",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=253dc6c8-4289-469f-85a4-03fc0db196ca"
+            },
+            {
+              "historyId": "cb932496-082e-44cb-8935-9d3843b760ce",
+              "title": "Council Action dated 9-13-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb932496-082e-44cb-8935-9d3843b760ce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb932496-082e-44cb-8935-9d3843b760ce"
+            },
+            {
+              "historyId": "1a0c461c-db32-46fd-96b9-3ffabed46e9c",
+              "title": "Speaker Card(s)_09-10-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a0c461c-db32-46fd-96b9-3ffabed46e9c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1a0c461c-db32-46fd-96b9-3ffabed46e9c"
+            },
+            {
+              "historyId": "6a937e0c-a9db-48b3-80f7-493b89dc74e2",
+              "title": "Report from Housing and Homelessness Committee_08-28-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a937e0c-a9db-48b3-80f7-493b89dc74e2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a937e0c-a9db-48b3-80f7-493b89dc74e2"
+            },
+            {
+              "historyId": "8200e9c3-9076-42e9-a313-f98402fd982a",
+              "title": "Speaker Card(s)_08-28-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8200e9c3-9076-42e9-a313-f98402fd982a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8200e9c3-9076-42e9-a313-f98402fd982a"
+            },
+            {
+              "historyId": "2d14d0cb-d2ef-4aa2-8e87-162fd6b17381",
+              "title": "Communication(s) from Public_08-27-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d14d0cb-d2ef-4aa2-8e87-162fd6b17381",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d14d0cb-d2ef-4aa2-8e87-162fd6b17381"
+            },
+            {
+              "historyId": "3285c95a-9959-424f-ad85-a5519d2aeb2b",
+              "title": "Report from City Administrative Officer dated 8-01-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3285c95a-9959-424f-ad85-a5519d2aeb2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3285c95a-9959-424f-ad85-a5519d2aeb2b"
+            },
+            {
+              "historyId": "829612f8-5a4e-41e4-9ae0-d7322600b0ec",
+              "title": "Community Impact Statement submitted by North Hollywood Northeast Neighborhood Council_02-16-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=829612f8-5a4e-41e4-9ae0-d7322600b0ec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=829612f8-5a4e-41e4-9ae0-d7322600b0ec"
+            },
+            {
+              "historyId": "24e33fd6-47ab-4323-9e7f-c6b7cbf77906",
+              "title": "Communication(s) from Public_02-13-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=24e33fd6-47ab-4323-9e7f-c6b7cbf77906",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=24e33fd6-47ab-4323-9e7f-c6b7cbf77906"
+            },
+            {
+              "historyId": "42c4a0fc-ac63-401c-977d-0927f2056248",
+              "title": "Communication(s) from Public_06-27-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42c4a0fc-ac63-401c-977d-0927f2056248",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42c4a0fc-ac63-401c-977d-0927f2056248"
+            },
+            {
+              "historyId": "c6f588bf-4cc8-4478-a2eb-1c83fa3a26b9",
+              "title": "Communication(s) from Public_06-01-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6f588bf-4cc8-4478-a2eb-1c83fa3a26b9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6f588bf-4cc8-4478-a2eb-1c83fa3a26b9"
+            },
+            {
+              "historyId": "1ebc6495-3c6c-4a3b-b646-53ff0f601715",
+              "title": "Communication(s) from Public_05-24-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ebc6495-3c6c-4a3b-b646-53ff0f601715",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ebc6495-3c6c-4a3b-b646-53ff0f601715"
+            },
+            {
+              "historyId": "674079cd-3a03-4c6c-a9fa-7d5ca39d3ed0",
+              "title": "Communication(s) from Public_05-22-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=674079cd-3a03-4c6c-a9fa-7d5ca39d3ed0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=674079cd-3a03-4c6c-a9fa-7d5ca39d3ed0"
+            },
+            {
+              "historyId": "54a36f29-f7ba-412b-8bb2-9e036d4b1a83",
+              "title": "Communication(s) from Public_05-21-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54a36f29-f7ba-412b-8bb2-9e036d4b1a83",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=54a36f29-f7ba-412b-8bb2-9e036d4b1a83"
+            },
+            {
+              "historyId": "5e87cfae-a666-49a0-8a34-fb827a604254",
+              "title": "Communication(s) from Public_05-20-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e87cfae-a666-49a0-8a34-fb827a604254",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5e87cfae-a666-49a0-8a34-fb827a604254"
+            },
+            {
+              "historyId": "22da6d04-e66e-4a3c-9ca9-d26299a84b5c",
+              "title": "Communication(s) from Public_05-18-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22da6d04-e66e-4a3c-9ca9-d26299a84b5c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22da6d04-e66e-4a3c-9ca9-d26299a84b5c"
+            },
+            {
+              "historyId": "dbcdfbd3-fb4c-4413-959b-913bca49175d",
+              "title": "Communication(s) from Public_05-17-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbcdfbd3-fb4c-4413-959b-913bca49175d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dbcdfbd3-fb4c-4413-959b-913bca49175d"
+            },
+            {
+              "historyId": "2b371d42-8f00-42a3-a29b-848deb6f8190",
+              "title": "Council Action  dated 3-23-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b371d42-8f00-42a3-a29b-848deb6f8190",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2b371d42-8f00-42a3-a29b-848deb6f8190"
+            },
+            {
+              "historyId": "be8d99c3-43f1-4d01-b805-8b58cfa6aa79",
+              "title": "Communication(s) from Public_03-22-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=be8d99c3-43f1-4d01-b805-8b58cfa6aa79",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=be8d99c3-43f1-4d01-b805-8b58cfa6aa79"
+            },
+            {
+              "historyId": "7c922a1c-452a-44b7-b5f0-c347517d9f3d",
+              "title": "Speaker Card(s)_03-22-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c922a1c-452a-44b7-b5f0-c347517d9f3d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c922a1c-452a-44b7-b5f0-c347517d9f3d"
+            },
+            {
+              "historyId": "6e666942-11fa-40fc-a38f-9fd4b47d2517",
+              "title": "Report from Housing and Homelessness Committee 3-1-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e666942-11fa-40fc-a38f-9fd4b47d2517",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6e666942-11fa-40fc-a38f-9fd4b47d2517"
+            },
+            {
+              "historyId": "70d826ec-5d0d-4d0a-abe7-6d7731b98e19",
+              "title": "Report from City Administrative Officer dated 2-10-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=70d826ec-5d0d-4d0a-abe7-6d7731b98e19",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=70d826ec-5d0d-4d0a-abe7-6d7731b98e19"
+            },
+            {
+              "historyId": "80839bf2-0653-4528-90af-d3f75994afa7",
+              "title": "Community Impact Statement submitted by Reseda Neighborhood Council_01-18-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=80839bf2-0653-4528-90af-d3f75994afa7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=80839bf2-0653-4528-90af-d3f75994afa7"
+            },
+            {
+              "historyId": "5789ab46-24ad-494a-9f3c-4d93ab305730",
+              "title": "Council Action  dated 11-30-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5789ab46-24ad-494a-9f3c-4d93ab305730",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5789ab46-24ad-494a-9f3c-4d93ab305730"
+            },
+            {
+              "historyId": "6e9e0538-05c0-4ddc-91b6-8b5f1bae2662",
+              "title": "Communication(s) from Public_11-29-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e9e0538-05c0-4ddc-91b6-8b5f1bae2662",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6e9e0538-05c0-4ddc-91b6-8b5f1bae2662"
+            },
+            {
+              "historyId": "ec1d5f79-7372-4f3d-bd2f-19c5b0105bcc",
+              "title": "Report from Homelessness and Poverty Committee 11-10-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec1d5f79-7372-4f3d-bd2f-19c5b0105bcc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec1d5f79-7372-4f3d-bd2f-19c5b0105bcc"
+            },
+            {
+              "historyId": "d66a2950-1a1c-4368-88d1-80e7e5c1ecc9",
+              "title": "Community Impact Statement submitted by Palms Neighborhood Council_11-07-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d66a2950-1a1c-4368-88d1-80e7e5c1ecc9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d66a2950-1a1c-4368-88d1-80e7e5c1ecc9"
+            },
+            {
+              "historyId": "1b890a46-a082-4107-b67e-3ee4f2d8ba76",
+              "title": "Motion (Raman - Price - Harris-Dawson) dated 11-02-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b890a46-a082-4107-b67e-3ee4f2d8ba76",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1b890a46-a082-4107-b67e-3ee4f2d8ba76"
+            }
+          ]
+        },
+        {
+          "item_id": "156505",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1296\nCity Administrative Officer report relative to agreements between the Los Angeles Housing Department and multiple contractors to provide the required services to operate the Handy Worker Program.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 10-29-25",
+          "council_file": "25-1296",
+          "title": "City Administrative Officer report relative to agreements between the Los Angeles Housing Department and multiple contractors to provide the required services to operate the Handy Worker Program.",
+          "mig": "c2429721-ddce-4557-bcdc-8665d61c85d7",
+          "attachments": [
+            {
+              "historyId": "de2b8f9f-fdc3-436c-852d-9f750efcb9ed",
+              "title": "Report from City Administrative Officer dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=de2b8f9f-fdc3-436c-852d-9f750efcb9ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=de2b8f9f-fdc3-436c-852d-9f750efcb9ed"
+            }
+          ]
+        },
+        {
+          "item_id": "156639",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "22-1545-S36\nCity Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 31st Status Report as of August 31, 2025.\n(Referred to Housing and Homelessness and the Budget and Finance Committees)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 11-07-25",
+          "council_file": "22-1545-S36",
+          "title": "City Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 31st Status Report as of August 31, 2025.",
+          "mig": "1b155441-1cfa-45ae-8eed-1fba436d66b5",
+          "attachments": [
+            {
+              "historyId": "f467f1d2-b32a-484e-80b1-111ed392ec81",
+              "title": "Report from City Attorney dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f467f1d2-b32a-484e-80b1-111ed392ec81",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f467f1d2-b32a-484e-80b1-111ed392ec81"
+            }
+          ]
+        },
+        {
+          "item_id": "156592",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "23-1022-S22\nCD 14\nStatutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Hope the Mission to operate the A Bridge Home site located at 310 North Main Street in Council District 14.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Municipal Facilities Committee dated 11-06-25",
+          "council_file": "23-1022-S22",
+          "district": "CD 14",
+          "title": "Statutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Hope the Mission to operate the A Bridge Home site located at 310 North Main Street in Council District 14.",
+          "mig": "70bdd28a-39ea-42f9-b61f-29d13c41cf73",
+          "attachments": [
+            {
+              "historyId": "8f9369e6-608b-4e4b-8bf9-64a148cddd69",
+              "title": "Report from Municipal Facilities Committee dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f9369e6-608b-4e4b-8bf9-64a148cddd69",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8f9369e6-608b-4e4b-8bf9-64a148cddd69"
+            }
+          ]
+        },
+        {
+          "item_id": "156593",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "23-1022-S23\nCD 15\nStatutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Holliday’s Helping Hands to operate the A Bridge Home site located at 826-828 Eubank Avenue in Council District 15.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Municipal Facilities Committee dated 11-06-25",
+          "council_file": "23-1022-S23",
+          "district": "CD 15",
+          "title": "Statutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Holliday’s Helping Hands to operate the A Bridge Home site located at 826-828 Eubank Avenue in Council District 15.",
+          "mig": "d0f7d0a5-dc60-4958-903d-59dcfaf0f272",
+          "attachments": [
+            {
+              "historyId": "63b1fc31-cfa8-4c9c-b18b-d0186e71c99c",
+              "title": "Report from Municipal Facilities Committee dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=63b1fc31-cfa8-4c9c-b18b-d0186e71c99c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=63b1fc31-cfa8-4c9c-b18b-d0186e71c99c"
+            }
+          ]
+        },
+        {
+          "item_id": "156679",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1313\nMotion (Blumenfield – Raman) relative to requesting a report from the Los Angeles Housing Department (LAHD) on how to improve the LAHD’s administration of Cost Recovery Programs.\nCommunity Impact Statement:\nNone submitted\nMotion (Blumenfield - Raman) dated 11-05-25",
+          "council_file": "25-1313",
+          "title": "Motion (Blumenfield – Raman) relative to requesting a report from the Los Angeles Housing Department (LAHD) on how to improve the LAHD’s administration of Cost Recovery Programs.",
+          "mig": "c4da6c59-2009-43da-8a86-6c0c75ef94a8",
+          "attachments": [
+            {
+              "historyId": "43026a2e-ecad-467b-b45f-3f1c821b7114",
+              "title": "Motion (Blumenfield - Raman) dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=43026a2e-ecad-467b-b45f-3f1c821b7114",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=43026a2e-ecad-467b-b45f-3f1c821b7114"
+            }
+          ]
+        },
+        {
+          "item_id": "156680",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1314\nMotion (Raman, McOsker – Harris-Dawson) relative to requesting a report from the Los Angeles Housing Department on the fair return petitions procedures from other jurisdictions that are less burdensome on landlords; and to work with the Rent Adjustment Commission (RAC) to update the existing RAC Guidelines governing the Just and Reasonable Rent Increase Program; and related matters.\nCommunity Impact Statement:\nNone submitted\nMotion (Raman, McOsker - Harris-Dawson) dated 11-05-25",
+          "council_file": "25-1314",
+          "title": "Motion (Raman, McOsker – Harris-Dawson) relative to requesting a report from the Los Angeles Housing Department on the fair return petitions procedures from other jurisdictions that are less burdensome on landlords; and to work with the Rent Adjustment Commission (RAC) to update the existing RAC Guidelines governing the Just and Reasonable Rent Increase Program; and related matters.",
+          "mig": "dc56b637-4922-42e8-bc84-009c91438e13",
+          "attachments": [
+            {
+              "historyId": "575d71c7-75d6-435a-af2a-8edb5c40602c",
+              "title": "Motion (Raman, McOsker - Harris-Dawson) dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=575d71c7-75d6-435a-af2a-8edb5c40602c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=575d71c7-75d6-435a-af2a-8edb5c40602c"
+            }
+          ]
+        }
+      ],
+      "original_title": "(Referred to Housing and Homelessness and Personnel and Hiring Committees)"
+    }
+  ],
+  "total_items": 8,
+  "total_sections": 2,
+  "meeting_datetime": "2025-11-12T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=lXAq7udxMGU"
+}

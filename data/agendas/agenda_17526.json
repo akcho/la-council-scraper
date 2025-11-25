@@ -1,0 +1,316 @@
+{
+  "meeting_id": 17526,
+  "template_id": 148025,
+  "parsed_at": "2025-11-24T23:01:38.398891",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148025",
+  "sections": [
+    {
+      "section_id": "358212",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "358213",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "358214",
+      "title": "Committee referrals",
+      "items": [
+        {
+          "item_id": "156524",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1276\nMayor report relative to the appointment of Mr. Jaime Moore as the Fire Chief, Los Angeles Fire Department (LAFD).\nFinancial Disclosure Statement\n: Pending\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 11, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 11, 2025)\nReport from Mayor dated 10-24-25",
+          "council_file": "25-1276",
+          "title": "Mayor report relative to the appointment of Mr. Jaime Moore as the Fire Chief, Los Angeles Fire Department (LAFD).",
+          "mig": "ab42fee0-ba03-4e46-8147-a1ef3b0b39ed",
+          "attachments": [
+            {
+              "historyId": "9ba7d044-d9b1-4727-9b9a-87ffc6a5ad52",
+              "title": "Report from Mayor dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ba7d044-d9b1-4727-9b9a-87ffc6a5ad52",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ba7d044-d9b1-4727-9b9a-87ffc6a5ad52"
+            }
+          ]
+        },
+        {
+          "item_id": "156526",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "23-0600-S121\nCity Administrative Officer and Los Angeles Department of Transportation (LADOT) joint report relative to an independent evaluation of the Vision Zero Program and a revised LADOT Vision Zero Evaluation and Safety Plan.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nYes\nFor: Rampart Village Neighborhood Council\n(Referred to Budget and Finance, Public Safety, and Transportation Committees)\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_08-20-2025\nTransmittal Letter to Public Safety and Budget and Finance Committees 8-13-25\nCommunication from CD 1 8-13-2025 - Amendment\nCommunication from Chair 8-13-25 - Amendment\nCommunication from LADOT and CAO 8-13-25 - Slide Presentation\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_07-16-2025\nSpeaker Card(s)_06-25-2025\nCommunication(s) from Public_06-23-2025\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_06-17-2025\nJoint Report from City Administrative Officer and Los Angeles Department of Transportation dated 4-11-25",
+          "council_file": "23-0600-S121",
+          "district": "CD 1",
+          "title": "City Administrative Officer and Los Angeles Department of Transportation (LADOT) joint report relative to an independent evaluation of the Vision Zero Program and a revised LADOT Vision Zero Evaluation and Safety Plan.",
+          "mig": "276d61d0-1f9a-4289-9495-b4e451a8aef8",
+          "attachments": [
+            {
+              "historyId": "7538c2d2-6bc2-4fcb-9fa8-fcb74eed60dd",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7538c2d2-6bc2-4fcb-9fa8-fcb74eed60dd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7538c2d2-6bc2-4fcb-9fa8-fcb74eed60dd"
+            },
+            {
+              "historyId": "16ef5026-aee8-4e69-a0a5-4cd2226c4bff",
+              "title": "Transmittal Letter to Public Safety and Budget and Finance Committees 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16ef5026-aee8-4e69-a0a5-4cd2226c4bff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=16ef5026-aee8-4e69-a0a5-4cd2226c4bff"
+            },
+            {
+              "historyId": "059eda9d-31d5-4d29-9ecd-684755ee43d2",
+              "title": "Communication from CD 1 8-13-2025 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=059eda9d-31d5-4d29-9ecd-684755ee43d2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=059eda9d-31d5-4d29-9ecd-684755ee43d2"
+            },
+            {
+              "historyId": "0f4a5760-d92d-46e2-8a42-a84125550f81",
+              "title": "Communication from Chair 8-13-25 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f4a5760-d92d-46e2-8a42-a84125550f81",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0f4a5760-d92d-46e2-8a42-a84125550f81"
+            },
+            {
+              "historyId": "f578e692-6d48-4a66-a302-cf64b772bf9b",
+              "title": "Communication from LADOT and CAO 8-13-25 - Slide Presentation",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f578e692-6d48-4a66-a302-cf64b772bf9b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f578e692-6d48-4a66-a302-cf64b772bf9b"
+            },
+            {
+              "historyId": "9ba92752-a052-4dcf-84f9-41b031b6ac12",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_07-16-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ba92752-a052-4dcf-84f9-41b031b6ac12",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ba92752-a052-4dcf-84f9-41b031b6ac12"
+            },
+            {
+              "historyId": "69618689-a626-4c63-a206-9e108b2e61ea",
+              "title": "Speaker Card(s)_06-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69618689-a626-4c63-a206-9e108b2e61ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69618689-a626-4c63-a206-9e108b2e61ea"
+            },
+            {
+              "historyId": "057567d9-39c5-4bf0-8f3f-3b2c14a0f7ba",
+              "title": "Communication(s) from Public_06-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=057567d9-39c5-4bf0-8f3f-3b2c14a0f7ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=057567d9-39c5-4bf0-8f3f-3b2c14a0f7ba"
+            },
+            {
+              "historyId": "ba6d0109-af8d-4c9a-a531-82a92f25b258",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_06-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba6d0109-af8d-4c9a-a531-82a92f25b258",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba6d0109-af8d-4c9a-a531-82a92f25b258"
+            },
+            {
+              "historyId": "656142ca-baf2-4869-bfc3-378580e027f2",
+              "title": "Joint Report from City Administrative Officer and Los Angeles Department of Transportation dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=656142ca-baf2-4869-bfc3-378580e027f2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=656142ca-baf2-4869-bfc3-378580e027f2"
+            }
+          ]
+        },
+        {
+          "item_id": "156528",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1214\nCity Administrative Officer (CAO) report relative to the Fiscal Year 2025-26 California Highway Patrol Cannabis Tax Fund Grant Program - Law Enforcement.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\n(Referred to Budget and Finance and Public Safety Committees)\nRevised Report from City Administrative Officer dated 10-23-25\nReport from City Administrative Officer dated 10-17-25",
+          "council_file": "25-1214",
+          "title": "City Administrative Officer (CAO) report relative to the Fiscal Year 2025-26 California Highway Patrol Cannabis Tax Fund Grant Program - Law Enforcement.",
+          "mig": "87c194d4-b584-45a6-8f3d-67b815f34c40",
+          "attachments": [
+            {
+              "historyId": "539a7879-3ecf-44f3-996b-895131603652",
+              "title": "Revised Report from City Administrative Officer dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=539a7879-3ecf-44f3-996b-895131603652",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=539a7879-3ecf-44f3-996b-895131603652"
+            },
+            {
+              "historyId": "9bfee5d3-167d-49a2-b949-ca640c07ef7e",
+              "title": "Report from City Administrative Officer dated 10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9bfee5d3-167d-49a2-b949-ca640c07ef7e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9bfee5d3-167d-49a2-b949-ca640c07ef7e"
+            }
+          ]
+        },
+        {
+          "item_id": "156529",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1189\nCity Administrative Officer (CAO) report relative to the acceptance of the Fiscal Year 2024 Emergency Management Performance Grant.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\n(Referred to Budget and Finance and Public Safety Committees)\nReport from City Administrative Officer dated 10-09-25\n2024 EMPG EMD Transmittal",
+          "council_file": "25-1189",
+          "title": "City Administrative Officer (CAO) report relative to the acceptance of the Fiscal Year 2024 Emergency Management Performance Grant.",
+          "mig": "db8eef5c-a33b-499a-90bf-f097af7a4b9b",
+          "attachments": [
+            {
+              "historyId": "06f0c780-ce6b-4446-8345-cc82a30ab252",
+              "title": "Report from City Administrative Officer dated 10-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06f0c780-ce6b-4446-8345-cc82a30ab252",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=06f0c780-ce6b-4446-8345-cc82a30ab252"
+            },
+            {
+              "historyId": "2a3a51c0-61cf-4ff8-aa95-56c9e6eca804",
+              "title": "2024 EMPG EMD Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a3a51c0-61cf-4ff8-aa95-56c9e6eca804",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2a3a51c0-61cf-4ff8-aa95-56c9e6eca804"
+            }
+          ]
+        },
+        {
+          "item_id": "156532",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "14-0955-S10\nCity Administrative Officer (CAO) and Board of Police Commissioners (BOPC) reports relative to the acceptance of the Fiscal Year 2025-26 Real Estate Fraud Prosecution (REFP) Grant Program.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\n(Referred to Budget and Finance and Public Safety Committees)\nReport from City Administrative Officer dated 9-02-25\nReport from Board of Police Commissioners dated 8-12-25",
+          "council_file": "14-0955-S10",
+          "title": "City Administrative Officer (CAO) and Board of Police Commissioners (BOPC) reports relative to the acceptance of the Fiscal Year 2025-26 Real Estate Fraud Prosecution (REFP) Grant Program.",
+          "mig": "2e6ec59a-602b-4336-9456-f438c93dcf4e",
+          "attachments": [
+            {
+              "historyId": "4cfb06c1-bd0b-402b-8f4a-de6401b5fee0",
+              "title": "Report from City Administrative Officer dated 9-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4cfb06c1-bd0b-402b-8f4a-de6401b5fee0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4cfb06c1-bd0b-402b-8f4a-de6401b5fee0"
+            },
+            {
+              "historyId": "ceef2709-5c46-4686-b3d3-86b1a24bf84a",
+              "title": "Report from Board of Police Commissioners dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ceef2709-5c46-4686-b3d3-86b1a24bf84a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ceef2709-5c46-4686-b3d3-86b1a24bf84a"
+            }
+          ]
+        },
+        {
+          "item_id": "156533",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1157\nBoard of Police Commissioners report relative to the request for payment of reward offer (DR No. 23-05-10643) for a fatal hit-and-run case.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Police Commissioners dated 9-30-25",
+          "council_file": "25-1157",
+          "title": "Board of Police Commissioners report relative to the request for payment of reward offer (DR No. 23-05-10643) for a fatal hit-and-run case.",
+          "mig": "9a723767-ae0b-40b3-8c7f-34e881f4c6d2",
+          "attachments": [
+            {
+              "historyId": "46f302af-e96d-4435-b69c-df22292c3eac",
+              "title": "Report from Board of Police Commissioners dated 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46f302af-e96d-4435-b69c-df22292c3eac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=46f302af-e96d-4435-b69c-df22292c3eac"
+            }
+          ]
+        },
+        {
+          "item_id": "156534",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1156\nBoard of Police Commissioners (BOPC) report relative to a donation of surplus ballistic helmets to the Cumberland County Sheriff's Department from the Los Angeles Police Department (LAPD).\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Police Commissioners dated 10-03-25",
+          "council_file": "25-1156",
+          "title": "Board of Police Commissioners (BOPC) report relative to a donation of surplus ballistic helmets to the Cumberland County Sheriff's Department from the Los Angeles Police Department (LAPD).",
+          "mig": "ab4571eb-51a5-4039-91ae-cad437b1f60c",
+          "attachments": [
+            {
+              "historyId": "4b5d6b30-834a-40eb-b1aa-c0eb909fcea4",
+              "title": "Report from Board of Police Commissioners dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b5d6b30-834a-40eb-b1aa-c0eb909fcea4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4b5d6b30-834a-40eb-b1aa-c0eb909fcea4"
+            }
+          ]
+        },
+        {
+          "item_id": "156638",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1257\nMotion (Park – Hutt, Lee) relative to implementing Assembly Bill 630 (Gonzalez), which increases the $500 dollar threshold to an estimated value of $4,000 or less, to authorize the removal and dismantling of abandoned RVs.\nCommunity Impact Statement:\nNone submitted.\n(Referred to Public Safety and Transportation Committees)\nMotion (Park - Lee, Hutt) dated 10-22-25",
+          "council_file": "25-1257",
+          "title": "Motion (Park – Hutt, Lee) relative to implementing Assembly Bill 630 (Gonzalez), which increases the $500 dollar threshold to an estimated value of $4,000 or less, to authorize the removal and dismantling of abandoned RVs.",
+          "mig": "64b81215-ba85-4a9c-9e38-1dc680e9d9d5",
+          "attachments": [
+            {
+              "historyId": "d32ad6e0-96c8-4692-9e08-2ee089c555b7",
+              "title": "Motion (Park - Lee, Hutt) dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d32ad6e0-96c8-4692-9e08-2ee089c555b7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d32ad6e0-96c8-4692-9e08-2ee089c555b7"
+            }
+          ]
+        },
+        {
+          "item_id": "156641",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-0696\nMotion (Soto-Martinez - Hernandez) relative to requesting an ordinance be prepared to create limitations on the deployment of “military equipment” by the Los Angeles Police Department (LAPD) and any law-enforcement agency providing mutual aid within the City; and related matters.\nCommunity Impact Statement:\nYes\nFor:\nCentral Hollywood Neighborhood Council\nLos Feliz Neighborhood Council\nNorth Westwood Neighborhood Council\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_09-5-25\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_07-26-2025\nCommunity Impact Statement submitted by Central Hollywood Neighborhood Council_07-19-2025\nMotion (Soto-Martinez - Hernandez) dated 6-20-25",
+          "council_file": "25-0696",
+          "title": "Motion (Soto-Martinez - Hernandez) relative to requesting an ordinance be prepared to create limitations on the deployment of “military equipment” by the Los Angeles Police Department (LAPD) and any law-enforcement agency providing mutual aid within the City; and related matters.",
+          "mig": "d9a4aaf8-ab6a-4826-bb58-532bdb77bde1",
+          "attachments": [
+            {
+              "historyId": "e872d1f0-fa77-4a6f-8edf-d097271c8006",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_09-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e872d1f0-fa77-4a6f-8edf-d097271c8006",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e872d1f0-fa77-4a6f-8edf-d097271c8006"
+            },
+            {
+              "historyId": "4a643e93-b787-49a8-bdc4-a5329a10397d",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_07-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a643e93-b787-49a8-bdc4-a5329a10397d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4a643e93-b787-49a8-bdc4-a5329a10397d"
+            },
+            {
+              "historyId": "c5c9eb40-d36b-41cf-998b-f2a5d3e449a5",
+              "title": "Community Impact Statement submitted by Central Hollywood Neighborhood Council_07-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5c9eb40-d36b-41cf-998b-f2a5d3e449a5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c5c9eb40-d36b-41cf-998b-f2a5d3e449a5"
+            },
+            {
+              "historyId": "6ca39535-8014-48bc-b10f-9a3aedba10c4",
+              "title": "Motion (Soto-Martinez - Hernandez) dated 6-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6ca39535-8014-48bc-b10f-9a3aedba10c4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6ca39535-8014-48bc-b10f-9a3aedba10c4"
+            }
+          ]
+        },
+        {
+          "item_id": "156642",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-0698\nMotion (Soto-Martínez - Nazarian) relative to partnering with Los Angeles labor unions and immigrants' rights community based organizations to develop best practices, protocols, and trainings for City staff, contractors, and volunteers to serve as marshals or stewards that can proactively engage with community members participating in protest activity.\nCommunity Impact Statement:\nYes\nFor:\nLos Feliz Neighborhood Council\nNorth Westwood Neighborhood Council\n(Referred to Civil Rights, Equity, Immigration, Aging, and Disability and Public Safety Committees.)\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_9-5-25\nSpeaker Card(s)_08-01-2025\nCommunication(s) from Public_08-01-2025\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_07-26-2025\nMotion (Soto-Martinez - Nazarian) dated 6-20-25",
+          "council_file": "25-0698",
+          "title": "Motion (Soto-Martínez - Nazarian) relative to partnering with Los Angeles labor unions and immigrants' rights community based organizations to develop best practices, protocols, and trainings for City staff, contractors, and volunteers to serve as marshals or stewards that can proactively engage with community members participating in protest activity.",
+          "mig": "916a4e51-7d58-48ea-bd8b-ba8de773b250",
+          "attachments": [
+            {
+              "historyId": "618f93e2-6750-4c46-9da6-11f917248599",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_9-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=618f93e2-6750-4c46-9da6-11f917248599",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=618f93e2-6750-4c46-9da6-11f917248599"
+            },
+            {
+              "historyId": "6be4a4a5-3b24-4fe9-97a7-285b6aac901c",
+              "title": "Speaker Card(s)_08-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6be4a4a5-3b24-4fe9-97a7-285b6aac901c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6be4a4a5-3b24-4fe9-97a7-285b6aac901c"
+            },
+            {
+              "historyId": "1d258312-d8c0-477b-b615-069133b339eb",
+              "title": "Communication(s) from Public_08-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d258312-d8c0-477b-b615-069133b339eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1d258312-d8c0-477b-b615-069133b339eb"
+            },
+            {
+              "historyId": "cf071401-93c7-4acd-8cdc-cc0bb1788ae9",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_07-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf071401-93c7-4acd-8cdc-cc0bb1788ae9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cf071401-93c7-4acd-8cdc-cc0bb1788ae9"
+            },
+            {
+              "historyId": "6420b393-98a3-43f0-97ee-de6519008664",
+              "title": "Motion (Soto-Martinez - Nazarian) dated 6-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6420b393-98a3-43f0-97ee-de6519008664",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6420b393-98a3-43f0-97ee-de6519008664"
+            }
+          ]
+        }
+      ],
+      "original_title": "(Referred to Budget and Finance, Public Safety, and Transportation Committees)"
+    }
+  ],
+  "total_items": 10,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-12T22:30:00",
+  "video_url": "https://www.youtube.com/watch?v=WxHyd0ZrhYA"
+}

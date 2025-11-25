@@ -91,6 +91,56 @@
             color: #999;
         }
 
+        .meeting-committee {
+            font-size: 0.8125rem;
+            color: #0066cc;
+            margin-bottom: 0.25rem;
+        }
+
+        .committee-filter {
+            margin-bottom: 1.5rem;
+        }
+
+        .committee-filter-label {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .committee-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .committee-tab {
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 20px;
+            background: #fff;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .committee-tab:hover {
+            border-color: #0066cc;
+            color: #0066cc;
+        }
+
+        .committee-tab.active {
+            background: #0066cc;
+            border-color: #0066cc;
+            color: #fff;
+        }
+
+        .meeting-card[data-hidden="true"] {
+            display: none;
+        }
+
         footer {
             margin-top: 3rem;
             padding-top: 2rem;
@@ -137,43 +187,143 @@
             <h2>Recent meetings</h2>
 
             
-            <a href="meetings/17432.html" class="meeting-card">
+            <div class="committee-filter">
+                <span class="committee-filter-label">Filter by committee:</span>
+                <div class="committee-tabs">
+                    <button class="committee-tab active" data-committee="all">All</button>
+                    
+                    <button class="committee-tab" data-committee="1">City Council Meeting</button>
+                    
+                    <button class="committee-tab" data-committee="112">Ad Hoc Committee for LA Recovery</button>
+                    
+                    <button class="committee-tab" data-committee="19">Budget and Finance Committee</button>
+                    
+                    <button class="committee-tab" data-committee="101">Civil Rights, Equity, Immigration, Aging, and Disability Committee</button>
+                    
+                    <button class="committee-tab" data-committee="103">Government Operations Committee</button>
+                    
+                    <button class="committee-tab" data-committee="104">Housing and Homelessness Committee</button>
+                    
+                    <button class="committee-tab" data-committee="6">Los Angeles City Health Commission</button>
+                    
+                    <button class="committee-tab" data-committee="12">Planning and Land Use Management Committee</button>
+                    
+                    <button class="committee-tab" data-committee="4">Public Safety Committee</button>
+                    
+                    <button class="committee-tab" data-committee="36">Public Works Committee</button>
+                    
+                    <button class="committee-tab" data-committee="15">Rules, Elections and Intergovernmental Relations Committee</button>
+                    
+                    <button class="committee-tab" data-committee="17">Transportation Committee</button>
+                    
+                </div>
+            </div>
+            
+
+            
+            <a href="meetings/17585.html" class="meeting-card" data-committee="103">
+                <div class="meeting-title">Government Operations Committee</div>
+                <div class="meeting-date">December 02, 2025</div>
+                <div class="meeting-stats">5 agenda items</div>
+            </a>
+            
+            <a href="meetings/17578.html" class="meeting-card" data-committee="19">
+                <div class="meeting-title">Budget and Finance Committee</div>
+                <div class="meeting-date">November 24, 2025</div>
+                <div class="meeting-stats">5 agenda items</div>
+            </a>
+            
+            <a href="meetings/17544.html" class="meeting-card" data-committee="112">
+                <div class="meeting-title">Ad Hoc Committee for LA Recovery</div>
+                <div class="meeting-date">November 17, 2025</div>
+                <div class="meeting-stats">3 agenda items</div>
+            </a>
+            
+            <a href="meetings/17467.html" class="meeting-card" data-committee="12">
+                <div class="meeting-title">Planning and Land Use Management Committee</div>
+                <div class="meeting-date">November 17, 2025</div>
+                <div class="meeting-stats">17 agenda items</div>
+            </a>
+            
+            <a href="meetings/17432.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">November 14, 2025</div>
                 <div class="meeting-stats">6 agenda items</div>
             </a>
             
-            <a href="meetings/17283.html" class="meeting-card">
+            <a href="meetings/17528.html" class="meeting-card" data-committee="36">
+                <div class="meeting-title">Public Works Committee</div>
+                <div class="meeting-date">November 12, 2025</div>
+                <div class="meeting-stats">14 agenda items</div>
+            </a>
+            
+            <a href="meetings/17526.html" class="meeting-card" data-committee="4">
+                <div class="meeting-title">Public Safety Committee</div>
+                <div class="meeting-date">November 12, 2025</div>
+                <div class="meeting-stats">10 agenda items</div>
+            </a>
+            
+            <a href="meetings/17498.html" class="meeting-card" data-committee="104">
+                <div class="meeting-title">Housing and Homelessness Committee</div>
+                <div class="meeting-date">November 12, 2025</div>
+                <div class="meeting-stats">8 agenda items</div>
+            </a>
+            
+            <a href="meetings/17471.html" class="meeting-card" data-committee="17">
+                <div class="meeting-title">Transportation Committee</div>
+                <div class="meeting-date">November 12, 2025</div>
+                <div class="meeting-stats">14 agenda items</div>
+            </a>
+            
+            <a href="meetings/17283.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">November 12, 2025</div>
                 <div class="meeting-stats">71 agenda items</div>
             </a>
             
-            <a href="meetings/17477.html" class="meeting-card">
+            <a href="meetings/17470.html" class="meeting-card" data-committee="6">
+                <div class="meeting-title">Los Angeles City Health Commission</div>
+                <div class="meeting-date">November 10, 2025</div>
+                <div class="meeting-stats">5 agenda items</div>
+            </a>
+            
+            <a href="meetings/17484.html" class="meeting-card" data-committee="101">
+                <div class="meeting-title">Civil Rights, Equity, Immigration, Aging, and Disability Committee</div>
+                <div class="meeting-date">November 07, 2025</div>
+                <div class="meeting-stats">4 agenda items</div>
+            </a>
+            
+            <a href="meetings/17477.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">November 07, 2025</div>
                 <div class="meeting-stats">4 agenda items</div>
             </a>
             
-            <a href="meetings/17406.html" class="meeting-card">
+            <a href="meetings/17469.html" class="meeting-card" data-committee="15">
+                <div class="meeting-title">Rules, Elections and Intergovernmental Relations Committee</div>
+                <div class="meeting-date">November 07, 2025</div>
+                <div class="meeting-stats">8 agenda items</div>
+            </a>
+            
+            <a href="meetings/17406.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">November 05, 2025</div>
                 <div class="meeting-stats">41 agenda items</div>
             </a>
             
-            <a href="meetings/17407.html" class="meeting-card">
+            <a href="meetings/17407.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">November 04, 2025</div>
                 <div class="meeting-stats">41 agenda items</div>
             </a>
             
-            <a href="meetings/17367.html" class="meeting-card">
+            <a href="meetings/17367.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">October 31, 2025</div>
                 <div class="meeting-stats">4 agenda items</div>
             </a>
             
-            <a href="meetings/17455.html" class="meeting-card">
+            <a href="meetings/17455.html" class="meeting-card" data-committee="1">
                 <div class="meeting-title">City Council Meeting</div>
                 <div class="meeting-date">October 29, 2025</div>
                 <div class="meeting-stats">31 agenda items</div>
@@ -185,9 +335,36 @@
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Updated 2025-11-24</p>
+            <p style="margin-top: 0.5rem;">Updated 2025-11-25</p>
         </div>
     </footer>
+
+    <!-- Committee Filter Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.committee-tab');
+            const cards = document.querySelectorAll('.meeting-card');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Update active tab
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const committee = this.dataset.committee;
+
+                    // Filter cards
+                    cards.forEach(card => {
+                        if (committee === 'all' || card.dataset.committee === committee) {
+                            card.removeAttribute('data-hidden');
+                        } else {
+                            card.setAttribute('data-hidden', 'true');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 
     <!-- Analytics -->
     

@@ -16,22 +16,25 @@
     },
     {
       "section_id": "357549",
-      "title": "Commendatory Resolutions, Introductions and Presentations",
-      "items": []
+      "title": "Commendations and presentations",
+      "items": [],
+      "original_title": "Commendatory Resolutions, Introductions and Presentations"
     },
     {
       "section_id": "357550",
-      "title": "Multiple Agenda Item Comment",
-      "items": []
+      "title": "General public comments",
+      "items": [],
+      "original_title": "Multiple Agenda Item Comment"
     },
     {
       "section_id": "357551",
-      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
-      "items": []
+      "title": "Public comments",
+      "items": [],
+      "original_title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council"
     },
     {
       "section_id": "357553",
-      "title": "Items for which Public Hearings Have Been Held",
+      "title": "Completed hearings",
       "items": [
         {
           "item_id": "156034",
@@ -644,11 +647,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Been Held"
     },
     {
       "section_id": "357554",
-      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "title": "No hearings held (requires 10 votes)",
       "items": [
         {
           "item_id": "156000",
@@ -853,7 +857,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)"
     },
     {
       "section_id": "357555",
@@ -872,7 +877,7 @@
     },
     {
       "section_id": "357562",
-      "title": "Closed Session",
+      "title": "Closed sessions",
       "items": [
         {
           "item_id": "156081",
@@ -1043,7 +1048,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Closed Session"
     },
     {
       "section_id": "357559",

@@ -701,7 +701,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
         if without_summaries:
             html += f"""        <section class="section">
             <details class="no-summaries">
-                <summary>{len(without_summaries)} additional document(s) without AI summaries</summary>
+                <summary>{len(without_summaries)} additional document(s)</summary>
                 <div class="no-summary-docs">
 """
             for attachment in without_summaries:

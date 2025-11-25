@@ -16,22 +16,25 @@
     },
     {
       "section_id": "356558",
-      "title": "Commendatory Resolutions, Introductions and Presentations",
-      "items": []
+      "title": "Commendations and presentations",
+      "items": [],
+      "original_title": "Commendatory Resolutions, Introductions and Presentations"
     },
     {
       "section_id": "356559",
-      "title": "Multiple Agenda Item Comment",
-      "items": []
+      "title": "General public comments",
+      "items": [],
+      "original_title": "Multiple Agenda Item Comment"
     },
     {
       "section_id": "356560",
-      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
-      "items": []
+      "title": "Public comments",
+      "items": [],
+      "original_title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council"
     },
     {
       "section_id": "356562",
-      "title": "Items for which Public Hearings Have Been Held",
+      "title": "Completed hearings",
       "items": [
         {
           "item_id": "155475",
@@ -290,7 +293,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Been Held"
     },
     {
       "section_id": "356564",

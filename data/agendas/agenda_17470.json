@@ -1,0 +1,109 @@
+{
+  "meeting_id": 17470,
+  "template_id": 147539,
+  "parsed_at": "2025-11-24T23:01:39.400679",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147539",
+  "sections": [
+    {
+      "section_id": "357609",
+      "title": "Roll Call",
+      "items": []
+    },
+    {
+      "section_id": "357608",
+      "title": "Meeting minutes approval",
+      "items": [
+        {
+          "item_id": "156448",
+          "item_number": "",
+          "has_attachments": true,
+          "raw_text": "Approval of the Minutes from the August 11, 2025 Regular Meeting.\n08-11-25 journal draft",
+          "title": "Approval of the Minutes from the August 11, 2025 Regular Meeting.",
+          "mig": "6b902e51-c575-4279-9ee7-357094694d8d",
+          "attachments": [
+            {
+              "historyId": "4f15fb64-2f2a-4ec2-b190-0a0553802c35",
+              "title": "08-11-25 journal draft",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f15fb64-2f2a-4ec2-b190-0a0553802c35",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f15fb64-2f2a-4ec2-b190-0a0553802c35"
+            }
+          ]
+        }
+      ],
+      "original_title": "Approval of the MinutesApproval of the Minutes from the August 11, 2025 Regular Meeting.08-11-25 journal draft"
+    },
+    {
+      "section_id": "357611",
+      "title": "Neighborhood Council Comments (pursuant to Ordinance No. 184243)",
+      "items": []
+    },
+    {
+      "section_id": "357612",
+      "title": "Public Comment",
+      "items": []
+    },
+    {
+      "section_id": "357610",
+      "title": "Untitled Section",
+      "items": [
+        {
+          "item_id": "156158",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "Presentation by Eric A. Morgan, Emergency Management Coordinator, Emergency Management Department (EMD), on emergency planning, response, and recovery, and the role of the EMD’s Community Partnerships and Engagement Division; and possible Commission action.\nPresentation by Eric Moran on Personal and Family Emergency Preparedness 11-10-25",
+          "title": "Presentation by Eric A. Morgan, Emergency Management Coordinator, Emergency Management Department (EMD), on emergency planning, response, and recovery, and the role of the EMD’s Community Partnerships and Engagement Division; and possible Commission action.",
+          "mig": "a2ab1923-6330-4969-b4e1-8c8939cd8d5c",
+          "attachments": [
+            {
+              "historyId": "375eef96-9522-42ce-8c7a-2f8c72fdb5fc",
+              "title": "Presentation by Eric Moran on Personal and Family Emergency Preparedness 11-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=375eef96-9522-42ce-8c7a-2f8c72fdb5fc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=375eef96-9522-42ce-8c7a-2f8c72fdb5fc"
+            }
+          ]
+        },
+        {
+          "item_id": "156161",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "Presentation by Adjoa Jones, MBA, CLES, Doula, Birth Equity Unit Chief/Director, African American Infant/Maternal Mortality (AAIMM) Prevention Initiative Programs, Maternal Child, Adolescent and Health Programs, Los Angeles County Department of Public Health, on African American infant and maternal mortality/morbidity prevention, and the experiences and outcomes of birthing people; and possible Commission action.\nPresentation by Adjoa Jones on African American Infant and Maternal Mortality Prevention 11-10-25",
+          "title": "Presentation by Adjoa Jones, MBA, CLES, Doula, Birth Equity Unit Chief/Director, African American Infant/Maternal Mortality (AAIMM) Prevention Initiative Programs, Maternal Child, Adolescent and Health Programs, Los Angeles County Department of Public Health, on African American infant and maternal mortality/morbidity prevention, and the experiences and outcomes of birthing people; and possible Commission action.",
+          "mig": "ba413a89-257b-49c0-87c1-b6f63c7184bc",
+          "attachments": [
+            {
+              "historyId": "af8f1647-d5bc-400b-94bc-2140b01410c2",
+              "title": "Presentation by Adjoa Jones on African American Infant and Maternal Mortality Prevention 11-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af8f1647-d5bc-400b-94bc-2140b01410c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af8f1647-d5bc-400b-94bc-2140b01410c2"
+            }
+          ]
+        },
+        {
+          "item_id": "156156",
+          "item_number": "(3)",
+          "has_attachments": false,
+          "raw_text": "Presentation by Joseph Donlin, Director of United to House Los Angeles, on Measure ULA and its impact on housing for low-income communities; and possible Commission action.",
+          "title": "Presentation by Joseph Donlin, Director of United to House Los Angeles, on Measure ULA and its impact on housing for low-income communities; and possible Commission action.",
+          "mig": "db852d97-2827-4e77-9f2f-c6530a50a7cf"
+        },
+        {
+          "item_id": "156157",
+          "item_number": "(4)",
+          "has_attachments": false,
+          "raw_text": "Items for Future Discussion.",
+          "title": "Items for Future Discussion.",
+          "mig": "d81290cf-ab90-47be-9f3b-acf3f4fdd97c"
+        }
+      ]
+    },
+    {
+      "section_id": "357613",
+      "title": "Adjournment",
+      "items": []
+    }
+  ],
+  "total_items": 5,
+  "total_sections": 6,
+  "meeting_datetime": "2025-11-11T02:00:00",
+  "video_url": "https://www.youtube.com/watch?v=HqfEQ7UuAF4"
+}

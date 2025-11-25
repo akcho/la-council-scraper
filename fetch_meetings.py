@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MVP: Fetch LA City Council meetings and prepare for summarization.
+Fetch LA City Council and committee meetings and prepare for summarization.
 """
 
 import requests
@@ -9,10 +9,31 @@ from datetime import datetime
 from typing import List, Dict
 
 class LACouncilScraper:
-    """Fetch and process LA City Council meetings."""
+    """Fetch and process LA City Council and committee meetings."""
 
     BASE_URL = "https://lacity.primegov.com"
-    CITY_COUNCIL_ID = 1  # Committee ID for City Council
+
+    # Committee name mapping (from PrimeGov API - verified against actual API data)
+    COMMITTEE_NAMES = {
+        1: "City Council Meeting",
+        4: "Public Safety Committee",
+        6: "Los Angeles City Health Commission",
+        12: "Planning and Land Use Management Committee",
+        15: "Rules, Elections and Intergovernmental Relations Committee",
+        17: "Transportation Committee",
+        18: "Trade, Travel and Tourism Committee",
+        19: "Budget and Finance Committee",
+        32: "Economic Development and Jobs Committee",
+        36: "Public Works Committee",
+        49: "Energy and Environment Committee",
+        101: "Civil Rights, Equity, Immigration, Aging, and Disability Committee",
+        103: "Government Operations Committee",
+        104: "Housing and Homelessness Committee",
+        108: "Arts, Parks, Libraries, and Community Enrichment Committee",
+        109: "Government Efficiency, Innovation, and Audits Committee",
+        110: "Personnel and Hiring Committee",
+        112: "Ad Hoc Committee for LA Recovery",
+    }
 
     def __init__(self):
         self.session = requests.Session()
@@ -20,29 +41,54 @@ class LACouncilScraper:
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
 
-    def get_recent_meetings(self, limit: int = 10) -> List[Dict]:
-        """Get recent City Council meetings (both upcoming and archived)."""
+    def get_committee_name(self, committee_id: int, fallback_title: str = None) -> str:
+        """Get committee name from ID, with fallback to provided title."""
+        if committee_id in self.COMMITTEE_NAMES:
+            return self.COMMITTEE_NAMES[committee_id]
+        if fallback_title:
+            return fallback_title
+        return f"Committee {committee_id}"
+
+    def get_recent_meetings(self, limit: int = 50, committee_id: int = None) -> List[Dict]:
+        """Get recent meetings (both upcoming and archived).
+
+        Args:
+            limit: Maximum number of meetings to return
+            committee_id: If provided, filter to this committee only. None = all committees.
+        """
 
         all_meetings = []
 
         # Get upcoming meetings (includes today's meetings)
-        print(f"📅 Fetching upcoming City Council meetings...")
+        # Note: upcoming meetings API includes committee 'title' field
+        if committee_id:
+            print(f"📅 Fetching upcoming {self.get_committee_name(committee_id)} meetings...")
+        else:
+            print(f"📅 Fetching upcoming meetings (all committees)...")
         url = f"{self.BASE_URL}/api/v2/PublicPortal/ListUpcomingMeetings"
 
         response = self.session.get(url)
         response.raise_for_status()
         upcoming = response.json()
 
-        upcoming_council = [
-            m for m in upcoming
-            if m.get('committeeId') == self.CITY_COUNCIL_ID
-        ]
-        all_meetings.extend(upcoming_council)
-        print(f"✅ Found {len(upcoming_council)} upcoming City Council meetings")
+        # Add committee name to each meeting from upcoming (has 'title' field)
+        for m in upcoming:
+            cid = m.get('committeeId')
+            # Use 'title' from API response as fallback (it has committee name)
+            m['committeeName'] = self.get_committee_name(cid, m.get('title'))
+
+        if committee_id:
+            upcoming = [m for m in upcoming if m.get('committeeId') == committee_id]
+
+        all_meetings.extend(upcoming)
+        print(f"✅ Found {len(upcoming)} upcoming meetings")
 
         # Get archived meetings from current year
         current_year = datetime.now().year
-        print(f"📅 Fetching archived City Council meetings for {current_year}...")
+        if committee_id:
+            print(f"📅 Fetching archived {self.get_committee_name(committee_id)} meetings for {current_year}...")
+        else:
+            print(f"📅 Fetching archived meetings for {current_year} (all committees)...")
         url = f"{self.BASE_URL}/api/v2/PublicPortal/ListArchivedMeetings?year={current_year}"
 
         response = self.session.get(url)
@@ -50,19 +96,22 @@ class LACouncilScraper:
 
         archived = response.json()
 
-        # Filter for City Council only
-        archived_council = [
-            m for m in archived
-            if m.get('committeeId') == self.CITY_COUNCIL_ID
-        ]
-        all_meetings.extend(archived_council)
-        print(f"✅ Found {len(archived_council)} archived City Council meetings")
+        # Add committee name to each archived meeting
+        for m in archived:
+            cid = m.get('committeeId')
+            m['committeeName'] = self.get_committee_name(cid)
+
+        if committee_id:
+            archived = [m for m in archived if m.get('committeeId') == committee_id]
+
+        all_meetings.extend(archived)
+        print(f"✅ Found {len(archived)} archived meetings")
 
         # Remove duplicates by ID and sort by date (most recent first)
         unique_meetings = {m['id']: m for m in all_meetings}.values()
         sorted_meetings = sorted(unique_meetings, key=lambda x: x.get('dateTime', ''), reverse=True)
 
-        print(f"✅ Total: {len(sorted_meetings)} unique City Council meetings")
+        print(f"✅ Total: {len(sorted_meetings)} unique meetings")
 
         return list(sorted_meetings)[:limit]
 
@@ -202,20 +251,20 @@ def main():
     """Main function to test the scraper."""
 
     print("=" * 60)
-    print("LA City Council Scraper MVP")
+    print("LA City Council & Committee Meeting Scraper")
     print("=" * 60)
     print()
 
     scraper = LACouncilScraper()
 
-    # Get recent meetings
-    meetings = scraper.get_recent_meetings(limit=5)
+    # Get recent meetings from ALL committees
+    meetings = scraper.get_recent_meetings(limit=50)
 
     if not meetings:
         print("❌ No meetings found!")
         return
 
-    print(f"\n📋 Most Recent City Council Meetings:\n")
+    print(f"\n📋 Most Recent Meetings (all committees):\n")
 
     for i, meeting in enumerate(meetings, 1):
         print(f"\n{'-' * 60}")

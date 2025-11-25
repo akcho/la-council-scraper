@@ -1,0 +1,166 @@
+{
+  "meeting_id": 17544,
+  "template_id": 148180,
+  "parsed_at": "2025-11-25T00:01:08.868638",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148180",
+  "sections": [
+    {
+      "section_id": "358347",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "358349",
+      "title": "Emergency management and contracts",
+      "items": [
+        {
+          "item_id": "156695",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0683\nCity Administrative Officer report relative to Bureau of Engineering funding for the AECOM contract to provide as-needed project management, engineering support and other expert consulting services in response to the 2025 January Wind and Fire Storm event.\n(This item is referred to the Ad Hoc Committee for LA Recovery and Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 10-29-25\nCouncil Action dated 8-07-25\nSpeaker Card(s)_08-05-2025\nReport from Ad Hoc Committee for LA Recovery 6-23-25\nMotion (Rodriguez - Blumenfield) dated 6-18-25",
+          "council_file": "25-0683",
+          "title": "City Administrative Officer report relative to Bureau of Engineering funding for the AECOM contract to provide as-needed project management, engineering support and other expert consulting services in response to the 2025 January Wind and Fire Storm event.",
+          "mig": "3c9b81f8-6f28-41ed-a767-e5d11ba697f0",
+          "attachments": [
+            {
+              "historyId": "71f83003-c661-437e-86f5-a653c5cc0d4f",
+              "title": "Report from City Administrative Officer dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=71f83003-c661-437e-86f5-a653c5cc0d4f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=71f83003-c661-437e-86f5-a653c5cc0d4f"
+            },
+            {
+              "historyId": "e8a556b3-a523-47e1-a523-c693ddad89a1",
+              "title": "Council Action dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8a556b3-a523-47e1-a523-c693ddad89a1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8a556b3-a523-47e1-a523-c693ddad89a1"
+            },
+            {
+              "historyId": "9a4ef06b-ebe1-4af2-9b0c-07b13c220c0a",
+              "title": "Speaker Card(s)_08-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9a4ef06b-ebe1-4af2-9b0c-07b13c220c0a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9a4ef06b-ebe1-4af2-9b0c-07b13c220c0a"
+            },
+            {
+              "historyId": "d716285b-2da4-48cd-a5b9-d17e591ba7fa",
+              "title": "Report from Ad Hoc Committee for LA Recovery 6-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d716285b-2da4-48cd-a5b9-d17e591ba7fa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d716285b-2da4-48cd-a5b9-d17e591ba7fa"
+            },
+            {
+              "historyId": "b315841f-c698-4cb2-939b-e1e2773aee81",
+              "title": "Motion (Rodriguez - Blumenfield) dated 6-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b315841f-c698-4cb2-939b-e1e2773aee81",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b315841f-c698-4cb2-939b-e1e2773aee81"
+            }
+          ]
+        },
+        {
+          "item_id": "156696",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S35\nEmergency Management Department report relative to City protocols and procedures for Red Flag Warning Declarations.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Emergency Management Department dated 9-16-25\nCommunity Impact Statement submitted by Arroyo Seco Neighborhood Council_9-9-25\nCommunication(s) from Public_04-22-2025\nCommunication(s) from Public_03-03-2025\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_02-20-2025\nCommunity Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council_2-20-2025\nCouncil Action dated 2-19-25\nSpeaker Card(s)_02-18-2025\nCommunication(s) from Public_02-14-2025\nCommunication(s) from Public_02-07-2025\nReport from Ad Hoc Committee for LA Recovery 2-6-25\nMotion (Raman, Yaroslavsky - Jurado) dated 1-14-25",
+          "council_file": "25-0006-S35",
+          "title": "Emergency Management Department report relative to City protocols and procedures for Red Flag Warning Declarations.",
+          "mig": "582e821f-bc83-486d-8187-6838c8f27922",
+          "attachments": [
+            {
+              "historyId": "0e16b971-9ae0-4034-863d-1869cf088201",
+              "title": "Report from Emergency Management Department dated 9-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e16b971-9ae0-4034-863d-1869cf088201",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e16b971-9ae0-4034-863d-1869cf088201"
+            },
+            {
+              "historyId": "d35d460d-e0c9-48a2-9e8a-e6360ab2f0bf",
+              "title": "Community Impact Statement submitted by Arroyo Seco Neighborhood Council_9-9-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d35d460d-e0c9-48a2-9e8a-e6360ab2f0bf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d35d460d-e0c9-48a2-9e8a-e6360ab2f0bf"
+            },
+            {
+              "historyId": "86fd50b6-7601-4702-b588-e9808db27eec",
+              "title": "Communication(s) from Public_04-22-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86fd50b6-7601-4702-b588-e9808db27eec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86fd50b6-7601-4702-b588-e9808db27eec"
+            },
+            {
+              "historyId": "681aad1b-d288-4bb2-9caa-4faa099f6c43",
+              "title": "Communication(s) from Public_03-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=681aad1b-d288-4bb2-9caa-4faa099f6c43",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=681aad1b-d288-4bb2-9caa-4faa099f6c43"
+            },
+            {
+              "historyId": "a21c7dda-c9c5-4c59-81b7-33e5ec1a1d9f",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_02-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a21c7dda-c9c5-4c59-81b7-33e5ec1a1d9f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a21c7dda-c9c5-4c59-81b7-33e5ec1a1d9f"
+            },
+            {
+              "historyId": "042c718a-0bab-40a7-b149-8cf8fe4e1833",
+              "title": "Community Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council_2-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=042c718a-0bab-40a7-b149-8cf8fe4e1833",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=042c718a-0bab-40a7-b149-8cf8fe4e1833"
+            },
+            {
+              "historyId": "10ec2a41-5671-4e30-b4c9-83e7e6c4bf98",
+              "title": "Council Action dated 2-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=10ec2a41-5671-4e30-b4c9-83e7e6c4bf98",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=10ec2a41-5671-4e30-b4c9-83e7e6c4bf98"
+            },
+            {
+              "historyId": "e913140d-6303-48d3-98d5-e5665dc93ff9",
+              "title": "Speaker Card(s)_02-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e913140d-6303-48d3-98d5-e5665dc93ff9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e913140d-6303-48d3-98d5-e5665dc93ff9"
+            },
+            {
+              "historyId": "cfefed8d-e6ab-4bb5-a216-9d64a9eb2f03",
+              "title": "Communication(s) from Public_02-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfefed8d-e6ab-4bb5-a216-9d64a9eb2f03",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfefed8d-e6ab-4bb5-a216-9d64a9eb2f03"
+            },
+            {
+              "historyId": "3afa5b37-e960-42d5-a7dc-69538a5a8a17",
+              "title": "Communication(s) from Public_02-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3afa5b37-e960-42d5-a7dc-69538a5a8a17",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3afa5b37-e960-42d5-a7dc-69538a5a8a17"
+            },
+            {
+              "historyId": "63609430-4e68-4ddb-a75c-b7b3b11033cf",
+              "title": "Report from Ad Hoc Committee for LA Recovery 2-6-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=63609430-4e68-4ddb-a75c-b7b3b11033cf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=63609430-4e68-4ddb-a75c-b7b3b11033cf"
+            },
+            {
+              "historyId": "504befbd-78ca-4185-8311-8f4ec23282f1",
+              "title": "Motion (Raman, Yaroslavsky - Jurado) dated 1-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=504befbd-78ca-4185-8311-8f4ec23282f1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=504befbd-78ca-4185-8311-8f4ec23282f1"
+            }
+          ]
+        },
+        {
+          "item_id": "156697",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S86\nMotion (Park – Harris-Dawson) relative to requesting the City Attorney to provide a report on the feasibility of implementing Mayor Bass' October 9, 2025 request to Council relative to granting the Director of Finance of the Office of Finance increased delegated authority to promulgate rules that grant a one-time Measure ULA tax exemption to owners of all residential properties in the Pacific Palisades that were destroyed in the Palisades Fire; and related matters.\n(This item is referred to Ad Hoc Committee for LA Recovery and Budget and Finance Committee.)\nCommunity Impact Statement:\nNone submitted\nMotion (Park - Harris-Dawson) dated 10-24-25",
+          "council_file": "25-0006-S86",
+          "title": "Motion (Park – Harris-Dawson) relative to requesting the City Attorney to provide a report on the feasibility of implementing Mayor Bass' October 9, 2025 request to Council relative to granting the Director of Finance of the Office of Finance increased delegated authority to promulgate rules that grant a one-time Measure ULA tax exemption to owners of all residential properties in the Pacific Palisades that were destroyed in the Palisades Fire; and related matters.",
+          "mig": "100b36ed-8f04-49aa-af30-39a4d38fc6cd",
+          "attachments": [
+            {
+              "historyId": "2d913845-f9d4-4263-b80d-3396a1f769c3",
+              "title": "Motion (Park - Harris-Dawson) dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d913845-f9d4-4263-b80d-3396a1f769c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d913845-f9d4-4263-b80d-3396a1f769c3"
+            }
+          ]
+        }
+      ],
+      "original_title": "(This item is referred to the Ad Hoc Committee for LA Recovery and Budget and Finance Committee.)"
+    }
+  ],
+  "total_items": 3,
+  "total_sections": 2,
+  "meeting_datetime": "2025-11-17T18:00:00",
+  "video_url": "https://www.youtube.com/watch?v=uR3N4DADNEw"
+}

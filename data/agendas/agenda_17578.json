@@ -1,0 +1,69 @@
+{
+  "meeting_id": 17578,
+  "template_id": 148625,
+  "parsed_at": "2025-11-24T23:01:36.170195",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148625",
+  "sections": [
+    {
+      "section_id": "359089",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "359090",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "359091",
+      "title": "Welcome and Introductions",
+      "items": [
+        {
+          "item_id": "156820",
+          "item_number": "(1)",
+          "has_attachments": false,
+          "raw_text": "Welcome and Introductions\nCouncilmember Katy Yaroslavsky, Chair of the Budget and Finance Committee, will welcome members and lead introductions.",
+          "title": "Welcome and Introductions",
+          "mig": "d3fd1636-7091-421c-b7a9-abe696b04b46"
+        },
+        {
+          "item_id": "156821",
+          "item_number": "(2)",
+          "has_attachments": false,
+          "raw_text": "VOTE: BFAC Chair and Vice-Chair\nThe Committee will nominate and vote to elect a Chair and Vice-Chair for the BFAC.",
+          "title": "VOTE: BFAC Chair and Vice-Chair",
+          "mig": "fc0a4c0a-e6a9-4e4d-8898-9ddec14bcab3"
+        },
+        {
+          "item_id": "156823",
+          "item_number": "(3)",
+          "has_attachments": false,
+          "raw_text": "Budget Overview\nStaff will provide an overview of the City budget and key financial priorities.",
+          "title": "Staff will provide an overview of the City budget and key financial priorities.",
+          "mig": "fd01969f-f852-492d-8421-df05af1f31a7"
+        },
+        {
+          "item_id": "156824",
+          "item_number": "(4)",
+          "has_attachments": false,
+          "raw_text": "Discussion: Committee Focus Areas\nThe Committee will discuss a work plan, set goals and focus areas for the year, and consider focus area leadership, as needed.",
+          "title": "Discussion: Committee Focus Areas",
+          "mig": "25f18bbe-fbb0-49b2-8f63-84509441f58b"
+        },
+        {
+          "item_id": "156826",
+          "item_number": "(5)",
+          "has_attachments": false,
+          "raw_text": "Next Steps\nIdentify next steps, meeting frequency, and confirm upcoming BFAC meeting dates.",
+          "title": "Identify next steps, meeting frequency, and confirm upcoming BFAC meeting dates.",
+          "mig": "3c9fe669-1bbd-47e1-8c64-4f69f8eadacf"
+        }
+      ]
+    }
+  ],
+  "total_items": 5,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-24T21:00:00"
+}

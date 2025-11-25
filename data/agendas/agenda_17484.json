@@ -1,0 +1,172 @@
+{
+  "meeting_id": 17484,
+  "template_id": 147644,
+  "parsed_at": "2025-11-24T23:01:40.515588",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147644",
+  "sections": [
+    {
+      "section_id": "357676",
+      "title": "General public comments",
+      "items": [],
+      "original_title": "MULTIPLE AGENDA ITEM COMMENT"
+    },
+    {
+      "section_id": "357677",
+      "title": "Public comments",
+      "items": [],
+      "original_title": "GENERAL PUBLIC COMMENT"
+    },
+    {
+      "section_id": "357678",
+      "title": "Committee referrals",
+      "items": [
+        {
+          "item_id": "156383",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0600-S43\nJoint City Administrative Officer and Chief Legislative Analyst and Community Investment for Families Department reports relative to the proposed consolidation of the Department of Aging, Community Investment for Families Department, Economic and Workforce Development Department, and Youth Development Department.\n(This item was referred to the Civil Rights, Equity, Aging, Immigration, and Disability Committee, Economic Development and Jobs Committee, and Government Efficiency, Innovation, and Audits Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nJoint Report from City Administrative Officer and Chief Legislative Analyst dated 10-22-25\nCommunication from Community Investment for Families Department dated 8-19-25 - Presentation\nCommunication(s) from Public_08-19-2025\nSpeaker Card(s)_08-19-2025\nReport from Community Investment for Families Department dated 7-25-25",
+          "council_file": "25-0600-S43",
+          "title": "Joint City Administrative Officer and Chief Legislative Analyst and Community Investment for Families Department reports relative to the proposed consolidation of the Department of Aging, Community Investment for Families Department, Economic and Workforce Development Department, and Youth Development Department.",
+          "mig": "3d8158a8-262b-4169-a4bb-d7a607e95eb4",
+          "attachments": [
+            {
+              "historyId": "dfaf8628-b1d8-4b09-a290-53e1f8d5f562",
+              "title": "Joint Report from City Administrative Officer and Chief Legislative Analyst dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dfaf8628-b1d8-4b09-a290-53e1f8d5f562",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dfaf8628-b1d8-4b09-a290-53e1f8d5f562"
+            },
+            {
+              "historyId": "b2103b21-8470-4f9b-b49e-72e7d81e07e5",
+              "title": "Communication from Community Investment for Families Department dated 8-19-25 - Presentation",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2103b21-8470-4f9b-b49e-72e7d81e07e5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b2103b21-8470-4f9b-b49e-72e7d81e07e5"
+            },
+            {
+              "historyId": "3de7152e-25fa-4dee-836c-b1cf49f609d2",
+              "title": "Communication(s) from Public_08-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3de7152e-25fa-4dee-836c-b1cf49f609d2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3de7152e-25fa-4dee-836c-b1cf49f609d2"
+            },
+            {
+              "historyId": "21d967b7-5af7-458e-a80a-b801858136e4",
+              "title": "Speaker Card(s)_08-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=21d967b7-5af7-458e-a80a-b801858136e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=21d967b7-5af7-458e-a80a-b801858136e4"
+            },
+            {
+              "historyId": "d812459b-26a8-47dc-879a-b67d2b5bdcbf",
+              "title": "Report from Community Investment for Families Department dated 7-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d812459b-26a8-47dc-879a-b67d2b5bdcbf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d812459b-26a8-47dc-879a-b67d2b5bdcbf"
+            }
+          ]
+        },
+        {
+          "item_id": "156384",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "17-0046-S4\nCONTINUED FROM AUGUST 1, 2025 and OCTOBER 17, 2025\nCity Administrative Officer reports relative to increasing RepresentLA funding by one million dollars.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nReseda Neighborhood Council\nNorth Westwood Neighborhood Council\nReport from City Administrative Officer dated 10-09-25\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_9-5-25\nCommunity Impact Statement submitted by Reseda Neighborhood Council_08-20-2025\nSpeaker Card(s)_08-01-2025\nCommunication(s) from Public_08-01-2025\nReport from City Administrative Officer dated 6-17-25\nCouncil Action dated 6-11-25\nSpecial Motion (Jurado - Harris-Dawson) dated 6-10-25.pdf\nCommunication(s) from Public_06-20-2025",
+          "council_file": "17-0046-S4",
+          "title": "CONTINUED FROM AUGUST 1, 2025 and OCTOBER 17, 2025",
+          "mig": "358fe6a7-032d-434d-92b1-7f761d13077f",
+          "attachments": [
+            {
+              "historyId": "4251fc41-def5-4c41-a5ab-652b776ead0d",
+              "title": "Report from City Administrative Officer dated 10-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4251fc41-def5-4c41-a5ab-652b776ead0d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4251fc41-def5-4c41-a5ab-652b776ead0d"
+            },
+            {
+              "historyId": "35423c71-ae4b-4546-8710-aee2efd475ac",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_9-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=35423c71-ae4b-4546-8710-aee2efd475ac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=35423c71-ae4b-4546-8710-aee2efd475ac"
+            },
+            {
+              "historyId": "72a987d7-2df5-453f-b8ed-6c3ffc43657f",
+              "title": "Community Impact Statement submitted by Reseda Neighborhood Council_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=72a987d7-2df5-453f-b8ed-6c3ffc43657f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=72a987d7-2df5-453f-b8ed-6c3ffc43657f"
+            },
+            {
+              "historyId": "1a595557-2f0a-40ef-948a-eb68f3909790",
+              "title": "Speaker Card(s)_08-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a595557-2f0a-40ef-948a-eb68f3909790",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1a595557-2f0a-40ef-948a-eb68f3909790"
+            },
+            {
+              "historyId": "eb965157-d8aa-4254-a935-f46ee7b32c2b",
+              "title": "Communication(s) from Public_08-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb965157-d8aa-4254-a935-f46ee7b32c2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eb965157-d8aa-4254-a935-f46ee7b32c2b"
+            },
+            {
+              "historyId": "93fd93b9-4b00-47ad-bb0b-dee3bf2049e8",
+              "title": "Report from City Administrative Officer dated 6-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=93fd93b9-4b00-47ad-bb0b-dee3bf2049e8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=93fd93b9-4b00-47ad-bb0b-dee3bf2049e8"
+            },
+            {
+              "historyId": "48104314-fc3b-49d0-a5f6-31d7a3e4c0a2",
+              "title": "Council Action dated 6-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48104314-fc3b-49d0-a5f6-31d7a3e4c0a2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48104314-fc3b-49d0-a5f6-31d7a3e4c0a2"
+            },
+            {
+              "historyId": "94ac7fa9-2692-4e9b-9485-6b05dad57dfa",
+              "title": "Special Motion (Jurado - Harris-Dawson) dated 6-10-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=94ac7fa9-2692-4e9b-9485-6b05dad57dfa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=94ac7fa9-2692-4e9b-9485-6b05dad57dfa"
+            },
+            {
+              "historyId": "cbf89bb0-d182-447e-a58f-d3b2a70fbabb",
+              "title": "Communication(s) from Public_06-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cbf89bb0-d182-447e-a58f-d3b2a70fbabb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cbf89bb0-d182-447e-a58f-d3b2a70fbabb"
+            }
+          ]
+        },
+        {
+          "item_id": "156385",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1195\nCD 6\nMotion (Padilla – Rodriguez) relative to transfer of funds for construction of street lights in the North Hollywood-Morella Street Lighting District.\nCommunity Impact Statement:\nNone submitteed\nMotion (Padilla - Rodriguez) dated 10-14-25",
+          "council_file": "25-1195",
+          "district": "CD 6",
+          "title": "Motion (Padilla – Rodriguez) relative to transfer of funds for construction of street lights in the North Hollywood-Morella Street Lighting District.",
+          "mig": "620f7b13-d40b-47c5-9622-ee86000ab11e",
+          "attachments": [
+            {
+              "historyId": "598685ec-2192-4f35-a74a-16e883dca34e",
+              "title": "Motion (Padilla - Rodriguez) dated 10-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=598685ec-2192-4f35-a74a-16e883dca34e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=598685ec-2192-4f35-a74a-16e883dca34e"
+            }
+          ]
+        },
+        {
+          "item_id": "156386",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0525-S1\nMotion (Price - Yaroslavsky) relative to a contract with Heart of Los Angeles Youth, Inc. to implement improvements at Augustus Hawkins Nature Park.\nCommunity Impact Statement:\nNone submitted\nMotion (Soto-Martinez for Price - Yaroslavsky) dated 10-17-25",
+          "council_file": "25-0525-S1",
+          "title": "Motion (Price - Yaroslavsky) relative to a contract with Heart of Los Angeles Youth, Inc. to implement improvements at Augustus Hawkins Nature Park.",
+          "mig": "2e33b1b7-8a6e-459a-9a56-5fe2108d17d3",
+          "attachments": [
+            {
+              "historyId": "2eb529be-7ed9-42ab-a5f0-094600ac26a8",
+              "title": "Motion (Soto-Martinez for Price - Yaroslavsky) dated 10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2eb529be-7ed9-42ab-a5f0-094600ac26a8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2eb529be-7ed9-42ab-a5f0-094600ac26a8"
+            }
+          ]
+        }
+      ],
+      "original_title": "(This item was referred to the Civil Rights, Equity, Aging, Immigration, and Disability Committee, Economic Development and Jobs Committee, and Government Efficiency, Innovation, and Audits Committee.)"
+    }
+  ],
+  "total_items": 4,
+  "total_sections": 3,
+  "meeting_datetime": "2025-11-07T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=A02GGVNfPlQ"
+}

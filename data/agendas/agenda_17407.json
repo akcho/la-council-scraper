@@ -16,22 +16,25 @@
     },
     {
       "section_id": "357057",
-      "title": "Commendatory Resolutions, Introductions and Presentations",
-      "items": []
+      "title": "Commendations and presentations",
+      "items": [],
+      "original_title": "Commendatory Resolutions, Introductions and Presentations"
     },
     {
       "section_id": "357058",
-      "title": "Multiple Agenda Item Comment",
-      "items": []
+      "title": "General public comments",
+      "items": [],
+      "original_title": "Multiple Agenda Item Comment"
     },
     {
       "section_id": "357059",
-      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
-      "items": []
+      "title": "Public comments",
+      "items": [],
+      "original_title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council"
     },
     {
       "section_id": "357060",
-      "title": "Items Noticed for Public Hearing",
+      "title": "Scheduled hearings",
       "items": [
         {
           "item_id": "156186",
@@ -176,11 +179,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items Noticed for Public Hearing"
     },
     {
       "section_id": "357061",
-      "title": "Items for which Public Hearings Have Been Held",
+      "title": "Completed hearings",
       "items": [
         {
           "item_id": "156350",
@@ -1994,11 +1998,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Been Held"
     },
     {
       "section_id": "357062",
-      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "title": "No hearings held (requires 10 votes)",
       "items": [
         {
           "item_id": "155719",
@@ -2643,7 +2648,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)"
     },
     {
       "section_id": "357063",

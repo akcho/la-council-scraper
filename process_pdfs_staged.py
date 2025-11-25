@@ -132,7 +132,7 @@ def filter_and_stage_documents(attachments: List[Dict], stage: int, sample_size:
     categorized = []
 
     for attachment in attachments:
-        category, priority = categorize_document(attachment["text"])
+        category, priority = categorize_document(attachment.get("title", ""))
         attachment["category"] = category
         attachment["priority"] = priority
         categorized.append(attachment)
@@ -342,7 +342,7 @@ def save_summary(history_id: str, summary: str, attachment: Dict, usage_stats: D
         "historyId": history_id,
         "council_file": attachment["council_file"],
         "meeting_id": attachment.get("meeting_id"),
-        "original_filename": attachment["text"],
+        "original_filename": attachment.get("title", ""),
         "category": attachment.get("category", "unknown"),
         "summary": summary,
         "processing": {
@@ -374,7 +374,7 @@ def process_documents(documents: List[Dict], stage: int):
 
     for i, attachment in enumerate(documents, 1):
         history_id = attachment["historyId"]
-        filename = attachment["text"]
+        filename = attachment.get("title", "")
         council_file = attachment["council_file"]
 
         # Check if already processed
@@ -431,7 +431,7 @@ def show_stats(attachments: List[Dict]):
     """Show statistics about documents by category."""
     categorized = []
     for attachment in attachments:
-        category, priority = categorize_document(attachment["text"])
+        category, priority = categorize_document(attachment.get("title", ""))
         categorized.append((category, priority))
 
     from collections import Counter

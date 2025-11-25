@@ -16,22 +16,25 @@
     },
     {
       "section_id": "357195",
-      "title": "Commendatory Resolutions, Introductions and Presentations",
-      "items": []
+      "title": "Commendations and presentations",
+      "items": [],
+      "original_title": "Commendatory Resolutions, Introductions and Presentations"
     },
     {
       "section_id": "357196",
-      "title": "Multiple Agenda Item Comment",
-      "items": []
+      "title": "General public comments",
+      "items": [],
+      "original_title": "Multiple Agenda Item Comment"
     },
     {
       "section_id": "357197",
-      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
-      "items": []
+      "title": "Public comments",
+      "items": [],
+      "original_title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council"
     },
     {
       "section_id": "357198",
-      "title": "Items Noticed for Public Hearing",
+      "title": "Scheduled hearings",
       "items": [
         {
           "item_id": "155866",
@@ -59,11 +62,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items Noticed for Public Hearing"
     },
     {
       "section_id": "357199",
-      "title": "Items for which Public Hearings Have Been Held",
+      "title": "Completed hearings",
       "items": [
         {
           "item_id": "156495",
@@ -182,11 +186,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Been Held"
     },
     {
       "section_id": "357200",
-      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "title": "No hearings held (requires 10 votes)",
       "items": [
         {
           "item_id": "156682",
@@ -208,7 +213,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)"
     },
     {
       "section_id": "357201",

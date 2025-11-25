@@ -16,22 +16,25 @@
     },
     {
       "section_id": "355752",
-      "title": "Commendatory Resolutions, Introductions and Presentations",
-      "items": []
+      "title": "Commendations and presentations",
+      "items": [],
+      "original_title": "Commendatory Resolutions, Introductions and Presentations"
     },
     {
       "section_id": "355753",
-      "title": "Multiple Agenda Item Comment",
-      "items": []
+      "title": "General public comments",
+      "items": [],
+      "original_title": "Multiple Agenda Item Comment"
     },
     {
       "section_id": "355754",
-      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
-      "items": []
+      "title": "Public comments",
+      "items": [],
+      "original_title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council"
     },
     {
       "section_id": "355755",
-      "title": "Items Noticed for Public Hearing",
+      "title": "Scheduled hearings",
       "items": [
         {
           "item_id": "156460",
@@ -71,11 +74,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items Noticed for Public Hearing"
     },
     {
       "section_id": "355756",
-      "title": "Items for which Public Hearings Have Been Held",
+      "title": "Completed hearings",
       "items": [
         {
           "item_id": "156396",
@@ -1024,11 +1028,12 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Been Held"
     },
     {
       "section_id": "355757",
-      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "title": "No hearings held (requires 10 votes)",
       "items": [
         {
           "item_id": "156428",
@@ -2774,7 +2779,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)"
     },
     {
       "section_id": "355758",
@@ -2793,7 +2799,7 @@
     },
     {
       "section_id": "355765",
-      "title": "Closed Session",
+      "title": "Closed sessions",
       "items": [
         {
           "item_id": "156535",
@@ -3203,7 +3209,8 @@
             }
           ]
         }
-      ]
+      ],
+      "original_title": "Closed Session"
     },
     {
       "section_id": "355762",
