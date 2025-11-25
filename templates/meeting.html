@@ -33,6 +33,21 @@
             margin-bottom: 1.5rem;
         }
 
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
         h1 {
             font-size: 1.5rem;
             font-weight: 600;
@@ -356,6 +371,9 @@
 <body>
     <header>
         <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">← All Meetings</a>
+            </div>
             <h1>{{ meeting_title }}</h1>
             <div class="meeting-meta">
                 <div>{{ meeting_date }}</div>

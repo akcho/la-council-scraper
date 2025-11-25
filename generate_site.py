@@ -394,8 +394,8 @@ def generate_all_meetings():
         def parse_meeting_date(meeting):
             try:
                 date_str = meeting['date']
-                # Parse "November 07, 2025 at 06:00 PM" format
-                dt = datetime.strptime(date_str, "%B %d, %Y at %I:%M %p")
+                # Parse "November 07, 2025" format (date only, no time)
+                dt = datetime.strptime(date_str, "%B %d, %Y")
                 return dt
             except:
                 # If parsing fails, put it at the end

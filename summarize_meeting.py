@@ -11,32 +11,37 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-SUMMARIZATION_PROMPT = """You are analyzing a transcript from a Los Angeles City Council meeting. Your job is to create a concise, accessible summary for regular citizens reading a Reddit comment.
+SUMMARIZATION_PROMPT = """You are analyzing a transcript from a Los Angeles City Council meeting. Create a concise, useful summary for LA residents who want to stay informed about city decisions.
 
-Analyze the transcript and provide:
+Start IMMEDIATELY with **KEY DECISIONS** - no preamble, no meta-commentary.
 
-1. **KEY DECISIONS** (2-3 bullet points max)
-   - What major decisions/votes happened?
-   - Include vote results if mentioned
-   - Focus on concrete outcomes only
+**KEY DECISIONS** (2-3 bullet points)
+- Major votes, approvals, or policy actions
+- Include vote counts if mentioned (e.g., "passed 12-0")
+- Focus on what was decided, not process
 
-2. **NOTABLE DISCUSSIONS** (2-3 bullet points max)
-   - Main topics that impact residents
-   - Only include truly newsworthy items
-   - Skip routine/ceremonial business
+**NOTABLE DISCUSSIONS** (2-3 bullet points)
+- Issues debated that affect residents
+- Public comment themes if significant
+- Upcoming decisions previewed
 
-3. **BOTTOM LINE** (1-2 sentences)
-   - One clear takeaway for LA residents
-   - Why does this matter?
+**BOTTOM LINE** (1-2 sentences)
+- What LA residents should know or watch for
+- Focus on upcoming votes, policy implications, or community concerns raised
 
-Keep your summary:
-- **Under 200 words total** (this will be a Reddit comment)
-- Clear and jargon-free (explain any acronyms/technical terms)
-- Focused on practical impact, not process
-- Objective and factual (no political spin)
-- Skip routine ceremonial items unless truly significant
+Guidelines:
+- Under 200 words total
+- No jargon - explain acronyms and technical terms
+- Focus on substance: decisions, debates, outcomes
+- Be specific: names, amounts, locations, vote counts
 
-IMPORTANT: Do NOT start your summary with meta-commentary about the meeting being "mostly ceremonial" or "primarily routine". Start directly with the KEY DECISIONS section. Let the content speak for itself."""
+CRITICAL:
+- ABSOLUTELY BANNED WORDS that must NEVER appear anywhere: ceremonial, routine, primarily, mostly, limited legislative, recognition ceremonies, presentations and recognition
+- Do NOT describe what the meeting "focused on" or characterize its format
+- NEVER start with "This meeting was..." or "This transcript shows..."
+- Start your response with "**KEY DECISIONS**" - nothing before it
+- BOTTOM LINE must state a policy takeaway or resident impact - NOT describe meeting format
+- If few legislative votes occurred, focus on public comment themes and upcoming issues"""
 
 def summarize_with_claude(transcript: str, api_key: str = None) -> str:
     """

@@ -87,9 +87,9 @@ def process_meeting_video(meeting_id: int, video_url: str, force: bool = False) 
 
         print(f"  💾 Saved to {summary_file}")
 
-        # Add delay to avoid rate limits (60 seconds to stay under 30k tokens/min)
-        print(f"  ⏳ Waiting 60 seconds to avoid rate limits...")
-        time.sleep(60)
+        # Add delay to avoid rate limits (120 seconds for long transcripts)
+        print(f"  ⏳ Waiting 120 seconds to avoid rate limits...")
+        time.sleep(120)
 
         return True
 
@@ -98,8 +98,8 @@ def process_meeting_video(meeting_id: int, video_url: str, force: bool = False) 
 
         # If rate limited, wait and let caller retry
         if "rate_limit" in str(e).lower():
-            print(f"  ⏳ Rate limited - waiting 60 seconds...")
-            time.sleep(60)
+            print(f"  ⏳ Rate limited - waiting 120 seconds...")
+            time.sleep(120)
 
         return False
 
