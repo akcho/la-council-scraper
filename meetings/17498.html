@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Council Meeting - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for City Council Meeting">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .meeting-meta {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .meeting-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        .meeting-links a {
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border: 1px solid #0066cc;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .meeting-links a:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .video-summary {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .video-summary h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .video-summary-content {
+            font-size: 0.9375rem;
+            line-height: 1.6;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-title:hover {
+            color: #0066cc;
+        }
+
+        .section-title::before {
+            content: "▼";
+            font-size: 0.75rem;
+            transition: transform 0.2s;
+            display: inline-block;
+        }
+
+        .section[open] .section-title::before {
+            transform: rotate(0deg);
+        }
+
+        .section:not([open]) .section-title::before {
+            transform: rotate(-90deg);
+        }
+
+        .section-content {
+            margin-top: 1rem;
+        }
+
+        .item-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: box-shadow 0.2s, border-color 0.2s;
+        }
+
+        .item-card-clickable {
+            cursor: pointer;
+        }
+
+        .item-card-clickable:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+        }
+
+        .item-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .item-header {
+            display: flex;
+            gap: 0.5rem;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .item-number {
+            font-weight: 600;
+            color: #0066cc;
+            font-size: 0.875rem;
+        }
+
+        .item-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border-radius: 4px;
+            background: #f0f0f0;
+            color: #666;
+        }
+
+        .tag.council-file-tag {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .tag.district {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .item-title {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+            line-height: 1.5;
+        }
+
+        .item-title strong {
+            font-weight: 700;
+        }
+
+        .item-title em {
+            font-style: italic;
+        }
+
+        .item-details {
+            margin-top: 0.75rem;
+        }
+
+        .item-details summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+            font-weight: 500;
+        }
+
+        .item-details summary:hover {
+            text-decoration: underline;
+        }
+
+        .item-details-content {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-left: 3px solid #e0e0e0;
+            font-size: 0.875rem;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .item-attachments {
+            margin-top: 0.75rem;
+        }
+
+        .item-attachments summary {
+            font-size: 0.875rem;
+            color: #0066cc;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .item-attachments summary:hover {
+            text-decoration: underline;
+        }
+
+        .attachment-list {
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .document-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .document-title {
+            font-size: 0.875rem;
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+        .document-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .document-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.25rem 0.625rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .document-action.view {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .document-action.view:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .document-action.download {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .document-action.download:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .empty-section {
+            font-size: 0.875rem;
+            color: #999;
+            font-style: italic;
+            padding: 0.5rem 0.75rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .meeting-meta {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .item-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">← All Meetings</a>
+            </div>
+            <h1>City Council Meeting</h1>
+            <div class="meeting-meta">
+                <div>November 12, 2025</div>
+                <div>Meeting ID: 17498</div>
+            </div>
+            <div class="meeting-links">
+                <a href="https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147858" target="_blank" rel="noopener">View Official Agenda</a>
+                
+                <a href="https://www.youtube.com/watch?v=lXAq7udxMGU" target="_blank" rel="noopener">Watch Video</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+
+        
+        
+        
+        
+        <details class="section">
+            <summary class="section-title">Housing and homelessness reports</summary>
+
+            <div class="section-content">
+            
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-0207-S1.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(1)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-0207-S1</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">City Administrative Officer and Los Angeles Housing Department (LAHD) reports relative to staffing plan, responsibilities and priorities for the LAHD’s Bureau of Homelessness Oversight.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (2)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Los Angeles Housing Department dated 10-30-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=686fb41b-507a-4eed-a86c-0d69d7935b9c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156477">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=686fb41b-507a-4eed-a86c-0d69d7935b9c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156477">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 11-10-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=917c2419-8403-491c-9a28-26905f445495"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156477">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=917c2419-8403-491c-9a28-26905f445495"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156477">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/22-1313.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(2)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">22-1313</span>
+                                
+                                
+                                <span class="tag district">CD 7</span>
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">City Administrative Officer report relative to the Request for Proposal released by the Los Angeles Homeless Services Authority, the list of approved service providers, and the scope of required service that outlines the Recreational Vehicle (RV)-to-Home Program model.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (28)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 10-02-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=253dc6c8-4289-469f-85a4-03fc0db196ca"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=253dc6c8-4289-469f-85a4-03fc0db196ca"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Council Action dated 9-13-24</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=cb932496-082e-44cb-8935-9d3843b760ce"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb932496-082e-44cb-8935-9d3843b760ce"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_09-10-2024</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1a0c461c-db32-46fd-96b9-3ffabed46e9c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a0c461c-db32-46fd-96b9-3ffabed46e9c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Housing and Homelessness Committee_08-28-24</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6a937e0c-a9db-48b3-80f7-493b89dc74e2"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a937e0c-a9db-48b3-80f7-493b89dc74e2"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_08-28-2024</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8200e9c3-9076-42e9-a313-f98402fd982a"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8200e9c3-9076-42e9-a313-f98402fd982a"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_08-27-2024</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2d14d0cb-d2ef-4aa2-8e87-162fd6b17381"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d14d0cb-d2ef-4aa2-8e87-162fd6b17381"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 8-01-24</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3285c95a-9959-424f-ad85-a5519d2aeb2b"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3285c95a-9959-424f-ad85-a5519d2aeb2b"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by North Hollywood Northeast Neighborhood Council_02-16-2024</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=829612f8-5a4e-41e4-9ae0-d7322600b0ec"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=829612f8-5a4e-41e4-9ae0-d7322600b0ec"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_02-13-2024</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=24e33fd6-47ab-4323-9e7f-c6b7cbf77906"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=24e33fd6-47ab-4323-9e7f-c6b7cbf77906"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_06-27-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=42c4a0fc-ac63-401c-977d-0927f2056248"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=42c4a0fc-ac63-401c-977d-0927f2056248"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_06-01-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c6f588bf-4cc8-4478-a2eb-1c83fa3a26b9"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6f588bf-4cc8-4478-a2eb-1c83fa3a26b9"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-24-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1ebc6495-3c6c-4a3b-b646-53ff0f601715"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ebc6495-3c6c-4a3b-b646-53ff0f601715"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-22-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=674079cd-3a03-4c6c-a9fa-7d5ca39d3ed0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=674079cd-3a03-4c6c-a9fa-7d5ca39d3ed0"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-21-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=54a36f29-f7ba-412b-8bb2-9e036d4b1a83"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=54a36f29-f7ba-412b-8bb2-9e036d4b1a83"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-20-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5e87cfae-a666-49a0-8a34-fb827a604254"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e87cfae-a666-49a0-8a34-fb827a604254"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-18-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=22da6d04-e66e-4a3c-9ca9-d26299a84b5c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=22da6d04-e66e-4a3c-9ca9-d26299a84b5c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_05-17-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=dbcdfbd3-fb4c-4413-959b-913bca49175d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbcdfbd3-fb4c-4413-959b-913bca49175d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Council Action  dated 3-23-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2b371d42-8f00-42a3-a29b-848deb6f8190"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b371d42-8f00-42a3-a29b-848deb6f8190"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_03-22-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=be8d99c3-43f1-4d01-b805-8b58cfa6aa79"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=be8d99c3-43f1-4d01-b805-8b58cfa6aa79"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Speaker Card(s)_03-22-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7c922a1c-452a-44b7-b5f0-c347517d9f3d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c922a1c-452a-44b7-b5f0-c347517d9f3d"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Housing and Homelessness Committee 3-1-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6e666942-11fa-40fc-a38f-9fd4b47d2517"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e666942-11fa-40fc-a38f-9fd4b47d2517"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 2-10-23</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=70d826ec-5d0d-4d0a-abe7-6d7731b98e19"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=70d826ec-5d0d-4d0a-abe7-6d7731b98e19"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by Reseda Neighborhood Council_01-18-2023</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=80839bf2-0653-4528-90af-d3f75994afa7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=80839bf2-0653-4528-90af-d3f75994afa7"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Council Action  dated 11-30-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5789ab46-24ad-494a-9f3c-4d93ab305730"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5789ab46-24ad-494a-9f3c-4d93ab305730"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Communication(s) from Public_11-29-2022</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6e9e0538-05c0-4ddc-91b6-8b5f1bae2662"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e9e0538-05c0-4ddc-91b6-8b5f1bae2662"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Homelessness and Poverty Committee 11-10-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ec1d5f79-7372-4f3d-bd2f-19c5b0105bcc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec1d5f79-7372-4f3d-bd2f-19c5b0105bcc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Community Impact Statement submitted by Palms Neighborhood Council_11-07-2022</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d66a2950-1a1c-4368-88d1-80e7e5c1ecc9"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d66a2950-1a1c-4368-88d1-80e7e5c1ecc9"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="document-item">
+                                <span class="document-title">Motion (Raman - Price - Harris-Dawson) dated 11-02-22</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1b890a46-a082-4107-b67e-3ee4f2d8ba76"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156504">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b890a46-a082-4107-b67e-3ee4f2d8ba76"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156504">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-1296.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(3)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1296</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">City Administrative Officer report relative to agreements between the Los Angeles Housing Department and multiple contractors to provide the required services to operate the Handy Worker Program.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Administrative Officer dated 10-29-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=de2b8f9f-fdc3-436c-852d-9f750efcb9ed"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156505">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=de2b8f9f-fdc3-436c-852d-9f750efcb9ed"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156505">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/22-1545-S36.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(4)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">22-1545-S36</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">City Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 31st Status Report as of August 31, 2025.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from City Attorney dated 11-07-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f467f1d2-b32a-484e-80b1-111ed392ec81"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156639">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f467f1d2-b32a-484e-80b1-111ed392ec81"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156639">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/23-1022-S22.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(5)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">23-1022-S22</span>
+                                
+                                
+                                <span class="tag district">CD 14</span>
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Statutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Hope the Mission to operate the A Bridge Home site located at 310 North Main Street in Council District 14.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Municipal Facilities Committee dated 11-06-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8f9369e6-608b-4e4b-8bf9-64a148cddd69"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156592">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f9369e6-608b-4e4b-8bf9-64a148cddd69"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156592">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/23-1022-S23.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(6)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">23-1022-S23</span>
+                                
+                                
+                                <span class="tag district">CD 15</span>
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Statutory Exemption and Municipal Facilities Committee report relative to a lease agreement between the City and Holliday’s Helping Hands to operate the A Bridge Home site located at 826-828 Eubank Avenue in Council District 15.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Report from Municipal Facilities Committee dated 11-06-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=63b1fc31-cfa8-4c9c-b18b-d0186e71c99c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156593">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=63b1fc31-cfa8-4c9c-b18b-d0186e71c99c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156593">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-1313.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(7)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1313</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Motion (Blumenfield – Raman) relative to requesting a report from the Los Angeles Housing Department (LAHD) on how to improve the LAHD’s administration of Cost Recovery Programs.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Motion (Blumenfield - Raman) dated 11-05-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=43026a2e-ecad-467b-b45f-3f1c821b7114"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156679">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=43026a2e-ecad-467b-b45f-3f1c821b7114"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156679">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card item-card-clickable">
+                    
+                    <a href="../councilfiles/25-1314.html" class="item-card-link">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(8)</span>
+                            <div class="item-tags">
+                                
+                                <span class="tag council-file-tag">25-1314</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Motion (Raman, McOsker – Harris-Dawson) relative to requesting a report from the Los Angeles Housing Department on the fair return petitions procedures from other jurisdictions that are less burdensome on landlords; and to work with the Rent Adjustment Commission (RAC) to update the existing RAC Guidelines governing the Just and Reasonable Rent Increase Program; and related matters.</h3>
+                        
+                    
+                    </a>
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Motion (Raman, McOsker - Harris-Dawson) dated 11-05-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=575d71c7-75d6-435a-af2a-8edb5c40602c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="156680">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=575d71c7-75d6-435a-af2a-8edb5c40602c"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="156680">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+            </div>
+        </details>
+        
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-11-25 16:01:07</p>
+        </div>
+    </footer>
+
+    <!-- Analytics -->
+    
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+    
+</body>
+</html>
