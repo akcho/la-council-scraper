@@ -1,0 +1,39 @@
+{
+  "council_file": "25-1026",
+  "title": "CONTINUED FROM OCTOBER 7, 2025",
+  "district": "CD 14",
+  "appearances": [
+    {
+      "meeting_id": 17585,
+      "date": "2025-12-02T16:30:00",
+      "section": "Committee referrals",
+      "item_number": "(4)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c",
+      "title": "Communication(s) from Public_10-06-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=cc00c3a0-12aa-4c70-afc4-91b66a0a3c4c",
+      "meeting_id": 17585,
+      "has_summary": false
+    },
+    {
+      "historyId": "ac884dc7-bdc1-4283-a09b-044eed8ae057",
+      "title": "Motion (Jurado - Blumenfield) dated 8-02-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac884dc7-bdc1-4283-a09b-044eed8ae057",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ac884dc7-bdc1-4283-a09b-044eed8ae057",
+      "meeting_id": 17585,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T16:30:00",
+  "last_seen": "2025-12-02T16:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

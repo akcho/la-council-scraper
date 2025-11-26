@@ -1,0 +1,31 @@
+{
+  "council_file": "25-0874-S2",
+  "title": "City Administrative Officer report relative to the Fiscal Year 2025-26 Third Constructions Projects Report.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17585,
+      "date": "2025-12-02T16:30:00",
+      "section": "Committee referrals",
+      "item_number": "(2)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7f52fef1-74f1-4477-8259-ee86e2b864fa",
+      "title": "Report from City Administrative Officer dated  11-13-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f52fef1-74f1-4477-8259-ee86e2b864fa",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7f52fef1-74f1-4477-8259-ee86e2b864fa",
+      "meeting_id": 17585,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T16:30:00",
+  "last_seen": "2025-12-02T16:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

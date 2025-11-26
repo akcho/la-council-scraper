@@ -1,0 +1,71 @@
+{
+  "council_file": "23-1188",
+  "title": "LADOT report relative to pedestrian improvements on Paseo Del Mar at Joan Milke Flores Park.",
+  "district": "CD 15",
+  "appearances": [
+    {
+      "meeting_id": 17471,
+      "date": "2025-11-12T16:45:00",
+      "section": "Transportation infrastructure improvements",
+      "item_number": "(3)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "8cac90f7-dff7-4e53-9e85-de8ee47ee82f",
+      "title": "Report from Department of Transportation dated 10-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cac90f7-dff7-4e53-9e85-de8ee47ee82f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8cac90f7-dff7-4e53-9e85-de8ee47ee82f",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "f7b550bb-c800-442d-8e6a-40402ef04082",
+      "title": "Council Action dated 1-11-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7b550bb-c800-442d-8e6a-40402ef04082",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=f7b550bb-c800-442d-8e6a-40402ef04082",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "49e16f81-0339-4b18-9c29-be50cad31269",
+      "title": "Transportation Committee Report 12-6-23",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=49e16f81-0339-4b18-9c29-be50cad31269",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=49e16f81-0339-4b18-9c29-be50cad31269",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "b3473aa5-bfb9-409d-9a03-1f964c244eeb",
+      "title": "Speaker Card(s)_12-06-2023",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3473aa5-bfb9-409d-9a03-1f964c244eeb",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b3473aa5-bfb9-409d-9a03-1f964c244eeb",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "dc92ef02-4f14-4b6f-b0be-9f59f4c8883c",
+      "title": "Motion (McOsker - Hutt) dated 10-24-23",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc92ef02-4f14-4b6f-b0be-9f59f4c8883c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=dc92ef02-4f14-4b6f-b0be-9f59f4c8883c",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "1b96dc76-26e9-466b-93c7-81f967fa3345",
+      "title": "Speaker Card(s)_01-09-2024",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b96dc76-26e9-466b-93c7-81f967fa3345",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1b96dc76-26e9-466b-93c7-81f967fa3345",
+      "meeting_id": 17471,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T16:45:00",
+  "last_seen": "2025-11-12T16:45:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 6,
+    "attachments_with_summaries": 0
+  }
+}

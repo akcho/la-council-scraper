@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-0783 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-0783: EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS; and ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT rela">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-0783
+            </div>
+            <div class="file-number">25-0783</div>
+            <h1>The Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve proposed modifications to the Los Angeles Zoo Vision Plan.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 4</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS; and ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to proposed Project Modifications to the Los Angeles Zoo Vision Plan and the Settlement Agreement for the case entitled
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Arts, Parks, Libraries, and Community Enrichment Committee_10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=27ca9ec6-837c-470f-b856-d51c09ae1a74" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=27ca9ec6-837c-470f-b856-d51c09ae1a74" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve proposed modifications to the Los Angeles Zoo Vision Plan. The committee also recommends determining that these modifications do not require a new or supplemental Environmental Impact Report (EIR), as they do not create new or substantially increased environmental impacts.</p>
+<h5>Why?</h5>
+<p>These project modifications are connected to a settlement agreement in a lawsuit case (Griffith J. Griffith Charitable Trust, et al. v. City of Los Angeles). The modifications represent changes to the original Zoo Vision Plan that was previously approved and environmentally reviewed by the City Council on August 2, 2023. Since the environmental impacts of these changes are not substantially different from what was already studied and approved, the committee determined that no additional environmental review is necessary under California Environmental Quality Act (CEQA) regulations.</p>
+<h5>Key Details</h5>
+<p>The committee met on October 28, 2025, to consider a Zoo Department report dated October 21, 2025. The committee voted 2-1 to approve the recommendations (with one member absent). Importantly, the Zoo Department reports there is <strong>no fiscal impact</strong> or funding obligation associated with this approval, meaning taxpayers will not bear new costs.</p>
+<h5>Impact</h5>
+<p>These modifications affect the future development and operations of the Los Angeles Zoo. The approval allows the Zoo to proceed with plan changes while respecting the terms of the settlement agreement without triggering additional lengthy environmental review processes.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Zoo Department dated 10-21-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b81395fd-4b40-49bf-9893-dfceb0c804d7" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b81395fd-4b40-49bf-9893-dfceb0c804d7" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Zoo Department is asking the City Council to approve significant modifications to the Los Angeles Zoo Vision Plan that was originally approved in August 2023. Specifically, the revised project would eliminate two major planned developments: the 18,000-square-foot California Visitor Center and the Condor Canyon (a 60-foot-deep cut through the ridgeline). In place of the visitor center, the Zoo may build up to three small outdoor shade structures (maximum 1,500 square feet each) with supporting amenities like seating and restrooms. Additionally, a 5-acre area along the ridgeline would remain largely undeveloped, with only limited improvements like trails and a funicular allowed.</p>
+<h5>Why?</h5>
+<p>These modifications were made as part of a settlement agreement with the Griffith J. Griffith Charitable Trust and others who filed a lawsuit challenging the original vision plan. The City Council authorized the Zoo Director to execute this settlement in August 2025. The changes represent a significant reduction in development intensity while still allowing for some visitor enhancements and conservation efforts.</p>
+<h5>Key Details</h5>
+<p><strong>Original Visitor Center</strong>: 18,000 square feet with dining, classrooms, and event spaces <strong>Replacement</strong>: Three outdoor shade structures, each no larger than 1,500 square feet <strong>Protected Area</strong>: 5 contiguous acres along the ridgeline in the California area will have development withheld <strong>Lighting Restrictions</strong>: Pathway lighting will not exceed 6 feet in height; no digital advertising displays near interpretive sites <strong>Special Species Protection</strong>: If endangered flora species like Nevin's barberry are found before construction, they must be avoided and mitigated</p>
+<h5>Impact</h5>
+<p>The modifications reduce the scope of Zoo expansion, which may satisfy conservation concerns while still allowing some visitor amenities. Environmental review found that these changes do not create new significant environmental impacts—in fact, they reduce overall impacts by eliminating major excavation work. The Zoo retains flexibility to pursue other development projects in the future through separate approvals.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Attorney dated 7-16-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=15d5b582-de47-4a6c-b524-820871713847" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=15d5b582-de47-4a6c-b524-820871713847" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Attorney's Office is requesting that the City Council hold a closed session to discuss and receive legal advice regarding pending litigation. The closed session would be held pursuant to California Government Code Section 54956.9(d)(1), which allows public agencies to meet in private when discussing litigation matters with legal counsel.</p>
+<h5>Why?</h5>
+<p>The litigation involves a Petition for Writ of Mandate filed by the Griffith J. Griffith Charitable Trust against the City of Los Angeles. The plaintiffs are challenging the City Council's August 2, 2023 approval of the Los Angeles Zoo Vision Plan and the certification of its revised final environmental impact report, claiming violations of the California Environmental Quality Act (CEQA). Because this is pending litigation with potential settlement discussions, the City Attorney recommends confidential legal discussions to protect the City's legal strategy.</p>
+<h5>Key Details</h5>
+<p><strong>Case Name:</strong> Griffith J. Griffith Charitable Trust et al. v. City of Los Angeles et al. <strong>Case Number:</strong> LASC NO. 23STCP03390 <strong>Location:</strong> Council District 4 <strong>Type of Challenge:</strong> California Environmental Quality Act (CEQA) claims <strong>Contact:</strong> Deputy City Attorney Steven G. Martin at (213) 978-8253</p>
+<h5>Impact</h5>
+<p>This primarily affects the City Council and City staff managing the Zoo Vision Plan project. The closed session allows confidential discussion of settlement offers and legal strategy without public disclosure, which is standard practice for pending litigation but limits public transparency on this matter.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>1 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_08-20-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f4ede6c9-96f9-4cb8-98c5-c18bde491cf1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f4ede6c9-96f9-4cb8-98c5-c18bde491cf1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

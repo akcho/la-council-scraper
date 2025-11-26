@@ -1,0 +1,53 @@
+{
+  "council_file": "25-1250",
+  "title": "HOUSING AND HOMELESSNESS COMMITTEE REPORT relative to extending the loan agreement term for the El Dorado Family Apartments located at 12129 El Dorado Avenue in Council District Seven (CD 7).",
+  "district": "CD 7",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Completed hearings",
+      "item_number": "(16)",
+      "recommendation": "AUTHORIZE the General Manager, Los Angeles Housing Department (LAHD), or designee, to: Negotiate and execute all documents required to extend the loan term for the El Dorado Family Apartments (HOME loan BA0517) to mature on November 13, 2061, and align with the affordability restrictions expiration date. Negotiate and execute all documents, including but not limited to subordinating all City loans (BA0517 and CRA872559-002), required for El Dorado Family Apartments per the terms of the loan agreement or as set forth herein. REQUEST the City Attorney to prepare all necessary documents, including but not limited to a renewal and modification of a loan agreement (and/or amendments and restatements of any necessary documents) to preserve and support an affordable housing project on the properties located at El Dorado Family Apartments; and any other technical adjustments that may be required or deemed appropriate. Fiscal Impact Statement: The LAHD reports that there is no impact to the General Fund Community Impact Statement: None submitted Report from Housing and Homelessness Committee - 11-5-25 Report from Los Angeles Housing Department dated 10-22-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "30588c15-47fe-4a28-a56c-6c2220cd17c2",
+      "title": "Report from Housing and Homelessness Committee - 11-5-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=30588c15-47fe-4a28-a56c-6c2220cd17c2",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=30588c15-47fe-4a28-a56c-6c2220cd17c2",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: El Dorado Family Apartments Loan Extension (File 25-1250)\n\n## What is Being Proposed?\nThe Housing and Homelessness Committee recommends extending the loan term for El Dorado Family Apartments, a affordable housing project located at 12129 El Dorado Avenue in Council District 7. Specifically, the committee is asking the City to extend the maturity date of a HOME loan (BA0517) to November 13, 2061, aligning it with when the property's affordability restrictions expire. The City Attorney is also being asked to prepare necessary legal documents to support this extension.\n\n## Why?\nThe document does not explicitly state the rationale, but the action appears designed to preserve long-term affordability at this housing project. By extending the loan term to match the affordability restrictions expiration date, the City is ensuring the property remains subject to affordable housing requirements for the extended period.\n\n## Key Details\n- **Property:** 12129 El Dorado Avenue, CD 7\n- **New loan maturity date:** November 13, 2061\n- **Loans involved:** HOME loan BA0517 and CRA loan CRA872559-002\n- **Fiscal impact:** None to the General Fund\n- **Committee vote:** Unanimous approval (5-0, all members voting YES)\n\n## Impact\nThis action preserves affordable housing for residents in Council District 7 at no cost to the City's general budget. The extension ensures that El Dorado Family Apartments will remain affordable for an extended period, supporting the City's housing stability goals.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2311,
+        "output_tokens": 351,
+        "cost_usd": 0.004066
+      }
+    },
+    {
+      "historyId": "1ac6a942-751a-4b45-96ee-776b4aeeb489",
+      "title": "Report from Los Angeles Housing Department dated 10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ac6a942-751a-4b45-96ee-776b4aeeb489",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1ac6a942-751a-4b45-96ee-776b4aeeb489",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: El Dorado Family Apartments Loan Modification\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department is requesting City Council approval to modify the terms of two existing City loans for the El Dorado Family Apartments in Sylmar. Specifically, LAHD wants to extend the HOME loan maturity date to November 13, 2061, and subordinate both the City HOME loan and the CRA loan to allow the property owner to refinance its first mortgage with new financing.\n\n## Why This is Needed\n\nThe property owner is seeking to refinance its first mortgage, which has a balloon payment of approximately $1.8 million due in May 2027. A new 30-year loan at 6.33% interest would eliminate this balloon payment and stabilize the project's finances. However, the new senior lender requires that all existing City loans be subordinated (moved to second and third-lien positions) and mature after the new loan. By extending the HOME loan maturity and agreeing to subordinate City loans, the City reduces its financial risk from the 2027 balloon payment and strengthens the project's long-term viability.\n\n## Key Details\n\nThe El Dorado Family Apartments is a 60-unit affordable housing complex serving families earning 30-60% of Area Median Income. The City's HOME loan currently totals $10.4 million in outstanding principal and interest, with a CRA loan of $2.9 million also outstanding. The refinancing will generate approximately $60,000 in operating cash for property maintenance and reserves, extending affordable housing without additional City subsidy.\n\n## Impact\n\nThis action protects the City's financial exposure while preserving 60 affordable family units in the community through 2061. There is no fiscal impact to the General Fund, and the modification benefits current and future residents by ensuring the property's long-term stability and habitability.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6166,
+        "output_tokens": 415,
+        "cost_usd": 0.008241
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

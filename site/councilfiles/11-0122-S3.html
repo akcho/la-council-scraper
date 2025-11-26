@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 11-0122-S3 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 11-0122-S3: CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating a portion of McKinley Place southerly of 87t">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                11-0122-S3
+            </div>
+            <div class="file-number">11-0122-S3</div>
+            <h1>The City Council is being asked to formally adopt a Resolution to Vacate (Resolution No. 25-1401340) for a portion of McKinley Place located southerly of 87th Street in Council District 9.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 9</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating a portion of McKinley Place southerly of 87th Street, VAC-E1401340.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Bureau of Engineering dated 10-23-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=96679d1f-0c4b-49ed-8ada-45eb229fa520" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=96679d1f-0c4b-49ed-8ada-45eb229fa520" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Council is being asked to formally adopt a Resolution to Vacate (Resolution No. 25-1401340) for a portion of McKinley Place located southerly of 87th Street in Council District 9. This action follows up on a previous City Council decision from September 22, 2020, and implements that decision through an accelerated review process.</p>
+<h5>Why?</h5>
+<p>The vacation of this street portion was previously approved by the City Council on September 22, 2020. No protests were filed against the vacation at that time, and all conditions imposed by the Council have been fulfilled. The current action is simply finalizing and formalizing what was already approved five years ago, as instructed by the City Council. The resolution has been reviewed and approved by the City Attorney for form and legality.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Portion of McKinley Place south of 87th Street, Council District 9 <strong>Case Number:</strong> VAC – E1401340 <strong>Original Approval:</strong> September 22, 2020 <strong>Environmental Status:</strong> The project is exempt from California Environmental Quality Act requirements under categorical exemptions (Class 5(3)) <strong>Charter Compliance:</strong> The action complies with Section 556 of the Los Angeles City Charter</p>
+<h5>Impact</h5>
+<p>Adopting this resolution formally removes this street portion from public right-of-way. This allows the affected property owners or developers to use the vacated street area for private purposes. The lack of protests when originally proposed suggests minimal community opposition.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works and Gang Reduction Committee 08_21_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7edbf1f0-7c0a-4f87-a686-803d5046dbca" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7edbf1f0-7c0a-4f87-a686-803d5046dbca" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is being asked to approve the vacation (removal from public ownership) of a 32.5-foot by 135-foot portion of McKinley Place, located southerly of 87th Street. This means the City would give up its ownership and maintenance responsibilities for this small section of street, and it would likely become private property or be incorporated into an adjacent property.</p>
+<h5>Why?</h5>
+<p>The City identifies several benefits to this vacation. Most importantly, it would eliminate the City's ongoing obligation to maintain this portion of street and remove the City's potential liability from owning the easement. The vacation is determined to be unnecessary for current or future public use and is not needed for non-motorized transportation (like bike paths). The petitioner (the property owner requesting the vacation) has already paid a $14,980 deposit to cover investigation costs.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Portion of McKinley Place south of 87th Street (Lot 12 of Tract 473) <strong>Committee Vote:</strong> Unanimously approved (5-0) on August 19, 2020 <strong>CEQA Status:</strong> Exempt from environmental review <strong>Petitioner Costs:</strong> Already paid $14,980; may owe additional fees for deficit costs</p>
+<h5>Impact</h5>
+<p>This primarily affects the property owner adjacent to the street section, who would gain access to this land. Los Angeles residents would see a minor reduction in publicly maintained street. The City saves on maintenance costs and liability exposure. The document notes no community impact statement was submitted, suggesting minimal public concern was raised.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Communication from the Clerk 08_14_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b3bf610f-9f8c-4b8c-bce0-13f989db8101" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3bf610f-9f8c-4b8c-bce0-13f989db8101" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City of Los Angeles is proposing to vacate (discontinue public use of) an L-shaped alley located northerly of Riverside Drive and westerly of Riverton Avenue in Council District 4. This vacation is being considered as part of a transit priority development project in the area.</p>
+<h5>Why?</h5>
+<p>The alley vacation is intended to support a transit priority development project that would benefit the community. The project has been analyzed under the California Environmental Quality Act (CEQA) and determined to be statutorily exempt from full environmental review, meeting all required legal standards for this type of development.</p>
+<h5>Key Details</h5>
+<p><strong>Council File Number:</strong> 19-1189 <strong>Committee Hearing:</strong> Wednesday, August 19, 2020 at 1:00 PM (Public Works and Gang Reduction Committee) <strong>City Council Vote:</strong> Tuesday, September 22, 2020 at 10:00 AM <strong>Format:</strong> Both meetings conducted telephonically due to COVID-19 <strong>Public Comment:</strong> Community members can participate by calling (669) 254-5252 with specific meeting IDs provided for each session</p>
+<h5>Impact</h5>
+<p>This decision affects property owners and residents in the Riverton-Riverside Drive area. The alley vacation would eliminate public access to this space to facilitate the development project. Residents have the opportunity to submit written comments or participate in public comment during both the committee and full council meetings.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 08132020 - Application 08_13_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7810a1c2-0676-416b-a4e9-b0cb2ebb98a3" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7810a1c2-0676-416b-a4e9-b0cb2ebb98a3" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>North East Trees, represented by Project Manager George Baliteria, is applying to vacate a public right of way located at McKinley Place @ 87th Street in Los Angeles (Council District 9). The proposed vacation area is approximately 4,387.3 square feet and is situated between McKinley Avenue & McKinley Place and 87th Street and 87th Place.</p>
+<h5>Why?</h5>
+<p>The vacation is being requested to enable the development of a neighborhood park on the currently vacant and asphalt-paved parcel. The project will convert an underutilized public right of way into a community green space, approximately half an acre in size. The vacation is being pursued in conjunction with a B-Permit (BR 003792).</p>
+<h5>Key Details</h5>
+<p><strong>Project Manager/Petitioner:</strong> George Baliteria, North East Trees, 570 West Avenue 26, Suite 200, Los Angeles, CA 90065 <strong>Property Owner:</strong> City of Los Angeles, with signatory Shelley Luce (President & CEO) <strong>Size:</strong> Approximately 4,387.3 square feet <strong>Location:</strong> Central Engineering District, Council District 9, District Map Nos. 096 A 207 & 097 SA 207 <strong>Application Date:</strong> March 29, 2018</p>
+<h5>Impact</h5>
+<p>This project will benefit the local community by transforming an underutilized asphalt-covered area into accessible green space. The vacation is small enough (under 10,000 sq. ft.) to potentially qualify for categorical exemption from California Environmental Quality Act review, though residents should note that city agencies like LADOT may require additional fees for referral and investigation.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Corrected Report from Public Works Engineering 08_13_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a6bb1f4b-4649-4f36-977e-4e441e30d90d" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6bb1f4b-4649-4f36-977e-4e441e30d90d" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is being asked to approve the vacation (removal from public use) of a 32.5-foot by 135-foot portion of McKinley Place south of 87th Street in Council District 9. Once vacated, this street segment would be transferred to the adjacent private property owner, North East Trees (representing Heal the Bay), to create a neighborhood park instead of maintaining it as a public street.</p>
+<h5>Why?</h5>
+<p>The street segment is underutilized and not essential for public circulation. The petitioner plans to develop the vacated area into a community park featuring shade trees, gardens, fitness stations, a walking track, and outdoor classrooms to serve students at Wisdom Academy for Young Scientists (WAYS) and the surrounding South Los Angeles community. The city would benefit by eliminating ongoing maintenance costs and potential liability associated with owning this street easement.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Portion of McKinley Place south of 87th Street, identified as the northerly portion of Lot 12 of Tract 473 <strong>Applicant:</strong> George Ballteria on behalf of North East Trees <strong>Timeline:</strong> Initial approval was February 6, 2019; this corrected report is dated August 13, 2020 <strong>Conditions:</strong> The petitioner must dedicate 3 additional feet to McKinley Avenue, construct various street improvements (sidewalks, curbs, gutters, and curb ramps), plant street trees, and install lighting <strong>Fiscal Impact:</strong> The petitioner has already paid a $14,980 deposit; any additional costs will be billed to them</p>
+<h5>Impact</h5>
+<p><strong>Who:</strong> Residents and students in the underserved Southeast Los Angeles area gain a new recreational facility; the City reduces maintenance obligations. <strong>Support:</strong> The Fire Department, City Planning, and Department of Transportation all approved the project with conditions. <strong>Process:</strong> The vacation requires a public hearing and final City Council vote after committee approval.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Engineering 02_20_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=35b302e2-2709-435d-a188-853ebd707079" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=35b302e2-2709-435d-a188-853ebd707079" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Engineer is recommending that the Los Angeles City Council vacate (remove from public ownership) a 32.5-foot by 135-foot section of McKinley Place, located south of 87th Street in Council District 9. The vacated street would be transferred to North East Trees, representing Heal the Bay, which is the current lessee of the adjoining property.</p>
+<h5>Why?</h5>
+<p>The petitioner wants to convert the underutilized street into a neighborhood park that will serve Wisdom Academy for Young Scientists (WAYS) students and the surrounding community. The proposed improvements include shade trees, a garden, fitness stations, a walking track, and outdoor classrooms. The City would benefit by being relieved of ongoing street maintenance obligations and potential liability associated with owning the street easement.</p>
+<h5>Key Details</h5>
+<p>The application was submitted on March 29, 2018, and the City Council initiated vacation proceedings in February 2019. The petitioner has already paid $14,980 in investigation fees. The vacation was found to be consistent with the City's General Plan and the Southeast Los Angeles Community Plan's goals for open space and recreation. No objections were received from the public, and city departments—including the Fire Department, Planning Department, and Department of Transportation—approved the request with conditions.</p>
+<h5>Impact</h5>
+<p>The vacation will require the petitioner to dedicate additional street width to McKinley Avenue and construct significant improvements to adjacent streets (McKinley Place, 87th Street, and McKinley Avenue), including new sidewalks, curbs, gutters, and curb ramps. A 2-year timeline has been set for the petitioner to complete all conditions. Once vacated, the street area becomes private property for the community park project, benefiting local residents while removing city maintenance responsibilities.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 02202020 - Application 02_20_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=cb69310d-6699-4b1c-9638-18abc9d53ded" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb69310d-6699-4b1c-9638-18abc9d53ded" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>North East Trees, represented by George Balliteria (Project Manager), is applying to vacate a public right-of-way at McKinley Place @ 87th Street in Los Angeles. The vacation area is approximately 4,387.3 square feet and is located between McKinley Avenue & McKinley Place and 87th Street and 87th Place.</p>
+<h5>Why?</h5>
+<p>The purpose of vacating this public right-of-way is to create a neighborhood park on approximately 1/2 acre of land that is currently vacant and paved over with asphalt. The project aims to convert underutilized public space into a community amenity. The application is being processed in conjunction with a B-Permit (BR 003792) and a Revocable Permit.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Council District 9, Engineering District Central <strong>Applicant:</strong> North East Trees, with owner identified as City of Los Angeles "Heal The Bay" (listed as 4444 9th St., Santa Monica, CA 90401) <strong>Contact:</strong> George Balliteria, 570 West Avenue 26, Suite 200, Los Angeles, CA 90065; (951) 201-2710 <strong>Signature:</strong> Shelley Luce, President & CEO <strong>District Maps:</strong> 096 A 207 & 097 SA 207 The vacation is not categorically exempt from California Environmental Quality Act (CEQA) review due to its size</p>
+<h5>Impact</h5>
+<p>This project would convert a paved, vacant right-of-way into accessible green space for the neighborhood. The vacation requires environmental review and coordination with city agencies like LADOT, which may result in additional fees. Residents in Council District 9 would gain a new community park resource.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 02202020 - Map 02_20_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6b13d0c5-b270-45c1-9176-4e4b55578fde" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b13d0c5-b270-45c1-9176-4e4b55578fde" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This document presents a vacation (closure) of a portion of McKinley Place, specifically the section southerly of 87th Street in Los Angeles. The vacation boundary is shown on the attached map, which identifies the specific streets and parcels involved in this public right-of-way closure action.</p>
+<h5>Why?</h5>
+<p>The document indicates this is a preliminary proposal subject to change. While the specific rationale is not detailed in the visible portions of this map exhibit, street vacations are typically pursued when property owners or the City determine that a street segment is no longer needed for public use, or when consolidating parcels would serve community interests better than maintaining the existing street configuration.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> McKinley Place, southerly of 87th Street, Los Angeles <strong>Work Order:</strong> VAC-E1401340 <strong>Engineering District:</strong> Central (T.G. 704-E3) <strong>District Map:</strong> 096A207 <strong>Council District:</strong> 3 <strong>Date Reference:</strong> December 26, 1906 (historical boundary establishment); Map dated 02-20-2020 <strong>Issuing Agency:</strong> City of Los Angeles Department of Public Works, Bureau of Engineering</p>
+<h5>Impact</h5>
+<p>This vacation would remove public access to the affected portion of McKinley Place. Property owners adjacent to the vacated segment would typically gain use of that land, while the public would lose access rights to that route. Residents in the area and stakeholders with properties bordering McKinley Place would be directly affected by this change.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Communication(s) from Public 02_06_2019</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f06d27a0-6f3c-436d-a4d4-14dde7ff3b17" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f06d27a0-6f3c-436d-a4d4-14dde7ff3b17" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This document is a public communication submitted to the Los Angeles City Council regarding three items on the February 6, 2019 council agenda (Items 12-14). The sender, Korie Schmidt from The SEO Doctors, is writing to the City Clerk to inquire about council actions related to "vacations of streets."</p>
+<h5>Why?</h5>
+<p>The communication appears to be a public inquiry or comment on street vacation matters pending before the city council. Street vacations typically involve the formal abandonment or closure of public streets, which requires city council approval. The sender is seeking clarification on what actions are being taken on these three file numbers.</p>
+<h5>Key Details</h5>
+<p><strong>Date:</strong> February 6, 2019 <strong>Items:</strong> Three related council items (12, 13, and 14) <strong>File Numbers:</strong> 11-0122-S3, 18-0194, and 18-1147 <strong>Sender:</strong> Korie Schmidt, The SEO Doctors <strong>Contact:</strong> (310) 600-2278</p>
+<h5>Impact</h5>
+<p>This is a brief public inquiry rather than a formal proposal with direct impacts. The communication serves as public participation in the council process, potentially representing constituents' interests in street vacation decisions that could affect land use, property access, or neighborhood infrastructure in Los Angeles.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Engineering 04_12_2018</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d11ddcbe-14da-4ad7-8a08-5837c628ab49" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d11ddcbe-14da-4ad7-8a08-5837c628ab49" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City of Los Angeles is initiating a vacation proceeding to vacate (permanently close) a portion of McKinley Place located south of 87th Street. This is the first step in a formal legal process that would allow the currently paved, vacant street to be converted into a neighborhood park on approximately half an acre of land.</p>
+<h5>Why?</h5>
+<p>The petitioner, North East Trees (representing Heal The Bay), submitted this request to transform underutilized public right-of-way into green space for community benefit. The street vacation process is governed by California Streets and Highways Code and requires investigation of feasibility before proceeding to a public hearing and City Council vote.</p>
+<h5>Key Details</h5>
+<p><strong>Filing Date:</strong> March 29, 2018 <strong>Case Number:</strong> VAC E1401340 <strong>Location:</strong> McKinley Place south of 87th Street (Council District 9) <strong>Petitioner Fee:</strong> $14,980.00 paid for investigation costs <strong>Proposed Size:</strong> Approximately ½ acre <strong>Current Condition:</strong> Vacant and paved with asphalt</p>
+<h5>Impact & Next Steps</h5>
+<p>This report does not approve the vacation—it merely initiates the investigation process. The Bureau of Engineering will study feasibility, present findings to the Public Works and Gang Reduction Committee, and eventually schedule a public hearing before the City Council makes a final decision. Residents and stakeholders will have opportunity to comment during that public hearing phase.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 04122018 - Application 04_12_2018</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=71d89bc7-72a2-46fc-8874-160ec77a50d2" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=71d89bc7-72a2-46fc-8874-160ec77a50d2" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>North East Trees, represented by Project Manager George Baliteria, is applying to vacate a public right of way at McKinley Place @ 87th Street in Los Angeles (Council District 9). The vacation area encompasses approximately 4,387.3 square feet of public street between McKinley Avenue and McKinley Place, and between 87th Street and 87th Place.</p>
+<h5>Why?</h5>
+<p>The purpose of vacating this public right of way is to develop the currently vacant, asphalt-paved area into a neighborhood park. The project will convert approximately half an acre of underutilized public space into green space for community use. This vacation is being pursued in conjunction with a B-Permit (BR 003792).</p>
+<h5>Key Details</h5>
+<p><strong>Applicant/Owner</strong>: City of Los Angeles through Heal the Bay organization (President & CEO: Shelley Luce), located in Santa Monica <strong>Contact</strong>: George Baliteria, 570 West Avenue 26, Suite 200, Los Angeles, CA 90065; (951) 201-2710 <strong>Location</strong>: McKinley Place @ 87th Street; Central Engineering District <strong>Size</strong>: 4,387.3 square feet <strong>Application Date</strong>: March 24, 2018 (received March 30, 2018)</p>
+<h5>Impact</h5>
+<p>Since the vacation area is under 10,000 square feet, it qualifies for categorical exemption from California Environmental Quality Act review, reducing processing time and costs. The City of Los Angeles, through Heal the Bay, will benefit from expanded public park space, while the community gains improved neighborhood amenities and green space access.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>13 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-23-25 - Exhibit A</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2a39aa60-3bf3-4e22-9cb2-c884e6394e05" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a39aa60-3bf3-4e22-9cb2-c884e6394e05" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-23-25 - Resolution</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=cb6e2758-593b-4fd1-88bc-7cd4b119bc87" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb6e2758-593b-4fd1-88bc-7cd4b119bc87" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 11-03-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4f964fb6-9169-4aab-bd53-ea9461cad9bb" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f964fb6-9169-4aab-bd53-ea9461cad9bb" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Motion (Price - Hutt) dated 10-25-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=89d9eeb7-397d-4fce-bb53-02980512474a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=89d9eeb7-397d-4fce-bb53-02980512474a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 8-03-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a7a82383-8949-4a67-ac28-814f537f7263" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a7a82383-8949-4a67-ac28-814f537f7263" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Motion (Price - Raman) dated 6-22-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b958223b-4b58-4447-b34b-72d1db1a02b0" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b958223b-4b58-4447-b34b-72d1db1a02b0" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 09_22_2020</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c1eb0545-b82c-48be-a1f9-eaee3de9e7cb" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c1eb0545-b82c-48be-a1f9-eaee3de9e7cb" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 08132020 - Map 08_13_2020</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b5a0eaab-d873-49fd-a366-78d897e63a9f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5a0eaab-d873-49fd-a366-78d897e63a9f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 02_08_2019</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=87ad23e6-fcfc-4f83-99bd-0b0d5a2b4e6b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87ad23e6-fcfc-4f83-99bd-0b0d5a2b4e6b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 02_06_2019</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6ec70626-e6ef-4e6c-8bbf-fe51cb0c7e84" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6ec70626-e6ef-4e6c-8bbf-fe51cb0c7e84" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 04122018 - Map 04_12_2018</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5adb2e40-5661-4e58-b989-d64b9d5b7921" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5adb2e40-5661-4e58-b989-d64b9d5b7921" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_08-02-2022</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6e92bd34-5fbc-480e-970c-f8ab20a619ef" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e92bd34-5fbc-480e-970c-f8ab20a619ef" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_11-01-2022</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=95bca5a4-7035-4786-b3b8-cf1410bd22e1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=95bca5a4-7035-4786-b3b8-cf1410bd22e1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

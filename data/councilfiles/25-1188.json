@@ -1,0 +1,53 @@
+{
+  "council_file": "25-1188",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to amending the boundaries of the Santa Monica-Highland Parking Meter Zone (PMZ) in Council District 13.",
+  "district": "CD 13",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(27)",
+      "recommendation": "REQUEST the City Attorney to prepare and present an ordinance amending Subsection 26(A) of Section 88.00 of the Los Angeles Municipal Code to expand the boundaries of the Santa Monica-Highland PMZ, to revise Line 3 and add Lines 9-15 as follows: Highland Avenue from Lexington Avenue to Willoughby Avenue Sycamore Avenue from Santa Monica Boulevard to Willoughby Avenue Orange Drive from Santa Monica Boulevard to Willoughby Avenue Mansfield Avenue from Santa Monica Boulevard to Willoughby Avenue Citrus Avenue from Romaine Street to Willoughby Avenue Willoughby Avenue from Sycamore Avenue to Highland Avenue South side of Romaine Street from La Brea Avenue to Sycamore Avenue Romaine Street from Sycamore Avenue to Highland Avenue DIRECT the Los Angeles Department of Transportation (LADOT) to install metered parking directly in front of contiguous commercial properties in the expanded zone street segments listed above, upon City Council adoption of the expanded PMZ. Fiscal Impact Statement: The LADOT reports that there is no fiscal impact to the City’s General Fund. The Street Parking Revenue Fund (SPRF) will fund the cost of implementing and maintaining the expanded PMZ, estimated at an initial cost of $515,000 to install parking meter equipment and associated signs, stall markings, and red curb. The expanded boundary of the Santa Monica-Highland PMZ is estimated to generate approximately $1.6 million in annual gross revenue. The City may also generate additional General Fund revenue from the issuance of parking citations at the newly installed parking meters. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Report from Board of Transportation Commissioners dated 9-23-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "1913faf8-6931-463c-a520-7101874eedfc",
+      "title": "Report from Transportation Committee 10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1913faf8-6931-463c-a520-7101874eedfc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1913faf8-6931-463c-a520-7101874eedfc",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1188: Santa Monica-Highland Parking Meter Zone Expansion\n\n## What is Being Proposed?\n\nThe Transportation Committee recommends expanding the Santa Monica-Highland Parking Meter Zone (PMZ) in Council District 13 (Hollywood Media District). The expansion would add metered parking to eight additional street segments, including parts of Highland Avenue, Sycamore Avenue, Orange Drive, Mansfield Avenue, Citrus Avenue, Willoughby Avenue, and Romaine Street. The City Attorney is asked to prepare an ordinance to amend the Los Angeles Municipal Code, and the Department of Transportation (LADOT) would install parking meters directly in front of commercial properties in these expanded areas.\n\n## Why?\n\nLADOT conducted parking studies in the Hollywood Media District that demonstrated insufficient parking availability and the need to create better parking turnover in the area. The expansion aims to address parking demand while improving traffic flow through metered parking management.\n\n## Key Details\n\n- **Location:** Council District 13 (Hollywood Media District)\n- **Committee Vote:** 3 Yes (Hutt, Hernandez, Nazarian), 2 Absent (Park, Padilla)\n- **Cost:** $515,000 initial investment for equipment, signs, stall markings, and red curb installation\n- **Revenue:** Estimated $1.6 million in annual gross revenue, plus additional General Fund revenue from parking citations\n- **Funding Source:** Street Parking Revenue Fund (no impact to General Fund)\n\n## Impact\n\nThis expansion will require visitors and workers in the Hollywood Media District to pay for parking on previously unmetered streets. The metered parking is intended to increase turnover, helping customers access nearby commercial properties more easily. Revenue generated will fund the parking program and potentially support other city services.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 4022,
+        "output_tokens": 398,
+        "cost_usd": 0.006012
+      }
+    },
+    {
+      "historyId": "ddf5b5ab-bdee-43f1-a299-395e2445a704",
+      "title": "Report from Board of Transportation Commissioners dated 9-23-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ddf5b5ab-bdee-43f1-a299-395e2445a704",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ddf5b5ab-bdee-43f1-a299-395e2445a704",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Amendment to Santa Monica-Highland Parking Meter Zone\n\n## What is Being Proposed?\nThe Los Angeles Department of Transportation (LADOT) is requesting approval to expand the boundaries of the Santa Monica-Highland Parking Meter Zone in Council District 13 (Hollywood Media District). The expansion would add approximately 300 new metered parking spaces across eight additional street segments in the area, including portions of Highland Avenue, Sycamore Avenue, Orange Drive, Mansfield Avenue, Citrus Avenue, Willoughby Avenue, and Romaine Street.\n\n## Why?\nParking studies conducted in October 2022 and October 2024 found that the Hollywood Media District experiences significantly high parking occupancy rates—averaging 88% in the 2024 study, well above LADOT's typical 70-80% target range. This indicates insufficient available parking and increased demand. The expansion aims to improve parking turnover, create better access for customers to nearby businesses, and make enforcement of parking violations easier for traffic officers. Additionally, the area has experienced substantial commercial growth and development over the past decade, driving increased parking demand.\n\n## Key Details\n- **Location**: Hollywood Media District bounded by Santa Monica Boulevard, Highland Avenue, Willoughby Avenue, and La Brea Avenue\n- **Estimated Cost**: $515,000 for installation of parking meter equipment, signs, stall markings, and red curbs\n- **Revenue**: Approximately $1.6 million in annual gross revenue, with parking citations generating additional General Fund revenue\n- **Implementation Timeline**: Six months to one year, with installation anticipated by mid-2026\n- **Parking Rate**: $1.50 per hour (existing rate for the Santa Monica-Highland zone)\n- **Community Support**: Letters of support from the Hollywood Media District Business Improvement District, Central Hollywood Neighborhood Council, and Council District 13\n\n## Impact\nThis expansion primarily affects businesses, residents, and visitors in the Hollywood Media District. Residents and business owners benefit from improved parking availability and turnover, making it easier to find street parking near commercial establishments. The Special Parking Revenue Fund will fund the implementation costs, with no impact to the City's General Fund. Revenue generated will support parking management operations and can generate additional General Fund revenue through parking citations.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 14538,
+        "output_tokens": 496,
+        "cost_usd": 0.017018000000000002
+      }
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

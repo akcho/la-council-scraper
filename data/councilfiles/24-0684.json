@@ -1,0 +1,55 @@
+{
+  "council_file": "24-0684",
+  "title": "Municipal Facilties Committee report relative to proposed a non-profit lease agreement with the Foundation for Early Childhood Education, Inc. for the City-owned property located at 1010 Douglas Street, Los Angeles CA, 90026.",
+  "district": "CD 1",
+  "appearances": [
+    {
+      "meeting_id": 17585,
+      "date": "2025-12-02T16:30:00",
+      "section": "Committee referrals",
+      "item_number": "(3)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2",
+      "title": "Report from Municipal Facilities Committee dated 10-31-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5ee3dde5-774e-4f69-b3d6-0fe90fa51bf2",
+      "meeting_id": 17585,
+      "has_summary": false
+    },
+    {
+      "historyId": "ec9333ee-287e-4be3-961b-7ec5c721c711",
+      "title": "Council Action dated 10-01-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec9333ee-287e-4be3-961b-7ec5c721c711",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ec9333ee-287e-4be3-961b-7ec5c721c711",
+      "meeting_id": 17585,
+      "has_summary": false
+    },
+    {
+      "historyId": "b2c94c77-5d00-4900-89fc-e38bcc9afe4e",
+      "title": "Motion (Hernandez - Padilla) dated 6-07-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2c94c77-5d00-4900-89fc-e38bcc9afe4e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b2c94c77-5d00-4900-89fc-e38bcc9afe4e",
+      "meeting_id": 17585,
+      "has_summary": false
+    },
+    {
+      "historyId": "d2904269-49a0-448c-b972-31973996b8a3",
+      "title": "Speaker Card(s)_10-01-2024",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2904269-49a0-448c-b972-31973996b8a3",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d2904269-49a0-448c-b972-31973996b8a3",
+      "meeting_id": 17585,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T16:30:00",
+  "last_seen": "2025-12-02T16:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 4,
+    "attachments_with_summaries": 0
+  }
+}

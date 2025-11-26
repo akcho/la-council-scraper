@@ -1,0 +1,31 @@
+{
+  "council_file": "25-1321",
+  "title": "City Administrative Officer (CAO) report relative to the Transportation Grant Fund request for Fiscal Year 2025-26.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17471,
+      "date": "2025-11-12T16:45:00",
+      "section": "Transportation infrastructure improvements",
+      "item_number": "(8)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "title": "Report from City Administrative Officer dated 10-29-25.pdf",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "meeting_id": 17471,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T16:45:00",
+  "last_seen": "2025-11-12T16:45:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

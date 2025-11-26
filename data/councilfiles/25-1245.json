@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1245",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(61)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "6acf72be-43b3-44f7-81f3-e7d2930aed85",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6acf72be-43b3-44f7-81f3-e7d2930aed85",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6acf72be-43b3-44f7-81f3-e7d2930aed85",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Closed Session Request for Settlement Discussion\n\n**What is Being Proposed:**\nThe Los Angeles City Attorney is requesting that the City Council hold a closed session to discuss and receive legal advice regarding settlement negotiations in a pending litigation case. Specifically, this involves RAMA Real Estate Management Investments, LLC v. City of Los Angeles (LASC Case No. 23SCV15270), which includes five related claims.\n\n**Why:**\nThis matter stems from a June 30, 2021 incident in which the LAPD Bomb Squad detonated explosive material. The City Attorney is seeking a closed session under California Government Code Section 54956.9(d)(1), which allows public agencies to privately discuss pending litigation with their legal counsel without public disclosure of settlement discussions or litigation strategy.\n\n**Key Details:**\n- **Case Numbers:** Claims C22-03589; C22-03590; C22-20775; C22-20777; C22-20778\n- **Incident Date:** June 30, 2021\n- **Parties:** RAMA Real Estate Management Investments, LLC (plaintiff) v. City of Los Angeles (defendant)\n- **Contact:** Catherine Sun, Deputy City Attorney, (213) 978-6949\n\n**Impact:**\nThis affects residents or property owners who may have claims related to the 2021 bomb squad incident. The closed session allows the City to discuss settlement terms privately before any public action, which is standard procedure for pending litigation. The City Council will need to approve holding this confidential session.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 337,
+        "cost_usd": 0.005002
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

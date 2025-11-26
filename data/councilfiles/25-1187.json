@@ -1,0 +1,91 @@
+{
+  "council_file": "25-1187",
+  "title": "BUDGET AND FINANCE COMMITTEE REPORT relative to delinquent accounts receivables submitted by the Los Angeles Housing Department.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(10)",
+      "recommendation": "APPROVE the Collections Board of Review’s (CBR) recommendation for the Los Angeles Housing Department to remove from its active account receivables: 12 uncollectible invoices totaling $146,043.70 246 uncollectible invoices totaling $833,852.96 Fiscal Impact Statement: The CBR reports that the proposed action will decrease the City’s receivable base by $979,896.66. Community Impact Statement: None submitted Report from Budget and Finance Committee dated 10-21-25 Report from Collections Board of Review dated 10-08-25 Attachment to Report dated 10-08-25 - Findings Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending March 31, 2025 Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "c07d77ec-b85e-49dd-b88b-afecd7fed6ee",
+      "title": "Report from Budget and Finance Committee dated 10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c07d77ec-b85e-49dd-b88b-afecd7fed6ee",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c07d77ec-b85e-49dd-b88b-afecd7fed6ee",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1187\n\n## What is Being Proposed?\nThe Budget and Finance Committee recommends that the Los Angeles City Council approve removing $979,896.66 in uncollectible debt from the city's active accounts receivable. This involves writing off 258 invoices from the Los Angeles Housing Department that have been determined to be uncollectible.\n\n## Key Details\nThe write-off consists of two groups of invoices:\n- 12 invoices totaling $146,043.70\n- 246 invoices totaling $833,852.96\n\nThe Collections Board of Review (CBR) made this recommendation, and it was considered at a Budget and Finance Committee meeting on October 21, 2025. All five committee members voted in favor of approval (Yaroslavsky, Blumenfield, Hutt, McOsker, and Hernandez).\n\n## Why This Matters\nThese invoices have been classified as uncollectible, meaning the city has determined it is unlikely to recover these funds despite collection efforts. By formally removing them from active receivables, the city can present a more accurate accounting of its actual financial assets rather than carrying debt that has no realistic prospect of payment.\n\n## Impact\nThis action primarily affects the city's financial records and accounting practices rather than directly impacting residents. It represents a realistic adjustment to the city's books by eliminating nearly $1 million in uncollectible debt, allowing for more accurate budgeting and financial planning going forward.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2097,
+        "output_tokens": 330,
+        "cost_usd": 0.003747
+      }
+    },
+    {
+      "historyId": "53853de7-c249-4d83-9443-f569f0880bb6",
+      "title": "Report from Collections Board of Review dated 10-08-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53853de7-c249-4d83-9443-f569f0880bb6",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=53853de7-c249-4d83-9443-f569f0880bb6",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Write-Off of Delinquent Housing Department Accounts\n\n## What is Being Proposed\n\nThe Collections Board of Review is recommending that the Los Angeles City Council approve the write-off of 258 uncollectible invoices totaling $979,896.66 from the Los Angeles Housing Department (LAHD). These are delinquent accounts from property owners who owe $5,000 or more per account. The Board requests removal of these accounts from the city's active receivables, acknowledging they cannot be collected.\n\n## Why This Is Happening\n\nThe Collections Board determined that all reasonable collection efforts on these accounts have been exhausted. According to the Board, attempting further collection efforts would be disproportionately costly compared to the likelihood of actually collecting the money. This is a standard practice authorized by the Los Angeles Administrative Code (Sections 5.182-5.184) to clean up uncollectible debts from city books.\n\n## Key Details\n\nThe proposal involves two separate requests from LAHD:\n- **First request (March 2025):** 12 invoices from 8 property owners totaling $146,043.70\n- **Second request (July 2025):** 246 invoices from 75 property owners totaling $833,852.96\n\nAll accounts represent $5,000 or more in individual debt, requiring City Council approval (smaller debts can be approved by the Collections Board alone). The Board unanimously supports both write-off requests.\n\n## Impact\n\nApproving this proposal will decrease the city's receivable base by nearly $980,000, reflecting a realistic accounting of uncollectible debts. For residents, this means the city is acknowledging these funds won't be recovered and removing them from financial records.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 4222,
+        "output_tokens": 390,
+        "cost_usd": 0.006172
+      }
+    },
+    {
+      "historyId": "679b585c-0153-4849-83d3-5e3e3ec24fc6",
+      "title": "Attachment to Report dated 10-08-25 - Findings",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=679b585c-0153-4849-83d3-5e3e3ec24fc6",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=679b585c-0153-4849-83d3-5e3e3ec24fc6",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Collections Board of Review Write-Off Approvals\n\n## What is Being Proposed?\n\nThe Collections Board of Review is approving the removal of uncollectible accounts from the Los Angeles Fire Department (LAFD) and Los Angeles Housing Department (LAHD). These are unpaid bills that the city has determined cannot be collected through further efforts. The Board is either directly approving smaller write-offs (under $5,000 per account) or recommending larger ones to City Council for final approval.\n\n## Why This Matters\n\nBoth departments have exhausted all reasonable collection efforts over extended periods. The Board determined that spending additional money to pursue these debts would be wasteful—the cost of further collection attempts would exceed any potential recovery. These are primarily emergency ambulance service fees from LAFD and various housing inspection and administrative fees from LAHD that went unpaid for years.\n\n## Key Numbers and Details\n\nThe total write-offs being processed include: **$131.5 million** from LAFD (69,511 ambulance accounts from 2010-2023) and **$5.2 million** from LAHD (11,715 invoices). The Board approved $4.2 million in LAHD accounts directly and is recommending $979,896 in larger individual accounts ($5,000+) to City Council for approval. All accounts represent services billed between 2016-2024 that remain unpaid despite multiple billing notices and referral to collection agencies.\n\n## Impact\n\nResidents should understand this is standard municipal accounting—removing uncollectible debts from active accounts to accurately reflect city finances. This primarily affects property owners and individuals who received city services (ambulance, housing inspections) but did not pay. The write-offs clean up the city's books without recovering the funds, reflecting the reality that these debts are unrecoverable.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6755,
+        "output_tokens": 407,
+        "cost_usd": 0.00879
+      }
+    },
+    {
+      "historyId": "b66b7d64-8a80-4b74-be02-53b864488e22",
+      "title": "Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending March 31, 2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b66b7d64-8a80-4b74-be02-53b864488e22",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b66b7d64-8a80-4b74-be02-53b864488e22",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "41296840-1e27-467c-b9f7-41b68f8168eb",
+      "title": "Attachment to Report dated 10-08-25 - LAHD Uncollectible Claims - Quarter Ending June 30, 2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41296840-1e27-467c-b9f7-41b68f8168eb",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=41296840-1e27-467c-b9f7-41b68f8168eb",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Los Angeles Housing Department Write-Off Request for Uncollectible Accounts\n\n## What is Being Proposed?\n\nThe Los Angeles Housing Department (LAHD) is requesting approval to write off $833,852.96 in uncollectible accounts receivable for the quarter ending June 30, 2025. This write-off covers 246 invoices from 75 property owners across 133 different property accounts (identified by Assessor Parcel Numbers).\n\n## Why?\n\nThese accounts have been deemed uncollectible after LAHD exhausted all reasonable collection efforts. The write-off request meets specific criteria established by Los Angeles Administrative Code Section 5.182: the amounts are uncollectible, the write-off will not harm the City's legal position, all collection efforts have been exhausted, debtors cannot be located or have discharged through bankruptcy, and applicable statutes of limitations for debt collection have expired.\n\n## Key Details\n\nThe $833,852.96 total breaks down as follows: SCEP (Seismic and Code Enforcement Program) violations account for the largest portion at $562,966.05 (67.51%), followed by RSO (Residential Rent Stabilization Ordinance) at $154,084.08 (18.48%), and REAP Administrative violations at $102,035.58 (12.24%). Most accounts (225 invoices totaling $693,544.76) originated from 2023, with smaller portions from 2022 (17 invoices) and 2021 (4 invoices). The accounts involve various property types and debtors throughout Los Angeles, many with addresses outside the city.\n\n## Impact\n\nIf approved, this write-off removes these uncollectible debts from LAHD's active collections efforts, allowing the department to focus resources on recoverable accounts. The action has no direct financial impact on residents but reflects LAHD's accounting practices for debt that cannot be recovered. The write-off is submitted to the Collections Board of Review for consideration, as required by city code.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 56186,
+        "output_tokens": 459,
+        "cost_usd": 0.058481
+      }
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 5,
+    "attachments_with_summaries": 4
+  }
+}

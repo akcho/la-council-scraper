@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-1108 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-1108: CATEGORICAL EXEMPTION and PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to the inclusion of Grant House, located at 815 North Bramble Way">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-1108
+            </div>
+            <div class="file-number">25-1108</div>
+            <h1>The Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council officially designate <strong>Grant House, located at 815 North Bramble Way, as a Historic-Cultural Monument</strong>.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 11</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION and PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to the inclusion of Grant House, located at 815 North Bramble Way, in the list of Historic-Cultural Monuments.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3ace5a26-879e-48b6-9dfd-23b03df30742" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ace5a26-879e-48b6-9dfd-23b03df30742" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council officially designate <strong>Grant House, located at 815 North Bramble Way, as a Historic-Cultural Monument</strong>. This designation would add the property to the city's official list of protected historic sites.</p>
+<h5>Why?</h5>
+<p>The Cultural Heritage Commission (CHC) evaluated Grant House and determined it meets the definition of a Monument under Los Angeles Administrative Code Section 22.171.7, making it eligible for historic protection. The PLUM Committee reviewed the CHC's report and supported the designation recommendation following a public comment period at their October 28, 2025 meeting.</p>
+<h5>Key Details</h5>
+<p><strong>Property</strong>: Grant House at 815 North Bramble Way <strong>Applicant</strong>: Cory Buckner, Architect <strong>Owner</strong>: Bramble Rambler LLC <strong>Case Number</strong>: CHC-2025-3523-HCM <strong>Committee Vote</strong>: 4-0 in favor (one member absent) <strong>Deadline for Council Action</strong>: December 12, 2025 <strong>Environmental</strong>: The designation is categorically exempt from California Environmental Quality Act (CEQA) review <strong>Fiscal Impact</strong>: None reported</p>
+<h5>Impact</h5>
+<p>If approved by the full City Council, Grant House would gain historic protection status, which typically restricts major alterations and demolition, helping preserve the property's historic character for future generations. No significant fiscal impact is anticipated from this designation.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Cultural Heritage Commission dated 9-23-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=22d5bd77-8647-40ac-ac20-767eb9e1a802" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=22d5bd77-8647-40ac-ac20-767eb9e1a802" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Cultural Heritage Commission is recommending that the Grant House, located at 815 North Bramble Way in Council District 11, be designated as a Historic-Cultural Monument. This recommendation now goes to the Los Angeles City Council for final approval. The Commission voted unanimously (5-0) on September 18, 2025 to support this designation.</p>
+<h5>Why?</h5>
+<p>Historic-Cultural Monument designations protect buildings and sites that have significant historical, cultural, or architectural importance to Los Angeles. The Commission determined that the Grant House meets the legal definition of a Monument under Los Angeles Administrative Code Section 22.171.7 and is categorically exempt from environmental review under California law.</p>
+<h5>Key Details</h5>
+<p><strong>Property:</strong> Grant House, 815 North Bramble Way, Council District 11 <strong>Case Numbers:</strong> CHC-2025-3523-HCM (Historic-Cultural Monument); ENV-2025-3524-CE (Environmental) <strong>Commission Vote:</strong> 5-0 in favor (Commissioners Barron, Buelna, Milofsky, Kennard, and Rubio) <strong>Timeline:</strong> The City Council has 90 days from the Commission's public hearing to vote on approval or disapproval (extendable to 105 days for good cause, or up to 165 days with the property owner's written consent)</p>
+<h5>Impact</h5>
+<p>If approved by City Council, the Grant House designation will provide legal protection for the property and require compliance with preservation standards for any future modifications. This affects the property owner and future development plans while preserving an important piece of Los Angeles's cultural heritage.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-23-25 - Findings</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0fedce30-eff8-4ccd-b83e-f44f3a85d493" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0fedce30-eff8-4ccd-b83e-f44f3a85d493" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City of Los Angeles is designating the Grant House at 815 North Bramble Way as a Historic-Cultural Monument (HCM). This designation will place the property under city regulations to protect it from incompatible alterations, demolition, or new construction that could damage its historic character.</p>
+<h5>Why?</h5>
+<p>The Grant House meets two key criteria for historic designation. First, it exemplifies the Mutual Housing Association (MHA) postwar cooperative housing development—a significant mid-20th century effort to bring modernist design to middle-class homeowners. Of approximately 85 original MHA homes built, only 34 remain intact, making this property increasingly rare. Second, it is an excellent example of Mid-Century Modern architecture with distinctive design features including post-and-beam construction, exposed wood beams, floor-to-ceiling windows, and low-pitched roofs. The house retains high integrity with only minor alterations.</p>
+<h5>Key Details</h5>
+<p>The Grant House was built as part of the MHA project, which operated as a prototype for California modern living with utopian ideals. The property features characteristic Mid-Century Modern elements influenced by the Case Study House Program (1945-1966), including open floor plans, rectangular massing with glass walls, concrete block and redwood siding, and integration of indoor-outdoor spaces. The designation was found exempt from environmental review under California Environmental Quality Act (CEQA) categorical exemptions for environmental protection and historic preservation.</p>
+<h5>Impact</h5>
+<p>This designation protects an irreplaceable piece of Los Angeles architectural and social history from demolition or inappropriate modification. The property owner and any future owners must comply with City regulations requiring historically appropriate treatment per the Secretary of the Interior's Standards for any work on the building, ensuring its preservation for future generations.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-23-25 - Staff Report</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9ddba260-04f7-4297-9e5d-697e1c3aba83" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ddba260-04f7-4297-9e5d-697e1c3aba83" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles Department of City Planning is recommending that the Cultural Heritage Commission designate the Grant House at 815 N. Bramble Way in Brentwood as a Historic-Cultural Monument (HCM). This one-story residential building, completed in 1950, would receive formal protection under the City's preservation ordinance, meaning future alterations would require approval from the Cultural Heritage Commission.</p>
+<h5>Why?</h5>
+<p>The Grant House qualifies for designation under two criteria. First, it exemplifies significant contributions to Los Angeles's cultural and social history as one of only 34 remaining homes from the Mutual Housing Association (MHA)—an innovative postwar cooperative housing development of approximately 85 homes built to bring modernist architecture to middle-class families. Second, it embodies distinctive characteristics of Mid-Century Modern architecture, featuring exposed post-and-beam construction, extensive glazing, and materials like redwood siding and concrete block—all hallmarks of the style championed by master architects A. Quincy Jones and Whitney R. Smith who designed the MHA development.</p>
+<h5>Key Details</h5>
+<p>The house was designed by renowned architects A. Quincy Jones (1913-1979) and Whitney R. Smith (1911-2002), with structural engineer Edgardo Contini. It features characteristic mid-century design elements including a rectangular footprint, gently sloping gable roof, floor-to-ceiling windows, and post-and-beam construction at seven-foot spacing. The property has experienced only minor alterations (a 1958 carport conversion and flooring updates), retaining high integrity. The property was identified in the citywide SurveyLA historic resources survey as individually eligible for historic designation.</p>
+<h5>Impact</h5>
+<p>Designation protects this architectural landmark from incompatible alterations and demolition, ensuring the preservation of an important example of postwar modernist housing design. The property owner and applicant support the designation. Residents and visitors benefit from maintaining architectural and historical integrity in the Brentwood community, while the owner must obtain approval for future significant modifications to the structure.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>2 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Communication from Committee Clerk - Notice(s)_10-17-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=830c35d9-6087-4b99-a0f2-0ee334b1df59" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=830c35d9-6087-4b99-a0f2-0ee334b1df59" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 9-23-25 - Mailing List</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a805a45d-e467-4475-ad4e-0aaff27cdf40" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a805a45d-e467-4475-ad4e-0aaff27cdf40" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

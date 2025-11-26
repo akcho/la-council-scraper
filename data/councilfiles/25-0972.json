@@ -1,0 +1,85 @@
+{
+  "council_file": "25-0972",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to embedding sensors within street lighting infrastructure to allow for active monitoring of the status of streetlights when installing other security improvements.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17432,
+      "date": "2025-11-14T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(4)",
+      "recommendation": "INSTRUCT the Bureau of Street Lighting to report with recommendations for embedding sensors within street lighting infrastructure to allow for active monitoring of the status of streetlights when it is installing other security improvements. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025 Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025 Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025 Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025 Report from Public Works Committee_9-10-25 Motion (Hutt - Nazarian) dated 8-20-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "11499e57-42bd-47c6-a841-d90bcbcab328",
+      "title": "Community Impact Statement submitted by Historic Highland Park Neighborhood Council_10-22-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=11499e57-42bd-47c6-a841-d90bcbcab328",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=11499e57-42bd-47c6-a841-d90bcbcab328",
+      "meeting_id": 17432,
+      "has_summary": false
+    },
+    {
+      "historyId": "1098ca69-1573-4f61-92f0-3d2e1e5b4788",
+      "title": "Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_10-20-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098ca69-1573-4f61-92f0-3d2e1e5b4788",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1098ca69-1573-4f61-92f0-3d2e1e5b4788",
+      "meeting_id": 17432,
+      "has_summary": false
+    },
+    {
+      "historyId": "387dac89-5c99-462f-994b-8fafa50b384e",
+      "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_10-19-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=387dac89-5c99-462f-994b-8fafa50b384e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=387dac89-5c99-462f-994b-8fafa50b384e",
+      "meeting_id": 17432,
+      "has_summary": false
+    },
+    {
+      "historyId": "a109b85c-98f2-4c77-a97a-afc12ef6e894",
+      "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a109b85c-98f2-4c77-a97a-afc12ef6e894",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a109b85c-98f2-4c77-a97a-afc12ef6e894",
+      "meeting_id": 17432,
+      "has_summary": true,
+      "summary": "# Summary: Council File 25-0972 Community Impact Statement\n\n## What is Being Proposed?\n\nThe Los Feliz Neighborhood Council submitted a Community Impact Statement supporting Council File 25-0972, which is a motion directing the Bureau of Street Lighting to investigate the feasibility of using remote sensors to quickly identify broken street lamps in Los Angeles.\n\n## Why This Matters?\n\nThe motion addresses a significant problem in street lamp maintenance: currently, it can take six months to a year for the city to repair broken street lights once they are reported. By implementing remote sensors, the city could automatically detect malfunctioning lamps without waiting for community complaints, thereby reducing response times and improving public safety and neighborhood lighting.\n\n## Key Details\n\n- **Council File Number:** 25-0972\n- **Voting Result:** Passed unanimously (20-0-0) by the Los Feliz Neighborhood Council\n- **Submitting Organization:** Los Feliz Neighborhood Council\n- **Submission Date:** September 23, 2025\n\n## Impact\n\nThis proposal benefits all Los Angeles residents by potentially accelerating street light repairs, which improves public safety, visibility for pedestrians and drivers, and community security. The faster identification and repair of broken street lights would enhance neighborhood conditions across the city.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6003,
+        "output_tokens": 280,
+        "cost_usd": 0.007403
+      }
+    },
+    {
+      "historyId": "6af65d3f-2457-466d-8937-132ffb0d8b5c",
+      "title": "Report from Public Works Committee_9-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6af65d3f-2457-466d-8937-132ffb0d8b5c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6af65d3f-2457-466d-8937-132ffb0d8b5c",
+      "meeting_id": 17432,
+      "has_summary": true,
+      "summary": "# Summary: Council File 25-0972 - Street Lighting Sensor Monitoring\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the City Council instruct the Bureau of Street Lighting to develop a report with recommendations for embedding sensors in street lighting infrastructure. These sensors would enable active monitoring of streetlight status and would be installed alongside other security improvements throughout the city.\n\n## Why?\nWhile the document doesn't explicitly detail the rationale, the proposal appears designed to improve public safety and infrastructure management by integrating streetlight monitoring with broader security enhancement projects. By embedding sensors during security installation work, the city could create an efficient, coordinated system to track which streetlights are functioning properly in real time.\n\n## Key Details\n- **File Number:** 25-0972\n- **Committee Meeting Date:** September 10, 2025\n- **Committee Vote:** Approved unanimously by members Hernandez, Padilla, and Hutt (all YES votes)\n- **Status:** Not yet official—awaiting full City Council action\n- **Fiscal Impact:** No financial analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n- **Community Input:** No community impact statement was submitted\n\n## Impact\nThis measure would primarily affect city infrastructure management and public safety operations. Once adopted, it would guide future street lighting projects and security installations citywide. However, implementation details, costs, and specific neighborhoods affected will depend on the Bureau of Street Lighting's recommendations.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2062,
+        "output_tokens": 320,
+        "cost_usd": 0.0036620000000000003
+      }
+    },
+    {
+      "historyId": "8fa7e061-6ad8-47c0-9840-8395595a204c",
+      "title": "Motion (Hutt - Nazarian) dated 8-20-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fa7e061-6ad8-47c0-9840-8395595a204c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8fa7e061-6ad8-47c0-9840-8395595a204c",
+      "meeting_id": 17432,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-14T18:00:00",
+  "last_seen": "2025-11-14T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 6,
+    "attachments_with_summaries": 2
+  }
+}

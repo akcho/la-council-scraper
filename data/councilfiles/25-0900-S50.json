@@ -1,0 +1,46 @@
+{
+  "council_file": "25-0900-S50",
+  "title": "COMMUNICATION FROM THE BUREAU OF STREET LIGHTING and ORDINANCE OF INTENTION FIRST CONSIDERATION relative to establishing a hearing date for the maintenance of the New Hampshire Avenue and Fountain Avenue No. 1 Street Lighting District.​",
+  "district": "CD 13",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(29)",
+      "recommendation": "​ ADOPT the report of the Director, Bureau of Street Lighting, dated September 24, 2025, attached to the Council file. PRESENT and ADOPT the accompanying ORDINANCE OF INTENTION setting the date of January 13, 2026 as the hearing date for the maintenance of the New Hampshire Avenue and Fountain Avenue No. 1 Street Lighting District, in accordance with Proposition 218, Articles XIIIC and XIIID of the California Constitution and Government Code Section 53753.​ Fiscal Impact Statement: The Bureau of Street Lighting reports that if adopted, $381.06 will be collected annually starting with tax year 2025-26 that will go into a dedicated street lighting maintenance assessment account for the use in the operation and maintenance of this street lighting system.​ (Board of Public Works Hearing Date: January 7, 2026) Report from Bureau of Street Lighting dated 9-24-35 Attachment to Report dated 9-24-25 - Draft Ordinance of Intention"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "45b642b6-2299-48bc-9c8a-fc82ad57cd0e",
+      "title": "Report from Bureau of Street Lighting dated 9-24-35",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=45b642b6-2299-48bc-9c8a-fc82ad57cd0e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=45b642b6-2299-48bc-9c8a-fc82ad57cd0e",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary: New Hampshire Avenue & Fountain Avenue Street Lighting Assessment District\n\n## What is Being Proposed?\n\nThe Bureau of Street Lighting is proposing to establish a new street lighting maintenance assessment district for New Hampshire Avenue between Fountain Avenue and points south. This district would finance the operation, maintenance, and electric energy costs for one new streetlight through annual assessments on nearby benefiting properties. The proposal follows Proposition 218 requirements, which mandate that property owners vote on any new assessments before they can be imposed.\n\n## Why This Matters\n\nThe proposed streetlight is part of a private development project at 1245 N New Hampshire Avenue. Under city policy, about 80% of streetlight costs are financed through assessments to benefiting properties rather than general city funds. Proposition 218 requires that any property assessment be supported by an engineer's report demonstrating that assessed properties receive \"special benefit\" from the improvement and that the assessment amount is proportional to that benefit.\n\n## Key Details\n\n- **Total Assessment:** $381.06 annually for fiscal year 2025-2026\n- **Affected Parcels:** 9 units (all part of the same development at 1245 N New Hampshire Ave)\n- **Assessment per Unit:** $42.34 per unit\n- **Location:** New Hampshire Avenue, from 262' to 376' south of Fountain Avenue\n- **Process:** Property owners will receive ballots and have the opportunity to vote; weighted majority vote determines approval\n\n## What Happens Next\n\nIf the City Council adopts the Ordinance of Intention, ballots will be mailed to property owners. The City Clerk will conduct the ballot proceeding and count weighted votes. If \"yes\" votes meet or exceed \"no\" votes, assessments will be confirmed and imposed. If \"no\" votes exceed \"yes\" votes, the district will be abandoned and the streetlight will not be constructed. This is a relatively modest, single-light proposal affecting nine residential condominium units in Council District 13.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 44532,
+        "output_tokens": 439,
+        "cost_usd": 0.046727000000000005
+      }
+    },
+    {
+      "historyId": "6e9a735f-1407-4ea2-b1e2-51348966392b",
+      "title": "Attachment to Report dated 9-24-25 - Draft Ordinance of Intention",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e9a735f-1407-4ea2-b1e2-51348966392b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6e9a735f-1407-4ea2-b1e2-51348966392b",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

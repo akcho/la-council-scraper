@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 13-0347-S1 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 13-0347-S1: CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating an L-shaped alley northerly of Olympic Boule">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                13-0347-S1
+            </div>
+            <div class="file-number">13-0347-S1</div>
+            <h1>The City Council is being asked to formally adopt a Resolution to Vacate (No. 25-1401355) for an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street in Council District 14.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 14</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating an L-shaped alley northerly of Olympic Boulevard and Westerly of Mateo Street, VAC-E1401355.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Bureau of Engineering dated 10-21-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7edd4026-3f9a-4c3e-86cb-f29c1e5f25e9" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7edd4026-3f9a-4c3e-86cb-f29c1e5f25e9" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Council is being asked to formally adopt a Resolution to Vacate (No. 25-1401355) for an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street in Council District 14. This action follows up on a June 25, 2024 City Council meeting where the initial decision was made and no protests were filed against the vacation.</p>
+<h5>Why?</h5>
+<p>The vacation is proceeding as originally authorized by the City Council in June 2024. The document indicates that all conditions from that earlier action have been fulfilled, and the formal resolution is now being presented to finalize the vacation process. The Bureau of Engineering is using an accelerated review process to move this through to completion.</p>
+<h5>Key Details</h5>
+<p><strong>Project ID:</strong> VAC-E1401355 <strong>Original Council Action:</strong> June 25, 2024 (Council File No. 13-0347-S1) <strong>Current Date:</strong> October 21, 2025 <strong>Location:</strong> Council District 14 (South Los Angeles area) <strong>Environmental Status:</strong> Exempt from California Environmental Quality Act under categorical exemptions (Class 5(3)) <strong>Legal Compliance:</strong> Complies with Los Angeles City Charter Section 556 and the General Plan</p>
+<h5>Impact</h5>
+<p>This vacation allows the city to relinquish public right-of-way in this alley, likely enabling adjacent property owners to gain control or use of the space. No public protests were filed during the comment period, suggesting minimal community opposition.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Committee_pw_5-22-24</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4bc8cf06-f4fb-4f5e-b0f7-4e3355e47b9e" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bc8cf06-f4fb-4f5e-b0f7-4e3355e47b9e" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What Is Being Proposed?</h5>
+<p>The Los Angeles City Council is being asked to approve the vacation (closure and removal from public use) of an L-shaped alley located north of Olympic Boulevard and west of Mateo Street. The Public Works Committee voted unanimously (3-0) on May 22, 2024, to recommend approval of this street vacation.</p>
+<h5>Why?</h5>
+<p>The petitioner has requested this vacation to acquire the alley land for developing a residential building. The city determined there is a public benefit to vacating this street, as it would relieve the city of ongoing maintenance obligations and eliminate potential liability associated with owning and maintaining the alley easement.</p>
+<h5>Key Details</h5>
+<p><strong>File Number:</strong> VAC-E1401355 <strong>Investigation Fee:</strong> The petitioner has already paid $14,980 for the city's investigation, with any cost overages to be charged to the petitioner <strong>Environmental Status:</strong> The vacation is exempt from California Environmental Quality Act review under the city's categorical exemption guidelines <strong>Compliance:</strong> The vacation meets California Streets and Highways Code requirements, is not needed for non-motorized transportation, and is not necessary for present or future public use <strong>Committee Vote:</strong> All three members (Lee, Blumenfield, Padilla) voted "Yes"</p>
+<h5>Impact</h5>
+<p>This affects property owners and residents in the area seeking development. The city saves money on maintenance while transferring the vacated land to the developer. The document notes no community impact statement was submitted.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Communication from Committee Clerk (Notice)_5-22-24</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d3997f28-2a95-4cb2-b2be-122fe62b6054" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3997f28-2a95-4cb2-b2be-122fe62b6054" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is considering a proposal to vacate an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street. This means the City would officially close and potentially sell or transfer this public alley to private ownership.</p>
+<h5>Key Details & Timeline</h5>
+<p>The Public Works Committee will review the City Engineer's report on this matter on <strong>Wednesday, May 22, 2024 at 1:30 PM</strong> in Room 401 at City Hall. If the Committee approves an action, the matter will advance to the full City Council for consideration on <strong>Tuesday, June 25, 2024 at 10:00 AM</strong>. The project identification number is VAC-E1401355, and the council file number is 13-0347-S1.</p>
+<h5>Who Is Involved</h5>
+<p>According to the mailing list, interested parties include David Evans and Associates (an engineering firm), P.I.G Development LLC, Kane Industrial Properties LLC, and the State Department of Transportation. These organizations likely have properties adjacent to or affected by the alley.</p>
+<h5>How to Participate</h5>
+<p>Residents can attend the meetings in person at City Hall or submit written comments via LACouncilComment.com, fax (213) 978-1079, or mail to the Public Works Committee. Note that in-person public comment is required for the Committee hearing, though the full Council meeting may allow teleconference options.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Engineering 09_29_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=864d4133-63bf-4719-a0b9-03552d18eece" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=864d4133-63bf-4719-a0b9-03552d18eece" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Engineer is recommending that Los Angeles vacate (officially close and remove from public ownership) an L-shaped public alley located north of Olympic Boulevard and west of Mateo Street in Council District 14. This would transfer the alley land to the adjacent private property owners. The petition for this vacation was filed on January 22, 2019, and the City Council initiated the vacation process on March 19, 2019.</p>
+<h5>Why?</h5>
+<p>The property owner (represented by David Evans and Associates) wants to vacate the alley to develop a residential building on the combined property. The City Engineer determined this vacation serves a public benefit because: (1) the City will no longer need to maintain the alley, (2) the City will be relieved of potential liability issues, and (3) the alley is unnecessary for public use. No objections were received, and three city departments (Transportation, Fire, and Planning) stated they have no objection. A temporary alley closure is already in effect at this location.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> L-shaped alley north of Olympic Boulevard, west of Mateo Street (Central City North area, zoned for heavy manufacturing) <strong>Petitioner:</strong> Taylor Miller of David Evans and Associates, representing the property owners <strong>Deposit:</strong> The petitioner has paid $14,980 for investigation costs <strong>Conditions:</strong> The petitioner must complete 11 conditions within 2 years, including sidewalk/curb repairs on Mateo Street, utility easement arrangements, and securing consents from adjoining property owners and Caltrans <strong>Required Improvements:</strong> Repair and replace damaged sidewalk, curb, and gutter along Mateo Street; fill in parkway area with concrete</p>
+<h5>Impact</h5>
+<p>This vacation primarily benefits the property developer by expanding their usable land for residential development. Residents will not be significantly impacted since the alley is already temporarily closed and is not needed for pedestrian, bicycle, or vehicle circulation. The neighboring property owners must consent to the vacation, and utility companies must either remove their facilities or secure easement rights to keep them in place.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 09292020 - Map 09_29_2020</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=21bca7cd-3167-4221-9cf2-fc68dfefdce5" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21bca7cd-3167-4221-9cf2-fc68dfefdce5" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City of Los Angeles Department of Public Works is proposing to <strong>vacate (close and remove from public use) an L-shaped alley</strong> located northerly of Olympic Boulevard and westerly of Mateo Street in Council District 14. The vacation area is clearly marked on the district map and would effectively remove this public right-of-way from city ownership.</p>
+<h5>Why?</h5>
+<p>While the document itself does not explicitly state the rationale, alley vacations are typically pursued when the public has little need for the right-of-way, or when adjacent property owners request closure to improve land use, reduce maintenance burdens, or consolidate properties for development or other purposes.</p>
+<h5>Key Details</h5>
+<p><strong>Work Order Number:</strong> VAC-E1401355 <strong>Council File:</strong> 13-0347-S1 <strong>Location:</strong> L-shaped alley near Olympic Boulevard and Mateo Street <strong>Council District:</strong> 14 <strong>Engineering District:</strong> Central (Map Index 130, T.G. 634-H7) <strong>Map Reference:</strong> District Map 121.5 A 217 <strong>Status:</strong> Information is preliminary and subject to change</p>
+<h5>Impact</h5>
+<p>This vacation would affect property owners adjacent to the alley, potentially allowing them to expand their properties or consolidate land parcels. Residents and businesses currently using this alley for access or parking would lose that public right-of-way. The vacation requires City Council approval as indicated by the council file number.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action 03_20_2019</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=439ea6db-2e29-47e5-ae23-d5f5d93076d8" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=439ea6db-2e29-47e5-ae23-d5f5d93076d8" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council has adopted a communication from the City Engineer to initiate vacation proceedings for an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street (identified as VAC-E1401355). "Vacation" in this context means the formal process of closing or removing the alley from public use and converting it from public right-of-way to private property.</p>
+<h5>Why This Matters</h5>
+<p>The document does not provide detailed rationale in this action summary, though supporting materials (a district map and application) were submitted by the Department of Public Works: Engineering on February 13, 2019. These attachments would contain the specific reasons for the proposed alley vacation, such as development plans, property owner requests, or public benefit considerations.</p>
+<h5>Key Details</h5>
+<p><strong>Council Vote:</strong> The motion passed with 11 "YES" votes, 4 "ABSENT" votes, and no opposition <strong>Council Meeting Date:</strong> March 19, 2019 <strong>Official Action Date:</strong> March 20, 2019 <strong>Location:</strong> L-shaped alley at the intersection of Olympic Boulevard and Mateo Street <strong>Agency:</strong> City Engineer/Department of Public Works</p>
+<h5>Impact</h5>
+<p>This action initiates formal proceedings that could ultimately eliminate public access to this alley. The vacation process typically involves notification to affected property owners and the public, and may result in private use of the currently public right-of-way. Residents or businesses in the area with concerns about alley access should monitor the case file for additional notices regarding public hearings or comment periods.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Engineering 02_13_2019</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8ccfa2cf-755c-43d1-8c70-ba2879aab577" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ccfa2cf-755c-43d1-8c70-ba2879aab577" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Office of the City Engineer is initiating a formal vacation proceeding to remove an L-shaped alley located northerly of Olympic Boulevard and westerly of Mateo Street from the city's public street system. This follows an application submitted by David Evans and Associates on January 22, 2019. The document recommends that the Bureau of Engineering investigate the feasibility of this vacation and, if approved by the Public Works and Gang Reduction Committee, schedule it for full City Council consideration with a required public hearing.</p>
+<h5>Why?</h5>
+<p>The petitioner, David Evans and Associates, wants to vacate this alley so they can utilize the space to serve existing adjacent properties. The alley is no longer needed as public right-of-way, and vacating it would allow the petitioner to incorporate it into their private development or property use.</p>
+<h5>Key Details</h5>
+<p><strong>Petition fee paid</strong>: $14,980.00 by the petitioner to cover investigation costs <strong>File reference</strong>: VAC E1401355, Council District 14 <strong>Date of report</strong>: February 13, 2019 <strong>Legal basis</strong>: California Streets and Highways Code, Division 9, Part 3 <strong>Next steps</strong>: Bureau of Engineering feasibility study, followed by committee review and public hearing before Council consideration</p>
+<h5>Impact</h5>
+<p>This process is preliminary and does not constitute approval—it only initiates the investigation phase. If approved, the vacation would remove public access to this alley and transfer it to private control, potentially affecting nearby residents or businesses. The public hearing requirement ensures community input before any final decision.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>11 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-21-25 - Resolution to Vacate</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=84b8fe59-d076-497f-b95c-4deaf0ec7105" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=84b8fe59-d076-497f-b95c-4deaf0ec7105" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 6-27-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1984acc2-45d3-45cf-9aa6-57e7884fe86b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1984acc2-45d3-45cf-9aa6-57e7884fe86b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_06-25-2024</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c2220c3b-0fd8-49b5-af8a-5785ff916e7b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2220c3b-0fd8-49b5-af8a-5785ff916e7b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Motion (de Leon - Lee) dated 4-16-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a9d61453-01f5-4c93-a0b6-c8501ac1890d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9d61453-01f5-4c93-a0b6-c8501ac1890d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 4-30-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a94c4c9a-eb19-477e-8f32-f76b6c0e9818" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a94c4c9a-eb19-477e-8f32-f76b6c0e9818" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 09292020 - Application for Right of Way 09_29_2020</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ae772f0b-68d8-419d-97fe-55bb218f6ba2" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae772f0b-68d8-419d-97fe-55bb218f6ba2" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 03_19_2019</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=54064c14-590c-43d5-ae8e-de3cbf2a3015" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=54064c14-590c-43d5-ae8e-de3cbf2a3015" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 02132019 - Application 02_13_2019</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e2520c62-329d-4d51-9cc3-e908a8b95a4e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2520c62-329d-4d51-9cc3-e908a8b95a4e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 02132019 - District Map 02_13_2019</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6bc463a0-313e-456a-8535-3dd1f86c19bc" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6bc463a0-313e-456a-8535-3dd1f86c19bc" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_04-26-2024</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=dcecdae6-43e1-45da-b5fb-882c9015796a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dcecdae6-43e1-45da-b5fb-882c9015796a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_05-22-2024</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7f49a8ee-f69e-411d-af57-b7588b6226f0" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f49a8ee-f69e-411d-af57-b7588b6226f0" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

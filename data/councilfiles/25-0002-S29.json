@@ -1,0 +1,39 @@
+{
+  "council_file": "25-0002-S29",
+  "title": "CLA report and Resolution (Blumenfield – Hernandez) relative to establishing the City’s position on Assembly Bill 867 (Lee), which would prohibit the declawing of cats, unless medically necessary.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17469,
+      "date": "2025-11-07T17:00:00",
+      "section": "Untitled Section",
+      "item_number": "(7)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "title": "Report from Chief Legislative Analyst dated 5-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "meeting_id": 17469,
+      "has_summary": false
+    },
+    {
+      "historyId": "dd005ed4-6965-4bdd-944e-414425d19aca",
+      "title": "Resolution (Blumenfield - Hernandez) dated 4-08-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd005ed4-6965-4bdd-944e-414425d19aca",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=dd005ed4-6965-4bdd-944e-414425d19aca",
+      "meeting_id": 17469,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-07T17:00:00",
+  "last_seen": "2025-11-07T17:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

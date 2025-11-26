@@ -1,0 +1,46 @@
+{
+  "council_file": "25-1074",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\"",
+  "district": "CD 7",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(22)",
+      "recommendation": "DESIGNATE the intersection at Hubbard Street and Eldridge Avenue as “Irene Tovar Square.\" DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Rodriguez - Lee) dated 9-12-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "26749b15-b84b-4f4b-b804-c33820bfc40f",
+      "title": "Report from Public Works Committee_10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26749b15-b84b-4f4b-b804-c33820bfc40f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=26749b15-b84b-4f4b-b804-c33820bfc40f",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1074\n\n## What is Being Proposed?\nThe Public Works Committee recommends designating the intersection of Hubbard Street and Eldridge Avenue as \"Irene Tovar Square.\" The committee also recommends that the Department of Transportation install permanent ceremonial sign(s) at this location to mark the designation.\n\n## Background and Rationale\nThis proposal originated from Motion (Rodriguez – Lee) presented to the Public Works Committee on October 22, 2025. The document does not provide details about who Irene Tovar is or the specific reasons for the designation, but the committee held a public comment period before voting to approve the motion. The designation honors this individual through a named public space in the community.\n\n## Key Details\n- **Location:** Intersection of Hubbard Street and Eldridge Avenue\n- **Committee Vote:** 2 votes in favor (Hernandez, Hutt), 1 absent (Padilla), with one vote notation incomplete\n- **Fiscal Impact:** No financial analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n- **Next Step:** The matter is now forwarded to the full City Council for consideration and approval\n\n## Impact\nThis designation is primarily ceremonial and symbolic, honoring an individual through public recognition in their community. The only concrete impact is the installation of signage at the intersection by the Department of Transportation.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2107,
+        "output_tokens": 308,
+        "cost_usd": 0.003647
+      }
+    },
+    {
+      "historyId": "c357e2d4-e6de-4a1d-be10-ddf5ed60d0aa",
+      "title": "Motion (Rodriguez - Lee)  dated 9-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c357e2d4-e6de-4a1d-be10-ddf5ed60d0aa",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c357e2d4-e6de-4a1d-be10-ddf5ed60d0aa",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

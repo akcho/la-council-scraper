@@ -1,0 +1,95 @@
+{
+  "council_file": "25-0583",
+  "title": "CONTINUED FROM 8/27/25",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17471,
+      "date": "2025-11-12T16:45:00",
+      "section": "Transportation infrastructure improvements",
+      "item_number": "(11)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "8c8c2b3a-6bb2-4cdb-9224-96b29d19101e",
+      "title": "Report from Department of Transportation dated 10-24-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c8c2b3a-6bb2-4cdb-9224-96b29d19101e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8c8c2b3a-6bb2-4cdb-9224-96b29d19101e",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "9d1278b2-d747-4aa8-9800-e491fa85e1e4",
+      "title": "Communication(s) from Public_10-02-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d1278b2-d747-4aa8-9800-e491fa85e1e4",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9d1278b2-d747-4aa8-9800-e491fa85e1e4",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "1676602f-5635-4095-bebb-fd7a4c4e4a91",
+      "title": "Speaker Card(s)_08-27-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1676602f-5635-4095-bebb-fd7a4c4e4a91",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1676602f-5635-4095-bebb-fd7a4c4e4a91",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "a0354d0e-d36c-475f-8813-5953a65e326d",
+      "title": "Communication from CD1 8-27-25 - Amendment",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0354d0e-d36c-475f-8813-5953a65e326d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a0354d0e-d36c-475f-8813-5953a65e326d",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "95fca88a-a5c5-4eb6-af33-818221a712ed",
+      "title": "Communication from Cedars Sinai submitted 8-27-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95fca88a-a5c5-4eb6-af33-818221a712ed",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=95fca88a-a5c5-4eb6-af33-818221a712ed",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5",
+      "title": "Communication from Mission Community Hospital submitted 8-27-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6bf8d3ce-8388-4d1f-ae96-50e7c9a274d5",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "bc438e2e-c0ff-4d93-aad3-d61481f2a509",
+      "title": "Communication from United Steelworkers Local 12911 8-25-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc438e2e-c0ff-4d93-aad3-d61481f2a509",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=bc438e2e-c0ff-4d93-aad3-d61481f2a509",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "a396c24f-fe71-450c-a8a0-478e5c628f27",
+      "title": "Communication from United Teamsters District 12 8-23-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a396c24f-fe71-450c-a8a0-478e5c628f27",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a396c24f-fe71-450c-a8a0-478e5c628f27",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "bbcc44fb-b55e-4e3c-ad93-d59097d21eb0",
+      "title": "Report from City Administrative Officer dated 5-13-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bbcc44fb-b55e-4e3c-ad93-d59097d21eb0",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=bbcc44fb-b55e-4e3c-ad93-d59097d21eb0",
+      "meeting_id": 17471,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T16:45:00",
+  "last_seen": "2025-11-12T16:45:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 9,
+    "attachments_with_summaries": 0
+  }
+}

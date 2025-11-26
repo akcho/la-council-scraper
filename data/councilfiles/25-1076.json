@@ -1,0 +1,46 @@
+{
+  "council_file": "25-1076",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\"",
+  "district": "CD 7",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(23)",
+      "recommendation": "DESIGNATE the intersection at West Sunset Boulevard and Lemoyne Street as “Sandra Figueroa-Villa Square.\" DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "348dfe72-ab15-4696-8e61-ee879ddcf6e0",
+      "title": "Report from Public Works Committee_10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=348dfe72-ab15-4696-8e61-ee879ddcf6e0",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=348dfe72-ab15-4696-8e61-ee879ddcf6e0",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1076\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that the City Council designate the intersection at West Sunset Boulevard and Lemoyne Street as \"Sandra Figueroa-Villa Square.\" The committee also recommends that the Department of Transportation install permanent ceremonial signs at this location to mark the designation.\n\n## Committee Action and Process\n\nOn October 22, 2025, the Public Works Committee voted to approve this recommendation following a motion introduced by Council Members Rodriguez, Soto-Martínez, and Hernandez. The committee held a public comment period before voting. The vote was 2-1 in favor (Hernandez and Hutt voted yes; Padilla was absent). The matter now moves forward to the full City Council for final consideration.\n\n## Key Details\n\n- **Location:** West Sunset Boulevard and Lemoyne Street intersection\n- **Designation Name:** Sandra Figueroa-Villa Square\n- **Action Required:** City Council approval and Department of Transportation sign installation\n- **Financial Impact:** No fiscal analysis has been completed at this time\n\n## What This Means\n\nThis is a ceremonial designation that honors Sandra Figueroa-Villa by naming an intersection after her. Once approved by the full City Council, permanent signage will be installed to recognize this designation at the specified location. This type of action is a common way cities honor individuals for their contributions to the community.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2096,
+        "output_tokens": 316,
+        "cost_usd": 0.003676
+      }
+    },
+    {
+      "historyId": "566bfa67-134a-4c24-9012-53715f837293",
+      "title": "Motion (Rodriguez, Soto-Martinez - Hernandez) dated 9-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=566bfa67-134a-4c24-9012-53715f837293",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=566bfa67-134a-4c24-9012-53715f837293",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

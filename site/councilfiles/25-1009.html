@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-1009 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-1009: MITIGATED NEGATIVE DECLARATION, MITIGATION MEASURES, MITIGATION MONITORING PROGRAM, AND RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS, ">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-1009
+            </div>
+            <div class="file-number">25-1009</div>
+            <h1>The Planning and Land Use Management (PLUM) Committee is recommending approval of a new hotel development on two properties in South Los Angeles: 2250–2270 West Pico Boulevard and 1309–1315 South Arapahoe Street.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 1</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                MITIGATED NEGATIVE DECLARATION, MITIGATION MEASURES, MITIGATION MONITORING PROGRAM, AND RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS, RESOLUTION, PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT, and ORDINANCE FIRST CONSIDERATION relative to a General Plan Amendment, Vesting Zone Change and Height District Change for the properties located at 2250 – 2270 West Pico Boulevard, and 1309 – 1315 South Arapahoe Street.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b281eef3-00e0-4810-b707-2b07a3ef5f85" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b281eef3-00e0-4810-b707-2b07a3ef5f85" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Planning and Land Use Management (PLUM) Committee is recommending approval of a new hotel development on two properties in South Los Angeles: 2250–2270 West Pico Boulevard and 1309–1315 South Arapahoe Street. The project involves rezoning the land and amending the General Plan to allow construction of two six-story hotel buildings (76.5 feet tall) containing 125 guest rooms and approximately 77,828 square feet of floor space, with 84 underground parking spaces across three levels.</p>
+<h5>Why This Matters</h5>
+<p>The project requires a General Plan Amendment (changing the area's designation from Commercial Manufacturing to Neighborhood Commercial) and a zone change to proceed. The developer, Min Chun Helen Chen and Da Yuh Development Inc., must demolish an existing market and surface parking to make way for the new development. The city conducted an environmental review (Mitigated Negative Declaration) and determined that with mitigation measures in place, the project will not have significant environmental impacts. No trees will be removed from the site.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> 2250–2270 West Pico Boulevard and 1309–1315 South Arapahoe Street <strong>Project Size:</strong> 125 guest rooms, 77,828 sq ft, 2.99:1 floor area ratio <strong>Height:</strong> Two buildings, each 76 feet 6 inches tall <strong>Parking:</strong> 84 spaces in underground parking <strong>Demolition:</strong> 9,627 sq ft market and surface parking <strong>Environmental Review:</strong> No. ENV-2018-3545-MND <strong>Council Deadline:</strong> November 7, 2025 (last day for action)</p>
+<h5>Impact</h5>
+<p>The PLUM Committee voted 4–1 in favor (one absent), recommending the City Council approve the project. The applicant must comply with mitigation conditions and maintain them throughout the project's life. If the qualified zoning classification is not developed within six years, it will expire and revert to previous zoning. The project has no projected General Fund impact, as administrative costs are covered through fees.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Department of City Planning dated 10-24-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1d0da02c-240d-4691-937e-36965ffdfdeb" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d0da02c-240d-4691-937e-36965ffdfdeb" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This is a supplemental transmittal from the Department of City Planning to the City Clerk's Office regarding a planning case for properties at 2250-2270 West Pico Boulevard and 1309-1315 South Arapahoe Street. The case involves multiple actions: a General Plan Amendment (GPA), Zone Change (VZC), Height District modification (HD), Conditional Use permit (CU), and Site Plan Review (SPR). The key instruction notes that <strong>the Ordinance containing the T-Conditions (Technical Conditions) is the version that should be approved</strong>.</p>
+<h5>Key Details</h5>
+<p><strong>Case Number:</strong> CPC-2018-3544-GPA-VZC-HD-CU-SPR <strong>Environmental Case:</strong> ENV-2018-3545-MND (Mitigated Negative Declaration) <strong>Location:</strong> West Pico Boulevard and South Arapahoe Street in Council District 1 (Councilmember Hernandez's district) <strong>Planner Contact:</strong> Connie Chauv, (213) 978-0016 <strong>Transmittal Date:</strong> October 24, 2025 <strong>Procedural Status:</strong> Subject to Chapter 1 regulations as of January 21, 2024 (not subject to Processes & Procedures Ordinance)</p>
+<h5>What This Means</h5>
+<p>This is a routine procedural document transmitting planning documents to the City Clerk for processing. The project involves zoning changes and general plan amendments that will affect land use at these Pico Boulevard locations. The environmental review has been completed (Mitigated Negative Declaration), indicating that potential environmental impacts can be mitigated through conditions. Residents in Council District 1 should monitor this case if concerned about land use changes in this area.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Los Angeles City Planning Commission dated 8-18-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=99eda28e-0990-4b34-aa8d-187d40f7f8d6" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=99eda28e-0990-4b34-aa8d-187d40f7f8d6" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Planning Commission is recommending approval of a new 125-room hotel development at 2250-2270 West Pico Boulevard and 1309-1315 South Arapahoe Street in South Los Angeles. The project consists of two six-story buildings (76 feet 6 inches tall) separated by an alley, with 77,828 square feet of floor area and a 2.99:1 Floor Area Ratio. The developer proposes 84 voluntary parking spaces in underground parking, plus 12 bicycle parking spaces.</p>
+<h5>Why?</h5>
+<p>The project requires a General Plan Amendment to change the land use designation from "Commercial Manufacturing and Low Medium II" to "Neighborhood Commercial," along with a zone change from [Q]C2-1 and RD1.5-1 to C2-2-CPIO. The existing zoning severely limits development potential—the commercial portion allows only 1.5:1 FAR, and the residential portion doesn't permit hotels. The City Planning Commission found that the hotel addresses an identified shortage of hotel rooms in proximity to Downtown LA and would revitalize an underutilized site on a major commercial corridor with good transit access.</p>
+<h5>Key Details</h5>
+<p><strong>Vote:</strong> 8-0 approval by the Planning Commission on March 13, 2025 <strong>Location:</strong> Southwest corner of Pico Boulevard and Arapahoe Street, Council District 1 <strong>Project specs:</strong> 125 guest rooms, demolition of existing market and surface parking, zero trees removed, 24,900 cubic yards of soil grading <strong>Environmental review:</strong> Mitigated Negative Declaration approved (ENV-2018-3545-MND) <strong>Transit access:</strong> Site is within a Transit Priority Area near Metro bus lines 2, 30, 33, 204, and 754 <strong>Council action deadline:</strong> 75 or 90 days from August 18, 2025</p>
+<h5>Impact</h5>
+<p>The project will enhance a commercial corridor by replacing a single-story market with a modern hotel that serves tourists, business travelers, and visitors. Residential neighbors to the south will have an approximately 76-foot tall building 15-18 feet away, though the project includes design features like an open courtyard and alley widening to minimize impacts. The development requires significant public improvements including street dedications, sidewalk construction, and infrastructure upgrades, with multiple conditions of approval governing construction activities, environmental protections, and design standards.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report Dated 8-18-25 - Amended Findings.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=62567f98-8ff0-4a41-b57f-bc8613503a92" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=62567f98-8ff0-4a41-b57f-bc8613503a92" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Planning Commission is recommending approval of a General Plan Amendment, Zone Change, Height District Change, and Conditional Use Permit to allow construction of a new 125-room hotel at 2250 West Pico Boulevard in South Los Angeles. The project involves demolishing an existing single-story market and surface parking to build two connected six-story buildings (76 feet 6 inches tall) with 77,828 square feet of floor area and a 2.99:1 Floor Area Ratio (FAR).</p>
+<h5>Why This Matters?</h5>
+<p>The current zoning restricts development of this underutilized site. The northern portion is zoned for commercial manufacturing with only a 1.5:1 FAR limit, while the southern portion is zoned for residential and doesn't permit hotels. The project addresses a documented shortage of hotel rooms in Los Angeles—the city has grown hotel supply at only 0.9% annually compared to the national rate of 1.8%. The site is strategically located near Downtown LA, along transit corridors, and serves both tourists and business travelers.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Southwestern corner of Pico Boulevard and Arapahoe Street <strong>Site size:</strong> Approximately 28,003 square feet across seven lots <strong>Project components:</strong> 125 guest rooms (95 studios, 28 suites, 2 ADA-compliant), 84 voluntary parking spaces (subterranean), pool, meeting spaces <strong>Zoning change:</strong> From [Q]C2-1 and RD1.5-1 to C2-2-CPIO (Neighborhood Commercial) <strong>Parking:</strong> All parking below-grade; no curb cuts proposed; electric vehicle charging required</p>
+<h5>Impact</h5>
+<p>The project will add hotel capacity near major employment centers and tourist destinations while activating an underutilized site with street-level pedestrian activity. It complies with the General Plan Framework, which identifies Pico Boulevard as a Mixed-Use Boulevard. The project is compatible with surrounding commercial and multi-family residential uses and is located within a transit priority area served by Metro bus lines 2, 30, 33, 204, and 754.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report Dated 8-18-25 - Exhibit A - Plans.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=38651485-b830-42e1-ab3f-c489085343b6" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=38651485-b830-42e1-ab3f-c489085343b6" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The document presents architectural plans and designs for a new Holiday Inn Express hotel to be constructed at 2250 W. Pico Boulevard in Los Angeles (near the corner of W. Pico Blvd and Arapahoe Street). The project involves a multi-story hotel development with ground-floor commercial/retail space and hotel rooms across multiple floors, along with structured parking and associated amenities.</p>
+<h5>Key Details</h5>
+<p>The project includes two main buildings interconnected by a shared courtyard/atrium space. Building 1 appears to contain most of the hotel rooms organized on upper floors, while Building 2 houses additional guest rooms. The ground floor features retail/commercial spaces, a lobby, restaurant/dining areas, and back-of-house functions. The design incorporates contemporary architecture with exterior finishes including cement stucco (painted in various colors), stone elements, and storefront systems. The project includes landscaping with street trees and pedestrian-oriented ground-level design facing W. Pico Boulevard.</p>
+<h5>Impact and Significance</h5>
+<p>This development would add hotel capacity to the West Los Angeles area and activate the street frontage along Pico Boulevard with ground-floor retail and hospitality uses. The project affects the immediate neighborhood by introducing increased foot traffic, commercial activity, and employment opportunities while also requiring adequate parking and traffic management. The architectural design emphasizes compatibility with the surrounding urban context through varied material finishes and a human-scale street presence.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report Dated 8-18-25 - Modified Conditions of Approval.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=29ebff7f-97f8-493d-9249-e4fc8c114e83" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29ebff7f-97f8-493d-9249-e4fc8c114e83" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Planning Commission has approved conditions for the construction and operation of a 125-guest room hotel in Los Angeles. These are detailed requirements that the developer must follow during construction and ongoing operations. The conditions were modified at the Commission's meeting on March 13, 2025, and cover everything from building design and height restrictions to environmental protections and construction management.</p>
+<h5>Why These Conditions Matter?</h5>
+<p>These conditions exist to protect the public interest by ensuring the project complies with city planning standards, minimizes impacts on nearby residents and schools, and incorporates sustainable design features. The conditions address concerns about noise, traffic, building appearance, environmental impacts, and pedestrian safety during the construction and operation phases.</p>
+<h5>Key Details</h5>
+<p><strong>Project Specifications:</strong> Maximum 125 guest rooms, 76 feet 6 inches tall, with 77,828 square feet of floor space. The project provides 84 parking spaces (though none are required under AB 2097). <strong>Design Requirements:</strong> The building must include varied rooflines, recesses, and material changes for visual interest, with mechanical equipment screened from view and decorative walls along the alleyway. <strong>Construction Constraints:</strong> Work limited to 7am-6pm weekdays and 8am-6pm Saturdays, with haul trucks restricted to 9am-3pm and limited to two vehicles at a time. <strong>School Protections:</strong> Contractors must coordinate with nearby Magnolia Avenue Elementary, Berends Middle, and W Adams High schools to maintain safe pedestrian and bus routes.</p>
+<h5>Impact</h5>
+<p>These conditions primarily affect the developer/applicant, who must comply with all requirements before and during construction. Residents near the project benefit from noise limits, traffic management, improved pedestrian safety, and landscaping requirements. The developer also faces significant financial obligations, including an initial litigation deposit of at least $50,000 to cover potential City legal costs related to project challenges.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report Dated 8-18-25 - T Conditions.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a0ce4f47-7d77-44c8-8419-1998d53a82cb" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0ce4f47-7d77-44c8-8419-1998d53a82cb" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This document outlines the specific conditions required to remove the "(T) Tentative Classification" from a property (Case No. CPC-2018-3544) located at the intersection of Pico Boulevard and Arapahoe Street in Los Angeles. The tentative classification is a planning designation that restricts development until certain public improvements and dedications are completed. The document details what the developer must accomplish before this restriction can be lifted.</p>
+<h5>Why?</h5>
+<p>The tentative classification ensures that development does not proceed until the property adequately contributes to necessary public infrastructure improvements. This protects both the city and residents by requiring developers to address impacts on streets, utilities, drainage, parking, and safety before construction begins. The conditions reflect requirements from multiple city departments including Engineering, Transportation, and the Fire Department.</p>
+<h5>Key Details</h5>
+<p>The property has frontage on three thoroughfares requiring specific improvements: <strong>Pico Boulevard</strong>: 3-foot land dedication plus improvements including 15-foot concrete sidewalk, curb, gutter, and new curb ramp <strong>Arapahoe Street</strong>: 5-foot land dedication plus 12-foot concrete sidewalk and ADA-compliant driveways <strong>Alley (west of Arapahoe)</strong>: 4-foot dedication on both sides to complete a 20-foot right-of-way Additional requirements include sewer infrastructure upgrades, parking/driveway design approval, a $205 Department of Transportation fee, and submission of various plans to multiple agencies before permits can be issued.</p>
+<h5>Impact</h5>
+<p>This affects the developer/property owner, who must fund and complete all improvements at no expense to the City. Residents benefit from improved streets, sidewalks, drainage, parking safety, and accessibility compliance. No Certificates of Occupancy will be issued until all public improvements are completed to the City Engineer's satisfaction.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report Dated 8-18-25 - Staff Report.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e5738d65-7208-4a7a-a060-3f35857d7210" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5738d65-7208-4a7a-a060-3f35857d7210" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Planning Commission is recommending approval of a new 125-room hotel development at 2250-2270 West Pico Boulevard in the Pico Union neighborhood. The project consists of two six-story buildings (76.5 feet tall) separated by an alley, containing 77,828 square feet of floor area. The development would replace an existing 9,627-square-foot market and surface parking lot with underground parking (84 spaces across three subterranean levels).</p>
+<h5>Why This Project?</h5>
+<p>The site currently has conflicting zoning designations—part is zoned Commercial Manufacturing and part is zoned Low Medium II Residential—making it difficult to develop. The proposed changes would streamline this by unifying the site under a single zoning designation. According to the Council Motion (File 17-0727), this hotel would address Los Angeles's shortage of hotel rooms and provide reasonably priced accommodations west of the 110 Freeway, helping serve visitors to the Convention Center and supporting local economic development in an underdeveloped commercial area.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Southwest corner of Pico Boulevard and Arapahoe Street <strong>Approvals required:</strong> General Plan Amendment, Zone Change, Height District Change, Conditional Use Permit, and Site Plan Review <strong>Zoning change:</strong> From [Q]C2-1 and RD1.5-1 to C2-2-CPIO <strong>Height:</strong> 76 feet 6 inches (six stories) <strong>Public hearing dates:</strong> January 10, 2024 and March 13, 2025 <strong>Applicant:</strong> Min Chun Helen Chen, Da Yuh Development Inc</p>
+<h5>Impact</h5>
+<p>This project affects South Los Angeles residents and the Pico Union community by converting a vacant market site into a commercial hotel use. The development is expected to generate approximately 409 daily trips (45 in morning peak hour, 19 in evening peak hour). Environmental review found no significant impacts requiring an Environmental Impact Report. Nearby residential properties would see a neighboring commercial hotel use, though traffic studies found no significant impacts at surrounding intersections.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>8 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-24-25 - Draft ZC Ordinance and Map</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3181b956-76e9-4489-b4e8-3772ec8243b0" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3181b956-76e9-4489-b4e8-3772ec8243b0" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_10-13-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=725dda6b-60b8-4e75-91fa-d470769739a8" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=725dda6b-60b8-4e75-91fa-d470769739a8" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication from Department of City Planning dated 10-02-25 - Corrected Transmittal</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c176eff6-b485-4d4c-ae8e-4c668d7b2c28" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c176eff6-b485-4d4c-ae8e-4c668d7b2c28" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Mayoral Transmittal of the City Planning Commission Report dated 8-27-25.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b4d0dbb1-0635-4bda-bc44-27370cad7314" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b4d0dbb1-0635-4bda-bc44-27370cad7314" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report Dated 8-18-25 - Environmental.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=54f4b8a5-4171-48bb-a0c0-7b2bec4df21d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=54f4b8a5-4171-48bb-a0c0-7b2bec4df21d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report Dated 8-18-25 - Resolution and Maps.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3c79856f-813b-4c89-a48a-ab1f9a50bcdf" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c79856f-813b-4c89-a48a-ab1f9a50bcdf" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report Dated 8-18-25 - ZC Ordinance and Map.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=08a0b6e7-9a27-4b9c-88e4-59863fff9eb7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=08a0b6e7-9a27-4b9c-88e4-59863fff9eb7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report Dated 8-18-25 - Mailing List.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=43cd623d-e891-432c-9412-2a8bf9e49200" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=43cd623d-e891-432c-9412-2a8bf9e49200" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

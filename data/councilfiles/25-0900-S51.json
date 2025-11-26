@@ -1,0 +1,46 @@
+{
+  "council_file": "25-0900-S51",
+  "title": "COMMUNICATION FROM THE BUREAU OF STREET LIGHTING and ORDINANCE OF INTENTION FIRST CONSIDERATION relative to establishing a hearing date for the maintenance of the Vineland Avenue and Weddington Street No. 1 Lighting District.​",
+  "district": "CD 2",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(30)",
+      "recommendation": "​ ADOPT the report of the Director, Bureau of Street Lighting, dated September 10, 2025, attached to the Council file. PRESENT and ADOPT the accompanying ORDINANCE OF INTENTION setting the date of January 13, 2026 as the hearing date for the maintenance of the Vineland Avenue and Weddington Street No. 1 Lighting District, in accordance with Proposition 218, Articles XIIIC and XIIID of the California Constitution and Government Code Section 53753.​ Fiscal Impact Statement: The Bureau of Street Lighting reports that if adopted, $254.87 will be collected annually starting with tax year 2025-26 that will go into a dedicated street lighting maintenance assessment account for the use in the operation and maintenance of this street lighting system.​ (Board of Public Works Hearing Date: January 7, 2026) Report from Bureau of Street Lighting dated 9-10-25 Attachment to Report dated 9-10-25 - Draft Ordinance of Intention"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "a2a7fc5a-f615-4a0d-aab4-84f27ce57b50",
+      "title": "Report from Bureau of Street Lighting dated 9-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2a7fc5a-f615-4a0d-aab4-84f27ce57b50",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a2a7fc5a-f615-4a0d-aab4-84f27ce57b50",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary: Vineland Avenue & Weddington Street Lighting Maintenance Assessment District\n\n## What is Being Proposed?\n\nThe Los Angeles Department of Public Works is proposing to establish a new Street Lighting Maintenance Assessment District for 2 streetlights on Vineland Avenue (from 44 feet north to 204 feet south of Weddington Street). If approved, this would create an annual assessment of $254.87 on the single affected property to pay for the operation, maintenance, and electric energy costs for these lights. The proposal requires a vote by the affected property owner(s) under Proposition 218 rules—the assessment can only proceed if weighted \"yes\" votes equal or exceed weighted \"no\" votes.\n\n## Why?\n\nThe proposed lighting system is part of a private development project that will install permanent street lighting to meet City standards for safety and illumination. Under City policy, approximately 80% of streetlight costs are financed through maintenance assessments on benefiting properties, with the remainder covered by the Department of Water and Power. Proposition 218 (a 1996 voter-approved measure) requires that such assessments receive property owner approval before being imposed.\n\n## Key Details\n\n- **Affected Properties:** 1 parcel (5260 Vineland Ave, owned by Vineland Ave LLC)\n- **Annual Assessment:** $254.87 (for tax year 2025-2026)\n- **Number of Streetlights:** 2\n- **Project Type:** Proposed private development project\n- **Process Timeline:** Council must hold a public hearing, ballots must be distributed and counted, and only if \"yes\" votes prevail can the final assessment be imposed\n- **Assessment Diagram:** City page number 16024\n\n## Impact\n\nThe property owner at 5260 Vineland Avenue will receive a ballot to vote on whether to accept the $254.87 annual assessment. If they vote \"no,\" the lighting system will not be constructed or will be removed from service. The property receives the benefit of improved safety and visibility from the street lighting, which also enhances the area's character. The assessment can increase annually up to the Consumer Price Index (CPI) without requiring additional approval.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 43125,
+        "output_tokens": 484,
+        "cost_usd": 0.045544999999999995
+      }
+    },
+    {
+      "historyId": "02a1769f-72af-4fd4-ac64-52f194314915",
+      "title": "Attachment to Report dated 9-10-25 - Draft Ordinance of Intention",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=02a1769f-72af-4fd4-ac64-52f194314915",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=02a1769f-72af-4fd4-ac64-52f194314915",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

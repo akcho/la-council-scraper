@@ -1,0 +1,69 @@
+{
+  "council_file": "25-0002-S76",
+  "title": "RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT and RESOLUTION relative to establishing the City’s position on Senate Bill (SB) 84 (Niello), which would provide businesses an opportunity to fix construction-related deficiencies that violate disability access provisions before penalties are issued.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17455,
+      "date": "2025-10-29T17:00:00",
+      "section": "Completed hearings",
+      "item_number": "(8)",
+      "recommendation": "RESOLVE to include in the City’s 2025-26 State Legislative Program SUPPORT for SB 84 (Niello) to clarify the notice requirements of disability access-related complaints, allow defendants an opportunity to fix any barriers to access, and prevent the filing of fraudulent accessibility-related complaints in California. Fiscal Impact Statement: None submitted by the Chief Legislative Analyst. The City Administrative Officer has not completed a financial analysis of this report. Community Impact Statement: None submitted. Communication(s) from Public_10-22-2025 Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25 Report from Chief Legislative Analyst dated 10-20-25 Resolution (Lee - McOsker) dated 8-12-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "ccebeb80-d8b3-498c-b7fa-60890182cf84",
+      "title": "Communication(s) from Public_10-22-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ccebeb80-d8b3-498c-b7fa-60890182cf84",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ccebeb80-d8b3-498c-b7fa-60890182cf84",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a",
+      "title": "Report from Rules, Elections and Intergovernmental Relations Committee 10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: LA City Council Support for SB 84 (Niello)\n\n## What is Being Proposed?\nThe Los Angeles City Council's Rules, Elections and Intergovernmental Relations Committee is recommending that the City support Senate Bill 84 (SB 84) at the state level. The bill would give businesses an opportunity to fix construction-related accessibility problems before facing penalties, clarify notice requirements for disability access complaints, and prevent fraudulent accessibility-related lawsuits.\n\n## Why?\nThe proposal responds to a serious problem identified in San Francisco and Northern California. In 2021, there was a dramatic spike in ADA (Americans with Disabilities Act) lawsuits filed against small, immigrant-owned businesses. According to the San Francisco District Attorney, many of these lawsuits were fraudulent and deliberately targeted vulnerable business owners—particularly those with limited English proficiency and little access to legal representation. These owners were pressured into cash settlements, causing many businesses to close.\n\n## Key Details\nThe Committee voted unanimously (5-0) on October 21, 2025, to recommend approval. The resolution was originally introduced on August 12, 2025. The Committee is asking the City to include SB 84 support in its 2025-26 State Legislative Program. The bill specifically aims to protect small business owners from predatory litigation while still maintaining disability access protections through a more fair process.\n\n## Impact\nThis affects small business owners—particularly immigrants and vulnerable populations—by providing legal protections against frivolous lawsuits while maintaining genuine accessibility standards for people with disabilities. The measure balances disability rights with fair treatment for businesses facing potentially fraudulent claims.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3893,
+        "output_tokens": 362,
+        "cost_usd": 0.005703
+      }
+    },
+    {
+      "historyId": "c6487574-e73e-4ee7-960a-f3b22cf5761f",
+      "title": "Report from Chief Legislative Analyst dated 10-20-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6487574-e73e-4ee7-960a-f3b22cf5761f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c6487574-e73e-4ee7-960a-f3b22cf5761f",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Resolution Supporting Senate Bill 84 (Niello)\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to support Senate Bill 84 (SB 84), pending legislation at the state level. The recommendation is to include SB 84 in the City's 2025-2026 State Legislative Program. SB 84 would require small businesses with 50 or fewer employees to receive a mandatory 120-day \"notice-and-cure\" period to fix disability access violations before facing penalties or lawsuits.\n\n## Why?\nCalifornia, particularly San Francisco, experienced a dramatic surge in disability access lawsuits filed against small businesses between 2020-2021. The San Francisco District Attorney identified many of these lawsuits as fraudulent and predatory, targeting immigrant-owned businesses with limited English proficiency. These businesses were often pressured into settling for amounts far exceeding repair costs (averaging $14,000), and many closed without improving actual accessibility. SB 84 aims to protect small businesses while ensuring disability access improvements actually occur.\n\n## Key Details\n- SB 84 requires plaintiffs to serve detailed letters specifying all alleged violations before filing suit\n- Small businesses get 120 days to fix violations before facing liability or attorney fees\n- The bill prevents framing disability claims as general discrimination violations\n- Introduced in response to predatory litigation patterns targeting vulnerable business owners\n- The state Senate passed the amended bill on May 23, 2025\n\n## Impact\nThis affects small business owners seeking fair treatment and individuals with disabilities. Supporters argue it prevents frivolous lawsuits while still requiring accessibility improvements. However, disability rights advocates oppose it, arguing it removes their primary enforcement tool and increases barriers to compliance.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6433,
+        "output_tokens": 380,
+        "cost_usd": 0.008333
+      }
+    },
+    {
+      "historyId": "439a696d-a28e-4972-9c74-9691dbc51b69",
+      "title": "Resolution (Lee - McOsker) dated 8-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=439a696d-a28e-4972-9c74-9691dbc51b69",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=439a696d-a28e-4972-9c74-9691dbc51b69",
+      "meeting_id": 17455,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-10-29T17:00:00",
+  "last_seen": "2025-10-29T17:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 4,
+    "attachments_with_summaries": 2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "council_file": "19-0898-S6",
+  "title": "COMMUNICATION FROM THE BOARD OF PUBLIC WORKS relative to the Fourth Amended and Restated Agreement with Destination Crenshaw and the Second Amendment with LA Metro for the implementation of the Destination Crenshaw Outdoor Museum Project.",
+  "district": "CD 8",
+  "appearances": [
+    {
+      "meeting_id": 17432,
+      "date": "2025-11-14T18:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(6)",
+      "recommendation": "AUTHORIZE the President or two members of the Board of Public Works to execute the Second Amendment with LA Metro. APPROVE the Fourth Amended and Restated Agreement with Destination Crenshaw between the City of Los Angeles and Destination Crenshaw. Increasing the funding amount from $54,941,792.37 to $73,814,876 and extending the Contract end date from March 1, 2026, to January 1, 2027. AUTHORIZE the Department of Public Works, Office of Accounting, to be INSTRUCTED to create a new appropriation unit entitled “Destination Crenshaw – Metro MAT Cycle 1 Funding” in the Engineering Special Services Fund No. 682/50, and to deposit and appropriate the aforementioned grant into the account. AUTHORIZE the President or two members of the Board to execute the Fourth Amended and Restated Agreement with Destination Crenshaw. AUTHORIZE the City Engineer, or designee, to make any technical or accounting changes as necessary to effectuate the intent of this Fourth Amended and Restated Agreement with Destination Crenshaw and the Second Amendment with LA Metro. Fiscal Impact Statement: None submitted by the Board of Public Works. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Board of Public Works dated 11-10-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+      "title": "Report from Board of Public Works dated 11-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ad6f84d2-b3cf-4a7b-b243-bc8716a1b350",
+      "meeting_id": 17432,
+      "has_summary": true,
+      "summary": "# Summary: Fourth Amended and Restated Agreement – Destination Crenshaw Outdoor Museum Project\n\n## What is Being Proposed?\n\nThe Board of Public Works recommends approving a Fourth Amended and Restated Agreement with Destination Crenshaw (a non-profit organization) to increase funding for the Destination Crenshaw Outdoor Museum Project from $54.9 million to $73.8 million, and extend the project completion deadline from March 1, 2026, to January 1, 2027. The board also recommends authorizing the execution of a Second Amendment with LA Metro to secure additional transit funding.\n\n## Why?\n\nConstruction on the project stopped in November 2024 due to funding shortages. The additional $18.9 million in funding is needed to pay outstanding invoices from contractors (Build Group and PCL), cover stop-notice payments totaling $1.3 million, and remobilize contractors to resume and complete the project. The City Council has already approved approximately $15.8 million in additional city funds from various sources, and LA Metro has authorized $3.4 million in transit funding.\n\n## Key Details\n\nThe project is a 1.3-mile public art and streetscape transformation along Crenshaw Boulevard designed to address historic disinvestment and celebrate Black Los Angeles culture. It includes new gathering spaces, pocket parks, improved facades, landscaping, broadband infrastructure, and commissioned artwork. Funding comes from three sources: LA Metro ($18.4 million), State of California ($18.4 million), and City of Los Angeles ($37.1 million). Destination Crenshaw and their construction manager (RMS) are solely responsible for project management; the City's Bureau of Engineering provides administrative support but does not oversee construction.\n\n## Impact\n\nThis amendment directly affects Crenshaw Boulevard residents and the broader Los Angeles community by enabling completion of a major cultural and economic development project. The extension allows adequate time for construction without rushing contractors. There is no impact to the city's General Fund, as funding comes from specialized sources including transit, state, and special city funds (gas tax, parking revenue).",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 22584,
+        "output_tokens": 468,
+        "cost_usd": 0.024924
+      }
+    }
+  ],
+  "first_seen": "2025-11-14T18:00:00",
+  "last_seen": "2025-11-14T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

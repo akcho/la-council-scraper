@@ -1,0 +1,47 @@
+{
+  "council_file": "25-1141",
+  "title": "Motion (Price – Hernandez, Nazarian) relative to a citywide tree replacement strategy.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17528,
+      "date": "2025-11-12T23:30:00",
+      "section": "Capital planning and infrastructure",
+      "item_number": "(3)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "65a0a105-319c-41fc-8141-0b235f5ccb22",
+      "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_11-4-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65a0a105-319c-41fc-8141-0b235f5ccb22",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=65a0a105-319c-41fc-8141-0b235f5ccb22",
+      "meeting_id": 17528,
+      "has_summary": false
+    },
+    {
+      "historyId": "da06d62c-0f32-4123-a923-a36c20bc3bba",
+      "title": "Community Impact Statement submitted by Westside Neighborhood Council_10-09-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=da06d62c-0f32-4123-a923-a36c20bc3bba",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=da06d62c-0f32-4123-a923-a36c20bc3bba",
+      "meeting_id": 17528,
+      "has_summary": false
+    },
+    {
+      "historyId": "8032c780-e2be-4dd5-a17e-b168fdb6c818",
+      "title": "Motion (Price - Hernandez, Nazarian) dated 9-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8032c780-e2be-4dd5-a17e-b168fdb6c818",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8032c780-e2be-4dd5-a17e-b168fdb6c818",
+      "meeting_id": 17528,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T23:30:00",
+  "last_seen": "2025-11-12T23:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

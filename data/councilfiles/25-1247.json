@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1247",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(67)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "751edc3e-bf2d-4372-bc24-c42dad442654",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=751edc3e-bf2d-4372-bc24-c42dad442654",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=751edc3e-bf2d-4372-bc24-c42dad442654",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Settlement Discussion Report - T.L. v. City of Los Angeles\n\n## What is Being Proposed?\nThe City Attorney's Office is requesting that the City Council hold a closed session to discuss settlement of a pending legal case (T.L. v. City of Los Angeles, LASC Case No. 22STC24129). The closed session will allow the City Council to confer with legal counsel regarding this litigation without public disclosure.\n\n## Why?\nThis matter involves allegations that the City's negligence resulted in the sexual assault of the plaintiff between 1978 and 1981 at the Alpine Recreational Center. Because this involves pending litigation and requires confidential legal advice, California Government Code Section 54956.9(d)(1) permits the discussion to be held in a closed session rather than publicly.\n\n## Key Details\n- **Case**: T.L. v. City of Los Angeles (LASC Case No. 22STC24129)\n- **Incident Location**: Alpine Recreational Center\n- **Timeframe of Alleged Assault**: 1978-1981\n- **Contact**: Deputy City Attorney Karen Woodward will be present to answer questions at (310) 948-9457\n\n## Impact\nThis affects the City's legal strategy and potential financial liability. The closed session allows the City Council to make an informed decision about settlement discussions while protecting the City's legal interests and maintaining attorney-client privilege.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 312,
+        "cost_usd": 0.004877
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

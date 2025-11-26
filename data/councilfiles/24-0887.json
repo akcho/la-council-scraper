@@ -1,0 +1,92 @@
+{
+  "council_file": "24-0887",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills.",
+  "district": "CD 11",
+  "appearances": [
+    {
+      "meeting_id": 17477,
+      "date": "2025-11-07T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(2)",
+      "recommendation": "NOTE and FILE the Bureau of Sanitation report, dated December 19, 2024, relative to the cause of the sewer line rupture and subsequent sewage spill at 2700 South Cresa Place, and the coordination and sharing of information to prevent and mitigate spills. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Report from Bureau of Sanitation dated 12-19-24 Report from Public Works Committee_8-14-24 Council Action dated 8-29-24 Speaker Card(s)_08-14-2024 Motion (Park - Yaroslavsky) dated 8-02-24"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+      "title": "Report from Public Works Committee_10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3f82de68-d739-4a22-a436-cbd3a7f1c1ff",
+      "meeting_id": 17477,
+      "has_summary": true,
+      "summary": "# Summary: Council File 24-0887\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the Los Angeles City Council simply note and file a Bureau of Sanitation report about a sewer line rupture and sewage spill that occurred at 2700 South Cresa Place. No further action from the Council is being requested at this time.\n\n## Why?\nThe report investigates the cause of the sewer line rupture and the resulting sewage spill, and also addresses how the city can better coordinate and share information to prevent and mitigate similar spills in the future. The committee reviewed this report during their October 22, 2025 meeting and determined that the information should be documented for the Council's record.\n\n## Key Details\n- **Incident Location:** 2700 South Cresa Place\n- **Report Date:** December 19, 2024\n- **Committee Meeting:** October 22, 2025\n- **Committee Vote:** 2 members voted YES (Hernandez and Hutt), 1 ABSENT (Padilla)\n- **Fiscal Impact:** None\n\n## Impact\nThis report affects residents in the affected area and the broader city by documenting what caused the sewage spill and recommending improvements to prevent future incidents. While no immediate Council action is required, the findings will inform the city's approach to sewer infrastructure maintenance and emergency coordination.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2099,
+        "output_tokens": 310,
+        "cost_usd": 0.0036490000000000003
+      }
+    },
+    {
+      "historyId": "39f8e793-0737-4824-bd32-e10444eb596b",
+      "title": "Report from Bureau of Sanitation dated 12-19-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f8e793-0737-4824-bd32-e10444eb596b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=39f8e793-0737-4824-bd32-e10444eb596b",
+      "meeting_id": 17477,
+      "has_summary": true,
+      "summary": "# Summary: Sewer Overflow Incident Report (CF# 24-0887)\n\n## What is Being Reported?\n\nLA Sanitation and Environment (LASAN) is reporting on a sewage overflow incident that occurred on July 20, 2024, at 2700 South Cresta Place. The incident happened when a water main break by the Department of Water and Power (LADWP) caused runoff to flow into the sanitary sewer system, creating a blockage that resulted in approximately 15,967 gallons of water overflowing from a maintenance hole. The report addresses the cause of the incident and how LASAN and LADWP coordinate to prevent future spills.\n\n## Why This Matters\n\nThe City Council requested this report to understand what led to the overflow and to examine coordination between LASAN and LADWP. While the incident was classified as a \"Category I\" sanitary sewer overflow (the most serious category), water quality tests showed no actual sewage contamination—only potable water from the broken water main. Still, the incident triggered beach closures at Ballona Creek and raised concerns about infrastructure failures and their environmental impact on the community.\n\n## Key Details\n\nOf the 15,967 gallons spilled, LASAN crews captured 62 gallons but 15,905 gallons entered a storm drain tributary to Ballona Creek. The incident was contained and cleaned up by 3:40 PM on July 20. LASAN's spill rate (1.15 per 100 miles of pipe annually) is significantly better than the state average (2.83 per 100 miles), thanks to preventive maintenance programs. LASAN and LADWP have established 24/7 coordination procedures requiring immediate notification at 213-485-7575 when water main breaks occur.\n\n## Impact and Resources\n\nRecently approved sewer rate increases will enable LASAN to hire additional staff, conduct more pipe inspections using advanced technology (CCTV), and perform timely repairs to prevent future overflows. These improvements directly address aging infrastructure vulnerabilities that can cause spills affecting public health and local waterways.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 23748,
+        "output_tokens": 475,
+        "cost_usd": 0.026122999999999997
+      }
+    },
+    {
+      "historyId": "b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+      "title": "Report from Public Works Committee_8-14-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b8a4130e-4b8a-4529-b6bf-88d40d1b564e",
+      "meeting_id": 17477,
+      "has_summary": true,
+      "summary": "# Summary of Council File 24-0887\n\n## What is Being Proposed?\nThe Public Works Committee is recommending that the City Council direct the Bureau of Sanitation (BOS) to investigate and report on a sewer line rupture that caused a sewage spill at 2700 South Cresta Place on July 20, 2024. The Committee also requests that the Los Angeles Department of Water and Power (LADWP) participate in this investigation.\n\n## Why?\nA sewage spill occurred on July 20, 2024, indicating a failure in the city's sewer infrastructure. The Committee wants to understand what caused the rupture and identify gaps in communication and coordination between the agencies responsible for managing water and sewage systems. The investigation is also intended to identify needed infrastructure improvements to prevent future incidents.\n\n## Key Details\n- **Location:** 2700 South Cresta Place\n- **Date of Incident:** July 20, 2024\n- **Committee Vote:** Unanimous approval (Lee, Blumenfield, and Padilla all voted YES) on August 14, 2024\n- **Agencies Involved:** Bureau of Sanitation (directed) and LADWP (requested to participate)\n- **Note:** No financial impact analysis has been completed yet\n\n## Impact\nThis report affects residents in the affected area and the broader Los Angeles community by addressing public health and environmental concerns related to sewage spills. The investigation may lead to improved coordination between city departments and necessary infrastructure repairs, potentially reducing future sewage spill incidents.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2149,
+        "output_tokens": 341,
+        "cost_usd": 0.003854
+      }
+    },
+    {
+      "historyId": "19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+      "title": "Council Action dated 8-29-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+      "title": "Speaker Card(s)_08-14-2024",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3",
+      "meeting_id": 17477,
+      "has_summary": false
+    },
+    {
+      "historyId": "68f20d33-76cd-4745-9390-96a957ff72a3",
+      "title": "Motion (Park - Yaroslavsky)  dated 8-02-24",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f20d33-76cd-4745-9390-96a957ff72a3",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=68f20d33-76cd-4745-9390-96a957ff72a3",
+      "meeting_id": 17477,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-07T18:00:00",
+  "last_seen": "2025-11-07T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 6,
+    "attachments_with_summaries": 3
+  }
+}

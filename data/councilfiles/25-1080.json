@@ -1,0 +1,46 @@
+{
+  "council_file": "25-1080",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\"",
+  "district": "CD 15",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(24)",
+      "recommendation": "DESIGNATE the intersection of East 102nd Street and Courtney Street in Watts as “Franklin Square.\" DIRECT the Department of Transportation to install permanent ceremonial signage at this location in its honor. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_10-22-25 Motion (Mcosker - Hutt) dated 9-16-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "d2747771-9106-4e03-94bc-b2307b9833e1",
+      "title": "Report from Public Works Committee_10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2747771-9106-4e03-94bc-b2307b9833e1",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d2747771-9106-4e03-94bc-b2307b9833e1",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1080\n\n## What is Being Proposed?\n\nThe Public Works Committee is recommending that the City Council designate the intersection of East 102nd Street and Courtney Street in Watts as \"Franklin Square.\" Additionally, the Department of Transportation would be directed to install permanent ceremonial signage at this location to honor the designation.\n\n## Committee Action and Vote\n\nOn October 22, 2025, the Public Works Committee considered this motion (sponsored by McOsker and Hutt) and voted to approve both recommendations. Committee members Hernandez and Hutt voted yes, while Padilla was absent. The matter is now forwarded to the full City Council for final consideration.\n\n## Key Details\n\n- **Location:** East 102nd Street and Courtney Street, Watts\n- **Action:** Designate as \"Franklin Square\" and install ceremonial signage\n- **Status:** Not official until the full Council votes\n- **Financial Impact:** No fiscal analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n- **Community Input:** A public comment period was held during the committee meeting\n\n## Significance\n\nThis designation honors the location with a community name and permanent signage, recognizing its significance to the Watts neighborhood. While the document does not specify who or what \"Franklin\" refers to, such designations typically commemorate important community figures or historical significance to the area.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2071,
+        "output_tokens": 307,
+        "cost_usd": 0.003606
+      }
+    },
+    {
+      "historyId": "aacb387a-ee94-44b3-96a3-4647ea26a8a3",
+      "title": "Motion (Mcosker - Hutt) dated 9-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aacb387a-ee94-44b3-96a3-4647ea26a8a3",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=aacb387a-ee94-44b3-96a3-4647ea26a8a3",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

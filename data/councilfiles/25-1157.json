@@ -1,0 +1,31 @@
+{
+  "council_file": "25-1157",
+  "title": "Board of Police Commissioners report relative to the request for payment of reward offer (DR No. 23-05-10643) for a fatal hit-and-run case.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17526,
+      "date": "2025-11-12T22:30:00",
+      "section": "Committee referrals",
+      "item_number": "(6)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "46f302af-e96d-4435-b69c-df22292c3eac",
+      "title": "Report from Board of Police Commissioners dated 9-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46f302af-e96d-4435-b69c-df22292c3eac",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=46f302af-e96d-4435-b69c-df22292c3eac",
+      "meeting_id": 17526,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T22:30:00",
+  "last_seen": "2025-11-12T22:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

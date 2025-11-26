@@ -1,0 +1,39 @@
+{
+  "council_file": "25-1189",
+  "title": "City Administrative Officer (CAO) report relative to the acceptance of the Fiscal Year 2024 Emergency Management Performance Grant.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17526,
+      "date": "2025-11-12T22:30:00",
+      "section": "Committee referrals",
+      "item_number": "(4)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "06f0c780-ce6b-4446-8345-cc82a30ab252",
+      "title": "Report from City Administrative Officer dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06f0c780-ce6b-4446-8345-cc82a30ab252",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=06f0c780-ce6b-4446-8345-cc82a30ab252",
+      "meeting_id": 17526,
+      "has_summary": false
+    },
+    {
+      "historyId": "2a3a51c0-61cf-4ff8-aa95-56c9e6eca804",
+      "title": "2024 EMPG EMD Transmittal",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a3a51c0-61cf-4ff8-aa95-56c9e6eca804",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=2a3a51c0-61cf-4ff8-aa95-56c9e6eca804",
+      "meeting_id": 17526,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T22:30:00",
+  "last_seen": "2025-11-12T22:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

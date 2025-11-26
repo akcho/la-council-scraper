@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-1097 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-1097: CATEGORICAL EXEMPTION, AND RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS; PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT, and ORDINA">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-1097
+            </div>
+            <div class="file-number">25-1097</div>
+            <h1>The Planning and Land Use Management Committee is recommending approval of a zoning change for a property at 20012 West Chase Street in the North Valley.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 3</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION, AND RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS; PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT, and ORDINANCE FIRST CONSIDERATION relative to a Vesting Zone Change for the property located at 20012 West Chase Street.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ca4aed90-a36d-40de-bb7a-8f9c1d827761" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca4aed90-a36d-40de-bb7a-8f9c1d827761" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Planning and Land Use Management Committee is recommending approval of a zoning change for a property at 20012 West Chase Street in the North Valley. The zoning would change from RA-1 (Residential Suburban) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling), allowing the developer to demolish an existing single-family home and build five new two-story townhomes with attached two-car garages.</p>
+<h5>Why This Matters?</h5>
+<p>The project increases housing density in the area by adding four new residential units where there is currently only one. The development is part of Los Angeles's broader effort to address housing shortages by allowing more units in existing neighborhoods. The project has been determined to have no significant environmental impact under California law and was already approved for subdivision on June 12, 2025.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> 20012 West Chase Street (North Valley area) <strong>New units:</strong> Five two-story homes, each 2,028 square feet, with a maximum height of 26 feet 10 inches <strong>Parking:</strong> Three shared guest parking spaces included <strong>Timeline:</strong> Council must vote by December 12, 2025 <strong>Vote:</strong> The PLUM Committee voted 4-1 in favor (one member absent) <strong>Applicant:</strong> Kionna Tiffith</p>
+<h5>Important Conditions</h5>
+<p>The zoning change includes a six-year time limit—construction must substantially begin within six years or the approval expires. Additionally, the applicant must submit required environmental and Fish and Game fees to the County Clerk, and the City will monitor compliance with project conditions throughout the development's life.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Los Angeles City Planning Commission dated 9-17-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=95132108-2194-498f-a848-e2fc7d82db28" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=95132108-2194-498f-a848-e2fc7d82db28" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The North Valley Area Planning Commission is recommending approval of a Vesting Zone Change (VZC) to rezone a property at 20012 West Chase Street in the Chatsworth-Porter Ranch area from RA-1 (Residential Suburban Zone) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling Zone). This change would enable the demolition of an existing single-family home and construction of five new two-story single-family dwellings through a small lot subdivision.</p>
+<h5>Why?</h5>
+<p>The current RA-1 zoning is outdated and doesn't correspond to the area's General Plan designation of Low Medium I Residential. The proposed RD4-1 zone aligns with the General Plan and allows for more efficient use of the underutilized property. The project supports the city's housing goals by increasing homeownership opportunities and adding four net new residential units to address the local housing shortage. The project is also strategically located near transit access and neighborhood services.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> 20012 West Chase Street, Council District 3 (Blumenfield) <strong>Project:</strong> Five two-story single-family homes at 2,028 square feet each, maximum height 26 feet 10 inches, with three shared guest parking spaces <strong>Vote:</strong> Commission approved 3-0 on July 3, 2025 with no appeals filed <strong>Environmental:</strong> Project qualifies for a Categorical Exemption under CEQA <strong>Council Action Timeline:</strong> 90 days to act from the September 17, 2025 transmittal date</p>
+<h5>Impact</h5>
+<p>The project will increase housing supply in an established residential neighborhood while maintaining compatibility with surrounding development through conditions addressing landscaping, tree protection, mechanical screening, and infrastructure improvements along Chase Street. Residents will benefit from new homeownership opportunities at market rates, though the project requires dedication of additional right-of-way and streetscape improvements.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-17-25 -ZC Ordinance and Map</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d6d32eb0-71d9-4863-87f0-ce4df584ee08" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6d32eb0-71d9-4863-87f0-ce4df584ee08" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This ordinance amends the zoning map for a property in Chatsworth-Porter Ranch by changing the zone classification to (T)(Q)RD4-1. The "T" designates tentative status pending tract map approval, and the "Q" imposes qualified conditions. The zoning change allows for residential development on approximately 205 feet of frontage along Chase Street and Penfield Avenue, with a maximum of five dwelling units permitted on the site.</p>
+<h5>Why?</h5>
+<p>The zoning change implements an approved subdivision (Vesting Tentative Tract Map No. 83673-SL-HCA) and reflects a plan submitted by the applicant for development of the property. The qualified conditions ensure that development proceeds in a manner compatible with the surrounding neighborhood while protecting environmental resources and maintaining quality of life standards.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Chase Street and Penfield Avenue, Chatsworth-Porter Ranch area <strong>Case Number:</strong> APCNV-2022-8497-VZC <strong>Maximum Density:</strong> 5 dwelling units <strong>North Valley Area Planning Commission Recommendation:</strong> BE ADOPTED (recommended July 3, 2025) <strong>Key Conditions:</strong> Protection of six non-protected trees and one protected Sambucus mexicana tree; landscaping requirements; mechanical equipment screening; outdoor lighting restrictions</p>
+<h5>Impact</h5>
+<p>This zoning change affects the property owner/developer by allowing residential development under specific conditions. Neighbors may see new residential construction with required landscaping and screening measures. The conditions require the applicant to fund ongoing maintenance, execute a recorded covenant binding future owners, and defend the City against any legal challenges to this approval, including litigation costs (minimum $50,000 deposit required).</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-17-25 - T Conditions</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3cffb8ad-4b0c-4b64-9e0f-67b16b8cbd87" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cffb8ad-4b0c-4b64-9e0f-67b16b8cbd87" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This document outlines the conditions required to remove the "(T)" or "[T]" Tentative Classification from a property subdivision (APCNV-2022-8497-VZC). The tentative classification is a regulatory status that restricts development until certain public improvements and land dedications are completed or guaranteed. The document specifies exactly what the developer must do to clear this restriction and proceed with building permits.</p>
+<h5>Why?</h5>
+<p>The tentative classification exists to ensure that subdivisions include necessary public infrastructure and dedications before development occurs. This protects the city and future residents by requiring developers to provide adequate streets, utilities, and public right-of-way access. Once the developer guarantees these improvements through the City Engineer's B-permit process, the restriction can be lifted.</p>
+<h5>Key Details</h5>
+<p>The developer must provide: <strong>Land dedication</strong>: A 3-foot-wide strip along Chase Street to create a complete 33-foot half right-of-way meeting Collector Street standards <strong>Street improvements</strong>: A new 5-foot-wide concrete sidewalk with parkway landscaping along Chase Street, plus curb, gutter, and pavement repairs <strong>Infrastructure</strong>: On-site sewer mainline and house sewers to serve the development <strong>Special requirements</strong>: ADA-compliant driveways and coordination with Urban Forestry Division regarding an existing oak tree The developer must obtain written verification from responsible agencies (Bureau of Engineering, Department of Transportation, Fire Department, etc.) acknowledging their consultation and approval.</p>
+<h5>Impact</h5>
+<p>This primarily affects the developer/applicant, who must complete or guarantee these improvements before construction can begin. Residents benefit through improved street infrastructure, accessibility compliance, and proper utility connections serving the new development.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-17-25 - Findings</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f0abf480-e059-460a-a0b7-098aa95003f1" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f0abf480-e059-460a-a0b7-098aa95003f1" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is recommending a zone change for a property in the Chatsworth-Porter Ranch community from RA-1 (agricultural/rural) zoning to (T)(Q)RD4-1 zoning. This change would allow development of a five-unit small lot residential subdivision (similar to townhouses) on a single family property, replacing one existing home with five new homes for a net increase of four units.</p>
+<h5>Why?</h5>
+<p>The current RA-1 zoning is outdated and does not correspond to the area's General Plan designation of "Low Medium I Residential." The zone change aligns the property with the community's comprehensive land use plan and addresses Los Angeles's housing shortage. The location is ideal for residential development, being approximately 0.3 miles from Roscoe Boulevard with access to Orange Line and Metrolink transit, plus nearby schools, parks, and shopping centers.</p>
+<h5>Key Details</h5>
+<p>The project will create five for-sale homeownership units (not rental apartments) and will include pedestrian-friendly design with dedicated walkways. The property is near Winnetka Elementary School (1,500 feet away) and Winnetka Recreation Center (500 feet away). The development complies with small lot design standards and includes improvements to Chase Street, including 5-foot sidewalk construction and 3-foot land dedication.</p>
+<h5>Impact</h5>
+<p>This decision affects current and future residents of the Winnetka community by increasing housing options and ownership opportunities in an area with existing infrastructure. The project is exempt from detailed environmental review under CEQA and is located outside flood zones. The "T" and "Q" classifications impose conditions to ensure the development is compatible with surrounding neighborhoods and meets public needs.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 9-17-25 - Staff Report</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a21e7cc2-0e40-4d40-9bf0-cc1236e11c9d" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a21e7cc2-0e40-4d40-9bf0-cc1236e11c9d" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Department of City Planning is recommending that the City Council approve a Vesting Zone Change for a property in Chatsworth-Porter Ranch from RA-1 (Residential Suburban) to (T)(Q)RD4-1 (Restricted Density Multiple Dwelling). This zoning change would enable the demolition of an existing single-family home and its replacement with five new two-story townhouse-style single-family homes, each containing approximately 2,028 square feet and four bedrooms. The accompanying Small Lot Subdivision was already approved by the Deputy Advisory Agency in June 2025.</p>
+<h5>Why?</h5>
+<p>The current RA-1 zoning designation is outdated and does not correspond to the property's General Plan land use designation of "Low Medium I Residential," which permits the RD4 zone. The project addresses Los Angeles's housing shortage by creating four additional residential units (net gain) on an underutilized lot. The proposed development aligns with the City's Housing Element goals to increase homeownership opportunities and diversify housing types, while also promoting infill development near transit (approximately 0.3 miles from Roscoe Boulevard, which serves the Orange Line and Metrolink).</p>
+<h5>Key Details</h5>
+<p><strong>Location</strong>: 20012 West Chase Street (20,499 sq ft property) <strong>Maximum Height</strong>: 26 feet 10 inches <strong>Parking</strong>: Two-car garage per unit plus three shared guest parking spaces <strong>Environmental Status</strong>: Project is exempt from CEQA (Class 32 exemption) <strong>Adjacent Development</strong>: The property directly west is already zoned RD4-1 with nine similar small lot homes <strong>Public Hearing</strong>: Held May 27, 2025; minimal community opposition (concerns addressed regarding parking and tree removal)</p>
+<h5>Impact</h5>
+<p>This project will benefit prospective homebuyers seeking affordable homeownership opportunities in the San Fernando Valley area and supports citywide housing production goals. Property owners and neighbors in the immediate area should expect construction activity through summer 2026, including tree removal and replacement per city standards. The project requires street dedication and improvements, including a new sidewalk along Chase Street.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>3 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 9-17-25 - Environmental</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=df8fea78-0b99-469d-a835-4636a19d635d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df8fea78-0b99-469d-a835-4636a19d635d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 9-17-25 - Exhibit A Plans</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=61c9fd70-4bfa-4ad3-a5db-be3ffb88142d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=61c9fd70-4bfa-4ad3-a5db-be3ffb88142d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 9-17-25 - Mailing List</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=dfae71d0-715c-4d6c-836b-5e914f077c0f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dfae71d0-715c-4d6c-836b-5e914f077c0f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

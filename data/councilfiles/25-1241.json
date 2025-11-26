@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1241",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(57)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "35f0daa3-9137-42e6-9f45-32261ab36b31",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=35f0daa3-9137-42e6-9f45-32261ab36b31",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=35f0daa3-9137-42e6-9f45-32261ab36b31",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: City Attorney Report on Settlement Discussion - Vehicle vs. Pothole Accident\n\n## What is Being Proposed?\nThe City Attorney's office is requesting that the Los Angeles City Council hold a closed session to discuss settlement negotiations regarding a pending litigation case. The case involves a vehicle accident caused by a pothole, and the council needs to meet privately with legal counsel to discuss Claims Board action recommendations.\n\n## Why?\nThis closed session is authorized under California Government Code Section 54956.9(d)(1), which allows public agencies to discuss pending litigation with their legal counsel confidentially. The purpose is to receive legal advice about how to proceed with settling or addressing the claim before it escalates further in court.\n\n## Key Details\n- **Case:** Dave Yallouz v. City of Los Angeles, et al. (LASC Case No. 23VCV04293)\n- **Incident:** Vehicle vs. pothole accident on February 6, 2023, at Valley Circle Boulevard near Calenda Drive in Los Angeles\n- **Claim Number:** C24-01053\n- **Contact:** Margarita Barron, Deputy City Attorney, (213) 473-6920\n- **Report Date:** October 9, 2025\n\n## Impact\nThis affects Los Angeles residents by determining how the city handles claims related to street maintenance issues. The closed session allows the city to discuss settlement strategy without disclosing negotiation details, protecting the city's legal interests while addressing potential liability for injuries caused by hazardous street conditions.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 333,
+        "cost_usd": 0.004982
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}
