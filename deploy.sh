@@ -25,6 +25,14 @@ TEMP_DIR=$(mktemp -d)
 # Copy ONLY site files to temp
 cp -r site/* "$TEMP_DIR/"
 
+# Backup .env file if it exists
+ENV_BACKUP=""
+if [ -f ".env" ]; then
+    ENV_BACKUP=$(mktemp)
+    cp .env "$ENV_BACKUP"
+    echo "Backed up .env file"
+fi
+
 # Now stash changes (the generated site files) so we can switch branches
 if ! git diff --quiet || ! git diff --cached --quiet; then
     echo "Stashing generated files..."
@@ -51,6 +59,10 @@ cp -r "$TEMP_DIR"/* .
 # Clean up temp
 rm -rf "$TEMP_DIR"
 
+# Remove any sensitive files that shouldn't be deployed (they survive branch switch since they're untracked)
+# Note: .env is already backed up to $ENV_BACKUP and will be restored after switching back to master
+rm -f .env .env.* *.key *.pem 2>/dev/null || true
+
 # Add and commit
 git add -A
 git commit -m "Deploy site $(date '+%Y-%m-%d %H:%M:%S')"
@@ -66,6 +78,13 @@ git checkout "$CURRENT_BRANCH"
 if [ "$STASHED" = true ]; then
     echo "Restoring stashed changes..."
     git stash pop
+fi
+
+# Restore .env file if it was backed up
+if [ -n "$ENV_BACKUP" ] && [ -f "$ENV_BACKUP" ]; then
+    cp "$ENV_BACKUP" .env
+    rm "$ENV_BACKUP"
+    echo "Restored .env file"
 fi
 
 echo ""

@@ -212,8 +212,8 @@ def generate_meeting_page(meeting_id):
     }
 
     # Add analytics if configured
-    if config.get('analytics', {}).get('domain'):
-        context['analytics_domain'] = config['analytics']['domain']
+    if config.get('analytics_script'):
+        context['analytics_script'] = config['analytics_script']
 
     # Add metadata if available
     if metadata:
@@ -320,8 +320,8 @@ def generate_index_page(meetings_data):
     }
 
     # Add analytics if configured
-    if config.get('analytics', {}).get('domain'):
-        context['analytics_domain'] = config['analytics']['domain']
+    if config.get('analytics_script'):
+        context['analytics_script'] = config['analytics_script']
 
     # Set up Jinja2 environment
     env = Environment(

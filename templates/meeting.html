@@ -483,8 +483,8 @@
     </footer>
 
     <!-- Analytics -->
-    {% if analytics_domain %}
-    <script defer data-domain="{{ analytics_domain }}" src="https://plausible.io/js/script.js"></script>
+    {% if analytics_script %}
+    {{ analytics_script | safe }}
     {% endif %}
 </body>
 </html>

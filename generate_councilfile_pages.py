@@ -140,7 +140,7 @@ def extract_brief_summary(file_data: Dict[str, Any]) -> str:
         return title
 
 
-def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meetings_metadata: Dict[int, Dict[str, Any]]) -> None:
+def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meetings_metadata: Dict[int, Dict[str, Any]], analytics_script: str = '') -> None:
     """Generate HTML page for a single council file."""
 
     council_file = file_data['council_file']
@@ -734,7 +734,12 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
 """
 
     html += """    </main>
-</body>
+"""
+    # Add analytics if configured
+    if analytics_script:
+        html += f"    {analytics_script}\n"
+
+    html += """</body>
 </html>
 """
 
@@ -744,7 +749,7 @@ def generate_council_file_page(file_data: Dict[str, Any], output_dir: Path, meet
     print(f"Generated: {output_path}")
 
 
-def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path) -> None:
+def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path, analytics_script: str = '') -> None:
     """Generate index page listing all council files."""
 
     # Sort by last_seen date (most recent first)
@@ -1052,7 +1057,12 @@ def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path) -> No
 """
 
     html += """    </main>
-</body>
+"""
+    # Add analytics if configured
+    if analytics_script:
+        html += f"    {analytics_script}\n"
+
+    html += """</body>
 </html>
 """
 
@@ -1060,6 +1070,18 @@ def generate_index_page(all_files: List[Dict[str, Any]], output_dir: Path) -> No
     index_path = output_dir / "index.html"
     index_path.write_text(html)
     print(f"Generated: {index_path}")
+
+
+def load_site_config():
+    """Load site configuration."""
+    config_file = Path(__file__).parent / 'site_config.json'
+    if config_file.exists():
+        try:
+            with open(config_file, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Warning: Could not load site_config.json: {e}")
+    return {}
 
 
 def main():
@@ -1072,6 +1094,10 @@ def main():
 
     # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load site config for analytics
+    config = load_site_config()
+    analytics_script = config.get('analytics_script', '')
 
     # Load all council files
     all_files = []
@@ -1095,12 +1121,12 @@ def main():
     # Generate individual pages
     for file_data in all_files:
         try:
-            generate_council_file_page(file_data, output_dir, meetings_metadata)
+            generate_council_file_page(file_data, output_dir, meetings_metadata, analytics_script)
         except Exception as e:
             print(f"Error generating page for {file_data.get('council_file', 'unknown')}: {e}")
 
     # Generate index page
-    generate_index_page(all_files, output_dir)
+    generate_index_page(all_files, output_dir, analytics_script)
 
     print(f"\nComplete! Generated {len(all_files)} council file pages + index")
     print(f"Output directory: {output_dir}")

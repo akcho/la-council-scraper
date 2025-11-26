@@ -1,0 +1,310 @@
+{
+  "meeting_id": 17591,
+  "template_id": 148741,
+  "parsed_at": "2025-11-25T16:14:06.789609",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148741",
+  "sections": [
+    {
+      "section_id": "359166",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359167",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359168",
+      "title": "DISCUSSION ITEM ONLY",
+      "items": [
+        {
+          "item_id": "157092",
+          "item_number": "(1)",
+          "has_attachments": false,
+          "raw_text": "-----\nDISCUSSION ITEM ONLY\nPresentation and verbal update from the Los Angeles Homeless Services Authority relative to status of reports requested in Council file No. 25-1137; the federal Fiscal Year 2025 Continuum of Care Competition; and related matters.",
+          "council_file": "25-1137",
+          "title": "DISCUSSION ITEM ONLY",
+          "mig": "15816caf-37f5-47d5-9eba-a4a6ea9ede4a"
+        },
+        {
+          "item_id": "156992",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S56\nMayor report relative to the appointment of Charles Stringer to the Los Angeles Homeless Services Authority Commission.\nFinancial Disclosure Statement:\nNot applicable\nBackground Check:\nPending\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 28, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from Mayor dated 11-13-25",
+          "council_file": "25-1200-S56",
+          "title": "Mayor report relative to the appointment of Charles Stringer to the Los Angeles Homeless Services Authority Commission.",
+          "mig": "fce83491-9040-4c58-94b3-fa29b61dcbd4",
+          "attachments": [
+            {
+              "historyId": "6a6a6cf9-f2b4-43df-b2ce-f17365b9542a",
+              "title": "Report from Mayor dated 11-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a6a6cf9-f2b4-43df-b2ce-f17365b9542a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a6a6cf9-f2b4-43df-b2ce-f17365b9542a"
+            }
+          ]
+        },
+        {
+          "item_id": "157052",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "24-0293\nCity Administrative Officer report relative to Project Roomkey investments and Federal Emergency Management Agency (FEMA) reimbursements.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 9-05-25\nCouncil Action dated 9-04-24\nReport from Housing and Homelessness Committee_08-07-24\nSpeaker Card(s)_09-03-2024\nSpeaker Card(s)_08-07-2024\nMotion (Rodriguez - Blumenfield) dated 3-08-24",
+          "council_file": "24-0293",
+          "title": "City Administrative Officer report relative to Project Roomkey investments and Federal Emergency Management Agency (FEMA) reimbursements.",
+          "mig": "791edfbc-04cc-4b44-81d9-2e7e67bbbd0e",
+          "attachments": [
+            {
+              "historyId": "692e28f3-a2ba-4d90-b289-9cd6889b570a",
+              "title": "Report from City Administrative Officer dated 9-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=692e28f3-a2ba-4d90-b289-9cd6889b570a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=692e28f3-a2ba-4d90-b289-9cd6889b570a"
+            },
+            {
+              "historyId": "16108ebc-e27a-43d3-a187-4af9a7d78865",
+              "title": "Council Action dated 9-04-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16108ebc-e27a-43d3-a187-4af9a7d78865",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=16108ebc-e27a-43d3-a187-4af9a7d78865"
+            },
+            {
+              "historyId": "cfbc9a3a-d330-473e-b31d-509273b139e7",
+              "title": "Report from Housing and Homelessness Committee_08-07-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfbc9a3a-d330-473e-b31d-509273b139e7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfbc9a3a-d330-473e-b31d-509273b139e7"
+            },
+            {
+              "historyId": "309c61d0-2fd0-4d71-bdf8-425dbf8a4b51",
+              "title": "Speaker Card(s)_09-03-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=309c61d0-2fd0-4d71-bdf8-425dbf8a4b51",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=309c61d0-2fd0-4d71-bdf8-425dbf8a4b51"
+            },
+            {
+              "historyId": "e635370c-0a73-40fc-ad86-a4acc5b776f8",
+              "title": "Speaker Card(s)_08-07-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e635370c-0a73-40fc-ad86-a4acc5b776f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e635370c-0a73-40fc-ad86-a4acc5b776f8"
+            },
+            {
+              "historyId": "0f5a526d-e3f1-45f9-a019-d40927fe9125",
+              "title": "Motion (Rodriguez - Blumenfield) dated 3-08-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f5a526d-e3f1-45f9-a019-d40927fe9125",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0f5a526d-e3f1-45f9-a019-d40927fe9125"
+            }
+          ]
+        },
+        {
+          "item_id": "157088",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "23-0038-S12\nCity Administrative Officer report relative to executing a Second Amended and Restated Contract (Contract No. C-144769) with Estolano Advisors to provide Interim Inspector General services for the United to House LA Citizen Oversight Committee.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 11-19-25",
+          "council_file": "23-0038-S12",
+          "title": "City Administrative Officer report relative to executing a Second Amended and Restated Contract (Contract No. C-144769) with Estolano Advisors to provide Interim Inspector General services for the United to House LA Citizen Oversight Committee.",
+          "mig": "ea597648-cbb2-4a33-9b68-fdb6cf45a36b",
+          "attachments": [
+            {
+              "historyId": "c5f18ac4-9fad-46a7-bc7a-f2036efb675b",
+              "title": "Report from City Administrative Officer dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5f18ac4-9fad-46a7-bc7a-f2036efb675b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c5f18ac4-9fad-46a7-bc7a-f2036efb675b"
+            }
+          ]
+        },
+        {
+          "item_id": "157091",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1394\nCity Administrative Officer report relative to a proposed contract for the Urgent Repair Program with Scope Environmental dba CBC Cleaning and Construction for general home repair services.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 24, 2025\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2025)\nReport from City Administrative Officer dated 11-19-25",
+          "council_file": "25-1394",
+          "title": "City Administrative Officer report relative to a proposed contract for the Urgent Repair Program with Scope Environmental dba CBC Cleaning and Construction for general home repair services.",
+          "mig": "4c7be6e5-181f-4cd6-a049-f04c0547d404",
+          "attachments": [
+            {
+              "historyId": "ea6f2102-fb67-4926-ac16-fe6ce805c9cf",
+              "title": "Report from City Administrative Officer dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea6f2102-fb67-4926-ac16-fe6ce805c9cf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea6f2102-fb67-4926-ac16-fe6ce805c9cf"
+            }
+          ]
+        },
+        {
+          "item_id": "157109",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "22-1545-S37\nCity Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 32nd Status Report as of September 30, 2025.\n(This item is referred to the Housing and Homelessness Committee and the Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 11-25-25",
+          "council_file": "22-1545-S37",
+          "title": "City Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 32nd Status Report as of September 30, 2025.",
+          "mig": "7c2382de-9595-428d-b858-b40b22ad7dbb",
+          "attachments": [
+            {
+              "historyId": "810563f4-d4f0-4f58-8e18-23fa9e7e8bfe",
+              "title": "Report from City Administrative Officer dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=810563f4-d4f0-4f58-8e18-23fa9e7e8bfe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=810563f4-d4f0-4f58-8e18-23fa9e7e8bfe"
+            }
+          ]
+        },
+        {
+          "item_id": "156995",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1260\nCD 4\nLos Angeles Housing Department report relative to amending subordinate loan and related loan documents for the La Brea Franklin Apartments located at 1801 North La Brea Avenue in Council District Four, to ensure the long-term preservation of the affordable housing development.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Los Angeles Housing Department dated 10-21-25",
+          "council_file": "25-1260",
+          "district": "CD 4",
+          "title": "Los Angeles Housing Department report relative to amending subordinate loan and related loan documents for the La Brea Franklin Apartments located at 1801 North La Brea Avenue in Council District Four, to ensure the long-term preservation of the affordable housing development.",
+          "mig": "28371846-01b2-4e69-ad3d-37f8b2f3e95d",
+          "attachments": [
+            {
+              "historyId": "e8382cc7-33cd-4166-aa1a-c58896474c0c",
+              "title": "Report from Los Angeles Housing Department dated 10-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8382cc7-33cd-4166-aa1a-c58896474c0c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8382cc7-33cd-4166-aa1a-c58896474c0c"
+            }
+          ]
+        },
+        {
+          "item_id": "157098",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "23-0840\nLos Angeles Housing Department report relative to establishing a process to assess and report on trends related to the concentration of ownership and corporatization of the City’s housing stock that may negatively impact renters, limit small landlord ownership opportunities, and limit first-time homebuyer opportunities.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Los Angeles Housing Department dated 10-3-25\nCouncil Action  dated 10-24-23\nSpeaker Card(s)_10-20-2023\nReport from Housing and Homelessness Committee_9-29-23\nMotion (Rodriguez - Blumenfield) dated 8-11-23",
+          "council_file": "23-0840",
+          "title": "Los Angeles Housing Department report relative to establishing a process to assess and report on trends related to the concentration of ownership and corporatization of the City’s housing stock that may negatively impact renters, limit small landlord ownership opportunities, and limit first-time homebuyer opportunities.",
+          "mig": "2facb709-b172-4262-823e-974921b6aa49",
+          "attachments": [
+            {
+              "historyId": "fdc18d91-2036-4e5c-803c-8fe916628163",
+              "title": "Report from Los Angeles Housing Department dated 10-3-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdc18d91-2036-4e5c-803c-8fe916628163",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdc18d91-2036-4e5c-803c-8fe916628163"
+            },
+            {
+              "historyId": "deb65f44-ae74-417c-b51a-e0b954f9ac01",
+              "title": "Council Action  dated 10-24-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=deb65f44-ae74-417c-b51a-e0b954f9ac01",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=deb65f44-ae74-417c-b51a-e0b954f9ac01"
+            },
+            {
+              "historyId": "0228579c-132b-4582-90bc-093ec45bbb3b",
+              "title": "Speaker Card(s)_10-20-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0228579c-132b-4582-90bc-093ec45bbb3b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0228579c-132b-4582-90bc-093ec45bbb3b"
+            },
+            {
+              "historyId": "6a41295f-7112-44d7-8b42-1e867e331527",
+              "title": "Report from Housing and Homelessness Committee_9-29-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a41295f-7112-44d7-8b42-1e867e331527",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a41295f-7112-44d7-8b42-1e867e331527"
+            },
+            {
+              "historyId": "85597579-20f5-4a2f-bc74-c485422ff059",
+              "title": "Motion (Rodriguez - Blumenfield) dated 8-11-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85597579-20f5-4a2f-bc74-c485422ff059",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85597579-20f5-4a2f-bc74-c485422ff059"
+            }
+          ]
+        },
+        {
+          "item_id": "156994",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1338\nCD 15\nStatutory Exemption, Bureau of Engineering report and Motion (McOsker - Raman) relative to funding allocation, lease, change in service provider and continued use for a period of approximately up to three years for the bridge housing/low barrier navigation center facility located at 2316 Imperial Highway in Council District 15, for those experiencing homelessness; and determination that the projects are statutorily exempt from the California Environmental Quality Act (CEQA) under Public Resources Code (PRC) Section 21080.27.5, applicable to low barrier navigation centers and Government Code Section 8698.4(a)(4), governing homeless shelter projects under a shelter crisis declaration.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker - Raman) dated 11-12-25\nReport from Board of Public Works dated 11-18-25",
+          "council_file": "25-1338",
+          "district": "CD 15",
+          "title": "Statutory Exemption, Bureau of Engineering report and Motion (McOsker - Raman) relative to funding allocation, lease, change in service provider and continued use for a period of approximately up to three years for the bridge housing/low barrier navigation center facility located at 2316 Imperial Highway in Council District 15, for those experiencing homelessness; and determination that the projects are statutorily exempt from the California Environmental Quality Act (CEQA) under Public Resources Code (PRC) Section 21080.27.5, applicable to low barrier navigation centers and Government Code Section 8698.4(a)(4), governing homeless shelter projects under a shelter crisis declaration.",
+          "mig": "41496434-c7f7-4397-be1f-4162f536aea9",
+          "attachments": [
+            {
+              "historyId": "068d5c1e-7d77-4b5f-af22-5c17ea9a2638",
+              "title": "Motion (McOsker - Raman) dated 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=068d5c1e-7d77-4b5f-af22-5c17ea9a2638",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=068d5c1e-7d77-4b5f-af22-5c17ea9a2638"
+            },
+            {
+              "historyId": "01d28f24-8d18-4d54-8171-f3ddac12ec0f",
+              "title": "Report from Board of Public Works dated 11-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01d28f24-8d18-4d54-8171-f3ddac12ec0f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01d28f24-8d18-4d54-8171-f3ddac12ec0f"
+            }
+          ]
+        },
+        {
+          "item_id": "157046",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-1341\nCD 4\nMotion (Raman – Yaroslavsky) relative to a transfer of funds from Council District Four to the Los Angeles Housing Department for Weingart Center to obtain a staff position for the A Bridge Home Riverside Ambassador Program (Program); and amending Contract No. C-202650 with the Los Angeles Homeless Services Authority to add the Program and amend the scope of work; and related matters.\nCommunity Impact Statement:\nNone submitted\nMotion (Raman - Yaroslavsky) dated 11-12-25",
+          "council_file": "25-1341",
+          "district": "CD 4",
+          "title": "Motion (Raman – Yaroslavsky) relative to a transfer of funds from Council District Four to the Los Angeles Housing Department for Weingart Center to obtain a staff position for the A Bridge Home Riverside Ambassador Program (Program); and amending Contract No. C-202650 with the Los Angeles Homeless Services Authority to add the Program and amend the scope of work; and related matters.",
+          "mig": "836b2196-1ae5-4892-a542-5dc8d6bf0eb9",
+          "attachments": [
+            {
+              "historyId": "7c625039-4d74-49be-bc1b-8c32f9c7a943",
+              "title": "Motion (Raman - Yaroslavsky) dated 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c625039-4d74-49be-bc1b-8c32f9c7a943",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c625039-4d74-49be-bc1b-8c32f9c7a943"
+            }
+          ]
+        },
+        {
+          "item_id": "157048",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "19-1576-S1\nMotion (Lee – Raman) relative to requesting the Los Angeles Housing Department and various agencies to report on whether U.S. Department of Housing and Urban Development requirements related to acuity-based prioritization are directly aligned with the prioritization system within the Coordinated Entry System; the factors that affect vacancy rates in permanent supportive housing; the Coordinated Entry System Triage Tool Research and Refinement (CESTTRR); and related matters.\nCommunity Impact Statement:\nYes\nFor: Los Feliz Neighborhood Council\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025\nMotion (Lee - Raman) dated 7-30-25",
+          "council_file": "19-1576-S1",
+          "title": "Motion (Lee – Raman) relative to requesting the Los Angeles Housing Department and various agencies to report on whether U.S. Department of Housing and Urban Development requirements related to acuity-based prioritization are directly aligned with the prioritization system within the Coordinated Entry System; the factors that affect vacancy rates in permanent supportive housing; the Coordinated Entry System Triage Tool Research and Refinement (CESTTRR); and related matters.",
+          "mig": "4026fb69-b50c-498a-bdd9-d5f7b9d27168",
+          "attachments": [
+            {
+              "historyId": "39ac30f5-0316-4376-af6e-d4b73c9b858d",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39ac30f5-0316-4376-af6e-d4b73c9b858d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=39ac30f5-0316-4376-af6e-d4b73c9b858d"
+            },
+            {
+              "historyId": "675f0ab2-8f66-4d84-af48-a9bdc1cc8f53",
+              "title": "Motion (Lee - Raman) dated 7-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=675f0ab2-8f66-4d84-af48-a9bdc1cc8f53",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=675f0ab2-8f66-4d84-af48-a9bdc1cc8f53"
+            }
+          ]
+        },
+        {
+          "item_id": "157049",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "24-1268-S1\nMotion (Blumenfield – Jurado) relative to amending Contract Nos. C-202650 and C-145627 and a transfer of funds for the Council District Three Hope the Mission Contingency Management Pilot Program.\nCommunity Impact Statement:\nNone submitted\nMotion (Blumenfield - Jurado) dated 11-07-25",
+          "council_file": "24-1268-S1",
+          "title": "Motion (Blumenfield – Jurado) relative to amending Contract Nos. C-202650 and C-145627 and a transfer of funds for the Council District Three Hope the Mission Contingency Management Pilot Program.",
+          "mig": "1f31d206-583a-4bbe-9d41-58e4a105f755",
+          "attachments": [
+            {
+              "historyId": "29df2f09-6979-4c81-9f4d-e4e594984c84",
+              "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29df2f09-6979-4c81-9f4d-e4e594984c84",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=29df2f09-6979-4c81-9f4d-e4e594984c84"
+            }
+          ]
+        },
+        {
+          "item_id": "157051",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "15-1138-S43\nMotion (Blumenfield – Jurado) relative to amending the City's General Funds Homeless Shelter Services Agreement with the Los Angeles Homeless Services Authority (LAHSA), Contract No. C-145627, to extend the term through June 30, 2027 and expand the Scope of Work to include rental assistance; and request LAHSA to amend or execute relevant contracts with Safe Parking LA.\nCommunity Impact Statement:\nNone submitted\nMotion (Blumenfield - Jurado) dated 11-07-25",
+          "council_file": "15-1138-S43",
+          "title": "Motion (Blumenfield – Jurado) relative to amending the City's General Funds Homeless Shelter Services Agreement with the Los Angeles Homeless Services Authority (LAHSA), Contract No. C-145627, to extend the term through June 30, 2027 and expand the Scope of Work to include rental assistance; and request LAHSA to amend or execute relevant contracts with Safe Parking LA.",
+          "mig": "6103ee9b-7464-479d-8f68-80aeb1d1433e",
+          "attachments": [
+            {
+              "historyId": "d7ff4976-8d9e-4385-a3f5-db4ec0b72d73",
+              "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7ff4976-8d9e-4385-a3f5-db4ec0b72d73",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d7ff4976-8d9e-4385-a3f5-db4ec0b72d73"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 13,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-03T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=_xN1jGyAONI"
+}
