@@ -1,0 +1,47 @@
+{
+  "council_file": "25-1349",
+  "title": "COMMUNICATION FROM THE CITY ENGINEER relative to the final map of Parcel Map L.A. No. 2023-7259, located at 15019 and 15021 Vose Street, westerly of Kester Avenue.",
+  "district": "CD 6",
+  "appearances": [
+    {
+      "meeting_id": 17506,
+      "date": "2025-12-02T18:00:00",
+      "section": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "item_number": "(36)",
+      "recommendation": "APPROVE the final map of Parcel Map L.A. No. 2023-7259, located at 15019 and 15021 Vose Street, westerly of Kester Avenue, and accompanying Subdivision Improvement Agreement and Contract with security documents. Owner: Janet Shamolian; Surveyor: Nick Kazemi Fiscal Impact Statement: The City Engineer reports that the subdivider has paid a fee of $9,064 for the processing of this final tract map pursuant to Section 19.02(B)(3) of the Los Angeles Municipal Code. No additional City funds are needed. Community Impact Statement: None submitted. Report from Bureau of Engineering dated 11-13-25 Attachment to Report dated 11-13-25 - Planning Actions Attachment to Report dated 11-13-25 - Bond"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "1f3869e5-c7aa-48b8-93fb-801ec049c8fc",
+      "title": "Report from Bureau of Engineering dated 11-13-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1f3869e5-c7aa-48b8-93fb-801ec049c8fc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=1f3869e5-c7aa-48b8-93fb-801ec049c8fc",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "80d82ecd-b3c8-44ed-a271-b011536edec8",
+      "title": "Attachment to Report dated 11-13-25 - Planning Actions",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=80d82ecd-b3c8-44ed-a271-b011536edec8",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=80d82ecd-b3c8-44ed-a271-b011536edec8",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "5fd85894-f03a-4588-be51-7e12deb1b4ed",
+      "title": "Attachment to Report dated 11-13-25 - Bond",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5fd85894-f03a-4588-be51-7e12deb1b4ed",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5fd85894-f03a-4588-be51-7e12deb1b4ed",
+      "meeting_id": 17506,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T18:00:00",
+  "last_seen": "2025-12-02T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}
