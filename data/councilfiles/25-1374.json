@@ -1,0 +1,47 @@
+{
+  "council_file": "25-1374",
+  "title": "COMMUNICATION FROM THE CITY ENGINEER relative to the final map of Parcel Map L.A. No. 2021-2032, located at 1120 North Coronado Street, southerly of Sunset Boulevard.",
+  "district": "CD 13",
+  "appearances": [
+    {
+      "meeting_id": 17506,
+      "date": "2025-12-02T18:00:00",
+      "section": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "item_number": "(37)",
+      "recommendation": "APPROVE the final map of Parcel Map L.A. No. 2021-2032, located at 1120 North Coronado Street, southerly of Sunset Boulevard, and accompanying Subdivision Improvement Agreement and Contract with security documents. Owner: 1120 Coronado CS, LLC; Surveyor: Bryan D. Gentry Fiscal Impact Statement: The City Engineer reports that the subdivider has paid a fee of $9,064 for the processing of this final tract map pursuant to Section 19.02(B)(3) of the Los Angeles Municipal Code. No additional City funds are needed. Community Impact Statement: None submitted. Report from Bureau of Engineering dated 11-18-25 Attachment to Report dated 11-18-25 - Bond Attachment to Report dated 11-18-25 - Planning Actions"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "daba9f4f-4bdf-4485-ab2c-99b4548f91dc",
+      "title": "Report from Bureau of Engineering dated 11-18-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=daba9f4f-4bdf-4485-ab2c-99b4548f91dc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=daba9f4f-4bdf-4485-ab2c-99b4548f91dc",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "7f025e18-9ec2-4b2b-bb79-9e505f038412",
+      "title": "Attachment to Report dated 11-18-25 - Bond",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f025e18-9ec2-4b2b-bb79-9e505f038412",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7f025e18-9ec2-4b2b-bb79-9e505f038412",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "39151e26-416d-4c12-a7a1-d1e876810b12",
+      "title": "Attachment to Report dated 11-18-25 - Planning Actions",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39151e26-416d-4c12-a7a1-d1e876810b12",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=39151e26-416d-4c12-a7a1-d1e876810b12",
+      "meeting_id": 17506,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T18:00:00",
+  "last_seen": "2025-12-02T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

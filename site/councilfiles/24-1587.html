@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 24-1587 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 24-1587: CATEGORICAL EXEMPTION, PURSUANT TO GOVERNMENT CODE SECTION 8698.4(A)(4) (STATUTORY EXEMPTION FOR ACTIONS TAKEN BY A CITY RELATED TO HOMELESS SHELTERS ">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                24-1587
+            </div>
+            <div class="file-number">24-1587</div>
+            <h1>The Los Angeles City Council is being asked to adopt two ordinances that would amend the Los Angeles Municipal Code (LAMC) to incorporate the state law definition of "homeless shelter." The amendments would modify sections related to zoning and land use regulations in both Chapter I and Chapter 1A of the LAMC.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value"></span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION, PURSUANT TO GOVERNMENT CODE SECTION 8698.4(A)(4) (STATUTORY EXEMPTION FOR ACTIONS TAKEN BY A CITY RELATED TO HOMELESS SHELTERS AUTHORIZED BY SECTION 8698.4), AND PUBLIC RESOURCES CODE SECTION 21080(B)(4) (SPECIFIC ACTIONS NECESSARY TO PREVENT OR MITIGATE AN EMERGENCY); PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT and ORDINANCES FIRST CONSIDERATION relative to amending Sections 12.21, 12.80, and 12.81 of Chapter I, and Sections 1.6.2 and 1.6.3, and Division 14.3 of Chapter 1A, of the Los Angeles Municipal Code (LAMC) to incorporate the definition of “homeless shelter” as defined in state law.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2a8e722e-ec71-4f5c-b5ec-c180e5cbf51e" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a8e722e-ec71-4f5c-b5ec-c180e5cbf51e" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is being asked to adopt two ordinances that would amend the Los Angeles Municipal Code (LAMC) to incorporate the state law definition of "homeless shelter." The amendments would modify sections related to zoning and land use regulations in both Chapter I and Chapter 1A of the LAMC. The ordinances would align Los Angeles's local definition with California state law requirements.</p>
+<h5>Why This Matters</h5>
+<p>This action is framed as necessary to address homelessness as an emergency situation. The city is leveraging state law provisions (Government Code Section 8698.4) that allow cities to streamline regulatory processes for homeless shelters. By incorporating the state definition into local code, Los Angeles can potentially expedite shelter approvals and removals while still complying with California Environmental Quality Act (CEQA) requirements through applicable statutory exemptions.</p>
+<h5>Key Details</h5>
+<p>The PLUM Committee reviewed this matter on October 28, 2025, and voted to recommend approval. The committee vote was 4-1 in favor (Blumenfield, Hutt, Lee, and Raman voted yes; Nazarian was absent). Two ordinances dated October 17, 2025, are pending Council adoption. Notably, no fiscal impact statement, financial analysis, or community impact statement was submitted with this report.</p>
+<h5>Impact</h5>
+<p>This change primarily affects how the city processes homeless shelter applications and regulations. By adopting the state definition, the city gains regulatory flexibility to address homelessness more rapidly. However, the lack of fiscal, financial, or community impact analysis means the full scope of effects on residents, neighborhoods, or city resources is not detailed in this document.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Attorney dated 10-17-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ac2bc423-a9fb-459d-80be-d25bbea96c2b" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac2bc423-a9fb-459d-80be-d25bbea96c2b" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Attorney is recommending that the Los Angeles City Council adopt two draft ordinances that update the city's definition of "homeless shelter" in the Los Angeles Municipal Code. The ordinances would align the city's definition with California state law (Government Code Section 8698.4) by removing a six-month residency time limit that currently exists in city regulations for shelters and temporary supportive housing.</p>
+<h5>Why?</h5>
+<p>The current city definition includes a six-month time limit for how long people can stay in emergency shelters, but state law does not impose such a limit. According to data cited in the report, shelters in Los Angeles actually experience longer stays—the average time from entering interim housing to obtaining permanent housing is approximately 272 days (9 months) in fiscal year 2024-25. This mismatch means the city's outdated time limit unnecessarily restricts the ability to serve people experiencing homelessness who need shelter for longer periods.</p>
+<h5>Key Details</h5>
+<p>The City Council requested these ordinances on June 24, 2025. The changes affect Sections 12.80 and 12.81 of Chapter I and Sections 1.6.2 and 1.6.3 of Chapter 1A of the municipal code. The Department of City Planning supports the change and recommends the ordinances be exempted from environmental review under state law provisions related to emergency actions.</p>
+<h5>Impact</h5>
+<p>This change would give homeless shelters in Los Angeles greater flexibility to serve vulnerable populations without arbitrary time restrictions, better matching the city's regulations to real-world needs and state law requirements.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action dated 6-25-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=dd9484bd-1a23-446c-81ab-7e957fd632a0" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd9484bd-1a23-446c-81ab-7e957fd632a0" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council has adopted technical amendments to the Los Angeles Municipal Code (LAMC) designed to align local shelter regulations with California State law. Specifically, the amendments modify Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3, to accommodate emergency shelter provisions codified in Government Code Section 8698 et seq.</p>
+<h5>Why?</h5>
+<p>Los Angeles has declared a local shelter crisis. The state has provided legal authority for emergency shelter operations under Government Code Section 8698 et seq. These technical code amendments are necessary to remove local regulatory barriers and allow the city to effectively implement emergency shelter solutions consistent with state law during this crisis period.</p>
+<h5>Key Details</h5>
+<p><strong>Council Vote</strong>: The measure passed with strong support—13 YES votes, 2 ABSENT (Raman and Rodriguez), 0 NO votes <strong>Action Date</strong>: June 24, 2025 <strong>Committee</strong>: Planning and Land Use Management Committee recommended adoption (June 10, 2025) <strong>Classification</strong>: Categorical Exemption (meaning environmental review requirements are waived)</p>
+<h5>Impact</h5>
+<p>These amendments affect how and where emergency shelters can operate in Los Angeles. Residents may see changes in shelter operations and placement procedures citywide. The modifications streamline city code to match state emergency shelter authority, potentially expediting shelter deployment to address homelessness during the declared crisis.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_6-10-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=eec9db89-16a1-4daf-9570-0ae7d5b78a4d" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eec9db89-16a1-4daf-9570-0ae7d5b78a4d" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What Is Being Proposed?</h5>
+<p>The Planning and Land Use Management (PLUM) Committee is recommending that the LA City Council approve technical amendments to the Los Angeles Municipal Code (LAMC) related to emergency shelter provisions. Specifically, the proposal would modify Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3 to align local regulations with state emergency shelter laws. The committee has asked the City Attorney to prepare two draft ordinances to implement these changes.</p>
+<h5>Why?</h5>
+<p>Los Angeles declared a local shelter crisis, and California State law (Government Code Section 8698 et. seq.) established emergency shelter provisions to address this crisis. These proposed code amendments are technical modifications designed to bring the city's municipal code into alignment with the state's emergency shelter requirements, enabling the city to better implement state-mandated protections and provisions for homeless individuals during the declared crisis period.</p>
+<h5>Key Details</h5>
+<p>The PLUM Committee held a regular meeting on June 10, 2025, where it reviewed reports from the LA City Planning Commission (LACPC) and Department of City Planning (DCP). Four of five committee members present voted in favor (Blumenfield, Hutt, Nazarian, and Lee voted YES; Raman was absent). The proposal is categorically exempt from California Environmental Quality Act (CEQA) review under state law provisions related to emergency shelter crises. No fiscal impact statement or community impact statement was submitted with the report.</p>
+<h5>Impact</h5>
+<p>This primarily affects how the city administers emergency shelter programs during the declared shelter crisis. The amendments will facilitate compliance with state law and potentially streamline the approval and operation of emergency shelters in Los Angeles. The changes are administrative and technical in nature, intended to remove local barriers and align city code with state requirements for emergency shelter services.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Communication(s) from Public_06-09-2025</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1305df15-b3b4-4844-b37a-865f965e121f" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1305df15-b3b4-4844-b37a-865f965e121f" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is considering amending the city's Emergency Shelter Code (LAMC 12.80). Fix The City, a advocacy organization, submitted two letters of opposition on June 9, 2025, urging the Council to reject these amendments.</p>
+<h5>Why This Matters & Key Concerns</h5>
+<p>Fix The City argues that the proposed amendments violate three state laws that regulate emergency shelter definitions, particularly SB 2 (Senate Bill 2) and California Government Code Section 8698 et seq. The core issue is that state law limits emergency shelter stays to six months maximum, but the organization claims the proposed amendments and current Los Angeles operations violate this limit. Specific violations cited include: The Midvale project has a 10-year use agreement, far exceeding the 730-day maximum allowed under state law Emergency sleeping cabins include individual bathrooms and plumbing, which state law prohibits LAHSA (Los Angeles Homeless Services Authority) operates with no time limit on residency, conflicting with state law</p>
+<h5>Key Details</h5>
+<p>The opposition targets Council File 24-1587 and Planning Commission file CPC 2025-1648-CA. Fix The City contends that current LAMC 12.80 complies with state law, but the proposed amendments would not. The organization emphasizes that state law has preempted local authority to create alternative definitions for emergency shelters—all California cities, including charter cities, must follow the same six-month occupancy limit established in Health and Safety Code Section 50801(e).</p>
+<h5>Impact</h5>
+<p>If approved, these amendments would allow longer-term shelter operations that the organization believes violate state law. Fix The City is actively litigating related issues and warns that amending the code would compound existing compliance problems rather than solve them.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Department of City Planning dated 6-06-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1ba842f1-8a1f-4265-bcc6-e4ca7d47dc39" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ba842f1-8a1f-4265-bcc6-e4ca7d47dc39" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>The City Planning Department is transmitting a citywide code amendment (CPC-2025-1648-CA) to the City Council for consideration. This legislative action requires environmental clearance and will necessitate the preparation of a draft ordinance by the City Attorney's Office. The amendment affects all council districts citywide, meaning it will apply uniformly across Los Angeles rather than to a specific location or project.</p>
+<h5>Background and Approval Process</h5>
+<p>The proposal was reviewed by the City Planning Commission on April 24, 2025, and received unanimous approval with an 8-0 vote. This strong support suggests the amendment has broad backing from planning staff and commissioners. The document references related cases dating back to 2016 and 2019, indicating this represents an evolution of ongoing planning efforts. The transmittal was officially received by the City Clerk's office on June 6, 2025.</p>
+<h5>Key Details and Timeline</h5>
+<p>The planner contact is Julia Heidelman (818-374-5045). The City Council has 90 days from receipt by the clerk to act on this measure. No formal public notice period is required (marked as "N/A - None"), and there are no appealed items. The document notes that a "Summary of Recommended Actions" should be added as an attachment to the council file for full context.</p>
+<h5>Impact</h5>
+<p>This citywide code amendment will affect all Los Angeles residents and businesses since it applies across all districts. While the specific content of the amendment is not detailed in this transmittal document, the unanimous commission vote and citywide scope suggest this is a significant planning policy change that will require City Council approval before implementation.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 6-06-25 - Corrected Recommended Actions</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=cd35ec08-b62d-4a9f-809e-5e77e289e15e" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd35ec08-b62d-4a9f-809e-5e77e289e15e" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Planning Commission is recommending that the City Council adopt amendments to the Los Angeles Municipal Code that would modify regulations for emergency shelters in the city. The proposal involves two separate ordinances: one amending Chapter 1 (Sections 12.80 and 12.81) and another amending Chapter 1A (Sections 1.6.2 and 1.6.3) of the zoning code. The City Planning Commission unanimously approved these changes on April 24, 2025.</p>
+<h5>Why This Matters?</h5>
+<p>This code amendment appears designed to update how emergency shelters are regulated and permitted within Los Angeles, likely to streamline the process of establishing or operating emergency shelter facilities. The amendment has been exempted from California Environmental Quality Act (CEQA) review, indicating the city determined it does not constitute a "project" requiring environmental analysis, which suggests it is primarily a procedural or regulatory clarification rather than a major new initiative.</p>
+<h5>Key Details</h5>
+<p><strong>Case Numbers:</strong> CPC-2025-1648-CA and ENV-2025-1649-SE <strong>Commission Vote:</strong> Approved without amendment on April 24, 2025 <strong>Status:</strong> Now being forwarded to the PLUM Committee of the City Council for consideration <strong>Required Actions:</strong> The Council is asked to determine CEQA exemption applies, adopt both ordinances, and accept the Commission's findings</p>
+<h5>Impact</h5>
+<p>This amendment affects anyone involved in establishing, operating, or residing near emergency shelters in Los Angeles, including nonprofit organizations, service providers, city departments, and potentially affected neighborhoods. The changes could streamline shelter operations and may impact where and how quickly new shelters can be established throughout the city.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Los Angeles City Planning Commission dated 5-15-25.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7f1856d8-b121-4dbb-9b2b-38e5127292dd" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f1856d8-b121-4dbb-9b2b-38e5127292dd" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Planning Commission is recommending that the City Council adopt an ordinance amending the Los Angeles Municipal Code to align local emergency shelter regulations with California State Law (Government Code Section 8698 et seq.). The amendment modifies Sections 12.80 and 12.81 in Chapter 1 and Sections 1.6.2 and 1.6.3 in Chapter 1A, allowing homeless shelters to operate by-right (without special permits) in certain zones during a declared shelter crisis. The key change replaces references to "transitional shelters" with the state's definition of "homeless shelter," making local rules consistent with state provisions.</p>
+<h5>Why This Matters</h5>
+<p>Los Angeles has declared a shelter crisis emergency, and state law provides streamlined procedures for establishing emergency shelters during such crises. This ordinance ensures that local zoning code does not create unnecessary barriers to operating shelters. By aligning local regulations with state law, the city removes regulatory obstacles that could delay shelter operations when people experiencing homelessness need immediate assistance. The amendment also supports the city's 2021-2029 Housing Element Program 115, which prioritizes reducing zoning barriers to homeless housing.</p>
+<h5>Key Details</h5>
+<p>The Planning Commission voted 8-0 in favor on April 24, 2025. The amendment allows city-owned/leased properties to establish shelters in any zone and permits nonprofit or religious organizations to operate shelters in specific residential and commercial zones (R3, R4, R5, C2, C4, C5, CM, M1, M2, M3). Parking requirements are waived if insufficient space exists. Unreinforced masonry and non-ductile concrete buildings are prohibited. The ordinance applies retroactively to shelters already established during the declared crisis.</p>
+<h5>Who This Affects</h5>
+<p>This primarily affects homeless service providers, religious institutions, nonprofits, and unhoused individuals. The city has 90 days to act on the commission's recommendation. The amendment is exempt from environmental review under state law, as it is an administrative change that does not create new shelters but rather removes regulatory impediments to existing shelter operations during the declared emergency.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 5-15-25 - Findings.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=bc830aa5-1a4c-4da6-9eda-0bb6c3f88b03" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc830aa5-1a4c-4da6-9eda-0bb6c3f88b03" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is amending Los Angeles Municipal Code (LAMC) sections 12.80, 12.81, and 1.6.2-1.6.3 to align local zoning regulations with California state law regarding emergency shelters for homeless individuals. The amendment facilitates "by-right" operation of emergency shelters (meaning they can proceed without special permits) when the Mayor or City Council declares a shelter crisis emergency.</p>
+<h5>Why?</h5>
+<p>Los Angeles is experiencing a declared shelter crisis, and current local regulations create unnecessary barriers that delay shelter operations. The proposed changes reduce regulatory and procedural hurdles to enable faster establishment of emergency housing. This aligns with the City's General Plan goals to prevent and end homelessness and with Housing Element Program 115, which specifically addresses zoning and development standards for homeless housing.</p>
+<h5>Key Details</h5>
+<p>The amendment is part of the 2021-2029 Housing Element and responds to state law provisions (California Government Code § 8698.4 et seq.). The ordinance only applies during declared shelter crisis emergencies, which can be revoked by the Mayor or City Council at any time. The changes are considered administrative and organizational adjustments rather than new substantive policies.</p>
+<h5>Impact</h5>
+<p>This affects unhoused residents by enabling faster access to emergency shelter during crisis periods. It benefits shelter providers and nonprofits by reducing approval timelines. The City has determined the amendment is exempt from environmental review (CEQA) since it's administrative in nature and doesn't create new shelter capacity—it simply removes procedural delays on existing allowances.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 5-15-25 - Staff Report.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e24d0639-f60c-4256-8cf2-3aee7272773c" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e24d0639-f60c-4256-8cf2-3aee7272773c" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Planning Commission is recommending that the City Council adopt an ordinance amending Los Angeles Municipal Code (LAMC) Chapter 1 Sections 12.80 and 12.81, and Chapter 1A Sections 1.6.2 and 1.6.3, to align local emergency shelter regulations with California state law (Government Code Section 8698.4). The key change is <strong>removing a six-month residency limit</strong> that currently applies to emergency shelters in the city's zoning code, harmonizing it with state law which contains no such time restriction.</p>
+<h5>Why?</h5>
+<p>The proposal addresses Los Angeles's severe homelessness crisis: approximately 45,252 individuals are experiencing homelessness in the city, with 65% unsheltered on any given night. The state's shelter crisis law allows jurisdictions to streamline emergency shelter approvals during declared crises. By aligning local code with state definitions, the city aims to reduce regulatory barriers and provide greater certainty for shelter providers attempting to open and operate facilities. The current six-month limit is unnecessarily restrictive—data shows residents need an average of nine months to transition from interim to permanent housing.</p>
+<h5>Key Details</h5>
+<p>The city has operated under a declared shelter crisis since April 17, 2018 Only one public comment was received, opposing the amendment and claiming it violates SB 2 (2007) The amendment applies retroactively to shelters already established during the crisis period The provisions only apply on publicly-owned/leased land or property owned by charitable/religious organizations during a declared emergency The amendment does not create new shelter allowances but clarifies definitions to match state law</p>
+<h5>Impact</h5>
+<p>This affects individuals experiencing homelessness by removing barriers to shelter availability and duration. It impacts shelter operators and nonprofits by providing regulatory clarity. The citywide application means all Los Angeles neighborhoods could potentially benefit from expanded shelter capacity under the declared emergency.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 5-15-25 - Chapter 1 Proposed Ordinance.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7aacb276-aaf3-4aa6-b3bc-1b9ad4f203aa" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7aacb276-aaf3-4aa6-b3bc-1b9ad4f203aa" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is amending the city's zoning code (Sections 12.80 and 12.81) to align local regulations with California state law regarding homeless shelters during declared shelter crises. The amendment changes how the definition of "homeless shelter" is referenced in the municipal code—replacing an internal local definition with the definition provided in California Government Code Section 8698.4(c)(1).</p>
+<h5>Why This Matters</h5>
+<p>This change is necessary to ensure consistency between local and state law and to streamline the process for establishing emergency shelters during shelter crises declared by the Mayor or City Council. By incorporating the state definition, the ordinance ensures that shelters meeting state criteria can be rapidly deployed without confusion over differing definitions at the local and state levels.</p>
+<h5>Key Details</h5>
+<p>The amendment addresses two scenarios: <strong>City-owned/leased property (Section 12.80)</strong>: Homeless shelters can be established in any zone without limits on bed count or occupancy <strong>Charitable organizations (Section 12.81)</strong>: Shelters operated by religious institutions or nonprofits can be established in residential, commercial, and industrial zones (R3, RAS3, R4, RAS4, R5, C2, C4, C5, CM, M1, M2, M3) without restrictions Both sections include flexibility for parking requirements and building safety standards (including a restriction against using unreinforced masonry buildings).</p>
+<h5>Impact</h5>
+<p>This ordinance applies retroactively to all shelters established during any declared shelter crisis, benefiting homeless individuals by enabling faster deployment of emergency shelter resources while maintaining basic safety and building code compliance.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Planning and Land Use Management Committee_01-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f5ce3a28-6042-4709-a1aa-287eba40e233" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5ce3a28-6042-4709-a1aa-287eba40e233" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Planning and Land Use Management (PLUM) Committee is recommending that the City Council instruct the Department of City Planning, in consultation with the City Attorney, to revise Los Angeles Municipal Code (LAMC) Section 12.80. The goal is to update the city's definition of "Homeless Shelter" to match the definition found in California Government Code Section 8698.4(c)1.</p>
+<h5>Why?</h5>
+<p>The proposed revision aims to "harmonize" or align the local Los Angeles code with state law. When local and state definitions differ, it can create confusion, inconsistencies in how regulations are applied, and potential legal complications. By aligning these definitions, the city ensures consistency between local and state homeless shelter regulations and removes any conflicts that might exist between the two.</p>
+<h5>Key Details</h5>
+<p>The PLUM Committee voted unanimously (5-0) on January 28, 2025, to approve this recommendation. Committee members voting yes were Blumenfield, Hutt, Nazarian, Lee, and Raman. Notably, no financial analysis has been completed, and no community impact statement was submitted with this report.</p>
+<h5>Impact</h5>
+<p>This change primarily affects how homeless shelters are defined and regulated in Los Angeles. While the specific impacts depend on how the state definition differs from the current local code, harmonizing these definitions could affect shelter operators, city planning decisions regarding shelter locations, and services for unhoused residents. The revision is still pending full City Council approval.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>10 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-17-25 - Draft Ordinance Chapter 1</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=78d2c933-681e-4c49-9a8e-d528d072d775" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=78d2c933-681e-4c49-9a8e-d528d072d775" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-17-25 - Draft Ordinance Chapter 1A</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=71d3955d-db53-4683-8900-de9ef4a7f674" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=71d3955d-db53-4683-8900-de9ef4a7f674" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 5-15-25 - Chapter 1A Proposed Ordinance.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=53e09504-9b1d-4eb1-93c3-92bb1d9a7493" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=53e09504-9b1d-4eb1-93c3-92bb1d9a7493" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 5-15-25 - Correspondence.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6392b48e-96d6-4ed7-b792-299d63086a85" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6392b48e-96d6-4ed7-b792-299d63086a85" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 5-15-25 - Mailing List.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=268151f8-d51f-4e6b-9b25-b192575fa3f6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=268151f8-d51f-4e6b-9b25-b192575fa3f6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 2-10-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=bd562c9c-e517-4da1-a98d-b9e1e0d915a3" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd562c9c-e517-4da1-a98d-b9e1e0d915a3" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_02-05-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=baaa428b-d398-4bc0-bfea-54d448092a23" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=baaa428b-d398-4bc0-bfea-54d448092a23" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_01-28-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=49d3ed98-bb83-4ac9-85d7-cfc9f237052d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=49d3ed98-bb83-4ac9-85d7-cfc9f237052d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_01-28-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c601fa30-69e3-42ea-a580-67439572535a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c601fa30-69e3-42ea-a580-67439572535a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Motion (Yaroslavsky - Harris-Dawson) dated 12-13-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ae78ffa5-0aca-4899-898c-9f5bee77bd95" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae78ffa5-0aca-4899-898c-9f5bee77bd95" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

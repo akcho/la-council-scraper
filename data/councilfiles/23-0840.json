@@ -1,0 +1,63 @@
+{
+  "council_file": "23-0840",
+  "title": "Los Angeles Housing Department report relative to establishing a process to assess and report on trends related to the concentration of ownership and corporatization of the City’s housing stock that may negatively impact renters, limit small landlord ownership opportunities, and limit first-time homebuyer opportunities.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17591,
+      "date": "2025-12-03T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(8)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3f46da39-08d8-4d8f-abce-fd070b96f3be",
+      "title": "Report from Los Angeles Housing Department dated 10-3-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f46da39-08d8-4d8f-abce-fd070b96f3be",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3f46da39-08d8-4d8f-abce-fd070b96f3be",
+      "meeting_id": 17591,
+      "has_summary": false
+    },
+    {
+      "historyId": "727f0e3d-54cc-4ce5-8837-7b03ce284a1d",
+      "title": "Council Action  dated 10-24-23",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=727f0e3d-54cc-4ce5-8837-7b03ce284a1d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=727f0e3d-54cc-4ce5-8837-7b03ce284a1d",
+      "meeting_id": 17591,
+      "has_summary": false
+    },
+    {
+      "historyId": "29ba2d5b-5204-468b-ac45-0c8b0e689e1e",
+      "title": "Speaker Card(s)_10-20-2023",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29ba2d5b-5204-468b-ac45-0c8b0e689e1e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=29ba2d5b-5204-468b-ac45-0c8b0e689e1e",
+      "meeting_id": 17591,
+      "has_summary": false
+    },
+    {
+      "historyId": "bdcca860-4879-4c5b-9775-34e8e76bd9ab",
+      "title": "Report from Housing and Homelessness Committee_9-29-23",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bdcca860-4879-4c5b-9775-34e8e76bd9ab",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=bdcca860-4879-4c5b-9775-34e8e76bd9ab",
+      "meeting_id": 17591,
+      "has_summary": false
+    },
+    {
+      "historyId": "4fa51469-603a-4503-b221-cb040fef30ba",
+      "title": "Motion (Rodriguez - Blumenfield) dated 8-11-23",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fa51469-603a-4503-b221-cb040fef30ba",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=4fa51469-603a-4503-b221-cb040fef30ba",
+      "meeting_id": 17591,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-03T22:00:00",
+  "last_seen": "2025-12-03T22:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 5,
+    "attachments_with_summaries": 0
+  }
+}

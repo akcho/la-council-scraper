@@ -1,0 +1,47 @@
+{
+  "council_file": "12-1967-S11",
+  "title": "Department of Animal Services and City Administrative Officer reports relative to the acceptance of a non-competitive grant from the American Society for the Prevention of Cruelty to Animals to fund six-months of canine enrichment services.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17577,
+      "date": "2025-12-02T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(9)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "8b5c28a6-0e5f-4358-b552-3e0311527f2b",
+      "title": "Communication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8b5c28a6-0e5f-4358-b552-3e0311527f2b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8b5c28a6-0e5f-4358-b552-3e0311527f2b",
+      "meeting_id": 17577,
+      "has_summary": false
+    },
+    {
+      "historyId": "db170248-48a8-40c4-96ce-3a127e31604a",
+      "title": "Report from Department of Animal Services dated 10-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db170248-48a8-40c4-96ce-3a127e31604a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=db170248-48a8-40c4-96ce-3a127e31604a",
+      "meeting_id": 17577,
+      "has_summary": false
+    },
+    {
+      "historyId": "79ef4532-a80e-44c0-b279-c79d7bfd6d4d",
+      "title": "Report from City Administrative Officer dated 10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79ef4532-a80e-44c0-b279-c79d7bfd6d4d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=79ef4532-a80e-44c0-b279-c79d7bfd6d4d",
+      "meeting_id": 17577,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T22:00:00",
+  "last_seen": "2025-12-02T22:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

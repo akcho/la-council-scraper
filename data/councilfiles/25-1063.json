@@ -1,0 +1,53 @@
+{
+  "council_file": "25-1063",
+  "title": "PUBLIC WORKS and TRANSPORTATION COMMITTEES’ JOINT REPORT relative to streamlining permitting for work in the public right-of-way associated with national and international events hosted in the City.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17432,
+      "date": "2025-11-14T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(3)",
+      "recommendation": "INSTRUCT the Bureau of Street Services, with the assistance of the Bureau of Engineering and the Department of Transportation, to report with recommendations to streamline permitting for work in the public right-of-way associated with national and international events hosted in the City. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Joint Report from Public Works and Transportation Committees 10-22-25 Motion (Rodriguez - Hernandez) dated 9-10-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+      "title": "Joint Report from Public Works and Transportation Committees 10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3ce829ba-7af0-4d1e-b187-89d13d136cb8",
+      "meeting_id": 17432,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1063\n\n## What is Being Proposed?\n\nThe Transportation and Public Works Committees are recommending that the City Council instruct the Bureau of Street Services—with assistance from the Bureau of Engineering and Department of Transportation—to study and report back with recommendations for streamlining the permitting process for work in Los Angeles's public right-of-way (streets, sidewalks, etc.) related to major national and international events.\n\n## Why?\n\nLos Angeles will be hosting several high-profile events in the coming years, including the FIFA World Cup, the Super Bowl, the NBA All-Star Game, and the 2028 Olympic and Paralympic Games. The Motion argues that current permitting processes could cause unnecessary delays that would undermine the City's readiness to host these events. By reviewing and streamlining these procedures now, the City can avoid bottlenecks and ensure smoother coordination of work related to event preparation and infrastructure.\n\n## Key Details\n\n- The original Motion was introduced on September 10, 2025, by Council Members Rodriguez and Hernandez\n- Both committees voted on October 22, 2025, with strong support (3 YES votes and 2 ABSENT in each committee)\n- This is not yet official—it requires full City Council approval\n- No financial analysis has been completed by the City Administrative Officer or Chief Legislative Analyst\n\n## Impact\n\nThis primarily affects City departments and contractors who need permits for public right-of-way work. Streamlined permitting could reduce delays and costs for event-related infrastructure projects, ultimately helping the City demonstrate readiness for major international events.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3786,
+        "output_tokens": 350,
+        "cost_usd": 0.005536
+      }
+    },
+    {
+      "historyId": "e9f24c1e-c386-4067-a67d-a9249f13ff2f",
+      "title": "Motion (Rodriguez - Hernandez) dated 9-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9f24c1e-c386-4067-a67d-a9249f13ff2f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=e9f24c1e-c386-4067-a67d-a9249f13ff2f",
+      "meeting_id": 17432,
+      "has_summary": true,
+      "summary": "# Summary: Motion to Streamline Event Permitting for Small Businesses\n\n## What is Being Proposed\nThe motion asks the Bureau of Street Services, with assistance from the Bureau of Engineering and Department of Transportation, to develop recommendations for streamlining the permitting process for work conducted in Los Angeles public rights-of-way (streets, sidewalks, etc.) related to major events hosted in the city.\n\n## Why This Matters\nLos Angeles will host several major international events in coming years, including the FIFA World Cup, Super Bowl, NBA All-Star Game, and 2028 Olympic and Paralympic Games. These events create significant economic opportunities for small, local, and underrepresented businesses. However, businesses currently face delays and complicated permitting processes when they need to work in public spaces to support these events. The motion addresses two key concerns: (1) small businesses need better preparation and pre-certification systems to compete for event-related contracts, and (2) the City's permitting processes must be streamlined to avoid unnecessary delays and ensure the City is ready to host these events efficiently.\n\n## Key Details\nThe motion specifically focuses on permits currently required by City departments for work in the public right-of-way. It was presented by Councilwoman Monica Rodriguez (7th District) and seconded by another council member, dated September 10, 2025.\n\n## Impact\nThis primarily affects small and local businesses seeking to participate in economic activity surrounding major sporting and entertainment events. By streamlining permitting and establishing pre-certification processes, the motion aims to level the playing field and ensure these businesses can successfully bid on opportunities and contribute to the City's event infrastructure.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2155,
+        "output_tokens": 355,
+        "cost_usd": 0.0039299999999999995
+      }
+    }
+  ],
+  "first_seen": "2025-11-14T18:00:00",
+  "last_seen": "2025-11-14T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

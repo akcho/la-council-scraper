@@ -1,0 +1,38 @@
+{
+  "council_file": "25-0005-S135",
+  "title": "COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 1151 South New Hampshire Avenue (Case No. 849794), Assessor I.D. No. 5078-026-011, from the Rent Escrow Account Program (REAP).",
+  "district": "CD 1",
+  "appearances": [
+    {
+      "meeting_id": 17455,
+      "date": "2025-10-29T17:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(16)",
+      "recommendation": "APPROVE the LAHD report recommendation dated October 16, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1151 South New Hampshire Avenue (Case No. 849794), Assessor I.D. No. 5078-026-011, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 10-16-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "63a7f51d-f742-4ab0-82aa-88fb7b7a3231",
+      "title": "Report from Los Angeles Housing Department dated 10-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=63a7f51d-f742-4ab0-82aa-88fb7b7a3231",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=63a7f51d-f742-4ab0-82aa-88fb7b7a3231",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary of LAHD REAP Removal Recommendation\n\n## What is Being Proposed\n\nThe Los Angeles Housing Department (LAHD) is requesting City Council approval to remove five residential properties from the Rent Escrow Account Program (REAP) and terminate rent reductions for tenants at these properties. The properties have allegedly corrected all code violations that led to their enrollment in REAP. LAHD is asking for this matter to be calendared for the October 29, 2025 City Council meeting.\n\n## Why This is Happening\n\nREAP is an enforcement program that places properties into escrow when landlords fail to maintain safe, habitable housing conditions. When violations are corrected and the property meets all requirements under Los Angeles Municipal Code Section 162.08, the property can be removed from the program. According to LAHD, all five properties have now met these requirements after their violations were independently verified as corrected by the Code Enforcement Division.\n\n## Key Details\n\nThe five properties being recommended for removal are located at: 1151 S New Hampshire Ave (20 units, Case No. 849794); 733 N Formosa Ave (Case No. 549700); 590 N New Hampshire Ave (two cases: Nos. 769444 and 828034); and 625 E 120th St (Case No. 828716). The property with the most detailed information (1151 S New Hampshire) was cited for 25 violations in June 2025 involving fire safety, sanitation, maintenance, electrical, plumbing, and heating systems—all reportedly now corrected.\n\n## Impact on Residents\n\nTenant rents will be restored to original levels 30 days after notification. Escrow funds will be distributed first to pay outstanding administrative fees and penalties, with any remaining funds returned to the landlord. Tenants should expect rent increases once the program terminates, though they will no longer face rent reductions tied to property code violations.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6849,
+        "output_tokens": 433,
+        "cost_usd": 0.009014000000000001
+      }
+    }
+  ],
+  "first_seen": "2025-10-29T17:00:00",
+  "last_seen": "2025-10-29T17:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "council_file": "22-0766-S3",
+  "title": "PUBLIC SAFETY COMMITTEE REPORT relative to the Fourth Annual California Assembly Bill 481 Annual Equipment Report.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17506,
+      "date": "2025-12-02T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(24)",
+      "recommendation": "NOTE and FILE the Board of Police Commissioners Report dated September 16, 2025, attached to the Council file, relative to the Fourth Annual California Assembly Bill 481 Annual Equipment Report. RENEW Ordinance No. 187603 pursuant to Government Code Section 7071(e). Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Safety Committee_10-01-25 Speaker Card(s)_10-01-2025 Communication(s) from Public_09-29-2025 Report from Board of Police Commissioners dated 9-16-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7d938dba-f6bb-4ed3-80cf-9dd84b926690",
+      "title": "Report from Public Safety Committee_10-01-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7d938dba-f6bb-4ed3-80cf-9dd84b926690",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7d938dba-f6bb-4ed3-80cf-9dd84b926690",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "87b8880d-0625-40ac-bbc0-c98732b00698",
+      "title": "Speaker Card(s)_10-01-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=87b8880d-0625-40ac-bbc0-c98732b00698",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=87b8880d-0625-40ac-bbc0-c98732b00698",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "9b200781-c86f-4d83-b4ae-2b73ef7151d6",
+      "title": "Communication(s) from Public_09-29-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b200781-c86f-4d83-b4ae-2b73ef7151d6",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9b200781-c86f-4d83-b4ae-2b73ef7151d6",
+      "meeting_id": 17506,
+      "has_summary": false
+    },
+    {
+      "historyId": "fb42cd92-8fc8-4898-9c5f-3a5293a57135",
+      "title": "Report from Board of Police Commissioners dated 9-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb42cd92-8fc8-4898-9c5f-3a5293a57135",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=fb42cd92-8fc8-4898-9c5f-3a5293a57135",
+      "meeting_id": 17506,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T18:00:00",
+  "last_seen": "2025-12-02T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 4,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1240",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(58)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "4fd06901-73fb-429a-a2e0-955c87fea00b",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fd06901-73fb-429a-a2e0-955c87fea00b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=4fd06901-73fb-429a-a2e0-955c87fea00b",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: City Attorney Report on Settlement Discussion\n\n## What is Being Proposed\nThe City Attorney's Office is requesting that the City Council hold a closed session meeting to discuss settlement negotiations and receive legal advice regarding a pending litigation case: **Mariano de la Rosa v. City of Los Angeles** (Case No. 23SCV23441, Claim No. C23-100777).\n\n## Why\nThis closed session is authorized under California Government Code Section 54956.9(d)(1), which permits public agencies to meet privately with legal counsel to discuss pending litigation strategy and settlement options. The purpose is to allow the City Council to receive confidential legal advice from the City Attorney's Office regarding how to proceed with this case.\n\n## Key Details\n- **Incident Date:** November 8, 2022\n- **Location:** 2329 Berkeley Avenue, Los Angeles\n- **Case Type:** Tree falling incident (property/personal injury claim)\n- **Contact:** Patty Thammalaviroj, Deputy City Attorney, (213) 978-8025\n- **Report Date:** October 9, 2025\n- **Report Number:** R25-0502\n\n## Impact\nThis affects City Council members and potentially impacts the city's liability exposure and budget. The closed session allows confidential discussion of settlement strategy without public disclosure of negotiation details, which is standard practice for protecting the city's legal interests in ongoing litigation.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 308,
+        "cost_usd": 0.004857
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "council_file": "25-0525-S1",
+  "title": "Motion (Price - Yaroslavsky) relative to a contract with Heart of Los Angeles Youth, Inc. to implement improvements at Augustus Hawkins Nature Park.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17484,
+      "date": "2025-11-07T22:00:00",
+      "section": "Committee referrals",
+      "item_number": "(4)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(26)",
+      "recommendation": "AUTHORIZE the General Manager, Community Investment for Families Department, or designee to negotiate and execute a contract in the amount of $1,000,000 in Community Development Block Grant funds with Heart of Los Angeles Youth, Inc. to implement improvements at Augustus Hawkins Nature Park. The term is a total of 13 years from the date of the Project Eligibility Proposal approval, which is three years for construction and ten years for service payback. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_11-7-25 Motion (Soto-Martinez for Price - Yaroslavsky) dated 10-17-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "2eb529be-7ed9-42ab-a5f0-094600ac26a8",
+      "title": "Motion (Soto-Martinez for Price - Yaroslavsky) dated 10-17-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2eb529be-7ed9-42ab-a5f0-094600ac26a8",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=2eb529be-7ed9-42ab-a5f0-094600ac26a8",
+      "meeting_id": 17484,
+      "has_summary": false
+    },
+    {
+      "historyId": "af33e42a-438e-4fa1-90e4-6e95e3391a3f",
+      "title": "Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_11-7-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af33e42a-438e-4fa1-90e4-6e95e3391a3f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=af33e42a-438e-4fa1-90e4-6e95e3391a3f",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "c5d842a9-601d-405c-855c-d156c758f9fc",
+      "title": "Motion (Soto-Martinez for Price - Yaroslavsky) dated 10-17-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5d842a9-601d-405c-855c-d156c758f9fc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c5d842a9-601d-405c-855c-d156c758f9fc",
+      "meeting_id": 17559,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-07T22:00:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

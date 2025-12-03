@@ -1,0 +1,46 @@
+{
+  "council_file": "25-0852",
+  "title": "The City Council shall recess to Closed Session, pursuant to Government Code Section No. 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(71)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "66899736-d7e4-4a03-963c-be71a2a8b761",
+      "title": "Speaker Card(s)_08-06-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66899736-d7e4-4a03-963c-be71a2a8b761",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=66899736-d7e4-4a03-963c-be71a2a8b761",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "09825817-f52a-4e2f-b421-b13120ba6459",
+      "title": "Report from City Attorney dated 7-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=09825817-f52a-4e2f-b421-b13120ba6459",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=09825817-f52a-4e2f-b421-b13120ba6459",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Request for Closed Session - Litigation Discussion\n\n## What is Being Proposed?\nThe Los Angeles City Attorney is requesting that the City Council hold a closed (private) session to discuss and receive legal advice regarding pending litigation in the case *Kamran Hakimi v. City of Los Angeles, et al.* (Case No. 24VECV05119). The closed session would be held under California Government Code Section 54956.9(d)(1), which allows governments to discuss litigation matters in private with legal counsel.\n\n## Why?\nThis type of closed session is permitted under state law to protect the City's legal strategy and interests in ongoing court cases. By conducting litigation discussions in private, the City can receive confidential legal advice from its attorneys without the discussions becoming public record, which could compromise the City's negotiating position or litigation strategy.\n\n## Key Details\n- **Report Number:** R25-0368\n- **Date:** July 30, 2025\n- **Case:** Kamran Hakimi v. City of Los Angeles, et al., Los Angeles Superior Court Case No. 24VECV05119\n- **Contact:** Anthony Miera, Senior Assistant City Attorney, (213) 978-6929\n- The report was signed by Kathleen Kenealy, Chief of the Civil Litigation Branch, on behalf of City Attorney Hydee Feldstein Soto\n\n## Impact\nThis affects transparency for residents and the public by temporarily removing discussion of this litigation from public view. However, residents should note that this is a standard legal procedure and does not prevent the ultimate outcome or settlement of the case from becoming public.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3758,
+        "output_tokens": 358,
+        "cost_usd": 0.005548
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

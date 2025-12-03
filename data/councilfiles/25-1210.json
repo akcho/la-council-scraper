@@ -1,0 +1,39 @@
+{
+  "council_file": "25-1210",
+  "title": "Board of Recreation and Park Commissioners report and Resolution relative to the contract renewal and continued funding application for the California Department of Education 2026-27 California State Preschool Program.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17577,
+      "date": "2025-12-02T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(6)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "0c830d88-8cb5-45c4-93b9-71342111c00a",
+      "title": "Report from Arts, Parks, Libraries, and Community Enrichment Committee_10-28-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c830d88-8cb5-45c4-93b9-71342111c00a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=0c830d88-8cb5-45c4-93b9-71342111c00a",
+      "meeting_id": 17577,
+      "has_summary": false
+    },
+    {
+      "historyId": "66287019-b608-47f2-b071-4d155d7092e9",
+      "title": "Report from Board of Recreation and Park Commissioners dated 10-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66287019-b608-47f2-b071-4d155d7092e9",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=66287019-b608-47f2-b071-4d155d7092e9",
+      "meeting_id": 17577,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T22:00:00",
+  "last_seen": "2025-12-02T22:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

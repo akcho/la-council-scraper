@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1233",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(66)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "c549b661-8c45-4dbe-af0b-a00b780327fc",
+      "title": "Revised Report from City Attorney dated 10-15-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c549b661-8c45-4dbe-af0b-a00b780327fc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c549b661-8c45-4dbe-af0b-a00b780327fc",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Settlement Discussion - Deanna Renee Mack v. City of Los Angeles\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's Office is requesting that the City Council hold a closed session to discuss and receive legal advice regarding a settlement recommendation for a pending litigation case. This is a revised report on the matter, indicating the recommendation may have changed from an earlier version.\n\n## Why?\nThis case stems from a fall incident that occurred on April 1, 2022, when Deanna Renee Mack was injured on a damaged portion of the sidewalk near 17148 Saticoy Street in Los Angeles. Under California Government Code Section 54956.9(d)(1), the City Council is permitted to meet in closed session to discuss pending litigation with legal counsel and determine appropriate Claims Board action.\n\n## Key Details\n- **Case:** Deanna Renee Mack v. City of Los Angeles, et al. (LASC Case No. 23VECV00677)\n- **Claim Number:** C23-02961\n- **Incident Date:** April 1, 2022\n- **Location:** Near 17148 Saticoy Street, Los Angeles, CA\n- **Contact:** Margarita Barron, Deputy City Attorney at (213) 473-6920\n\n## Impact\nThis matter affects the City's financial liability and risk management. The Board of Public Works Commission, Risk Management, and City leadership are involved in evaluating the appropriate settlement response to this premises liability claim.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3869,
+        "output_tokens": 340,
+        "cost_usd": 0.005569
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

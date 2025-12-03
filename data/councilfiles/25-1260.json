@@ -1,0 +1,31 @@
+{
+  "council_file": "25-1260",
+  "title": "Los Angeles Housing Department report relative to amending subordinate loan and related loan documents for the La Brea Franklin Apartments located at 1801 North La Brea Avenue in Council District Four, to ensure the long-term preservation of the affordable housing development.",
+  "district": "CD 4",
+  "appearances": [
+    {
+      "meeting_id": 17591,
+      "date": "2025-12-03T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(7)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "d5833d8a-b1af-4142-9f5f-483ef381d931",
+      "title": "Report from Los Angeles Housing Department dated 10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5833d8a-b1af-4142-9f5f-483ef381d931",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d5833d8a-b1af-4142-9f5f-483ef381d931",
+      "meeting_id": 17591,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-03T22:00:00",
+  "last_seen": "2025-12-03T22:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

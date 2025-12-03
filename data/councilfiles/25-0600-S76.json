@@ -1,0 +1,47 @@
+{
+  "council_file": "25-0600-S76",
+  "title": "Department on Disability report relative to the resources needed, including staffing and other expenses, to comply with the Americans with Disabilities Act (ADA) regulations and requirements for large scale events, including the 2026 World Cup and the 2028 Olympic and Paralympic Games, and whether these expenses could be reimbursed by the LA2028 Agreement in response to the Fiscal Year 2025-26 Budget Recommendation.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17557,
+      "date": "2025-12-05T22:00:00",
+      "section": "(This item is referred to the Civil Rights, Equity, Immigration, Aging, and Disability Committee and Budget and Finance Committee.)",
+      "item_number": "(6)",
+      "recommendation": "Yes Community Impact Statement: None submitted Report from Department on Disability dated 11-21-25 Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025 Budget Recommendation dated 07-30-25.pdf"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "b755aaec-a581-4832-9cdb-195e34cf16c5",
+      "title": "Report from Department on Disability dated 11-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b755aaec-a581-4832-9cdb-195e34cf16c5",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b755aaec-a581-4832-9cdb-195e34cf16c5",
+      "meeting_id": 17557,
+      "has_summary": false
+    },
+    {
+      "historyId": "54db1e2e-01d8-42f7-b6f9-6cc3de94ab2d",
+      "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54db1e2e-01d8-42f7-b6f9-6cc3de94ab2d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=54db1e2e-01d8-42f7-b6f9-6cc3de94ab2d",
+      "meeting_id": 17557,
+      "has_summary": false
+    },
+    {
+      "historyId": "cf9a4385-f50f-44da-aa03-212b20beb7fb",
+      "title": "Budget Recommendation dated 07-30-25.pdf",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf9a4385-f50f-44da-aa03-212b20beb7fb",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=cf9a4385-f50f-44da-aa03-212b20beb7fb",
+      "meeting_id": 17557,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-05T22:00:00",
+  "last_seen": "2025-12-05T22:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

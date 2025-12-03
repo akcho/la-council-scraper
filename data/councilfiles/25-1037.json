@@ -1,0 +1,215 @@
+{
+  "council_file": "25-1037",
+  "title": "CATEGORICAL EXEMPTION FROM THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) PURSUANT TO CEQA GUIDELINES, ARTICLE 19, SECTION 15332, CLASS 32, AND RELATED CEQA FINDINGS; COMMUNICATION FROM THE LOS ANGELES CITY PLANNING COMMISSION (LACPC); AND AN APPEAL filed by Eva Nathanson (Representative: Andrew Sachs), from the determination of the LACPC in: 1) approving a Density Bonus/Affordable Housing Incentive Program Determination, pursuant to Chapter 1 Section 12.22 A.25(g) of the Los Angeles Municipal Code (LAMC), to permit the construction of a Housing Development Project with the On-Menu Incentive to permit a 20 percent reduction in the required open space to provide 7,840 square feet in lieu of the 9,800 square feet, as otherwise required in the C4-1XL Zone; and, 2) approving a Project Review, pursuant to LAMC Chapter 1 Section 16.05, for a development project resulting in a net increase of 50 or more dwelling units; for the demolition of four existing commercial buildings, and an associated surface parking lot, and the construction, use, and maintenance of a mixed-use building consisting of 90 dwelling units, with 10 units restricted to Very Low Income Households, and 15,271 square feet of commercial uses, resulting in a total floor area of 110,300 square feet, or a Floor Area Ratio (FAR) of 4.52:1, the proposed project is comprised of a six-story, 69-foot in height mixed-use building, with two subterranean parking levels, the Project includes 96 automobile parking spaces on-site within two subterranean levels, 94 bicycle parking spaces (78 long-term and 16 short-term), and 7,840 square feet of open space, there are three existing street trees in the public right-of-way adjacent to the project site, the Project will maintain three existing street trees and plant three new Street Trees and 20 new on-site trees, there are no existing protected trees on-site, development of the Project will require the cut and export of approximately 20,194 cubic yards of soil, no import or fill is proposed; for the properties located at 8251 – 8271 West Melrose Avenue; and 705 – 711 North Harper Avenue, subject to Conditions of Approval; and adoption of project findings.",
+  "district": "CD 5",
+  "appearances": [
+    {
+      "meeting_id": 17455,
+      "date": "2025-10-29T17:00:00",
+      "section": "Completed hearings",
+      "item_number": "(7)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "893ff35a-a8e4-41cb-8e42-70c0e445816f",
+      "title": "Communication from Department of City Planning dated 10-23-25 - Supplemental Transmittal",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=893ff35a-a8e4-41cb-8e42-70c0e445816f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=893ff35a-a8e4-41cb-8e42-70c0e445816f",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955",
+      "title": "Attachment to Communication dated 10-23-25 - Appeal Response",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary of Appeal Response for 8251 West Melrose Avenue Project\n\n## What is Being Proposed?\nThe City Planning Department is recommending that the Los Angeles City Council **deny an appeal** filed against the City Planning Commission's August 6, 2025 approval of a mixed-use development project at 8251 West Melrose Avenue in Hollywood. The project involves demolishing four existing commercial buildings and constructing a 110,300 square-foot mixed-use building with 90 residential units (10 restricted for very low-income households) and 15,271 square feet of commercial space.\n\n## The Appeal and Key Concerns\nEva Nathanson, an abutting property owner, appealed the project approval, raising three main objections: (1) the project doesn't comply with all applicable General Plan policies regarding mobility, safety, noise, air quality, and housing; (2) the environmental review lacks substantial evidence that the project won't significantly impact traffic, noise, air quality, or water quality; and (3) unusual circumstances and cumulative impacts from other nearby density bonus projects should prevent use of the categorical exemption from environmental review.\n\n## City Planning's Response\nThe Department of City Planning argues that the appellant has not provided sufficient evidence to support these claims. They assert that: the project meets all required General Plan policies through analysis already completed; traffic modeling shows the project won't exceed thresholds requiring a full transportation study; independent noise and air quality studies confirm impacts are within acceptable limits; and site conditions like high water tables are typical urban conditions, not unusual circumstances. The City also notes that under state law, once the City demonstrates substantial evidence supporting the exemption, the burden shifts to the appellant to prove otherwise.\n\n## Recommendation and Impact\nPlanning Staff recommends the Council deny the appeal and approve the project, which would add 90 housing units (including affordable units) to Hollywood while converting underutilized commercial properties. The decision affects the surrounding West Hollywood/Hollywood community and sets precedent for how the City applies environmental exemptions to infill development projects.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 14371,
+        "output_tokens": 443,
+        "cost_usd": 0.016586
+      }
+    },
+    {
+      "historyId": "efebbfba-12e8-42d2-9a31-3bb5ea894e00",
+      "title": "Attachment to Communication dated 10-23-25 - Revised Findings",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=efebbfba-12e8-42d2-9a31-3bb5ea894e00",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=efebbfba-12e8-42d2-9a31-3bb5ea894e00",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1037: Mixed-Use Development with Affordable Housing\n\n## What is Being Proposed?\n\nThe City Planning Commission is approving a mixed-use development project at the corner of Melrose Avenue and Harper Avenue in Hollywood that will replace four existing commercial buildings with a new six-story building containing 90 residential units and approximately 15,271 square feet of ground-floor commercial retail space. Importantly, the project includes 10 affordable units (15% of total units) reserved for Very Low Income households for 55 years.\n\n## Why This Matters\n\nThe project requests three special land-use incentives under California's Density Bonus Program to make the affordable housing feasible. These incentives allow the developer to exceed normal zoning limits on building height (69 feet instead of 30 feet), floor area ratio (4.52:1 instead of 1.5:1), and reduce required open space slightly (from 9,800 to 7,840 square feet). The document establishes that these incentives directly reduce construction costs, allowing the developer to afford the affordable units while providing varied unit sizes and neighborhood services.\n\n## Key Details\n\n- **Location:** Hollywood Community Plan area (C4-1XL zone)\n- **Project Size:** 110,300 total square feet; 90 units (68 one-bedroom, 17 two-bedroom, 5 three-bedroom units)\n- **Affordable Component:** 10 Very Low Income units at restricted rents for 55 years\n- **Parking:** 96 vehicle spaces (well below the 231 normally required) and 94 bicycle parking spaces\n- **Environmental Status:** Project is exempt from full environmental review under California's Class 32 in-fill exemption\n\n## Impact\n\nThis project will add needed housing in a transit-rich area (near Metro Bus routes) while creating affordable options for very low-income residents. The development aligns with the City's Housing Element goals and contributes to the Hollywood area's economic vitality through ground-floor retail activation. Neighbors can expect a six-story building with improved pedestrian retail along Melrose Avenue, though the project's height represents a significant change from the current two-story commercial buildings in the area.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 36948,
+        "output_tokens": 496,
+        "cost_usd": 0.039428000000000005
+      }
+    },
+    {
+      "historyId": "05b0da59-9f62-4083-a5ac-f0e21218e5be",
+      "title": "Communication from Applicant Representative_10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=05b0da59-9f62-4083-a5ac-f0e21218e5be",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=05b0da59-9f62-4083-a5ac-f0e21218e5be",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "45d16a6e-e219-4a45-bea8-bf0845494735",
+      "title": "Communication from L.A. Radius, Inc. - Report of Returned Envelopes_10-21-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=45d16a6e-e219-4a45-bea8-bf0845494735",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=45d16a6e-e219-4a45-bea8-bf0845494735",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "65310207-c9dc-4469-83fc-aab56bbc1445",
+      "title": "Communication from L.A. Radius, Inc. - Certificate of Posting for Public Hearing_10-17-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65310207-c9dc-4469-83fc-aab56bbc1445",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=65310207-c9dc-4469-83fc-aab56bbc1445",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "b2ddb66c-781e-44cc-956d-04aee97f0162",
+      "title": "Proof of Publication dated 10-3-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2ddb66c-781e-44cc-956d-04aee97f0162",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b2ddb66c-781e-44cc-956d-04aee97f0162",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "8935e7ff-62ca-4a4b-b4cf-0b3e2982826d",
+      "title": "Communication from L.A. Radius, Inc. - Proof of Mailing Statement_10-03-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "7c05139f-dfa7-4479-9e04-7d62d2d58a42",
+      "title": "Communication from Committee Clerk - Notice_10-03-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c05139f-dfa7-4479-9e04-7d62d2d58a42",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7c05139f-dfa7-4479-9e04-7d62d2d58a42",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Mixed-Use Housing Development Appeal at Melrose and Harper Avenues\n\n## What is Being Proposed?\n\nEva Nathanson has filed an appeal challenging the Los Angeles City Planning Commission's approval of a mixed-use development project at 8251-8271 West Melrose Avenue and 705-711 North Harper Avenue. The project involves demolishing four commercial buildings and a surface parking lot to construct a six-story, 90-unit residential building with 15,271 square feet of commercial space. The Planning Commission approved density bonus incentives that allow the developer to reduce open space requirements from 9,800 to 7,840 square feet.\n\n## Why This Matters\n\nThe appeal will be heard by the Planning and Land Use Management (PLUM) Committee of the Los Angeles City Council on October 28, 2025. The committee must review the Planning Commission's approval of both the Density Bonus/Affordable Housing Incentive Program and the Project Review. The project includes 10 units restricted for very low-income households, addressing the city's need for affordable housing, though the appellant (represented by attorney Andrew Sachs) disputes whether the project meets all requirements.\n\n## Key Project Details\n\nThe 110,300 square-foot development will include 96 parking spaces across two subterranean levels, 94 bicycle parking spaces, and 7,840 square feet of open space. The building stands 69 feet tall with a Floor Area Ratio of 4.52:1. The project is located in Council District 5 and will require excavation of approximately 20,194 cubic yards of soil. Environmental review has been completed under CEQA (Class 32 Categorical Exemption).\n\n## Who Is Affected\n\nResidents within a 300-foot radius, the applicant (David Pourbaba/TOVA LLC), and interested parties are invited to testify. Written comments can be submitted through the Public Comment Portal (www.LACouncilComment.com) before October 28, 2025. Any judicial challenge must be filed within 90 days of the City Council's final action.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 4980,
+        "output_tokens": 469,
+        "cost_usd": 0.007325
+      }
+    },
+    {
+      "historyId": "9b36d7c8-0204-4ff1-91e8-a09f34e98989",
+      "title": "Report from Los Angeles City Planning Commission dated 9-03-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b36d7c8-0204-4ff1-91e8-a09f34e98989",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9b36d7c8-0204-4ff1-91e8-a09f34e98989",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Mixed-Use Development Appeal at Melrose Avenue and Harper Avenue\n\n## What is Being Proposed?\n\nThe Los Angeles City Planning Commission approved a mixed-use development project at 8251-8271 West Melrose Avenue and 705-711 North Harper Avenue in Hollywood. The project involves demolishing four existing commercial buildings to construct a six-story, 69-foot-tall building with 90 residential units (including 10 units reserved for very low-income households), 15,271 square feet of ground-floor commercial retail space, and two levels of underground parking with 96 spaces. An appeal of this approval has been filed and is now before the City Council for consideration.\n\n## Why This Matters?\n\nThe project was approved under California's Density Bonus law, which allows developers to exceed standard zoning limits (in this case, height and floor area) in exchange for providing affordable housing. The City Planning Commission found that the requested incentives—a height increase from 30 feet to 69 feet, a floor area increase from 1.5:1 to 4.52:1 ratio, and a 20% reduction in required open space—would enable construction of affordable units that would otherwise be financially infeasible. The project aligns with the City's housing goals and is located near transit, supporting the Mobility Plan's objectives to reduce vehicle trips.\n\n## Key Details\n\nThe project is located in Council District 5 (Yaroslavsky) on a 24,416-square-foot site currently occupied by older commercial buildings and surface parking. The Commission voted 5-0 to approve the project on July 10, 2025. An appellant (Eva Nathanson, represented by attorney Andrew Sachs) filed an appeal on August 18, 2025, challenging the On-Menu Density Bonus approval and the Project Review. The appeal period closed August 21, 2025. The City Council has 75 days from the appeal filing date to act on this matter.\n\n## Impact\n\nThis decision affects housing availability in Hollywood, adding 90 units (including 10 affordable units locked in for 55 years) to the neighborhood. Residents will see a taller building replacing commercial structures, ground-floor retail activation along Melrose Avenue, and reduced parking requirements. The project requires 96 parking spaces instead of the 231 typically required, reflecting the site's proximity to Metro transit. The appeal's outcome will determine whether this development can proceed as approved.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 64082,
+        "output_tokens": 543,
+        "cost_usd": 0.066797
+      }
+    },
+    {
+      "historyId": "f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b",
+      "title": "Attachment to Report dated 9-03-25 - Appeal",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: CEQA Appeal of Melrose/Harper Development Project\n\n## What is Being Appealed?\n\nEva Nathanson (property owner) and Andrew Sachs (tenant) at 715 N. Harper Avenue are appealing the City Planning Commission's August 6, 2025 decision to grant a categorical exemption from California Environmental Quality Act (CEQA) review for a proposed development at 8251-8271 W. Melrose Ave. and 705-711 N. Harper Ave. The appellants argue that a full environmental review—either a Mitigated Negative Declaration or Environmental Impact Report—should be required instead of the streamlined categorical exemption.\n\n## Why This Matters\n\nThe appellants contend that the project poses significant environmental and safety risks that were not adequately studied. Their primary concerns include: (1) structural damage risk from large-scale excavation (approximately 20,194 cubic yards) in an area with a high water table—they cite prior damage to their own property from nearby excavation; (2) traffic and emergency access problems, as Harper Avenue already suffers from congestion and illegal parking that could be worsened by the project's new driveway and loading dock; (3) air quality and noise impacts on sensitive receptors, including elderly residents and a senior care facility (Shalom Gardens) just 30 feet away; and (4) cumulative impacts from multiple mid-rise projects in the area that have never been analyzed together.\n\n## Key Legal Arguments\n\nThe appellants cite recent California court decisions—particularly *United Neighborhoods v. City of Los Angeles* (2023)—requiring the City to analyze consistency with all applicable General Plan policies (Mobility, Safety, Noise, Air Quality, Housing Elements), not just land use policies. They argue the City's analysis was incomplete and relied on generic compliance statements rather than project-specific studies. Under the \"unusual circumstances\" exception to categorical exemptions, they contend the combination of high groundwater, adjacency to older structures with settlement damage, and location on a critical emergency access street should bar the exemption.\n\n## What They're Asking For\n\nThe appellants request that the City Council (1) grant the appeal and set aside the categorical exemption; (2) prohibit demolition and construction until independent experts complete cumulative environmental and traffic studies; (3) prepare a full Environmental Impact Report; (4) require the developer to name their property as additionally insured on the construction insurance policy; and (5) implement relief measures to protect their property during any approved construction.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 30645,
+        "output_tokens": 553,
+        "cost_usd": 0.033409999999999995
+      }
+    },
+    {
+      "historyId": "4071be4b-fe69-4b52-b696-825a69bfef9d",
+      "title": "Attachment to Report dated 9-03-25 - Conditions of Approval",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4071be4b-fe69-4b52-b696-825a69bfef9d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=4071be4b-fe69-4b52-b696-825a69bfef9d",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Conditions of Approval for Mixed-Use Development Project CPC-2024-3202-DB-PR-VHCA\n\n## What is Being Proposed?\n\nThe Los Angeles Department of City Planning has approved a six-story mixed-use building development containing 90 residential dwelling units and 15,271 square feet of commercial space. This approval grants density bonus incentives under California state law, allowing the project to exceed standard zoning requirements in exchange for providing affordable housing and other public benefits.\n\n## Why This Matters\n\nThe project leverages California's Density Bonus Law (Government Code Section 65915) to facilitate housing production while ensuring affordability. The developer receives regulatory incentives (reduced parking requirements, increased height and floor area), but must meet specific affordable housing requirements and comply with Los Angeles' Rent Stabilization Ordinance to qualify for an exemption on market-rate units.\n\n## Key Details\n\nThe project must include 10 units reserved for Very Low Income Households for 55 years, with the Los Angeles Housing Department (LAHD) enforcing the affordability covenant. The building is limited to 69 feet in height, a 4.52:1 floor area ratio, and 96 parking spaces (well below typical requirements due to AB 2097 near-transit provisions). Six street trees and a minimum of 20 on-site trees must be planted, and the project must provide enhanced landscaping (10% more than standard requirements). Construction must comply with strict noise and environmental standards, including prohibition of impact pile drivers and requirements for equipment shielding.\n\n## Impact\n\nThis approval allows increased residential density in an urban area while protecting affordability for very low-income households and establishing community benefits. The conditions protect surrounding residents through noise controls, lighting restrictions, and maintenance requirements, while the indemnification clause (Condition 42) requires the applicant to defend the City against any legal challenges to the approval.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 18356,
+        "output_tokens": 419,
+        "cost_usd": 0.020451
+      }
+    },
+    {
+      "historyId": "0144af88-5de2-41cb-aaf4-57da65e6c450",
+      "title": "Attachment to Report dated 9-03-25 - Findings",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0144af88-5de2-41cb-aaf4-57da65e6c450",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=0144af88-5de2-41cb-aaf4-57da65e6c450",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Mixed-Use Development with Affordable Housing in Hollywood\n\n## What is Being Proposed?\n\nThe City Planning Commission is approving a mixed-use residential and commercial development project in Hollywood (located at the intersection of Melrose Avenue and Harper Avenue). The project involves demolishing four existing commercial buildings and constructing a new six-story building with 90 residential units and 15,271 square feet of commercial retail space. Importantly, the project will set aside 10 units (15% of total units) for Very Low Income households for 55 years.\n\n## Why?\n\nThe project is designed to address Los Angeles's housing shortage by adding needed residential units in an urban infill location near public transit. The developer is requesting three incentives under California's Density Bonus / Affordable Housing Program to make the affordable housing economically feasible. These incentives allow the project to exceed normal zoning limits (increased building height from 30 to 69 feet, increased floor area from 1.5:1 to 4.52:1 FAR, and reduced open space requirements). The incentives are permitted under state law when at least 15% of units are reserved for very low-income households.\n\n## Key Details\n\n- **Location:** Melrose Avenue and Harper Avenue, Hollywood\n- **Size:** 110,300 total square feet (95,029 residential; 15,271 commercial)\n- **Units:** 90 total residential units with 10 affordable units for very low-income households\n- **Height/Bulk:** 69 feet, 6 stories (vs. standard 30 feet, 2 stories)\n- **Parking:** 96 vehicle spaces and 94 bicycle spaces; reduced from standard 231 spaces due to proximity to transit\n- **Transit Access:** Within one-half mile of Metro Bus Routes 10/48 and 105\n\n## Impact\n\nThe project will provide much-needed housing in a transit-accessible area while preserving three existing street trees and maintaining ground-floor commercial activity along Melrose Avenue. Residents will benefit from reduced vehicle trips through proximity to public transit. The 10 affordable units help address Los Angeles's affordable housing crisis, though the project requires zoning modifications to proceed.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 33028,
+        "output_tokens": 492,
+        "cost_usd": 0.035488000000000006
+      }
+    },
+    {
+      "historyId": "0d3954c3-4f5e-445b-aaab-5620b9dd1b31",
+      "title": "Attachment to Report dated 9-03-25 - Staff Report",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d3954c3-4f5e-445b-aaab-5620b9dd1b31",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=0d3954c3-4f5e-445b-aaab-5620b9dd1b31",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "5537c729-a15e-437c-bbd0-f1409df53606",
+      "title": "Attachment to Report dated 9-03-25 - NOE",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5537c729-a15e-437c-bbd0-f1409df53606",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5537c729-a15e-437c-bbd0-f1409df53606",
+      "meeting_id": 17455,
+      "has_summary": true,
+      "summary": "# Summary: Notice of Exemption for 8251 West Melrose Avenue Development\n\n## What is Being Proposed?\nThe City of Los Angeles Department of City Planning has approved a mixed-use development project at 8251-8271 West Melrose Avenue and 705-711 North Harper Avenue in Hollywood (Council District 5). The project involves demolishing four existing commercial buildings and a surface parking lot to construct a new six-story building with 90 residential units and 15,271 square feet of commercial space.\n\n## Why?\nThe project qualifies for a \"Class 32 Urban Infill Exemption\" under the California Environmental Quality Act (CEQA), meaning it does not require a full environmental review. The City determined that the development is consistent with local zoning, occurs on a previously developed urban site (0.56 acres), and will not result in significant environmental impacts related to traffic, noise, air quality, or water quality. The project also provides affordable housing through the Density Bonus/Affordable Housing Incentive Program (with at least 11% of units designated as very low income).\n\n## Key Details\n- **Location:** Hollywood area, west of Harper Avenue\n- **Building specs:** 6-story structure, 110,300 total square feet, 69-foot height\n- **Parking:** 96 automobile spaces (in two basement levels) and 94 bicycle spaces\n- **Unit mix:** 68 one-bedroom, 17 two-bedroom, and 5 three-bedroom units\n- **Environmental conditions:** No protected trees on-site; project requires export of approximately 20,194 cubic yards of soil\n- **Entitlements approved:** Density Bonus and Project Review\n\n## Impact\nThis exemption allows the project to proceed without extensive environmental review, expediting approval. The development will add housing (including affordable units) to a walkable urban neighborhood while replacing older commercial buildings. Residents and nearby property owners may experience temporary construction impacts, managed through haul route monitoring by the Department of Building and Safety, but the City has determined there will be no significant long-term environmental effects.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 14577,
+        "output_tokens": 467,
+        "cost_usd": 0.016912
+      }
+    },
+    {
+      "historyId": "b76f410d-108a-41ca-89f0-605107fc00c7",
+      "title": "Attachment to Report dated 9-03-25 - Exhibit",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b76f410d-108a-41ca-89f0-605107fc00c7",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b76f410d-108a-41ca-89f0-605107fc00c7",
+      "meeting_id": 17455,
+      "has_summary": false
+    },
+    {
+      "historyId": "5ce11009-86ea-4eb3-9840-680b9a27b802",
+      "title": "Attachment to Report dated 9-03-25 - Mailing List",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ce11009-86ea-4eb3-9840-680b9a27b802",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5ce11009-86ea-4eb3-9840-680b9a27b802",
+      "meeting_id": 17455,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-10-29T17:00:00",
+  "last_seen": "2025-10-29T17:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 17,
+    "attachments_with_summaries": 8
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "council_file": "21-1015-S18",
+  "title": "ENERGY AND ENVIRONMENT and BUDGET AND FINANCE COMMITTEES’ REPORT relative to applications for the United States Environmental Protection Agency (USEPA), Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program – Fiscal Year (FY) 2025.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(17)",
+      "recommendation": "AUTHORIZE the General Manager, Department of Water and Power (DWP), or designee, to prepare and submit two grant applications for the USEPA, Office of Water, Office of Ground Water and Drinking Water, Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program - FY 2025. INSTRUCT the General Manager, DWP, or designee, to report if the City is awarded the grants, to request authority to accept the grant awards, and to request approval for any related actions to implement the grant awards. Fiscal Impact Statement: The City Administrative Officer (CAO) reports that approval of the above recommendations will not result in a General Fund impact. There is a 10 percent matching funds requirement for the Midsize and Large Drinking Water System Infrastructure Resilience and Sustainability Program – FY 2025 grant. However, upon notification of a grant award, a reassessment on the General Fund impact should be completed as it relates to either lower than requested grant award amounts, verification of local match requirements, or front-funding for grants on a reimbursement basis. Financial Policies Statement: The CAO reports that the above recommendations comply with the City’s Financial Policies. Community Impact Statement: None submitted Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25 Speaker Card(s)_10-07-2025 Report from City Administrative Officer dated 9-24-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "286f1f2c-74c0-4864-a59e-dd1a9ad695f7",
+      "title": "Joint report from Energy and Environment Committee and Budget and Finance Committee_10-7-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=286f1f2c-74c0-4864-a59e-dd1a9ad695f7",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=286f1f2c-74c0-4864-a59e-dd1a9ad695f7",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 21-1015-S18\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize the Department of Water and Power (DWP) to submit two grant applications to the U.S. Environmental Protection Agency (EPA) for the Midsize and Large Drinking Water Infrastructure Resilience and Sustainability Program for Fiscal Year 2025. If awarded, the Council will later need to approve accepting the grants and any related implementation actions.\n\n## Why?\n\nThe EPA grant program aims to improve drinking water infrastructure resilience and sustainability in mid-sized and large water systems. This funding opportunity allows the City to access federal resources to strengthen its water infrastructure without immediate General Fund impact for the grant application itself.\n\n## Key Details\n\n- **Matching requirement**: The City would need to provide 10% in matching funds if grants are awarded\n- **Committee approval**: Both the Energy and Environment Committee and Budget and Finance Committee unanimously approved this on October 21, 2025\n- **Financial impact**: Currently expected to be zero General Fund impact for the application phase, though this will be reassessed if the City is awarded funding\n- **Next steps**: DWP must report back to Council if grants are awarded and request final approval\n\n## Impact\n\nThis affects all Los Angeles residents who depend on drinking water services. Successful grants could fund infrastructure improvements that enhance water system reliability and sustainability, though residents should note that a 10% local match requirement may eventually require City funding if grants are awarded.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3983,
+        "output_tokens": 325,
+        "cost_usd": 0.005608
+      }
+    },
+    {
+      "historyId": "8a04e3dc-890f-4962-aa56-64ce64d17c6d",
+      "title": "Speaker Card(s)_10-07-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a04e3dc-890f-4962-aa56-64ce64d17c6d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8a04e3dc-890f-4962-aa56-64ce64d17c6d",
+      "meeting_id": 17406,
+      "has_summary": false
+    },
+    {
+      "historyId": "d92ba4b0-0a25-462f-b9be-605b2c890f79",
+      "title": "Report from City Administrative Officer dated 9-24-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d92ba4b0-0a25-462f-b9be-605b2c890f79",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d92ba4b0-0a25-462f-b9be-605b2c890f79",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: EPA Grant Applications for Water Infrastructure Projects\n\n## What is Being Proposed\n\nThe Los Angeles Department of Water and Power (LADWP) is seeking City Council authorization to submit two federal grant applications to the U.S. Environmental Protection Agency (EPA) totaling approximately **$4.75 million** in requested funding. The two projects are: (1) the Earthquake Resistant Pipeline Mainline Installation Program requesting $2.375 million, and (2) the Landscape Efficiency Assistance Program (LEAP) requesting $2.375 million.\n\n## Why This Matters\n\nLos Angeles is responding to an EPA funding opportunity focused on building resilience in drinking water systems against natural hazards and extreme weather events. The Earthquake Resistant Pipeline project directly addresses earthquake risk by retrofitting water mains in hazard-prone areas with earthquake and subsidence-resistant materials to prevent catastrophic failures during seismic events. LEAP addresses water conservation and equity by providing free landscape upgrades to eligible residents in disadvantaged communities, reducing residential water consumption while lowering costs for vulnerable populations.\n\n## Key Details\n\n- **Funding Available:** $9.5 million total EPA program (six grants expected; Los Angeles is one of two applicants in the \"Large Community\" category seeking $2-2.375 million each)\n- **Cost Sharing Required:** 10% local match ($1 million for Pipeline; $237,500 for LEAP), funded through LADWP Water Revenue Fund and staff time\n- **Timeline:** Applications due October 6, 2025; awards expected May 2026; projects complete by May 2030\n- **Scope:** Pipeline project affects water distribution citywide; LEAP targets 700-1,000 residential properties in disadvantaged communities\n\n## Impact\n\nIf awarded, these grants would improve public safety and water security for all Los Angeles residents by making the water system more resilient to earthquakes and drought. LEAP specifically benefits low-income residents in disadvantaged communities by providing free water-saving upgrades. The report notes no General Fund impact, though LADWP will need to return to Council for final approval if grants are awarded.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 24595,
+        "output_tokens": 467,
+        "cost_usd": 0.02693
+      }
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 2
+  }
+}

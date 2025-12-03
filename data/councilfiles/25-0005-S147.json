@@ -1,0 +1,38 @@
+{
+  "council_file": "25-0005-S147",
+  "title": "COMMUNICATION FROM THE LOS ANGELES HOUSING DEPARTMENT (LAHD) and RESOLUTION relative to removing the property at 115 East Brooks Avenue (Case No. 774887), Assessor I.D. No. 4286-014-046, from the Rent Escrow Account Program (REAP).",
+  "district": "CD 11",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(35)",
+      "recommendation": "APPROVE the LAHD report recommendation dated November 4, 2025, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 115 East Brooks Avenue (Case No. 774887), Assessor I.D. No. 4286-014-046, from the REAP. Fiscal Impact Statement: None submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Los Angeles Housing Department dated 11-04-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "52663824-0aea-42e5-98cc-4bcf4223c518",
+      "title": "Report from Los Angeles Housing Department dated 11-04-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=52663824-0aea-42e5-98cc-4bcf4223c518",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=52663824-0aea-42e5-98cc-4bcf4223c518",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: REAP Removal for 115 E Brooks Ave, Venice\n\n## What is Being Proposed?\nThe Los Angeles Housing Department (LAHD) is recommending that the City Council remove a 2-unit property located at 115 E Brooks Ave in Venice from the Rent Escrow Account Program (REAP). This would terminate the rent reductions currently in place and release any funds held in the escrow account back to the property owner.\n\n## Why?\nThe property was placed into REAP in March 2022 after being cited for illegal construction violations. LAHD has now independently verified that all code violations have been corrected, utility charges are paid, and the work was completed to satisfaction. Because the property has met all requirements under Los Angeles Municipal Code Section 162.08, LAHD determines it is appropriate to close the case and exit REAP.\n\n## Key Details\n- **Property**: 115 E Brooks Ave, Venice CA 90291 (APN 4286-014-046)\n- **Owner**: Thomas Elliott\n- **Case Number**: 774887 (opened March 17, 2022)\n- **Units Affected**: 2 units\n- **Violation**: Illegal construction\n- **Scheduled Hearing**: November 12, 2025, City Council meeting\n\n## Impact\nOnce approved, tenants' rents will be restored to original levels 30 days after notification. The property owner will receive any remaining escrow account funds after LAHD recovers administrative fees, penalties, and inspection costs. The property will no longer be subject to REAP monitoring and rent reductions.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 6566,
+        "output_tokens": 361,
+        "cost_usd": 0.008371
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

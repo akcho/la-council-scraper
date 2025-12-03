@@ -1,0 +1,54 @@
+{
+  "council_file": "25-1251",
+  "title": "COMMUNICATION FROM THE CITY ENGINEER relative to initiating vacation proceedings for alley south of Exposition Boulevard between Bundy Drive and Amherst Avenue (VAC-E1401470).",
+  "district": "CD 11",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(40)",
+      "recommendation": "ADOPT the City Engineer report dated October 20, 2025, attached to the Council file, to initiate the proceedings to vacate alley south of Exposition Boulevard between Bundy Drive and Amherst Avenue, as shown on Exhibit A of said City Engineer report, pursuant to California Streets and Highways Code, Division 9, Part 3, Public Streets, Highways and Service Easements Vacation Law. DIRECT the Bureau of Engineering to investigate and report regarding the feasibility of this vacation request. Fiscal Impact Statement: The City Engineer reports that a deposit of $14,980 was paid by the petitioner for the investigation of this request pursuant to Section 7.42 of the Los Angeles Administrative Code (LAAC). Any deficit fee to recover the cost pursuant to LAAC Section 7.44 will be required of the petitioner. Community Impact Statement: None submitted Report from Bureau of Engineering dated 10-20-25 Attachment to Report dated 10-20-25 - Exhibit A Attachment to Report dated 10-20-25 - Application"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "3c681536-4c56-4765-b25b-2cb21ff6cc46",
+      "title": "Report from Bureau of Engineering dated 10-20-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c681536-4c56-4765-b25b-2cb21ff6cc46",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3c681536-4c56-4765-b25b-2cb21ff6cc46",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Alley Vacation Request - Exposition Boulevard\n\n## What is Being Proposed?\n\nThe City is initiating vacation proceedings to remove the alley located south of Exposition Boulevard between Bundy Drive and Amherst Avenue from the public street system. This is the first step in a formal process that does not yet constitute approval of the vacation.\n\n## Why?\n\nPetitioner Alex Moore, representing property owner Bundy Expo LLC, is requesting the vacation to facilitate future development of a residential mixed-use building on the property. The developer plans to repurpose a portion of the alley for pedestrian access between buildings and vehicular access to parking areas.\n\n## Key Details\n\n- **Case Number:** VAC-E1401470\n- **Application Date:** September 15, 2025\n- **Deposit Paid:** $14,980.00 (for investigation costs)\n- **Property Address:** 429 Santa Monica Boulevard\n- **Council District:** 11\n- **Next Steps:** The Bureau of Engineering will investigate feasibility and report back to the Public Works Committee\n\n## Impact\n\nThis action initiates a formal review process but does not guarantee the vacation will be approved. The community and affected parties will have opportunities to comment during the investigation phase. Any additional costs beyond the initial deposit will be the petitioner's responsibility.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3844,
+        "output_tokens": 290,
+        "cost_usd": 0.005294
+      }
+    },
+    {
+      "historyId": "10f9edd2-441c-41a8-8545-a3664eb38127",
+      "title": "Attachment to Report dated 10-20-25 - Exhibit A",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=10f9edd2-441c-41a8-8545-a3664eb38127",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=10f9edd2-441c-41a8-8545-a3664eb38127",
+      "meeting_id": 17283,
+      "has_summary": false
+    },
+    {
+      "historyId": "5ed819a0-15b7-436b-8c3d-b3e12a152c8b",
+      "title": "Attachment to Report dated 10-20-25 - Application",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ed819a0-15b7-436b-8c3d-b3e12a152c8b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5ed819a0-15b7-436b-8c3d-b3e12a152c8b",
+      "meeting_id": 17283,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 3,
+    "attachments_with_summaries": 1
+  }
+}

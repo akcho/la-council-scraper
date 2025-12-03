@@ -1,0 +1,46 @@
+{
+  "council_file": "25-1275",
+  "title": "COMMUNICATION FROM THE CITY ENGINEER relative to the final map of Tract No. 84622, located at 1361 South Kelton Avenue, southerly of Rochester Avenue.",
+  "district": "CD 5",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "No hearings held (requires 10 votes)",
+      "item_number": "(39)",
+      "recommendation": "APPROVE the final map of Tract No. 84622, located at 1361 South Kelton Avenue, southerly of Rochester Avenue, and accompanying Subdivision Improvement Agreement and Contract with security documents. Owner: 1361 Kelton LLC Surveyor: Bryan Gentry Fiscal Impact Statement: The City Engineer reports that the subdivider has paid a fee of $9,064 for the processing of this final tract map pursuant to Section 19.02(A)(2) of the Los Angeles Municipal Code. No additional City funds are needed. Community Impact Statement: None submitted. Report from Bureau of Engineering dated 10-24-25 Attachment to Report dated 10-24-25 - Planning Actions"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "a58b5269-db9b-4dd4-bba2-62a5841ec6a3",
+      "title": "Report from Bureau of Engineering dated 10-24-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a58b5269-db9b-4dd4-bba2-62a5841ec6a3",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a58b5269-db9b-4dd4-bba2-62a5841ec6a3",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary: Final Map of Tract No. 84622\n\n## What is Being Proposed?\nThe Los Angeles City Council is being asked to approve the final subdivision map for Tract No. 84622, located at 1361 South Kelton Avenue in Council District 5. This approval would allow the conversion of one existing lot into 15 residential condominiums.\n\n## Background and Rationale\nThe project received conditional approval from the Deputy Advisory Agency on January 15, 2025. The City Engineer's report confirms that all conditions of approval have been fulfilled, including required fee payments and completion of public street improvements. The Advisory Agency determined the project will not have significant environmental impacts. Under California Government Code Section 66458, the Council must approve the final map if it meets all previously established conditions.\n\n## Key Details\n- **Location:** 1361 South Kelton Ave, south of Rochester Avenue (Council District 5)\n- **Project:** Subdivision into 15 residential condominiums\n- **Processing Fee:** $9,064 (already paid by subdivider)\n- **Tentative Map Approval Expiration:** January 15, 2028\n- **Owner:** 1361 Kelton LLC (Calabasas)\n- **Surveyor:** Bryan Gentry, Gentry Surveying Company (Simi Valley)\n\n## Impact\nOnce approved, the final map will be transmitted to the County Engineer for recording with the County Recorder, making the subdivision officially legal. This project adds 15 new residential units to the area with no additional costs to the City.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3983,
+        "output_tokens": 351,
+        "cost_usd": 0.005738
+      }
+    },
+    {
+      "historyId": "a74ac726-1f54-4ac2-905d-96bfad24b952",
+      "title": "Attachment to Report dated 10-24-25 - Planning Actions",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a74ac726-1f54-4ac2-905d-96bfad24b952",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a74ac726-1f54-4ac2-905d-96bfad24b952",
+      "meeting_id": 17407,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

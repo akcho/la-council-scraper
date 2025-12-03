@@ -1,0 +1,53 @@
+{
+  "council_file": "25-0008-S24",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along certain street segments of Stoner Avenue, Imlay Avenue, and Lucerne Avenue, in Council District 11.",
+  "district": "CD 11",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(30)",
+      "recommendation": "RESOLVE to: PROHIBIT, pursuant to Los Angeles Municipal Code Section 80.69.4, and California Vehicle Code Section 22507, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along both sides of the following street segments: Stoner Avenue from Brookhaven Avenue to Sardis Avenue Imlay Avenue from Culver Drive to Utopia Avenue Lucerne Avenue from Sepulveda Boulevard to Beloit Avenue DIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations. AUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Resolution (Park - Rodriguez) dated 9-05-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "350c5cda-519b-4bcc-8574-9e0d421d6de9",
+      "title": "Report from Transportation Committee 10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=350c5cda-519b-4bcc-8574-9e0d421d6de9",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=350c5cda-519b-4bcc-8574-9e0d421d6de9",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-0008-S24\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that Los Angeles establish parking restrictions for oversized vehicles on three street segments in Council District 11: Stoner Avenue (from Brookhaven to Sardis Avenue), Imlay Avenue (from Culver Drive to Utopia Avenue), and Lucerne Avenue (from Sepulveda Boulevard to Beloit Avenue). The restriction would prohibit vehicles exceeding 22 feet in length or 7 feet in height from parking on these streets between 2:00 a.m. and 6:00 a.m., with violators subject to towing.\n\n## Why?\n\nWhile the document doesn't explicitly detail the rationale, these restrictions are authorized under Los Angeles Municipal Code Section 80.69.4 and California Vehicle Code Section 22507. The proposal appears aimed at addressing nighttime parking issues related to large commercial vehicles in residential neighborhoods during early morning hours when such vehicles would be most disruptive.\n\n## Key Details\n\n- **File Number:** 25-0008-S24\n- **Committee Vote:** 2 YES (Hutt, Nazarian), 1 NO (Hernandez), 2 ABSENT (Park, Padilla)\n- **Restriction Hours:** 2:00 a.m. to 6:00 a.m. daily\n- **Enforcement:** LADOT will post signage and enforce tow-away violations\n- **Committee Stance:** Submitted \"without recommendation\" to full Council\n- **Fiscal Impact:** Not yet analyzed\n\n## Impact\n\nResidents and businesses in CD 11 will be unable to park oversized vehicles overnight on these three street segments. The Committee submitted the measure without a recommendation, meaning the full City Council will make the final determination on adoption.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3977,
+        "output_tokens": 411,
+        "cost_usd": 0.006031999999999999
+      }
+    },
+    {
+      "historyId": "9d28f4e5-b9d9-4564-b213-b7d12add28bc",
+      "title": "Resolution (Park - Rodriguez)  dated 9-05-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d28f4e5-b9d9-4564-b213-b7d12add28bc",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9d28f4e5-b9d9-4564-b213-b7d12add28bc",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Oversized Vehicle Parking Restriction Resolution\n\n## What is Being Proposed?\nThe Los Angeles City Council is adopting a resolution to prohibit parking of oversized vehicles (those exceeding 22 feet in length or 7 feet in height) during nighttime hours (2:00 a.m. to 6:00 a.m.) on three street segments in Council District 11. The Department of Transportation will post \"tow away, no parking\" signs at these locations to inform the public of the restriction.\n\n## Why?\nThe resolution addresses a growing problem in District 11 where large vehicles are frequently parked overnight on residential streets, obstructing travel lanes and creating dangerous traffic conditions. This action is authorized under California Vehicle Code Section 22507 and Los Angeles Municipal Code Section 80.69.4, which grant cities the authority to restrict oversized vehicle parking.\n\n## Key Details\nThe parking restrictions apply to both sides of three street segments:\n- **Stoner Avenue** (Brookhaven Avenue to Sardis Avenue)\n- **Imlay Avenue** (Culver Drive to Utopia Avenue)\n- **Lucerne Avenue** (Sepulveda Boulevard to Beloit Avenue)\n\nRestrictions are in effect from 2:00 a.m. to 6:00 a.m. daily. The resolution was presented by Councilwoman Traci Park (District 11) and dated September 5, 2025.\n\n## Impact\nResidents in the affected neighborhoods will see enforcement of overnight parking restrictions on large vehicles. The measure aims to improve traffic flow and public safety by clearing lanes during nighttime hours while still allowing oversized vehicle parking during daytime hours.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 1771,
+        "output_tokens": 379,
+        "cost_usd": 0.003666
+      }
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

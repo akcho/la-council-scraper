@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-0391 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-0391: ORDINANCE SECOND CONSIDERATION relative to amending the Los Angeles Administrative Code (LAAC) to implement Charter Amendment FF for the transfer of m">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-0391
+            </div>
+            <div class="file-number">25-0391</div>
+            <h1>The City Attorney is transmitting a draft ordinance that would implement Measure FF, which Los Angeles voters approved in November 2024. The ordinance would allow certain sworn peace officers currently in the Los Angeles City Employees' Retirement System (LACERS) to transfer their membership and service credit to Tier 6 of the Los Angeles Fire and Police Pension Plan (LAFPP).</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value"></span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                ORDINANCE SECOND CONSIDERATION relative to amending the Los Angeles Administrative Code (LAAC) to implement Charter Amendment FF for the transfer of membership and years of services for eligible sworn peace officers from the Los Angeles City Empoyees’ Retirement System (LACERS) to the Los Angeles Fire and Police Pensions (LAFPP).
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17367.html" class="timeline-card">
+                        <div class="timeline-date">October 31, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Attorney dated 9-08-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=64738e17-4c3c-4f25-a2e9-3bf94d0c617a" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=64738e17-4c3c-4f25-a2e9-3bf94d0c617a" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Attorney is transmitting a draft ordinance that would implement Measure FF, which Los Angeles voters approved in November 2024. The ordinance would allow certain sworn peace officers currently in the Los Angeles City Employees' Retirement System (LACERS) to transfer their membership and service credit to Tier 6 of the Los Angeles Fire and Police Pension Plan (LAFPP). Eligible employees from the Police Department, Harbor Department, Department of Airports, and Department of Recreation and Parks would make a one-time, irrevocable election to transfer or remain in LACERS by January 9, 2026, with the transfer effective January 11, 2026.</p>
+<h5>Why?</h5>
+<p>The transfer addresses pension benefit equity for sworn peace officers hired into positions that were originally covered by LACERS rather than LAFPP. The City has commissioned actuarial studies showing the cost and benefits of consolidating these employees into LAFPP Tier 6, where they would receive retroactive service credit dating to their original employment, giving them access to enhanced retirement benefits including the Deferred Retirement Option Plan (DROP) and retiree health benefits.</p>
+<h5>Key Details</h5>
+<p>The ordinance amends multiple sections of the Los Angeles Administrative Code and involves approximately 421 eligible members (413 active, 8 inactive as of June 30, 2024). The total estimated cost to the City is $79.2 million for past service transfers. Eligible participants would continue paying 11% member contributions (consistent with current LACERS rates) and would maintain tax compliance. The transfer is cost-neutral for LACERS and LAFPP's funded status because the City will pay all transfer costs and unfunded actuarial accrued liabilities upfront.</p>
+<h5>Impact</h5>
+<p>This affects sworn peace officers in five departments who would gain improved retirement benefits at City expense. No direct cost falls on employees. The ordinance also provides interest-free refunds for certain Airport Peace Officers who previously paid $5,700 to receive enhanced LACERS benefits and subsequently elect to transfer to LAFPP Tier 6. Implementation requires Charter amendment approval, which voters provided through Measure FF.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Rate Increase</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fb06a42d-bd4c-4e50-875b-3539628e309e" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb06a42d-bd4c-4e50-875b-3539628e309e" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>This document analyzes the financial cost of transferring approximately 413 Sworn Peace Officers and Park Rangers from the City's current pension plan (LACERS) to the Fire and Police Pension Plan (LAFPP) Tier 6. The study calculates how much the City's ongoing pension contributions would increase if these employees switch plans, based on a valuation date of June 30, 2024.</p>
+<h5>Why This Matters</h5>
+<p>The City is considering consolidating these peace officers and rangers into LAFPP Tier 6, with the full cost of the transfer to be covered by the City. This analysis provides the actuarial foundation needed to understand the long-term pension expense implications. The study examines both the upfront cost to convert past service and the ongoing normal cost increases for future service contributions.</p>
+<h5>Key Financial Details</h5>
+<p>If the transfer occurs, the City's combined normal cost rates (retirement and health plans) would increase by <strong>10.35% of payroll</strong> across all eligible members, representing an annual cost of approximately <strong>$5.535 million</strong>. The increases vary by department: LAPD (13.49%), LAWA Police (9.73%), Municipal Police (13.81%), Park Rangers (13.08%), and Port Police (12.08%). The 413 eligible members have a combined projected annual payroll of $53.46 million.</p>
+<h5>Impact</h5>
+<p>The City's pension costs would rise significantly, but the analysis confirms there would be <strong>no adverse impact on LAFPP's funded ratio</strong> if the City pays the full upfront cost to convert past LACERS service. Employees would continue paying 11% of their salary as their contribution rate. This transfer would affect officers and rangers in five different city departments, consolidating their retirement benefits under a single pension system.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Personnel and Hiring Committee Report 5-9-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=75b85711-31fe-43b1-a223-0ab1ddd23fed" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b85711-31fe-43b1-a223-0ab1ddd23fed" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What Is Being Proposed?</h5>
+<p>The Personnel and Hiring Committee is recommending that the City Council request the City Attorney to draft ordinances necessary to implement Measure FF, a charter amendment approved by Los Angeles voters in November 2024. The measure allows certain sworn police officers currently in the Los Angeles City Employees Retirement System (LACERS) to make a one-time, permanent transfer to the Los Angeles Fire and Police Pensions (LAFPP) Tier 6 retirement plan.</p>
+<h5>Background and Rationale</h5>
+<p>This proposal addresses retirement options for specific groups of sworn peace officers employed by the Los Angeles Police Department, Department of Airports, Los Angeles Harbor Department, and Department of Recreation and Parks. Some of these officers had previously declined earlier transfer opportunities under prior charter amendments. Measure FF also includes provisions for tax-compliant, interest-free refunds to officers who personally funded enhanced retirement benefits under the old system.</p>
+<h5>Key Financial and Operational Details</h5>
+<p>The estimated total cost is <strong>$109.5 million</strong> if all eligible officers transfer, including $106 million in transfer costs and $3.5 million in refunds. Additional annual costs are projected at <strong>$6.3 million</strong>, adjusted for payroll changes. Importantly, the Department of Airports and Los Angeles Housing Department will cover costs for their affected members, with the General Fund covering remaining costs. An updated actuarial report will accompany the implementing ordinances.</p>
+<h5>Impact</h5>
+<p>This affects current LACERS members in four city departments who will have a one-time opportunity to switch retirement systems. The measure is structured to be cost-neutral for both LACERS and LAFPP, with all expenses covered by the city's General Fund and special funds. The committee voted unanimously to recommend approval on May 9, 2025.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Administrative Officer dated 4-10-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dc0741-cedb-4e09-b6d3-6bb92c3b1d40" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Administrative Officer is recommending that the City Council instruct the City Attorney to draft ordinances necessary to implement City Charter Amendment FF, which Los Angeles voters approved in November 2024. The measure allows certain sworn peace officers employed by the LAPD, Department of Airports, Los Angeles Harbor Department, and Department of Recreation and Parks to make a one-time, irrevocable election to transfer their pension membership from LACERS (Los Angeles City Employees' Retirement System) to Tier 6 of LAFPP (Los Angeles Fire and Police Pensions).</p>
+<h5>Why?</h5>
+<p>This measure was approved by voters in response to negotiations with police unions and as a policy decision to offer pension options to eligible officers. The amendment also authorizes tax-compliant, interest-free refunds to officers who previously purchased years of service or enhanced benefits under prior pension amendments. The measure is designed to be cost-neutral for both pension systems, with all costs covered by the city's General Fund and special funds.</p>
+<h5>Key Details</h5>
+<p><strong>Eligible officers</strong> must have been actively employed as of January 12, 2025 The transfer option is available to officers who previously declined earlier transfer opportunities and to certain Department of Recreation and Parks officers transferring for the first time <strong>Estimated cost</strong>: $109.5 million one-time (if all eligible officers participate), including $106 million in transfer costs and $3.5 million in refunds <strong>Annual ongoing cost</strong>: approximately $6.3 million, adjusted annually for payroll changes</p>
+<h5>Impact</h5>
+<p>This primarily affects law enforcement and parks personnel currently in LACERS. The General Fund will bear costs for LAPD and parks department transfers, while the Department of Airports and Harbor Department will cover their own employees' costs. Implementation requires new city ordinances to be reviewed by council committees before full council approval.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>8 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 9-08-25 - Final Ordinance Measure FF Implmenting</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdbb5b28-6ee1-4b66-b6f8-d9b7b6945f69" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 9-30-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6e0f7820-c6ba-439f-b0a5-2b7b771ec742" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e0f7820-c6ba-439f-b0a5-2b7b771ec742" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Asset Transfer</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8759b3dc-194c-409d-aee3-85133f5675c7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8759b3dc-194c-409d-aee3-85133f5675c7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication from City Administrative Officer submitted 6-16-25 - Updated Actuarial Statement - Member Transfer</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a9ec20d5-9b2d-4e2d-ab58-a1abced22835" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9ec20d5-9b2d-4e2d-ab58-a1abced22835" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 5-28-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=161f6fef-e9e1-4f00-9d56-4903c0fa79da" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=161f6fef-e9e1-4f00-9d56-4903c0fa79da" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Amending Motion 9A Hutt for McOsker - Lee) dated 05-27-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c8aa625-c30c-4f26-b073-7b23c3e6c8ec" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_05-27-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=214868d2-9e4e-442a-a177-2ea03c9714db" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=214868d2-9e4e-442a-a177-2ea03c9714db" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_05-20-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4f12659e-730f-4950-9cc8-ea450dbb7c47" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f12659e-730f-4950-9cc8-ea450dbb7c47" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

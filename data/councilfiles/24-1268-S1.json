@@ -1,0 +1,46 @@
+{
+  "council_file": "24-1268-S1",
+  "title": "CONSIDERATION OF MOTION (BLUMENFIELD – JURADO) relative to amending Contract No. C-202650 and a transferring of funds for the Council District Three Hope the Mission Contingency Management Pilot Program.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17591,
+      "date": "2025-12-03T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(12)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17579,
+      "date": "2025-12-05T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(20)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "f5c7dc2e-0075-4063-bf04-08cb6aeb0a18",
+      "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5c7dc2e-0075-4063-bf04-08cb6aeb0a18",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=f5c7dc2e-0075-4063-bf04-08cb6aeb0a18",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "7c2723cd-8d7d-406b-9b52-713e7a131ae8",
+      "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c2723cd-8d7d-406b-9b52-713e7a131ae8",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7c2723cd-8d7d-406b-9b52-713e7a131ae8",
+      "meeting_id": 17591,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-03T22:00:00",
+  "last_seen": "2025-12-05T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

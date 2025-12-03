@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 21-1330 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 21-1330: ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the Fourth Amendment to the Second Memorandum of Understanding with the Discovery Cube Los Angeles">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                21-1330
+            </div>
+            <div class="file-number">21-1330</div>
+            <h1>The Energy and Environment Committee is recommending that the City authorize the Board of Public Works to execute Amendment No. 4 to a Memorandum of Understanding (MOU) with Discovery Cube Los Angeles (DCLA).</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 7</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">October 31, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                ENERGY AND ENVIRONMENT COMMITTEE REPORT relative to the Fourth Amendment to the Second Memorandum of Understanding with the Discovery Cube Los Angeles (DCLA) to develop, promote, and assist with Bureau of Sanitation (BOS) environmental events and programs.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17367.html" class="timeline-card">
+                        <div class="timeline-date">October 31, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Energy and Environment Committee_10-21-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d1259b93-ed21-4a23-ac45-76afb80794b0" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1259b93-ed21-4a23-ac45-76afb80794b0" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Energy and Environment Committee is recommending that the City authorize the Board of Public Works to execute Amendment No. 4 to a Memorandum of Understanding (MOU) with Discovery Cube Los Angeles (DCLA). This amendment would extend the City's partnership with DCLA to develop, promote, and assist with Bureau of Sanitation (BOS) environmental events and programs, with a total cost ceiling of $1.8 million.</p>
+<h5>Funding and Financial Impact</h5>
+<p>The $1.8 million commitment is fully funded through the City's 2025-26 Adopted Budget with no additional burden on the General Fund. Funding comes from three sources: $900,000 from the General City Purposes Fund, $450,000 from BOS's Sewer Operations and Maintenance Fund, and $450,000 from the Solid Waste Resources Revenue Fund. All these funds have already been appropriated.</p>
+<h5>Committee Action</h5>
+<p>The Energy and Environment Committee unanimously approved this recommendation on October 21, 2025, with all five committee members voting in favor (Nazarian, Yaroslavsky, Jurado, Raman, and Padilla voting YES). The matter now goes to the full City Council for approval.</p>
+<h5>Timeline and Significance</h5>
+<p>This is a time-limited file with a deadline of December 16, 2025 (last council action date: December 12, 2025). The partnership aims to support the Bureau of Sanitation's environmental education and community outreach efforts through Discovery Cube Los Angeles's programming and reach.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action dated 1-21-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=87e7c59c-359f-442d-ad9e-8a39e2af2c89" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87e7c59c-359f-442d-ad9e-8a39e2af2c89" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council adopted Amendment No. 3 to the Second Memorandum of Understanding (MOU) with Discovery Cube Los Angeles (DCLA). This amendment authorizes continued partnership between the City and DCLA to develop, promote, and assist with environmental events and programs run by the Bureau of Sanitation (BOS).</p>
+<h5>Why?</h5>
+<p>The amendment represents a continuation of an existing collaborative relationship between the City and Discovery Cube Los Angeles. By formalizing this partnership through an updated MOU, the City can leverage DCLA's educational and promotional capabilities to advance the Bureau of Sanitation's environmental initiatives and public engagement efforts.</p>
+<h5>Key Details</h5>
+<p><strong>Council Vote:</strong> Unanimous approval (15 YES votes, no dissenting votes) <strong>Date Adopted:</strong> January 14, 2025 <strong>Agenda Item:</strong> #55 <strong>Source Document:</strong> Report from City Administrative Officer dated November 21, 2024 <strong>Partner Organization:</strong> Discovery Cube Los Angeles (DCLA) <strong>City Department:</strong> Bureau of Sanitation (BOS)</p>
+<h5>Impact</h5>
+<p>This partnership allows the City to expand environmental education and public awareness programs through DCLA's established platform and expertise. Residents will have increased access to environmental events and programs focused on sanitation and sustainability, while the Bureau of Sanitation gains enhanced promotional and educational support for its initiatives.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action dated 11-09-23</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c6344e69-3d70-4d1b-9047-d982e50c683f" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6344e69-3d70-4d1b-9047-d982e50c683f" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council adopted Amendment No. 2 to the Second Memorandum of Understanding (MOU) with Discovery Cube Los Angeles. This amendment modifies an existing partnership agreement between the city and the organization to continue their collaborative work on environmental events and programs.</p>
+<h5>Why?</h5>
+<p>The city has an ongoing relationship with Discovery Cube Los Angeles focused on environmental education and community engagement. This amendment updates and extends that partnership, allowing both parties to refine their roles and responsibilities in developing, promoting, and assisting with environmental initiatives that benefit Los Angeles residents.</p>
+<h5>Key Details</h5>
+<p><strong>Council File Number:</strong> 21-1330 <strong>Approval Date:</strong> November 8, 2023 <strong>Committee:</strong> Energy and Environment Committee <strong>Vote:</strong> 14 YES votes; 3 ABSENT (Blumenfield, de León, Lee) <strong>Action Taken:</strong> Adopted Forthwith (approved immediately without delay)</p>
+<h5>Impact</h5>
+<p>This partnership allows Discovery Cube Los Angeles—an educational institution—to work with city resources to expand environmental programming and events for the public. Residents benefit from increased environmental education, awareness initiatives, and community programming. The amendment ensures the partnership remains current and effective in addressing the city's environmental goals.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Energy and Environment Committee_11-03-23</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=af121f86-5809-408d-9c73-f08dd1b3cdd6" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af121f86-5809-408d-9c73-f08dd1b3cdd6" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Energy and Environment Committee is recommending that the City Council authorize the Board of Public Works to execute Amendment No. 2 to an existing Memorandum of Understanding (MOU) with Discovery Cube Los Angeles (DCLA). This amendment would formalize the Bureau of Sanitation's (BOS) role in developing, promoting, and assisting with environmental events and programs in partnership with DCLA.</p>
+<h5>Why?</h5>
+<p>The amendment builds on an existing partnership between the City and DCLA to expand environmental education and programming. The arrangement allows the City to leverage DCLA's resources and expertise in science education while advancing the City's environmental goals through public outreach and community engagement initiatives.</p>
+<h5>Key Details</h5>
+<p><strong>Funding</strong>: $900,000 total contribution split between two sources: $900,000 from the General City Purposes Fund and an additional $900,000 from BOS operational funds ($450,000 from Sewer Operations and Maintenance, $450,000 from Solid Waste Resources Revenue Fund) <strong>Timeline</strong>: Committee approved on November 3, 2023; Council deadline for action is December 15, 2023 <strong>No additional General Fund impact</strong> as the $900,000 General Fund contribution was already budgeted for the 2023-24 Adopted Budget</p>
+<h5>Impact</h5>
+<p>This partnership expands the City's environmental education reach to Los Angeles residents through DCLA programming while supporting the Bureau of Sanitation's mission. The committee found the proposal complies with City Financial Policies and received Committee approval with four votes in favor and one absence.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Energy, Climate Change, Environmental Justice, and River Committee_11-03-22</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c5eeca89-6d7a-402e-813d-dc2a442deb98" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5eeca89-6d7a-402e-813d-dc2a442deb98" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What Is Being Proposed?</h5>
+<p>The Los Angeles City Council is being asked to authorize the Board of Public Works to execute an amendment to an existing partnership agreement (Memorandum of Understanding) with Discovery Cube Los Angeles. The amendment would extend the organization's operational support and enable it to develop, promote, and assist with environmental events and programs run by the Bureau of Sanitation.</p>
+<h5>Why?</h5>
+<p>The document does not provide extensive background in this committee report, though it references an October 4, 2022 Bureau of Sanitation report that contains more details. The partnership aims to support environmental education and public engagement through the Discovery Cube, a science-focused institution in Los Angeles.</p>
+<h5>Key Details</h5>
+<p>The City will provide <strong>$1.8 million in total funding</strong> for 2022-23: <strong>$900,000</strong> from the General City Purposes Fund <strong>$900,000</strong> from the Bureau of Sanitation (split between the Sewer Operations & Maintenance Fund ($450,000) and Solid Waste Resources Revenue Fund ($450,000)) The funding has already been appropriated in the city's adopted budget. All three committee members (O'Farrell, Koretz, and Krekorian) voted "YES" on November 3, 2022. The council deadline for action is <strong>December 2, 2022</strong>.</p>
+<h5>Impact</h5>
+<p>This partnership supports environmental education and public programming in Los Angeles. The funding comes from existing city budgets with no additional General Fund impact, and the committee found it complies with the City's Financial Policies.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>10 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 10-16-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=26d20a0e-15d1-44d0-9baa-6efe718ec7d6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26d20a0e-15d1-44d0-9baa-6efe718ec7d6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_01-14-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6738abee-3bd8-483f-baba-ba7fc0b573f7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6738abee-3bd8-483f-baba-ba7fc0b573f7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 11-21-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6789ca93-dd1c-4264-98dc-2edbb94d27b4" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6789ca93-dd1c-4264-98dc-2edbb94d27b4" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_11-08-2023</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8757f8b7-471a-4f3f-9dd2-de48be4e8d80" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8757f8b7-471a-4f3f-9dd2-de48be4e8d80" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_11-03-2023</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=415a77b4-d6f0-41f5-a5c7-b52815f9afd1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=415a77b4-d6f0-41f5-a5c7-b52815f9afd1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 8-15-23.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=16989270-b1d6-427d-a269-36b32a8bcea0" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16989270-b1d6-427d-a269-36b32a8bcea0" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 11-23-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=662c1f33-2f2f-451e-b3c5-feac90c96cdf" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=662c1f33-2f2f-451e-b3c5-feac90c96cdf" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 9-30-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a4da8614-79f2-4358-965b-7b2c09066ec2" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4da8614-79f2-4358-965b-7b2c09066ec2" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 11-24-21</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=afb10f71-8188-4661-9580-c7ff7fd1104d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=afb10f71-8188-4661-9580-c7ff7fd1104d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 11-02-21.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9ed99d3e-0427-4682-b03b-a5fb7f650239" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ed99d3e-0427-4682-b03b-a5fb7f650239" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1244",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(60)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "56a00ce7-4621-4d6a-a725-8d53c148c153",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=56a00ce7-4621-4d6a-a725-8d53c148c153",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=56a00ce7-4621-4d6a-a725-8d53c148c153",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: Settlement Discussion Request for Traffic Collision Case\n\n## What is Being Proposed\nThe City Attorney's Office is requesting that the Los Angeles City Council hold a closed session to discuss settlement strategy with legal counsel regarding a pending vehicle collision lawsuit. The case involves four related claims (C23-24156, C23-24158, C23-24161, C23-24162) stemming from an incident between Jose Reyes Garcia and Matthew Jordan Martin.\n\n## Why\nUnder California Government Code Section 54956.9(d)(1), the City Council is permitted to meet in closed session to confer with or receive advice from legal counsel about pending litigation. This closed session is necessary to allow the City Attorney's office and council members to discuss confidential settlement negotiations and litigation strategy without public disclosure, which is standard practice in civil lawsuits.\n\n## Key Details\n- **Incident:** Vehicle-versus-vehicle traffic collision on July 5, 2022, at Wilmington Boulevard and Opp Street, Los Angeles\n- **Case Number:** LASC Case No. 24LBCV01255\n- **Contact:** Olivia Bona at (213) 820-4290 from the City Attorney's Office can answer questions\n- The closed session is authorized by statute to protect attorney-client communications\n\n## Impact\nThis affects Los Angeles residents as stakeholders in litigation involving the city. By meeting in closed session, the council can strategically discuss settlement options without compromising the city's legal position. The public will not have access to settlement discussions, though any final settlement would typically require public approval.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 347,
+        "cost_usd": 0.005052
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

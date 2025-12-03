@@ -1,0 +1,54 @@
+{
+  "council_file": "25-1321",
+  "title": "City Administrative Officer (CAO) report relative to the Transportation Grant Fund request for Fiscal Year 2025-26.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17471,
+      "date": "2025-11-12T16:45:00",
+      "section": "Transportation infrastructure improvements",
+      "item_number": "(8)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17577,
+      "date": "2025-12-02T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(1)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "title": "Report from City Administrative Officer dated 10-29-25.pdf",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=02e9059e-94e6-4941-8e7c-0e7b3aeda165",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "7affdff7-215c-4e31-b802-f41066891a3d",
+      "title": "Transmittal Letter to Budget and Finance Committee 11-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7affdff7-215c-4e31-b802-f41066891a3d",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7affdff7-215c-4e31-b802-f41066891a3d",
+      "meeting_id": 17577,
+      "has_summary": false
+    },
+    {
+      "historyId": "6389b7ce-50ba-4120-88e5-bb50c752eb4a",
+      "title": "Report from City Administrative Officer dated 10-29-25.pdf",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6389b7ce-50ba-4120-88e5-bb50c752eb4a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=6389b7ce-50ba-4120-88e5-bb50c752eb4a",
+      "meeting_id": 17577,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T16:45:00",
+  "last_seen": "2025-12-02T22:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

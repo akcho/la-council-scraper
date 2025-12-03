@@ -1,0 +1,46 @@
+{
+  "council_file": "25-0937",
+  "title": "CONSIDERATION OF CITY CLERK REPORT relative to amendments to the Los Angeles City Election Code.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17588,
+      "date": "2025-12-05T17:00:00",
+      "section": "(This item is referred to the Public Works Committee and Rules, Elections and Intergovernmental Relations Committee. The Public Works Committee approved the item on November 12, 2025.)",
+      "item_number": "(5)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17579,
+      "date": "2025-12-05T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(7)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "16a964d9-9aa7-43ef-85d4-eae6dac4a3de",
+      "title": "Report from City Clerk dated 8-14-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16a964d9-9aa7-43ef-85d4-eae6dac4a3de",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=16a964d9-9aa7-43ef-85d4-eae6dac4a3de",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "e98be2f7-f35f-4564-bf05-5fc623a5f763",
+      "title": "Report from City Clerk dated 8-14-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e98be2f7-f35f-4564-bf05-5fc623a5f763",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=e98be2f7-f35f-4564-bf05-5fc623a5f763",
+      "meeting_id": 17588,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-05T17:00:00",
+  "last_seen": "2025-12-05T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 2,
+    "attachments_with_summaries": 0
+  }
+}

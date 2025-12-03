@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 21-0586 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 21-0586: CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating a portion of Vermont Avenue north of 43rd St">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                21-0586
+            </div>
+            <div class="file-number">21-0586</div>
+            <h1>The Public Works Committee is recommending that Los Angeles City Council approve the vacation (closure and removal from public use) of a portion of Vermont Avenue north of 43rd Street in South Los Angeles.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 9</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 12, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION, COMMUNICATION FROM THE CITY ENGINEER and RESOLUTION TO VACATE relative to vacating a portion of Vermont Avenue north of 43rd Street, VAC-E1401398.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17283.html" class="timeline-card">
+                        <div class="timeline-date">November 12, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Public Works Committee_3-23-22</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9627a89c-491b-4e27-838e-8f0f2d072dff" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9627a89c-491b-4e27-838e-8f0f2d072dff" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Public Works Committee is recommending that Los Angeles City Council approve the vacation (closure and removal from public use) of a portion of Vermont Avenue north of 43rd Street in South Los Angeles. This means the street would no longer be maintained by the City and the land could potentially be developed or used by adjacent property owners.</p>
+<h5>Why?</h5>
+<p>The vacation is intended to increase usable land area for development consistent with the South Los Angeles Community Plan Implementation Overlay District. By vacating this street segment, the City would also be relieved of ongoing maintenance obligations and potential liability associated with owning and maintaining this public right-of-way. A petitioner (property developer or owner) initiated this request and paid $14,980 in investigation fees.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Vermont Avenue north of 43rd Street <strong>Committee Vote:</strong> Approved 4-1 (Blumenfield, Lee, De León, and O'Farrell voted YES; Koretz was absent) <strong>Vote Date:</strong> March 23, 2022 <strong>Environmental Status:</strong> Exempt from California Environmental Quality Act review <strong>Fee:</strong> Petitioner paid $14,980; may owe additional deficit fees to cover full investigation costs</p>
+<h5>Impact</h5>
+<p>The vacation would eliminate City maintenance costs for this street segment and transfer the land to private development. The proposal has been processed under standard street vacation procedures established by Council in 2002. The Committee provided an opportunity for public comment before making its recommendation. No community impact statement was submitted.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Bureau of Engineering dated 11-24-21</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b323c8d8-940e-4c00-8d15-1b024524f664" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b323c8d8-940e-4c00-8d15-1b024524f664" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Engineer is recommending that the Los Angeles City Council approve the vacation (closure and removal from public ownership) of approximately 410 square feet of public street right-of-way on Vermont Avenue north of 43rd Street in South Los Angeles (Council District 9). The vacated land would be transferred to the adjoining property owner, represented by Michael Pauls Associates on behalf of Vermont Capital Fuel LLC.</p>
+<h5>Why?</h5>
+<p>The property owner is requesting this vacation to increase usable land area for development purposes consistent with the South Los Angeles Community Plan Implementation Overlay District. The City Engineer concludes the vacation is justified because: (1) the small area is unnecessary for present or future public use, (2) it is not needed for vehicular circulation or access, and (3) it is not needed for non-motorized transportation. The City also benefits by being relieved of maintenance obligations and potential liability for the street easement.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Portion of Vermont Avenue north of 43rd Street, in a mixed-use area with businesses to the north, west, and south, and multi-family dwellings to the east <strong>Size:</strong> Approximately 410 square feet <strong>Petitioner:</strong> Michael Pauls Associates (representing Vermont Capital Fuel LLC) <strong>Deposit Paid:</strong> $14,980 (with potential additional costs to be paid by petitioner) <strong>Council Approvals:</strong> City Council previously approved initiation of vacation proceedings on July 30, 2021</p>
+<h5>Impact and Conditions</h5>
+<p>The vacation will have no adverse effects on traffic or circulation. However, the property owner must comply with 10 conditions, including: providing a 2.5-foot dedication along the adjoining alley; constructing new pavement, curbs, gutters, and sidewalks on Vermont Avenue and 43rd Street to meet city standards; arranging utility easements; and obtaining Department of Transportation approval for any driveway aprons. All conditions must be completed within 2 years, or the vacation proceedings will be terminated.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Bureau of Engineering dated 5-18-21.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a4020508-6e2e-477f-8e14-d929218d4e9c" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4020508-6e2e-477f-8e14-d929218d4e9c" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is initiating vacation proceedings to remove a portion of Vermont Avenue that runs northerly from 43rd Street from the public street system. This would convert the street into private property, allowing the adjacent property owner to incorporate it into their development project.</p>
+<h5>Why?</h5>
+<p>The property owner, Parviz Shamtoub of Vermont Capital Fuel LLC (represented by Alicia Ley of Michael Pauls Associates), requested this vacation to increase the usable land area available for development. The Bureau of Engineering is conducting a feasibility investigation before any final decision is made.</p>
+<h5>Key Details</h5>
+<p><strong>Application Date:</strong> March 30, 2021 <strong>Case Number:</strong> VAC - E1401398 <strong>Council District:</strong> 9 <strong>Deposit Paid:</strong> $14,980.00 (petitioner's deposit to fund the investigation) <strong>Report Date:</strong> May 18, 2021 The process follows California Streets and Highways Code Division 9, Part 3, which governs public street vacations.</p>
+<h5>Impact</h5>
+<p>The report emphasizes that adoption of these recommendations does <strong>not</strong> constitute approval of the vacation—it only initiates the investigative process. The Bureau of Engineering will study the feasibility and present findings to the Public Works Committee. Any additional costs beyond the deposit will be billed to the petitioner. The outcome will determine whether this section of Vermont Avenue remains public or becomes private property.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Bureau of Engineering dated 10-30-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=beb9cec0-5458-4ac4-b3af-63dd30dd3bee" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=beb9cec0-5458-4ac4-b3af-63dd30dd3bee" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Council is being asked to formally adopt a Resolution to Vacate (Resolution No. 25-1401398) for a portion of Vermont Avenue located north of 43rd Street in Council District 9. This action finalizes a street vacation—meaning the city would relinquish public right-of-way over this section of Vermont Avenue.</p>
+<h5>Background and Rationale</h5>
+<p>This vacation was originally approved by the City Council on May 10, 2022, with no protests filed against it. All conditions from that original approval have been fulfilled. The current resolution completes the process that was initiated over three years ago by officially adopting the vacation resolution, which has already been reviewed and approved by the City Attorney for legal compliance.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Portion of Vermont Avenue north of 43rd Street (Council District 9) <strong>Original Approval Date:</strong> May 10, 2022 <strong>Current Resolution Number:</strong> 25-1401398 <strong>Status:</strong> All conditions met; no protests received <strong>Environmental Review:</strong> The project qualifies for a categorical exemption under the California Environmental Quality Act <strong>Charter Compliance:</strong> The action complies with Section 556 of the Los Angeles City Charter and the General Plan</p>
+<h5>Who This Affects</h5>
+<p>Property owners adjoining the vacated portion of Vermont Avenue would benefit from gaining access to additional land currently held as public right-of-way. Residents in Council District 9 should be aware that public access to this section of Vermont Avenue would be eliminated.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>9 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 5-11-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e56aa4bd-487d-408f-b042-80e4c21b0ade" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e56aa4bd-487d-408f-b042-80e4c21b0ade" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication from Committee Clerk (Notice)_3-18-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0bf72a5e-3632-4a86-938e-c7dd06234183" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0bf72a5e-3632-4a86-938e-c7dd06234183" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 11-24-21 - Application</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=db43ad33-24c6-48b2-a38e-ee844899af23" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=db43ad33-24c6-48b2-a38e-ee844899af23" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 11-24-21 - Exhibit A</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9c5901f3-6ca3-432e-a305-9cbf89efa86e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c5901f3-6ca3-432e-a305-9cbf89efa86e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 7-30-21</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e474a18a-7753-47d7-ac99-8730b055290b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e474a18a-7753-47d7-ac99-8730b055290b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report  dated 5-18-21 - Exhibit.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6f0e414f-1563-407b-a432-144948822a05" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f0e414f-1563-407b-a432-144948822a05" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 5-18-21 - Application.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7b6ebdd0-11a4-4735-8569-27241259f525" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b6ebdd0-11a4-4735-8569-27241259f525" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_05-10-2022</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=971e833a-7aa9-440a-ace8-e799d7ac274f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=971e833a-7aa9-440a-ace8-e799d7ac274f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-30-25 - Resolution to Vacate</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ed5f40d2-0c8b-45d5-9431-7baecb1a0b8b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ed5f40d2-0c8b-45d5-9431-7baecb1a0b8b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "council_file": "25-1197",
+  "title": "PERSONNEL AND HIRING COMMITTEE REPORT relative to the exemption of one Deputy City Engineer (Class Code 9490) position for the Bureau of Engineering (BOE) from the Civil Service pursuant to Charter Section 1001(b).",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(10)",
+      "recommendation": "APPROVE the exemption of one Deputy City Engineer (Class Code 9490) position for the BOE from the Civil Service pursuant to Charter Section 1001(b). Fiscal Impact Statement: None submitted by the Mayor. Neither the City Administrative Office nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. TIME LIMIT FILE - NOVEMBER 5, 2025 (LAST DAY FOR COUNCIL ACTION - NOVEMBER 5, 2025) Personnel and Hiring Committee Report 10-24-25 Report from Mayor dated 10-14-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7be16731-711b-4b4c-b281-d0df54d9391e",
+      "title": "Personnel and Hiring Committee Report 10-24-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7be16731-711b-4b4c-b281-d0df54d9391e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7be16731-711b-4b4c-b281-d0df54d9391e",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary of Council File 25-1197\n\n## What is Being Proposed?\n\nThe Personnel and Hiring Committee recommends that the Los Angeles City Council **approve exempting one Deputy City Engineer position from Civil Service requirements**. This exemption would allow the Bureau of Engineering to hire for this role without going through the standard civil service process.\n\n## Why?\n\nThe position is needed to lead the **$2.6 billion Los Angeles Convention Center (LACC) Expansion and Modernization Project**. This is a major, fast-moving project requiring specialized project management. The Deputy City Engineer will serve as Project Executive, overseeing up to 38 combined staff members (Bureau of Engineering employees and consultants) and managing all reporting to City Hall, the City Council, Board of Public Works, and the Municipal Facilities Oversight Committee. The project has tight timelines—the first Notice to Proceed to the design/build contractor was scheduled for September 30, 2025.\n\n## Key Details\n\n- The position would be the **122nd of 150 allowed exemptions** under City Charter Section 1001(b)\n- The Bureau aimed to fill the position by **mid-October 2025**\n- The Committee voted on **October 24, 2025** (with 2 Yes votes, 1 Absent)\n- **Deadline for Council action: November 5, 2025**\n- No fiscal impact statement was submitted with the report\n\n## Impact\n\nThis affects the governance structure of a major city infrastructure project, allowing the Bureau of Engineering to hire a specialized executive manager outside traditional civil service hiring processes to better manage this complex, time-sensitive project.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3987,
+        "output_tokens": 362,
+        "cost_usd": 0.005797
+      }
+    },
+    {
+      "historyId": "9be76ed5-82d8-481e-8b02-f6a6c07d8d4f",
+      "title": "Report from Mayor dated 10-14-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9be76ed5-82d8-481e-8b02-f6a6c07d8d4f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9be76ed5-82d8-481e-8b02-f6a6c07d8d4f",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary: Deputy City Engineer Exemption Request\n\n## What is Being Proposed?\n\nMayor Karen Bass is requesting approval to exempt one Deputy City Engineer position (Class Code 9490) from the city's civil service requirements. This exemption would allow the Department of Public Works – Bureau of Engineering to hire this position outside the standard civil service process, giving them greater flexibility in recruitment and selection.\n\n## Why?\n\nThe exemption is needed to fill a critical leadership role for the $2.6 billion Los Angeles Convention Center Expansion and Modernization Project. The Deputy City Engineer will serve as Project Executive overseeing up to 38 staff members and managing all reporting to the Mayor's Office, City Council, the Board of Public Works, and community oversight committees. The position is time-sensitive because the design/build contractor is scheduled to receive its first Notice to Proceed on September 30, 2025, and the city aims to fill the position by mid-October 2025.\n\n## Key Details\n\nThe position requires a Bachelor's degree in Civil Engineering, current California Professional Engineer registration, and at least two years of experience as a Principal Civil Engineer. Under City Charter Section 1001(b), Los Angeles can exempt up to 150 positions from civil service; this request would be the 122nd approved exemption (121 currently approved plus this one). If unfilled within six months, the Mayor's approval to fill the position will expire.\n\n## Impact\n\nThis exemption allows the city to recruit and hire the most qualified candidate with specialized expertise needed for this major infrastructure project, rather than following standard civil service hiring procedures. The position is essential for successful project delivery and stakeholder communication during a complex, fast-moving development.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 4125,
+        "output_tokens": 365,
+        "cost_usd": 0.00595
+      }
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-11-04T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

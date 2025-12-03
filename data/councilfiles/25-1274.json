@@ -1,0 +1,53 @@
+{
+  "council_file": "25-1274",
+  "title": "GOVERNMENT OPERATIONS COMMITTEE REPORT relative to revising the City's current lease with El Nido Family Centers at 11243 Glenoaks Boulevard.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Completed hearings",
+      "item_number": "(9)",
+      "recommendation": "INSTRUCT the Department of General Services to revise the City's current lease with El Nido Family Centers (El Nido) at 11243 Glenoaks Boulevard to: Include the authority to add exterior planting/greening improvements to the property, to be included under their maintenance responsibility. Authorize El Nido to expand their operations into Suite 7, provided that El Nido grants the current tenant a right of first refusal to move into another suite onsite. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Government Operations Committee Report 11-4-25 Motion (Rodriguez - Soto-Martinez) dated 10-24-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "c22ec7b5-93da-44a5-b8c5-681fb0adc780",
+      "title": "Government Operations Committee Report 11-4-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c22ec7b5-93da-44a5-b8c5-681fb0adc780",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c22ec7b5-93da-44a5-b8c5-681fb0adc780",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: El Nido Family Centers Lease Revision (File 25-1274)\n\n## What is Being Proposed?\n\nThe Government Operations Committee is recommending that the City Council approve two revisions to the lease agreement between the City and El Nido Family Centers at 11243 Glenoaks Boulevard. First, El Nido would be authorized to add exterior planting and greening improvements to the property, with responsibility for maintaining these improvements. Second, El Nido would be allowed to expand their operations into Suite 7 to create more space for their kitchen/cafe, provided that the current tenant in Suite 7 receives a right of first refusal to relocate to another available suite on the same property.\n\n## Why?\n\nEl Nido Family Centers, a Los Angeles-based nonprofit founded in 1925, provides critical services to low-income families including tutoring, counseling, and career guidance. They need additional space to continue serving the surrounding community effectively. The expansion into Suite 7 would give them adequate space for their kitchen/cafe operations. The greening improvements would enhance the property while being maintained by El Nido.\n\n## Key Details\n\nThe City has leased the property to El Nido since December 2018. The committee considered this matter on November 4, 2025, and approved the motion by Rodriguez-Soto-Martinez. The vote showed support from Councilmembers Padilla and Lee (both yes), with Councilmember Jurado absent.\n\n## Impact\n\nThis benefits El Nido's ability to serve low-income families in the area by providing expanded facilities. The current tenant in Suite 7 is protected through a right of first refusal. Note that neither the City Administrative Officer nor Chief Legislative Analyst has completed a financial analysis of this proposal.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3956,
+        "output_tokens": 396,
+        "cost_usd": 0.005936
+      }
+    },
+    {
+      "historyId": "d0beb761-4c8e-4336-a915-83d728d21241",
+      "title": "Motion (Rodriguez - Soto-Martinez) dated 10-24-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0beb761-4c8e-4336-a915-83d728d21241",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d0beb761-4c8e-4336-a915-83d728d21241",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: El Nido Family Centers Lease Expansion Motion\n\n## What is Being Proposed?\n\nThe Los Angeles City Council is being asked to authorize changes to the City's lease agreement with El Nido Family Centers at 11243 Glenoaks Boulevard. Specifically, the motion proposes two main actions: (1) granting El Nido authority to add exterior planting and greening improvements to the property while taking on maintenance responsibility for these additions, and (2) authorizing El Nido to expand their operations into Suite 7 on-site, contingent on granting the current tenant a right of first refusal to relocate to another suite at the same location.\n\n## Why?\n\nEl Nido Family Centers, a nonprofit established in 1925 that serves low-income families in Los Angeles, needs additional space to continue and expand their critical services—including tutoring, counseling, career guidance, mental health support, youth development, and crisis assistance. The organization currently operates from the Glenoaks Boulevard property under a lease that began in December 2018, but requires more room, particularly for a kitchen/café facility, to adequately serve their community.\n\n## Key Details\n\n- **Location:** 11243 Glenoaks Boulevard (City-owned property)\n- **Organization:** El Nido Family Centers (nonprofit, founded 1925)\n- **Specific Request:** Expand into Suite 7 and add exterior landscaping improvements\n- **Lease Start:** December 2018\n- **Condition:** Current tenant must receive right of first refusal to move to another on-site suite before El Nido can expand\n\n## Impact\n\nThis expansion allows El Nido to strengthen its services to low-income families in the surrounding community. The greening improvements will enhance the property while becoming El Nido's maintenance responsibility. The right of first refusal protects the displaced tenant's interests in remaining at the location.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 1771,
+        "output_tokens": 422,
+        "cost_usd": 0.003881
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 2
+  }
+}

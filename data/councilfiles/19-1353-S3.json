@@ -1,0 +1,31 @@
+{
+  "council_file": "19-1353-S3",
+  "title": "City Administrative Officer report relative to the annual Five-Year Capital and Technology Improvement Plan Book for Municipal Facilities and Information Technology.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17528,
+      "date": "2025-11-12T23:30:00",
+      "section": "Capital planning and infrastructure",
+      "item_number": "(2)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "ee514dca-e69c-4844-ba5e-ab0524885fc9",
+      "title": "Report from City Administrative Officer dated 8-28-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee514dca-e69c-4844-ba5e-ab0524885fc9",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ee514dca-e69c-4844-ba5e-ab0524885fc9",
+      "meeting_id": 17528,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T23:30:00",
+  "last_seen": "2025-11-12T23:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

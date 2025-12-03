@@ -1,0 +1,54 @@
+{
+  "council_file": "25-1139",
+  "title": "Motion (Rodriguez, Hernandez – Jurado) relative to designating the intersection of North Spring Street and West Ann Street as “Bruce Saito Square.\"",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17528,
+      "date": "2025-11-12T23:30:00",
+      "section": "Capital planning and infrastructure",
+      "item_number": "(5)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(27)",
+      "recommendation": "DESIGNATE the intersection of North Spring Street and West Ann Street as “Bruce Saito Square.\" DIRECT the Department of Transportation to erect permanent ceremonial signs to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_11-12-25 Motion (Rodriguez, Hernandez - Jurado) dated 9-30-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "578abf47-b531-4c56-aaf2-2e9810430600",
+      "title": "Motion (Rodriguez, Hernandez - Jurado) dated 9-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=578abf47-b531-4c56-aaf2-2e9810430600",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=578abf47-b531-4c56-aaf2-2e9810430600",
+      "meeting_id": 17528,
+      "has_summary": false
+    },
+    {
+      "historyId": "fd4f85e1-6ab9-4b06-a2cd-23d6cae9b656",
+      "title": "Report from Public Works Committee_11-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd4f85e1-6ab9-4b06-a2cd-23d6cae9b656",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=fd4f85e1-6ab9-4b06-a2cd-23d6cae9b656",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "db7929d0-8c36-4942-88c9-e4f3b061af10",
+      "title": "Motion (Rodriguez, Hernandez - Jurado) dated 9-30-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db7929d0-8c36-4942-88c9-e4f3b061af10",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=db7929d0-8c36-4942-88c9-e4f3b061af10",
+      "meeting_id": 17559,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T23:30:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 3,
+    "attachments_with_summaries": 0
+  }
+}

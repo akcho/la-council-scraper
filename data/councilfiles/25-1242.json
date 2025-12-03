@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1242",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(56)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "de1c0a8c-cbef-4403-933b-d8a3c6e06408",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=de1c0a8c-cbef-4403-933b-d8a3c6e06408",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=de1c0a8c-cbef-4403-933b-d8a3c6e06408",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: City Attorney Report on Settlement Discussion\n\n## What is Being Proposed?\nThe Los Angeles City Attorney's Office is requesting that the City Council hold a **closed session** to discuss and receive legal advice regarding settlement negotiations in a pending lawsuit. Specifically, the office seeks to discuss recommendations for Claims Board action in the case **John Kim v. City of Los Angeles** (LASC Case No. 24SCV00060).\n\n## Why?\nThis matter stems from a 2023 incident in which John Kim, an employee of the Urban Forestry Division, filed a complaint alleging racial harassment and discrimination by the City. Under California Government Code Section 54956.9(d)(1), the City Council is permitted to hold closed sessions when discussing pending litigation with legal counsel. The closed session allows sensitive settlement discussions to occur privately before any public decision is made.\n\n## Key Details\n- **Plaintiff:** John Kim, Urban Forestry Division employee\n- **Incident:** 2023 complaint involving racial harassment and discrimination\n- **Claim Number:** C24-04929\n- **Case Number:** 24SCV00060\n- **Contact:** Deputy City Attorney Cody Franklin at (213) 584-9938 will represent the office and answer council questions\n\n## Impact\nThis affects the City's financial liability and personnel matters related to employment discrimination. While the closed session itself is confidential, any settlement decision by the Claims Board would ultimately be subject to public disclosure once finalized, making it a matter of public concern regarding how the City handles workplace discrimination claims.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 337,
+        "cost_usd": 0.005002
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

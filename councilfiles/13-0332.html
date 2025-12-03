@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 13-0332 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 13-0332: CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to he Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                13-0332
+            </div>
+            <div class="file-number">13-0332</div>
+            <h1>The City Council is being asked to approve a Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC, to extend the company's operation of a marine oil terminal at Berths 118-119 in the Port of Los Angeles for an additional five years (April 14, 2025 through April 13, 2030).</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 15</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to he Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC, to allow continued operation of the marine oil terminal at Berths 118-119 in the Port of Los Angeles (POLA).
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Travel and Tourism Commitee 10-14-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=32d94528-25c6-46fb-9ba2-9a32cda4b9e5" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=32d94528-25c6-46fb-9ba2-9a32cda4b9e5" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City Council is being asked to approve a Fourth Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC, to extend the company's operation of a marine oil terminal at Berths 118-119 in the Port of Los Angeles for an additional five years (April 14, 2025 through April 13, 2030). The amendment has already been approved by the Board of Harbor Commissioners and the Trade, Travel and Tourism Committee.</p>
+<h5>Background and Rationale</h5>
+<p>This amendment extends an existing permit that has been in place, extending the company's total agreement period to 42 years. The terminal handles marine oil storage operations, which are an existing use at the port. The action is classified as categorically exempt from environmental review under California's Environmental Quality Act (CEQA) because it involves continuation of existing operations without significant environmental changes.</p>
+<h5>Key Details</h5>
+<p><strong>Annual rent</strong>: $2,255,182.88 (remains unchanged but subject to annual adjustments based on the Consumer Price Index) <strong>Timeline</strong>: Operations continue through April 13, 2029, with site restoration and surrender by April 13, 2030 <strong>Financial impact</strong>: Estimated to generate $3.1 million annually, or $15.5 million over the five-year extension period for the Harbor Department <strong>Committee vote</strong>: All three committee members (Park, McOsker, Rodriguez) voted YES on October 14, 2025</p>
+<h5>Impact</h5>
+<p>This approval allows continued commercial operations at the port, generating significant revenue for the Harbor Department. The decision benefits Kinder Morgan by securing extended operational rights, while providing the city with reliable rental income. However, residents should note this permits ongoing oil terminal operations in their harbor.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners dated 10-03-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9fcf36fc-8b70-4ebf-ab1a-a200fde3fbf8" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fcf36fc-8b70-4ebf-ab1a-a200fde3fbf8" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is requesting City Council approval to extend Kinder Morgan Tank Storage Terminals' operating permit for their marine oil terminal at Berths 118-119 by an additional five years. This is the fourth amendment to the original Permit No. 708, and the extension would be retroactive, meaning it covers time that has already passed.</p>
+<h5>Why?</h5>
+<p>The document does not explicitly state the rationale for the extension. However, the retroactive nature of the extension suggests that Kinder Morgan has already continued operations beyond the previous permit expiration date, and this amendment formalizes and extends that authorization going forward.</p>
+<h5>Key Details</h5>
+<p><strong>Facility:</strong> Marine oil terminal at Berths 118-119 in the Port of Los Angeles <strong>Company:</strong> Kinder Morgan Tank Storage Terminals, LLC <strong>Extension:</strong> Five years (retroactive) <strong>Environmental Review:</strong> The Board of Harbor Commissioners determined the project is categorically exempt from California Environmental Quality Act (CEQA) requirements <strong>Financial Impact:</strong> None to the city's General Fund <strong>District:</strong> This affects Council District 15</p>
+<h5>Impact</h5>
+<p>This decision primarily affects the Port of Los Angeles operations and the surrounding community in CD-15. The approval allows continued oil terminal operations at the port. There is no direct financial cost to the city.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action  dated 3-23-22</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3503f218-74ec-42f7-9e4b-1ada05df655c" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3503f218-74ec-42f7-9e4b-1ada05df655c" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council approved a Third Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC on March 23, 2022. This amendment allows the company to continue operating a marine oil terminal at Berths 118-119 in the Port of Los Angeles until April 13, 2024, with a requirement to fully restore and surrender the site to the City by April 13, 2025.</p>
+<h5>Why?</h5>
+<p>The amendment extends the operational timeline for an existing oil terminal facility. The document references a California State Lands Commission (CSLC) Extension Letter among its supporting attachments, indicating that state-level approval was also sought for this continuation. This appears to be part of a structured wind-down process for the facility, with a defined deadline for operations to cease and the site to be returned to municipal control.</p>
+<h5>Key Details</h5>
+<p><strong>Company:</strong> Kinder Morgan Tank Storage Terminals, LLC <strong>Location:</strong> Berths 118-119 (Port of Los Angeles) <strong>Operation End Date:</strong> April 13, 2024 <strong>Site Restoration Deadline:</strong> April 13, 2025 <strong>Council Vote:</strong> 14 YES votes, 1 ABSENT (Koretz), adopted immediately <strong>Sponsoring Motion:</strong> Buscaino-Bonin</p>
+<h5>Impact</h5>
+<p>This decision affects port operations and the future use of waterfront real estate in Los Angeles. The phased approach ensures continued economic activity from the terminal while establishing a clear timeline for environmental remediation and eventual site redevelopment by the City.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners dated 3-15-22</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=449b8314-90f4-43f9-8cdc-7b887f6552b8" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=449b8314-90f4-43f9-8cdc-7b887f6552b8" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Board of Harbor Commissioners is recommending that the City Council approve a Third Amendment to Permit No. 708 with Kinder Morgan Tank Storage Terminals, LLC. This amendment would allow Kinder Morgan to continue operating marine oil terminal facilities at Berths 118-119 in the Port of Los Angeles until at least April 13, 2025.</p>
+<h5>Why?</h5>
+<p>Kinder Morgan had requested to relocate operations to Berth 120 and construct new Marine Oil Terminal Engineering & Maintenance Structures (MOTEMS) to remain compliant with environmental regulations. However, Berth 120 is not currently available due to ongoing negotiations with adjacent tenants. The amendment provides a temporary solution by allowing continued operations at the current location while the Harbor Department works to determine Berth 120's availability over the next two years.</p>
+<h5>Key Details</h5>
+<p><strong>Deadline:</strong> April 13, 2025 for the current arrangement <strong>Contingency:</strong> If Berth 120 is deemed unavailable for construction, Kinder Morgan must cease operations and vacate Berths 118-119 <strong>Financial Impact:</strong> All maintenance, repair, and MOTEMS compliance costs are borne by Kinder Morgan with no impact to the city's General Fund <strong>Environmental Status:</strong> The action is considered administratively exempt from California Environmental Quality Act (CEQA) requirements</p>
+<h5>Impact</h5>
+<p>This affects Port operations and environmental compliance. The amendment maintains current maritime commerce activity while buying time for the city and Kinder Morgan to resolve facility constraints. Residents and environmental stakeholders should note the two-year timeline for determining the terminal's long-term future.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 3-15-22 - Board Resolution</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2f56b6fc-b8a8-4b0a-821f-75062042ab10" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2f56b6fc-b8a8-4b0a-821f-75062042ab10" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Board of Harbor Commissioners is approving a Third Amendment to Permit 708 that would allow Kinder Morgan Tank Storage Terminals to continue operating a marine oil terminal at Berths 118-119 in the Port of Los Angeles until April 13, 2024. The amendment also authorizes Kinder Morgan to build a new Marine Oil Terminal Engineering & Maintenance Standards (MOTEMS) compliant wharf at Berth 120 while ceasing operations at the current non-compliant wharf at Berth 118.</p>
+<h5>Why?</h5>
+<p>Kinder Morgan has faced obstacles relocating to other Port facilities. The company initially planned to move to Port of Long Beach but encountered vessel-scheduling conflicts with the primary tenant. Subsequent feasibility studies for alternative locations (including Berth 194) proved economically unviable due to high construction costs. The two-year extension provides time for the Harbor Department to determine whether Berth 120 will be available for construction of the new compliant wharf while allowing continued operations.</p>
+<h5>Key Details</h5>
+<p><strong>Timeline</strong>: Operations authorized until April 13, 2024; remediation must be completed by April 13, 2025 <strong>Location</strong>: Berths 118-119 (current operations); Berth 120 (proposed new wharf) <strong>Financial Impact</strong>: Approximately $6.2-6.7 million in total Port revenue over two years ($1.8+ million annually in land rent plus $1.25-1.5 million in combined wharf/dockage fees) <strong>Responsibility</strong>: Kinder Morgan bears all maintenance, repair, and MOTEMS compliance costs <strong>Prior History</strong>: Original 25-year permit (2000-2013); First Amendment extended five years; Second Amendment granted another five-year extension with $5 million wharf upgrades</p>
+<h5>Impact</h5>
+<p>This extension preserves approximately $6.2 million in Port revenue while maintaining an existing industrial operation. The arrangement puts financial responsibility on Kinder Morgan for all facility maintenance and environmental compliance, protecting Port finances while providing time to resolve the long-term berth availability question.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 3-15-22 - Site Map</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=282f497b-d37d-4f66-9e3f-a65d3e8adc03" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=282f497b-d37d-4f66-9e3f-a65d3e8adc03" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This document is a site map showing the locations of seven liquid bulk terminal facilities operated by different companies at the Port of Los Angeles. The map identifies the specific berths and geographic locations of terminals operated by Kinder Morgan, Phillips 66, NuStar Energy, Valero, Shell Oil, Vopak, and PBF Energy. These terminals are positioned around key port areas including Wilmington, San Pedro, Terminal Island, and Pier 400.</p>
+<h5>Why?</h5>
+<p>This appears to be a planning and documentation tool related to Council File 13-0332, created by the Port of Los Angeles' Planning & Economic Development department. The map provides a visual reference for understanding where liquid bulk cargo operations are concentrated within the port and how these facilities are distributed across different terminal areas. This type of mapping is essential for port management, safety planning, environmental review, and land use coordination.</p>
+<h5>Key Details</h5>
+<p>The seven terminals are distributed across multiple locations with specific berth assignments (ranging from Berth 118-119 to Berth 238-239). The map shows the proximity of these industrial facilities to neighboring communities including Wilmington and Long Beach, as well as major port infrastructure like Pier 400. The document was produced in August 2019 by the Port's Planning Department.</p>
+<h5>Impact</h5>
+<p>This map affects port operations, surrounding residential communities, and those involved in the oil and gas industry. Understanding terminal locations is critical for emergency response planning, environmental compliance, traffic management, and community safety—particularly for residents in Wilmington and San Pedro who live near these industrial operations.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 3-15-22 -  Third Amendment</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5b21d898-838c-474c-85b1-5ae0dddd26ba" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b21d898-838c-474c-85b1-5ae0dddd26ba" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City of Los Angeles is approving a Third Amendment to Permit No. 708, which extends the operating term for Kinder Morgan Tank Storage Terminals LLC at Berths 118-119 in the Harbor District. The amendment extends the permit through April 13, 2025, and establishes new requirements for facility improvements, operations cessation, demolition, and environmental remediation.</p>
+<h5>Why?</h5>
+<p>The original permit was granted in 1988 and previously extended in 2013 and 2018. Kinder Morgan has not yet found a suitable alternative location to relocate its operations. Rather than force immediate closure, the City agreed to extend the permit to allow time for the company to complete California State Lands Commission (CSLC) audits on the wharf's structural condition and potentially conduct repairs needed to continue operations. The extension also allows the company to complete its ongoing soil and groundwater contamination cleanup obligations begun in previous amendments.</p>
+<h5>Key Details</h5>
+<p><strong>Operations Cessation Date:</strong> April 13, 2024 (with possible extension via Executive Director approval) <strong>Surrender Date:</strong> April 13, 2025 <strong>Divided Property:</strong> Part of the site was already surrendered in December 2015 after demolition and interim remediation <strong>Remaining Facilities:</strong> Office, Vapor Recovery Unit, and specific tank operations at Berths 118-119 <strong>Critical Requirement:</strong> Tenant must obtain CSLC approval to continue wharf operations, including completion of Marine Oil Terminal Engineering and Maintenance Standards (MOTEMS) audits and any required wharf repairs at Kinder Morgan's expense</p>
+<h5>Impact</h5>
+<p>This amendment affects Port of Los Angeles operations and the surrounding community. If Kinder Morgan fails to meet CSLC requirements or deadline milestones, operations will cease automatically. The extended timeline requires the company to complete environmental remediation and wharf structural repairs, with enforcement mechanisms ensuring compliance. Residents should monitor whether the facility meets structural and environmental standards to continue operating.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Travel, and Tourism Committee 08_25_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fb103810-7427-4c44-9032-733d65cf4547" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb103810-7427-4c44-9032-733d65cf4547" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>The Los Angeles City Council is being asked to approve a five-year extension to Permit No. 708 for Kinder Morgan Storage Terminals, LLC. This extension would allow the company to continue operating its marine oil terminal at Berths 118 and 119 in the Port of Los Angeles until October 13, 2023. The council is also being asked to adopt a categorical exemption under the California Environmental Quality Act (CEQA), meaning the project is not subject to full environmental review.</p>
+<h5>Why This Matters</h5>
+<p>The extension provides Kinder Morgan with a transition period to relocate to a new facility. The permit extension is contingent on Kinder Morgan receiving California State Lands Commission approval to clean up and restore the marine terminal site by April 2018. This addresses the company's operational needs while ensuring environmental remediation of the current site.</p>
+<h5>Key Details and Financial Impact</h5>
+<p>The agreement includes approximately $2.4 million in annual compensation to the Port in 2016, covering land rent, wharfage, and dockage fees. This compensation will be adjusted every five years and includes an annual Consumer Price Index (CPI) adjustment to account for inflation. All other terms from the original permit and its first amendment remain unchanged.</p>
+<h5>Committee Recommendation</h5>
+<p>On August 15, 2017, the Trade, Travel, and Tourism Committee recommended council approval, with committee members Buscaino and Krekorian voting yes, and Bonin absent. The Board of Harbor Commissioners and the City Administrative Officer both support this action. The council deadline for action was August 25, 2017.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners 07_26_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=da6fd10d-9d4a-4d68-a5bb-4c1a61f78344" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=da6fd10d-9d4a-4d68-a5bb-4c1a61f78344" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is seeking City Council approval to extend Kinder Morgan Storage Terminals' marine oil terminal operating permit at Berths 118-119 for another five years, until October 13, 2023. This is the second amendment to the existing Permit No. 708. Additionally, the amendment includes a provision to automatically adjust the company's land rent payments annually based on the Consumer Price Index.</p>
+<h5>Why?</h5>
+<p>This amendment allows Kinder Morgan to continue operating their marine oil storage and transfer facility at the port. The extension is contingent upon the company receiving approval from the California State Lands Commission to clean up and restore a separate marine terminal site (Berths 171-173) by April 2018, indicating environmental remediation is a condition of the renewal.</p>
+<h5>Key Details</h5>
+<p><strong>Facility Location:</strong> Berths 118-119 at the Port of Los Angeles <strong>Extension Period:</strong> Five years through October 13, 2023 <strong>Contingency:</strong> CSLS cleanup approval for Berths 171-173 required by April 2018 <strong>Financial Impact:</strong> No impact to the city's General Fund <strong>Environmental Review:</strong> The action is exempt from California Environmental Quality Act (CEQA) requirements under Class 1(14) of LA City CEQA Guidelines</p>
+<h5>Impact</h5>
+<p>This decision primarily affects the Port of Los Angeles operations and the oil storage industry. The permit extension ensures continued maritime commerce and economic activity, while the environmental cleanup requirement protects coastal and marine resources. Residents in the surrounding San Pedro area may be affected by continued operational activities at the facility.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 07262017 - Letter of Subsequent Audit 07_26_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9ee45cd8-5dc8-42e9-a66c-41971d5c7ed9" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ee45cd8-5dc8-42e9-a66c-41971d5c7ed9" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>Kinder Morgan Tank Storage Terminals, LLC has agreed to conduct a subsequent safety audit in 2017 of their marine oil terminal facility located at Berths 118-120 in the Port of Los Angeles. This audit follows the Marine Oil Terminal Engineering and Maintenance Standards (MOTEMS) of the California Building Code and will be conducted by the third-party contractor AECOM.</p>
+<h5>Why?</h5>
+<p>The California State Lands Commission (CSLC) requested this audit because Kinder Morgan is seeking to extend its lease with the Port of Los Angeles beyond the prior 2018 expiration date. This additional lease extension is necessary for the company to continue operating at Berth 118 while developing a relocation site. The audit will determine what repairs or upgrades are needed to ensure safe operations and protect public health, safety, and the environment.</p>
+<h5>Key Details</h5>
+<p>This is a subsequent audit following previous audits submitted in January 2010 and November 2013. Kinder Morgan has already demolished numerous tanks and structures at the terminal and plans to mitigate agreed-upon operational and seismic deficiencies. The audit will identify any additional outstanding deficiencies requiring repairs or upgrades, with Kinder Morgan noting that recommendations will be evaluated in light of the facility's limited remaining operational life.</p>
+<h5>Impact</h5>
+<p>The audit results will determine what safety improvements are necessary for continued operations at this marine terminal, affecting environmental protection and public safety in the Port of Los Angeles area. The findings will guide any required upgrades before the facility's eventual relocation or closure.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners 04_02_2013</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1655ed1e-4b7f-4795-a30b-ae380fdc9e0f" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1655ed1e-4b7f-4795-a30b-ae380fdc9e0f" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>The City is seeking City Council approval for two related agreements with Kinder Morgan companies regarding marine oil terminal operations at the Port of Los Angeles. First, a Settlement and Release Agreement with Kinder Morgan Liquids Terminals LLC to resolve a long-running lawsuit over contamination cleanup at Berths 171-173. Second, a First Amendment to Permit 708 with Kinder Morgan Tank Storage Terminals LLC to extend operations at Berths 118-119 for five additional years (until 2018) with specific cleanup obligations.</p>
+<h5>Why This Matters</h5>
+<p>The City filed suit in 2005 against Kinder Morgan and other companies over environmental contamination at two separate harbor terminal sites dating back decades. The proposed settlement resolves disputes over past rent obligations and future contamination liability at Berths 171-173. Concurrently, extending Permit 708 allows Kinder Morgan to continue limited operations using vapor recovery systems while fulfilling demolition and soil remediation requirements at Berths 118-119, where a 1997 cleanup order remains outstanding.</p>
+<h5>Key Details</h5>
+<p><strong>Berths 118-119</strong>: Permit extension runs April 2013 to April 2018; rent increases from $29 to $32 per square foot; Kinder Morgan must surrender the eastern tank farm by December 31, 2015 <strong>Berths 171-173</strong>: 14-acre site heavily contaminated from 75 years of terminal operations; estimated remediation cost of approximately $18 million involving excavation and disposal of 256,000 tons of soil <strong>Financial commitment</strong>: Kinder Morgan agrees to pay 60% of past, future, and post-remediation costs, capped at $15 million combined <strong>Remediation standards</strong>: Tenant must remove soil with petroleum hydrocarbon concentrations exceeding 1,000 mg/kg and install permanent groundwater monitoring wells</p>
+<h5>Impact</h5>
+<p>This settlement avoids costly litigation and establishes clear timelines for environmental cleanup at two contaminated harbor sites. The Port continues collecting rent revenue while Kinder Morgan phases out operations and completes remediation. Local environmental conditions should improve through systematic soil removal and groundwater treatment, though the cleanup extends beyond the permit period through long-term monitoring obligations.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners 03_19_2013</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=07f75f4d-e7da-490b-a63d-12d48b24e1d6" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=07f75f4d-e7da-490b-a63d-12d48b24e1d6" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Board of Harbor Commissioners is requesting City Council approval to extend Permit 708 with Kinder Morgan Tank Storage Terminals LLC for an additional five years (from 25 to 30 years total). The permit allows Kinder Morgan to operate a marine oil terminal at Berths 118-119 in the Port of Los Angeles. Under the amendment, Kinder Morgan would continue limited operations through April 2017, then gradually demolish facilities and remediate the contaminated site by April 2018.</p>
+<h5>Why?</h5>
+<p>The permit was set to expire in April 2013. Kinder Morgan requested an extension because construction delays at the Port of Long Beach prevented their planned relocation. More importantly, this amendment is tied to a settlement of ongoing litigation over another contaminated Kinder Morgan terminal at Berths 171-173, where the City is spending approximately $18 million to remediate roughly 256,000 tons of contaminated soil. By extending Permit 708, the City secures Kinder Morgan's commitment to comprehensive site cleanup at the current location while facilitating settlement of the separate legal dispute.</p>
+<h5>Key Details</h5>
+<p><strong>Rent adjustment:</strong> Increased from $29 to $32 per square foot annually, generating approximately $1.8 million per year in rent for the first 2.5 years, then $800,000 for the final 2.5 years <strong>Surrender deadline:</strong> Eastern tank farm must be surrendered by December 31, 2015; full site by April 14, 2018 <strong>Remediation standard:</strong> Kinder Morgan must remove all soil with petroleum hydrocarbon concentrations exceeding 1,000 mg/kg and install permanent groundwater monitoring wells <strong>Penalty for delay:</strong> Rent increases up to 250% if Kinder Morgan holds over without authorization <strong>Parent company guarantee:</strong> Kinder Morgan Energy Partners LP guarantees all obligations</p>
+<h5>Impact</h5>
+<p>This affects Port of Los Angeles operations and environmental cleanup. The amendment ensures contaminated industrial land will be remediated to environmental standards while generating City revenue during the transition. It also removes uncertainty around the separate $18 million cleanup lawsuit. Local residents and environmental advocates may be concerned about the timeline and remediation standards, while the Port and City benefit from continued rent payments and guaranteed cleanup obligations.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>18 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - CAO Report</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4fc65a74-87fb-4399-9eb1-d2934d1fb774" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fc65a74-87fb-4399-9eb1-d2934d1fb774" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Resolution</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2d425749-0882-4136-a38c-dd0dc13e3839" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d425749-0882-4136-a38c-dd0dc13e3839" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Kinder Morgan Site Map</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f12b1bf2-d71e-4d94-8053-1cda4f61bce1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f12b1bf2-d71e-4d94-8053-1cda4f61bce1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Amendment</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=474fe66b-5b90-4fe5-80d7-15c0cf1e0631" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=474fe66b-5b90-4fe5-80d7-15c0cf1e0631" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Transmittal</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ee0b690b-5d94-4a76-acf2-e9c823de1341" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee0b690b-5d94-4a76-acf2-e9c823de1341" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_05-09-2024</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7266f5aa-7f51-4bac-adf6-7442b1acce98" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7266f5aa-7f51-4bac-adf6-7442b1acce98" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Buscaino-Bonin Motion_3-23-22</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=66472440-c221-4f37-b539-3c7c8c227992" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66472440-c221-4f37-b539-3c7c8c227992" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 3-15-22 - City Administrative Officer Report</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=45209df9-de7e-41a3-a726-fa536ea23070" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45209df9-de7e-41a3-a726-fa536ea23070" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 3-15-22 - CSLC Extension Letter</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4edce305-6d7c-4ca7-8cc3-b30203c5f7dd" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4edce305-6d7c-4ca7-8cc3-b30203c5f7dd" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 08_30_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=203d737f-e75f-4705-9a96-c42e72e69484" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=203d737f-e75f-4705-9a96-c42e72e69484" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 08_25_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0805f8f7-2602-4c9a-9a0b-a1c2d7a58937" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0805f8f7-2602-4c9a-9a0b-a1c2d7a58937" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 08_15_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7ff3e81d-b866-47d0-bac0-f57eb0ad04e8" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ff3e81d-b866-47d0-bac0-f57eb0ad04e8" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Second Amendment 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a289c7f7-dc62-4ba6-b70c-a2bdea25ad63" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a289c7f7-dc62-4ba6-b70c-a2bdea25ad63" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Resolution 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=00ecf258-a4a0-4dcc-a619-a85223df72d5" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=00ecf258-a4a0-4dcc-a619-a85223df72d5" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - City Administrative Officer Report 07_26_2</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=77b13f11-899a-42b5-b17b-0b233c75e045" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=77b13f11-899a-42b5-b17b-0b233c75e045" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Site Map 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d19e594b-0196-4165-84c1-6180f71c16a7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d19e594b-0196-4165-84c1-6180f71c16a7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Adopted Recommendation(s) 04_09_2013</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2974009d-e3a9-40e6-a645-cc6105064ab0" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2974009d-e3a9-40e6-a645-cc6105064ab0" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 04_09_2013</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d106d676-6699-4256-ba0e-6d4b18fb70db" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d106d676-6699-4256-ba0e-6d4b18fb70db" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

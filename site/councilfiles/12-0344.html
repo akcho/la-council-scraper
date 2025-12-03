@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 12-0344 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 12-0344: ADMINISTRATIVE AND CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to the Fourth Amendment to Permit No. 897 with Catali">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                12-0344
+            </div>
+            <div class="file-number">12-0344</div>
+            <h1>The Los Angeles Harbor Department is seeking City Council approval to amend an existing permit (Permit No. 897) with Catalina Channel Express, Inc., a ferry service operator.</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 15</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 04, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                ADMINISTRATIVE AND CATEGORICAL EXEMPTION and TRADE, TRAVEL AND TOURISM COMMITTEE REPORT relative to the Fourth Amendment to Permit No. 897 with Catalina Channel Express, Inc., to retroactively amend permit language and reset compensation.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17407.html" class="timeline-card">
+                        <div class="timeline-date">November 04, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Trade, Travel and Tourism Committee Report 10-14-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b0ad1956-79d8-46ce-a20b-9598e4999be1" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b0ad1956-79d8-46ce-a20b-9598e4999be1" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What Is Being Proposed?</h5>
+<p>The Los Angeles Harbor Department is seeking City Council approval to amend an existing permit (Permit No. 897) with Catalina Channel Express, Inc., a ferry service operator. The amendment makes retroactive changes to how the company compensates the city for using harbor facilities. Specifically, it updates the permit language effective July 25, 2023, and increases the company's minimum annual rent payment starting July 25, 2024.</p>
+<h5>Why This Amendment?</h5>
+<p>The document does not explicitly state why these retroactive changes are necessary. However, the amendment appears designed to ensure fair compensation to the city and clarify the terms under which Catalina Channel Express operates at the harbor. The retroactive nature suggests these changes may address a gap or dispute regarding how the company's rent should have been calculated.</p>
+<h5>Key Financial Details</h5>
+<p><strong>Minimum annual rent increases by $146,456</strong> (from $497,596 to $644,052), effective July 25, 2024 through July 24, 2029 <strong>Percentage rent added</strong>: 5% of gross receipts exceeding the fixed minimum rent, plus 2% of freight-related revenue exceeding the minimum All revenue goes to the Harbor Revenue Fund The minimum rent will adjust annually based on the Consumer Price Index</p>
+<h5>Impact</h5>
+<p>The changes primarily affect Catalina Channel Express through increased operating costs. Residents benefit through higher city revenues from a major ferry operator serving Catalina Island. The Trade, Travel and Tourism Committee unanimously approved the amendment on October 14, 2025, with no negative community impact statements submitted.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners dated  10-03-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3e553376-1079-4d49-834d-03553c94493c" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3e553376-1079-4d49-834d-03553c94493c" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is seeking City Council approval to amend the operating permit for Catalina Channel Express, Inc. through Resolution No. 25-10591 and Order No. 25-7406. The amendment will retroactively clarify how the company's compensation to the city is calculated and collected, specifically implementing a percentage rent compensation system for the five-year period from July 25, 2024 through July 24, 2029.</p>
+<h5>Why?</h5>
+<p>The document indicates this is a technical correction to the permit language. By retroactively amending the permit to define compensation years and outline requirements for percentage rent compensation, the city is establishing clear, standardized terms for how Catalina Channel Express will pay for its operating rights. There is no financial impact to the city's General Fund.</p>
+<h5>Key Details</h5>
+<p>This is the <strong>Fourth Amendment</strong> to Permit No. 897 The compensation period covers <strong>five years: July 25, 2024 - July 24, 2029</strong> The amendment is classified as administratively and categorically exempt from California Environmental Quality Act (CEQA) requirements The Port of Los Angeles and City Council District 15 are the primary stakeholders</p>
+<h5>Impact</h5>
+<p>This change primarily affects Catalina Channel Express's business operations and payment obligations to the city. Residents who use or rely on the ferry service may indirectly benefit from clearer operational terms, though no service changes are described in this document.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action 08_30_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=cb056b04-9ab5-466b-99c4-62423756d596" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb056b04-9ab5-466b-99c4-62423756d596" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council approved the Third Amendment to Permit No. 897 with Catalina Channel Express, Inc. at the Port of Los Angeles. This amendment expands the company's permitted premises to accommodate freight operations and increases the minimum annual rent paid to the city.</p>
+<h5>Background and Rationale</h5>
+<p>The amendment relates to a sublease arrangement between Catalina Channel Express, Inc. and Avalon Freight Services, LLC. The expansion of permitted premises is needed to support freight operations under this sublease agreement. By increasing the minimum annual rent alongside the expanded operations, the city ensures appropriate compensation for the additional port space being utilized.</p>
+<h5>Key Details</h5>
+<p><strong>Permit:</strong> Permit No. 897 with Catalina Channel Express, Inc. <strong>Location:</strong> Port of Los Angeles <strong>Related Party:</strong> Avalon Freight Services, LLC. (sublease operator) <strong>Committee Action:</strong> Trade, Travel and Tourism Committee Report adopted on August 25, 2017 <strong>Vote:</strong> 12 council members voted YES, 4 were ABSENT <strong>Exemptions:</strong> Administrative and categorical exemptions were approved</p>
+<h5>Impact</h5>
+<p>This action enables expanded freight operations at the Port of Los Angeles while generating increased revenue for the city through higher minimum annual rent. The decision supports commercial activity at the port and reflects the city's management of its maritime facilities.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Travel, and Tourism Committee 08_25_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a2b0d3aa-cac6-43ee-be60-387b93544dde" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2b0d3aa-cac6-43ee-be60-387b93544dde" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Trade, Travel, and Tourism Committee is recommending that Los Angeles City Council approve a Third Amendment to Permit No. 897 with Catalina Channel Express, Inc. at the Port of Los Angeles. The amendment would expand the company's leased premises by 32,881 square feet to accommodate freight operations through a sublease agreement with Avalon Freight Services, LLC.</p>
+<h5>Why This Matters?</h5>
+<p>Catalina Channel Express is expanding its port operations to handle additional freight work through its sublease partner, Avalon Freight Services. This expansion requires a larger leased area and a corresponding increase in the rent paid to the Port. The amendment has been reviewed and approved by both the Board of Harbor Commissioners (June 1, 2017) and the City Administrative Officer, confirming it aligns with port operations goals.</p>
+<h5>Key Details</h5>
+<p><strong>Leased area increase:</strong> 32,881 square feet <strong>Rent increase:</strong> 18.9% ($48,974 annually), from approximately $259,073 to $308,047 <strong>Permit term:</strong> No extension—the permit still expires in March 2037 <strong>Financial impact:</strong> No impact to the city's General Fund <strong>Committee vote:</strong> 2 yes (Buscaino, Krekorian), 1 absent (Bonin)</p>
+<h5>Impact</h5>
+<p>This action benefits Port operations and generates increased revenue for the Harbor Department while enabling Catalina Channel Express to expand its freight operations. No community impact statement was submitted for this matter.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners 07_26_2017</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9ab0f4fd-477a-4ca4-81b2-08b6b113fac4" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ab0f4fd-477a-4ca4-81b2-08b6b113fac4" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is seeking City Council approval to expand Permit No. 897 with Catalina Channel Express, Inc. through a Third Amendment. This expansion would increase the permitted premises by 32,881 square feet to accommodate freight operations being conducted through a sublease with Avalon Freight Services, LLC.</p>
+<h5>Why?</h5>
+<p>The larger space is needed to support expanded freight operations at the port facility. The additional area will allow Catalina Channel Express and its sublessee to conduct their shipping and logistics activities more effectively.</p>
+<h5>Key Details</h5>
+<p><strong>Permit holder:</strong> Catalina Channel Express, Inc. <strong>Sublessee:</strong> Avalon Freight Services, LLC <strong>Area increase:</strong> 32,881 square feet <strong>Financial impact:</strong> 18.9% increase in minimum annual rent <strong>Approved by:</strong> Board of Harbor Commissioners on June 1, 2017 <strong>Council District:</strong> CD 15 <strong>Environmental status:</strong> Exempt from California Environmental Quality Act (CEQA) requirements</p>
+<h5>Impact</h5>
+<p>There is no impact to the City's General Fund. The expansion allows for increased commercial activity at the port, which should generate additional revenue through higher rental payments. The change primarily affects port operations and the businesses involved in freight handling.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Commerce and Tourism Committee 05_12_2015</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fee00784-5d7c-4f7a-91a9-67d1179c5593" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fee00784-5d7c-4f7a-91a9-67d1179c5593" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Trade, Commerce and Tourism Committee is recommending that the Los Angeles City Council approve a second amendment to the permit agreement with Catalina Channel Express, Inc. This amendment would allow Catalina to construct an administrative office and freight facility at the Port of Los Angeles in San Pedro. The committee voted unanimously to approve this recommendation (2 yes, 1 absent).</p>
+<h5>Why?</h5>
+<p>Catalina Channel Express currently operates ferry services between San Pedro and Catalina Island under a 25-year permit that began in 2012. The company wants to relocate its reservations center and approximately 35-40 jobs from Long Beach to San Pedro. Building new office and warehouse facilities will provide additional space for ferry operations, maintenance, storage, and handling of cargo shipped to and from Catalina Island.</p>
+<h5>Key Financial and Operational Details</h5>
+<p>Under this amendment, Catalina will lease approximately 55,442 square feet (1.3 acres) of additional land at an annual cost of $128,659 to the Port of Los Angeles. Catalina will invest no less than $3.5 million in construction and improvements. In exchange, the Harbor Department will provide $1.5 million in rental credits (capped at 50% of any single year's rent) and $280,000 in wharf improvements. The amendment does not extend the current permit, which expires in March 2037.</p>
+<h5>Impact</h5>
+<p>This project will bring approximately 35-40 jobs to the San Pedro area and generate ongoing revenue for the Port. All tenant improvements made by Catalina will become Port of Los Angeles property at the end of the contract. The project was determined to be exempt from environmental review under the California Environmental Quality Act (CEQA), and will have no impact on the City's General Fund.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners 05_07_2015</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f3e5efff-6f57-4d9d-a1a4-e59f64753834" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3e5efff-6f57-4d9d-a1a4-e59f64753834" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is requesting City Council approval for a Second Amendment to Permit No. 897 with Catalina Channel Express, Inc. This amendment modifies an existing operating permit for the company. The Board of Harbor Commissioners already approved this amendment on April 9, 2015, and it is now being submitted to the City Council for final approval.</p>
+<h5>Why?</h5>
+<p>The document does not provide specific details about why this amendment is necessary or what changes it contains. However, the Port is presenting it as a routine permit modification requiring City Council authorization under Section 606 of the Los Angeles City Charter.</p>
+<h5>Key Details</h5>
+<p><strong>Permit Number:</strong> No. 897 <strong>Company:</strong> Catalina Channel Express, Inc. <strong>Date of Board Approval:</strong> April 9, 2015 <strong>Submission Date:</strong> May 7, 2015 <strong>District:</strong> Council District No. 15 <strong>Financial Impact:</strong> None to the General Fund</p>
+<h5>Impact</h5>
+<p>This action affects Catalina Channel Express, Inc.'s ability to operate at the Port of Los Angeles. The Council's approval is required to make the permit amendment official. The amendment is classified as exempt from California Environmental Quality Act (CEQA) review, meaning no environmental assessment is required.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 05072015 - Site Map (5 of 5) 05_07_2015</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=bc7abdd2-0187-4621-b8f3-02c93a5f98bb" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc7abdd2-0187-4621-b8f3-02c93a5f98bb" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This site map document illustrates a development project in Los Angeles that involves multiple parcels of land. The map identifies three distinct areas: Zone 8 (green), Zone 9A (light blue), Zone 9B (darker blue), and an "Optional Area" (red). The map also references both "Current Premises" and "2nd Amendment Premises," indicating this is likely a revised or amended proposal to an existing project.</p>
+<h5>Key Details</h5>
+<p>The project is located near Seaside Freeway and Shirley Street in what appears to be an industrial or mixed-use area of Los Angeles. The site map shows parking areas, green space, and existing structures. The presence of both current and amended premises suggests this document is part of a modification to an earlier approved project, with the optional area potentially representing an expansion or alternative configuration of the development.</p>
+<h5>Why This Matters</h5>
+<p>This site map is a planning tool that helps clarify the physical scope and layout of the proposed development. By visually depicting the different zones and the optional area, it allows City Council members, planning staff, and the public to understand exactly what land is involved and how the project is organized spatially.</p>
+<h5>Potential Impact</h5>
+<p>Residents in the surrounding area should be aware that this project may affect local traffic patterns, parking availability, and the character of the neighborhood. The presence of an "optional area" suggests flexibility in the project's final scope, meaning the full extent of development may still be subject to negotiation or approval conditions.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Council Action 10_01_2014</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=11425511-e6bd-439b-bc18-ba334ec04b29" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=11425511-e6bd-439b-bc18-ba334ec04b29" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council approved an amendment to a permit (Permit No. 897) held by Catalina Channel Express, Inc., which operates ferry services between San Pedro and Catalina Island. The amendment reflects a settlement agreement that adjusts rental compensation the company owes to the Port of Los Angeles for the next five years (July 2014 through July 2019).</p>
+<h5>Why?</h5>
+<p>In March 2012, the company relocated to different berths at the Port of Los Angeles to continue its passenger ferry operations. This move created disputes over rental compensation under the original agreement. The amendment finalizes a negotiated settlement that resolves these disputes and establishes new, clearly defined rental terms going forward. All parties agreed to release any outstanding claims related to the relocation.</p>
+<h5>Key Details</h5>
+<p>The amended permit covers Berth 95 in the Port of Los Angeles and establishes a phased rental compensation schedule. The annual rent will gradually increase over the five-year period, reaching a full market rate of <strong>$128,484 by the fifth year</strong> (2019). Compensation includes fixed minimum fees, Consumer Price Index adjustments, and a percentage of the company's gross receipts. The company will continue operating and maintaining its passenger ferry facilities during this period.</p>
+<h5>Impact</h5>
+<p>This primarily affects Catalina Channel Express, Inc. and the Port of Los Angeles' revenue. However, it also ensures continuity of the popular tourist and commuter ferry service connecting San Pedro to Catalina Island. The settlement resolves potential litigation, providing stability for both the business operator and the port.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Commerce and Tourism Committee 09_23_2014</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b2ecf76f-c3c1-492b-8b88-0931356402c0" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2ecf76f-c3c1-492b-8b88-0931356402c0" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Los Angeles City Council is being asked to approve the first amendment to Permit No. 897 with Catalina Channel Express, Inc., a ferry company that operates passenger vessel services between San Pedro and Catalina Island at Berth 95 in the Port of Los Angeles. The amendment reflects a negotiated Settlement Agreement that resolves disputes over overpaid percentage rent under the previous permit arrangement.</p>
+<h5>Why?</h5>
+<p>In March 2012, the City authorized the Harbor Department to relocate Catalina Channel Express to different berths at the port. This relocation created disputes and claims regarding rental compensation that needed to be resolved. The Settlement Agreement and Release of Claims addresses these outstanding disputes and establishes new, agreed-upon rental terms going forward.</p>
+<h5>Key Details</h5>
+<p><strong>Permit Location:</strong> Berth 95, Port of Los Angeles <strong>Service:</strong> Public passenger ferry transporting tourists and commuters to Catalina Island <strong>Contract Period:</strong> July 25, 2014 to July 24, 2019 (5 years) <strong>Rental Structure:</strong> Fixed minimum compensation plus Consumer Price Index adjustments and percentage of gross receipts <strong>Target Annual Rate:</strong> $128,484 by year five (phased in gradually over the contract period) <strong>Committee Vote:</strong> Passed 2-1 (LaBonge and Buscaino voted YES; Bonin was absent)</p>
+<h5>Impact</h5>
+<p>This approval allows the ferry service to continue operating under clarified, market-rate rental terms while resolving prior compensation disputes. The phased rental increases provide Catalina Channel Express stability while ensuring the City receives fair market compensation for the port facility.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Attachment to Report dated 09162014 - First Amendment (2 of 2) 09_16_2014</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6551e848-944e-444e-8132-f6f45a34848e" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6551e848-944e-444e-8132-f6f45a34848e" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>This First Amendment modifies the permit for Catalina Channel Express, Inc., a ferry operator at Berth 95 in San Pedro. The amendment updates the premises description to reflect physical changes made to the facility and adjusts compensation terms for the period from July 25, 2014 through July 24, 2019. The amended permit expands the premises to include seven parcels totaling approximately 187,000 square feet of combined land and water area.</p>
+<h5>Why This Change is Needed</h5>
+<p>In 2011, the China Shipping container terminal expansion forced Catalina Channel Express to relocate south from its original location. The tenant invested over $5 million in adaptive reuse of an existing Harbor Department building and facility improvements. During construction, the Harbor Department and tenant determined that modifications were necessary for safe and efficient access to additional water space. These changes required expanding the premises to include concrete ramps and installing four floating docks, which necessitated removing existing wooden wharf improvements. This amendment formally recognizes these physical changes and settles compensation disputes.</p>
+<h5>Key Financial and Operational Details</h5>
+<p>The amendment establishes a tiered monthly compensation schedule: $5,027 (2012-2013), increasing to $10,707 (2016-2019). Starting July 25, 2023, the tenant will pay 5% of gross receipts exceeding the fixed minimum compensation. The amended premises includes a 7,544 sq. ft. warehouse building, 38,448 sq. ft. of unimproved land, 59,719 sq. ft. of water area with two concrete ramps, and additional berth and water areas. The amendment also settles three claims filed in December 2012 regarding overpaid rent and interest.</p>
+<h5>Impact</h5>
+<p>This amendment affects the ferry operator's business operations at the Port of Los Angeles and clarifies the company's occupancy rights and financial obligations. The settlement resolves pending disputes with the City, providing certainty for the operator's continued service to Catalina Island passengers while ensuring fair compensation to the Harbor Department for use of public waterfront facilities.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Board of Harbor Commissioners (1 of 2) 09_16_2014</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=926ff98c-ad89-4c26-9a0b-3fdbd0bcb27a" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=926ff98c-ad89-4c26-9a0b-3fdbd0bcb27a" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Port of Los Angeles is seeking City Council approval to amend Permit No. 897 with Catalina Channel Express, Inc., the ferry operator that provides passenger service between San Pedro and Catalina Island. The amendment updates the permit to reflect additional property dimensions and adjusts rental compensation accordingly. The proposal was approved by the Board of Harbor Commissioners on July 24, 2014.</p>
+<h5>Why?</h5>
+<p>Catalina was forced to relocate from Berth 96 to Berth 95 to accommodate China Shipping's expansion at the port. During the relocation, modifications to the new facility required additional land and submerged land areas beyond what was originally permitted. The amendment also settles disputes over overpaid percentage rent under the previous permit (Permit No. 768) through a negotiated Settlement Agreement and Release of Claims. Catalina invested approximately $5 million in the relocation, including adaptive reuse of an existing port building.</p>
+<h5>Key Details</h5>
+<p><strong>Property Changes</strong>: The amendment adds 19,424 square feet of submerged land and 1,190 square feet of land <strong>Rental Schedule</strong>: Fixed monthly compensation increases from $5,027 (Year 1) to $10,707 (Years 5-7, covering 2016-2019), reaching a full annual market rent of $128,484 by Year 5 <strong>Timeline</strong>: Compensation covers July 2012 through July 2024, with rates reset to market rate in Year 8 <strong>Location</strong>: Berth 95, Port of Los Angeles</p>
+<h5>Impact</h5>
+<p>This action ensures Catalina Channel Express can continue operating the popular tourist and commuter ferry service while the Port receives increased revenue. Residents using the ferry will see stable operations and continued service to Catalina Island. The amendment is deemed exempt from environmental review as the relocation was previously analyzed in environmental impact reports for China Shipping and the San Pedro Waterfront Project.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Trade, Commerce and Tourism Committee 03_22_2012</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5b38b5c3-3b86-4a35-8b5e-24538dc776aa" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b38b5c3-3b86-4a35-8b5e-24538dc776aa" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Trade, Commerce and Tourism Committee recommends that the Los Angeles City Council approve Permit No. 897 for Catalina Channel Express, Inc. This permit would authorize the ferry company to construct, operate, and maintain a public passenger facility at San Pedro's Berths 94 and 95 for 25 years. The committee also recommends adopting a California Environmental Quality Act (CEQA) exemption for this project.</p>
+<h5>Why?</h5>
+<p>Catalina Express must relocate from its current location at Berths 95/96 to make room for the expansion of the China Shipping terminal. The relocation is necessary to prevent delays to the China Shipping expansion project, which could subject the Harbor Department to financial penalties. To accommodate this move as quickly as possible, Catalina Express is making a substantial $2.8 million investment in facility improvements at the new location.</p>
+<h5>Key Details</h5>
+<p><strong>Current location:</strong> Berths 95/96 (170,678 square feet) <strong>New location:</strong> Berths 94/95 <strong>Current permit:</strong> No. 768 (being replaced by Permit No. 897) <strong>Term:</strong> 25 years <strong>Investment:</strong> Approximately $2.8 million <strong>Committee vote:</strong> 2-1 approval (Labonge and Rosendahl voted yes; Buscaino was absent) <strong>Deadline for Council action:</strong> April 4, 2012</p>
+<h5>Impact</h5>
+<p>The approval allows Catalina Express to continue operating passenger ferry service between San Pedro and Catalina Island, serving tourists and commuters. There is no fiscal impact to the City General Fund. The relocation enables important port expansion while maintaining an existing transportation service.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>17 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - CAO Report</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=323b3f45-64a1-4de0-9ce3-113366c6a034" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=323b3f45-64a1-4de0-9ce3-113366c6a034" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Board Resolution</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a8728140-038b-431b-8e41-0ac0ec73f099" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8728140-038b-431b-8e41-0ac0ec73f099" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Amendment</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=97ae37b8-0db1-491f-8721-a5a26b76ae2a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=97ae37b8-0db1-491f-8721-a5a26b76ae2a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 10-03-25 - Transmittal</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b17903bd-8687-49cf-b653-af44595fa11e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b17903bd-8687-49cf-b653-af44595fa11e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 08_15_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=32d881c8-1cbe-4ecd-a552-0de51e50b7d5" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=32d881c8-1cbe-4ecd-a552-0de51e50b7d5" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Third Amendment 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=59854353-fb41-4b0e-a83e-ccc4d1ca0c01" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=59854353-fb41-4b0e-a83e-ccc4d1ca0c01" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Board Report 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=52bb9139-61d9-4c6b-9fbc-da5ac5ad19e6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=52bb9139-61d9-4c6b-9fbc-da5ac5ad19e6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - City Administrative Officer Report 07_26_2</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7f9470c7-1d27-41b3-8294-906e2f0eb2eb" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f9470c7-1d27-41b3-8294-906e2f0eb2eb" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 07262017 - Site Map 07_26_2017</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6a2e1ff7-3a18-4e69-909f-fef44863f9cb" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a2e1ff7-3a18-4e69-909f-fef44863f9cb" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 05_13_2015</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e5e9cd8a-364d-43a7-8f21-2d2c1afcce78" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5e9cd8a-364d-43a7-8f21-2d2c1afcce78" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 05_12_2015</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=335164e8-3bef-4eac-8161-5060249500f6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=335164e8-3bef-4eac-8161-5060249500f6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s) 05_12_2015</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=aab27bcb-7be2-493a-a6e8-e68c6ab434d6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aab27bcb-7be2-493a-a6e8-e68c6ab434d6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 05072015 - 2nd Amendment (3 of 5) 05_07_2015</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=90622f2f-a4bb-4faf-ac00-4cf0ebc0cd6c" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=90622f2f-a4bb-4faf-ac00-4cf0ebc0cd6c" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 05072015 - Department Report (2 of 5) 05_07_2015</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=82f488c4-e55b-451e-bba3-35b7510c76e4" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=82f488c4-e55b-451e-bba3-35b7510c76e4" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 05072015 - City Administrative Officer Report (4 of 5</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5088cc58-099f-4588-aa55-326bd6452688" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5088cc58-099f-4588-aa55-326bd6452688" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action 03_27_2012</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=c6d8e4b0-8f4c-4008-b99b-f6dc031e9e44" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6d8e4b0-8f4c-4008-b99b-f6dc031e9e44" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Board of Harbor Commissioners 03_02_2012</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=12292e01-2f49-4320-8667-38a7cdb540c9" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12292e01-2f49-4320-8667-38a7cdb540c9" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 21-0392 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 21-0392: ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to a Second Amendment to Contract No. 143847 with the American Society for ">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                21-0392
+            </div>
+            <div class="file-number">21-0392</div>
+            <h1>The Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve a second amendment to a contract with the American Society for the Prevention of Cruelty to Animals (ASPCA).</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value">CD 8</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">November 05, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">November 05, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            <div class="official-title">
+                <span class="official-title-label">Official title:</span>
+                ARTS, PARKS, LIBRARIES, AND COMMUNITY ENRICHMENT COMMITTEE REPORT relative to a Second Amendment to Contract No. 143847 with the American Society for the Prevention of Cruelty to Animals, to provide spay/neuter and related veterinary services at the Chesterfield Square Animal Services Center.
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17406.html" class="timeline-card">
+                        <div class="timeline-date">November 05, 2025</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Related documents</h2>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fecaa9e9-c057-4612-bab0-9e8dce13f109" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fecaa9e9-c057-4612-bab0-9e8dce13f109" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What's Being Proposed</h5>
+<p>The Arts, Parks, Libraries, and Community Enrichment Committee is recommending that the Los Angeles City Council approve a second amendment to a contract with the American Society for the Prevention of Cruelty to Animals (ASPCA). The amendment would authorize the ASPCA to continue operating the spay and neuter clinic at the Chesterfield Square Animal Services Center for one year, from July 1, 2025 through June 30, 2026, for up to $350,000.</p>
+<h5>Why This Matters</h5>
+<p>The spay and neuter clinic provides important veterinary services to help control animal population growth and improve public health. Rather than requiring the city to operate these services directly, the contract outsources the work to the ASPCA, an established animal welfare organization with expertise in these services.</p>
+<h5>Key Details</h5>
+<p><strong>Contract amount:</strong> Not to exceed $350,000 <strong>Duration:</strong> July 1, 2025 – June 30, 2026 <strong>Location:</strong> Chesterfield Square Animal Services Center <strong>Funding source:</strong> Animal Sterilization Trust Fund (no impact on the General Fund) <strong>Committee vote:</strong> 2 Yes votes (Jurado, Hernandez); 1 Absent (Nazarian)</p>
+<h5>Impact</h5>
+<p>This contract ensures that low-cost spay and neuter services remain available to Los Angeles residents, supporting animal welfare goals while the city avoids the direct operational costs. The funding comes from a dedicated trust fund specifically designated for animal sterilization services.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Administrative Officer dated 9-26-25</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1c459686-662c-4a1d-839f-7551390f15cb" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c459686-662c-4a1d-839f-7551390f15cb" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is seeking to extend its contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to continue operating the spay and neuter clinic at the Chesterfield Square Animal Services Center in South Los Angeles. Specifically, the City Administrative Officer recommends authorizing a one-year extension of the existing contract from July 1, 2025 through June 30, 2026, for a maximum amount of $350,000.</p>
+<h5>Why?</h5>
+<p>The City's Animal Services Department has relied on this partnership to provide accessible spay and neuter services to shelter animals and low-income Los Angeles residents. Although the City employs veterinarians and veterinary technicians capable of performing these surgeries, staffing limitations and the high volume of animals needing care make it more practical to contract with ASPCA. This arrangement also helps facilitate pet adoptions by ensuring animals are sterilized before release to new owners and supports the City's discount and free sterilization voucher programs for residents.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Chesterfield Square Animal Services Center (1850 West 60th Street, South Los Angeles) <strong>Duration:</strong> July 1, 2025 - June 30, 2026 (final one-year option; this is the second amendment) <strong>Cost:</strong> $350,000 maximum for this year; total contract value reached $1,750,000 across the original three-year term plus two one-year extensions <strong>Funding:</strong> Animal Sterilization Trust Fund (supported by licensing fees, adoption fees, and donations—no General Fund impact) <strong>Services:</strong> Spay/neuter surgeries for dogs, cats, and rabbits; includes pre-adoption, post-release, and discount/free programs for residents</p>
+<h5>Impact</h5>
+<p>This extension ensures continued access to affordable sterilization services for adoptive families and low-income Los Angeles residents, supporting animal welfare and adoption outcomes. The contract has operated successfully since June 2021 with full compliance with City requirements and professional standards.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Administrative Officer dated 7-23-24</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0474317d-3ef6-4fae-b854-1a8878e61afc" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0474317d-3ef6-4fae-b854-1a8878e61afc" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>The City is requesting authorization to extend its contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) for one additional year to operate the spay and neuter clinic at the Chesterfield Square Animal Services Center (1850 W. 60th Street). This extension would run from July 1, 2024, through June 30, 2025, with a maximum payment of $350,000.</p>
+<h5>Why This is Needed</h5>
+<p>The ASPCA has been providing spay/neuter and related veterinary services at the Chesterfield Square facility since July 2021 under an original three-year contract. The first three-year term is expiring, and the City is exercising its contractual right to extend the agreement for one additional year. The contract includes an option to renew for up to two more one-year terms, and the City intends to proceed with this extension to continue providing these services to the community.</p>
+<h5>Key Details</h5>
+<p><strong>Total contract value</strong>: The amendment brings the cumulative total to $1,400,000 (original $1,050,000 plus this year's $350,000) <strong>Funding source</strong>: Animal Sterilization Trust Fund (Fund No. 842), which is supported by city budget appropriations, licensing fees, adoption fees, and donations <strong>Services included</strong>: Spay/neuter surgeries for dogs, cats, and rabbits; pre-surgical exams; vaccines; microchipping; and support for various City programs (pre-release, post-release, pre-adoption, and community cat programs) <strong>Staff requirements</strong>: The ASPCA must maintain minimum daily surgical minimums (10 dogs, 5 female cats, unlimited male cats, 2 rabbits) and operate at least four days per week <strong>Discount</strong>: The ASPCA provides a 50% discount on City animal surgeries and contributes 1% of gross revenue from other services back to the City</p>
+<h5>Impact</h5>
+<p>This extension ensures continued access to affordable spay/neuter services for Los Angeles residents and shelter animals. The program directly benefits pet owners using discount coupons or free certificates, newly adopted animals, shelter operations, and the community cat program. The contract includes quality control measures, performance evaluations, and comprehensive insurance requirements to protect both the City and the public.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from City Administrative Officer dated 5-12-21.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=f7314abc-75e0-4de5-b69c-64d6ede55be3" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7314abc-75e0-4de5-b69c-64d6ede55be3" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The City is recommending that the Los Angeles City Council authorize the Department of Animal Services to enter into a three-year contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to operate the spay/neuter clinic at the Chesterfield Square Animal Service Center. The agreement would run from July 1, 2021 through June 30, 2024, with two optional one-year extensions, for a total cost not to exceed $350,000 annually ($1,050,000 for the initial three-year term).</p>
+<h5>Why This is Needed?</h5>
+<p>Los Angeles Municipal Code requires that all animals adopted from city shelters be spayed or neutered before release. The Department of Animal Services lacks sufficient in-house capacity to perform all necessary surgeries. By contracting with ASPCA, the city can augment its ability to provide these services to both animals being adopted from the shelter and to qualifying Los Angeles residents who bring their own pets for sterilization. The ASPCA was selected as the first qualified respondent on a pre-approved vendor list.</p>
+<h5>Key Details</h5>
+<p><strong>Location:</strong> Chesterfield Square Animal Service Center, 1850 West 60th Street, Los Angeles <strong>Services:</strong> Spay/neuter surgeries for dogs, cats, and rabbits; includes physical exams, vaccinations, and post-operative care <strong>Reimbursement rates:</strong> Range from $30-$125 per procedure depending on animal type and funding source (discount coupons, free certificates, or direct reimbursement) <strong>Minimum surgeries:</strong> 10 dogs, 5 female cats, 2 rabbits per day of operation <strong>Funding source:</strong> Animal Sterilization Trust Fund (no General Fund impact)</p>
+<h5>Who This Affects</h5>
+<p>This contract benefits Los Angeles residents by expanding access to affordable spay/neuter services through the city's program, which serves both adoptable shelter animals and pets owned by qualifying residents. There is no fiscal impact to the city's General Fund, as costs are covered entirely by the dedicated Animal Sterilization Trust Fund.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">21-0392 PAAW Committee Report 5-19-21</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a62cec36-214a-4d1f-8b4c-694cd84bedbc" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a62cec36-214a-4d1f-8b4c-694cd84bedbc" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed?</h5>
+<p>The Personnel, Audits, and Animal Welfare Committee recommends that Los Angeles City Council authorize a three-year contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to operate the spay/neuter clinic at the Chesterfield Square Animal Services Center. The contract runs from July 1, 2021 through June 30, 2024, with an option to extend for two additional one-year periods.</p>
+<h5>Background and Rationale</h5>
+<p>The Department of Animal Services established an on-call list of qualified spay/neuter service providers in September 2020, following a competitive Request for Qualifications process. The ASPCA was selected from this list through a formal Task Order Solicitations (TOS) process. This contract is part of the city's cost containment efforts to maintain spay/neuter services at animal shelters, similar to an earlier agreement with ASPCA for the West Los Angeles Animal Services Center clinic.</p>
+<h5>Key Financial and Operational Details</h5>
+<p>The contract is valued at $350,000 annually, totaling $1,050,000 for the initial three-year term. Importantly, this expenditure will have <strong>no impact on the city's General Fund</strong>, as funding comes entirely from the Animal Sterilization Trust Fund. The Committee reviewed the proposal on May 19, 2021, and voted to recommend approval (with support from Council members Koretz and Bonin; Harris-Dawson was absent).</p>
+<h5>Impact</h5>
+<p>This contract ensures continued spay/neuter services at a major animal facility, supporting animal welfare initiatives without burdening the city's general budget. The agreement must still be approved by the City Attorney and the full City Council before taking effect.</p>
+                </div>
+            </div>
+            <div class="attachment">
+                <div class="attachment-header">
+                    <div class="attachment-title">Report from Department of Animal Services dated 3-30-21.pdf</div>
+                    <div class="attachment-actions">
+                        <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8e99f6bf-83af-4b1a-83a7-6a6b1be65ffb" class="doc-action view-action" target="_blank">View</a>
+                        <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e99f6bf-83af-4b1a-83a7-6a6b1be65ffb" class="doc-action download-action" target="_blank">Download</a>
+                    </div>
+                </div>
+                <div class="summary">
+<h5>What is Being Proposed</h5>
+<p>The Department of Animal Services is requesting City Council approval to execute a three-year contract with the American Society for the Prevention of Cruelty to Animals (ASPCA) to operate the on-site spay/neuter clinic at the Chesterfield Square Animal Services Center. The contract includes two optional one-year extensions at the Department's discretion, with an effective date of July 1, 2021.</p>
+<h5>Why This is Needed</h5>
+<p>This contract is part of a cost containment protocol authorized by the Mayor's Office on March 16, 2021. The Department completed a competitive process by establishing an "on-call" list of qualified spay/neuter service providers in September 2020, following a Request for Qualifications (RFQ). ASPCA was identified as the selected provider through a Task Order Solicitation (TOS) process completed on March 30, 2021. Spay/neuter services are essential for animal control and welfare operations.</p>
+<h5>Key Details</h5>
+<p>The contract will be funded entirely through the Animal Sterilization Fund—which is supported by licensing fees, adoption fees, annual budgetary allocations, and donations—not the General Fund. Rates will be established by the Animal Services Commission. The ASPCA is already a current contractor operating the South LA spay/neuter clinic (contract expires 12/31/2020).</p>
+<h5>Impact</h5>
+<p>This arrangement allows the Department to outsource clinic operations to an experienced nonprofit organization, improving service efficiency while maintaining no cost to the General Fund. Residents and animals in Los Angeles will continue to have access to spay/neuter services, a critical public health and animal welfare service.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>3 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action dated 8-29-24</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=884c2327-ab66-429a-973d-fbfc4b48357e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=884c2327-ab66-429a-973d-fbfc4b48357e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_08-27-2024</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=401dd49e-6ece-4253-82cb-3aee5f43a05f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=401dd49e-6ece-4253-82cb-3aee5f43a05f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Council Action  dated 6-01-21</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1cb12e80-3d4e-4869-b303-60d704fe57eb" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1cb12e80-3d4e-4869-b303-60d704fe57eb" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>

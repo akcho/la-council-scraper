@@ -1,0 +1,62 @@
+{
+  "council_file": "25-1214",
+  "title": "City Administrative Officer (CAO) report relative to the Fiscal Year 2025-26 California Highway Patrol Cannabis Tax Fund Grant Program - Law Enforcement.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17526,
+      "date": "2025-11-12T22:30:00",
+      "section": "Committee referrals",
+      "item_number": "(3)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17577,
+      "date": "2025-12-02T22:00:00",
+      "section": "ITEM(S)",
+      "item_number": "(3)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "539a7879-3ecf-44f3-996b-895131603652",
+      "title": "Revised Report from City Administrative Officer dated 10-23-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=539a7879-3ecf-44f3-996b-895131603652",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=539a7879-3ecf-44f3-996b-895131603652",
+      "meeting_id": 17526,
+      "has_summary": false
+    },
+    {
+      "historyId": "9bfee5d3-167d-49a2-b949-ca640c07ef7e",
+      "title": "Report from City Administrative Officer dated 10-17-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9bfee5d3-167d-49a2-b949-ca640c07ef7e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9bfee5d3-167d-49a2-b949-ca640c07ef7e",
+      "meeting_id": 17526,
+      "has_summary": false
+    },
+    {
+      "historyId": "22e71d7a-b056-447b-9ecd-d908306380e5",
+      "title": "Revised Report from City Administrative Officer dated 10-23-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22e71d7a-b056-447b-9ecd-d908306380e5",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=22e71d7a-b056-447b-9ecd-d908306380e5",
+      "meeting_id": 17577,
+      "has_summary": false
+    },
+    {
+      "historyId": "26fd18e1-3837-4ba7-8cc7-698dd629ac6f",
+      "title": "Report from City Administrative Officer dated 10-17-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26fd18e1-3837-4ba7-8cc7-698dd629ac6f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=26fd18e1-3837-4ba7-8cc7-698dd629ac6f",
+      "meeting_id": 17577,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T22:30:00",
+  "last_seen": "2025-12-02T22:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 4,
+    "attachments_with_summaries": 0
+  }
+}

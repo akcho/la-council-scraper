@@ -1,0 +1,46 @@
+{
+  "council_file": "25-0008-S25",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along a street segment of Shoup Avenue, in Council District Three.",
+  "district": "CD 3",
+  "appearances": [
+    {
+      "meeting_id": 17406,
+      "date": "2025-11-05T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(28)",
+      "recommendation": "RESOLVE to: PROHIBIT, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over seven feet in height, during the hours of 2:00 a.m. and 6:00 a.m., along the east side of Shoup Avenue, between Roscoe Boulevard and Strathern Street. DIRECT the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to: Post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed, at the above locations. Initiate the necessary procedures for the preparation and sale of overnight parking permits, as specified in LAMC Section 80.69.4(c). AUTHORIZE the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 10-22-25 Resolution (Blumenfield - Lee) dated 9-16-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7048de4c-b64c-4e6b-b58d-4292d9f6239b",
+      "title": "Report from Transportation Committee 10-22-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7048de4c-b64c-4e6b-b58d-4292d9f6239b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7048de4c-b64c-4e6b-b58d-4292d9f6239b",
+      "meeting_id": 17406,
+      "has_summary": true,
+      "summary": "# Summary: Oversize Vehicle Parking Restrictions on Shoup Avenue\n\n## What is Being Proposed?\n\nThe Transportation Committee is recommending that the City Council establish parking restrictions for oversized vehicles on a segment of Shoup Avenue in Council District 3. Specifically, vehicles exceeding 22 feet in length or 7 feet in height would be prohibited from parking on the east side of Shoup Avenue between Roscoe Boulevard and Strathern Street during the hours of 2:00 a.m. to 6:00 a.m.\n\n## How It Will Work\n\nIf approved, the Los Angeles Department of Transportation (LADOT) would post \"tow away, no parking\" signs at the affected locations and establish a permit system for overnight parking. This would allow oversize vehicle owners to purchase permits to park in this area during the restricted hours, in accordance with Los Angeles Municipal Code Section 80.69.4.\n\n## Key Details\n\n- **Location:** East side of Shoup Avenue between Roscoe Boulevard and Strathern Street (Council District 3)\n- **Restricted hours:** 2:00 a.m. to 6:00 a.m. daily\n- **Vehicle size limits:** Over 22 feet in length or over 7 feet in height\n- **Committee vote:** 2 YES (Hutt, Nazarian), 1 NO (Hernandez), 2 ABSENT (Park, Padilla)\n- **Recommendation:** The Committee submitted this \"without recommendation,\" meaning it is neutral and deferring to the full Council for a decision\n\n## Impact\n\nThis ordinance would affect residents and businesses with oversized vehicles (such as RVs, large commercial vehicles, or trucks) in the specified area, requiring them to either relocate their vehicles during early morning hours or purchase an overnight parking permit.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3940,
+        "output_tokens": 413,
+        "cost_usd": 0.006005
+      }
+    },
+    {
+      "historyId": "fd19a623-340d-4e59-bc51-11dea58fe79f",
+      "title": "Resolution (Blumenfield - Lee) dated 9-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd19a623-340d-4e59-bc51-11dea58fe79f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=fd19a623-340d-4e59-bc51-11dea58fe79f",
+      "meeting_id": 17406,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-05T18:00:00",
+  "last_seen": "2025-11-05T18:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 2,
+    "attachments_with_summaries": 1
+  }
+}

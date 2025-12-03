@@ -1,0 +1,31 @@
+{
+  "council_file": "25-0176",
+  "title": "CD 2, CD 4, CD 6",
+  "district": "CD 2",
+  "appearances": [
+    {
+      "meeting_id": 17528,
+      "date": "2025-11-12T23:30:00",
+      "section": "Capital planning and infrastructure",
+      "item_number": "(6)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "48365a6d-8f63-48be-8035-3045145caedd",
+      "title": "Report from Board of Public Works dated 2-14-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48365a6d-8f63-48be-8035-3045145caedd",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=48365a6d-8f63-48be-8035-3045145caedd",
+      "meeting_id": 17528,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T23:30:00",
+  "last_seen": "2025-11-12T23:30:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 0
+  }
+}

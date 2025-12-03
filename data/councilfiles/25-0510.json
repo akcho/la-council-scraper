@@ -1,0 +1,78 @@
+{
+  "council_file": "25-0510",
+  "title": "CONTINUED FROM 8/27/25",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17471,
+      "date": "2025-11-12T16:45:00",
+      "section": "Transportation infrastructure improvements",
+      "item_number": "(13)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(16)",
+      "recommendation": "INSTRUCT the Los Angeles Department of Transportation to identify funding to support the installation of a minimum of one speed hump for any Council District not funded in the 2025-26 Fiscal Year. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 11-12-25 Communication from CD 10 11-12-25 - Amendment Speaker Card(s)_08-27-2025 Motion (Lee - Raman) dated 5-07-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "ea80eb01-39d8-42ac-88ae-596c24a7216c",
+      "title": "Speaker Card(s)_08-27-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea80eb01-39d8-42ac-88ae-596c24a7216c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=ea80eb01-39d8-42ac-88ae-596c24a7216c",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "435be656-7d93-4aa1-9e5a-bf616ba5f1b6",
+      "title": "Motion (Lee - Raman) dated 5-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=435be656-7d93-4aa1-9e5a-bf616ba5f1b6",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=435be656-7d93-4aa1-9e5a-bf616ba5f1b6",
+      "meeting_id": 17471,
+      "has_summary": false
+    },
+    {
+      "historyId": "3f137f22-b716-491a-9d64-10b5e9fbb567",
+      "title": "Report from Transportation Committee 11-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f137f22-b716-491a-9d64-10b5e9fbb567",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3f137f22-b716-491a-9d64-10b5e9fbb567",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "2d5b3039-49b2-4b8c-8dc5-96ede6877f8f",
+      "title": "Communication from CD 10 11-12-25 - Amendment",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d5b3039-49b2-4b8c-8dc5-96ede6877f8f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=2d5b3039-49b2-4b8c-8dc5-96ede6877f8f",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "416664f6-74d8-4c9d-b57a-1dfab94a3037",
+      "title": "Speaker Card(s)_08-27-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=416664f6-74d8-4c9d-b57a-1dfab94a3037",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=416664f6-74d8-4c9d-b57a-1dfab94a3037",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "31d4411b-eaf1-4bc0-bc27-ac204bb5ee06",
+      "title": "Motion (Lee - Raman) dated 5-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=31d4411b-eaf1-4bc0-bc27-ac204bb5ee06",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=31d4411b-eaf1-4bc0-bc27-ac204bb5ee06",
+      "meeting_id": 17559,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-12T16:45:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 6,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "council_file": "26-1100",
+  "title": "CONSIDERATION OF CITY CLERK AND CITY ATTORNEY REPORTS, RESOLUTION, AND ORDINANCE FIRST CONSIDERATION relative to calling for a Primary Nominating Election on June 2, 2026, and a General Municipal Election on November 3, 2026, in the City of Los Angeles and the Los Angeles Unified School District, and authorizing their consolidation with the State Primary and General Elections to be held on the same dates.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17588,
+      "date": "2025-12-05T17:00:00",
+      "section": "(This item is referred to the Public Works Committee and Rules, Elections and Intergovernmental Relations Committee. The Public Works Committee approved the item on November 12, 2025.)",
+      "item_number": "(1)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17579,
+      "date": "2025-12-05T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(6)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "bd5add72-ba3e-4291-8694-5815a215a4be",
+      "title": "Report from City Clerk dated 11-06-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd5add72-ba3e-4291-8694-5815a215a4be",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=bd5add72-ba3e-4291-8694-5815a215a4be",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "4244fd01-c74c-4916-8b08-fff5b34b5446",
+      "title": "Attachment to Report dated 11-06-25 - Resolution",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4244fd01-c74c-4916-8b08-fff5b34b5446",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=4244fd01-c74c-4916-8b08-fff5b34b5446",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "3f24ee38-8ee8-4642-b062-ee90dc2fae4b",
+      "title": "Report from City Attorney dated 11-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f24ee38-8ee8-4642-b062-ee90dc2fae4b",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=3f24ee38-8ee8-4642-b062-ee90dc2fae4b",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "8e8028e5-b9d7-4156-92e2-42243a02c741",
+      "title": "Attachment to Report dated 11-12-25 - Draft Ordinance",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e8028e5-b9d7-4156-92e2-42243a02c741",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8e8028e5-b9d7-4156-92e2-42243a02c741",
+      "meeting_id": 17579,
+      "has_summary": false
+    },
+    {
+      "historyId": "8cd30900-57a3-4214-82ac-624d1a7ec4da",
+      "title": "Report from City Clerk dated 11-06-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cd30900-57a3-4214-82ac-624d1a7ec4da",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8cd30900-57a3-4214-82ac-624d1a7ec4da",
+      "meeting_id": 17588,
+      "has_summary": false
+    },
+    {
+      "historyId": "11b62a83-fb63-4c43-bbf8-053281afdf1e",
+      "title": "Attachment to Report dated 11-06-25 - Resolution",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=11b62a83-fb63-4c43-bbf8-053281afdf1e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=11b62a83-fb63-4c43-bbf8-053281afdf1e",
+      "meeting_id": 17588,
+      "has_summary": false
+    },
+    {
+      "historyId": "427a19e4-ae94-4eb1-b8b7-a1139a4cde8f",
+      "title": "Report from City Attorney dated 11-12-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=427a19e4-ae94-4eb1-b8b7-a1139a4cde8f",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=427a19e4-ae94-4eb1-b8b7-a1139a4cde8f",
+      "meeting_id": 17588,
+      "has_summary": false
+    },
+    {
+      "historyId": "7df3a755-1ad3-4a10-8b61-7df45c3c9863",
+      "title": "Attachment to Report dated 11-12-25 - Draft Ordinance",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7df3a755-1ad3-4a10-8b61-7df45c3c9863",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7df3a755-1ad3-4a10-8b61-7df45c3c9863",
+      "meeting_id": 17588,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-05T17:00:00",
+  "last_seen": "2025-12-05T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 8,
+    "attachments_with_summaries": 0
+  }
+}

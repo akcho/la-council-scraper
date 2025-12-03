@@ -1,0 +1,70 @@
+{
+  "council_file": "25-0002-S29",
+  "title": "CLA report and Resolution (Blumenfield – Hernandez) relative to establishing the City’s position on Assembly Bill 867 (Lee), which would prohibit the declawing of cats, unless medically necessary.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17469,
+      "date": "2025-11-07T17:00:00",
+      "section": "Untitled Section",
+      "item_number": "(7)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(6)",
+      "recommendation": "RECEIVE and FILE the Chief Legislative Analyst report dated May 16, 2025 and Resolution (Blumenfield – Hernandez) relative to including in the City’s 2025-26 State Legislative Program SUPPORT for AB 867 (Lee), which would prohibit the declawing of a cat unless a veterinarian performs the procedure for a medically necessary purpose that benefits the cat's health. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Report from Rules, Elections and Intergovernmental Relations Committee 11-07-25 Report from Chief Legislative Analyst dated 5-16-25 Resolution (Blumenfield - Hernandez) dated 4-08-25"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "title": "Report from Chief Legislative Analyst dated 5-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=7312ee20-d2fc-4d93-8691-11f80ab3d909",
+      "meeting_id": 17469,
+      "has_summary": false
+    },
+    {
+      "historyId": "dd005ed4-6965-4bdd-944e-414425d19aca",
+      "title": "Resolution (Blumenfield - Hernandez) dated 4-08-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd005ed4-6965-4bdd-944e-414425d19aca",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=dd005ed4-6965-4bdd-944e-414425d19aca",
+      "meeting_id": 17469,
+      "has_summary": false
+    },
+    {
+      "historyId": "8bc4f3d1-596e-4b52-b0ff-1a0a1546e052",
+      "title": "Report from Rules, Elections and Intergovernmental Relations Committee 11-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8bc4f3d1-596e-4b52-b0ff-1a0a1546e052",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=8bc4f3d1-596e-4b52-b0ff-1a0a1546e052",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "afd3db67-ab9e-4476-87a9-6f9477fb759e",
+      "title": "Report from Chief Legislative Analyst dated 5-16-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=afd3db67-ab9e-4476-87a9-6f9477fb759e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=afd3db67-ab9e-4476-87a9-6f9477fb759e",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "11198d01-0393-48fc-82a3-5506fd4eefc5",
+      "title": "Resolution (Blumenfield - Hernandez) dated 4-08-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=11198d01-0393-48fc-82a3-5506fd4eefc5",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=11198d01-0393-48fc-82a3-5506fd4eefc5",
+      "meeting_id": 17559,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-07T17:00:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 5,
+    "attachments_with_summaries": 0
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "council_file": "25-1217",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to a proposed Ordinance amending Chapter IX of the Los Angeles Municipal Code (LAMC) to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17407,
+      "date": "2025-11-04T18:00:00",
+      "section": "Completed hearings",
+      "item_number": "(14)",
+      "recommendation": "APPROVE the proposed Ordinance amending Chapter IX of the LAMC to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code and to make local administrative, climatic, geological, topographical or environmental changes, included in the Department of Building and Safety (DBS) report dated October 17, 2025, attached to the Council file. REQUEST the City Attorney to prepare and present the draft Ordinance, including the environmental clearance. Fiscal Impact Statement: None submitted by the DBS. Neither the Chief Legislative Analyst nor the City Administrative Officer has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Planning and Land Use Management Committee_10-28-25 Report from Department of Building and Safety dated 10-17-2025"
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "item_number": "(52)",
+      "recommendation": "AMEND the prior Council action of November 4, 2025 regarding regarding a proposed Ordinance amending the Chapter IX of the Los Angeles Municipal Code (LAMC) to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code to ADOPT technical recommendations to add and revise various sections in the proposed Ordinance, all of which have been uploaded to the Council file in a Department of Building and Safety report dated November 6, 2025, as follows: The “Added Sections,” remove several LAMC sections that are no longer needed, inasmuch as those sections are regulated under California Building Standards Code. The “Changed Sections,” includes revised language to provide clarifying language and revisions to reference correct sections of the LAMC. Request the City Attorney to prepare and present the draft Ordinance, including the environmental clearance, that incorporates the Department of Building and Safety technical recommendations dated November 6, 2025, uploaded to Council file No. 25-1217, which help ensure that our local amendments to the California Building Standards Code (CBSC) can be justified based on local climatic, geological, topographic, or environmental factors, as required by California Building Standards Law (Health and Safety Code, Division 13, Part 2.5). Additionally, some changes are necessary to align our amendments with the 2025 edition of the CBSC. Furthermore, several local amendments are deleted where the CBSC already included equivalent or more restrictive provisions. Motion (Blumenfield - Yaroslavsky) dated 11-07-25 Council Action dated 11-06-25 Report from Planning and Land Use Management Committee_10-28-25 Communication from Los Angeles Building and Safety submitted 11-06-25 -Proposed Ordinance - 2026 LA Code Amendments Communication from Los Angeles Building and Safety submitted 11-06-25 - Proposed Code Adoption Changes Report from Department of Building and Safety dated 10-17-2025"
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "d7de30b2-82b3-4eba-899c-67b508375b21",
+      "title": "Report from Planning and Land Use Management Committee_10-28-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7de30b2-82b3-4eba-899c-67b508375b21",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=d7de30b2-82b3-4eba-899c-67b508375b21",
+      "meeting_id": 17407,
+      "has_summary": true,
+      "summary": "# Summary: Council File 25-1217\n\n## What is Being Proposed?\n\nThe Planning and Land Use Management (PLUM) Committee is recommending that the Los Angeles City Council approve a new ordinance that would update the city's building codes. Specifically, the ordinance would incorporate the 2025 Edition of the California Building Standards Code into Chapter IX of the Los Angeles Municipal Code (LAMC) and allow for local adjustments based on Los Angeles' unique administrative, climatic, geological, topographical, and environmental conditions.\n\n## Why This Matters\n\nBuilding codes are the technical standards that govern how buildings must be constructed to ensure public safety, health, and welfare. California updates its statewide building standards periodically, and cities must adopt these updates into their local codes. This ordinance ensures that Los Angeles' building standards remain current and aligned with state requirements while also allowing the city to make necessary local modifications that account for factors like LA's specific climate, earthquake risk, and environmental conditions.\n\n## Key Details\n\nThe PLUM Committee held a meeting on October 28, 2025, where the committee voted to recommend approval. Four of the five committee members voted yes (Blumenfield, Hutt, Lee, and Raman), with one member absent (Nazarian). The committee also requested that the City Attorney prepare the final draft ordinance and include an environmental review. No fiscal impact analysis has been completed at this time.\n\n## Impact\n\nThis ordinance affects anyone building or renovating structures in Los Angeles, as it establishes the rules contractors and developers must follow. Updated building codes typically incorporate improvements in safety standards, energy efficiency, and disaster resilience—making buildings safer for residents and workers.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 2235,
+        "output_tokens": 364,
+        "cost_usd": 0.004055
+      }
+    },
+    {
+      "historyId": "29be23b2-0fd3-4a6b-8798-8d7f63f74c0a",
+      "title": "Report from Department of Building and Safety dated 10-17-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29be23b2-0fd3-4a6b-8798-8d7f63f74c0a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=29be23b2-0fd3-4a6b-8798-8d7f63f74c0a",
+      "meeting_id": 17407,
+      "has_summary": false
+    },
+    {
+      "historyId": "e4d1d72b-5b83-4f51-8c99-ba051513d70a",
+      "title": "Motion (Blumenfield - Yaroslavsky) dated 11-07-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4d1d72b-5b83-4f51-8c99-ba051513d70a",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=e4d1d72b-5b83-4f51-8c99-ba051513d70a",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "5621b88b-a36d-4927-8b64-a3716a4192d0",
+      "title": "Council Action dated 11-06-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5621b88b-a36d-4927-8b64-a3716a4192d0",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=5621b88b-a36d-4927-8b64-a3716a4192d0",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "c749a00a-e80e-4dbb-99f7-5a4ba15ffc4c",
+      "title": "Report from Planning and Land Use Management Committee_10-28-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c749a00a-e80e-4dbb-99f7-5a4ba15ffc4c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=c749a00a-e80e-4dbb-99f7-5a4ba15ffc4c",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "a9a5c358-e2b4-41e2-baa1-e9b86666d798",
+      "title": "Communication from Los Angeles Building and Safety submitted 11-06-25 -Proposed Ordinance - 2026 LA Code Amendments",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9a5c358-e2b4-41e2-baa1-e9b86666d798",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=a9a5c358-e2b4-41e2-baa1-e9b86666d798",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "652d38b7-6ee3-4945-b63b-7721062c656c",
+      "title": "Communication from Los Angeles Building and Safety submitted 11-06-25  - Proposed Code Adoption Changes",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=652d38b7-6ee3-4945-b63b-7721062c656c",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=652d38b7-6ee3-4945-b63b-7721062c656c",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "40155945-1d9b-4c1c-ba61-e18a8b629821",
+      "title": "Report from Department of Building and Safety dated 10-17-2025",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40155945-1d9b-4c1c-ba61-e18a8b629821",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=40155945-1d9b-4c1c-ba61-e18a8b629821",
+      "meeting_id": 17559,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-11-04T18:00:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 8,
+    "attachments_with_summaries": 1
+  }
+}

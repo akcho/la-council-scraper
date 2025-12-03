@@ -1,0 +1,38 @@
+{
+  "council_file": "25-1226",
+  "title": "The City Council may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17283,
+      "date": "2025-11-12T10:00:00",
+      "section": "Closed sessions",
+      "item_number": "(68)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "bf396a75-bc2e-4372-92bd-4a344edc6203",
+      "title": "Report from City Attorney dated 10-09-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf396a75-bc2e-4372-92bd-4a344edc6203",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=bf396a75-bc2e-4372-92bd-4a344edc6203",
+      "meeting_id": 17283,
+      "has_summary": true,
+      "summary": "# Summary: City Attorney Report on Settlement Discussion (Case 22STC31151)\n\n## What is Being Proposed?\nThe City Attorney's office is requesting that the Los Angeles City Council hold a closed session meeting to discuss settlement options and receive legal advice regarding pending litigation in the case of Emebet Zewdie v. City of Los Angeles (Claim No. C22-16932). The closed session would be held pursuant to California Government Code Section 54956.9(d)(1), which allows government bodies to meet privately to confer with legal counsel about litigation matters.\n\n## Why?\nThis matter involves a trip and fall incident that occurred on October 19, 2021, on a sidewalk located on Clyde Avenue north of 5667 West Coliseum Street in Los Angeles. The incident resulted in a claim against the City, and the case is now pending in litigation. The City Attorney needs to discuss settlement strategy and legal recommendations with the City Council in a confidential setting before the claims board takes action.\n\n## Key Details\n- **Case Name:** Emebet Zewdie v. City of Los Angeles, et al.\n- **Case Number:** LASC Case No. 22STC31151\n- **Claim Number:** C22-16932\n- **Incident Date:** October 19, 2021\n- **Incident Location:** Clyde Avenue north of 5667 West Coliseum Street, Los Angeles\n- **Report Date:** October 9, 2025\n- **Contact:** Lala Kahramanian, (213) 978-0399\n\n## Impact\nThis affects the City's liability and financial exposure related to the sidewalk incident. The closed session will allow the City Council and legal counsel to discuss settlement options confidentially, which is a standard procedure in civil litigation.",
+      "processing": {
+        "model": "claude-haiku-4-5-20251001",
+        "input_tokens": 3317,
+        "output_tokens": 402,
+        "cost_usd": 0.005327
+      }
+    }
+  ],
+  "first_seen": "2025-11-12T10:00:00",
+  "last_seen": "2025-11-12T10:00:00",
+  "stats": {
+    "total_appearances": 1,
+    "total_attachments": 1,
+    "attachments_with_summaries": 1
+  }
+}

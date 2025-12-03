@@ -1,0 +1,62 @@
+{
+  "council_file": "25-1200-S55",
+  "title": "COMMUNICATION FROM THE MAYOR relative to the appointment of Benny Tran to the Board of Water and Power Commissioners.",
+  "district": "",
+  "appearances": [
+    {
+      "meeting_id": 17593,
+      "date": "2025-12-02T23:30:00",
+      "section": "(Referred to Housing and Homelessness Committee and Energy and Environment Committee. On October 1, 2025, the Housing and Homelessness Committee approved this item as amended.)",
+      "item_number": "(1)",
+      "recommendation": ""
+    },
+    {
+      "meeting_id": 17559,
+      "date": "2025-12-03T18:00:00",
+      "section": "Items for which Public Hearings Have Been Held",
+      "item_number": "(46)",
+      "recommendation": ""
+    }
+  ],
+  "attachments": [
+    {
+      "historyId": "55ba4605-47e6-4770-82ac-f6dc839b9043",
+      "title": "Report from Mayor dated 11-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=55ba4605-47e6-4770-82ac-f6dc839b9043",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=55ba4605-47e6-4770-82ac-f6dc839b9043",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "e64cdf26-e727-4eaf-9286-756ecc869e0e",
+      "title": "Communication from City Ethics Commission dated 11-25-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e64cdf26-e727-4eaf-9286-756ecc869e0e",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=e64cdf26-e727-4eaf-9286-756ecc869e0e",
+      "meeting_id": 17559,
+      "has_summary": false
+    },
+    {
+      "historyId": "b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845",
+      "title": "Report from Mayor dated 11-10-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845",
+      "meeting_id": 17593,
+      "has_summary": false
+    },
+    {
+      "historyId": "9c7aa523-f9e3-422e-977f-40921d2f5439",
+      "title": "Communication from City Ethics Commission dated 11-25-25",
+      "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c7aa523-f9e3-422e-977f-40921d2f5439",
+      "previewUrl": "/viewer/preview?id=0&type=8&uid=9c7aa523-f9e3-422e-977f-40921d2f5439",
+      "meeting_id": 17593,
+      "has_summary": false
+    }
+  ],
+  "first_seen": "2025-12-02T23:30:00",
+  "last_seen": "2025-12-03T18:00:00",
+  "stats": {
+    "total_appearances": 2,
+    "total_attachments": 4,
+    "attachments_with_summaries": 0
+  }
+}
