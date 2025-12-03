@@ -133,10 +133,7 @@ def format_summary_for_reddit(meeting_info: dict, summary: str, site_url: str = 
 
 {summary}
 
-{links_text}
-
----
-*AI-generated summary to help LA residents stay informed. Feedback welcome!*"""
+{links_text}"""
 
     return comment
 

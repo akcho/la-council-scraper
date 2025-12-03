@@ -1,0 +1,513 @@
+{
+  "meeting_id": 17593,
+  "template_id": 148760,
+  "parsed_at": "2025-12-02T17:17:16.502598",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148760",
+  "sections": [
+    {
+      "section_id": "359182",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359183",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359184",
+      "title": "(Referred to Housing and Homelessness Committee and Energy and Environment Committee. On October 1, 2025, the Housing and Homelessness Committee approved this item as amended.)",
+      "items": [
+        {
+          "item_id": "156996",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S55\nCommunication from the Mayor relative to the appointment of Benny Tran to the Board of Water and Power Commissioners.\nFinancial Disclosure Statement\n: Filed\nBackground Check\n: Pending\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 25, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from Mayor dated 11-10-25\nCommunication from City Ethics Commission dated 11-25-25",
+          "council_file": "25-1200-S55",
+          "title": "Communication from the Mayor relative to the appointment of Benny Tran to the Board of Water and Power Commissioners.",
+          "mig": "14c4af25-e280-43f6-bb57-222160554578",
+          "attachments": [
+            {
+              "historyId": "b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845",
+              "title": "Report from Mayor dated 11-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b9543ea1-3140-4bbe-ac1b-a4f0ee7d8845"
+            },
+            {
+              "historyId": "9c7aa523-f9e3-422e-977f-40921d2f5439",
+              "title": "Communication from City Ethics Commission dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c7aa523-f9e3-422e-977f-40921d2f5439",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c7aa523-f9e3-422e-977f-40921d2f5439"
+            }
+          ]
+        },
+        {
+          "item_id": "157005",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "23-1032\nCity Administrative Officer report relative to terminating the Removing Barriers to Recycling (RBR) Program component of the RecycLA solid resources franchise hauling contracts.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 11-14-25\nCouncil Action dated 3-20-24\nReport from Energy and Environment Committee_2-23-24\nCommunication(s) from Public_02-23-2024\nSpeaker Card(s)_02-23-2024\nCommunication from Bureau of Sanitation_2-23-24\nCommunication(s) from Public_02-22-2024\nReport from Bureau of Sanitation dated 2-20-24\nReport from Bureau of Sanitation dated 12-01-23\nCouncil Action  dated 10-13-23\nAmending Motion 15A (Soto-Martinez - Raman) dated 10-13-23\nSpeaker Card(s)_10-13-2023\nCommunication from BOS_09-29-23\nSpeaker Card(s)_09-29-2023\nReport from Energy and Environment Committee_9-28-23\nCommunication(s) from Public_09-28-2023\nReport from  Bureau of Sanitation dated 9-21-23.pdf\nSpeaker Card(s)_12-08-2023",
+          "council_file": "23-1032",
+          "title": "City Administrative Officer report relative to terminating the Removing Barriers to Recycling (RBR) Program component of the RecycLA solid resources franchise hauling contracts.",
+          "mig": "77b354f0-8d00-4262-93b3-11e0020d31e7",
+          "attachments": [
+            {
+              "historyId": "13f0d551-3eeb-4738-9b6a-bde23d49d8bc",
+              "title": "Report from City Administrative Officer dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13f0d551-3eeb-4738-9b6a-bde23d49d8bc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=13f0d551-3eeb-4738-9b6a-bde23d49d8bc"
+            },
+            {
+              "historyId": "ecf08484-781f-424e-8109-e90021e8bf0d",
+              "title": "Council Action dated 3-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ecf08484-781f-424e-8109-e90021e8bf0d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ecf08484-781f-424e-8109-e90021e8bf0d"
+            },
+            {
+              "historyId": "1c86e61a-f44f-4bc1-b654-6cd9667129df",
+              "title": "Report from Energy and Environment Committee_2-23-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c86e61a-f44f-4bc1-b654-6cd9667129df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1c86e61a-f44f-4bc1-b654-6cd9667129df"
+            },
+            {
+              "historyId": "ac579da9-1d1b-424a-8246-4af162dc2c95",
+              "title": "Communication(s) from Public_02-23-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac579da9-1d1b-424a-8246-4af162dc2c95",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ac579da9-1d1b-424a-8246-4af162dc2c95"
+            },
+            {
+              "historyId": "35b0440f-15df-4708-a042-1b72c8039649",
+              "title": "Speaker Card(s)_02-23-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=35b0440f-15df-4708-a042-1b72c8039649",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=35b0440f-15df-4708-a042-1b72c8039649"
+            },
+            {
+              "historyId": "b2d2fe51-924e-4a33-a6ec-264234c3e81b",
+              "title": "Communication from Bureau of Sanitation_2-23-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2d2fe51-924e-4a33-a6ec-264234c3e81b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b2d2fe51-924e-4a33-a6ec-264234c3e81b"
+            },
+            {
+              "historyId": "0e1762b0-8e51-43e6-9cb3-f72e791f1b06",
+              "title": "Communication(s) from Public_02-22-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e1762b0-8e51-43e6-9cb3-f72e791f1b06",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e1762b0-8e51-43e6-9cb3-f72e791f1b06"
+            },
+            {
+              "historyId": "90f4200a-8712-4521-830c-fb685d4dfd13",
+              "title": "Report from Bureau of Sanitation dated 2-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=90f4200a-8712-4521-830c-fb685d4dfd13",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=90f4200a-8712-4521-830c-fb685d4dfd13"
+            },
+            {
+              "historyId": "78ada7a7-f803-4a58-bba6-14d7d8dea871",
+              "title": "Report from Bureau of Sanitation dated 12-01-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=78ada7a7-f803-4a58-bba6-14d7d8dea871",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=78ada7a7-f803-4a58-bba6-14d7d8dea871"
+            },
+            {
+              "historyId": "9b2ec5e8-2cfb-4bc9-bba3-883b8fdfdf45",
+              "title": "Council Action  dated 10-13-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b2ec5e8-2cfb-4bc9-bba3-883b8fdfdf45",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9b2ec5e8-2cfb-4bc9-bba3-883b8fdfdf45"
+            },
+            {
+              "historyId": "c6fed5fd-9099-418b-898e-9b6484fd24c1",
+              "title": "Amending Motion 15A (Soto-Martinez - Raman) dated 10-13-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6fed5fd-9099-418b-898e-9b6484fd24c1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6fed5fd-9099-418b-898e-9b6484fd24c1"
+            },
+            {
+              "historyId": "d960940f-8a1a-4781-8299-57c7cd93daf5",
+              "title": "Speaker Card(s)_10-13-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d960940f-8a1a-4781-8299-57c7cd93daf5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d960940f-8a1a-4781-8299-57c7cd93daf5"
+            },
+            {
+              "historyId": "2e349966-1eef-4727-ae82-c95a8c77ac50",
+              "title": "Communication from BOS_09-29-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e349966-1eef-4727-ae82-c95a8c77ac50",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e349966-1eef-4727-ae82-c95a8c77ac50"
+            },
+            {
+              "historyId": "c700caac-0a8d-487c-b4ff-92e206375b72",
+              "title": "Speaker Card(s)_09-29-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c700caac-0a8d-487c-b4ff-92e206375b72",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c700caac-0a8d-487c-b4ff-92e206375b72"
+            },
+            {
+              "historyId": "d826201d-a79e-4331-8b79-5274bd86bddd",
+              "title": "Report from Energy and Environment Committee_9-28-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d826201d-a79e-4331-8b79-5274bd86bddd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d826201d-a79e-4331-8b79-5274bd86bddd"
+            },
+            {
+              "historyId": "57d229b5-c9d5-4ba8-9a22-2e009afc86d1",
+              "title": "Communication(s) from Public_09-28-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=57d229b5-c9d5-4ba8-9a22-2e009afc86d1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=57d229b5-c9d5-4ba8-9a22-2e009afc86d1"
+            },
+            {
+              "historyId": "597f60ab-bc97-411c-b04e-6c9f1bedb703",
+              "title": "Report from  Bureau of Sanitation dated 9-21-23.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=597f60ab-bc97-411c-b04e-6c9f1bedb703",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=597f60ab-bc97-411c-b04e-6c9f1bedb703"
+            },
+            {
+              "historyId": "abd87b3c-3bbf-4881-893b-c2efbd2d0a5c",
+              "title": "Speaker Card(s)_12-08-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=abd87b3c-3bbf-4881-893b-c2efbd2d0a5c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=abd87b3c-3bbf-4881-893b-c2efbd2d0a5c"
+            }
+          ]
+        },
+        {
+          "item_id": "156997",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1036\nMotion (Hernandez, et al. – Soto-Martinez) relative to options on adopting an ordinance establishing a maximum indoor temperature threshold for rental housing units in the City, and related matters.\n(Referred to Housing and Homelessness Committee and Energy and Environment Committee. On October 1, 2025, the Housing and Homelessness Committee approved this item as amended.)\nCommunity Impact Statement:\nYes\nFor:\nLos Feliz Neighborhood Council\nNoHo Neighborhood Council\nFor if Amended:\nMar Vista Community Council\nNeutral Position:\nNorthwest San Pedro Neighborhood Council\nCommunity Impact Statement submitted by Northwest San Pedro Neighborhood Council_11-18-2025\nCommunity Impact Statement submitted by Mar Vista Community Council_11-12-2025\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_11-4-25\nCommunity Impact Statement submitted by NoHo Neighborhood Council_10-30-2025\nCommunication from Housing and Homelessness Committee Clerk - 10-1-25\nSpeaker Card(s)_10-01-2025\nCommunication(s) from Public_10-01-2025\nCommunication(s) from Public_10-01-2025\nCommunication(s) from Public_09-30-2025\nCommunication(s) from Public_09-29-2025\nCommunication(s) from Public_09-05-2025\nMotion (Hernandez, et al. - Soto-Martinez) dated 8-03-25",
+          "council_file": "25-1036",
+          "title": "Motion (Hernandez, et al. – Soto-Martinez) relative to options on adopting an ordinance establishing a maximum indoor temperature threshold for rental housing units in the City, and related matters.",
+          "mig": "956582f2-0ccb-4281-9ad5-2ee9bca4f655",
+          "attachments": [
+            {
+              "historyId": "865752a5-ab12-4418-ac4c-76362d022c04",
+              "title": "Community Impact Statement submitted by Northwest San Pedro Neighborhood Council_11-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=865752a5-ab12-4418-ac4c-76362d022c04",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=865752a5-ab12-4418-ac4c-76362d022c04"
+            },
+            {
+              "historyId": "8e244134-2273-4dc8-912e-3c2c1bbd5359",
+              "title": "Community Impact Statement submitted by Mar Vista Community Council_11-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e244134-2273-4dc8-912e-3c2c1bbd5359",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8e244134-2273-4dc8-912e-3c2c1bbd5359"
+            },
+            {
+              "historyId": "8f54c392-1608-41c3-8585-b2f9d84a7bb4",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_11-4-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f54c392-1608-41c3-8585-b2f9d84a7bb4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8f54c392-1608-41c3-8585-b2f9d84a7bb4"
+            },
+            {
+              "historyId": "3dabf05a-5c00-4846-8b1a-3f9de5e0404c",
+              "title": "Community Impact Statement submitted by NoHo Neighborhood Council_10-30-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3dabf05a-5c00-4846-8b1a-3f9de5e0404c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3dabf05a-5c00-4846-8b1a-3f9de5e0404c"
+            },
+            {
+              "historyId": "d8ecf615-3363-47a0-9158-6cedfe2979ef",
+              "title": "Communication from Housing and Homelessness Committee Clerk - 10-1-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d8ecf615-3363-47a0-9158-6cedfe2979ef",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d8ecf615-3363-47a0-9158-6cedfe2979ef"
+            },
+            {
+              "historyId": "c97c8d37-abab-40a7-93f1-bd968c299c54",
+              "title": "Speaker Card(s)_10-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c97c8d37-abab-40a7-93f1-bd968c299c54",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c97c8d37-abab-40a7-93f1-bd968c299c54"
+            },
+            {
+              "historyId": "bbdbaeec-4cc9-42ab-9197-52ed7617feb5",
+              "title": "Communication(s) from Public_10-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bbdbaeec-4cc9-42ab-9197-52ed7617feb5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bbdbaeec-4cc9-42ab-9197-52ed7617feb5"
+            },
+            {
+              "historyId": "e58e22bc-5ae3-4216-905b-e3bc98193e2b",
+              "title": "Communication(s) from Public_10-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e58e22bc-5ae3-4216-905b-e3bc98193e2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e58e22bc-5ae3-4216-905b-e3bc98193e2b"
+            },
+            {
+              "historyId": "8564e064-5c3e-4d04-a8e0-69e92e5899eb",
+              "title": "Communication(s) from Public_09-30-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8564e064-5c3e-4d04-a8e0-69e92e5899eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8564e064-5c3e-4d04-a8e0-69e92e5899eb"
+            },
+            {
+              "historyId": "8dcbc783-9155-4ec4-a389-de47834391c6",
+              "title": "Communication(s) from Public_09-29-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8dcbc783-9155-4ec4-a389-de47834391c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8dcbc783-9155-4ec4-a389-de47834391c6"
+            },
+            {
+              "historyId": "5790e7e5-2202-4151-b83a-298807f99967",
+              "title": "Communication(s) from Public_09-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5790e7e5-2202-4151-b83a-298807f99967",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5790e7e5-2202-4151-b83a-298807f99967"
+            },
+            {
+              "historyId": "c56c18c1-90ab-4ffb-92d9-6ea322a6d555",
+              "title": "Motion (Hernandez, et al. - Soto-Martinez) dated 8-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c56c18c1-90ab-4ffb-92d9-6ea322a6d555",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c56c18c1-90ab-4ffb-92d9-6ea322a6d555"
+            }
+          ]
+        },
+        {
+          "item_id": "157000",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S69\nCD 11\nBureau of Sanitation report relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire.\n(This item was referred to the Ad Hoc Committee for LA Recovery and Energy and Environment Committee. On September 15, 2025, the Ad Hoc Committee for LA Recovery received and filed this item.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nFor:\nLos Feliz Neighborhood Council\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25\nReport from Bureau of Sanitation dated 6-26-25\nCommunity Impact Statement submitted by South Robertson Neighborhood Council_04-18-2025\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_04-05-2025\nCouncil Action dated 3-25-25\nCommunity Impact Statement submitted by Westside Neighborhood Council_03-20-2025\nReport from Energy and Environment Committee_03-04-25\nSpeaker Card(s)_03-04-2025\nMotion (Park - Nazarian) dated 2-21-25\nSpeaker Card(s)_03-19-2025",
+          "council_file": "25-0006-S69",
+          "district": "CD 11",
+          "title": "Bureau of Sanitation report relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire.",
+          "mig": "05474ed9-3888-4ac4-8264-7b468c7b5dfd",
+          "attachments": [
+            {
+              "historyId": "e39ce4a0-2356-4859-ac88-3a32d17e1afe",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e39ce4a0-2356-4859-ac88-3a32d17e1afe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e39ce4a0-2356-4859-ac88-3a32d17e1afe"
+            },
+            {
+              "historyId": "58411966-3b58-4e56-bea1-d5a9a5d0d959",
+              "title": "Report from Bureau of Sanitation dated 6-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=58411966-3b58-4e56-bea1-d5a9a5d0d959",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=58411966-3b58-4e56-bea1-d5a9a5d0d959"
+            },
+            {
+              "historyId": "132745ed-a769-4471-a2f5-34fb64aec07b",
+              "title": "Community Impact Statement submitted by South Robertson Neighborhood Council_04-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=132745ed-a769-4471-a2f5-34fb64aec07b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=132745ed-a769-4471-a2f5-34fb64aec07b"
+            },
+            {
+              "historyId": "34acde3a-7f5d-4711-a998-cad21934887a",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_04-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=34acde3a-7f5d-4711-a998-cad21934887a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=34acde3a-7f5d-4711-a998-cad21934887a"
+            },
+            {
+              "historyId": "2ee17764-086b-4d1b-a565-5d4f0b3c2cf4",
+              "title": "Council Action dated 3-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ee17764-086b-4d1b-a565-5d4f0b3c2cf4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ee17764-086b-4d1b-a565-5d4f0b3c2cf4"
+            },
+            {
+              "historyId": "f49ca391-da50-4ca6-88ff-2a98461fb763",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_03-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f49ca391-da50-4ca6-88ff-2a98461fb763",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f49ca391-da50-4ca6-88ff-2a98461fb763"
+            },
+            {
+              "historyId": "6398300f-d0c1-42eb-ad21-88e82e9a8966",
+              "title": "Report from Energy and Environment Committee_03-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6398300f-d0c1-42eb-ad21-88e82e9a8966",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6398300f-d0c1-42eb-ad21-88e82e9a8966"
+            },
+            {
+              "historyId": "4c176bc5-f8de-43e2-8d10-357486e67743",
+              "title": "Speaker Card(s)_03-04-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4c176bc5-f8de-43e2-8d10-357486e67743",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4c176bc5-f8de-43e2-8d10-357486e67743"
+            },
+            {
+              "historyId": "b2501283-d9a2-4b22-a526-bd62287ddd50",
+              "title": "Motion (Park - Nazarian) dated 2-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2501283-d9a2-4b22-a526-bd62287ddd50",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b2501283-d9a2-4b22-a526-bd62287ddd50"
+            },
+            {
+              "historyId": "147ff25b-8109-4dbd-8d35-070c19198ca8",
+              "title": "Speaker Card(s)_03-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=147ff25b-8109-4dbd-8d35-070c19198ca8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=147ff25b-8109-4dbd-8d35-070c19198ca8"
+            }
+          ]
+        },
+        {
+          "item_id": "157001",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1290\nBoard of Water and Power Commissioners report relative to an Agreement with the Forest Lawn Memorial-Park Association regarding Recycled Water Service at 6300 Forest Lawn Drive.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 29, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from Board of Water and Power Commissioners dated 10-29-25\nAttachment to Report dated 10-29-25 - Board Report\nAttachment to Report dated 10-29-25 - Resolution\nAttachment to Report dated 10-29-25 - Agreement\nAttachment to Report dated 10-29-25 - Mayor Transmittal",
+          "council_file": "25-1290",
+          "title": "Board of Water and Power Commissioners report relative to an Agreement with the Forest Lawn Memorial-Park Association regarding Recycled Water Service at 6300 Forest Lawn Drive.",
+          "mig": "b0091b51-9257-4c7b-83bb-d0ce83d2680d",
+          "attachments": [
+            {
+              "historyId": "78f7f58d-5380-4c96-971f-3382fd09cfa7",
+              "title": "Report from Board of Water and Power Commissioners dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=78f7f58d-5380-4c96-971f-3382fd09cfa7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=78f7f58d-5380-4c96-971f-3382fd09cfa7"
+            },
+            {
+              "historyId": "1ff8a9d9-7370-41c7-992c-7bc27c826f7c",
+              "title": "Attachment to Report dated 10-29-25 - Board Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ff8a9d9-7370-41c7-992c-7bc27c826f7c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ff8a9d9-7370-41c7-992c-7bc27c826f7c"
+            },
+            {
+              "historyId": "51201ee8-027a-463e-af8b-e47e31f921c4",
+              "title": "Attachment to Report dated 10-29-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51201ee8-027a-463e-af8b-e47e31f921c4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51201ee8-027a-463e-af8b-e47e31f921c4"
+            },
+            {
+              "historyId": "25c6ed97-daa7-49f2-9d77-4244b65ef3c3",
+              "title": "Attachment to Report dated 10-29-25 - Agreement",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=25c6ed97-daa7-49f2-9d77-4244b65ef3c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=25c6ed97-daa7-49f2-9d77-4244b65ef3c3"
+            },
+            {
+              "historyId": "52048ea0-df25-4c14-89e8-650fe728bce9",
+              "title": "Attachment to Report dated 10-29-25 - Mayor Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=52048ea0-df25-4c14-89e8-650fe728bce9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=52048ea0-df25-4c14-89e8-650fe728bce9"
+            }
+          ]
+        },
+        {
+          "item_id": "157002",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "24-1316-S1\nBoard of Water and Power Commissioners report relative to the First Amendment to Memorandum of Agreement No. WR-24-1000 with the Bureau of Sanitation for construction of the Groundwater Replenishment Project.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 29, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from Board of Water and Power Commissioners dated 10-29-25\nAttachment to Report dated 10-29-25 - Board Letter\nAttachment to Report dated 10-29-25 - Resolution\nAttachment to Report dated 10-29-25 - Agreement WR-24-1000\nAttachment to Report dated 10-29-25 - Amendment No. 1 to Agreement WR-24-1000\nAttachment to Report dated 10-29-25 - CAO Report",
+          "council_file": "24-1316-S1",
+          "title": "Board of Water and Power Commissioners report relative to the First Amendment to Memorandum of Agreement No. WR-24-1000 with the Bureau of Sanitation for construction of the Groundwater Replenishment Project.",
+          "mig": "b83cbfe8-67c5-479a-bae2-49e2a104c279",
+          "attachments": [
+            {
+              "historyId": "12b1b0a8-b168-4010-81df-8a5e233bd363",
+              "title": "Report from Board of Water and Power Commissioners dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12b1b0a8-b168-4010-81df-8a5e233bd363",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12b1b0a8-b168-4010-81df-8a5e233bd363"
+            },
+            {
+              "historyId": "240f0b62-fb31-4106-9110-d896d0f04d44",
+              "title": "Attachment to Report dated 10-29-25 - Board Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=240f0b62-fb31-4106-9110-d896d0f04d44",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=240f0b62-fb31-4106-9110-d896d0f04d44"
+            },
+            {
+              "historyId": "f3c58f02-c5d6-4455-914c-1a3151f615f9",
+              "title": "Attachment to Report dated 10-29-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3c58f02-c5d6-4455-914c-1a3151f615f9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f3c58f02-c5d6-4455-914c-1a3151f615f9"
+            },
+            {
+              "historyId": "da1c06bc-77ce-4326-9bec-c430f5391f66",
+              "title": "Attachment to Report dated 10-29-25 - Agreement WR-24-1000",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=da1c06bc-77ce-4326-9bec-c430f5391f66",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=da1c06bc-77ce-4326-9bec-c430f5391f66"
+            },
+            {
+              "historyId": "35d18536-4425-4575-b98d-1b46441ee554",
+              "title": "Attachment to Report dated 10-29-25 - Amendment No. 1 to Agreement WR-24-1000",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=35d18536-4425-4575-b98d-1b46441ee554",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=35d18536-4425-4575-b98d-1b46441ee554"
+            },
+            {
+              "historyId": "fa604186-1f74-48d3-87a8-00fdf4ff532b",
+              "title": "Attachment to Report dated 10-29-25 - CAO Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa604186-1f74-48d3-87a8-00fdf4ff532b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa604186-1f74-48d3-87a8-00fdf4ff532b"
+            }
+          ]
+        },
+        {
+          "item_id": "157004",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "17-0878-S12\nCD 6\nMotion (Padilla – Rodriguez) relative to the City’s readiness to implement the organics collection and processing requirements outlined in the RecycLA 2.0 Request for Proposal (RFP).\nCommunity Impact Statement:\nNone submitted\nMotion (Padilla - Rodriguez) dated 10-15-25",
+          "council_file": "17-0878-S12",
+          "district": "CD 6",
+          "title": "Motion (Padilla – Rodriguez) relative to the City’s readiness to implement the organics collection and processing requirements outlined in the RecycLA 2.0 Request for Proposal (RFP).",
+          "mig": "2afb3bca-e9b8-4643-b473-62922e6d6bc1",
+          "attachments": [
+            {
+              "historyId": "df77792c-8911-420b-b431-e8f38c932231",
+              "title": "Motion (Padilla - Rodriguez) dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=df77792c-8911-420b-b431-e8f38c932231",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=df77792c-8911-420b-b431-e8f38c932231"
+            }
+          ]
+        },
+        {
+          "item_id": "157006",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1379\nBoard of Water and Power Commissioners report relative to a Third Amendment to an Agreement with Workday, Inc., for Enterprise Resource Planning software as a service subscription license, integration/implementation services, and ongoing maintenance and support services.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 18, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026)\nReport from Board of Water and Power Commissioners dated 11-19-25\nAttachment to Report dated 11-19-25 - Board Letter\nAttachment to Report dated 11-19-25 - Resolution\nAttachment to Report dated 11-19-25 - Agreement\nAttachment to Report dated 11-19-25 - CAO Report",
+          "council_file": "25-1379",
+          "title": "Board of Water and Power Commissioners report relative to a Third Amendment to an Agreement with Workday, Inc., for Enterprise Resource Planning software as a service subscription license, integration/implementation services, and ongoing maintenance and support services.",
+          "mig": "557ed8b3-ffaa-4292-a007-2090401e23ef",
+          "attachments": [
+            {
+              "historyId": "c061cbb7-1d0e-4e42-a8c6-50f44d44fd5b",
+              "title": "Report from Board of Water and Power Commissioners dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c061cbb7-1d0e-4e42-a8c6-50f44d44fd5b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c061cbb7-1d0e-4e42-a8c6-50f44d44fd5b"
+            },
+            {
+              "historyId": "159033ea-ed3d-464f-9405-be4e547be95c",
+              "title": "Attachment to Report dated 11-19-25 - Board Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=159033ea-ed3d-464f-9405-be4e547be95c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=159033ea-ed3d-464f-9405-be4e547be95c"
+            },
+            {
+              "historyId": "8e38a5e4-f3ac-4d05-bc29-fdd90bba8426",
+              "title": "Attachment to Report dated 11-19-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e38a5e4-f3ac-4d05-bc29-fdd90bba8426",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8e38a5e4-f3ac-4d05-bc29-fdd90bba8426"
+            },
+            {
+              "historyId": "a73ff2fc-0b16-4716-9035-d0e8de070e93",
+              "title": "Attachment to Report dated 11-19-25 - Agreement",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a73ff2fc-0b16-4716-9035-d0e8de070e93",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a73ff2fc-0b16-4716-9035-d0e8de070e93"
+            },
+            {
+              "historyId": "954a7957-5af0-4caa-8a6e-cc0fb4dba213",
+              "title": "Attachment to Report dated 11-19-25 - CAO Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=954a7957-5af0-4caa-8a6e-cc0fb4dba213",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=954a7957-5af0-4caa-8a6e-cc0fb4dba213"
+            }
+          ]
+        },
+        {
+          "item_id": "157007",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "08-3420-S5\nBoard of Water and Power Commissioners report relative to a Sixth Amendment to an Agreement with Webcor | Obayashi | Lyles, a Joint Venture, for Phase 4 of the Silver Lake Reservoir Complex Storage Replacement Project/Headworks Reservoir Project.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 18, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026)\nReport from Board of Water and Power Commissioners dated 11-19-25\nAttachment to Report dated 11-19-25 - Board Report\nAttachment to Report dated 11-19-25 - Resolution\nAttachment to Report dated 11-19-25 - Amendment\nAttachment to Report dated 11-19-25 - CAO  Report",
+          "council_file": "08-3420-S5",
+          "title": "Board of Water and Power Commissioners report relative to a Sixth Amendment to an Agreement with Webcor | Obayashi | Lyles, a Joint Venture, for Phase 4 of the Silver Lake Reservoir Complex Storage Replacement Project/Headworks Reservoir Project.",
+          "mig": "7ca53c76-4146-4b4b-8416-7eaa2b322392",
+          "attachments": [
+            {
+              "historyId": "99d62089-a533-4e53-9e9d-8201d41d021a",
+              "title": "Report from Board of Water and Power Commissioners dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=99d62089-a533-4e53-9e9d-8201d41d021a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=99d62089-a533-4e53-9e9d-8201d41d021a"
+            },
+            {
+              "historyId": "7bb6b12f-eda6-4972-a5c3-34e6f92c8358",
+              "title": "Attachment to Report dated 11-19-25 - Board Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7bb6b12f-eda6-4972-a5c3-34e6f92c8358",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7bb6b12f-eda6-4972-a5c3-34e6f92c8358"
+            },
+            {
+              "historyId": "9ac3308d-99f8-4a93-8f95-9d18445674f5",
+              "title": "Attachment to Report dated 11-19-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ac3308d-99f8-4a93-8f95-9d18445674f5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ac3308d-99f8-4a93-8f95-9d18445674f5"
+            },
+            {
+              "historyId": "e295276a-bca3-4428-8cae-e4ed4346406a",
+              "title": "Attachment to Report dated 11-19-25 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e295276a-bca3-4428-8cae-e4ed4346406a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e295276a-bca3-4428-8cae-e4ed4346406a"
+            },
+            {
+              "historyId": "2c61fe95-d73d-44be-b7a4-71abe501d290",
+              "title": "Attachment to Report dated 11-19-25 - CAO  Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c61fe95-d73d-44be-b7a4-71abe501d290",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2c61fe95-d73d-44be-b7a4-71abe501d290"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 9,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-02T23:30:00",
+  "video_url": "https://www.youtube.com/watch?v=yIgMMr_z-Bw"
+}

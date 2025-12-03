@@ -172,6 +172,10 @@ def improve_section_title(title):
         "Commendatory Resolutions, Introductions and Presentations": "Commendations and presentations",
         "Public Testimony of Non-agenda Items Within Jurisdiction of Council": "Public comments",
         "Multiple Agenda Item Comment": "General public comments",
+        "MULTIPLE AGENDA ITEM COMMENT": "General public comments",
+        "GENERAL PUBLIC COMMENT": "Public comments",
+        "ITEM(S)": "Agenda items",
+        "DISCUSSION ITEM ONLY": "Discussion items",
     }
 
     # Return improved title if available, otherwise return original

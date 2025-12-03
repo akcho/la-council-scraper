@@ -1,7 +1,7 @@
 {
   "meeting_id": 17591,
   "template_id": 148741,
-  "parsed_at": "2025-11-25T16:14:06.789609",
+  "parsed_at": "2025-12-02T17:48:33.731336",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148741",
   "sections": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "section_id": "359168",
-      "title": "DISCUSSION ITEM ONLY",
+      "title": "ITEM(S)",
       "items": [
         {
           "item_id": "157092",
@@ -37,10 +37,10 @@
           "mig": "fce83491-9040-4c58-94b3-fa29b61dcbd4",
           "attachments": [
             {
-              "historyId": "6a6a6cf9-f2b4-43df-b2ce-f17365b9542a",
+              "historyId": "3c0a969a-6068-4754-9689-308c5a3316f8",
               "title": "Report from Mayor dated 11-13-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a6a6cf9-f2b4-43df-b2ce-f17365b9542a",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a6a6cf9-f2b4-43df-b2ce-f17365b9542a"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c0a969a-6068-4754-9689-308c5a3316f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3c0a969a-6068-4754-9689-308c5a3316f8"
             }
           ]
         },
@@ -54,40 +54,40 @@
           "mig": "791edfbc-04cc-4b44-81d9-2e7e67bbbd0e",
           "attachments": [
             {
-              "historyId": "692e28f3-a2ba-4d90-b289-9cd6889b570a",
+              "historyId": "5ee3fff1-d85f-44bb-a0a1-7bd5f42bf437",
               "title": "Report from City Administrative Officer dated 9-05-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=692e28f3-a2ba-4d90-b289-9cd6889b570a",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=692e28f3-a2ba-4d90-b289-9cd6889b570a"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ee3fff1-d85f-44bb-a0a1-7bd5f42bf437",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5ee3fff1-d85f-44bb-a0a1-7bd5f42bf437"
             },
             {
-              "historyId": "16108ebc-e27a-43d3-a187-4af9a7d78865",
+              "historyId": "0fb52604-209b-4ebe-a99b-579e98e110c9",
               "title": "Council Action dated 9-04-24",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16108ebc-e27a-43d3-a187-4af9a7d78865",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=16108ebc-e27a-43d3-a187-4af9a7d78865"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0fb52604-209b-4ebe-a99b-579e98e110c9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0fb52604-209b-4ebe-a99b-579e98e110c9"
             },
             {
-              "historyId": "cfbc9a3a-d330-473e-b31d-509273b139e7",
+              "historyId": "977fdfb8-64e6-4b4d-b4f5-3dc64320ffad",
               "title": "Report from Housing and Homelessness Committee_08-07-24",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfbc9a3a-d330-473e-b31d-509273b139e7",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfbc9a3a-d330-473e-b31d-509273b139e7"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=977fdfb8-64e6-4b4d-b4f5-3dc64320ffad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=977fdfb8-64e6-4b4d-b4f5-3dc64320ffad"
             },
             {
-              "historyId": "309c61d0-2fd0-4d71-bdf8-425dbf8a4b51",
+              "historyId": "31d7aea5-81be-46ac-b87e-835cf9ea15a6",
               "title": "Speaker Card(s)_09-03-2024",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=309c61d0-2fd0-4d71-bdf8-425dbf8a4b51",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=309c61d0-2fd0-4d71-bdf8-425dbf8a4b51"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=31d7aea5-81be-46ac-b87e-835cf9ea15a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=31d7aea5-81be-46ac-b87e-835cf9ea15a6"
             },
             {
-              "historyId": "e635370c-0a73-40fc-ad86-a4acc5b776f8",
+              "historyId": "608b9096-f206-4a2d-95f1-7873cfb4e7d5",
               "title": "Speaker Card(s)_08-07-2024",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e635370c-0a73-40fc-ad86-a4acc5b776f8",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=e635370c-0a73-40fc-ad86-a4acc5b776f8"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=608b9096-f206-4a2d-95f1-7873cfb4e7d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=608b9096-f206-4a2d-95f1-7873cfb4e7d5"
             },
             {
-              "historyId": "0f5a526d-e3f1-45f9-a019-d40927fe9125",
+              "historyId": "f98c3729-00a6-471b-8e07-5641c8934348",
               "title": "Motion (Rodriguez - Blumenfield) dated 3-08-24",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f5a526d-e3f1-45f9-a019-d40927fe9125",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=0f5a526d-e3f1-45f9-a019-d40927fe9125"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f98c3729-00a6-471b-8e07-5641c8934348",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f98c3729-00a6-471b-8e07-5641c8934348"
             }
           ]
         },
@@ -101,10 +101,10 @@
           "mig": "ea597648-cbb2-4a33-9b68-fdb6cf45a36b",
           "attachments": [
             {
-              "historyId": "c5f18ac4-9fad-46a7-bc7a-f2036efb675b",
+              "historyId": "4bf9d5ba-5ee3-453c-a755-e870d2a9cc4f",
               "title": "Report from City Administrative Officer dated 11-19-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5f18ac4-9fad-46a7-bc7a-f2036efb675b",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=c5f18ac4-9fad-46a7-bc7a-f2036efb675b"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bf9d5ba-5ee3-453c-a755-e870d2a9cc4f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4bf9d5ba-5ee3-453c-a755-e870d2a9cc4f"
             }
           ]
         },
@@ -112,16 +112,16 @@
           "item_id": "157091",
           "item_number": "(5)",
           "has_attachments": true,
-          "raw_text": "25-1394\nCity Administrative Officer report relative to a proposed contract for the Urgent Repair Program with Scope Environmental dba CBC Cleaning and Construction for general home repair services.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 24, 2025\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2025)\nReport from City Administrative Officer dated 11-19-25",
+          "raw_text": "25-1394\nCity Administrative Officer report relative to a proposed contract for the Urgent Repair Program with Scope Environmental dba CBC Cleaning and Construction for general home repair services.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 24, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2026)\nReport from City Administrative Officer dated 11-19-25",
           "council_file": "25-1394",
           "title": "City Administrative Officer report relative to a proposed contract for the Urgent Repair Program with Scope Environmental dba CBC Cleaning and Construction for general home repair services.",
           "mig": "4c7be6e5-181f-4cd6-a049-f04c0547d404",
           "attachments": [
             {
-              "historyId": "ea6f2102-fb67-4926-ac16-fe6ce805c9cf",
+              "historyId": "ebd75bd5-9f7c-4ca9-af2a-469376a2b0e4",
               "title": "Report from City Administrative Officer dated 11-19-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea6f2102-fb67-4926-ac16-fe6ce805c9cf",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea6f2102-fb67-4926-ac16-fe6ce805c9cf"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ebd75bd5-9f7c-4ca9-af2a-469376a2b0e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ebd75bd5-9f7c-4ca9-af2a-469376a2b0e4"
             }
           ]
         },
@@ -135,10 +135,10 @@
           "mig": "7c2382de-9595-428d-b858-b40b22ad7dbb",
           "attachments": [
             {
-              "historyId": "810563f4-d4f0-4f58-8e18-23fa9e7e8bfe",
+              "historyId": "cf899a0d-58f3-4a27-917d-bfbe14356365",
               "title": "Report from City Administrative Officer dated 11-25-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=810563f4-d4f0-4f58-8e18-23fa9e7e8bfe",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=810563f4-d4f0-4f58-8e18-23fa9e7e8bfe"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf899a0d-58f3-4a27-917d-bfbe14356365",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cf899a0d-58f3-4a27-917d-bfbe14356365"
             }
           ]
         },
@@ -153,10 +153,10 @@
           "mig": "28371846-01b2-4e69-ad3d-37f8b2f3e95d",
           "attachments": [
             {
-              "historyId": "e8382cc7-33cd-4166-aa1a-c58896474c0c",
+              "historyId": "d5833d8a-b1af-4142-9f5f-483ef381d931",
               "title": "Report from Los Angeles Housing Department dated 10-21-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8382cc7-33cd-4166-aa1a-c58896474c0c",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8382cc7-33cd-4166-aa1a-c58896474c0c"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5833d8a-b1af-4142-9f5f-483ef381d931",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d5833d8a-b1af-4142-9f5f-483ef381d931"
             }
           ]
         },
@@ -170,34 +170,34 @@
           "mig": "2facb709-b172-4262-823e-974921b6aa49",
           "attachments": [
             {
-              "historyId": "fdc18d91-2036-4e5c-803c-8fe916628163",
+              "historyId": "3f46da39-08d8-4d8f-abce-fd070b96f3be",
               "title": "Report from Los Angeles Housing Department dated 10-3-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdc18d91-2036-4e5c-803c-8fe916628163",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdc18d91-2036-4e5c-803c-8fe916628163"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f46da39-08d8-4d8f-abce-fd070b96f3be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3f46da39-08d8-4d8f-abce-fd070b96f3be"
             },
             {
-              "historyId": "deb65f44-ae74-417c-b51a-e0b954f9ac01",
+              "historyId": "727f0e3d-54cc-4ce5-8837-7b03ce284a1d",
               "title": "Council Action  dated 10-24-23",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=deb65f44-ae74-417c-b51a-e0b954f9ac01",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=deb65f44-ae74-417c-b51a-e0b954f9ac01"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=727f0e3d-54cc-4ce5-8837-7b03ce284a1d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=727f0e3d-54cc-4ce5-8837-7b03ce284a1d"
             },
             {
-              "historyId": "0228579c-132b-4582-90bc-093ec45bbb3b",
+              "historyId": "29ba2d5b-5204-468b-ac45-0c8b0e689e1e",
               "title": "Speaker Card(s)_10-20-2023",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0228579c-132b-4582-90bc-093ec45bbb3b",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=0228579c-132b-4582-90bc-093ec45bbb3b"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29ba2d5b-5204-468b-ac45-0c8b0e689e1e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=29ba2d5b-5204-468b-ac45-0c8b0e689e1e"
             },
             {
-              "historyId": "6a41295f-7112-44d7-8b42-1e867e331527",
+              "historyId": "bdcca860-4879-4c5b-9775-34e8e76bd9ab",
               "title": "Report from Housing and Homelessness Committee_9-29-23",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a41295f-7112-44d7-8b42-1e867e331527",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a41295f-7112-44d7-8b42-1e867e331527"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bdcca860-4879-4c5b-9775-34e8e76bd9ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bdcca860-4879-4c5b-9775-34e8e76bd9ab"
             },
             {
-              "historyId": "85597579-20f5-4a2f-bc74-c485422ff059",
+              "historyId": "4fa51469-603a-4503-b221-cb040fef30ba",
               "title": "Motion (Rodriguez - Blumenfield) dated 8-11-23",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85597579-20f5-4a2f-bc74-c485422ff059",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=85597579-20f5-4a2f-bc74-c485422ff059"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fa51469-603a-4503-b221-cb040fef30ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4fa51469-603a-4503-b221-cb040fef30ba"
             }
           ]
         },
@@ -212,16 +212,16 @@
           "mig": "41496434-c7f7-4397-be1f-4162f536aea9",
           "attachments": [
             {
-              "historyId": "068d5c1e-7d77-4b5f-af22-5c17ea9a2638",
+              "historyId": "ee661222-7e2a-4d25-a9f5-f4b33be4eb11",
               "title": "Motion (McOsker - Raman) dated 11-12-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=068d5c1e-7d77-4b5f-af22-5c17ea9a2638",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=068d5c1e-7d77-4b5f-af22-5c17ea9a2638"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee661222-7e2a-4d25-a9f5-f4b33be4eb11",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ee661222-7e2a-4d25-a9f5-f4b33be4eb11"
             },
             {
-              "historyId": "01d28f24-8d18-4d54-8171-f3ddac12ec0f",
+              "historyId": "a0d8667f-9874-4db2-8a61-01a18d374a28",
               "title": "Report from Board of Public Works dated 11-18-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01d28f24-8d18-4d54-8171-f3ddac12ec0f",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=01d28f24-8d18-4d54-8171-f3ddac12ec0f"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0d8667f-9874-4db2-8a61-01a18d374a28",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a0d8667f-9874-4db2-8a61-01a18d374a28"
             }
           ]
         },
@@ -236,10 +236,10 @@
           "mig": "836b2196-1ae5-4892-a542-5dc8d6bf0eb9",
           "attachments": [
             {
-              "historyId": "7c625039-4d74-49be-bc1b-8c32f9c7a943",
+              "historyId": "256dc762-06e7-4e73-8a01-683bad0a2cfc",
               "title": "Motion (Raman - Yaroslavsky) dated 11-12-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c625039-4d74-49be-bc1b-8c32f9c7a943",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c625039-4d74-49be-bc1b-8c32f9c7a943"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=256dc762-06e7-4e73-8a01-683bad0a2cfc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=256dc762-06e7-4e73-8a01-683bad0a2cfc"
             }
           ]
         },
@@ -253,16 +253,16 @@
           "mig": "4026fb69-b50c-498a-bdd9-d5f7b9d27168",
           "attachments": [
             {
-              "historyId": "39ac30f5-0316-4376-af6e-d4b73c9b858d",
+              "historyId": "9ceae893-10e2-4b94-a531-cc4697787abc",
               "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_09-23-2025",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39ac30f5-0316-4376-af6e-d4b73c9b858d",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=39ac30f5-0316-4376-af6e-d4b73c9b858d"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ceae893-10e2-4b94-a531-cc4697787abc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ceae893-10e2-4b94-a531-cc4697787abc"
             },
             {
-              "historyId": "675f0ab2-8f66-4d84-af48-a9bdc1cc8f53",
+              "historyId": "358d7124-696c-4630-9ba2-791f3134e27e",
               "title": "Motion (Lee - Raman) dated 7-30-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=675f0ab2-8f66-4d84-af48-a9bdc1cc8f53",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=675f0ab2-8f66-4d84-af48-a9bdc1cc8f53"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=358d7124-696c-4630-9ba2-791f3134e27e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=358d7124-696c-4630-9ba2-791f3134e27e"
             }
           ]
         },
@@ -276,10 +276,10 @@
           "mig": "1f31d206-583a-4bbe-9d41-58e4a105f755",
           "attachments": [
             {
-              "historyId": "29df2f09-6979-4c81-9f4d-e4e594984c84",
+              "historyId": "7c2723cd-8d7d-406b-9b52-713e7a131ae8",
               "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29df2f09-6979-4c81-9f4d-e4e594984c84",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=29df2f09-6979-4c81-9f4d-e4e594984c84"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c2723cd-8d7d-406b-9b52-713e7a131ae8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c2723cd-8d7d-406b-9b52-713e7a131ae8"
             }
           ]
         },
@@ -293,10 +293,10 @@
           "mig": "6103ee9b-7464-479d-8f68-80aeb1d1433e",
           "attachments": [
             {
-              "historyId": "d7ff4976-8d9e-4385-a3f5-db4ec0b72d73",
+              "historyId": "15154525-6e32-46c4-a870-11e62f1a5929",
               "title": "Motion (Blumenfield - Jurado) dated 11-07-25",
-              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7ff4976-8d9e-4385-a3f5-db4ec0b72d73",
-              "previewUrl": "/viewer/preview?id=0&type=8&uid=d7ff4976-8d9e-4385-a3f5-db4ec0b72d73"
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=15154525-6e32-46c4-a870-11e62f1a5929",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=15154525-6e32-46c4-a870-11e62f1a5929"
             }
           ]
         }

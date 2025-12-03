@@ -88,6 +88,16 @@ class AgendaParser:
 
     def _extract_section_title(self, section_el: Tag) -> str:
         """Extract the title/header from a section element."""
+        # First, look for section-row class which contains the actual section header
+        section_row = section_el.find(class_='section-row')
+        if section_row:
+            # The title is typically in a <p> tag within the section-row
+            p_tag = section_row.find('p')
+            if p_tag:
+                title = p_tag.get_text(strip=True)
+                if title:
+                    return title
+
         # Try common header elements
         for tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'strong', 'b']:
             header = section_el.find(tag)

@@ -1,0 +1,1278 @@
+{
+  "meeting_id": 17577,
+  "template_id": 148616,
+  "parsed_at": "2025-12-02T17:53:21.955662",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148616",
+  "sections": [
+    {
+      "section_id": "359086",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359087",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359088",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "156811",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1321\nCity Administrative Officer report relative to the Transportation Grant Fund Report for Fiscal Year 2025-26.\n(This item is referred to the Transportation Committee and Budget and Finance Committee. The Transportation Committee approved the item on November 12, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTransmittal Letter to Budget and Finance Committee 11-12-25\nReport from City Administrative Officer dated 10-29-25.pdf",
+          "council_file": "25-1321",
+          "title": "City Administrative Officer report relative to the Transportation Grant Fund Report for Fiscal Year 2025-26.",
+          "mig": "e12de84c-93bd-46d1-a2e9-1365310465cc",
+          "attachments": [
+            {
+              "historyId": "7affdff7-215c-4e31-b802-f41066891a3d",
+              "title": "Transmittal Letter to Budget and Finance Committee 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7affdff7-215c-4e31-b802-f41066891a3d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7affdff7-215c-4e31-b802-f41066891a3d"
+            },
+            {
+              "historyId": "6389b7ce-50ba-4120-88e5-bb50c752eb4a",
+              "title": "Report from City Administrative Officer dated 10-29-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6389b7ce-50ba-4120-88e5-bb50c752eb4a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6389b7ce-50ba-4120-88e5-bb50c752eb4a"
+            }
+          ]
+        },
+        {
+          "item_id": "156813",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "23-1022-S21\nCity Administrative Officer report relative to Fiscal Year 2025-26 Second Homelessness Funding Report.\n(This item is referred to the Housing and Homelessness Committee and Budget and Finance Committee. The Housing and Homelessness Committee amended the item on November 5, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication from Housing and Homelessness Committee Clerk - 11-5-25\nReport from City Administrative Officer dated 10-30-25",
+          "council_file": "23-1022-S21",
+          "title": "City Administrative Officer report relative to Fiscal Year 2025-26 Second Homelessness Funding Report.",
+          "mig": "d1c8d929-7850-45da-9157-f63ae482de20",
+          "attachments": [
+            {
+              "historyId": "a22de5e7-4ce2-4393-84a6-3a7c3226596b",
+              "title": "Communication from Housing and Homelessness Committee Clerk - 11-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a22de5e7-4ce2-4393-84a6-3a7c3226596b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a22de5e7-4ce2-4393-84a6-3a7c3226596b"
+            },
+            {
+              "historyId": "cb25b7ca-8e50-4a82-bd41-096655fa279e",
+              "title": "Report from City Administrative Officer dated 10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb25b7ca-8e50-4a82-bd41-096655fa279e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb25b7ca-8e50-4a82-bd41-096655fa279e"
+            }
+          ]
+        },
+        {
+          "item_id": "156814",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1214\nRevised City Administrative Officer report relative to the Fiscal Year 2025-26 California Highway Patrol Cannabis Tax Fund Grant Program - Law Enforcement.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee. The Public Safety Committee approved the item on November 12, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nRevised Report from City Administrative Officer dated 10-23-25\nReport from City Administrative Officer dated 10-17-25",
+          "council_file": "25-1214",
+          "title": "Revised City Administrative Officer report relative to the Fiscal Year 2025-26 California Highway Patrol Cannabis Tax Fund Grant Program - Law Enforcement.",
+          "mig": "9f372ba0-4234-4f9f-bfd5-16d63f7e37b2",
+          "attachments": [
+            {
+              "historyId": "22e71d7a-b056-447b-9ecd-d908306380e5",
+              "title": "Revised Report from City Administrative Officer dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22e71d7a-b056-447b-9ecd-d908306380e5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22e71d7a-b056-447b-9ecd-d908306380e5"
+            },
+            {
+              "historyId": "26fd18e1-3837-4ba7-8cc7-698dd629ac6f",
+              "title": "Report from City Administrative Officer dated 10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26fd18e1-3837-4ba7-8cc7-698dd629ac6f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=26fd18e1-3837-4ba7-8cc7-698dd629ac6f"
+            }
+          ]
+        },
+        {
+          "item_id": "156816",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "14-0955-S10\nBoard of Police Commissioners and City Administrative Officer reports relative to the acceptance of the Fiscal Year 2025-26 Real Estate Fraud Prosecution Grant Program.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee. The Public Safety Committee approved the item on November 12, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 9-02-25\nReport from Board of Police Commissioners dated 8-12-25",
+          "council_file": "14-0955-S10",
+          "title": "Board of Police Commissioners and City Administrative Officer reports relative to the acceptance of the Fiscal Year 2025-26 Real Estate Fraud Prosecution Grant Program.",
+          "mig": "8f7c7ac5-af72-4e17-b373-0920f3632334",
+          "attachments": [
+            {
+              "historyId": "3e44d430-54be-4f1a-9f32-3110d1bf1354",
+              "title": "Report from City Administrative Officer dated 9-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3e44d430-54be-4f1a-9f32-3110d1bf1354",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3e44d430-54be-4f1a-9f32-3110d1bf1354"
+            },
+            {
+              "historyId": "e87c76d4-0c9c-4c44-bfd1-d6e8a4cc80b1",
+              "title": "Report from Board of Police Commissioners dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e87c76d4-0c9c-4c44-bfd1-d6e8a4cc80b1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e87c76d4-0c9c-4c44-bfd1-d6e8a4cc80b1"
+            }
+          ]
+        },
+        {
+          "item_id": "156817",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1227\nDepartment of Animal Services and City Administrative Officer reports relative to the acceptance of a grant from the University of California Davis Koret Shelter Medicine Program to install cat portals at all six animal care centers.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Budget and Finance Committee. The Arts, Parks, Libraries, and Community Enrichment Committee approved the item on October 28, 2025.)\nFiscal Impact Statement:\nNo\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25\nReport from City Administrative Officer dated 10-23-25\nReport from Department of Animal Services dated 10-16-25",
+          "council_file": "25-1227",
+          "title": "Department of Animal Services and City Administrative Officer reports relative to the acceptance of a grant from the University of California Davis Koret Shelter Medicine Program to install cat portals at all six animal care centers.",
+          "mig": "79d40c97-608e-403c-b4b9-74884eeca0a1",
+          "attachments": [
+            {
+              "historyId": "7f3f24a3-a48b-4d60-83e5-b6033e420193",
+              "title": "Communication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f3f24a3-a48b-4d60-83e5-b6033e420193",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f3f24a3-a48b-4d60-83e5-b6033e420193"
+            },
+            {
+              "historyId": "4da9a17e-9a4d-4de3-bfb7-37d626c40bf3",
+              "title": "Report from City Administrative Officer dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4da9a17e-9a4d-4de3-bfb7-37d626c40bf3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4da9a17e-9a4d-4de3-bfb7-37d626c40bf3"
+            },
+            {
+              "historyId": "0b8113d4-49ef-4bef-9bc0-47bbb3eaffe8",
+              "title": "Report from Department of Animal Services dated 10-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0b8113d4-49ef-4bef-9bc0-47bbb3eaffe8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0b8113d4-49ef-4bef-9bc0-47bbb3eaffe8"
+            }
+          ]
+        },
+        {
+          "item_id": "156818",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1210\nBoard of Recreation and Park Commissioners report and Resolution relative to the contract renewal and continued funding application for the California Department of Education 2026-27 California State Preschool Program.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Budget and Finance Committee. The Arts, Parks, Libraries, and Community Enrichment Committee approved the item on October 28, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Arts, Parks, Libraries, and Community Enrichment Committee_10-28-25\nReport from Board of Recreation and Park Commissioners dated 10-16-25",
+          "council_file": "25-1210",
+          "title": "Board of Recreation and Park Commissioners report and Resolution relative to the contract renewal and continued funding application for the California Department of Education 2026-27 California State Preschool Program.",
+          "mig": "d1c3ffff-cbd7-4300-90cb-c32499dfce29",
+          "attachments": [
+            {
+              "historyId": "0c830d88-8cb5-45c4-93b9-71342111c00a",
+              "title": "Report from Arts, Parks, Libraries, and Community Enrichment Committee_10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c830d88-8cb5-45c4-93b9-71342111c00a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c830d88-8cb5-45c4-93b9-71342111c00a"
+            },
+            {
+              "historyId": "66287019-b608-47f2-b071-4d155d7092e9",
+              "title": "Report from Board of Recreation and Park Commissioners dated 10-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66287019-b608-47f2-b071-4d155d7092e9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=66287019-b608-47f2-b071-4d155d7092e9"
+            }
+          ]
+        },
+        {
+          "item_id": "156858",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-0907\nBoard of Recreation and Park Commissioners report relative to the acceptance of the 2025 Dodgers Dreamteam Program Grant and in-kind contributions from the Los Angeles Dodgers Foundation in support of specific centers youth baseball and softball leagues for the 2025 Season.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Budget and Finance Committee. The Arts, Parks, Libraries, and Community Enrichment Committee approved the item on October 28, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Board of Recreation and Park Commissioners dated 8-07-25",
+          "council_file": "25-0907",
+          "title": "Board of Recreation and Park Commissioners report relative to the acceptance of the 2025 Dodgers Dreamteam Program Grant and in-kind contributions from the Los Angeles Dodgers Foundation in support of specific centers youth baseball and softball leagues for the 2025 Season.",
+          "mig": "64cfae6d-0de3-45c3-872d-f6435935f443",
+          "attachments": [
+            {
+              "historyId": "ee12efbf-4df5-4d92-8328-a2bd0d19e1a4",
+              "title": "Report from Board of Recreation and Park Commissioners dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee12efbf-4df5-4d92-8328-a2bd0d19e1a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ee12efbf-4df5-4d92-8328-a2bd0d19e1a4"
+            }
+          ]
+        },
+        {
+          "item_id": "156859",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-0905\nBoard of Recreation and Park Commissioners report relative to the acceptance of Juvenile Justice Crime Prevention Act grant funding for the After School Enrichment and Supervision Program from the County of Los Angeles Probation Department to provide youth services through Clean and Safe Spaces Parks Youth Employment Internship Program for Fiscal Year 2025-2026 at selected recreation facilities.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Budget and Finance Committee. The Arts, Parks, Libraries, and Community Enrichment Committee approved the item on October 28, 2025.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25\nReport from Board of Recreation and Park Commissioners dated 8-07-25",
+          "council_file": "25-0905",
+          "title": "Board of Recreation and Park Commissioners report relative to the acceptance of Juvenile Justice Crime Prevention Act grant funding for the After School Enrichment and Supervision Program from the County of Los Angeles Probation Department to provide youth services through Clean and Safe Spaces Parks Youth Employment Internship Program for Fiscal Year 2025-2026 at selected recreation facilities.",
+          "mig": "e7a5d979-dfa6-487f-a01d-8d7e50744128",
+          "attachments": [
+            {
+              "historyId": "70e75b82-05ed-463e-ba8d-b8ed61f8f7c7",
+              "title": "Communication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=70e75b82-05ed-463e-ba8d-b8ed61f8f7c7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=70e75b82-05ed-463e-ba8d-b8ed61f8f7c7"
+            },
+            {
+              "historyId": "1f68ecf5-cd70-42c4-9ccc-624567a81e6a",
+              "title": "Report from Board of Recreation and Park Commissioners dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1f68ecf5-cd70-42c4-9ccc-624567a81e6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1f68ecf5-cd70-42c4-9ccc-624567a81e6a"
+            }
+          ]
+        },
+        {
+          "item_id": "156860",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "12-1967-S11\nDepartment of Animal Services and City Administrative Officer reports relative to the acceptance of a non-competitive grant from the American Society for the Prevention of Cruelty to Animals to fund six-months of canine enrichment services.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Budget and Finance Committee. The Arts, Parks, Libraries and Community Enrichment Committee approved the item on October 28, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25\nReport from Department of Animal Services dated 10-16-25\nReport from City Administrative Officer dated 10-21-25",
+          "council_file": "12-1967-S11",
+          "title": "Department of Animal Services and City Administrative Officer reports relative to the acceptance of a non-competitive grant from the American Society for the Prevention of Cruelty to Animals to fund six-months of canine enrichment services.",
+          "mig": "ccb3c2c9-f61f-4b14-88a3-409f94daec5d",
+          "attachments": [
+            {
+              "historyId": "8b5c28a6-0e5f-4358-b552-3e0311527f2b",
+              "title": "Communication from Arts, Parks, Libraries, and Community Enrichment Committee Clerk - Transmittal Letter_10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8b5c28a6-0e5f-4358-b552-3e0311527f2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8b5c28a6-0e5f-4358-b552-3e0311527f2b"
+            },
+            {
+              "historyId": "db170248-48a8-40c4-96ce-3a127e31604a",
+              "title": "Report from Department of Animal Services dated 10-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db170248-48a8-40c4-96ce-3a127e31604a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=db170248-48a8-40c4-96ce-3a127e31604a"
+            },
+            {
+              "historyId": "79ef4532-a80e-44c0-b279-c79d7bfd6d4d",
+              "title": "Report from City Administrative Officer dated 10-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79ef4532-a80e-44c0-b279-c79d7bfd6d4d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=79ef4532-a80e-44c0-b279-c79d7bfd6d4d"
+            }
+          ]
+        },
+        {
+          "item_id": "156861",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "14-0499-S8\nLos Angeles Department of Transportation report relative to the Ballona Creek Bike Path application submitted to the California Department of Transportation (Caltrans) 2024 Active Transportation Program Cycle 7 Call for Projects, in June 2024.\n(This item is referred to the Transportation Committee and Budget and Finance Committee. The Transportation Committee approved the item on October 22, 2025.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 10-22-25\nReport from Department of Transportation dated 9-12-25\nCouncil Action - Mayor Concurrence dated 6-24-2024\nTransportation Committee Report 6-5-24\nSpeaker Card(s)_06-05-2024\nReport from Department of Transportation dated 5-29-24\nSpeaker Card(s)_06-12-2024",
+          "council_file": "14-0499-S8",
+          "title": "Los Angeles Department of Transportation report relative to the Ballona Creek Bike Path application submitted to the California Department of Transportation (Caltrans) 2024 Active Transportation Program Cycle 7 Call for Projects, in June 2024.",
+          "mig": "e17bf204-0ec6-47ae-8156-184fad45d38c",
+          "attachments": [
+            {
+              "historyId": "c87a7f65-c56f-4d3d-bff3-ec845bfcae2f",
+              "title": "Report from Transportation Committee 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c87a7f65-c56f-4d3d-bff3-ec845bfcae2f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c87a7f65-c56f-4d3d-bff3-ec845bfcae2f"
+            },
+            {
+              "historyId": "cb329118-b119-4623-a2a1-bde4fdf3f282",
+              "title": "Report from Department of Transportation dated 9-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb329118-b119-4623-a2a1-bde4fdf3f282",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb329118-b119-4623-a2a1-bde4fdf3f282"
+            },
+            {
+              "historyId": "23ace2fb-9e88-4fc5-a7af-e8a7afd9dd7f",
+              "title": "Council Action - Mayor Concurrence dated 6-24-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=23ace2fb-9e88-4fc5-a7af-e8a7afd9dd7f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=23ace2fb-9e88-4fc5-a7af-e8a7afd9dd7f"
+            },
+            {
+              "historyId": "0aa24b3c-296b-4e8d-b862-7b0db1e9f383",
+              "title": "Transportation Committee Report 6-5-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0aa24b3c-296b-4e8d-b862-7b0db1e9f383",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0aa24b3c-296b-4e8d-b862-7b0db1e9f383"
+            },
+            {
+              "historyId": "623be332-c8c1-46ba-8b0c-4e2511c239ee",
+              "title": "Speaker Card(s)_06-05-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=623be332-c8c1-46ba-8b0c-4e2511c239ee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=623be332-c8c1-46ba-8b0c-4e2511c239ee"
+            },
+            {
+              "historyId": "0a7cef58-0a31-46fe-a2cf-9932a576112b",
+              "title": "Report from Department of Transportation dated 5-29-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0a7cef58-0a31-46fe-a2cf-9932a576112b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0a7cef58-0a31-46fe-a2cf-9932a576112b"
+            },
+            {
+              "historyId": "f518118f-5288-4183-a9df-8dcd6992969e",
+              "title": "Speaker Card(s)_06-12-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f518118f-5288-4183-a9df-8dcd6992969e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f518118f-5288-4183-a9df-8dcd6992969e"
+            }
+          ]
+        },
+        {
+          "item_id": "156863",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "22-1545-S34\nCity Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 30th Status Report as of July 31, 2025.\n(This item is referred to the Housing and Homelessness Committee and Budget and Finance Committee. The Housing and Homelessness Committee noted and filed the item on November 5, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 10-02-25",
+          "council_file": "22-1545-S34",
+          "title": "City Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 30th Status Report as of July 31, 2025.",
+          "mig": "ebc4d878-34f7-4fdd-9c51-98ac723f6579",
+          "attachments": [
+            {
+              "historyId": "07098467-dbac-4606-bda5-2779f1329418",
+              "title": "Report from City Administrative Officer dated 10-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07098467-dbac-4606-bda5-2779f1329418",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07098467-dbac-4606-bda5-2779f1329418"
+            }
+          ]
+        },
+        {
+          "item_id": "156864",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "22-1545-S36\nCity Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 31st Status Report as of August 31, 2025.\n(This item is referred to the Housing and Homelessness Committee and the Budget and Finance Committee. The Housing and Homelessness Committee noted and filed the item on November 12, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 11-07-25",
+          "council_file": "22-1545-S36",
+          "title": "City Administrative Officer report relative to the Homelessness Emergency Account – General City Purposes Fund 31st Status Report as of August 31, 2025.",
+          "mig": "e74d5eb8-cee9-4497-b727-c81de4691692",
+          "attachments": [
+            {
+              "historyId": "6d41758d-2b6b-4243-aea4-ffe358d3461a",
+              "title": "Report from City Attorney dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d41758d-2b6b-4243-aea4-ffe358d3461a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d41758d-2b6b-4243-aea4-ffe358d3461a"
+            }
+          ]
+        },
+        {
+          "item_id": "156862",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-1225\nCity Attorney report relative to appropriations for outside counsel contracts.\n[The Committee may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel to discuss the need for additional outside counsel assistance and funding.]\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nCommunication(s) from Public_11-25-2025\nCommunication(s) from Public_11-24-2025\nCommunication(s) from Public_11-21-2025\nCommunication(s) from Public_11-17-2025\nCommunication(s) from Public_11-13-2025\nCommunication(s) from Public_11-12-2025\nCommunication(s) from Public_11-07-2025\nCommunication(s) from Public_11-06-2025\nCommunication(s) from Public_11-05-2025\nCommunication(s) from Public_11-03-2025\nCommunication(s) from Public_11-01-2025\nCommunication(s) from Public_10-30-2025\nReport from City Attorney dated 10-17-25",
+          "council_file": "25-1225",
+          "title": "City Attorney report relative to appropriations for outside counsel contracts.",
+          "mig": "79f4ef8a-0085-4757-b1de-72d29a821379",
+          "attachments": [
+            {
+              "historyId": "d14136d8-2c79-40ab-a543-8bf7b3c47e33",
+              "title": "Communication(s) from Public_11-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d14136d8-2c79-40ab-a543-8bf7b3c47e33",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d14136d8-2c79-40ab-a543-8bf7b3c47e33"
+            },
+            {
+              "historyId": "90e0f331-4924-4cfa-8d62-300db22e369d",
+              "title": "Communication(s) from Public_11-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=90e0f331-4924-4cfa-8d62-300db22e369d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=90e0f331-4924-4cfa-8d62-300db22e369d"
+            },
+            {
+              "historyId": "930782fd-c82b-4fb4-ba8f-7899f4cfb7f4",
+              "title": "Communication(s) from Public_11-21-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=930782fd-c82b-4fb4-ba8f-7899f4cfb7f4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=930782fd-c82b-4fb4-ba8f-7899f4cfb7f4"
+            },
+            {
+              "historyId": "77552f2d-0423-4799-8c82-bbedeb11fa5a",
+              "title": "Communication(s) from Public_11-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=77552f2d-0423-4799-8c82-bbedeb11fa5a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=77552f2d-0423-4799-8c82-bbedeb11fa5a"
+            },
+            {
+              "historyId": "cde7d68d-96be-49ed-a8c5-722dc026d98f",
+              "title": "Communication(s) from Public_11-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cde7d68d-96be-49ed-a8c5-722dc026d98f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cde7d68d-96be-49ed-a8c5-722dc026d98f"
+            },
+            {
+              "historyId": "39274684-96e9-486d-b83b-a917f16bb8b9",
+              "title": "Communication(s) from Public_11-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39274684-96e9-486d-b83b-a917f16bb8b9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=39274684-96e9-486d-b83b-a917f16bb8b9"
+            },
+            {
+              "historyId": "87d90873-1f5d-4364-b3cd-994af33cd6ca",
+              "title": "Communication(s) from Public_11-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=87d90873-1f5d-4364-b3cd-994af33cd6ca",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=87d90873-1f5d-4364-b3cd-994af33cd6ca"
+            },
+            {
+              "historyId": "7322bbae-dd4f-45e0-b919-dcfe214438c9",
+              "title": "Communication(s) from Public_11-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7322bbae-dd4f-45e0-b919-dcfe214438c9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7322bbae-dd4f-45e0-b919-dcfe214438c9"
+            },
+            {
+              "historyId": "ad39c2ec-5d23-4e53-bbc4-df1d536d6801",
+              "title": "Communication(s) from Public_11-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad39c2ec-5d23-4e53-bbc4-df1d536d6801",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ad39c2ec-5d23-4e53-bbc4-df1d536d6801"
+            },
+            {
+              "historyId": "506fe6ab-bce0-482e-9d9d-6e4351206fb0",
+              "title": "Communication(s) from Public_11-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=506fe6ab-bce0-482e-9d9d-6e4351206fb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=506fe6ab-bce0-482e-9d9d-6e4351206fb0"
+            },
+            {
+              "historyId": "a745dcbd-0e13-400b-81e8-2d0708ad4ea5",
+              "title": "Communication(s) from Public_11-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a745dcbd-0e13-400b-81e8-2d0708ad4ea5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a745dcbd-0e13-400b-81e8-2d0708ad4ea5"
+            },
+            {
+              "historyId": "8c21f139-8ca9-4d54-bc58-e217aa0e4f4f",
+              "title": "Communication(s) from Public_10-30-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c21f139-8ca9-4d54-bc58-e217aa0e4f4f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8c21f139-8ca9-4d54-bc58-e217aa0e4f4f"
+            },
+            {
+              "historyId": "c0b5a706-2a7c-4670-81f7-5e8bc8ec9f7d",
+              "title": "Report from City Attorney dated 10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0b5a706-2a7c-4670-81f7-5e8bc8ec9f7d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c0b5a706-2a7c-4670-81f7-5e8bc8ec9f7d"
+            }
+          ]
+        },
+        {
+          "item_id": "156854",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-0683\nCity Administrative Officer report relative to Bureau of Engineering funding for the AECOM contract to provide as-needed project management, engineering support and other expert consulting services in response to the January 2025 Wind and Fire Storm event.\n(This item is referred to the Ad Hoc Committee for LA Recovery and Budget and Finance Committee. The Ad Hoc Committee for LA Recovery amended the item on November 17, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Ad Hoc Committee for LA Recovery 11-17-25\nCommunication from Ad Hoc Committee for LA Recovery Clerk - 11-17-25\nReport from City Administrative Officer dated 10-29-25\nCouncil Action dated 8-07-25\nSpeaker Card(s)_08-05-2025\nReport from Ad Hoc Committee for LA Recovery 6-23-25\nMotion (Rodriguez - Blumenfield) dated 6-18-25",
+          "council_file": "25-0683",
+          "title": "City Administrative Officer report relative to Bureau of Engineering funding for the AECOM contract to provide as-needed project management, engineering support and other expert consulting services in response to the January 2025 Wind and Fire Storm event.",
+          "mig": "4542f877-05d9-47c5-aa8d-688b65e0c221",
+          "attachments": [
+            {
+              "historyId": "432faac1-2886-4ee2-ba0c-9a61b5be5e91",
+              "title": "Report from Ad Hoc Committee for LA Recovery 11-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=432faac1-2886-4ee2-ba0c-9a61b5be5e91",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=432faac1-2886-4ee2-ba0c-9a61b5be5e91"
+            },
+            {
+              "historyId": "dee1283c-01d6-47ae-b6b6-7d36a826f060",
+              "title": "Communication from Ad Hoc Committee for LA Recovery Clerk - 11-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dee1283c-01d6-47ae-b6b6-7d36a826f060",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dee1283c-01d6-47ae-b6b6-7d36a826f060"
+            },
+            {
+              "historyId": "3ac0d829-73ef-47f6-9539-af55a3f7ae0f",
+              "title": "Report from City Administrative Officer dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ac0d829-73ef-47f6-9539-af55a3f7ae0f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ac0d829-73ef-47f6-9539-af55a3f7ae0f"
+            },
+            {
+              "historyId": "2674fb4b-29bb-44d7-8c1d-72726f1ad79a",
+              "title": "Council Action dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2674fb4b-29bb-44d7-8c1d-72726f1ad79a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2674fb4b-29bb-44d7-8c1d-72726f1ad79a"
+            },
+            {
+              "historyId": "783abcdf-dfb3-41ff-92a3-0e2157bcf25f",
+              "title": "Speaker Card(s)_08-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=783abcdf-dfb3-41ff-92a3-0e2157bcf25f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=783abcdf-dfb3-41ff-92a3-0e2157bcf25f"
+            },
+            {
+              "historyId": "2ad965c0-2705-4519-bce9-774f1375ffa6",
+              "title": "Report from Ad Hoc Committee for LA Recovery 6-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ad965c0-2705-4519-bce9-774f1375ffa6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ad965c0-2705-4519-bce9-774f1375ffa6"
+            },
+            {
+              "historyId": "b3223104-8ef0-4b5c-aa4f-32df1c24098f",
+              "title": "Motion (Rodriguez - Blumenfield) dated 6-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3223104-8ef0-4b5c-aa4f-32df1c24098f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3223104-8ef0-4b5c-aa4f-32df1c24098f"
+            }
+          ]
+        },
+        {
+          "item_id": "156855",
+          "item_number": "(15)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S86\nMotion (Park – Harris-Dawson) relative to requesting the City Attorney to provide an analysis of the proposal detailed in Mayor Karen Bass' request to the City Council, issued in a letter dated October 9, 2025, regarding the feasibility of granting the Director of Finance, Office of Finance, increased delegated authority to promulgate rules that grant a one-time Measure ULA tax exemption to owners of all residential properties in the Pacific Palisades that were destroyed in the Palisades Fire; and related matters.\n(This item is referred to Ad Hoc Committee for LA Recovery and Budget and Finance Committee. The Ad Hoc Committee for LA Recovery approved the item on November 17, 2025.)\nCommunity Impact Statement:\nNone submitted\nCommunication from Ad Hoc Committee for LA Recovery Clerk - 11-17-25\nMotion (Park - Harris-Dawson) dated 10-24-25",
+          "council_file": "25-0006-S86",
+          "title": "Motion (Park – Harris-Dawson) relative to requesting the City Attorney to provide an analysis of the proposal detailed in Mayor Karen Bass' request to the City Council, issued in a letter dated October 9, 2025, regarding the feasibility of granting the Director of Finance, Office of Finance, increased delegated authority to promulgate rules that grant a one-time Measure ULA tax exemption to owners of all residential properties in the Pacific Palisades that were destroyed in the Palisades Fire; and related matters.",
+          "mig": "2c90cebd-81c1-4597-bd45-e6831c0a1765",
+          "attachments": [
+            {
+              "historyId": "7dc070a0-92ac-4f46-98cb-b68bf88b40b4",
+              "title": "Communication from Ad Hoc Committee for LA Recovery Clerk - 11-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7dc070a0-92ac-4f46-98cb-b68bf88b40b4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7dc070a0-92ac-4f46-98cb-b68bf88b40b4"
+            },
+            {
+              "historyId": "284ed7dd-4269-4d7a-a83a-9f161b3e9838",
+              "title": "Motion (Park - Harris-Dawson) dated 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=284ed7dd-4269-4d7a-a83a-9f161b3e9838",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=284ed7dd-4269-4d7a-a83a-9f161b3e9838"
+            }
+          ]
+        },
+        {
+          "item_id": "156866",
+          "item_number": "(16)",
+          "has_attachments": true,
+          "raw_text": "25-1353\nMotion (Rodriguez – Lee) relative to requesting the City Attorney’s Office to report on the contract with Gibson, Dunn & Crutcher for representation in the case entitled\nLA Alliance for Human Rights, et al. v. City of Los Angeles, et al.\n, United States District Court Central District Case No. 2:20-cv-02291-DOC-KES; and, to report on all outside counsel requests.\nCommunity Impact Statement:\nNone submitted\nMotion (Rodriguez - Lee) dated 11-14-25",
+          "council_file": "25-1353",
+          "title": "Motion (Rodriguez – Lee) relative to requesting the City Attorney’s Office to report on the contract with Gibson, Dunn & Crutcher for representation in the case entitled",
+          "mig": "ee61b1d1-06da-4e15-8646-7d760658ea95",
+          "attachments": [
+            {
+              "historyId": "13cba8ed-a1da-4e58-ba46-e7e3e7747e5d",
+              "title": "Motion (Rodriguez - Lee) dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13cba8ed-a1da-4e58-ba46-e7e3e7747e5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=13cba8ed-a1da-4e58-ba46-e7e3e7747e5d"
+            }
+          ]
+        },
+        {
+          "item_id": "156867",
+          "item_number": "(17)",
+          "has_attachments": true,
+          "raw_text": "23-0600-S121\nJoint City Administrative Officer and Los Angeles Department of Transportation (LADOT) report relative to an independent evaluation of the Vision Zero Program and a revised LADOT Vision Zero Evaluation and Safety Plan.\n(This item is referred to the Transportation Committee, Public Safety Committee, and Budget and Finance Committee. The Transportation Committee amended the item on August 13, 2025. The Public Safety Committee concurred with the Transportation Committee’s action on November 12, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nRampart Village Neighborhood Council\nWest Los Angeles Sawtelle Neighborhood Council\nCommunity Impact Statement submitted by West LA - Sawtelle Neighborhood Council_11-16-2025\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_08-20-2025\nTransmittal Letter to Public Safety and Budget and Finance Committees 8-13-25\nCommunication from CD 1 8-13-2025 - Amendment\nCommunication from Chair 8-13-25 - Amendment\nCommunication from LADOT and CAO 8-13-25 - Slide Presentation\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_07-16-2025\nSpeaker Card(s)_06-25-2025\nCommunication(s) from Public_06-23-2025\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_06-17-2025\nJoint Report from City Administrative Officer and Los Angeles Department of Transportation dated 4-11-25",
+          "council_file": "23-0600-S121",
+          "district": "CD 1",
+          "title": "Joint City Administrative Officer and Los Angeles Department of Transportation (LADOT) report relative to an independent evaluation of the Vision Zero Program and a revised LADOT Vision Zero Evaluation and Safety Plan.",
+          "mig": "8fd68c97-938b-4662-8e38-0db87a5c7c1b",
+          "attachments": [
+            {
+              "historyId": "1c4a8806-43de-4d91-b6fd-34f1754b59d5",
+              "title": "Community Impact Statement submitted by West LA - Sawtelle Neighborhood Council_11-16-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c4a8806-43de-4d91-b6fd-34f1754b59d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1c4a8806-43de-4d91-b6fd-34f1754b59d5"
+            },
+            {
+              "historyId": "a5e8814c-0b02-4010-92a7-46e2617e8c36",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a5e8814c-0b02-4010-92a7-46e2617e8c36",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a5e8814c-0b02-4010-92a7-46e2617e8c36"
+            },
+            {
+              "historyId": "2fed6909-fc37-465c-b4dc-8f21d0e24e04",
+              "title": "Transmittal Letter to Public Safety and Budget and Finance Committees 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fed6909-fc37-465c-b4dc-8f21d0e24e04",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2fed6909-fc37-465c-b4dc-8f21d0e24e04"
+            },
+            {
+              "historyId": "eb1f0439-b491-443b-8272-16654e7e6df6",
+              "title": "Communication from CD 1 8-13-2025 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb1f0439-b491-443b-8272-16654e7e6df6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eb1f0439-b491-443b-8272-16654e7e6df6"
+            },
+            {
+              "historyId": "22abcd15-d384-412d-9c5e-ba08ae3dcf46",
+              "title": "Communication from Chair 8-13-25 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22abcd15-d384-412d-9c5e-ba08ae3dcf46",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22abcd15-d384-412d-9c5e-ba08ae3dcf46"
+            },
+            {
+              "historyId": "6f21f6d7-c958-442f-a2c6-012ed47d917c",
+              "title": "Communication from LADOT and CAO 8-13-25 - Slide Presentation",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f21f6d7-c958-442f-a2c6-012ed47d917c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6f21f6d7-c958-442f-a2c6-012ed47d917c"
+            },
+            {
+              "historyId": "9c035969-5a12-49d0-9fd0-9a53d83f18d9",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_07-16-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c035969-5a12-49d0-9fd0-9a53d83f18d9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c035969-5a12-49d0-9fd0-9a53d83f18d9"
+            },
+            {
+              "historyId": "6f076727-7c80-44d7-9b0e-73c028b06679",
+              "title": "Speaker Card(s)_06-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f076727-7c80-44d7-9b0e-73c028b06679",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6f076727-7c80-44d7-9b0e-73c028b06679"
+            },
+            {
+              "historyId": "4586d51c-f690-4a7d-93f3-e65f5f5772b2",
+              "title": "Communication(s) from Public_06-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4586d51c-f690-4a7d-93f3-e65f5f5772b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4586d51c-f690-4a7d-93f3-e65f5f5772b2"
+            },
+            {
+              "historyId": "c84cfb81-18a8-4b38-8907-af09d229e58f",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_06-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c84cfb81-18a8-4b38-8907-af09d229e58f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c84cfb81-18a8-4b38-8907-af09d229e58f"
+            },
+            {
+              "historyId": "91f68b44-d08d-4ad9-a60c-8ac358b441e4",
+              "title": "Joint Report from City Administrative Officer and Los Angeles Department of Transportation dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=91f68b44-d08d-4ad9-a60c-8ac358b441e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=91f68b44-d08d-4ad9-a60c-8ac358b441e4"
+            }
+          ]
+        },
+        {
+          "item_id": "156868",
+          "item_number": "(18)",
+          "has_attachments": true,
+          "raw_text": "24-1179-S1\nMotion (Raman – Yaroslavsky) relative to the acceptance of in-kind consultancy services, valued at $1,100,000, from the California Community Foundation, Conrad N. Hilton Foundation, and Southern California Grantmakers, to support strong performance oversight and conduct operational problem-solving to strengthen the City’s homelessness response.\nCommunity Impact Statement:\nNone submitted\nMotion (Raman - Yaroslavsky) dated 11-12-25",
+          "council_file": "24-1179-S1",
+          "title": "Motion (Raman – Yaroslavsky) relative to the acceptance of in-kind consultancy services, valued at $1,100,000, from the California Community Foundation, Conrad N. Hilton Foundation, and Southern California Grantmakers, to support strong performance oversight and conduct operational problem-solving to strengthen the City’s homelessness response.",
+          "mig": "68b1c126-374c-4400-86a3-6feb3c65d681",
+          "attachments": [
+            {
+              "historyId": "255a713b-c2b4-4005-a982-b84921cb27fa",
+              "title": "Motion (Raman - Yaroslavsky) dated 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=255a713b-c2b4-4005-a982-b84921cb27fa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=255a713b-c2b4-4005-a982-b84921cb27fa"
+            }
+          ]
+        },
+        {
+          "item_id": "156870",
+          "item_number": "(19)",
+          "has_attachments": true,
+          "raw_text": "25-1283\nMotion (McOsker – Park) relative to establishing a new account for the purpose of appropriating community impact funds received by the Bureau of Engineering from the Port of Long Beach (POLB) in connection with the POLB’s Pier B Project.\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker - Park) dated 10-29-25",
+          "council_file": "25-1283",
+          "title": "Motion (McOsker – Park) relative to establishing a new account for the purpose of appropriating community impact funds received by the Bureau of Engineering from the Port of Long Beach (POLB) in connection with the POLB’s Pier B Project.",
+          "mig": "6983083a-377b-4537-ad6b-0080b3f85a8a",
+          "attachments": [
+            {
+              "historyId": "801b1ce6-0f5e-454d-9e72-57809f1fd3ae",
+              "title": "Motion (McOsker - Park) dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=801b1ce6-0f5e-454d-9e72-57809f1fd3ae",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=801b1ce6-0f5e-454d-9e72-57809f1fd3ae"
+            }
+          ]
+        },
+        {
+          "item_id": "157030",
+          "item_number": "(20)",
+          "has_attachments": true,
+          "raw_text": "25-0600-S81\nAdopted Budget Recommendation relative to instructing the Office of Finance to report on the City's investments from 2017 to 2025, and related matters; and, Office of Finance report relative to the City’s Investment Portfolio and the feasibility of reallocating a portion of investment returns to offset budgetary obligations.\n(Pursuant to Council Action of July 30, 2025; Council file No. 25-0600-S32)\nFinancial Policies Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Office of Finance dated 11-14-25\nBudget Recommendation dated 7-30-25.pdf",
+          "council_file": "25-0600-S81",
+          "title": "Adopted Budget Recommendation relative to instructing the Office of Finance to report on the City's investments from 2017 to 2025, and related matters; and, Office of Finance report relative to the City’s Investment Portfolio and the feasibility of reallocating a portion of investment returns to offset budgetary obligations.",
+          "recommendation": "No Community Impact Statement: None submitted Report from Office of Finance dated 11-14-25 Budget Recommendation dated 7-30-25.pdf",
+          "mig": "3e65eade-99a9-41a3-b918-ea5ec19635f3",
+          "attachments": [
+            {
+              "historyId": "a99880c0-4c23-4ef6-b0ac-73d4d90e8fd7",
+              "title": "Report from Office of Finance dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a99880c0-4c23-4ef6-b0ac-73d4d90e8fd7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a99880c0-4c23-4ef6-b0ac-73d4d90e8fd7"
+            },
+            {
+              "historyId": "bb5a5747-4c5c-4d94-96d0-003142e1eca9",
+              "title": "Budget Recommendation dated 7-30-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bb5a5747-4c5c-4d94-96d0-003142e1eca9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bb5a5747-4c5c-4d94-96d0-003142e1eca9"
+            }
+          ]
+        },
+        {
+          "item_id": "157033",
+          "item_number": "(21)",
+          "has_attachments": true,
+          "raw_text": "21-1224\nAmending Motion 22A (Hernandez – Raman) relative to instructing the Los Angeles Department of Transportation (LADOT) to report on a spending plan for the projected revenue from the Bus Lane Enforcement Pilot Program, and related matters; and, Amending Motion 22B (Park – Hutt) relative to instructing the LADOT to report on a spending plan for the City revenue collected from the Bus Lane Violation Enforcement Program, and related matters.\n(Pursuant to Council Action of October 8, 2024; Council file No. 21-1224)\nCommunity Impact Statement:\nYes\nAgainst: Westwood Neighborhood Council\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_05-19-2025\nCouncil Action dated 12-18-24\nReport from Transportation Committee 11-20-24\nFinal Ordinance No. 188388 dated 12-1-24.pdf\nReport from Department of Transportation dated 11-13-24\nAttachment to Report dated 11-13-2024 - Resolution\nDeclaration of Posting Ordinance dated 10-22-24\nReport from Transportation Committee 9-18-24\nCouncil Action - Mayor Concurrence dated 10-17-2024\nMotion (Rodriguez - Krekorian) dated 10-8-24\nAmending Motion 22A (Hernandez - Raman) dated 10-8-24\nAmending Motion 22B (Park - Hutt) dated 10-8-24\nCommunication(s) from Public dated 9-18-24\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_09-04-2024\nCommunication(s) from Public_08-07-2024\nCommunication(s) from Public_08-06-2024\nReport from Department of Transportation dated 7-29-24\nReport from City Attorney dated 7-25-24\nAttachment to Report dated 7-25-24 - Draft Ordinance\nCommunity Impact Statement submitted by Venice Neighborhood Council_04-03-2023\nCouncil Action  dated 1-20-23\nCommunication(s) from Public_01-20-2023\nCommunication(s) from Public_01-18-2023\nCommunication(s) from Public_01-17-2023\nCommunication(s) from Public_01-17-2023\nCommunication(s) from Public_01-17-2023\nCommunication(s) from Public_01-16-2023\nCommunication(s) from Public_01-16-2023\nCommunication(s) from Public_01-15-2023\nCommunity Impact Statement submitted by Downtown Los Angeles Neighborhood Council_11-17-2022\nTransportation Committee Report_11-1-22\nTransportation Committee Report 11-1-22\nCommunication(s) from Public_11-01-2022\nCommunication(s) from Public_10-31-2022\nCommunication(s) from Public_10-29-2022\nCommunication(s) from Public_10-28-2022\nCommunication(s) from Public_10-10-2022\nCommunication(s) from Public_10-06-2022\nCommunication(s) from Public_10-05-2022\nCommunication(s) from Public_10-04-2022\nReport from Department of Transportation dated 9-29-22\nCommunity Impact Statement submitted by NoHo Neighborhood Council 03-23-2022\nCommunity Impact Statement  submitted by South Robertson Neighborhood Council  03-17-2022\nCommunity Impact Statement submitted by South Robertson Neighborhood Council 12-28-2021\nCommunity Impact Statement submitted by Mid City West Neighborhood Council 12-14-2021\nCommunication(s) from Public_11-30-2021\nCommunication(s) from Public_09-18-2024\nCouncil Action  dated 11-10-21\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council 11-19-2021\nCommunication(s) from Public_11-08-2021\nCommunication(s) from Public_11-02-2021\nTransportation Committee Report 11-2-21\nCommunication(s) from Public_11-01-2021\nCommunication(s) from Public_10-31-2021\nCommunication(s) from Public_10-30-2021\nCommunication(s) from Public_10-29-2021\nMotion (Bonin - Krekorian - de Leon) dated 10-20-21.pdf\nSpeaker Card(s)_08-07-2024\nSpeaker Card(s)_10-08-2024\nSpeaker Card(s)_11-20-2024\nSpeaker Card(s)_11-20-2024",
+          "council_file": "21-1224",
+          "title": "Amending Motion 22A (Hernandez – Raman) relative to instructing the Los Angeles Department of Transportation (LADOT) to report on a spending plan for the projected revenue from the Bus Lane Enforcement Pilot Program, and related matters; and, Amending Motion 22B (Park – Hutt) relative to instructing the LADOT to report on a spending plan for the City revenue collected from the Bus Lane Violation Enforcement Program, and related matters.",
+          "mig": "433e4aac-467a-40ee-965c-643bdb68b89e",
+          "attachments": [
+            {
+              "historyId": "a3049331-3421-4c0a-9d11-0b8bdef2943b",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_05-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3049331-3421-4c0a-9d11-0b8bdef2943b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a3049331-3421-4c0a-9d11-0b8bdef2943b"
+            },
+            {
+              "historyId": "4641bf9a-a495-4e69-86e9-32992b57b6c5",
+              "title": "Council Action dated 12-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4641bf9a-a495-4e69-86e9-32992b57b6c5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4641bf9a-a495-4e69-86e9-32992b57b6c5"
+            },
+            {
+              "historyId": "95c4831b-0539-48be-b3b8-a69eceb423e2",
+              "title": "Report from Transportation Committee 11-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95c4831b-0539-48be-b3b8-a69eceb423e2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95c4831b-0539-48be-b3b8-a69eceb423e2"
+            },
+            {
+              "historyId": "eb3dd3e8-ab79-4e20-88d4-9b38262bfead",
+              "title": "Final Ordinance No. 188388 dated 12-1-24.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb3dd3e8-ab79-4e20-88d4-9b38262bfead",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eb3dd3e8-ab79-4e20-88d4-9b38262bfead"
+            },
+            {
+              "historyId": "69874a82-c6c1-4b4b-8b5c-d7a0d67dea61",
+              "title": "Report from Department of Transportation dated 11-13-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69874a82-c6c1-4b4b-8b5c-d7a0d67dea61",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69874a82-c6c1-4b4b-8b5c-d7a0d67dea61"
+            },
+            {
+              "historyId": "79b80667-fce3-4e4d-861b-539c0e69769e",
+              "title": "Attachment to Report dated 11-13-2024 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79b80667-fce3-4e4d-861b-539c0e69769e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=79b80667-fce3-4e4d-861b-539c0e69769e"
+            },
+            {
+              "historyId": "f31ceb98-b128-4a74-bec4-342eb1d87c87",
+              "title": "Declaration of Posting Ordinance dated 10-22-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f31ceb98-b128-4a74-bec4-342eb1d87c87",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f31ceb98-b128-4a74-bec4-342eb1d87c87"
+            },
+            {
+              "historyId": "8ab93c39-d1ca-4f20-9c64-4e61da7b1ddd",
+              "title": "Report from Transportation Committee 9-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ab93c39-d1ca-4f20-9c64-4e61da7b1ddd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8ab93c39-d1ca-4f20-9c64-4e61da7b1ddd"
+            },
+            {
+              "historyId": "0dea814b-0a50-4986-bdbc-109e84ed7b99",
+              "title": "Council Action - Mayor Concurrence dated 10-17-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0dea814b-0a50-4986-bdbc-109e84ed7b99",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0dea814b-0a50-4986-bdbc-109e84ed7b99"
+            },
+            {
+              "historyId": "86363b06-25d8-4fb4-8aa1-5a2637643ce1",
+              "title": "Motion (Rodriguez - Krekorian) dated 10-8-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86363b06-25d8-4fb4-8aa1-5a2637643ce1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86363b06-25d8-4fb4-8aa1-5a2637643ce1"
+            },
+            {
+              "historyId": "9bf1c90b-1aca-41e6-9218-b73da63dc35f",
+              "title": "Amending Motion 22A (Hernandez - Raman) dated 10-8-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9bf1c90b-1aca-41e6-9218-b73da63dc35f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9bf1c90b-1aca-41e6-9218-b73da63dc35f"
+            },
+            {
+              "historyId": "b833d3bf-b087-4d6e-a953-1aad99cbf7fc",
+              "title": "Amending Motion 22B (Park - Hutt) dated 10-8-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b833d3bf-b087-4d6e-a953-1aad99cbf7fc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b833d3bf-b087-4d6e-a953-1aad99cbf7fc"
+            },
+            {
+              "historyId": "675dde84-ece9-453b-adce-140808f714ef",
+              "title": "Communication(s) from Public dated 9-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=675dde84-ece9-453b-adce-140808f714ef",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=675dde84-ece9-453b-adce-140808f714ef"
+            },
+            {
+              "historyId": "a2404b1d-8ebc-4edd-b986-a0e73448c0e2",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_09-04-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2404b1d-8ebc-4edd-b986-a0e73448c0e2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a2404b1d-8ebc-4edd-b986-a0e73448c0e2"
+            },
+            {
+              "historyId": "9cfef224-812c-406e-b78e-30e608baa459",
+              "title": "Communication(s) from Public_08-07-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9cfef224-812c-406e-b78e-30e608baa459",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9cfef224-812c-406e-b78e-30e608baa459"
+            },
+            {
+              "historyId": "d31188bf-0572-45d9-9f24-35de2a7b3e79",
+              "title": "Communication(s) from Public_08-06-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d31188bf-0572-45d9-9f24-35de2a7b3e79",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d31188bf-0572-45d9-9f24-35de2a7b3e79"
+            },
+            {
+              "historyId": "78419a2c-d647-471d-8ccd-4135e30525d6",
+              "title": "Report from Department of Transportation dated 7-29-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=78419a2c-d647-471d-8ccd-4135e30525d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=78419a2c-d647-471d-8ccd-4135e30525d6"
+            },
+            {
+              "historyId": "01e9388e-2f2d-428e-88b0-fb13cc539263",
+              "title": "Report from City Attorney dated 7-25-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01e9388e-2f2d-428e-88b0-fb13cc539263",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01e9388e-2f2d-428e-88b0-fb13cc539263"
+            },
+            {
+              "historyId": "98ceb064-ce51-4c25-aa4b-2bd12da13073",
+              "title": "Attachment to Report dated 7-25-24 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=98ceb064-ce51-4c25-aa4b-2bd12da13073",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=98ceb064-ce51-4c25-aa4b-2bd12da13073"
+            },
+            {
+              "historyId": "d560198c-5362-4ea5-866c-db40ba0bd8f2",
+              "title": "Community Impact Statement submitted by Venice Neighborhood Council_04-03-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d560198c-5362-4ea5-866c-db40ba0bd8f2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d560198c-5362-4ea5-866c-db40ba0bd8f2"
+            },
+            {
+              "historyId": "d21733c9-78b9-4694-836f-4e420ae3a57f",
+              "title": "Council Action  dated 1-20-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d21733c9-78b9-4694-836f-4e420ae3a57f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d21733c9-78b9-4694-836f-4e420ae3a57f"
+            },
+            {
+              "historyId": "e72c7183-2253-4ff7-9a9a-a89716591048",
+              "title": "Communication(s) from Public_01-20-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e72c7183-2253-4ff7-9a9a-a89716591048",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e72c7183-2253-4ff7-9a9a-a89716591048"
+            },
+            {
+              "historyId": "321f6038-23da-4eba-9656-177053ea2afe",
+              "title": "Communication(s) from Public_01-18-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=321f6038-23da-4eba-9656-177053ea2afe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=321f6038-23da-4eba-9656-177053ea2afe"
+            },
+            {
+              "historyId": "77ec1b8a-3543-4f2d-b833-92eb0ece789f",
+              "title": "Communication(s) from Public_01-17-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=77ec1b8a-3543-4f2d-b833-92eb0ece789f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=77ec1b8a-3543-4f2d-b833-92eb0ece789f"
+            },
+            {
+              "historyId": "8d24acfc-ede7-47aa-bbfc-b0f1e02e8fc3",
+              "title": "Communication(s) from Public_01-17-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8d24acfc-ede7-47aa-bbfc-b0f1e02e8fc3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8d24acfc-ede7-47aa-bbfc-b0f1e02e8fc3"
+            },
+            {
+              "historyId": "db42164f-5c59-4dfc-8221-718c6f78a2d5",
+              "title": "Communication(s) from Public_01-17-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db42164f-5c59-4dfc-8221-718c6f78a2d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=db42164f-5c59-4dfc-8221-718c6f78a2d5"
+            },
+            {
+              "historyId": "9e5fe870-b165-481d-8343-8e3b78c4b7e6",
+              "title": "Communication(s) from Public_01-16-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e5fe870-b165-481d-8343-8e3b78c4b7e6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9e5fe870-b165-481d-8343-8e3b78c4b7e6"
+            },
+            {
+              "historyId": "ca055d51-cc12-4e45-853e-3a6731594aa8",
+              "title": "Communication(s) from Public_01-16-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca055d51-cc12-4e45-853e-3a6731594aa8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ca055d51-cc12-4e45-853e-3a6731594aa8"
+            },
+            {
+              "historyId": "c0027b54-0958-4b98-b46f-41a01abf9555",
+              "title": "Communication(s) from Public_01-15-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0027b54-0958-4b98-b46f-41a01abf9555",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c0027b54-0958-4b98-b46f-41a01abf9555"
+            },
+            {
+              "historyId": "8134ae2e-c4f7-446b-9577-9d4d15bc7595",
+              "title": "Community Impact Statement submitted by Downtown Los Angeles Neighborhood Council_11-17-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8134ae2e-c4f7-446b-9577-9d4d15bc7595",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8134ae2e-c4f7-446b-9577-9d4d15bc7595"
+            },
+            {
+              "historyId": "01cae000-63be-45f5-ac82-31e28b91ca42",
+              "title": "Transportation Committee Report_11-1-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01cae000-63be-45f5-ac82-31e28b91ca42",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01cae000-63be-45f5-ac82-31e28b91ca42"
+            },
+            {
+              "historyId": "2c447a9a-68f0-4d64-80fe-404329a26378",
+              "title": "Transportation Committee Report 11-1-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c447a9a-68f0-4d64-80fe-404329a26378",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2c447a9a-68f0-4d64-80fe-404329a26378"
+            },
+            {
+              "historyId": "950ff91a-c39e-4952-a88f-e3d29d541163",
+              "title": "Communication(s) from Public_11-01-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=950ff91a-c39e-4952-a88f-e3d29d541163",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=950ff91a-c39e-4952-a88f-e3d29d541163"
+            },
+            {
+              "historyId": "f7fb5936-ad41-4a2a-a667-dde86a1b8309",
+              "title": "Communication(s) from Public_10-31-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7fb5936-ad41-4a2a-a667-dde86a1b8309",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f7fb5936-ad41-4a2a-a667-dde86a1b8309"
+            },
+            {
+              "historyId": "df5e0271-94de-4a31-9268-a0ad66df2770",
+              "title": "Communication(s) from Public_10-29-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=df5e0271-94de-4a31-9268-a0ad66df2770",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=df5e0271-94de-4a31-9268-a0ad66df2770"
+            },
+            {
+              "historyId": "ae34566a-2a36-47f8-abc2-153c6d380120",
+              "title": "Communication(s) from Public_10-28-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae34566a-2a36-47f8-abc2-153c6d380120",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ae34566a-2a36-47f8-abc2-153c6d380120"
+            },
+            {
+              "historyId": "2bb4b5e8-e814-465c-a2ae-eb69cba6e218",
+              "title": "Communication(s) from Public_10-10-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bb4b5e8-e814-465c-a2ae-eb69cba6e218",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bb4b5e8-e814-465c-a2ae-eb69cba6e218"
+            },
+            {
+              "historyId": "6dfa5e5b-1b22-4176-b436-73dca2df324a",
+              "title": "Communication(s) from Public_10-06-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6dfa5e5b-1b22-4176-b436-73dca2df324a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6dfa5e5b-1b22-4176-b436-73dca2df324a"
+            },
+            {
+              "historyId": "d0f0619f-2403-4a91-bcc0-83c8d9021e4d",
+              "title": "Communication(s) from Public_10-05-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0f0619f-2403-4a91-bcc0-83c8d9021e4d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d0f0619f-2403-4a91-bcc0-83c8d9021e4d"
+            },
+            {
+              "historyId": "9e6909f6-d6d7-4e60-9aaa-193640261587",
+              "title": "Communication(s) from Public_10-04-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e6909f6-d6d7-4e60-9aaa-193640261587",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9e6909f6-d6d7-4e60-9aaa-193640261587"
+            },
+            {
+              "historyId": "3abe8d38-dd5a-4abb-aa88-494394b6fd95",
+              "title": "Report from Department of Transportation dated 9-29-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3abe8d38-dd5a-4abb-aa88-494394b6fd95",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3abe8d38-dd5a-4abb-aa88-494394b6fd95"
+            },
+            {
+              "historyId": "09059d60-680b-479d-9c2f-61a363cbcd6c",
+              "title": "Community Impact Statement submitted by NoHo Neighborhood Council 03-23-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=09059d60-680b-479d-9c2f-61a363cbcd6c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=09059d60-680b-479d-9c2f-61a363cbcd6c"
+            },
+            {
+              "historyId": "d3cb3af4-9aa0-4457-a765-96e7746c43d3",
+              "title": "Community Impact Statement  submitted by South Robertson Neighborhood Council  03-17-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3cb3af4-9aa0-4457-a765-96e7746c43d3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d3cb3af4-9aa0-4457-a765-96e7746c43d3"
+            },
+            {
+              "historyId": "6900a607-e627-40aa-9200-80021d9a4198",
+              "title": "Community Impact Statement submitted by South Robertson Neighborhood Council 12-28-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6900a607-e627-40aa-9200-80021d9a4198",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6900a607-e627-40aa-9200-80021d9a4198"
+            },
+            {
+              "historyId": "9f8ec5dc-e171-4493-bd61-b6cd702dd75c",
+              "title": "Community Impact Statement submitted by Mid City West Neighborhood Council 12-14-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f8ec5dc-e171-4493-bd61-b6cd702dd75c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9f8ec5dc-e171-4493-bd61-b6cd702dd75c"
+            },
+            {
+              "historyId": "56a2d4ac-8360-4fc0-9d6d-e0f1861422aa",
+              "title": "Communication(s) from Public_11-30-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=56a2d4ac-8360-4fc0-9d6d-e0f1861422aa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=56a2d4ac-8360-4fc0-9d6d-e0f1861422aa"
+            },
+            {
+              "historyId": "42ba9a4e-84c6-4f51-a022-d0846ed6434b",
+              "title": "Communication(s) from Public_09-18-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42ba9a4e-84c6-4f51-a022-d0846ed6434b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42ba9a4e-84c6-4f51-a022-d0846ed6434b"
+            },
+            {
+              "historyId": "796cc83b-de59-48a0-a472-68fd7611a7f1",
+              "title": "Council Action  dated 11-10-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=796cc83b-de59-48a0-a472-68fd7611a7f1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=796cc83b-de59-48a0-a472-68fd7611a7f1"
+            },
+            {
+              "historyId": "085b44d8-e0bb-499e-b12f-898f250c576a",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council 11-19-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=085b44d8-e0bb-499e-b12f-898f250c576a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=085b44d8-e0bb-499e-b12f-898f250c576a"
+            },
+            {
+              "historyId": "61389d95-91c2-4cd8-ade6-a2e1f62944bf",
+              "title": "Communication(s) from Public_11-08-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=61389d95-91c2-4cd8-ade6-a2e1f62944bf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=61389d95-91c2-4cd8-ade6-a2e1f62944bf"
+            },
+            {
+              "historyId": "d766bae6-c9ce-400f-9d82-cf0299802266",
+              "title": "Communication(s) from Public_11-02-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d766bae6-c9ce-400f-9d82-cf0299802266",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d766bae6-c9ce-400f-9d82-cf0299802266"
+            },
+            {
+              "historyId": "50e09cf3-170d-43f5-a2f1-164261c60cf9",
+              "title": "Transportation Committee Report 11-2-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=50e09cf3-170d-43f5-a2f1-164261c60cf9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=50e09cf3-170d-43f5-a2f1-164261c60cf9"
+            },
+            {
+              "historyId": "d29acc11-9ded-46b5-a0fc-7195a046fffe",
+              "title": "Communication(s) from Public_11-01-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d29acc11-9ded-46b5-a0fc-7195a046fffe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d29acc11-9ded-46b5-a0fc-7195a046fffe"
+            },
+            {
+              "historyId": "503cbea9-e3c9-49ca-9e29-99534ac22e39",
+              "title": "Communication(s) from Public_10-31-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=503cbea9-e3c9-49ca-9e29-99534ac22e39",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=503cbea9-e3c9-49ca-9e29-99534ac22e39"
+            },
+            {
+              "historyId": "24b26614-b8e2-4a88-b285-4fce15452e27",
+              "title": "Communication(s) from Public_10-30-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=24b26614-b8e2-4a88-b285-4fce15452e27",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=24b26614-b8e2-4a88-b285-4fce15452e27"
+            },
+            {
+              "historyId": "bef19e53-8cdd-4fce-8f2b-6334f51e1c1a",
+              "title": "Communication(s) from Public_10-29-2021",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bef19e53-8cdd-4fce-8f2b-6334f51e1c1a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bef19e53-8cdd-4fce-8f2b-6334f51e1c1a"
+            },
+            {
+              "historyId": "1a04a543-5b53-4dda-a2b5-504b0f7a2cf8",
+              "title": "Motion (Bonin - Krekorian - de Leon) dated 10-20-21.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1a04a543-5b53-4dda-a2b5-504b0f7a2cf8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1a04a543-5b53-4dda-a2b5-504b0f7a2cf8"
+            },
+            {
+              "historyId": "dc27bbcf-f457-4de6-a1cc-31970895f21b",
+              "title": "Speaker Card(s)_08-07-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc27bbcf-f457-4de6-a1cc-31970895f21b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dc27bbcf-f457-4de6-a1cc-31970895f21b"
+            },
+            {
+              "historyId": "cd9f3f8f-cd50-489b-b106-00ba55a87593",
+              "title": "Speaker Card(s)_10-08-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd9f3f8f-cd50-489b-b106-00ba55a87593",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cd9f3f8f-cd50-489b-b106-00ba55a87593"
+            },
+            {
+              "historyId": "5d27616e-cd73-495b-92fa-a00b4181448f",
+              "title": "Speaker Card(s)_11-20-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5d27616e-cd73-495b-92fa-a00b4181448f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5d27616e-cd73-495b-92fa-a00b4181448f"
+            },
+            {
+              "historyId": "ce5d85cf-10ff-47dd-aac0-717c3fa2f5fc",
+              "title": "Speaker Card(s)_11-20-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ce5d85cf-10ff-47dd-aac0-717c3fa2f5fc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ce5d85cf-10ff-47dd-aac0-717c3fa2f5fc"
+            }
+          ]
+        },
+        {
+          "item_id": "157042",
+          "item_number": "(22)",
+          "has_attachments": true,
+          "raw_text": "25-1376\nLos Angeles Department of Building and Safety report relative to a request for permit and linkage fee refund from Gaskin Construction - Refund Claim No. 176060.\nCommunity Impact Statement:\nNone submitted\nReport from Department of Building and Safety dated 10-27-25",
+          "council_file": "25-1376",
+          "title": "Los Angeles Department of Building and Safety report relative to a request for permit and linkage fee refund from Gaskin Construction - Refund Claim No. 176060.",
+          "mig": "187bf140-5a66-4282-a02f-b1fc57b22adc",
+          "attachments": [
+            {
+              "historyId": "07bb23ad-90ec-4459-85ea-c48fdbc84dee",
+              "title": "Report from Department of Building and Safety dated 10-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07bb23ad-90ec-4459-85ea-c48fdbc84dee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07bb23ad-90ec-4459-85ea-c48fdbc84dee"
+            }
+          ]
+        },
+        {
+          "item_id": "157043",
+          "item_number": "(23)",
+          "has_attachments": true,
+          "raw_text": "25-1377\nLos Angeles Department of Building and Safety report relative to a request for linkage fee refund from Ride On LA - Refund Claim No. 179291.\nCommunity Impact Statement:\nNone submitted\nReport from Department of Building and Safety dated 10-27-25",
+          "council_file": "25-1377",
+          "title": "Los Angeles Department of Building and Safety report relative to a request for linkage fee refund from Ride On LA - Refund Claim No. 179291.",
+          "mig": "dd63fe0a-35c3-456d-aae5-297a4df0cf12",
+          "attachments": [
+            {
+              "historyId": "bbde28a1-f604-40db-b143-784c547a8bbe",
+              "title": "Report from Department of Building and Safety dated 10-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bbde28a1-f604-40db-b143-784c547a8bbe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bbde28a1-f604-40db-b143-784c547a8bbe"
+            }
+          ]
+        },
+        {
+          "item_id": "157164",
+          "item_number": "(24)",
+          "has_attachments": true,
+          "raw_text": "12-1497-S4\nCity Administrative Officer report relative to authorizing the Office of Finance to execute Agreements with AllianceOne Receivables Management, Inc.; Caine and Weiner Company, Inc.; Harris & Harris, Ltd.; and Linebarger Goggan Blair & Sampson, LLP; for primary and secondary delinquent account collection services.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 24, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2026)\nReport from City Administrative Officer dated 11-19-25",
+          "council_file": "12-1497-S4",
+          "title": "City Administrative Officer report relative to authorizing the Office of Finance to execute Agreements with AllianceOne Receivables Management, Inc.; Caine and Weiner Company, Inc.; Harris & Harris, Ltd.; and Linebarger Goggan Blair & Sampson, LLP; for primary and secondary delinquent account collection services.",
+          "mig": "71f86999-b0af-4633-ac2a-ac77bd85201b",
+          "attachments": [
+            {
+              "historyId": "fbcfd973-c5a7-4cfc-a668-193779d99ec3",
+              "title": "Report from City Administrative Officer dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fbcfd973-c5a7-4cfc-a668-193779d99ec3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fbcfd973-c5a7-4cfc-a668-193779d99ec3"
+            }
+          ]
+        },
+        {
+          "item_id": "156871",
+          "item_number": "(25)",
+          "has_attachments": true,
+          "raw_text": "25-1325\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nToahiti Chong, et al. v. City of Los Angeles, et al.\n, Los Angeles Superior Court Case No. 20STCV48628. (This matter arises from a trip and fall incident on February 27, 2020, at 9570 Pico Boulevard, in Los Angeles.)\nReport from City Attorney dated 10-23-25",
+          "council_file": "25-1325",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "2b9788bb-9870-4325-bf5b-a2d000dcbaef",
+          "attachments": [
+            {
+              "historyId": "7800ab0a-263f-4490-b05b-3d886699f8cb",
+              "title": "Report from City Attorney dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7800ab0a-263f-4490-b05b-3d886699f8cb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7800ab0a-263f-4490-b05b-3d886699f8cb"
+            }
+          ]
+        },
+        {
+          "item_id": "156872",
+          "item_number": "(26)",
+          "has_attachments": true,
+          "raw_text": "25-1332\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nTatiana Bahadori v. Carol L. Guiteras, et al.\n, Los Angeles Superior Court Case No. 21STCV15897. (This matter arises from a trip and fall incident that occurred on August 1, 2019, at 8016 Dunbarton Avenue, in the City of Los Angeles.)\nReport from City Attorney dated 10-23-25",
+          "council_file": "25-1332",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "c15df204-4609-43d2-9efe-ddcce5ac680e",
+          "attachments": [
+            {
+              "historyId": "4f419d0e-4050-4304-8cab-07c6bb4a31ae",
+              "title": "Report from City Attorney dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f419d0e-4050-4304-8cab-07c6bb4a31ae",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f419d0e-4050-4304-8cab-07c6bb4a31ae"
+            }
+          ]
+        },
+        {
+          "item_id": "156873",
+          "item_number": "(27)",
+          "has_attachments": true,
+          "raw_text": "25-1333\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nPaul Alberto Sanchez v. City of Los Angeles\n, Los Angeles Superior Court Case No. 23STCV15257. (This matter arises from a June 30, 2021, incident in which the Los Angeles Police Department Bomb Squad detonated explosive material.)\nReport from City Attorney dated 10-23-25",
+          "council_file": "25-1333",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "85bbbc26-7711-4d7b-b738-80713b839ff4",
+          "attachments": [
+            {
+              "historyId": "8d4c545a-4b98-4563-b576-c267957ee730",
+              "title": "Report from City Attorney dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8d4c545a-4b98-4563-b576-c267957ee730",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8d4c545a-4b98-4563-b576-c267957ee730"
+            }
+          ]
+        },
+        {
+          "item_id": "156874",
+          "item_number": "(28)",
+          "has_attachments": true,
+          "raw_text": "25-1326\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nMizraim Morales Gonzalez v. Sebastian Salsgiver, et al.\n, Los Angeles Superior Court Case No. 22STCV16295. (This matter arises from a vehicle versus vehicle traffic collision on June 24, 2020, near Cadillac Avenue and Venice Boulevard.)\nReport from City Attorney dated 10-23-25",
+          "council_file": "25-1326",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "a0c12fd3-8ddc-4f75-84ea-34de0aff3f7f",
+          "attachments": [
+            {
+              "historyId": "7b7fcac0-f9fa-4a00-bd03-f312204238d4",
+              "title": "Report from City Attorney dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b7fcac0-f9fa-4a00-bd03-f312204238d4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7b7fcac0-f9fa-4a00-bd03-f312204238d4"
+            }
+          ]
+        },
+        {
+          "item_id": "157034",
+          "item_number": "(29)",
+          "has_attachments": true,
+          "raw_text": "25-1364\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nRoy Virkler v. City of Los Angeles, et al.\n, Los Angeles Superior Court Case No. 22STCV40591. (This matter arises from a fall off of a bicycle on January 5, 2022, on the street near 4228 West 59th Place, in Los Angeles.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1364",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "fd98432c-37a8-4ffe-8c1b-1ea95f6515fe",
+          "attachments": [
+            {
+              "historyId": "0c1f47e2-2711-400a-9a03-46d6b1be4518",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c1f47e2-2711-400a-9a03-46d6b1be4518",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c1f47e2-2711-400a-9a03-46d6b1be4518"
+            }
+          ]
+        },
+        {
+          "item_id": "157035",
+          "item_number": "(30)",
+          "has_attachments": true,
+          "raw_text": "25-1368\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nJose Hernandez v. City of Los Angeles\n, Los Angeles Superior Court Case No. 20STCV38474. (This matter arises from an October 31, 2019, incident involving a trip and fall on 8th Street at its intersection with South Kenmore Avenue, in the City of Los Angeles.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1368",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "9cfbf0c0-7170-4070-8f40-385e064b4dfb",
+          "attachments": [
+            {
+              "historyId": "9d061147-d85f-4d44-8ee6-72bc3784d008",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d061147-d85f-4d44-8ee6-72bc3784d008",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d061147-d85f-4d44-8ee6-72bc3784d008"
+            }
+          ]
+        },
+        {
+          "item_id": "157036",
+          "item_number": "(31)",
+          "has_attachments": true,
+          "raw_text": "25-1369\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nStephen Blaha v. City of Los Angeles, et al.\n, Los Angeles Superior Court Case No. 23STCV13687. (This matter arises out of a fall incident on June 19, 2022, at 4730 Crystal Springs Drive, in Los Angeles.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1369",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "b6f935af-e20d-46be-ba5e-77ba026e3e36",
+          "attachments": [
+            {
+              "historyId": "dd3ccd5c-aad5-47f1-9a7c-560a43445bd2",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd3ccd5c-aad5-47f1-9a7c-560a43445bd2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dd3ccd5c-aad5-47f1-9a7c-560a43445bd2"
+            }
+          ]
+        },
+        {
+          "item_id": "157037",
+          "item_number": "(32)",
+          "has_attachments": true,
+          "raw_text": "25-1371\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nLos Angeles Police Protective League v. Matt Szabo, City Administrative Officer for the City of Los Angeles, et al.\n, Los Angeles Superior Court Case No. 23STCP04135. (This matter arises from claims against the City relating to delayed payments made to Memorandum of Understanding No. 24, Los Angeles Police Department sworn rank and file employees.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1371",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "753140ef-126a-4806-b5f0-9739b14d7130",
+          "attachments": [
+            {
+              "historyId": "5736822d-7c4c-44a5-97dc-477d68e0bd0c",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5736822d-7c4c-44a5-97dc-477d68e0bd0c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5736822d-7c4c-44a5-97dc-477d68e0bd0c"
+            }
+          ]
+        },
+        {
+          "item_id": "157038",
+          "item_number": "(33)",
+          "has_attachments": true,
+          "raw_text": "25-1367\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nHeleodoro Lara v. City of Los Angeles\n, Los Angeles Superior Court Case No. 20STCV32870. (This matter arises from a vehicle collision that occurred on September 21, 2019, between a Los Angeles Police Department police officer and Plaintiff.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1367",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "ea445a05-21d2-47cf-a72d-e2a41a264f62",
+          "attachments": [
+            {
+              "historyId": "8f97588b-6f29-4cf1-8e92-ec58248f12d1",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f97588b-6f29-4cf1-8e92-ec58248f12d1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8f97588b-6f29-4cf1-8e92-ec58248f12d1"
+            }
+          ]
+        },
+        {
+          "item_id": "157039",
+          "item_number": "(34)",
+          "has_attachments": true,
+          "raw_text": "25-1366\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nTRISTAR Risk Management v. City of Los Angeles\n, Los Angeles Superior Court Case No. 23STCV22639. (The litigation arises from a contract that TRISTAR Risk Management had with the City to provide workers’ compensation administration services for the City’s sworn police officers, Contract No. C-121812.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1366",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "f625462b-f8f2-482e-bbea-0d0d01cb59a9",
+          "attachments": [
+            {
+              "historyId": "20ef767d-5626-4b3a-bc10-9d24d81d04d8",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20ef767d-5626-4b3a-bc10-9d24d81d04d8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20ef767d-5626-4b3a-bc10-9d24d81d04d8"
+            }
+          ]
+        },
+        {
+          "item_id": "157040",
+          "item_number": "(35)",
+          "has_attachments": true,
+          "raw_text": "25-1365\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled\nSelene Castellanos v. City of Los Angeles\n, Los Angeles Superior Court Case No. 21STCV15590. (This matter arises from a trip and fall incident on October 19, 2020, near Bellevue Avenue and Burlington Avenue, in Los Angeles, California.)\nReport from City Attorney dated 11-06-25",
+          "council_file": "25-1365",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case entitled",
+          "mig": "a2dc0ddc-337f-42d0-8b2c-345fc4a1b727",
+          "attachments": [
+            {
+              "historyId": "3ed5a99d-2d20-4b2d-923d-1a75bb9406f9",
+              "title": "Report from City Attorney dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ed5a99d-2d20-4b2d-923d-1a75bb9406f9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ed5a99d-2d20-4b2d-923d-1a75bb9406f9"
+            }
+          ]
+        },
+        {
+          "item_id": "157041",
+          "item_number": "(36)",
+          "has_attachments": true,
+          "raw_text": "25-1112\nThe Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(2), to confer with its legal counsel relative to the case entitled\nTerry Manor Senior Housing, L.P.; Terry Manor Preservation, L.P.\n(This case arises from a documentary transfer tax payment.)\nReport from City Attorney dated 9-24-25",
+          "council_file": "25-1112",
+          "title": "The Committee shall recess to Closed Session, pursuant to Government Code Section 54956.9(d)(2), to confer with its legal counsel relative to the case entitled",
+          "mig": "1c2437a5-c395-457a-83b1-b8972130efbb",
+          "attachments": [
+            {
+              "historyId": "cdd2e467-4e5b-42c1-a665-f2a18868a111",
+              "title": "Report from City Attorney dated 9-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cdd2e467-4e5b-42c1-a665-f2a18868a111",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cdd2e467-4e5b-42c1-a665-f2a18868a111"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 36,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-02T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=m4r_ivM5S_Q"
+}
