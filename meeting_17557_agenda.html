@@ -1,0 +1,1634 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="publicMeetingPortalHtml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+        sessionStorage.setItem("csrfToken", 'brzgsFhrkPzooTQ5RxGNK4fq4j_7x_Q8pd-dKCyK2CHW5sJEAvSi3sPGtJXK0M2ANE7npYDdKyNnVIx4T35_vZyk_2U1:bO75m5qSdepmsJOI-jkux91bQUPjU8SXfVthHFl0GUq-8iwn7GKUFQneg38GGZFbfMDyftQmxwgt43bxQuoIxIJ9N9E1');
+        const _securityfeature = JSON.parse('{"csrf":false,"sensitiveData":false,"accusoftViewer":false,"xss":false,"pii":false}');
+    </script>
+    <title>Meeting</title>
+    <link href="/bundles/publichtml?v=L2IBChmi6Z2RCk4DGhWhmujtBWM3WPx1ucEpJbspoZc1" rel="stylesheet"/>
+
+        <script src="/Content/portal/Scripts/jquery-1.10.2.js"></script>
+    <script src="/bundles/om/scripts/csrfinjector?v=T2TXVQjRhESpCxXV7OWoDkto68kMqwTQf8J1H-IkfMI1"></script>
+
+    <script src="/Content/portal/Scripts/bootstrap.min.js"></script>
+    <script src="/Content/portal/Scripts/fixedsticky.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="/Content/plugins/PullToRefresh/ptr.js"></script>
+    <link rel="icon" type="image/svg" href="/favicon.svg" sizes="32x32">
+    <style>
+        .section-item-attachments-insert {
+            padding-left: 5px !important;
+            margin-left: 0px;
+            cursor: pointer;
+        }
+        .item-cell {
+            padding-left: 0px;
+            cursor: pointer;
+        }
+    </style>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+            }
+        </script>
+
+</head>
+<body class="publicMeetingPortalBody">
+<div class="modal fade" id="ItemSubscriptionModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body padding-15">
+                <div>
+                    <h3>Subscribe</h3>
+                </div>
+                <br />
+                <label for="txtEmailSubscribeItem">Enter your email address below to receive updates related to this item</label>
+                    <br />
+                    <span id="lblInvalidEmail" class="invalid-email-subscription" style="color: red">Invalid E-mail</span>
+                <input type="email" id="txtEmailSubscribeItem" class="form-control email-subscription" placeholder="Enter email address" required autocomplete="email" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-pure btnCancelItemSubscription" id="btnCancelItemSubscription" data-dismiss="modal" title="Cancel">Cancel</button>
+                <button type="button" id="btnSubscribeItem" class="btn btn-primary" title="Subscribe">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ItemSubscriptionSuccessModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body padding-15">
+                <div>
+                    <h3>Success</h3>
+                </div>
+                <br />
+                <p>You will now receive updates related to this item</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" title="Close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="AllContentContainer">
+        <div class="CenteredContainer">
+            <div class="VideoContentContainer" style="height: auto; overflow: hidden;">
+                <div class="VideoContent">
+                    <div id="ytplayer" aria-label="Video Player" title="Video Player"></div>
+                </div>
+                <div class="VideoContent">
+                    <div id="HideYouTubePlayer">
+                        <button onclick="hideYouTubeVideo();" class="ytp-play-button ytp-button ytp-hidevideo" aria-keyshortcuts="cv" data-title-no-tooltip="Hide Video" aria-label="Close Video" title="Hide Video">Hide Video</button>
+                    </div>
+                    <div id="ShowYouTubePlayer" aria-label="Show Video Player" title="Show Video Player">
+                        <button onclick="openYouTubeVideo();" class="showYouTubePlayer" data-title-no-tooltip="Show Video" aria-label="Show Video" title="Show Video">Show Video</button>
+                    </div>
+                </div>
+            </div>
+            <div class="MeetingContentContainer">
+                    <div class="GoogleTranslate">
+                        <div id="GoogleTranslate">
+                            <div id="google_translate_element" class="google-translator"></div>
+                        </div>
+                    </div>
+
+                <div id="meetingSection">
+                    <!--Uncomment these and it will allow you to see the width and height of the window while resizing so you can handle the different resolutions accordingly
+                    <div style="float: left; display: inline-block; position: absolute;"><input id="screenheight" /></div>
+                    <div style="float: left; display: inline-block; position: absolute;"><input style="text-align: right; opacity: .5;" id="screenwidth" /></div>-->
+                    <div id="MeetingContents" role="main"><html lang="en" dir="ltr"><head><meta charset="UTF-8"><title>Civil Rights, Equity, Immigration, Aging, and Disability Committee - 12/5/2025 10:00:00 PM</title><style>
+/*[data-sectionid] { margin-bottom: 0em; margin-right: .01px; }      .section-with-footer { margin-bottom: 2em; }   #meetingSection { box-sizing:inherit !important }      .attachment-cell {width: 1px; vertical-align:top; white-space: nowrap;}       .attachment-icon-holder {width: 0px; position: relative; left: -24px; top: 3px;}      .item-table {width: 100%; margin-left: 0em;}      .number-cell { width: 25px; vertical-align:top; white-space: nowrap; padding-right:0px; padding-left: 0px !important; }       .number-cell-section { vertical-align:top; white-space: nowrap; position: relative; display: block; }      .number-cell p {display: block;}       .agenda-item p {display: block;}*/   /* The rule on the next line selects all tables in the item column of a section an sets them to 100% width, as they tend to have widths set most often. */      /* div[data-sectionid] td:last-child table {width: 100% !important;} */      /* The rule on the next line sets the section title text to 100% width, as it sometimes has a hard-coded width on it as well. */      div[data-sectionid] td:last-child>table>tbody>tr>td {width: 100% !important;}      /* The rule on the next line exchange the title's left margin for left padding, which should keep it from forcing the margin over. */      /*div[data-sectionid] td:last-child>table>tbody>tr>td>div {margin-left: 0px !important; padding-left: 30px;}   .hideMe { display: none !important; }   .number-cell-section + td { display: block; }*/      #meetingSection { box-sizing:inherit !important }   .section-with-items {margin-bottom: 10pt;}      .section-with-footer {margin-bottom: 10pt;}      .attachment-cell {width: 0px; vertical-align:top; white-space: nowrap;}      .attachment-icon-holder {width: 0px; position: relative; left: -24px; top: 3px;}      .item-table {width: 100%;}   /*.item-table>tbody>tr>td {display: flex; flex-direction: column; justify-content: left;}*/      .number-cell {width:50px; vertical-align:top; white-space: nowrap; padding-right:5px;}      .number-center-cell {display:block; text-align: center;}      .center-item-number {display:flex; flex-direction: column; justify-content: center;}      .number-cell-section {width:33px; vertical-align:top; white-space: nowrap; padding-left: 0px; padding-right:5px;}      .number-cell p {display: inline;}      .agenda-item p {display: block;}   .sectionItemTitle {padding-bottm: 10px;}   li {margin-bottom: 10pt !important;}   .section-row>td>p { margin-bottom: 10pt; }   .MeetingContentContainer {max-width: 70% !important;}   @media (max-width: 1320px) {	.MeetingContentContainer {max-width: 100% !important;}}   #MeetingContents {max-width: 100% !important;}
+
+@font-face { font-family: Philosopher ; src: url('https://lacity.primegov.com/Content/css/customFonts/Philosopher.ttf'); } 
+@font-face { font-family: Philosopher ; font-style: italic; src: url('https://lacity.primegov.com/Content/css/customFonts/Philosopher-Italic.ttf'); } 
+@font-face { font-family: Philosopher ; font-style: italic; font-weight:bold; src: url('https://lacity.primegov.com/Content/css/customFonts/Philosopher-BoldItalic.ttf'); } 
+@font-face { font-family: Philosopher ; font-weight:bold; src: url('https://lacity.primegov.com/Content/css/customFonts/Philosopher-Bold.ttf'); } 
+@font-face { font-family: Lucida Handwriting ; src: url('https://lacity.primegov.com/Content/css/customFonts/Lucida-Handwriting.ttf'); } 
+@font-face { font-family: Lucida Handwriting ; font-style: italic; src: url('https://lacity.primegov.com/Content/css/customFonts/Lucida-Handwriting-Italic.ttf'); } 
+@font-face { font-family: Helvetica Narrow ; src: url('https://lacity.primegov.com/Content/css/customFonts/Helvetica-Narrow.ttf'); } 
+@font-face { font-family: Lato ; src: url('https://lacity.primegov.com/Content/css/customFonts/Lato.ttf'); } 
+
+</style></head><body><p style="text-align: center; font-family: arial; font-size: 12pt; font-weight: bold"> </p>
+
+<p style="text-align: center; margin-bottom: 25px; font-family: Arial; text-transform: uppercase; font-size: 12pt; font-weight: bold"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">Civil Rights, Equity, Immigration, Aging, and Disability Committee</span></span></p>
+
+<p style="text-align: center; font-family: arial; text-transform: uppercase; font-size: 12pt; font-weight: bold"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">Friday, December 5, 2025 - 2:00 PM</span></span></p>
+
+<p style="text-align: center; font-family: arial; font-size: 12pt; font-weight: bold; margin-bottom: 12pt !important"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt"><span style="display: block">JOHN FERRARO COUNCIL CHAMBER<br>
+ROOM 340, CITY HALL </span> <span style="display: block"> 200 NORTH SPRING STREET, LOS ANGELES, CA 90012 </span></span></span></p>
+
+<table style="width: 100%; font-weight: bold">
+	<tbody>
+		<tr>
+			<td style="text-align: right; width: 40%"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">MEMBERS:</span></span></td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">COUNCILMEMBER HUGO SOTO-MARTÍNEZ, CHAIR</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; width: 40%"> </td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">COUNCILMEMBER ADRIN NAZARIAN</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; width: 40%"> </td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">COUNCILMEMBER YSABEL JURADO</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; width: 40%"> </td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">COUNCILMEMBER MONICA RODRIGUEZ</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; width: 40%"> </td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 12pt">COUNCILMEMBER IMELDA PADILLA</span></span></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; width: 40%"> </td>
+			<td style="width: 7px"> </td>
+			<td style="width: 792px; text-align: left"> </td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center; font-size: 12pt; font-weight: bold; margin-bottom: 12pt !important"><span style="font-family:Arial,Helvetica,sans-serif;"><b>(Jason Lopez – Legislative Assistant – (213) 925-2208 or <a><span class="__cf_email__" data-cfemail="9ff5feecf0f1b1f3f0effae5dff3fefcf6ebe6b1f0edf8">[email&#160;protected]</span></a>)</b></span></p>
+
+<p style="font-size: 12pt; margin-bottom: 12pt !important; text-align: center"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size: 10pt">Submit written comment at <a href="http://LACouncilComment.com">LACouncilComment.com </a></span></span></p>
+
+<p style="text-align: justify; font-size: 12pt; margin-bottom: 12pt !important"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:10pt;">The audio for Committee meetings is broadcast live on the internet at <a href="http://clerk.lacity.gov/calendar">https://clerk.lacity.gov/calendar</a>. <br>
+<br>
+The Committee will take public comment from members of the public in-person only; there will be no public comment by teleconference. Additional information regarding Committee procedures provided at the end of this agenda.<br>
+<br>
+Spanish language interpretation is available at all City Council and Committee meetings.<br>
+<br>
+<b>SE OFRECE SERVICIO DE TRADUCCIÓN AL ESPAÑOL EN TODAS LAS REUNIONES DEL CONSEJO Y COMITÉ MUNICIPAL</b>.<br>
+<br>
+For interpretation services in additional languages and Sign Language Interpreters, at no cost, please contact <a href="/cdn-cgi/l/email-protection#4d2e21283f2663242339283f3d3f28392c392422230d212c2e24393463223f2a" target="_blank">clerk.interpretation@lacity.<wbr>org</a> or call (213) 978-1133 and provide the language desired, specific meeting, meeting date, and the number of people in the group.<br>
+<br>
+All requests should be submitted with as much advance notice as possible, preferably two business days prior to the meeting you wish to attend for additional language interpretation and five business days for Sign Language Interpretation. We will do our best to accommodate requests with shorter notice, but securing last-minute interpreters or captioners may not always be feasible.</span></span></p>
+<div><table style='width:100%;'><tr><td style='padding-left:0em;'><div class='' data-sectionid='358621'><table width='100%'><tr class='section-row'><td colspan='2'><p style="width: 100%; text-align: center; text-decoration: underline; font-weight: bold; font-family: arial; font-size: 12pt;">MULTIPLE AGENDA ITEM COMMENT</p>
+</td></tr><tr><td colspan='2'></td></tr></table></div></td></tr></table><table style='width:100%;'><tr><td style='padding-left:0em;'><div class='' data-sectionid='358622'><table width='100%'><tr class='section-row'><td colspan='2'><p style="width: 100%; text-align: center; text-decoration: underline; font-weight: bold; font-family: arial; font-size: 12pt;">GENERAL PUBLIC COMMENT</p>
+</td></tr><tr><td colspan='2'></td></tr></table></div></td></tr></table><table style='width:100%;'><tr><td style='padding-left:0em;'><div class='section-with-items' data-sectionid='358623'><table width='100%'><tr class='section-row'><td colspan='2'><p style="width: 100%; text-align: left; text-decoration: underline; font-weight: bold; font-family: arial; font-size: 12pt;">ITEM(S)</p>
+</td></tr><tr><td colspan='2'><div style='margin-left:0em;' class='meeting-item' data-itemid='157168' data-hasattachments='True' data-mig="23493a09-17d1-4bcc-bf98-d2169fd4323f"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(1)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157168'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">25-1302</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">Department of Aging report relative to the acceptance of Medicare Improvement for Patients and Providers Acts (MIPPA) grant funds from the California Department of Aging (CDA), as part of the Memorandum of Understanding No. AAA-2425-25 with the CDA; approval of the MI-2425-25 Budget; and, authority to negotiate and execute Agreements with the Center for Health Care Rights for MIPPA-related services. <strong>(This item is referred to the Civil Rights, Equity, Immigration, Aging, and Disability Committee and Budget and Finance Committee.)</strong></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+   
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157168">
+                        <div id="ConfidentialDocMessage_157168" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from Department of Aging dated 11-04-25 - New Window" href="/viewer/preview?id=0&type=8&uid=63d37c67-e410-4d83-a4c4-38bfd5e79285" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=63d37c67-e410-4d83-a4c4-38bfd5e79285" title="Download Report from Department of Aging dated 11-04-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Department of Aging dated 11-04-25</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157169' data-hasattachments='True' data-mig="b01ee4af-241f-46a2-bab1-77649bead02e"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(2)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157169'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">25-0724 </td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">Department of Aging report relative to the acceptance of additional grant funds from the California Department of Aging under Memorandum of Understanding&nbsp;No. AAA-2425-25, approval of the Area Plan Budget amendment, and authority to negotiate and execute amendments to Agreements for Older Americans Act related services. <strong>(This item is referred to the Civil Rights, Equity, Immigration, Aging and Disability Committee and Budget and Finance Committee.)</strong></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+   
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157169">
+                        <div id="ConfidentialDocMessage_157169" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from Department of Aging dated 6-26-25 - New Window" href="/viewer/preview?id=0&type=8&uid=2e6b312a-5e88-41c8-835d-69901d50fbc2" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e6b312a-5e88-41c8-835d-69901d50fbc2" title="Download Report from Department of Aging dated 6-26-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Department of Aging dated 6-26-25</a>
+                    </div><div class="attachment-holder ">
+                        <a target="_blank" href="/viewer/preview?id=0&type=8&uid=1acf6a34-a5a3-426b-8d6b-ca6b99705665" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="View Council Action - Mayor Concurrence dated 7-03-25 - New Window">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>&nbsp;&nbsp;
+                        <a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=1acf6a34-a5a3-426b-8d6b-ca6b99705665" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="Download Council Action - Mayor Concurrence dated 7-03-25">
+                            <span class="glyphicon glyphicon-cloud-download"></span>
+                            &nbsp;&nbsp;
+                            Council Action - Mayor Concurrence dated 7-03-25
+                        </a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Department of Aging dated 11-04-25 - New Window" href="/viewer/preview?id=0&type=8&uid=22d9c1f0-c2cb-4a23-be4a-278e4df958df" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=22d9c1f0-c2cb-4a23-be4a-278e4df958df" title="Download Report from Department of Aging dated 11-04-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Department of Aging dated 11-04-25</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157170' data-hasattachments='True' data-mig="5bb7e17e-248d-4aa0-a4d0-559a888c37eb"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(3)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157170'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">24-0500-S3</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">City Administrative Officer report relative to&nbsp;a Contract with ICF Jones &amp; Stokes, Inc. for Section 106 Historic Preservation Services.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+ 
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Financial Policies Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157170">
+                        <div id="ConfidentialDocMessage_157170" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from City Administrative Officer dated 11-07-25 - New Window" href="/viewer/preview?id=0&type=8&uid=92bf38cd-922f-4c12-ab99-a5bbe4ca50bc" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=92bf38cd-922f-4c12-ab99-a5bbe4ca50bc" title="Download Report from City Administrative Officer dated 11-07-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from City Administrative Officer dated 11-07-25</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_pc_09-19-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=6f6f4bf0-a39f-40a7-878c-cdb331942f04" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f6f4bf0-a39f-40a7-878c-cdb331942f04" title="Download Communication(s) from Public_pc_09-19-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_pc_09-19-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_06-02-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=e9b055a6-6085-424c-ac78-cb119de38042" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9b055a6-6085-424c-ac78-cb119de38042" title="Download Communication(s) from Public_06-02-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_06-02-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-28-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=cd22364d-b559-4cee-8ebd-bb28f375dd8d" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd22364d-b559-4cee-8ebd-bb28f375dd8d" title="Download Communication(s) from Public_05-28-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-28-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-27-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=a38e8f6e-358a-496d-92b6-01a3d3c2e186" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=a38e8f6e-358a-496d-92b6-01a3d3c2e186" title="Download Communication(s) from Public_05-27-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-27-2025</a>
+                    </div><div class="attachment-holder ">
+                        <a target="_blank" href="/viewer/preview?id=0&type=8&uid=418b75fa-c74b-42f9-b187-849d46d09eeb" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="View Council Action - Mayor Concurrence dated 5-21-25 - New Window">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>&nbsp;&nbsp;
+                        <a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=418b75fa-c74b-42f9-b187-849d46d09eeb" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="Download Council Action - Mayor Concurrence dated 5-21-25">
+                            <span class="glyphicon glyphicon-cloud-download"></span>
+                            &nbsp;&nbsp;
+                            Council Action - Mayor Concurrence dated 5-21-25
+                        </a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-25-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=75e225df-47e8-4096-9edd-8f31b1b76ffb" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=75e225df-47e8-4096-9edd-8f31b1b76ffb" title="Download Communication(s) from Public_05-25-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-25-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-23-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=ca003696-5fea-41cc-bcd1-6db43963bb43" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca003696-5fea-41cc-bcd1-6db43963bb43" title="Download Communication(s) from Public_05-23-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-23-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-22-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=7918a05a-f783-4dba-b830-a8be347b4dfc" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=7918a05a-f783-4dba-b830-a8be347b4dfc" title="Download Communication(s) from Public_05-22-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-22-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-21-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=68991004-7861-46fb-b88f-5a4b6e4d04d3" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=68991004-7861-46fb-b88f-5a4b6e4d04d3" title="Download Communication(s) from Public_05-21-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-21-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-21-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=e90e86fa-2a2e-4d4d-a2fa-673ec39a8d2a" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=e90e86fa-2a2e-4d4d-a2fa-673ec39a8d2a" title="Download Communication(s) from Public_05-21-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-21-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-21-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=3742d40b-c566-45d1-82c4-04d93af3d32e" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=3742d40b-c566-45d1-82c4-04d93af3d32e" title="Download Communication(s) from Public_05-21-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-21-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Amending Motion 14A (Soto-Martinez - Padilla) dated 5-20-25 - New Window" href="/viewer/preview?id=0&type=8&uid=426540e3-7c29-43d5-9d83-f9aff33e6c5a" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=426540e3-7c29-43d5-9d83-f9aff33e6c5a" title="Download Amending Motion 14A (Soto-Martinez - Padilla) dated 5-20-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Amending Motion 14A (Soto-Martinez - Padilla) dated 5-20-25</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_5-2-25 - New Window" href="/viewer/preview?id=0&type=8&uid=fd6eebae-ef7d-4f9a-9da7-6f4fd506866c" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd6eebae-ef7d-4f9a-9da7-6f4fd506866c" title="Download Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_5-2-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Civil Rights, Equity, Immigration, Aging, and Disability Committee_5-2-25</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-20-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=7cec5bc3-6c78-4f54-9cf2-9e02af0f0803" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=7cec5bc3-6c78-4f54-9cf2-9e02af0f0803" title="Download Communication(s) from Public_05-20-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-20-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-20-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=e1eb90dc-4285-465f-90af-3af01f774d94" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1eb90dc-4285-465f-90af-3af01f774d94" title="Download Communication(s) from Public_05-20-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-20-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-20-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=415dad9c-8a21-4bd4-8ccf-01d69f9f0c85" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=415dad9c-8a21-4bd4-8ccf-01d69f9f0c85" title="Download Communication(s) from Public_05-20-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-20-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-19-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=fea86557-33ec-41aa-86ef-9f52ffd1b350" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=fea86557-33ec-41aa-86ef-9f52ffd1b350" title="Download Communication(s) from Public_05-19-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-19-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-19-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=dc64ee17-75ee-47bb-8c7c-b5e6a16031b6" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc64ee17-75ee-47bb-8c7c-b5e6a16031b6" title="Download Communication(s) from Public_05-19-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-19-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-18-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=f2073f49-9223-4cd5-84fd-2347db6d61bc" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2073f49-9223-4cd5-84fd-2347db6d61bc" title="Download Communication(s) from Public_05-18-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-18-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-17-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=de2bc93b-614b-4c2b-aad2-d88da84f7195" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=de2bc93b-614b-4c2b-aad2-d88da84f7195" title="Download Communication(s) from Public_05-17-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-17-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-17-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=d9841ec9-dcc5-4df2-b6e5-7ae944bf449e" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=d9841ec9-dcc5-4df2-b6e5-7ae944bf449e" title="Download Communication(s) from Public_05-17-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-17-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-16-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=d520fecc-f94c-43fd-99df-eca7052a34c6" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=d520fecc-f94c-43fd-99df-eca7052a34c6" title="Download Communication(s) from Public_05-16-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-16-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-15-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=ab0eb6ef-1dd1-47b6-99ca-3f2083a74aff" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=ab0eb6ef-1dd1-47b6-99ca-3f2083a74aff" title="Download Communication(s) from Public_05-15-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-15-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-15-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=3c2a06a9-f8d7-4157-9ba6-a6786ae198e5" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c2a06a9-f8d7-4157-9ba6-a6786ae198e5" title="Download Communication(s) from Public_05-15-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-15-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-14-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=d242c234-fa53-4284-aeb4-831be661ce58" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=d242c234-fa53-4284-aeb4-831be661ce58" title="Download Communication(s) from Public_05-14-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-14-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-14-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=f3334cf3-5921-4c47-983f-1a1a0570e72a" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3334cf3-5921-4c47-983f-1a1a0570e72a" title="Download Communication(s) from Public_05-14-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-14-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Communication(s) from Public_05-02-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=3577640a-8f74-4927-acce-4a0d93205ed7" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=3577640a-8f74-4927-acce-4a0d93205ed7" title="Download Communication(s) from Public_05-02-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Communication(s) from Public_05-02-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Community Investment for Families Department dated 4-28-25 - New Window" href="/viewer/preview?id=0&type=8&uid=13cc2754-0cfd-4137-adb9-24b109d1c09f" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=13cc2754-0cfd-4137-adb9-24b109d1c09f" title="Download Report from Community Investment for Families Department dated 4-28-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Community Investment for Families Department dated 4-28-25</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157171' data-hasattachments='True' data-mig="718c932f-dfe8-475e-aa12-b5aa3a938566"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(4)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157171'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">23-0568-S1</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">City Administrative Officer report relative to a contract with the Young Men&rsquo;s Christian Association of Metropolitan Los Angeles; amending the contract with Citibank, N.A.; and executing a Memorandum of Agreement with the Los Angeles County and Los Angeles Unified School District for the OpportunityLA Program.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+ 
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Financial Policies Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157171">
+                        <div id="ConfidentialDocMessage_157171" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from City Adminstrative Officer dated 10-22-25 - New Window" href="/viewer/preview?id=0&type=8&uid=76c08dd9-75c1-4d99-9eab-05ee46c65ba9" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=76c08dd9-75c1-4d99-9eab-05ee46c65ba9" title="Download Report from City Adminstrative Officer dated 10-22-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from City Adminstrative Officer dated 10-22-25</a>
+                    </div><div class="attachment-holder ">
+                        <a target="_blank" href="/viewer/preview?id=0&type=8&uid=7b5cf79d-99db-465e-96f9-657705360a5a" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="View Council Action - Mayor Concurrence dated 7-1-2024 - New Window">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>&nbsp;&nbsp;
+                        <a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b5cf79d-99db-465e-96f9-657705360a5a" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="Download Council Action - Mayor Concurrence dated 7-1-2024">
+                            <span class="glyphicon glyphicon-cloud-download"></span>
+                            &nbsp;&nbsp;
+                            Council Action - Mayor Concurrence dated 7-1-2024
+                        </a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_6-7-24 - New Window" href="/viewer/preview?id=0&type=8&uid=32934299-282f-4d1f-af37-5cbe8b91e02f" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=32934299-282f-4d1f-af37-5cbe8b91e02f" title="Download Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_6-7-24" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_6-7-24</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Community Investment for Families Department dated 6-03-24 - New Window" href="/viewer/preview?id=0&type=8&uid=d6d0d770-c08e-4a5b-82df-4a0026295386" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6d0d770-c08e-4a5b-82df-4a0026295386" title="Download Report from Community Investment for Families Department dated 6-03-24" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Community Investment for Families Department dated 6-03-24</a>
+                    </div><div class="attachment-holder ">
+                        <a target="_blank" href="/viewer/preview?id=0&type=8&uid=ae780cae-21d4-459f-b005-bd7caf79f752" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="View Council Action - Mayor Concurrence dated 2-22-2024 - New Window">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>&nbsp;&nbsp;
+                        <a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae780cae-21d4-459f-b005-bd7caf79f752" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;" title="Download Council Action - Mayor Concurrence dated 2-22-2024">
+                            <span class="glyphicon glyphicon-cloud-download"></span>
+                            &nbsp;&nbsp;
+                            Council Action - Mayor Concurrence dated 2-22-2024
+                        </a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_2-2-24 - New Window" href="/viewer/preview?id=0&type=8&uid=4a615e0e-2198-44b5-afb2-9d9de41744ac" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a615e0e-2198-44b5-afb2-9d9de41744ac" title="Download Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_2-2-24" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Civil Rights, Equity, Immigration, Aging and Disability Committee_2-2-24</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from City Administrative Officer dated 1-19-24 - New Window" href="/viewer/preview?id=0&type=8&uid=9d0b1662-ed24-4922-9263-9cc77a0a0c9f" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d0b1662-ed24-4922-9263-9cc77a0a0c9f" title="Download Report from City Administrative Officer dated 1-19-24" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from City Administrative Officer dated 1-19-24</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Report from Community Investment for Families Department dated 11-27-23.pdf - New Window" href="/viewer/preview?id=0&type=8&uid=f2ab62b6-9b2a-4341-91e5-f5d5939cc5e8" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2ab62b6-9b2a-4341-91e5-f5d5939cc5e8" title="Download Report from Community Investment for Families Department dated 11-27-23.pdf" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Community Investment for Families Department dated 11-27-23.pdf</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Speaker Card(s)_02-02-2024 - New Window" href="/viewer/preview?id=0&type=8&uid=8d1a3f02-0401-4f9b-b5f7-a26a97c0cade" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=8d1a3f02-0401-4f9b-b5f7-a26a97c0cade" title="Download Speaker Card(s)_02-02-2024" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Speaker Card(s)_02-02-2024</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Speaker Card(s)_06-07-2024 - New Window" href="/viewer/preview?id=0&type=8&uid=49ffc390-2bf0-4939-96a2-2f85d3abcdbc" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=49ffc390-2bf0-4939-96a2-2f85d3abcdbc" title="Download Speaker Card(s)_06-07-2024" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Speaker Card(s)_06-07-2024</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Speaker Card(s)_06-21-2024 - New Window" href="/viewer/preview?id=0&type=8&uid=d6173528-0dae-47dd-8e21-197431a60177" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6173528-0dae-47dd-8e21-197431a60177" title="Download Speaker Card(s)_06-21-2024" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Speaker Card(s)_06-21-2024</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157172' data-hasattachments='True' data-mig="cfaba21e-ff47-4a61-aa1c-a0332aa0a866"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(5)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157172'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">25-1395</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">City Administrative Officer report relative to accepting funds for the Child Passenger Safety Program and funds for the Pedestrian and Bicycle Safety Program from the State of California Office of Traffic Safety.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+ 
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Financial Policies Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157172">
+                        <div id="ConfidentialDocMessage_157172" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from City Administrative Officer dated 10-28-25 - New Window" href="/viewer/preview?id=0&type=8&uid=3fa5b21c-d377-417a-8fe9-c9540e5324be" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=3fa5b21c-d377-417a-8fe9-c9540e5324be" title="Download Report from City Administrative Officer dated 10-28-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from City Administrative Officer dated 10-28-25</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157173' data-hasattachments='True' data-mig="6a7f4d9f-4c2d-4ff7-8e2a-a651818d611d"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(6)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157173'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">25-0600-S76</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">Department on Disability report relative to the resources needed, including staffing and other expenses, to comply with the Americans with Disabilities Act (ADA) regulations and requirements for large scale events, including the 2026 World Cup and the 2028 Olympic and Paralympic Games, and whether these expenses could be reimbursed by the LA2028 Agreement&nbsp;in response to the Fiscal Year 2025-26 Budget Recommendation.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+   
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157173">
+                        <div id="ConfidentialDocMessage_157173" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Report from Department on Disability dated 11-21-25 - New Window" href="/viewer/preview?id=0&type=8&uid=b755aaec-a581-4832-9cdb-195e34cf16c5" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=b755aaec-a581-4832-9cdb-195e34cf16c5" title="Download Report from Department on Disability dated 11-21-25" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Report from Department on Disability dated 11-21-25</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025 - New Window" href="/viewer/preview?id=0&type=8&uid=54db1e2e-01d8-42f7-b6f9-6cc3de94ab2d" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=54db1e2e-01d8-42f7-b6f9-6cc3de94ab2d" title="Download Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025</a>
+                    </div><div class="attachment-holder">
+                        <a target="_blank" title="View Budget Recommendation dated 07-30-25.pdf - New Window" href="/viewer/preview?id=0&type=8&uid=cf9a4385-f50f-44da-aa03-212b20beb7fb" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf9a4385-f50f-44da-aa03-212b20beb7fb" title="Download Budget Recommendation dated 07-30-25.pdf" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Budget Recommendation dated 07-30-25.pdf</a>
+                    </div></div></td></tr></table></div><div style='margin-left:0em;' class='meeting-item' data-itemid='157174' data-hasattachments='True' data-mig="0cc32951-bc15-4be6-be9a-5c44f961ef4a"><table class='item-table' style='padding-bottom:5px;'><tr><td class='attachment-cell'><div class='pull-left attachment-icon-holder'><span class='glyphicon glyphicon-paperclip' title='Has Attachments' style='color:#aaa;'></span></div></td><td class='number-cell'><div style="display: block; width: 100%;"><span style="font-size:12pt;"><span style="font-family:Arial,Helvetica,sans-serif;">(7)</span></span></div>
+</td><td class='item-cell'><div class='agenda-item' id='AgendaItem_157174'><table cellpadding="0" cellspacing="0" class="forcepopulate" style="width:100%;font-size:12pt;font-family:Arial;">
+	<tbody>
+		<tr>
+			<td colspan="2" style="white-space:nowrap;vertical-align:top;font-weight:bold;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">25-0600-S78</td>
+		</tr>
+		<tr>
+			<td style="width:20%;white-space:nowrap;vertical-align:top;font-weight:bold;font-family:Arial!important;font-size:12pt!important;"></td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;font-size:12pt!important;"> 
+
+			<div style="display:block;text-align:justify;font-size:12pt;font-family:Arial,Helvetica,sans-serif;">Department on Disability report relative to&nbsp;the staffing needs for Department on Disability and Information Technology Agency to comply with the Americans with Disabilities Act Final Rule on web and mobile application accessibility requirements by the April 2026 deadline in response to the Fiscal Year 2025-26 Budget Recommendation.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Fiscal Impact Statement:</u> Yes</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+   
+
+<table class="forcepopulate" style="width:100%;font-size:12pt!important;font-family:Arial!important;">
+	<tbody>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">
+			<p style="margin:0px!important;padding:0px!important;text-align:justify"><u>Community Impact Statement:</u> None submitted</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:20%;vertical-align:top;">&nbsp;</td>
+			<td style="width:80%;vertical-align:top;font-family:Arial!important;text-align:justify;font-size:12pt!important;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div><div style="display:none;" class="item_contents" id="agenda_item_area_157174">
+                        <div id="ConfidentialDocMessage_157174" class="item-confidential-area"></div>
+                    <div class="attachment-holder">
+                        <a target="_blank" title="View Budget Recommendation dated 7-30-25.pdf - New Window" href="/viewer/preview?id=0&type=8&uid=94f27cc9-0730-4c95-bda2-5fadf12a0385" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+                            <span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;
+						<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=94f27cc9-0730-4c95-bda2-5fadf12a0385" title="Download Budget Recommendation dated 7-30-25.pdf" onclick="event.stopPropagation();" onmouseover="text-decoration: none;" style="text-decoration: none;">
+							<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;Budget Recommendation dated 7-30-25.pdf</a>
+                    </div></div></td></tr></table></div></td></tr></table></div></td></tr></table></div><p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong>SUPPORTING MATERIALS</strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">Materials relating to items on the agenda are available on the Office of the City Clerk's Council File Management System found at <a href="http://cityclerk.lacity.org/lacityclerkconnect">https://cityclerk.lacity.org/lacityclerkconnect</a> by entering the Council File number (e.g., 00-0000) associated with the agenda item.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong>PUBLIC INPUT AT CITY COUNCIL COMMITTEE MEETINGS</strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">Members of the public who wish to speak on one or multiple items shall have an opportunity to speak up to one minute per item up to a total of two minutes for two or more agenda items. At regular meetings, members of the public shall also have an opportunity to speak up to one minute for general public comment on any matter within the subject-matter jurisdiction of the Committee. The Committee is not required to take general public comment at special meetings. The Committee may limit the total amount of time for public comment on any specific agenda item, on all agenda-items collectively, and/or on general public comment, based on the anticipated time required to hear from public speakers on any given or all agenda items, on the availability of Committee members and the need to maintain quorum, and on any other relevant factor. The Committee shall not discuss or take action relative to any general public comment except as explicitly permitted under the Brown Act.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong>COMMITTEE INFORMATION, ASSIGNMENTS, AND STRUCTURE</strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><a href="http://clerk.lacity.gov/clerk-services/cps/council-committee-meetings/info-assignments-structure">https://clerk.lacity.gov/clerk-services/cps/council-committee-meetings/info-assignments-structure</a></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong>SPECIAL ACCOMMODATION </strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">Requests for reasonable modification or accommodation from individuals with disabilities, consistent with the Americans with Disabilities Act, can be made by contacting the City Clerk's Office at (213) 978-1075. For Telecommunications Relay Service for the hearing impaired, please see the information below.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong><strong>NOTICE TO PAID REPRESENTATIVES </strong></strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">If a member of the public is compensated to monitor, attend, or speak at this meeting, City law may require them to register as a lobbyist and report this activity. More information can be found at Los Angeles Municipal Code 48.01 et seq. or at ethics.lacity.org/lobbying. Further assistance can be found by contacting the Ethics Commission at (213) 978-1960 or <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6401100c0d07174a070b09090d17170d0b0a240805070d101d4a0b1603">[email&#160;protected]</a>.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong><strong><strong>EXHAUSTION OF ADMINISTRATIVE REMEDIES</strong></strong></strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">A member of the public seeking to challenge a City action in court may be limited to raising only those issues raised at the public hearing described in this notice, or in written correspondence delivered to the City Clerk prior to the public hearing in time reasonably to be considered by the Committee members. Any written correspondence delivered to the City Clerk before the City Council's final action on a matter will become a part of the administrative record.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;"><strong><strong><strong>TELECOMMUNICATIONS RELAY SERVICE (TRS) COMMUNICATIONS</strong></strong></strong></span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">Telephone communication is one of the most important forms of communication in society today. Due to advancements in technology, telephone devices have evolved with new services and capabilities. Individuals who are deaf and hard of hearing, and individuals with a speech disability, may be able to avail themselves of both for peer-to-peer and third-party telecommunications relay service (TRS) communications. Telecommunications Relay Service is a telephone service that allows persons with hearing or speech disabilities to place and receive telephone calls. TRS is available in all 50 states, the District of Columbia, Puerto Rico and the U.S. territories for local and/or long distance calls. TRS providers - generally telephone companies - are compensated for the costs of providing TRS from either a state or a federal fund. There is no cost to the TRS user.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">What forms of TRS are available? There are several forms of TRS, depending on the particular needs of the user and the equipment available: TRS includes: Text to Voice TIY-Based TRS; Speech-to-Speech Relay Service; Shared Non-English Language Relay Service; Captioned Telephone Relay Service; Internet Protocol Relay Service; and Video Relay Service. Please visit this site for detail descriptions, <a href="http://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">Don't hang up! Some people hang up on TRS calls because they think the caller is a telemarketer. If you hear, "Hello, this is the relay service…" when you pick up the phone, please don't hang up! You are about to talk, through a TRS provider, to a person who is deaf, hard-of-hearing, or has a speech disability.</span></span></p>
+
+<p style="text-align: justify; margin-bottom: 12pt;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:9pt;">For more information about FCC programs to promote access to telecommunications services for people with disabilities, visit the FCC's Disability Rights Office website.</span></span></p>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/Content/plugins/isInViewport/isInViewport.js"></script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <script src="/Scripts/Custom/Public/_Subscription.js"></script>
+        <script src="/Content/js/common.js"></script>
+        <script src="/Scripts/Custom/GenericScripts.js"></script>
+        <script type="text/javascript">
+                const ptr = PullToRefresh.init({
+                    mainElement: 'body',
+                    scrollTopElement: '.MeetingContentContainer',
+                    distIgnore: 60,
+                    onRefresh(el) {
+                        if (el.scrollTopBeforeRefresh && $(el.scrollTopElement).scrollTop() <= 0) {
+                            window.location.reload();
+                        }
+                        else if (el.scrollTopBeforeRefresh == false) {
+                            window.location.reload();
+                        }
+                    },
+                    onRefreshScrollTop: function(el) {
+                        if (el.scrollTopBeforeRefresh && $(el.scrollTopElement).scrollTop() <= 0) {
+                            window.location.reload();
+                        }
+                        else if (el.scrollTopBeforeRefresh == false) {
+                            window.location.reload();
+                        }
+                    }
+                });
+
+                var _touchMoved = false;
+                var _openingItem = false;
+                var _allowButtonClick = false;
+		        var _IsAuthenticated = false;
+                var _compiledDocId = 77911;
+                var _compiledMeetingDocumentId = 49689;
+                var _canViewConfidential = ("False".toLocaleLowerCase() === "true");
+                var fb_visible = false;
+                var twitter_visible = false;
+                var minipacket_visible = false;
+                var _IsSection = getParameterByName('s') == null || getParameterByName('s') == '1';
+                var _SectionOrItemId = getParameterByName('tid') ?? '';
+                var _VideoLocation = getParameterByName('t') ?? '0';
+
+                var itemAttachmentVisibility = 1;
+                var isItemSearchAvailable = "True".toLocaleLowerCase();
+
+                // For item notification subscriptions
+                // Change back to the appropriate flag properties in susbscription tab
+                var _subscriptionEnabled = false;
+                var _isSubscribeItemsEnabled = false;
+                var _subscriptions = new PrimeGov.Views.PublicPortal.Subscription();
+
+		        
+                var _IsVideoLoactionButtonEnabledValue = "False".toLocaleLowerCase();
+		        var _IsVideoLocationButtonEnabled = ( _IsVideoLoactionButtonEnabledValue === "true");
+                var _HasMiniPacketTemplate = ("False".toLocaleLowerCase() === "true");
+		        var videoUrl = "";
+		        var tag = document.createElement('script');
+		        tag.src = "https://www.youtube.com/iframe_api";
+		        var firstScriptTag = document.getElementsByTagName('script')[0];
+		        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		        var player;                
+
+                if ("True".toLocaleLowerCase() == "true") {
+                    fb_visible = true;
+                }
+
+                if ("True".toLocaleLowerCase() == "true") {
+                    twitter_visible = true;
+                }
+
+                if ("False".toLocaleLowerCase() == "true") {
+                    minipacket_visible = true;
+		        }
+
+                $(document).ready(function () {
+
+
+                    setTimeout(function () {
+                        $('#fb-root iframe, .fb-share-button iframe, .flex-parent iframe');
+
+                        var count = 0;
+
+                        $(".fb-share-button iframe").each(function () {
+                            $(this).attr('title', 'Facebook Share ' + count);
+                            count++
+                        });
+
+                        $(".twitter-share-button").each(function () {
+                            $(this).attr('title', 'Twitter Share ' + count);
+                            count++
+                        });
+                    }, 5000);                    
+
+                    $('.attachment-icon-holder').show();
+
+                    $('.meeting-item').each(function (i, item) {
+                        var itemId = $(item).data('itemid');                        
+                        var uuid = $(item).data('mig');
+                        //if the meeting item is not deleted then load the download button
+                        if (uuid) {
+                            loadDownloadItemButton(itemId, uuid);
+                        }
+
+                        // Hide, write onclick to re-appear
+                        $('#agenda_item_area_' + itemId).hide();
+                    });
+
+                    renderVideoLocationButtons();
+
+                    function appendDownloadAsPdfForSection() {
+                        $(".section-item-attachments-insert").each(function () {
+                            var sharebuttons = $(this).find(".sharebuttons");
+                            if (sharebuttons.length == 0) {
+                                if (minipacket_visible) {
+                                    if (_HasMiniPacketTemplate) {
+                                        var elem = $("<div class='sharebuttons pull-right shareButtons'>" +
+                                            '<a href="/meetings/SectionWithTemplateType?id=' + $(this).data('sectiontemplateid') + '&meetingTemplateType=2" onclick="event.stopPropagation();" tabindex="0" class="btn btn-primary shareButtons_display shareButtons_dl">'
+                                            + '<span class="packet-download">Download</span></a></div>');
+                                        $(this).find("div").prepend(elem);
+                                    }
+                                    else {
+                                        var elem = $("<div class='sharebuttons pull-right shareButtons'>" + "<a href='/meetings/section/" + $(this).data('sectiontemplateid') + "' tabindex='0' class='open-pdfs btn btn-primary shareButtons_display shareButtons_dl'><span class='packet-download'>Open</span></a></div>");
+                                        $(this).find("div").prepend(elem);
+                                    }
+                                }
+                            } else {
+                                if (minipacket_visible) {
+                                    if (_HasMiniPacketTemplate) {
+                                        var elem = $('<a href="/meetings/SectionWithTemplateType?id=' + $(this).data('sectiontemplateid') + '&meetingTemplateType=2" onclick="event.stopPropagation();" tabindex="0" class="btn btn-primary shareButtons_display shareButtons_dl">'
+                                            + '<span class="packet-download">Download</span></a>');
+                                        $(this).find(".sharebuttons").prepend(elem);
+                                    }
+                                    else {
+                                        var elem = $("<a href='/meetings/section/" + $(this).data('sectiontemplateid') + "' tabindex='0' class='open-pdfs btn btn-primary shareButtons_display shareButtons_dl'><span class='packet-download'>Open</span></a>");
+                                        $(this).find(".sharebuttons").prepend(elem);
+                                    }
+                                }
+                            }
+                        });
+                    }
+
+                    $(document).on('touchstart', function (e) {
+                        if (_openingItem == false) {
+                            $.each($(`[class*=shareItemBtns_]`), function () {
+                                $(this).css('visibility', 'hidden');
+                                $('[class*=elipsis_').show();
+                            })
+
+                            $.each($(`[id*=agenda_item_area_]`), function () {
+                                $(this).hide();
+                            })
+                        }
+                    });
+
+                    $(document).on("click", ".view-item-details", async function () {
+                        var newPortalUrl = null;
+                        var currentUrl = window.location.href;
+                        if (currentUrl.includes("parentLink=newPublicPortal")) {
+
+                            newPortalUrl = await new Promise((resolve, reject) => {
+                                $.getJSON('/api/v2/PublicPortal/GetNewPublicPortalUrl', resolve).fail(reject);
+                            });
+                        }
+                        if (newPortalUrl) {
+                            const url = $(this).data('newportalurl');
+                            window.open(url, '_blank');
+                        } else {
+                            const url = $(this).data('portalurl');
+                            window.open(url, '_blank');
+                        }
+                    });
+
+                    $('.agenda-item').on('click', function (event) {
+                        event.preventDefault();
+                        var id = this.id.replace("AgendaItem_", "");
+                        $('#agenda_item_area_' + id).toggle();
+                    });
+
+                    $("[class*=elipsis_]").on('touchstart', function (e) {
+                        e.stopPropagation();
+                        e.preventDefault();
+
+                        var id = $(this).data('id');
+
+                        triggerElipsisMenu(id);
+
+                        _touchMoved = false;
+                        _openingItem = true;
+                    });
+
+                    $(`.optionalButtons`).on('touchstart', function (e) {
+                        e.stopPropagation();
+                        _allowButtonClick = true;
+                    })
+
+                    $(`.attachment-holder > a`).on('touchstart', function (e) {
+                        e.stopPropagation();
+                        _allowButtonClick = true;
+                    })
+
+                    $('.item-table-fromdocx').on('touchend', function (e) {
+                        if (_touchMoved == false && _allowButtonClick == false) {
+                            e.preventDefault();
+                            e.stopPropagation();
+
+                            var videoLocation = $(this).data('videolocation');
+                            if (videoLocation) {
+                                seekToVideoLocation(videoLocation);
+                            }
+
+                            var id = $(this).data('id');
+                            triggerElipsisMenu(id);
+                        }
+
+                        _openingItem = false;
+                    }).on('touchmove', function (e) {
+                        _touchMoved = true;
+                        _allowButtonClick = false;
+                    }).on('touchstart', function () {
+                        _touchMoved = false;
+                        _openingItem = true;
+                        _allowButtonClick = false;
+                    })
+
+                    $('.item-table-fromdocx').hover(function (event) {
+                        var id = $(this).data('id');
+                        $('.shareItemBtns_' + id).css('visibility', 'visible');
+                        $('.elipsis_' + id).hide();
+                    });
+
+                    $('.item-table-fromdocx').mouseleave(function (event) {
+                        var id = $(this).data('id');
+                        $('.shareItemBtns_' + id).css('visibility', 'hidden');
+                        $('.elipsis_' + id).show();
+                    });
+
+                    $('.migrated-meeting-item').click(function () {
+                        var itmId = $(this).data('itemid');
+                        var videoLocation = $(this).data('videolocation');
+
+                        if (videoLocation) {
+                            seekToVideoLocation(videoLocation);
+                        }
+
+                        LoadItemAttachmentsFromSourceId(itmId);
+                    });
+
+                    $('.section-item-attachments-fromdocx').on('touchstart', function () {
+                        var id = $(this).data('sectiontemplateid');
+                        $('#agenda_item_area_' + id).toggle();
+                        triggerElipsisMenu(id);
+                    })
+
+                    $('.section-item-attachments-fromdocx').on('click', function () {
+                        var id = $(this).data('sectiontemplateid');
+                        $('#agenda_item_area_' + id).toggle();
+                    })
+
+                    window.twttr = (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            t = window.twttr || {};
+                        if (d.getElementById(id)) return t;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+
+                        t._e = [];
+                        t.ready = function (f) {
+                            t._e.push(f);
+                        };
+
+                        return t;
+                    }(document, "script", "twitter-wjs"));
+
+                    window.fb = (function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            t = window.fb || {};
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s); js.id = id;
+                        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0';
+                        fjs.parentNode.insertBefore(js, fjs);
+
+                        t._e = [];
+                        t.ready = function (f) {
+                            t._e.push(f);
+                        };
+
+                        return t;
+                    }(document, 'script', 'facebook-jssdk'));
+
+                    bindSectionAttachments();
+
+                    $('.section-row td .attachment-icon-holder').css('left', '-30px');
+                });
+
+                function triggerElipsisMenu(id) {
+                    $.each($(`[class*=shareItemBtns_]`), function () {
+                        $(this).css('visibility', 'hidden');
+                        $('[class*=elipsis_').show();
+                    })
+
+                    $.each($(`[id*=agenda_item_area_]`), function () {
+                        var agendaItemAreaId = $(this).attr('id').split("agenda_item_area_")[1];
+                        if ($(this).css('display') == 'block' && agendaItemAreaId != id) {
+                            $(this).hide();
+                        }
+                    })
+
+                    if ($(`elipsis_${id}`).css('display') == "none") {
+                        $('.shareItemBtns_' + id).css('visibility', 'hidden');
+                        $('.elipsis_' + id).show();
+                    }
+                    else {
+                        $('.shareItemBtns_' + id).css('visibility', 'visible');
+                        $('.elipsis_' + id).hide();
+                        $('#agenda_item_area_' + id).show();
+                    }
+                }
+
+                function bindSectionAttachments() {
+                    function getAnchor(item) {
+                        if (item.confidential && item.path == '' && item.pdfPath == '') {                            
+                                html = '<div style="display:none;" class="attachment-holder"></div>';                                                        
+                        }
+                        else {
+                            var html = '<div class="attachment-holder">'
+                                + '<a target="_blank" title="View ' + item.name + '" href="viewer?id=' + item.id + '&type=4">'
+                                + '<span class="glyphicon glyphicon-eye-open"></span>'
+                                + '</a>&nbsp;&nbsp;<a href="/meetings/sectionattachment?id=' + item.id + '" title="Download ' + item.name + '">'
+                                + '<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;' + item.name + ' </a>'
+                                + '</div>';
+                        }
+
+                        return html;
+                    }
+
+                    function getAnchorHistory(item) {
+                        if (item.confidential && !_canViewConfidential) {                            
+                                return '<div style="display:none;" class="attachment-holder"></div>';                                                        
+                        }
+                        else {
+                            var html = '<div class="attachment-holder">'
+                                + `<a target="_blank" title="View ${item.name}" href="viewer?id=0&type=7&uid=${item.uId}">`
+                                + '<span class="glyphicon glyphicon-eye-open"></span>'
+                                + `</a>&nbsp;&nbsp;<a href="/api/compilemeetingattachmenthistory/historyattachment/?historyId=${item.uId}" title="Download ${item.name}">`
+                                + '<span class="glyphicon glyphicon-cloud-download"></span>&nbsp;&nbsp;' + item.name + ' </a>'
+                                + '</div>';
+                            return html;
+                        }
+                    }
+
+                    function bindClickEvent(instance) {
+                        $(instance).on('click', function (args) {
+                            var sectionTemplateId = $(this).data('sectiontemplateid');
+                            if ($('#sectionattachment_' + sectionTemplateId).hasClass('hidden')) {
+                                $('#sectionattachment_' + sectionTemplateId).removeClass('hidden').addClass('display-block');
+                                $('#agenda_item_area_' + sectionTemplateId).toggle();
+                            } else {
+                                $('#sectionattachment_' + sectionTemplateId).addClass('hidden').removeClass('display-block');
+                                $('#agenda_item_area_' + sectionTemplateId).toggle();
+                            }
+                        });
+                    }
+
+                    $('.section-item-attachments-insert').each(function () {
+                        var self = this;
+                        var sectionTemplateId = $(self).data('sectiontemplateid');
+				        var meetingId = $(self).data('meetingid');
+                        var hasAttachment = $(self).data('hasattachment') == '1';
+                        bindClickEvent(self);
+                    });
+                }
+
+                var count = 0;
+                async function loadDownloadItemButton(id, uuid) {
+                    var host = window.location.host;
+                    var itemUrl = "https://" + host + "/portal/item?meetingitemid=" + uuid;
+
+                    if (fb_visible) {
+                        var fbBtn = '<div style="display:flex;align-items:center;" class="fb-share-button a2a_button_facebook shareButtons_display shareButtons_fb" data-href="' + itemUrl + '" data-layout="button" data-size="small" data-mobile-iframe="false"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=' + itemUrl + '%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a></div>';
+                    }
+                    else {
+                        var fbBtn = '';
+                    }
+
+                    if (twitter_visible) {
+                        var href_to = "https://twitter.com/intent/tweet?text=Meeting&url=" + encodeURIComponent(itemUrl);
+                        var twBtn = '<div class="twitter_button shareButtons_display"><svg style="margin-left:7px;" width="20" height="20" viewBox="-1 -2 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.73874 7.34724L15.205 1H13.9097L9.16332 6.51122L5.37239 1H1L6.73263 9.33394L1 15.99H2.29541L7.30773 10.17L11.3112 15.99H15.6836L9.73843 7.34724H9.73874ZM7.9645 9.40737L7.38366 8.57749L2.76217 1.97411H4.75185L8.48145 7.30325L9.06228 8.13312L13.9103 15.0602H11.9206L7.9645 9.40768V9.40737Z" fill="#020E1A"/></svg><a class="twttr_anchor btn" href="' + href_to+'"><b>Post</b></a></div> ';
+                    }
+                    else {
+                        var twBtn = '';
+                    }
+
+                    if (minipacket_visible) {
+                        var queryParameters = '';
+
+						if (_compiledMeetingDocumentId > 0) {
+                            queryParameters = `&compiledMeetingDocumentId=${_compiledMeetingDocumentId}`;
+                        }
+
+                        if (_HasMiniPacketTemplate) {
+                            //Single Attachment
+                            var dnLoad = `<a href="/meetings/ItemWithTemplateType?id=${id}&meetingTemplateType=2${queryParameters}" onclick="event.stopPropagation();" tabindex="0" class="btn btn-primary shareButtons_display shareButtons_dl"><span class="packet-download">Download</span></a>`;
+                        }
+                        else {
+                            //Multiple Attachments
+                            var dnLoad = `<a href="/meetings/item/?id=${id}${queryParameters}" tabindex="0" class="open-pdfs btn btn-primary shareButtons_display shareButtons_dl"><span class="packet-download">Open</span></a>`;
+                        }
+                    }
+                    else {
+                        var dnLoad = '';
+                    }
+
+                    //View Item page functionality
+                    if (itemAttachmentVisibility == 2 || itemAttachmentVisibility == 3) {
+                        let itemShareUrl = null;
+                        var newPortalUrl = null;
+
+                        var currentUrl = window.location.href;
+                        if (currentUrl.includes("parentLink=newPublicPortal")) {
+
+                            newPortalUrl = await new Promise((resolve, reject) => {
+                                $.getJSON('/api/v2/PublicPortal/GetNewPublicPortalUrl', resolve).fail(reject);
+                            });
+                        }
+
+                        if (isItemSearchAvailable == 'true') {
+                            if (newPortalUrl) {
+                                itemShareUrl = newPortalUrl + '/search?meetingItemId=' + id;
+                            } else {
+                                itemShareUrl = '/search/itemsearch?meetingItemId=' + id;
+                            }
+                        }
+                        else {
+                            itemShareUrl = '/portal/item?id=' + id;
+                        }
+
+                        shareElem = '<a href="' + itemShareUrl + '" target="_blank" onclick="event.stopPropagation();" tabindex="0" class="btn btn-primary shareButtons_display shareButtons_dl">'
+                            + '<span class="packet-download">View Details</span></a>';
+                    }
+                    else {
+                        var shareElem = '';
+                    }
+
+                    if (_isSubscribeItemsEnabled) {
+						var subBtn = `<a onclick="_subscriptions.openItemSubscriptionPopup('${escape("Enter your email address below to receive updates related to this item")}', ${-1}, event, ${id})" data-id="${id}" data-name="${escape("Item to Subscribe")}" title="Subscribe to item updates" class="btn btn-primary shareButtons_display shareButtons_dl"><span class="packet-download">Subscribe</span></a>`;
+                    } else {
+                        var subBtn = '';
+                    }
+
+                    var html = "<td style='vertical-align: top;'><div id='sharebuttons_" + id + "' data-loaded='Loaded' class='sharebuttons pull-right shareButtons'>" +
+                        fbBtn +
+                        twBtn +
+                        dnLoad +
+                        shareElem +
+                        subBtn +
+                        "</div></td>";
+
+                    $("#AgendaItem_" + id).parent("td.item-cell").after(html); //the HTML I returned from the controller
+                    count = count + 3;
+                }
+
+		        function LoadItem(itemId) {
+			        $.getJSON('/api/meetings/getItemInfo?itemId=' + itemId, null, function(data) {
+				        if (data.seconds)
+					        seekToVideoLocation(data.seconds);
+				        var attachemntHtml = data.attachments.length > 0
+					        ? '<h2>Attachments</h2>'
+					        : '<div><h3>This item has no attachments</h3></div>';
+				        $.each(data.attachments,
+					        function(indx, itm) {
+						        attachemntHtml += '<div class="attachment-holder"><a href="' +
+							        itm.url +
+							        '">' +
+							        itm.name +
+							        '&nbsp;&nbsp;&nbsp;<span class="pull-right glyphicon glyphicon-download"></span></a></div>';
+					        });
+				        $('#AttachmentArea').html(attachemntHtml);
+			        });
+		        }
+
+		        function videoLocationClick(event, videoLocation) {
+			        var clickedTagName = event.target.tagName.toLowerCase();
+
+			        if (clickedTagName !== 'a' && clickedTagName !== 'button') {
+				        seekToVideoLocation(videoLocation);
+			        }
+		        }
+
+                function onYouTubeIframeAPIReady() {
+                    if (videoUrl != "") {
+                        player = new YT.Player('ytplayer', {
+                            videoId: videoUrl,
+                            playerVars: {
+                                'rel': 0,
+                                'start': parseInt(_VideoLocation) > 0 ? _VideoLocation : 0
+                            },
+                            events: {
+                                'onStateChange': videoStateChanged
+                            }
+                        });
+                    }
+                    else {
+                        $(".VideoContentContainer").remove();
+                    }
+
+                    if (_SectionOrItemId != '') {
+                        if (_IsSection) {
+                            if ($(`[data-sectionid="${_SectionOrItemId}"]`).length > 0) {
+                                $('.MeetingContentContainer').animate({
+                                    scrollTop: $(`[data-sectionid="${_SectionOrItemId}"]`).offset().top - 15
+                                }, 'slow');
+                                $('[data-sectionid="' + _SectionOrItemId + '"]').focus();
+                            }
+                        } else {
+                            if ($(`[data-itemid="${_SectionOrItemId}"]`).length > 0) {
+                                $('.MeetingContentContainer').animate({
+                                    scrollTop: $(`[data-itemid="${_SectionOrItemId}"]`).offset().top - 15
+                                }, 'slow');
+                                $('[data-itemid="' + _SectionOrItemId + '"]').focus();
+                            }
+                        }
+                    }
+                }
+
+                /*Uncomment this and it will allow you to see the width and height of the window while resizing so you can handle the different resolutions accordingly
+                $(window).resize(function () {
+                    $("#screenheight").val($(window).height());
+                    $("#screenwidth").val($(window).width());
+                })*/
+
+                function hideYouTubeVideo() {
+                    pauseVideo();
+                    $("#ytplayer").hide();
+                    $("#HideYouTubePlayer").hide();
+                    $("#ShowYouTubePlayer").show();
+                }
+
+                function openYouTubeVideo() {
+                    $("#ytplayer").show();
+                    $("#HideYouTubePlayer").show();
+                    $("#ShowYouTubePlayer").hide();
+                }
+
+		        function pauseVideo() {
+                    if (player) {
+                        player.pauseVideo();
+                    }
+		        }
+
+		        var preventSeekToPlaying = false;
+                function seekToVideoLocation(seconds) {
+                    if (player && seconds > 0) {
+				        var preSeekState = player.getPlayerState();
+				        if (preSeekState != YT.PlayerState.PLAYING && preSeekState != YT.PlayerState.PAUSED)
+					        preventSeekToPlaying = true;
+
+				        player.seekTo(seconds, true);
+			        }
+                }
+
+                function jumpToVideoLocation() {
+                    var videoLocation = $(this).data("videolocation");
+
+                    seekToVideoLocation(videoLocation);
+                }
+
+                function videoStateChanged(event) {
+			        if (preventSeekToPlaying && event.data == YT.PlayerState.PLAYING) {
+				        preventSeekToPlaying = false;
+				        pauseVideo();
+			        }
+                }
+
+                /*************************
+                * video
+                *************************/
+                function renderVideoLocationButtons(callback) {
+                    $('[data-videolocation]').each(function () {
+                        var videoLocation = $(this).data("videolocation");
+                        var fromDocx = $(this).hasClass('item-table-fromdocx');
+
+                        if (_IsVideoLocationButtonEnabled && fromDocx == false) {
+                            var elem;
+                            var sectionId = $(this).data("sectionid");
+
+                            var playButton = $("<button class='btn btn-primary shareButtons_display shareButtons_dl playvideo' title='Play'><span class='playvideo'>Play</span> <i class='glyphicon glyphicon-play'></i></button>");
+                            $(playButton).on('click', function (event) {
+                                event.stopPropagation();
+                                seekToVideoLocation(videoLocation);
+                            });
+
+                            if (sectionId) {
+                                elem = $(`<div id="shareButtons_${sectionId}" class='sharebuttons pull-right shareButtons'></div>`);
+                                $(this).find('tr[class="section-row"]').append($(`<td style="vertical-align: top;"><div id="shareButtons_${sectionId}" class='sharebuttons pull-right shareButtons'></div></td>`));
+
+                                $(`#shareButtons_${sectionId}`).append(playButton);
+                            }
+                            else {
+                                elem = $(this).find(".sharebuttons");
+                                $(elem).append(playButton);
+                            }
+                        }
+                        else {
+                            var elem;
+
+                            if (sectionId) {
+                                elem = $(this).find(".section-row");
+
+                                if (elem.length == 0) {
+                                    elem = $(this);
+                                }
+                            }
+                            else {
+                                elem = $(this);
+                            }
+
+                            $(elem).on('click', function (event) {
+                                videoLocationClick(event, videoLocation);
+                            });
+                        }
+                    });
+
+                    if (typeof callback == 'function')
+                        callback();
+                }
+
+                function videoLocationClick(event, videoLocation) {
+                    event.stopPropagation();
+
+                    var clickedTagName = event.target.tagName.toLowerCase();
+
+                    if (clickedTagName !== 'a' && clickedTagName !== 'button') {
+                        seekToVideoLocation(videoLocation);
+                    }
+                }
+
+		        /*************************
+		        * attachments
+		        *************************/
+                function LoadItemAttachmentsFromSourceId(itemId) {
+			        $.getJSON('/api/meetingitemattachment/ListPublicFromSourceId?sourceItemId=' + itemId, null, function(data) {
+				        var attachmentHtml = "";
+                        var confHtml = "";
+
+				        if (data.length > 0) {
+					        $.each(data,
+						        function(indx, itm) {
+							        if (itm.authorized == true) {
+								        attachmentHtml += '<div class="attachment-holder' +
+									        (itm.hasAnnotations ? ' holder-highlight' : '') +
+									        '">' +
+									        (_IsAuthenticated
+										        ? '<a target= "_blank" href="viewer?id=' +
+										        itm.id +
+										        '&type=2"><span class="glyphicon glyphicon-eye-open"></span></a>&nbsp;&nbsp;'
+										        : '') +
+									        '<a href="/meeting/attachment/' +
+									        itm.id +
+									        '.pdf?name=' +
+									        encodeURIComponent(itm.name) +
+									        '"><span class="glyphicon glyphicon-download"></span>&nbsp;&nbsp;' +
+									        itm.name +
+									        '' +
+									        '</a>' +
+									        '</div>';
+                                    } else {                                        
+                                            confHtml = '<div style="display:none;" class="attachment-holder"></div>';                                        							        
+							        }
+						        });
+				        } else {
+					        attachmentHtml = "No attachments for item";
+				        }
+
+				        $('#MigratedAttachmentList').html(attachmentHtml + confHtml);
+				        $('#MigratedAttachmentModal').modal('show');
+			        });
+		        }
+
+		        function downloadAttachment(id) {
+			        $.getJSON('/api/meetingitemattachment/GetPublicPdfDownloadUrl/' + id, null, function(data) {
+				        window.location = data;
+			        })
+			        .fail(function(jqXHR, status, error) {
+				        //toastr["error"]("Error: " + error);
+				        handleError('Error: ' + jqXHR.responseJSON.exceptionMessage, jqXHR);
+			        });
+		        }
+
+		        function downloadDoc(id) {
+			        $.getJSON('/api/systemdocument/GetPublicPdfDownloadUrl/' + id, null, function(data) {
+                        window.location = data;
+			        })
+			        .fail(function(jqXHR, status, error) {
+				        //toastr["error"]("Error: " + error);
+				        handleError('Error: ' + jqXHR.responseJSON.exceptionMessage, jqXHR);
+			        });
+                }
+
+                Share = {
+                    facebook: function (purl, ptitle, pimg, text) {
+                        url = 'http://www.facebook.com/sharer.php?s=100';
+                        url += '&u=' + encodeURIComponent(purl);
+                        Share.popup(url);
+                    },
+                    twitter: function (purl, ptitle) {
+                        url = 'http://twitter.com/intent/tweet?';
+                        url += 'text=' + encodeURIComponent(ptitle);
+                        url += '&url=' + encodeURIComponent(purl);
+                        url += '&counturl=' + encodeURIComponent(purl);
+                        Share.popup(url);
+                    },
+                    popup: function (url) {
+                        window.open(url, '', 'toolbar=0,status=0,width=626, height=436');
+                    }
+                };                
+        </script>
+    </div>
+
+    <div class="modal fade" role="dialog" id="MigratedAttachmentModal">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Attachments</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="MigratedAttachmentList">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
