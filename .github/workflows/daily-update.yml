@@ -121,21 +121,39 @@ jobs:
       - name: Deploy to GitHub Pages
         if: steps.check_new.outputs.NEW_MEETING == 'true'
         run: |
-          # Deploy site to gh-pages branch
-          git fetch origin gh-pages:gh-pages || true
-
+          # Deploy site to gh-pages branch using worktree (avoids checkout conflicts)
           TEMP_DIR=$(mktemp -d)
           cp -r site/* "$TEMP_DIR/"
 
-          git checkout gh-pages || git checkout --orphan gh-pages
-          git rm -rf . || true
-          cp -r "$TEMP_DIR"/* .
-          git add -A
-          git commit -m "Deploy site $(date '+%Y-%m-%d %H:%M:%S')" || true
-          git push origin gh-pages
+          # Use a separate directory for gh-pages worktree
+          WORKTREE_DIR=$(mktemp -d)
 
+          # Fetch gh-pages or create it
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+
+          if git show-ref --verify --quiet refs/heads/gh-pages; then
+            git worktree add "$WORKTREE_DIR" gh-pages
+          else
+            git worktree add --detach "$WORKTREE_DIR"
+            cd "$WORKTREE_DIR"
+            git checkout --orphan gh-pages
+            git rm -rf . 2>/dev/null || true
+            cd - > /dev/null
+          fi
+
+          # Copy site files and commit
+          rm -rf "$WORKTREE_DIR"/* 2>/dev/null || true
+          cp -r "$TEMP_DIR"/* "$WORKTREE_DIR/"
+
+          cd "$WORKTREE_DIR"
+          git add -A
+          git commit -m "Deploy site $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push origin gh-pages
+          cd - > /dev/null
+
+          # Cleanup
           rm -rf "$TEMP_DIR"
-          git checkout master
+          git worktree remove "$WORKTREE_DIR" --force 2>/dev/null || rm -rf "$WORKTREE_DIR"
 
       - name: Summary
         run: |
