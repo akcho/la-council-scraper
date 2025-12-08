@@ -57,7 +57,7 @@ def get_youtube_transcript(video_url: str) -> Optional[str]:
             cmd,
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=120  # 2 minutes for longer videos
         )
 
         if result.returncode == 0:
