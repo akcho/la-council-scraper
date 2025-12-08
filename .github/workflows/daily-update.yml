@@ -46,7 +46,7 @@ jobs:
       - name: Fetch latest meetings
         run: python fetch_meetings.py
 
-      - name: Check for new meetings with video
+      - name: Find new meetings to process
         id: check_new
         run: |
           python -c "
@@ -64,62 +64,150 @@ jobs:
               with open(processed_file) as f:
                   processed = set(line.strip() for line in f if line.strip())
 
+          # Only process these meeting types
+          TARGET_TYPES = ['City Council Meeting', 'Housing and Homelessness Committee']
+
           # Find meetings with video that haven't been processed
           new_meetings = []
           for m in meetings:
-              if m.get('videoUrl') and str(m['id']) not in processed:
+              title = m.get('title', '')
+              # Check if it's a target type (exact match, not SAP/SPECIAL variants)
+              is_target = any(title == t or title.startswith(t + ' -') and 'SAP' not in title for t in TARGET_TYPES)
+
+              if m.get('videoUrl') and str(m['id']) not in processed and is_target:
                   new_meetings.append(m)
 
           if new_meetings:
-              print(f'Found {len(new_meetings)} new meeting(s) with video')
+              print(f'Found {len(new_meetings)} new meeting(s) to process:')
+              for m in new_meetings:
+                  print(f'  - {m[\"id\"]}: {m[\"title\"]} ({m[\"date\"]})')
+
+              # Save list of meeting IDs to process
+              ids = ','.join(str(m['id']) for m in new_meetings)
               with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                  f.write('NEW_MEETING=true\n')
-                  f.write(f'MEETING_ID={new_meetings[0][\"id\"]}\n')
+                  f.write('NEW_MEETINGS=true\n')
+                  f.write(f'MEETING_IDS={ids}\n')
+                  f.write(f'MEETING_COUNT={len(new_meetings)}\n')
           else:
-              print('No new meetings with video')
+              print('No new meetings to process')
               with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                  f.write('NEW_MEETING=false\n')
+                  f.write('NEW_MEETINGS=false\n')
           "
 
       - name: Parse agendas
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
+        if: steps.check_new.outputs.NEW_MEETINGS == 'true'
         run: python parse_agendas.py
 
-      - name: Download transcript
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
-        run: python get_transcripts.py
-
-      - name: Generate AI summary
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
+      - name: Process each meeting
+        if: steps.check_new.outputs.NEW_MEETINGS == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python summarize_meeting.py
+        run: |
+          IFS=',' read -ra MEETING_IDS <<< "${{ steps.check_new.outputs.MEETING_IDS }}"
+
+          for meeting_id in "${MEETING_IDS[@]}"; do
+            echo "=========================================="
+            echo "Processing meeting $meeting_id"
+            echo "=========================================="
+
+            # Download transcript for this meeting
+            python -c "
+          import json
+          from get_transcripts import get_youtube_transcript
+
+          with open('recent_meetings.json') as f:
+              meetings = json.load(f)
+
+          meeting = next((m for m in meetings if str(m['id']) == '$meeting_id'), None)
+          if meeting and meeting.get('videoUrl'):
+              transcript = get_youtube_transcript(meeting['videoUrl'])
+              if transcript:
+                  with open(f'data/transcripts/meeting_{meeting[\"id\"]}_transcript.txt', 'w') as f:
+                      f.write(transcript)
+                  print(f'Saved transcript for meeting {meeting[\"id\"]}')
+              else:
+                  print(f'No transcript available for meeting {meeting[\"id\"]}')
+          "
+
+            # Generate summary for this meeting
+            python -c "
+          import json
+          import os
+          from summarize_meeting import summarize_transcript, generate_reddit_comment
+
+          meeting_id = '$meeting_id'
+          transcript_file = f'data/transcripts/meeting_{meeting_id}_transcript.txt'
+
+          if not os.path.exists(transcript_file):
+              print(f'No transcript for meeting {meeting_id}, skipping')
+              exit(0)
+
+          with open('recent_meetings.json') as f:
+              meetings = json.load(f)
+
+          meeting = next((m for m in meetings if str(m['id']) == meeting_id), None)
+          if not meeting:
+              print(f'Meeting {meeting_id} not found')
+              exit(0)
+
+          with open(transcript_file) as f:
+              transcript = f.read()
+
+          # Load agenda if available
+          agenda_file = f'data/agendas/meeting_{meeting_id}_agenda.json'
+          agenda = None
+          if os.path.exists(agenda_file):
+              with open(agenda_file) as f:
+                  agenda = json.load(f)
+
+          summary = summarize_transcript(transcript, meeting, agenda)
+          if summary:
+              # Save summary
+              os.makedirs('data/video_summaries', exist_ok=True)
+              summary_data = {
+                  'meeting_id': int(meeting_id),
+                  'video_url': meeting.get('videoUrl'),
+                  'summary': summary,
+                  'transcript_length': len(transcript)
+              }
+              with open(f'data/video_summaries/meeting_{meeting_id}_summary.json', 'w') as f:
+                  json.dump(summary_data, f, indent=2)
+
+              # Generate reddit comment
+              reddit_comment = generate_reddit_comment(meeting, summary)
+              with open(f'meeting_{meeting_id}_reddit_comment.md', 'w') as f:
+                  f.write(reddit_comment)
+
+              print(f'Generated summary for meeting {meeting_id}')
+          "
+
+            # Mark as processed
+            mkdir -p data
+            echo "$meeting_id" >> data/processed_meetings.txt
+
+            echo "Completed meeting $meeting_id"
+            echo ""
+          done
 
       - name: Generate site
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
+        if: steps.check_new.outputs.NEW_MEETINGS == 'true'
         run: |
           python generate_site.py
           python aggregate_council_files.py
           python generate_councilfile_pages.py
 
-      - name: Mark meeting as processed
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
-        run: |
-          mkdir -p data
-          echo "${{ steps.check_new.outputs.MEETING_ID }}" >> data/processed_meetings.txt
-
-      - name: Commit reddit comment and processed list
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
+      - name: Commit changes
+        if: steps.check_new.outputs.NEW_MEETINGS == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/processed_meetings.txt
           git add "meeting_*_reddit_comment.md" || true
-          git commit -m "Add summary for meeting ${{ steps.check_new.outputs.MEETING_ID }}" || true
+          git commit -m "Add summaries for ${{ steps.check_new.outputs.MEETING_COUNT }} meeting(s)" || true
           git push || true
 
       - name: Deploy to GitHub Pages
-        if: steps.check_new.outputs.NEW_MEETING == 'true'
+        if: steps.check_new.outputs.NEW_MEETINGS == 'true'
         run: |
           # Deploy site to gh-pages branch using worktree (avoids checkout conflicts)
           TEMP_DIR=$(mktemp -d)
@@ -157,15 +245,13 @@ jobs:
 
       - name: Summary
         run: |
-          if [ "${{ steps.check_new.outputs.NEW_MEETING }}" == "true" ]; then
-            echo "### New meeting processed: ${{ steps.check_new.outputs.MEETING_ID }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_new.outputs.NEW_MEETINGS }}" == "true" ]; then
+            echo "### Processed ${{ steps.check_new.outputs.MEETING_COUNT }} meeting(s)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Meeting IDs: ${{ steps.check_new.outputs.MEETING_IDS }}" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "**Site updated:** https://councilreader.com" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**Reddit comment ready:** Check \`meeting_${{ steps.check_new.outputs.MEETING_ID }}_reddit_comment.md\` in the repo" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "Copy-paste to r/losangeles daily discussion thread." >> $GITHUB_STEP_SUMMARY
           else
             echo "### No new meetings to process" >> $GITHUB_STEP_SUMMARY
-            echo "Will check again tomorrow." >> $GITHUB_STEP_SUMMARY
+            echo "Only tracking: City Council Meeting, Housing and Homelessness Committee" >> $GITHUB_STEP_SUMMARY
           fi
