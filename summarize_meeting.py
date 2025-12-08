@@ -30,10 +30,19 @@ Start IMMEDIATELY with **KEY DECISIONS** - no preamble, no meta-commentary.
 - Focus on upcoming votes, policy implications, or community concerns raised
 
 Guidelines:
-- Under 200 words total
+- Under 250 words total
 - No jargon - explain acronyms and technical terms
 - Focus on substance: decisions, debates, outcomes
 - Be specific: names, amounts, locations, vote counts
+
+HOUSING & DEVELOPMENT TERMS - briefly explain these when they appear:
+- CUP (Conditional Use Permit): requires public hearing and discretionary approval vs. "by-right" permits
+- RSO (Rent Stabilization Ordinance): LA's rent control law
+- ADU: accessory dwelling unit (backyard homes/granny flats)
+- TOC: Transit Oriented Communities (density bonuses near transit)
+- CEQA: California Environmental Quality Act (environmental review)
+- Zoning variances/appeals: when projects don't meet standard requirements
+- For appeals: clarify who appealed (neighbors opposing vs. developers challenging denials) and what the council's vote means for the project's future
 
 CRITICAL:
 - ABSOLUTELY BANNED WORDS that must NEVER appear anywhere: ceremonial, routine, primarily, mostly, limited legislative, recognition ceremonies, presentations and recognition
