@@ -23,6 +23,7 @@ env/
 !agenda_schema.json
 !site_config.json
 !data/agendas/*.json
+!data/processed_meetings.txt
 *.md
 !README.md
 !DEPLOYMENT.md
