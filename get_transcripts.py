@@ -49,7 +49,7 @@ def get_youtube_transcript(video_url: str) -> Optional[str]:
             '--sub-lang', 'en',  # English
             '--sub-format', 'vtt',  # WebVTT format
             '--output', 'transcript',  # Output filename
-            '--js-runtime', 'nodejs',  # Use Node.js for YouTube extraction
+            '--js-runtimes', 'node',  # Use Node.js for YouTube extraction
             video_url
         ]
 

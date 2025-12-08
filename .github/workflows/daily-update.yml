@@ -133,7 +133,7 @@ jobs:
             python -c "
           import json
           import os
-          from summarize_meeting import summarize_transcript, generate_reddit_comment
+          from summarize_meeting import summarize_with_claude, format_summary_for_reddit
 
           meeting_id = '$meeting_id'
           transcript_file = f'data/transcripts/meeting_{meeting_id}_transcript.txt'
@@ -153,14 +153,7 @@ jobs:
           with open(transcript_file) as f:
               transcript = f.read()
 
-          # Load agenda if available
-          agenda_file = f'data/agendas/meeting_{meeting_id}_agenda.json'
-          agenda = None
-          if os.path.exists(agenda_file):
-              with open(agenda_file) as f:
-                  agenda = json.load(f)
-
-          summary = summarize_transcript(transcript, meeting, agenda)
+          summary = summarize_with_claude(transcript)
           if summary:
               # Save summary
               os.makedirs('data/video_summaries', exist_ok=True)
@@ -174,7 +167,7 @@ jobs:
                   json.dump(summary_data, f, indent=2)
 
               # Generate reddit comment
-              reddit_comment = generate_reddit_comment(meeting, summary)
+              reddit_comment = format_summary_for_reddit(meeting, summary)
               with open(f'meeting_{meeting_id}_reddit_comment.md', 'w') as f:
                   f.write(reddit_comment)
 
