@@ -5,384 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Council Meeting - LA Council Tracker</title>
     <meta name="description" content="Agenda items and details for City Council Meeting">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #f5f5f5;
-            padding-bottom: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 1.5rem 0;
-            margin-bottom: 1.5rem;
-        }
-
-        .breadcrumb {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .breadcrumb a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .meeting-meta {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .meeting-links {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            margin-top: 0.75rem;
-        }
-
-        .meeting-links a {
-            font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.375rem 0.75rem;
-            border: 1px solid #0066cc;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-
-        .meeting-links a:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .video-summary {
-            background: #f8f9fa;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .video-summary h2 {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-        }
-
-        .video-summary-content {
-            font-size: 0.9375rem;
-            line-height: 1.7;
-            color: #333;
-        }
-
-        .video-summary-content h3.summary-section {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin: 1.5rem 0 0.75rem 0;
-            padding-bottom: 0.25rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .video-summary-content h3.summary-section:first-child {
-            margin-top: 0;
-        }
-
-        .video-summary-content p {
-            margin-bottom: 1rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-            padding-left: 0.75rem;
-            border-left: 3px solid #0066cc;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .section-title:hover {
-            color: #0066cc;
-        }
-
-        .section-title::before {
-            content: "▼";
-            font-size: 0.75rem;
-            transition: transform 0.2s;
-            display: inline-block;
-        }
-
-        .section[open] .section-title::before {
-            transform: rotate(0deg);
-        }
-
-        .section:not([open]) .section-title::before {
-            transform: rotate(-90deg);
-        }
-
-        .section-content {
-            margin-top: 1rem;
-        }
-
-        .item-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s, border-color 0.2s;
-        }
-
-        .item-card-clickable {
-            cursor: pointer;
-        }
-
-        .item-card-clickable:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: #0066cc;
-        }
-
-        .item-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .item-header {
-            display: flex;
-            gap: 0.5rem;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .item-number {
-            font-weight: 600;
-            color: #0066cc;
-            font-size: 0.875rem;
-        }
-
-        .item-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 0.25rem 0.5rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border-radius: 4px;
-            background: #f0f0f0;
-            color: #666;
-        }
-
-        .tag.council-file-tag {
-            background: #e3f2fd;
-            color: #1565c0;
-        }
-
-        .tag.district {
-            background: #f3e5f5;
-            color: #7b1fa2;
-        }
-
-        .item-title {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-            line-height: 1.5;
-        }
-
-        .item-title strong {
-            font-weight: 700;
-        }
-
-        .item-title em {
-            font-style: italic;
-        }
-
-        .item-details {
-            margin-top: 0.75rem;
-        }
-
-        .item-details summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-            font-weight: 500;
-        }
-
-        .item-details summary:hover {
-            text-decoration: underline;
-        }
-
-        .item-details-content {
-            margin-top: 0.75rem;
-            padding: 0.75rem;
-            background: #f8f9fa;
-            border-left: 3px solid #e0e0e0;
-            font-size: 0.875rem;
-            color: #444;
-            line-height: 1.6;
-        }
-
-        .item-attachments {
-            margin-top: 0.75rem;
-        }
-
-        .item-attachments summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .item-attachments summary:hover {
-            text-decoration: underline;
-        }
-
-        .attachment-list {
-            margin-top: 0.5rem;
-            padding-left: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .document-item {
-            display: flex;
-            flex-direction: column;
-            gap: 0.375rem;
-        }
-
-        .document-title {
-            font-size: 0.875rem;
-            color: #1a1a1a;
-            font-weight: 500;
-        }
-
-        .document-links {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .document-action {
-            font-size: 0.8125rem;
-            text-decoration: none;
-            padding: 0.25rem 0.625rem;
-            border-radius: 4px;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-
-        .document-action.view {
-            color: #0066cc;
-            border: 1px solid #0066cc;
-            background: transparent;
-        }
-
-        .document-action.view:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .document-action.download {
-            color: #fff;
-            background: #0066cc;
-            border: 1px solid #0066cc;
-        }
-
-        .document-action.download:hover {
-            background: #0052a3;
-            border-color: #0052a3;
-        }
-
-        .empty-section {
-            font-size: 0.875rem;
-            color: #999;
-            font-style: italic;
-            padding: 0.5rem 0.75rem;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding: 1.5rem 0;
-            text-align: center;
-            font-size: 0.875rem;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        footer a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .meeting-meta {
-                font-size: 1rem;
-            }
-
-            .section-title {
-                font-size: 1.25rem;
-            }
-
-            .item-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -407,7 +30,7 @@
     <main class="container">
         
         <div class="video-summary">
-            <h2>📺 Meeting summary</h2>
+            <h2>Meeting Summary</h2>
             <div class="video-summary-content"><strong>KEY DECISIONS</strong>
 - Approved item 5 with amendment by Council Member Padilla (passed 10-0)
 - Continued item 4 and amending motion 4A to Wednesday, November 12th
@@ -480,18 +103,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b895802d-32fd-4331-b46c-f79a9aefffe1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156254">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b895802d-32fd-4331-b46c-f79a9aefffe1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156254">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -504,18 +123,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b43c498d-f834-48c2-bd92-8c5ff3ebd833"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156254">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b43c498d-f834-48c2-bd92-8c5ff3ebd833"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156254">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -568,18 +183,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3f82de68-d739-4a22-a436-cbd3a7f1c1ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f82de68-d739-4a22-a436-cbd3a7f1c1ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -592,18 +203,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=39f8e793-0737-4824-bd32-e10444eb596b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f8e793-0737-4824-bd32-e10444eb596b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -616,18 +223,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b8a4130e-4b8a-4529-b6bf-88d40d1b564e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a4130e-4b8a-4529-b6bf-88d40d1b564e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -640,18 +243,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=19c3e8e2-8a1e-40b7-8912-0172dbcebcb6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -664,18 +263,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b0d5ff1-5267-4c00-a579-a63f3f3b92a3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -688,18 +283,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=68f20d33-76cd-4745-9390-96a957ff72a3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156356">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f20d33-76cd-4745-9390-96a957ff72a3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156356">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -750,18 +341,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=40aa9bea-d099-42b4-82a3-359e987b772a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=40aa9bea-d099-42b4-82a3-359e987b772a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -774,18 +361,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7d06b6ca-8eef-44d9-af3e-6e39ddddd530"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7d06b6ca-8eef-44d9-af3e-6e39ddddd530"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -798,18 +381,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a9d9f05d-015f-47dd-aee4-95a8fe473bbf"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9d9f05d-015f-47dd-aee4-95a8fe473bbf"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -822,18 +401,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3ce1f381-ca33-4255-86d2-a7ea99fd6a57"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce1f381-ca33-4255-86d2-a7ea99fd6a57"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -846,18 +421,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d55d7b30-a05f-47c3-8c62-afe8b481fd5e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d55d7b30-a05f-47c3-8c62-afe8b481fd5e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -870,18 +441,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7cb747a2-a535-44b0-9161-6e0f1e4de508"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7cb747a2-a535-44b0-9161-6e0f1e4de508"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -894,18 +461,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b5bfd506-948c-4fbb-9385-a751bb3bfda1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5bfd506-948c-4fbb-9385-a751bb3bfda1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -918,18 +481,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156203">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a9f5ee3-fc1e-4bd6-b798-b9e9e310117e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156203">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -977,18 +536,14 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7b9facb7-3191-40bd-8b1c-23c7702da1c8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156427">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b9facb7-3191-40bd-8b1c-23c7702da1c8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156427">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1018,11 +573,10 @@ Council faces a critical vote Wednesday on the rent stabilization ordinance that
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 21:33:01</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 23:16:29</p>
         </div>
     </footer>
 
-    <!-- Analytics -->
     
     <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>

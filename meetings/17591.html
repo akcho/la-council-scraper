@@ -5,384 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Housing and Homelessness Committee - LA Council Tracker</title>
     <meta name="description" content="Agenda items and details for Housing and Homelessness Committee">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #f5f5f5;
-            padding-bottom: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 1.5rem 0;
-            margin-bottom: 1.5rem;
-        }
-
-        .breadcrumb {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .breadcrumb a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .meeting-meta {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .meeting-links {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            margin-top: 0.75rem;
-        }
-
-        .meeting-links a {
-            font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.375rem 0.75rem;
-            border: 1px solid #0066cc;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-
-        .meeting-links a:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .video-summary {
-            background: #f8f9fa;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .video-summary h2 {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-        }
-
-        .video-summary-content {
-            font-size: 0.9375rem;
-            line-height: 1.7;
-            color: #333;
-        }
-
-        .video-summary-content h3.summary-section {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin: 1.5rem 0 0.75rem 0;
-            padding-bottom: 0.25rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .video-summary-content h3.summary-section:first-child {
-            margin-top: 0;
-        }
-
-        .video-summary-content p {
-            margin-bottom: 1rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-            padding-left: 0.75rem;
-            border-left: 3px solid #0066cc;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .section-title:hover {
-            color: #0066cc;
-        }
-
-        .section-title::before {
-            content: "▼";
-            font-size: 0.75rem;
-            transition: transform 0.2s;
-            display: inline-block;
-        }
-
-        .section[open] .section-title::before {
-            transform: rotate(0deg);
-        }
-
-        .section:not([open]) .section-title::before {
-            transform: rotate(-90deg);
-        }
-
-        .section-content {
-            margin-top: 1rem;
-        }
-
-        .item-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s, border-color 0.2s;
-        }
-
-        .item-card-clickable {
-            cursor: pointer;
-        }
-
-        .item-card-clickable:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: #0066cc;
-        }
-
-        .item-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .item-header {
-            display: flex;
-            gap: 0.5rem;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .item-number {
-            font-weight: 600;
-            color: #0066cc;
-            font-size: 0.875rem;
-        }
-
-        .item-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 0.25rem 0.5rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border-radius: 4px;
-            background: #f0f0f0;
-            color: #666;
-        }
-
-        .tag.council-file-tag {
-            background: #e3f2fd;
-            color: #1565c0;
-        }
-
-        .tag.district {
-            background: #f3e5f5;
-            color: #7b1fa2;
-        }
-
-        .item-title {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-            line-height: 1.5;
-        }
-
-        .item-title strong {
-            font-weight: 700;
-        }
-
-        .item-title em {
-            font-style: italic;
-        }
-
-        .item-details {
-            margin-top: 0.75rem;
-        }
-
-        .item-details summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-            font-weight: 500;
-        }
-
-        .item-details summary:hover {
-            text-decoration: underline;
-        }
-
-        .item-details-content {
-            margin-top: 0.75rem;
-            padding: 0.75rem;
-            background: #f8f9fa;
-            border-left: 3px solid #e0e0e0;
-            font-size: 0.875rem;
-            color: #444;
-            line-height: 1.6;
-        }
-
-        .item-attachments {
-            margin-top: 0.75rem;
-        }
-
-        .item-attachments summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .item-attachments summary:hover {
-            text-decoration: underline;
-        }
-
-        .attachment-list {
-            margin-top: 0.5rem;
-            padding-left: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .document-item {
-            display: flex;
-            flex-direction: column;
-            gap: 0.375rem;
-        }
-
-        .document-title {
-            font-size: 0.875rem;
-            color: #1a1a1a;
-            font-weight: 500;
-        }
-
-        .document-links {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .document-action {
-            font-size: 0.8125rem;
-            text-decoration: none;
-            padding: 0.25rem 0.625rem;
-            border-radius: 4px;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-
-        .document-action.view {
-            color: #0066cc;
-            border: 1px solid #0066cc;
-            background: transparent;
-        }
-
-        .document-action.view:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .document-action.download {
-            color: #fff;
-            background: #0066cc;
-            border: 1px solid #0066cc;
-        }
-
-        .document-action.download:hover {
-            background: #0052a3;
-            border-color: #0052a3;
-        }
-
-        .empty-section {
-            font-size: 0.875rem;
-            color: #999;
-            font-style: italic;
-            padding: 0.5rem 0.75rem;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding: 1.5rem 0;
-            text-align: center;
-            font-size: 0.875rem;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        footer a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .meeting-meta {
-                font-size: 1rem;
-            }
-
-            .section-title {
-                font-size: 1.25rem;
-            }
-
-            .item-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -407,7 +30,7 @@
     <main class="container">
         
         <div class="video-summary">
-            <h2>📺 Meeting summary</h2>
+            <h2>Meeting Summary</h2>
             <div class="video-summary-content"><strong>KEY DECISIONS</strong>
 - Approved Charles Stringer's appointment to the Los Angeles Homeless Services Authority (LASA) Commission (passed 4-0)
 - Approved Inside Safe funding transfers but struck recommendation allowing mayor to transfer funds without council approval
@@ -495,18 +118,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3c0a969a-6068-4754-9689-308c5a3316f8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156992">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c0a969a-6068-4754-9689-308c5a3316f8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156992">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -552,18 +171,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5ee3fff1-d85f-44bb-a0a1-7bd5f42bf437"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ee3fff1-d85f-44bb-a0a1-7bd5f42bf437"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -576,18 +191,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0fb52604-209b-4ebe-a99b-579e98e110c9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0fb52604-209b-4ebe-a99b-579e98e110c9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -600,18 +211,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=977fdfb8-64e6-4b4d-b4f5-3dc64320ffad"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=977fdfb8-64e6-4b4d-b4f5-3dc64320ffad"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -624,18 +231,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=31d7aea5-81be-46ac-b87e-835cf9ea15a6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31d7aea5-81be-46ac-b87e-835cf9ea15a6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -648,18 +251,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=608b9096-f206-4a2d-95f1-7873cfb4e7d5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=608b9096-f206-4a2d-95f1-7873cfb4e7d5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -672,18 +271,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f98c3729-00a6-471b-8e07-5641c8934348"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157052">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f98c3729-00a6-471b-8e07-5641c8934348"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157052">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -729,18 +324,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4bf9d5ba-5ee3-453c-a755-e870d2a9cc4f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157088">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bf9d5ba-5ee3-453c-a755-e870d2a9cc4f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157088">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -786,18 +377,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ebd75bd5-9f7c-4ca9-af2a-469376a2b0e4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157091">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ebd75bd5-9f7c-4ca9-af2a-469376a2b0e4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157091">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -843,18 +430,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=cf899a0d-58f3-4a27-917d-bfbe14356365"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157109">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf899a0d-58f3-4a27-917d-bfbe14356365"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157109">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -902,18 +485,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d5833d8a-b1af-4142-9f5f-483ef381d931"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156995">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5833d8a-b1af-4142-9f5f-483ef381d931"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156995">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -959,18 +538,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3f46da39-08d8-4d8f-abce-fd070b96f3be"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157098">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f46da39-08d8-4d8f-abce-fd070b96f3be"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157098">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -983,18 +558,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=727f0e3d-54cc-4ce5-8837-7b03ce284a1d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157098">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=727f0e3d-54cc-4ce5-8837-7b03ce284a1d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157098">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1007,18 +578,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=29ba2d5b-5204-468b-ac45-0c8b0e689e1e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157098">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29ba2d5b-5204-468b-ac45-0c8b0e689e1e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157098">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1031,18 +598,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=bdcca860-4879-4c5b-9775-34e8e76bd9ab"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157098">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bdcca860-4879-4c5b-9775-34e8e76bd9ab"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157098">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1055,18 +618,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4fa51469-603a-4503-b221-cb040fef30ba"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157098">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fa51469-603a-4503-b221-cb040fef30ba"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157098">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1114,18 +673,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ee661222-7e2a-4d25-a9f5-f4b33be4eb11"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156994">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee661222-7e2a-4d25-a9f5-f4b33be4eb11"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156994">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1138,18 +693,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a0d8667f-9874-4db2-8a61-01a18d374a28"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156994">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0d8667f-9874-4db2-8a61-01a18d374a28"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156994">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1197,18 +748,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=256dc762-06e7-4e73-8a01-683bad0a2cfc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157046">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=256dc762-06e7-4e73-8a01-683bad0a2cfc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157046">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1254,18 +801,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9ceae893-10e2-4b94-a531-cc4697787abc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157048">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ceae893-10e2-4b94-a531-cc4697787abc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157048">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1278,18 +821,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=358d7124-696c-4630-9ba2-791f3134e27e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157048">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=358d7124-696c-4630-9ba2-791f3134e27e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157048">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1335,18 +874,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7c2723cd-8d7d-406b-9b52-713e7a131ae8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157049">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c2723cd-8d7d-406b-9b52-713e7a131ae8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157049">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1392,18 +927,14 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=15154525-6e32-46c4-a870-11e62f1a5929"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157051">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=15154525-6e32-46c4-a870-11e62f1a5929"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157051">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1423,11 +954,10 @@ LA faces a homelessness funding catastrophe as federal policy changes will elimi
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 21:33:01</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 23:16:29</p>
         </div>
     </footer>
 
-    <!-- Analytics -->
     
     <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>

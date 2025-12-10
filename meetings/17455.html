@@ -5,384 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Council Meeting - LA Council Tracker</title>
     <meta name="description" content="Agenda items and details for City Council Meeting">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #f5f5f5;
-            padding-bottom: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 1.5rem 0;
-            margin-bottom: 1.5rem;
-        }
-
-        .breadcrumb {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .breadcrumb a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .meeting-meta {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .meeting-links {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            margin-top: 0.75rem;
-        }
-
-        .meeting-links a {
-            font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.375rem 0.75rem;
-            border: 1px solid #0066cc;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-
-        .meeting-links a:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .video-summary {
-            background: #f8f9fa;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .video-summary h2 {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-        }
-
-        .video-summary-content {
-            font-size: 0.9375rem;
-            line-height: 1.7;
-            color: #333;
-        }
-
-        .video-summary-content h3.summary-section {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin: 1.5rem 0 0.75rem 0;
-            padding-bottom: 0.25rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .video-summary-content h3.summary-section:first-child {
-            margin-top: 0;
-        }
-
-        .video-summary-content p {
-            margin-bottom: 1rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-            padding-left: 0.75rem;
-            border-left: 3px solid #0066cc;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .section-title:hover {
-            color: #0066cc;
-        }
-
-        .section-title::before {
-            content: "▼";
-            font-size: 0.75rem;
-            transition: transform 0.2s;
-            display: inline-block;
-        }
-
-        .section[open] .section-title::before {
-            transform: rotate(0deg);
-        }
-
-        .section:not([open]) .section-title::before {
-            transform: rotate(-90deg);
-        }
-
-        .section-content {
-            margin-top: 1rem;
-        }
-
-        .item-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s, border-color 0.2s;
-        }
-
-        .item-card-clickable {
-            cursor: pointer;
-        }
-
-        .item-card-clickable:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: #0066cc;
-        }
-
-        .item-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .item-header {
-            display: flex;
-            gap: 0.5rem;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .item-number {
-            font-weight: 600;
-            color: #0066cc;
-            font-size: 0.875rem;
-        }
-
-        .item-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 0.25rem 0.5rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border-radius: 4px;
-            background: #f0f0f0;
-            color: #666;
-        }
-
-        .tag.council-file-tag {
-            background: #e3f2fd;
-            color: #1565c0;
-        }
-
-        .tag.district {
-            background: #f3e5f5;
-            color: #7b1fa2;
-        }
-
-        .item-title {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-            line-height: 1.5;
-        }
-
-        .item-title strong {
-            font-weight: 700;
-        }
-
-        .item-title em {
-            font-style: italic;
-        }
-
-        .item-details {
-            margin-top: 0.75rem;
-        }
-
-        .item-details summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-            font-weight: 500;
-        }
-
-        .item-details summary:hover {
-            text-decoration: underline;
-        }
-
-        .item-details-content {
-            margin-top: 0.75rem;
-            padding: 0.75rem;
-            background: #f8f9fa;
-            border-left: 3px solid #e0e0e0;
-            font-size: 0.875rem;
-            color: #444;
-            line-height: 1.6;
-        }
-
-        .item-attachments {
-            margin-top: 0.75rem;
-        }
-
-        .item-attachments summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .item-attachments summary:hover {
-            text-decoration: underline;
-        }
-
-        .attachment-list {
-            margin-top: 0.5rem;
-            padding-left: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .document-item {
-            display: flex;
-            flex-direction: column;
-            gap: 0.375rem;
-        }
-
-        .document-title {
-            font-size: 0.875rem;
-            color: #1a1a1a;
-            font-weight: 500;
-        }
-
-        .document-links {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .document-action {
-            font-size: 0.8125rem;
-            text-decoration: none;
-            padding: 0.25rem 0.625rem;
-            border-radius: 4px;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-
-        .document-action.view {
-            color: #0066cc;
-            border: 1px solid #0066cc;
-            background: transparent;
-        }
-
-        .document-action.view:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .document-action.download {
-            color: #fff;
-            background: #0066cc;
-            border: 1px solid #0066cc;
-        }
-
-        .document-action.download:hover {
-            background: #0052a3;
-            border-color: #0052a3;
-        }
-
-        .empty-section {
-            font-size: 0.875rem;
-            color: #999;
-            font-style: italic;
-            padding: 0.5rem 0.75rem;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding: 1.5rem 0;
-            text-align: center;
-            font-size: 0.875rem;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        footer a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .meeting-meta {
-                font-size: 1rem;
-            }
-
-            .section-title {
-                font-size: 1.25rem;
-            }
-
-            .item-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -407,7 +30,7 @@
     <main class="container">
         
         <div class="video-summary">
-            <h2>📺 Meeting summary</h2>
+            <h2>Meeting Summary</h2>
             <div class="video-summary-content"><strong>KEY DECISIONS</strong>
 - Approved eight legal settlements totaling $5.6 million, including a $2.625 million settlement in the Roselina Reyes case and a $750,000 settlement each in the Caesar Chavez 888 LLC and Robert Mark Evans cases
 - Voted to reconsider Item 32 (12-0) and continue it to Friday, October 31st to allow community input at Van Nuys City Hall
@@ -480,18 +103,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2fc932b0-c4eb-48e6-82a9-89bc47f75516"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156034">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fc932b0-c4eb-48e6-82a9-89bc47f75516"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156034">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -504,18 +123,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1c27bd83-3bd0-4bf5-a641-135c0a0174fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156034">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c27bd83-3bd0-4bf5-a641-135c0a0174fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156034">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -568,18 +183,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b59476bc-8ea5-4c15-8d97-94e0ffc46d07"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156035">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b59476bc-8ea5-4c15-8d97-94e0ffc46d07"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156035">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -592,18 +203,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6c333ac7-798d-4ff3-b3d5-bb2bb632e5a4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156035">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c333ac7-798d-4ff3-b3d5-bb2bb632e5a4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156035">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -656,18 +263,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8a9e1d2c-d6f1-4839-aeb6-84aacc1206ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156036">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a9e1d2c-d6f1-4839-aeb6-84aacc1206ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156036">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -680,18 +283,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=be2acb5f-f9a5-4df6-85fd-2faaddafa863"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156036">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=be2acb5f-f9a5-4df6-85fd-2faaddafa863"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156036">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -744,18 +343,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9e3c402a-c229-4956-808c-dd7407859bda"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156038">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e3c402a-c229-4956-808c-dd7407859bda"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156038">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -768,18 +363,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=af44952f-6854-4328-847c-356906dc291a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156038">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af44952f-6854-4328-847c-356906dc291a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156038">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -792,18 +383,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=479a98cf-da4e-4d8c-aaca-88f2df5850b8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156038">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=479a98cf-da4e-4d8c-aaca-88f2df5850b8"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156038">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -854,18 +441,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b2670e17-64a0-400c-8de9-a4d19f48aa75"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2670e17-64a0-400c-8de9-a4d19f48aa75"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -878,18 +461,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f37b8b27-95f6-423e-a94b-fbef568aa6d6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f37b8b27-95f6-423e-a94b-fbef568aa6d6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -902,18 +481,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6fe9b7b8-9d79-46c3-9108-81bbf53dfdaf"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fe9b7b8-9d79-46c3-9108-81bbf53dfdaf"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -926,18 +501,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2050bf2c-76fa-4e3f-9817-62fd3e91ab87"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2050bf2c-76fa-4e3f-9817-62fd3e91ab87"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -950,18 +521,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a1b8dd43-a211-4c4e-9772-7a7bcdea57e4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1b8dd43-a211-4c4e-9772-7a7bcdea57e4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -974,18 +541,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6f08e8ef-e40d-471b-97c9-936f2a192a0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f08e8ef-e40d-471b-97c9-936f2a192a0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -998,18 +561,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b79656be-7bee-4855-a2b2-ac448097659f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b79656be-7bee-4855-a2b2-ac448097659f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1022,18 +581,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d0e12934-1ce9-418e-af70-574bdeaf8a3d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0e12934-1ce9-418e-af70-574bdeaf8a3d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1046,18 +601,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8bfd8f9f-ee0b-439a-912c-58cbe32801ab"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8bfd8f9f-ee0b-439a-912c-58cbe32801ab"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1070,18 +621,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=384fa11f-c765-4dc2-b8e3-de819f67f2dd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=384fa11f-c765-4dc2-b8e3-de819f67f2dd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1094,18 +641,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d508608a-de96-4faf-8293-71f4cac1d39f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d508608a-de96-4faf-8293-71f4cac1d39f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1118,18 +661,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0755f159-be75-4479-967b-1bc08dabcc62"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0755f159-be75-4479-967b-1bc08dabcc62"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1142,18 +681,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4ef1d5e1-3598-48c7-b7d1-2551b723f569"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156006">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ef1d5e1-3598-48c7-b7d1-2551b723f569"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156006">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1206,18 +741,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c0219422-5f6d-49e8-9e47-710ef5eaf5b0"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156007">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0219422-5f6d-49e8-9e47-710ef5eaf5b0"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156007">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1230,18 +761,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f1f7f54d-ae73-4bdd-8785-a0c6e02282b1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156007">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1f7f54d-ae73-4bdd-8785-a0c6e02282b1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156007">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1254,18 +781,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1831c4aa-2227-4072-9f61-13d65224598c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156007">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1831c4aa-2227-4072-9f61-13d65224598c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156007">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1313,18 +836,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=893ff35a-a8e4-41cb-8e42-70c0e445816f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=893ff35a-a8e4-41cb-8e42-70c0e445816f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1337,18 +856,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6aaa3e7d-f57d-40dd-8cc1-4374dfc2c955"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1361,18 +876,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=efebbfba-12e8-42d2-9a31-3bb5ea894e00"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=efebbfba-12e8-42d2-9a31-3bb5ea894e00"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1385,18 +896,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=05b0da59-9f62-4083-a5ac-f0e21218e5be"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=05b0da59-9f62-4083-a5ac-f0e21218e5be"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1409,18 +916,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=45d16a6e-e219-4a45-bea8-bf0845494735"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45d16a6e-e219-4a45-bea8-bf0845494735"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1433,18 +936,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=65310207-c9dc-4469-83fc-aab56bbc1445"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=65310207-c9dc-4469-83fc-aab56bbc1445"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1457,18 +956,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b2ddb66c-781e-44cc-956d-04aee97f0162"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2ddb66c-781e-44cc-956d-04aee97f0162"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1481,18 +976,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8935e7ff-62ca-4a4b-b4cf-0b3e2982826d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1505,18 +996,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7c05139f-dfa7-4479-9e04-7d62d2d58a42"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c05139f-dfa7-4479-9e04-7d62d2d58a42"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1529,18 +1016,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9b36d7c8-0204-4ff1-91e8-a09f34e98989"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b36d7c8-0204-4ff1-91e8-a09f34e98989"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1553,18 +1036,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7d2e417-6bc4-4bc7-8c4b-ef8ce0ecb82b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1577,18 +1056,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4071be4b-fe69-4b52-b696-825a69bfef9d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4071be4b-fe69-4b52-b696-825a69bfef9d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1601,18 +1076,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0144af88-5de2-41cb-aaf4-57da65e6c450"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0144af88-5de2-41cb-aaf4-57da65e6c450"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1625,18 +1096,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=0d3954c3-4f5e-445b-aaab-5620b9dd1b31"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d3954c3-4f5e-445b-aaab-5620b9dd1b31"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1649,18 +1116,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5537c729-a15e-437c-bbd0-f1409df53606"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5537c729-a15e-437c-bbd0-f1409df53606"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1673,18 +1136,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b76f410d-108a-41ca-89f0-605107fc00c7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b76f410d-108a-41ca-89f0-605107fc00c7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1697,18 +1156,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5ce11009-86ea-4eb3-9840-680b9a27b802"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156013">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ce11009-86ea-4eb3-9840-680b9a27b802"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156013">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1759,18 +1214,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ccebeb80-d8b3-498c-b7fa-60890182cf84"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156028">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ccebeb80-d8b3-498c-b7fa-60890182cf84"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156028">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1783,18 +1234,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156028">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9d04fb8-1ee4-4208-af6e-7b9fa63faf0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156028">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1807,18 +1254,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c6487574-e73e-4ee7-960a-f3b22cf5761f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156028">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6487574-e73e-4ee7-960a-f3b22cf5761f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156028">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1831,18 +1274,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=439a696d-a28e-4972-9c74-9691dbc51b69"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156028">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=439a696d-a28e-4972-9c74-9691dbc51b69"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156028">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1893,18 +1332,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3def1fc2-7a48-45ef-b97b-7a1b65898a20"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156029">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3def1fc2-7a48-45ef-b97b-7a1b65898a20"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156029">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1917,18 +1352,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=59c008c3-6444-46ff-bab9-46fecca7ef79"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156029">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=59c008c3-6444-46ff-bab9-46fecca7ef79"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156029">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1941,18 +1372,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=31678b7b-39ec-401f-9fee-0daeb49ab4b4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156029">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31678b7b-39ec-401f-9fee-0daeb49ab4b4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156029">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1965,18 +1392,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=531201a0-ce05-4c98-81f3-8af2b1d4b5cb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156029">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=531201a0-ce05-4c98-81f3-8af2b1d4b5cb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156029">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2027,18 +1450,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c107135b-226a-407b-978c-0eb4b5490359"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156030">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c107135b-226a-407b-978c-0eb4b5490359"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156030">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2051,18 +1470,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c48f27ce-13b0-40c6-ab96-d95b5205342d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156030">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c48f27ce-13b0-40c6-ab96-d95b5205342d"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156030">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2075,18 +1490,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=70a8487b-a4d1-4664-91fc-d1166c5ae2fb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156030">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=70a8487b-a4d1-4664-91fc-d1166c5ae2fb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156030">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2099,18 +1510,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d55d662b-fd01-486f-8ee5-3a725dbaf1ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156030">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d55d662b-fd01-486f-8ee5-3a725dbaf1ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156030">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2123,18 +1530,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7ee3f95b-bdb2-421f-93f1-16092c4ac25b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156030">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ee3f95b-bdb2-421f-93f1-16092c4ac25b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156030">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2185,18 +1588,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9fdbcf07-4d0a-4aa3-aef9-07528e2c8e8a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156032">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fdbcf07-4d0a-4aa3-aef9-07528e2c8e8a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156032">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2209,18 +1608,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=488fa789-d111-4f36-9466-0df575df37ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156032">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=488fa789-d111-4f36-9466-0df575df37ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156032">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2233,18 +1628,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=87f4e111-34cb-47d5-986f-242389a2f2fd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156032">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87f4e111-34cb-47d5-986f-242389a2f2fd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156032">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2257,18 +1648,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=12dbff94-4801-41ab-8c00-fe3721fb08d5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156032">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12dbff94-4801-41ab-8c00-fe3721fb08d5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156032">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2319,18 +1706,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9374b839-d004-417d-9128-75251309a32e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156033">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9374b839-d004-417d-9128-75251309a32e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156033">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2343,18 +1726,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f79f40db-72cf-4779-a571-00b51531b393"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156033">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f79f40db-72cf-4779-a571-00b51531b393"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156033">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2367,18 +1746,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c93cf0cf-34a7-4779-9717-119bc9fc4f08"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156033">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c93cf0cf-34a7-4779-9717-119bc9fc4f08"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156033">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2391,18 +1766,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1eb5b80f-9a6a-4318-9e22-744854cee5ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156033">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1eb5b80f-9a6a-4318-9e22-744854cee5ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156033">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2415,18 +1786,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=72d9a1a0-0dad-44a7-97cd-88cf9f3179b2"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156033">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=72d9a1a0-0dad-44a7-97cd-88cf9f3179b2"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156033">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2477,18 +1844,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5dc5fdcb-5fb8-4cc8-8c82-269295dc7544"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156152">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5dc5fdcb-5fb8-4cc8-8c82-269295dc7544"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156152">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2501,18 +1864,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1d4badff-bef1-4a02-b98a-5280857c7ed3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156152">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d4badff-bef1-4a02-b98a-5280857c7ed3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156152">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2558,18 +1917,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=48733211-b7bf-493b-b3a5-afe95f275fc5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156174">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=48733211-b7bf-493b-b3a5-afe95f275fc5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156174">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2582,18 +1937,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=40fdcc15-554e-480b-b72b-465bdf46c000"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156174">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=40fdcc15-554e-480b-b72b-465bdf46c000"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156174">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2606,18 +1957,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=91a0cb15-37e5-424a-b673-0305b5975d04"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156174">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=91a0cb15-37e5-424a-b673-0305b5975d04"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156174">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2630,18 +1977,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=76867204-e313-4cd1-86b3-4d9420ab6cc6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156174">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=76867204-e313-4cd1-86b3-4d9420ab6cc6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156174">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2654,18 +1997,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f24191d0-4520-4f4f-84ec-b7214820b759"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156174">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f24191d0-4520-4f4f-84ec-b7214820b759"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156174">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2728,18 +2067,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=df30c246-658b-4490-9d78-6157013206d7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156000">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df30c246-658b-4490-9d78-6157013206d7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156000">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2752,18 +2087,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=75b21b73-8ecb-4983-9b9a-69e464cb5f7c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156000">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75b21b73-8ecb-4983-9b9a-69e464cb5f7c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156000">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2816,18 +2147,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=63a7f51d-f742-4ab0-82aa-88fb7b7a3231"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156001">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=63a7f51d-f742-4ab0-82aa-88fb7b7a3231"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156001">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2880,18 +2207,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e1c576cf-f134-464f-85ac-57684a347b07"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156002">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1c576cf-f134-464f-85ac-57684a347b07"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156002">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2944,18 +2267,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=93d9151a-9661-47e6-88a3-009052440eae"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156003">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=93d9151a-9661-47e6-88a3-009052440eae"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156003">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3008,18 +2327,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7863a95f-4b95-4c4d-bf38-3a61685b6e2b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156068">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7863a95f-4b95-4c4d-bf38-3a61685b6e2b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156068">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3072,18 +2387,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=567986f8-0e9c-4323-8aec-53290d246407"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156144">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=567986f8-0e9c-4323-8aec-53290d246407"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156144">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3136,18 +2447,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d479629d-57f6-4e65-970d-b1d8fc810b1a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156145">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d479629d-57f6-4e65-970d-b1d8fc810b1a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156145">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3160,18 +2467,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=946ff737-6626-49aa-bb81-1e513f1f53fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156145">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=946ff737-6626-49aa-bb81-1e513f1f53fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156145">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3184,18 +2487,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d8d55a8a-f983-44c6-b973-fd64da66c979"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156145">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d8d55a8a-f983-44c6-b973-fd64da66c979"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156145">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3208,18 +2507,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=571e2de2-c17f-4b4c-9c9c-1cebb5aea59f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156145">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=571e2de2-c17f-4b4c-9c9c-1cebb5aea59f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156145">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3272,18 +2567,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fe8d9b53-580b-46be-ae76-f90f8e2fef91"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156146">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe8d9b53-580b-46be-ae76-f90f8e2fef91"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156146">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3334,18 +2625,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3207b83a-8b94-435c-a5e0-22c0bc46086e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156165">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3207b83a-8b94-435c-a5e0-22c0bc46086e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156165">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3407,18 +2694,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e96bfa0c-b8b0-46f9-b11a-36993f1925b7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156081">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e96bfa0c-b8b0-46f9-b11a-36993f1925b7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156081">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3464,18 +2747,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eb7c0cb4-d00b-402f-beb5-90e9a7d4a422"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb7c0cb4-d00b-402f-beb5-90e9a7d4a422"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3521,18 +2800,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b19a2c0f-1c67-4024-b875-454db39863ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156083">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b19a2c0f-1c67-4024-b875-454db39863ce"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156083">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3580,18 +2855,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=752df3c4-cf09-43a1-8d30-d5e0ed2efcd9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156084">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=752df3c4-cf09-43a1-8d30-d5e0ed2efcd9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156084">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3637,18 +2908,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=fa4c9cda-7884-486f-81ad-af5d886951ee"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156085">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa4c9cda-7884-486f-81ad-af5d886951ee"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156085">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3661,18 +2928,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=032beca3-32f0-48e6-ab3e-b5c99afc9da6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156085">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=032beca3-32f0-48e6-ab3e-b5c99afc9da6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156085">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3685,18 +2948,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=abcdeaec-de4b-4376-b9fb-d47c8a0ad13c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156085">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=abcdeaec-de4b-4376-b9fb-d47c8a0ad13c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156085">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3709,18 +2968,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4a6d43e9-8dc0-447d-a59d-88a643ad54e3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156085">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a6d43e9-8dc0-447d-a59d-88a643ad54e3"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156085">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3733,18 +2988,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=35e93952-5977-45b2-89cd-cc5e193749fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156085">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=35e93952-5977-45b2-89cd-cc5e193749fe"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156085">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3790,18 +3041,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=10ad9c97-37f6-4094-ac1d-1061ca0e36d1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156086">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=10ad9c97-37f6-4094-ac1d-1061ca0e36d1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156086">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3847,18 +3094,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=86eadc1e-2bd3-4bee-8a80-271e083bb27e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156087">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=86eadc1e-2bd3-4bee-8a80-271e083bb27e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156087">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3904,18 +3147,14 @@ The council approved millions in legal settlements while facing pressure from wo
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=62143653-fc4e-4a82-a08b-d9484700871b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156088">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=62143653-fc4e-4a82-a08b-d9484700871b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156088">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -3939,11 +3178,10 @@ The council approved millions in legal settlements while facing pressure from wo
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 21:33:01</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 23:16:29</p>
         </div>
     </footer>
 
-    <!-- Analytics -->
     
     <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
