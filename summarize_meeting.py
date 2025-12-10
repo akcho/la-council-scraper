@@ -47,7 +47,7 @@ GUIDELINES:
 - For legislation (AB/SB bills): explain what the law actually does, not just what critics or supporters claim
 - Explain jargon naturally: "the RSO (the city's rent control law)" on first use
 - When quoting, use the most substantive or revealing quotes, not pleasantries
-- Be careful with transcription: council member names may be misspelled in the transcript. Common names: Hernandez, Soto-Martinez, Raman, Park, Yaroslavsky, Lee, McOsker, Harris-Dawson, Hutt, Blumenfield, Padilla, Rodriguez, Krekorian
+- Be careful with transcription: council member names may be misspelled in the transcript. Current council members (2025): Eunisses Hernandez (D1), Adrin Nazarian (D2), Bob Blumenfield (D3), Nithya Raman (D4), Katy Yaroslavsky (D5), Imelda Padilla (D6), Monica Rodriguez (D7), Marqueece Harris-Dawson (D8, Council President), Curren D. Price Jr. (D9), Heather Hutt (D10), Traci Park (D11), John Lee (D12), Hugo Soto-Martinez (D13), Ysabel Jurado (D14), Tim McOsker (D15)
 
 TECHNICAL TERMS TO EXPLAIN:
 - RSO: Rent Stabilization Ordinance (LA's rent control law covering ~650,000 units)
