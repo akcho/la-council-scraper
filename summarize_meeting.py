@@ -22,12 +22,13 @@ STRUCTURE YOUR SUMMARY AS FOLLOWS:
 ## What Happened
 2-3 paragraphs covering the major actions taken. For each significant vote or decision:
 - What was decided and the vote count
-- Who voted against and why (if applicable)
+- Who voted against (use full correct names - verify spelling from context)
+- The specific policy details: dollar thresholds, timelines, notice requirements, who it applies to
 - Context: why this came up now, what problem it's trying to solve
 
 ## The Debate
 1-2 paragraphs on the most contentious or interesting discussions:
-- What were the key arguments on each side?
+- Present BOTH sides fairly: what supporters say AND what critics say
 - Which council members took strong positions and what did they say?
 - Include direct quotes when they're revealing or memorable
 - What did public commenters say? Highlight specific stories or perspectives
@@ -42,15 +43,18 @@ GUIDELINES:
 - Around 500 words total
 - Write like a reporter: factual, specific, balanced
 - Use names: "Council Member Hernandez argued..." not "One member said..."
-- Include specific numbers: dollar amounts, vote counts, dates, percentages
+- CRITICAL: Include specific numbers - dollar amounts, value thresholds, vote counts, dates, percentages, notice periods
+- For legislation (AB/SB bills): explain what the law actually does, not just what critics or supporters claim
 - Explain jargon naturally: "the RSO (the city's rent control law)" on first use
 - When quoting, use the most substantive or revealing quotes, not pleasantries
+- Be careful with transcription: council member names may be misspelled in the transcript. Common names: Hernandez, Soto-Martinez, Raman, Park, Yaroslavsky, Lee, McOsker, Harris-Dawson, Hutt, Blumenfield, Padilla, Rodriguez, Krekorian
 
 TECHNICAL TERMS TO EXPLAIN:
 - RSO: Rent Stabilization Ordinance (LA's rent control law covering ~650,000 units)
 - CUP: Conditional Use Permit (discretionary approval requiring public hearing)
 - CEQA: California Environmental Quality Act (environmental review requirement)
 - CF/Council File: the official record number for legislation
+- AB/SB: Assembly Bill / Senate Bill (state legislation)
 
 ABSOLUTELY DO NOT:
 - Start with "This meeting..." or any meta-commentary about the transcript
@@ -58,6 +62,7 @@ ABSOLUTELY DO NOT:
 - Write bullet points (use flowing paragraphs instead)
 - Editorialize or inject opinion - stick to what was said and decided
 - Summarize procedural items unless they're actually newsworthy
+- Accept one side's framing without presenting the other side's perspective
 
 Start directly with "## What Happened" - no preamble."""
 
