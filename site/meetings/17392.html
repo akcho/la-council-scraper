@@ -5,384 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economic Development and Jobs Committee - LA Council Tracker</title>
     <meta name="description" content="Agenda items and details for Economic Development and Jobs Committee">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #f5f5f5;
-            padding-bottom: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 1.5rem 0;
-            margin-bottom: 1.5rem;
-        }
-
-        .breadcrumb {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .breadcrumb a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .meeting-meta {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-        }
-
-        .meeting-links {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            margin-top: 0.75rem;
-        }
-
-        .meeting-links a {
-            font-size: 0.875rem;
-            color: #0066cc;
-            text-decoration: none;
-            padding: 0.375rem 0.75rem;
-            border: 1px solid #0066cc;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-
-        .meeting-links a:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .video-summary {
-            background: #f8f9fa;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .video-summary h2 {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-        }
-
-        .video-summary-content {
-            font-size: 0.9375rem;
-            line-height: 1.7;
-            color: #333;
-        }
-
-        .video-summary-content h3.summary-section {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin: 1.5rem 0 0.75rem 0;
-            padding-bottom: 0.25rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .video-summary-content h3.summary-section:first-child {
-            margin-top: 0;
-        }
-
-        .video-summary-content p {
-            margin-bottom: 1rem;
-        }
-
-        .section {
-            margin-bottom: 2rem;
-        }
-
-        .section-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-            padding-left: 0.75rem;
-            border-left: 3px solid #0066cc;
-            cursor: pointer;
-            user-select: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .section-title:hover {
-            color: #0066cc;
-        }
-
-        .section-title::before {
-            content: "▼";
-            font-size: 0.75rem;
-            transition: transform 0.2s;
-            display: inline-block;
-        }
-
-        .section[open] .section-title::before {
-            transform: rotate(0deg);
-        }
-
-        .section:not([open]) .section-title::before {
-            transform: rotate(-90deg);
-        }
-
-        .section-content {
-            margin-top: 1rem;
-        }
-
-        .item-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: box-shadow 0.2s, border-color 0.2s;
-        }
-
-        .item-card-clickable {
-            cursor: pointer;
-        }
-
-        .item-card-clickable:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: #0066cc;
-        }
-
-        .item-card-link {
-            text-decoration: none;
-            color: inherit;
-            display: block;
-        }
-
-        .item-header {
-            display: flex;
-            gap: 0.5rem;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-        }
-
-        .item-number {
-            font-weight: 600;
-            color: #0066cc;
-            font-size: 0.875rem;
-        }
-
-        .item-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            display: inline-block;
-            padding: 0.25rem 0.5rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border-radius: 4px;
-            background: #f0f0f0;
-            color: #666;
-        }
-
-        .tag.council-file-tag {
-            background: #e3f2fd;
-            color: #1565c0;
-        }
-
-        .tag.district {
-            background: #f3e5f5;
-            color: #7b1fa2;
-        }
-
-        .item-title {
-            font-size: 1rem;
-            font-weight: 400;
-            color: #1a1a1a;
-            margin-bottom: 0.75rem;
-            line-height: 1.5;
-        }
-
-        .item-title strong {
-            font-weight: 700;
-        }
-
-        .item-title em {
-            font-style: italic;
-        }
-
-        .item-details {
-            margin-top: 0.75rem;
-        }
-
-        .item-details summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-            font-weight: 500;
-        }
-
-        .item-details summary:hover {
-            text-decoration: underline;
-        }
-
-        .item-details-content {
-            margin-top: 0.75rem;
-            padding: 0.75rem;
-            background: #f8f9fa;
-            border-left: 3px solid #e0e0e0;
-            font-size: 0.875rem;
-            color: #444;
-            line-height: 1.6;
-        }
-
-        .item-attachments {
-            margin-top: 0.75rem;
-        }
-
-        .item-attachments summary {
-            font-size: 0.875rem;
-            color: #0066cc;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .item-attachments summary:hover {
-            text-decoration: underline;
-        }
-
-        .attachment-list {
-            margin-top: 0.5rem;
-            padding-left: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .document-item {
-            display: flex;
-            flex-direction: column;
-            gap: 0.375rem;
-        }
-
-        .document-title {
-            font-size: 0.875rem;
-            color: #1a1a1a;
-            font-weight: 500;
-        }
-
-        .document-links {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .document-action {
-            font-size: 0.8125rem;
-            text-decoration: none;
-            padding: 0.25rem 0.625rem;
-            border-radius: 4px;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-
-        .document-action.view {
-            color: #0066cc;
-            border: 1px solid #0066cc;
-            background: transparent;
-        }
-
-        .document-action.view:hover {
-            background: #0066cc;
-            color: #fff;
-        }
-
-        .document-action.download {
-            color: #fff;
-            background: #0066cc;
-            border: 1px solid #0066cc;
-        }
-
-        .document-action.download:hover {
-            background: #0052a3;
-            border-color: #0052a3;
-        }
-
-        .empty-section {
-            font-size: 0.875rem;
-            color: #999;
-            font-style: italic;
-            padding: 0.5rem 0.75rem;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding: 1.5rem 0;
-            text-align: center;
-            font-size: 0.875rem;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        footer a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .meeting-meta {
-                font-size: 1rem;
-            }
-
-            .section-title {
-                font-size: 1.25rem;
-            }
-
-            .item-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
@@ -453,18 +76,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3c7816a7-e8a5-4ebb-a900-f255599b68ea"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c7816a7-e8a5-4ebb-a900-f255599b68ea"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -477,18 +96,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1fc13bf0-2065-4ed5-b8bf-9df24dfcbe2b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1fc13bf0-2065-4ed5-b8bf-9df24dfcbe2b"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -501,18 +116,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=34825d78-b6ae-4c88-9c6f-584f57240d0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=34825d78-b6ae-4c88-9c6f-584f57240d0a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -525,18 +136,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2bf7c1e3-44c1-404b-a9d8-d0a393a84016"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bf7c1e3-44c1-404b-a9d8-d0a393a84016"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -549,18 +156,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4fb39f56-d2a6-4ec9-b86c-3cc53ced510f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fb39f56-d2a6-4ec9-b86c-3cc53ced510f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -573,18 +176,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b531d716-edaa-4302-9e68-71a48f4645c4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b531d716-edaa-4302-9e68-71a48f4645c4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -597,18 +196,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f4eca470-999d-4800-8b33-fb379eb38022"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f4eca470-999d-4800-8b33-fb379eb38022"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -621,18 +216,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c9f3bd4a-dc18-401a-b785-21b6fecc0538"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9f3bd4a-dc18-401a-b785-21b6fecc0538"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -645,18 +236,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=5a14a648-8a14-4b9f-b5a7-a31a925c7102"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a14a648-8a14-4b9f-b5a7-a31a925c7102"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -669,18 +256,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=aaacdcef-ecd6-4220-90f5-7ae73ddbff19"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aaacdcef-ecd6-4220-90f5-7ae73ddbff19"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -693,18 +276,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d3deddf8-e4f8-4a57-819b-c433b1d6e030"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156984">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3deddf8-e4f8-4a57-819b-c433b1d6e030"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156984">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -752,18 +331,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=03095f85-dd78-4a16-bb04-9fafa6922640"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156972">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=03095f85-dd78-4a16-bb04-9fafa6922640"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156972">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -811,18 +386,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=20417b00-cdd1-4185-b409-39606f559f30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=20417b00-cdd1-4185-b409-39606f559f30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -835,18 +406,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=d96078eb-c178-485f-9f80-a8c875e1edb6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d96078eb-c178-485f-9f80-a8c875e1edb6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -859,18 +426,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e32466ea-7870-4140-b322-a086e22b5455"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e32466ea-7870-4140-b322-a086e22b5455"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -883,18 +446,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f4e0e498-29e4-433b-ae6f-6de417b5ef2a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f4e0e498-29e4-433b-ae6f-6de417b5ef2a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -907,18 +466,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=36bd9140-7b89-444c-b348-294c1b1ffd30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36bd9140-7b89-444c-b348-294c1b1ffd30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -931,18 +486,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8acc792e-5755-477d-8454-fdd6550551ee"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8acc792e-5755-477d-8454-fdd6550551ee"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -955,18 +506,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=348508d3-1c05-49b9-8096-82003843df6e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=348508d3-1c05-49b9-8096-82003843df6e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -979,18 +526,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=765dd0db-1a3c-4b4b-8175-5b205255ef38"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=765dd0db-1a3c-4b4b-8175-5b205255ef38"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1003,18 +546,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=4b24ec31-2975-44a9-8372-02c0305839c9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b24ec31-2975-44a9-8372-02c0305839c9"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1027,18 +566,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=14fe258a-d71d-4403-8635-b1e5a10b1e3a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=14fe258a-d71d-4403-8635-b1e5a10b1e3a"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1051,18 +586,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a5e2e636-e8e5-4ef3-a6a6-52a5e0dcbe5c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a5e2e636-e8e5-4ef3-a6a6-52a5e0dcbe5c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1075,18 +606,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f2cfe458-d03f-414b-9c26-b987e1508438"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2cfe458-d03f-414b-9c26-b987e1508438"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1099,18 +626,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=500d58c6-60ef-41a3-9314-b5e6878fecb5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156390">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=500d58c6-60ef-41a3-9314-b5e6878fecb5"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156390">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1156,18 +679,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=7cb7a6f4-6c47-43cd-b507-cbfc1da2aedb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7cb7a6f4-6c47-43cd-b507-cbfc1da2aedb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1180,18 +699,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=dd9f5470-5926-4cbf-8f20-b925e4d0c416"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd9f5470-5926-4cbf-8f20-b925e4d0c416"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1204,18 +719,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=da624065-f630-4d90-b4f0-ed7bf3c0c73e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=da624065-f630-4d90-b4f0-ed7bf3c0c73e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1228,18 +739,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=f9a51333-fcdf-4eda-a243-65d1d7b34fdc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f9a51333-fcdf-4eda-a243-65d1d7b34fdc"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1252,18 +759,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=3c1b8739-6536-4781-8b92-3beedf0e4fe0"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c1b8739-6536-4781-8b92-3beedf0e4fe0"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1276,18 +779,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=47c9f0e6-9b73-4d87-965b-b09df3e4bc2c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=47c9f0e6-9b73-4d87-965b-b09df3e4bc2c"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1300,18 +799,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=8970b125-88e3-4567-bd87-fd210343effb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8970b125-88e3-4567-bd87-fd210343effb"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1324,18 +819,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=13ccb24b-7b30-4333-ae3d-443a171d9620"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=13ccb24b-7b30-4333-ae3d-443a171d9620"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1348,18 +839,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=2707dfd3-ee25-47bf-9709-5eeed39c4db1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2707dfd3-ee25-47bf-9709-5eeed39c4db1"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1372,18 +859,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=dca3cc97-9a21-4b1d-9439-bdfc6014f8ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dca3cc97-9a21-4b1d-9439-bdfc6014f8ff"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1396,18 +879,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=e1178d4f-87de-4176-be4a-7409ae6d20fd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1178d4f-87de-4176-be4a-7409ae6d20fd"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1420,18 +899,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=c9740f1b-89ee-4909-bd7c-15842c12777f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9740f1b-89ee-4909-bd7c-15842c12777f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1444,18 +919,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=21b4413b-5b4a-4593-996c-088c579aa833"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21b4413b-5b4a-4593-996c-088c579aa833"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1468,18 +939,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=999492d6-11b4-4692-a189-97ad9248b061"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155618">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=999492d6-11b4-4692-a189-97ad9248b061"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155618">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1530,18 +997,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a33ebd30-1a9c-47b2-a58f-658af2008c1f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="155622">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a33ebd30-1a9c-47b2-a58f-658af2008c1f"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="155622">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1587,18 +1050,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=a9b0cb29-3d5c-4a67-80e8-d87b6114df64"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156985">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9b0cb29-3d5c-4a67-80e8-d87b6114df64"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156985">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1611,18 +1070,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=27d4c87c-6226-4850-9d97-ffa71292a374"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="156985">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=27d4c87c-6226-4850-9d97-ffa71292a374"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="156985">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1668,18 +1123,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=b128ab8f-c76f-4428-9ec6-421f6d6ab910"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b128ab8f-c76f-4428-9ec6-421f6d6ab910"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1692,18 +1143,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ebdeda5b-9bf9-42b8-a80e-722c7b786cd7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ebdeda5b-9bf9-42b8-a80e-722c7b786cd7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1716,18 +1163,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ea3088ba-7898-4ae2-8350-eb076a7222f4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea3088ba-7898-4ae2-8350-eb076a7222f4"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1740,18 +1183,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=bc4b5de8-dd5c-4d6d-84ce-c3c9060e026e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc4b5de8-dd5c-4d6d-84ce-c3c9060e026e"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1764,18 +1203,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=eadd8dfc-18ac-48a3-835a-8907f5b9c449"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eadd8dfc-18ac-48a3-835a-8907f5b9c449"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1788,18 +1223,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=527e18bc-5d5a-470b-a0e3-9cec3cea2c90"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=527e18bc-5d5a-470b-a0e3-9cec3cea2c90"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1812,18 +1243,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=dbdf550a-6874-443e-81ae-5768c49afbc7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbdf550a-6874-443e-81ae-5768c49afbc7"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1836,18 +1263,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=38856346-97a8-4390-9dca-7a166eade226"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=38856346-97a8-4390-9dca-7a166eade226"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1860,18 +1283,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=413db27f-29bf-45fb-861d-ce2d27a8ebe6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157080">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=413db27f-29bf-45fb-861d-ce2d27a8ebe6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157080">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1917,18 +1336,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=178d20d1-50f4-4057-a108-f830f3f6ae30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=178d20d1-50f4-4057-a108-f830f3f6ae30"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1941,18 +1356,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=55e4371d-72c9-41b9-aba9-c469a858f692"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=55e4371d-72c9-41b9-aba9-c469a858f692"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1965,18 +1376,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=aac9f3b1-87d4-4ade-bf1a-3891f369c838"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aac9f3b1-87d4-4ade-bf1a-3891f369c838"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -1989,18 +1396,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=205595c1-f648-474c-80b6-594aae57c291"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=205595c1-f648-474c-80b6-594aae57c291"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2013,18 +1416,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=1d171020-5261-4e2e-91d3-f24848353ea6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d171020-5261-4e2e-91d3-f24848353ea6"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2037,18 +1436,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=64a10644-d868-4d6e-8e40-a24b7ed7fd57"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=64a10644-d868-4d6e-8e40-a24b7ed7fd57"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2061,18 +1456,14 @@
                                     <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=ae2b91a4-61dc-42be-a9c6-9439fc7ae1ae"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action view"
-                                       data-plausible-event="document-view"
-                                       data-item-id="157082">
+                                       class="document-action view">
                                         View
                                     </a>
                                     
                                     <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae2b91a4-61dc-42be-a9c6-9439fc7ae1ae"
                                        target="_blank"
                                        rel="noopener"
-                                       class="document-action download"
-                                       data-plausible-event="document-download"
-                                       data-item-id="157082">
+                                       class="document-action download">
                                         Download
                                     </a>
                                 </div>
@@ -2092,11 +1483,10 @@
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 21:33:01</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 23:11:25</p>
         </div>
     </footer>
 
-    <!-- Analytics -->
     
     <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
 <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>

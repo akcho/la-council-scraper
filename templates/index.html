@@ -5,177 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Council Reader - Los Angeles City Council Meetings</title>
     <meta name="description" content="Making Los Angeles City Council meetings readable and accessible with AI-powered summaries">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            background: #f5f5f5;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        header {
-            background: #fff;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 2rem 0 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        h1 {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .tagline {
-            font-size: 1.125rem;
-            color: #666;
-        }
-
-        .meetings-list {
-            background: #fff;
-            border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            color: #1a1a1a;
-        }
-
-        .meeting-card {
-            padding: 1.25rem;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            transition: all 0.2s;
-            text-decoration: none;
-            display: block;
-            color: inherit;
-        }
-
-        .meeting-card:hover {
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            border-color: #0066cc;
-        }
-
-        .meeting-title {
-            font-size: 1.125rem;
-            font-weight: 500;
-            color: #1a1a1a;
-            margin-bottom: 0.5rem;
-        }
-
-        .meeting-date {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.5rem;
-        }
-
-        .meeting-stats {
-            font-size: 0.875rem;
-            color: #999;
-        }
-
-        .meeting-committee {
-            font-size: 0.8125rem;
-            color: #0066cc;
-            margin-bottom: 0.25rem;
-        }
-
-        .committee-filter {
-            margin-bottom: 1.5rem;
-        }
-
-        .committee-filter-label {
-            font-size: 0.875rem;
-            color: #666;
-            margin-bottom: 0.75rem;
-            display: block;
-        }
-
-        .committee-tabs {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .committee-tab {
-            padding: 0.5rem 1rem;
-            font-size: 0.875rem;
-            border: 1px solid #e0e0e0;
-            border-radius: 20px;
-            background: #fff;
-            color: #666;
-            cursor: pointer;
-            transition: all 0.2s;
-            white-space: nowrap;
-        }
-
-        .committee-tab:hover {
-            border-color: #0066cc;
-            color: #0066cc;
-        }
-
-        .committee-tab.active {
-            background: #0066cc;
-            border-color: #0066cc;
-            color: #fff;
-        }
-
-        .meeting-card[data-hidden="true"] {
-            display: none;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding-top: 2rem;
-            text-align: center;
-            font-size: 0.875rem;
-            color: #666;
-            border-top: 1px solid #e0e0e0;
-        }
-
-        footer a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            .tagline {
-                font-size: 1rem;
-            }
-
-            h2 {
-                font-size: 1.25rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="index-header">
         <div class="container">
             <h1>Council Reader</h1>
             <p class="tagline">Making Los Angeles City Council meetings readable and accessible</p>
@@ -215,7 +48,6 @@
         </div>
     </footer>
 
-    <!-- Committee Filter Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const tabs = document.querySelectorAll('.committee-tab');
@@ -223,13 +55,11 @@
 
             tabs.forEach(tab => {
                 tab.addEventListener('click', function() {
-                    // Update active tab
                     tabs.forEach(t => t.classList.remove('active'));
                     this.classList.add('active');
 
                     const committee = this.dataset.committee;
 
-                    // Filter cards
                     cards.forEach(card => {
                         if (committee === 'all' || card.dataset.committee === committee) {
                             card.removeAttribute('data-hidden');
@@ -242,7 +72,6 @@
         });
     </script>
 
-    <!-- Analytics -->
     {% if analytics_script %}
     {{ analytics_script | safe }}
     {% endif %}
