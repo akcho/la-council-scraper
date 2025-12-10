@@ -220,8 +220,47 @@ def improve_section_title(title):
     # Return improved title if available, otherwise return original
     return title_improvements.get(title, title)
 
-def generate_meeting_page(meeting_id):
-    """Generate HTML page for a single meeting."""
+def needs_regeneration(meeting_id):
+    """Check if a meeting page needs to be regenerated based on source file timestamps."""
+    output_file = OUTPUT_DIR / f"{meeting_id}.html"
+
+    # If output doesn't exist, needs generation
+    if not output_file.exists():
+        return True
+
+    output_mtime = output_file.stat().st_mtime
+
+    # Check agenda file
+    agenda_file = AGENDAS_DIR / f"agenda_{meeting_id}.json"
+    if agenda_file.exists() and agenda_file.stat().st_mtime > output_mtime:
+        return True
+
+    # Check video summary file
+    summary_file = VIDEO_SUMMARIES_DIR / f"meeting_{meeting_id}_summary.json"
+    if summary_file.exists() and summary_file.stat().st_mtime > output_mtime:
+        return True
+
+    # Check template file
+    template_file = TEMPLATES_DIR / "meeting.html"
+    if template_file.exists() and template_file.stat().st_mtime > output_mtime:
+        return True
+
+    return False
+
+
+def generate_meeting_page(meeting_id, force=False):
+    """Generate HTML page for a single meeting.
+
+    Args:
+        meeting_id: The meeting ID to generate
+        force: If True, regenerate even if up-to-date
+
+    Returns:
+        output_file path if generated, None if skipped
+    """
+    # Check if regeneration is needed
+    if not force and not needs_regeneration(meeting_id):
+        return None  # Skip - already up to date
 
     # Load configuration
     config = load_site_config()
@@ -426,6 +465,7 @@ def generate_all_meetings():
     print()
 
     generated = []
+    skipped = []
     failed = []
     meetings_data = []
 
@@ -437,7 +477,10 @@ def generate_all_meetings():
 
         try:
             output_file = generate_meeting_page(meeting_id)
-            generated.append(output_file)
+            if output_file:
+                generated.append(output_file)
+            else:
+                skipped.append(meeting_id)
 
             # Collect meeting data for index page
             metadata = load_meeting_metadata(meeting_id)
@@ -503,6 +546,8 @@ def generate_all_meetings():
     # Summary
     print()
     print(f"Generated {len(generated)} meeting page(s)")
+    if skipped:
+        print(f"Skipped {len(skipped)} up-to-date page(s)")
 
     if failed:
         print(f"Failed: {len(failed)} page(s)")
@@ -513,22 +558,117 @@ def generate_all_meetings():
         print("Pages saved to:")
         print(f"  {OUTPUT_DIR.absolute()}")
 
+def generate_all_meetings_forced():
+    """Generate all meeting pages, ignoring timestamps."""
+    # Temporarily patch generate_meeting_page to always regenerate
+    if not AGENDAS_DIR.exists():
+        print(f"Error: Agendas directory not found: {AGENDAS_DIR}")
+        return
+
+    agenda_files = sorted(AGENDAS_DIR.glob("agenda_*.json"), reverse=True)
+    if not agenda_files:
+        print(f"No agenda files found in {AGENDAS_DIR}")
+        return
+
+    print(f"Found {len(agenda_files)} agenda file(s)")
+    print("Force regenerating all pages...")
+    print()
+
+    generated = []
+    failed = []
+    meetings_data = []
+
+    for agenda_file in agenda_files:
+        filename = agenda_file.stem
+        meeting_id = int(filename.replace('agenda_', ''))
+
+        try:
+            output_file = generate_meeting_page(meeting_id, force=True)
+            generated.append(output_file)
+
+            # Collect meeting data for index page
+            metadata = load_meeting_metadata(meeting_id)
+            agenda = load_agenda(meeting_id)
+            items_count = sum(len(section.get('items', [])) for section in agenda.get('sections', []))
+
+            if metadata:
+                date_value = metadata.get('dateTime') or metadata.get('meetingDate')
+                meeting_date = format_meeting_date(date_value)
+            else:
+                meeting_datetime = agenda.get('meeting_datetime')
+                meeting_date = format_meeting_date(meeting_datetime) if meeting_datetime else 'Date TBD'
+
+            committee_name = None
+            committee_id = None
+            if metadata:
+                committee_name = metadata.get('committeeName')
+                committee_id = metadata.get('committeeId')
+
+            meeting_title = None
+            if metadata:
+                meeting_title = metadata.get('name') or committee_name
+            meeting_title = meeting_title or 'City Council Meeting'
+
+            meetings_data.append({
+                'meeting_id': meeting_id,
+                'title': meeting_title,
+                'date': meeting_date,
+                'items_count': items_count,
+                'committee_name': committee_name or 'City Council Meeting',
+                'committee_id': committee_id or 1
+            })
+
+        except Exception as e:
+            print(f"✗ Failed to generate page for meeting {meeting_id}: {e}")
+            failed.append(meeting_id)
+
+    if meetings_data:
+        def parse_meeting_date(meeting):
+            try:
+                date_str = meeting['date']
+                dt = datetime.strptime(date_str, "%B %d, %Y")
+                return dt
+            except:
+                return datetime.min
+
+        meetings_data.sort(key=parse_meeting_date, reverse=True)
+        print()
+        generate_index_page(meetings_data)
+
+    print()
+    print(f"Generated {len(generated)} meeting page(s)")
+
+    if failed:
+        print(f"Failed: {len(failed)} page(s)")
+
+    if generated:
+        print()
+        print("Pages saved to:")
+        print(f"  {OUTPUT_DIR.absolute()}")
+
+
 def main():
     """Main entry point."""
     import sys
 
-    if len(sys.argv) > 1:
+    force = '--force' in sys.argv or '-f' in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith('-')]
+
+    if args:
         # Generate specific meeting
-        meeting_id = int(sys.argv[1])
+        meeting_id = int(args[0])
         try:
-            output_file = generate_meeting_page(meeting_id)
+            output_file = generate_meeting_page(meeting_id, force=True)
             print()
             print(f"View at: file://{output_file.absolute()}")
         except Exception as e:
             print(f"Error: {e}")
             sys.exit(1)
+    elif force:
+        # Force regenerate all
+        generate_all_meetings_forced()
     else:
-        # Generate all meetings
+        # Generate only changed meetings
         generate_all_meetings()
 
 if __name__ == "__main__":
