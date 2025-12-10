@@ -11,46 +11,53 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-SUMMARIZATION_PROMPT = """You are analyzing a transcript from a Los Angeles City Council meeting. Create a concise, useful summary for LA residents who want to stay informed about city decisions.
+SUMMARIZATION_PROMPT = """You are a local government reporter covering Los Angeles City Council for engaged residents. Write a news-style summary that explains what happened and why it matters.
 
-Start IMMEDIATELY with **KEY DECISIONS** - no preamble, no meta-commentary.
+Write in a clear, narrative style - like a news article, not bullet points. Use paragraphs and complete sentences.
 
-**KEY DECISIONS** (2-3 bullet points)
-- Major votes, approvals, or policy actions
-- Include vote counts if mentioned (e.g., "passed 12-0")
-- Focus on what was decided, not process
+STRUCTURE YOUR SUMMARY AS FOLLOWS:
 
-**NOTABLE DISCUSSIONS** (2-3 bullet points)
-- Issues debated that affect residents
-- Public comment themes if significant
-- Upcoming decisions previewed
+## What Happened
+2-3 paragraphs covering the major actions taken. For each significant vote or decision:
+- What was decided and the vote count
+- Who voted against and why (if applicable)
+- Context: why this came up now, what problem it's trying to solve
 
-**BOTTOM LINE** (1-2 sentences)
-- What LA residents should know or watch for
-- Focus on upcoming votes, policy implications, or community concerns raised
+## The Debate
+1-2 paragraphs on the most contentious or interesting discussions:
+- What were the key arguments on each side?
+- Which council members took strong positions and what did they say?
+- Include direct quotes when they're revealing or memorable
+- What did public commenters say? Highlight specific stories or perspectives
 
-Guidelines:
-- Under 250 words total
-- No jargon - explain acronyms and technical terms
-- Focus on substance: decisions, debates, outcomes
-- Be specific: names, amounts, locations, vote counts
+## What It Means
+1-2 paragraphs on implications:
+- How will this affect LA residents? Be specific about who's impacted
+- What happens next? (implementation timeline, upcoming votes, potential legal challenges)
+- Unanswered questions or things to watch
 
-HOUSING & DEVELOPMENT TERMS - briefly explain these when they appear:
-- CUP (Conditional Use Permit): requires public hearing and discretionary approval vs. "by-right" permits
-- RSO (Rent Stabilization Ordinance): LA's rent control law
-- ADU: accessory dwelling unit (backyard homes/granny flats)
-- TOC: Transit Oriented Communities (density bonuses near transit)
-- CEQA: California Environmental Quality Act (environmental review)
-- Zoning variances/appeals: when projects don't meet standard requirements
-- For appeals: clarify who appealed (neighbors opposing vs. developers challenging denials) and what the council's vote means for the project's future
+GUIDELINES:
+- Around 500 words total
+- Write like a reporter: factual, specific, balanced
+- Use names: "Council Member Hernandez argued..." not "One member said..."
+- Include specific numbers: dollar amounts, vote counts, dates, percentages
+- Explain jargon naturally: "the RSO (the city's rent control law)" on first use
+- When quoting, use the most substantive or revealing quotes, not pleasantries
 
-CRITICAL:
-- ABSOLUTELY BANNED WORDS that must NEVER appear anywhere: ceremonial, routine, primarily, mostly, limited legislative, recognition ceremonies, presentations and recognition
-- Do NOT describe what the meeting "focused on" or characterize its format
-- NEVER start with "This meeting was..." or "This transcript shows..."
-- Start your response with "**KEY DECISIONS**" - nothing before it
-- BOTTOM LINE must state a policy takeaway or resident impact - NOT describe meeting format
-- If few legislative votes occurred, focus on public comment themes and upcoming issues"""
+TECHNICAL TERMS TO EXPLAIN:
+- RSO: Rent Stabilization Ordinance (LA's rent control law covering ~650,000 units)
+- CUP: Conditional Use Permit (discretionary approval requiring public hearing)
+- CEQA: California Environmental Quality Act (environmental review requirement)
+- CF/Council File: the official record number for legislation
+
+ABSOLUTELY DO NOT:
+- Start with "This meeting..." or any meta-commentary about the transcript
+- Use words like: ceremonial, routine, primarily, mostly
+- Write bullet points (use flowing paragraphs instead)
+- Editorialize or inject opinion - stick to what was said and decided
+- Summarize procedural items unless they're actually newsworthy
+
+Start directly with "## What Happened" - no preamble."""
 
 def summarize_with_claude(transcript: str, api_key: str = None) -> str:
     """
@@ -79,7 +86,7 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
         # Use prompt caching to reduce costs and avoid rate limits
         message = client.messages.create(
             model="claude-sonnet-4-20250514",  # Latest Claude model
-            max_tokens=800,  # Shorter for comment format
+            max_tokens=1000,  # ~500 word summaries
             temperature=0.3,  # Lower temp for more factual output
             system=[
                 {

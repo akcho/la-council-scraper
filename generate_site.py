@@ -28,8 +28,8 @@ def markdown_to_html(text):
     if not text:
         return text
 
-    # Convert ## headers to <strong> (for section headers)
-    text = re.sub(r'^## (.+)$', r'<strong>\1</strong>', text, flags=re.MULTILINE)
+    # Convert ## headers to styled section headers
+    text = re.sub(r'^## (.+)$', r'<h3 class="summary-section">\1</h3>', text, flags=re.MULTILINE)
 
     # Convert **bold** to <strong>
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)

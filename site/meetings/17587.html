@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meeting_title }} - LA Council Tracker</title>
-    <meta name="description" content="Agenda items and details for {{ meeting_title }}">
+    <title>Los Angeles City Health Commission - LA Council Tracker</title>
+    <meta name="description" content="Agenda items and details for Los Angeles City Health Commission">
     <style>
         * {
             margin: 0;
@@ -390,117 +390,278 @@
             <div class="breadcrumb">
                 <a href="../index.html">← All Meetings</a>
             </div>
-            <h1>{{ meeting_title }}</h1>
+            <h1>Los Angeles City Health Commission</h1>
             <div class="meeting-meta">
-                <div>{{ meeting_date }}</div>
-                <div>Meeting ID: {{ meeting_id }}</div>
+                <div>December 08, 2025</div>
+                <div>Meeting ID: 17587</div>
             </div>
             <div class="meeting-links">
-                <a href="{{ portal_url }}" target="_blank" rel="noopener">View Official Agenda</a>
-                {% if video_url %}
-                <a href="{{ video_url }}" target="_blank" rel="noopener">Watch Video</a>
-                {% endif %}
+                <a href="https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148704" target="_blank" rel="noopener">View Official Agenda</a>
+                
+                <a href="https://youtube.com/watch?v=M7iF6To2GpA" target="_blank" rel="noopener">Watch Video</a>
+                
             </div>
         </div>
     </header>
 
     <main class="container">
-        {% if video_summary %}
-        <div class="video-summary">
-            <h2>📺 Meeting summary</h2>
-            <div class="video-summary-content">{{ video_summary | safe }}</div>
-        </div>
-        {% endif %}
+        
 
-        {% for section in sections %}
-        {% if section['items'] %}
+        
+        
+        
+        
         <details class="section">
-            <summary class="section-title">{{ section.title | improve_section_title }}</summary>
+            <summary class="section-title">Approval of the Minutes</summary>
 
             <div class="section-content">
-            {% for item in section['items'] %}
-                <article class="item-card {% if item.council_file %}item-card-clickable{% endif %}">
-                    {% if item.council_file %}
-                    <a href="../councilfiles/{{ item.council_file }}.html" class="item-card-link">
-                    {% endif %}
+            
+                <article class="item-card ">
+                    
                         <div class="item-header">
-                            <span class="item-number">{{ item.item_number }}</span>
+                            <span class="item-number"></span>
                             <div class="item-tags">
-                                {% if item.council_file %}
-                                <span class="tag council-file-tag">{{ item.council_file }}</span>
-                                {% endif %}
-                                {% if item.district %}
-                                <span class="tag district">{{ item.district }}</span>
-                                {% endif %}
+                                
+                                
                             </div>
                         </div>
 
-                        {% if item.ai_summary %}
-                        <h3 class="item-title">{{ item.ai_summary | safe }}</h3>
-                        {% elif item.title %}
-                        <h3 class="item-title">{{ item.title }}</h3>
-                        {% endif %}
-                    {% if item.council_file %}
-                    </a>
-                    {% endif %}
+                        
+                        <h3 class="item-title">Approval of the Minutes from the November 10, 2025 Regular Meeting.</h3>
+                        
+                    
 
-                    {% if item.recommendation %}
-                    <details class="item-details">
-                        <summary>Official recommendation</summary>
-                        <div class="item-details-content">{{ item.recommendation }}</div>
-                    </details>
-                    {% endif %}
+                    
 
-                    {% if item.attachments %}
+                    
                     <details class="item-attachments">
-                        <summary>Documents ({{ item.attachments|length }})</summary>
+                        <summary>Documents (1)</summary>
                         <div class="attachment-list">
-                            {% for doc in item.attachments %}
+                            
                             <div class="document-item">
-                                <span class="document-title">{{ doc.title }}</span>
+                                <span class="document-title">Draft Meeting Minutes from November 10, 2025</span>
                                 <div class="document-links">
-                                    {% if doc.previewUrl %}
-                                    <a href="https://lacity.primegov.com{{ doc.previewUrl }}"
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=9de79517-1e22-4902-980c-db34da125d89"
                                        target="_blank"
                                        rel="noopener"
                                        class="document-action view"
                                        data-plausible-event="document-view"
-                                       data-item-id="{{ item.item_id }}">
+                                       data-item-id="157219">
                                         View
                                     </a>
-                                    {% endif %}
-                                    <a href="https://lacity.primegov.com{{ doc.downloadUrl }}"
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9de79517-1e22-4902-980c-db34da125d89"
                                        target="_blank"
                                        rel="noopener"
                                        class="document-action download"
                                        data-plausible-event="document-download"
-                                       data-item-id="{{ item.item_id }}">
+                                       data-item-id="157219">
                                         Download
                                     </a>
                                 </div>
                             </div>
-                            {% endfor %}
+                            
                         </div>
                     </details>
-                    {% endif %}
+                    
                 </article>
-                {% endfor %}
+                
             </div>
         </details>
-        {% endif %}
-        {% endfor %}
+        
+        
+        
+        
+        
+        
+        
+        <details class="section">
+            <summary class="section-title">Items(s)</summary>
+
+            <div class="section-content">
+            
+                <article class="item-card ">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(1)</span>
+                            <div class="item-tags">
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Presentation by Daniel Perez, Congress of Neighborhoods, and Marilu Guevara, Director of Awareness and Engagement, Department of Neighborhood Empowerment, on the role of Neighborhood Councils in local government, the goals and objectives of the annual Congress of Neighborhoods, and opportunities for collaboration in promoting and implementing the Plan for a Healthy Los Angeles; and possible Commission action.</h3>
+                        
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Presentation on Neighborhood Councils and the Congress of Neighborhoods 12-08-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=21dbdbcf-00c2-4a63-a667-851e371092fc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="157220">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21dbdbcf-00c2-4a63-a667-851e371092fc"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="157220">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card ">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(2)</span>
+                            <div class="item-tags">
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Presentation by Joseph Donlin, Director of United to House Los Angeles, and Denny Zane, Founder, Move LA, Steering Committee Member, UHLA, on Measure ULA and its impact on housing for low-income communities; and possible Commission action.</h3>
+                        
+                    
+
+                    
+
+                    
+                    <details class="item-attachments">
+                        <summary>Documents (1)</summary>
+                        <div class="attachment-list">
+                            
+                            <div class="document-item">
+                                <span class="document-title">Presentation on the Progress of Measure ULA 12-08-25</span>
+                                <div class="document-links">
+                                    
+                                    <a href="https://lacity.primegov.com/viewer/preview?id=0&amp;type=8&amp;uid=49c0a4d9-e694-40a5-8582-a0e51a919e27"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action view"
+                                       data-plausible-event="document-view"
+                                       data-item-id="157456">
+                                        View
+                                    </a>
+                                    
+                                    <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=49c0a4d9-e694-40a5-8582-a0e51a919e27"
+                                       target="_blank"
+                                       rel="noopener"
+                                       class="document-action download"
+                                       data-plausible-event="document-download"
+                                       data-item-id="157456">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </details>
+                    
+                </article>
+                
+                <article class="item-card ">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(3)</span>
+                            <div class="item-tags">
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Discussion on establishing the honorary position of President Emeritus and possible Commission action.</h3>
+                        
+                    
+
+                    
+
+                    
+                </article>
+                
+                <article class="item-card ">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(4)</span>
+                            <div class="item-tags">
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Overview and Discussion on the 2025 Annual Report and possible Commission action.</h3>
+                        
+                    
+
+                    
+
+                    
+                </article>
+                
+                <article class="item-card ">
+                    
+                        <div class="item-header">
+                            <span class="item-number">(5)</span>
+                            <div class="item-tags">
+                                
+                                
+                            </div>
+                        </div>
+
+                        
+                        <h3 class="item-title">Items for Future Discussion</h3>
+                        
+                    
+
+                    
+
+                    
+                </article>
+                
+            </div>
+        </details>
+        
+        
+        
+        
     </main>
 
     <footer>
         <div class="container">
             <p>Data sourced from <a href="https://lacity.primegov.com" target="_blank" rel="noopener">LA City PrimeGov</a></p>
-            <p style="margin-top: 0.5rem;">Generated on {{ generated_at }}</p>
+            <p style="margin-top: 0.5rem;">Generated on 2025-12-09 21:33:01</p>
         </div>
     </footer>
 
     <!-- Analytics -->
-    {% if analytics_script %}
-    {{ analytics_script | safe }}
-    {% endif %}
+    
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+    
 </body>
 </html>

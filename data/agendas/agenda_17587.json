@@ -1,0 +1,116 @@
+{
+  "meeting_id": 17587,
+  "template_id": 148704,
+  "parsed_at": "2025-12-09T07:15:25.927407",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148704",
+  "sections": [
+    {
+      "section_id": "359145",
+      "title": "Roll Call",
+      "items": []
+    },
+    {
+      "section_id": "359144",
+      "title": "Approval of the Minutes",
+      "items": [
+        {
+          "item_id": "157219",
+          "item_number": "",
+          "has_attachments": true,
+          "raw_text": "Approval of the Minutes from the November 10, 2025 Regular Meeting.\nDraft Meeting Minutes from November 10, 2025",
+          "title": "Approval of the Minutes from the November 10, 2025 Regular Meeting.",
+          "mig": "936792a2-22ca-4f3c-9e2d-07ffd56a625d",
+          "attachments": [
+            {
+              "historyId": "9de79517-1e22-4902-980c-db34da125d89",
+              "title": "Draft Meeting Minutes from November 10, 2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9de79517-1e22-4902-980c-db34da125d89",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9de79517-1e22-4902-980c-db34da125d89"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "359147",
+      "title": "Neighborhood Council Comments (pursuant to Ordinance No. 184243)",
+      "items": []
+    },
+    {
+      "section_id": "359148",
+      "title": "Public Comment",
+      "items": []
+    },
+    {
+      "section_id": "359146",
+      "title": "Items(s)",
+      "items": [
+        {
+          "item_id": "157220",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "Presentation by Daniel Perez, Congress of Neighborhoods, and Marilu Guevara, Director of Awareness and Engagement, Department of Neighborhood Empowerment, on the role of Neighborhood Councils in local government, the goals and objectives of the annual Congress of Neighborhoods, and opportunities for collaboration in promoting and implementing the Plan for a Healthy Los Angeles; and possible Commission action.\nPresentation on Neighborhood Councils and the Congress of Neighborhoods 12-08-25",
+          "title": "Presentation by Daniel Perez, Congress of Neighborhoods, and Marilu Guevara, Director of Awareness and Engagement, Department of Neighborhood Empowerment, on the role of Neighborhood Councils in local government, the goals and objectives of the annual Congress of Neighborhoods, and opportunities for collaboration in promoting and implementing the Plan for a Healthy Los Angeles; and possible Commission action.",
+          "mig": "5bed612c-94a4-4f42-b3a3-d9b09aa6e2a3",
+          "attachments": [
+            {
+              "historyId": "21dbdbcf-00c2-4a63-a667-851e371092fc",
+              "title": "Presentation on Neighborhood Councils and the Congress of Neighborhoods 12-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=21dbdbcf-00c2-4a63-a667-851e371092fc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=21dbdbcf-00c2-4a63-a667-851e371092fc"
+            }
+          ]
+        },
+        {
+          "item_id": "157456",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "Presentation by Joseph Donlin, Director of United to House Los Angeles, and Denny Zane, Founder, Move LA, Steering Committee Member, UHLA, on Measure ULA and its impact on housing for low-income communities; and possible Commission action.\nPresentation on the Progress of Measure ULA 12-08-25",
+          "title": "Presentation by Joseph Donlin, Director of United to House Los Angeles, and Denny Zane, Founder, Move LA, Steering Committee Member, UHLA, on Measure ULA and its impact on housing for low-income communities; and possible Commission action.",
+          "mig": "f1c41ed7-65ba-4645-b3ff-fce8111f5668",
+          "attachments": [
+            {
+              "historyId": "49c0a4d9-e694-40a5-8582-a0e51a919e27",
+              "title": "Presentation on the Progress of Measure ULA 12-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=49c0a4d9-e694-40a5-8582-a0e51a919e27",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=49c0a4d9-e694-40a5-8582-a0e51a919e27"
+            }
+          ]
+        },
+        {
+          "item_id": "157222",
+          "item_number": "(3)",
+          "has_attachments": false,
+          "raw_text": "Discussion on establishing the honorary position of President Emeritus and possible Commission action.",
+          "title": "Discussion on establishing the honorary position of President Emeritus and possible Commission action.",
+          "mig": "ebc65d27-3ca0-4463-97d0-01e28acfd148"
+        },
+        {
+          "item_id": "157223",
+          "item_number": "(4)",
+          "has_attachments": false,
+          "raw_text": "Overview and Discussion on the 2025 Annual Report and possible Commission action.",
+          "title": "Overview and Discussion on the 2025 Annual Report and possible Commission action.",
+          "mig": "5fd93311-6862-4a23-a3e6-d0a6c190fdea"
+        },
+        {
+          "item_id": "157224",
+          "item_number": "(5)",
+          "has_attachments": false,
+          "raw_text": "Items for Future Discussion",
+          "title": "Items for Future Discussion",
+          "mig": "06ca7af9-164c-4f54-9b4f-e9fff56b5a75"
+        }
+      ]
+    },
+    {
+      "section_id": "359149",
+      "title": "Adjournment",
+      "items": []
+    }
+  ],
+  "total_items": 6,
+  "total_sections": 6,
+  "meeting_datetime": "2025-12-09T02:00:00",
+  "video_url": "https://www.youtube.com/watch?v=M7iF6To2GpA"
+}

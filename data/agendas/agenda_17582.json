@@ -1,0 +1,409 @@
+{
+  "meeting_id": 17582,
+  "template_id": 148669,
+  "parsed_at": "2025-12-09T07:15:25.495330",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148669",
+  "sections": [
+    {
+      "section_id": "359135",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359136",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359137",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "157311",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "15-0989-S41\nDepartment of Cultural Affairs report relative to an update on planning efforts and approval of the 2028 Cultural Program for the Olympic and Paralympic Games Framework.\n(This matter is referred to the Ad Hoc Committee on the 2028 Olympic and Paralympic Games and Arts, Parks, Libraries and Community Enrichment Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Department of Cultural Affairs dated 10-07-25\nCouncil Action dated 12-18-24\nSpeaker Card(s)_12-13-2024\nMotion (Rodriguez - Park) dated 9-25-24",
+          "council_file": "15-0989-S41",
+          "title": "Department of Cultural Affairs report relative to an update on planning efforts and approval of the 2028 Cultural Program for the Olympic and Paralympic Games Framework.",
+          "mig": "f16ef989-084e-4530-a530-4d7a4787f772",
+          "attachments": [
+            {
+              "historyId": "f8905956-96b4-43d1-bc30-7e3aaa7aebae",
+              "title": "Report from Department of Cultural Affairs dated 10-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8905956-96b4-43d1-bc30-7e3aaa7aebae",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f8905956-96b4-43d1-bc30-7e3aaa7aebae"
+            },
+            {
+              "historyId": "e8e92415-da92-4d7e-9f97-0df32c460849",
+              "title": "Council Action dated 12-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8e92415-da92-4d7e-9f97-0df32c460849",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8e92415-da92-4d7e-9f97-0df32c460849"
+            },
+            {
+              "historyId": "8233f9ae-35ab-4876-a18a-84a39a7ce313",
+              "title": "Speaker Card(s)_12-13-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8233f9ae-35ab-4876-a18a-84a39a7ce313",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8233f9ae-35ab-4876-a18a-84a39a7ce313"
+            },
+            {
+              "historyId": "4e818ae3-147d-4f2e-a660-7a12ce52e825",
+              "title": "Motion (Rodriguez - Park) dated 9-25-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e818ae3-147d-4f2e-a660-7a12ce52e825",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4e818ae3-147d-4f2e-a660-7a12ce52e825"
+            }
+          ]
+        },
+        {
+          "item_id": "157411",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "24-1221\nDepartment on Disability report relative to a fentanyl detection device distribution pilot program as part of the Opioid Remediation Program.\n(This item is referred to the Government Operations Committee and Arts, Parks, Libraries, and Community Enrichment Committee. The Government Operations Committee amended the item on October 7, 2025.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTransmittal Letter 10-7-25\nSpeaker Card(s)_10-07-2025\nCommunication(s) from Public_10-06-2025\nReport from Department on Disability dated 7-01-25\nCouncil Action dated 6-26-25\nSpeaker Card(s)_06-25-2025\nMotion (Hernandez - McOsker) dated 6-25-25\nSpeaker Card(s)_06-10-2025\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 6-10-25\nGovernment Operations Committee Report 5-25-25\nTransmittal Letter 5-20-25\nSpeaker Card(s)_05-20-2025\nSpeaker Card(s)_05-06-2025\nReport from City Administrative Officer dated 3-17-25\nCouncil Action dated 11-21-24\nReport from Neighborhoods and Community Enrichment Committee_10-23-24\nSpeaker Card(s)_10-23-2024\nMotion (Rodriguez - Soto-Martinez) dated 10-08-24",
+          "council_file": "24-1221",
+          "title": "Department on Disability report relative to a fentanyl detection device distribution pilot program as part of the Opioid Remediation Program.",
+          "mig": "22aacd79-bc62-4b2e-83ce-ced83a3178ef",
+          "attachments": [
+            {
+              "historyId": "c70709cb-dd85-4b05-921f-ccaeafb99edb",
+              "title": "Transmittal Letter 10-7-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c70709cb-dd85-4b05-921f-ccaeafb99edb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c70709cb-dd85-4b05-921f-ccaeafb99edb"
+            },
+            {
+              "historyId": "0b53fc59-b708-4f76-bb34-96368d0bc062",
+              "title": "Speaker Card(s)_10-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0b53fc59-b708-4f76-bb34-96368d0bc062",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0b53fc59-b708-4f76-bb34-96368d0bc062"
+            },
+            {
+              "historyId": "c37e56ba-da10-4c76-9ec1-94d9cf1162c0",
+              "title": "Communication(s) from Public_10-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c37e56ba-da10-4c76-9ec1-94d9cf1162c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c37e56ba-da10-4c76-9ec1-94d9cf1162c0"
+            },
+            {
+              "historyId": "991e7b9c-b1fe-4417-84bd-e136d4b1ca65",
+              "title": "Report from Department on Disability dated 7-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=991e7b9c-b1fe-4417-84bd-e136d4b1ca65",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=991e7b9c-b1fe-4417-84bd-e136d4b1ca65"
+            },
+            {
+              "historyId": "51821eb5-dcbf-4dec-8c95-2fc46306677b",
+              "title": "Council Action dated 6-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51821eb5-dcbf-4dec-8c95-2fc46306677b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51821eb5-dcbf-4dec-8c95-2fc46306677b"
+            },
+            {
+              "historyId": "c1cff526-a226-4860-910c-64e33564d3e1",
+              "title": "Speaker Card(s)_06-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c1cff526-a226-4860-910c-64e33564d3e1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c1cff526-a226-4860-910c-64e33564d3e1"
+            },
+            {
+              "historyId": "c2f7f21d-9619-4e97-81bb-c285b9ebcca7",
+              "title": "Motion (Hernandez - McOsker) dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2f7f21d-9619-4e97-81bb-c285b9ebcca7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c2f7f21d-9619-4e97-81bb-c285b9ebcca7"
+            },
+            {
+              "historyId": "fcdfff64-5fcd-4ef3-9b88-3fe437fe5128",
+              "title": "Speaker Card(s)_06-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fcdfff64-5fcd-4ef3-9b88-3fe437fe5128",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fcdfff64-5fcd-4ef3-9b88-3fe437fe5128"
+            },
+            {
+              "historyId": "53fb5097-dbba-40e0-a86c-40304a09fe39",
+              "title": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 6-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53fb5097-dbba-40e0-a86c-40304a09fe39",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=53fb5097-dbba-40e0-a86c-40304a09fe39"
+            },
+            {
+              "historyId": "cb7e51b7-302c-4615-943e-06ef417284b5",
+              "title": "Government Operations Committee Report 5-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb7e51b7-302c-4615-943e-06ef417284b5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb7e51b7-302c-4615-943e-06ef417284b5"
+            },
+            {
+              "historyId": "5a586e11-ed17-46bd-9280-6db0e406bd6a",
+              "title": "Transmittal Letter 5-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a586e11-ed17-46bd-9280-6db0e406bd6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a586e11-ed17-46bd-9280-6db0e406bd6a"
+            },
+            {
+              "historyId": "cfc71e93-d937-493d-b2e1-ae20d174acb0",
+              "title": "Speaker Card(s)_05-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfc71e93-d937-493d-b2e1-ae20d174acb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfc71e93-d937-493d-b2e1-ae20d174acb0"
+            },
+            {
+              "historyId": "5b2094de-bdd0-44ce-85b3-a40d7e5ec0c3",
+              "title": "Speaker Card(s)_05-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b2094de-bdd0-44ce-85b3-a40d7e5ec0c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5b2094de-bdd0-44ce-85b3-a40d7e5ec0c3"
+            },
+            {
+              "historyId": "c110ee7d-297a-43dc-8d68-31299512545b",
+              "title": "Report from City Administrative Officer dated 3-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c110ee7d-297a-43dc-8d68-31299512545b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c110ee7d-297a-43dc-8d68-31299512545b"
+            },
+            {
+              "historyId": "b3be7fbe-2332-470e-ac98-32ed63ecb0bd",
+              "title": "Council Action dated 11-21-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3be7fbe-2332-470e-ac98-32ed63ecb0bd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3be7fbe-2332-470e-ac98-32ed63ecb0bd"
+            },
+            {
+              "historyId": "b75857d5-5b9e-4166-be2b-e3963fd7d503",
+              "title": "Report from Neighborhoods and Community Enrichment Committee_10-23-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b75857d5-5b9e-4166-be2b-e3963fd7d503",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b75857d5-5b9e-4166-be2b-e3963fd7d503"
+            },
+            {
+              "historyId": "47ea042b-cac4-48fe-a399-2ddaa730a574",
+              "title": "Speaker Card(s)_10-23-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=47ea042b-cac4-48fe-a399-2ddaa730a574",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=47ea042b-cac4-48fe-a399-2ddaa730a574"
+            },
+            {
+              "historyId": "7dee2f74-1c40-46a9-befa-03ad7e22dc9b",
+              "title": "Motion (Rodriguez - Soto-Martinez) dated 10-08-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7dee2f74-1c40-46a9-befa-03ad7e22dc9b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7dee2f74-1c40-46a9-befa-03ad7e22dc9b"
+            }
+          ]
+        },
+        {
+          "item_id": "157412",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1152\nMotion (Rodriguez – Padilla) relative to the feasibility of requiring the disclosure of registered sex offender status for individuals who seek election, appointment, or selection to serve on a Neighborhood Council.\n(This item is referred to the Arts, Parks, Libraries, and Community Enrichment Committee and Rules, Elections and Intergovernmental Relations Committee.)\nCommunity Impact Statement:\nYes\nFor:\nSunland-Tujunga Neighborhood Council\nEagle Rock Neighborhood Council\nCommunity Impact Statement submitted by Sunland-Tujunga Neighborhood Council_11-25-2025\nMotion (Rodriguez - Padilla) dated 10-03-25\n25-1152_cis_11-26-2025",
+          "council_file": "25-1152",
+          "title": "Motion (Rodriguez – Padilla) relative to the feasibility of requiring the disclosure of registered sex offender status for individuals who seek election, appointment, or selection to serve on a Neighborhood Council.",
+          "mig": "87aaa4d9-3983-4f8f-8ef6-cd1c3fb65909",
+          "attachments": [
+            {
+              "historyId": "2fc09423-7329-45f6-a8ec-97fad94b2212",
+              "title": "Community Impact Statement submitted by Sunland-Tujunga Neighborhood Council_11-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fc09423-7329-45f6-a8ec-97fad94b2212",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2fc09423-7329-45f6-a8ec-97fad94b2212"
+            },
+            {
+              "historyId": "27ef8633-bc7c-4a1d-adfe-798db814f080",
+              "title": "Motion (Rodriguez - Padilla) dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=27ef8633-bc7c-4a1d-adfe-798db814f080",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=27ef8633-bc7c-4a1d-adfe-798db814f080"
+            },
+            {
+              "historyId": "7002a860-483e-4682-917f-eb9190476453",
+              "title": "25-1152_cis_11-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7002a860-483e-4682-917f-eb9190476453",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7002a860-483e-4682-917f-eb9190476453"
+            }
+          ]
+        },
+        {
+          "item_id": "157414",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1284\nMotion (Rodriguez – Yaroslavsky) relative to the feasibility of establishing non-City resident fees for Department of Recreation and Parks programs, classes, and activities, in order to align with practices in other California jurisdictions.\nCommunity Impact Statement:\nYes\nFor: Westside Neighborhood Council\nCommunity Impact Statement submitted by Westside Neighborhood Council_11-13-2025\nMotion (Rodriguez - Yaroslavsky) dated 10-29-25",
+          "council_file": "25-1284",
+          "title": "Motion (Rodriguez – Yaroslavsky) relative to the feasibility of establishing non-City resident fees for Department of Recreation and Parks programs, classes, and activities, in order to align with practices in other California jurisdictions.",
+          "mig": "b763d294-aea4-486a-8db3-5eef0aa3d423",
+          "attachments": [
+            {
+              "historyId": "5c752d2e-84e8-47a2-a312-82fcfe08a14f",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_11-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c752d2e-84e8-47a2-a312-82fcfe08a14f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c752d2e-84e8-47a2-a312-82fcfe08a14f"
+            },
+            {
+              "historyId": "279e3131-e08c-416e-b5c4-b75e1d5cfff7",
+              "title": "Motion (Rodriguez - Yaroslavsky) dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=279e3131-e08c-416e-b5c4-b75e1d5cfff7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=279e3131-e08c-416e-b5c4-b75e1d5cfff7"
+            }
+          ]
+        },
+        {
+          "item_id": "157415",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1253\nDepartment of Animal Services report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas, and related matters.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nCouncil Action dated 11-08-25\nReport from Department of Animal Services dated 11-06-25.pdf\nReport from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25\nMotion (McOsker - Blumenfield) dated 10-22-25",
+          "council_file": "25-1253",
+          "title": "Department of Animal Services report on the current rules for allowing elected officials and their staff into Department facilities, including non-public areas, and related matters.",
+          "mig": "f2e555a5-441f-402a-a136-cdce5a0e40e8",
+          "attachments": [
+            {
+              "historyId": "46cb4616-9dbb-461a-a68f-c56ee5071fce",
+              "title": "Council Action dated 11-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46cb4616-9dbb-461a-a68f-c56ee5071fce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=46cb4616-9dbb-461a-a68f-c56ee5071fce"
+            },
+            {
+              "historyId": "693b6168-ce67-4bbb-a61b-60f69e1ed091",
+              "title": "Report from Department of Animal Services dated 11-06-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=693b6168-ce67-4bbb-a61b-60f69e1ed091",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=693b6168-ce67-4bbb-a61b-60f69e1ed091"
+            },
+            {
+              "historyId": "a452a655-fcf9-4423-9ba8-e0a80810e569",
+              "title": "Report from Arts, Parks, Libraries, and Community Enrichment Committee dated 10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a452a655-fcf9-4423-9ba8-e0a80810e569",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a452a655-fcf9-4423-9ba8-e0a80810e569"
+            },
+            {
+              "historyId": "4d04033d-983b-4b88-a266-f77dcc7b84c2",
+              "title": "Motion (McOsker - Blumenfield) dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d04033d-983b-4b88-a266-f77dcc7b84c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4d04033d-983b-4b88-a266-f77dcc7b84c2"
+            }
+          ]
+        },
+        {
+          "item_id": "157416",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1255\nCD 14\nMotion (Jurado – Nazarian) relative to requesting the Department of Recreation and Parks to conduct a Council District 14 Senior Center Needs Assessment.\nCommunity Impact Statement:\nNone submitted\nMotion (Jurado - Nazarian) date 10-22-25",
+          "council_file": "25-1255",
+          "district": "CD 14",
+          "title": "Motion (Jurado – Nazarian) relative to requesting the Department of Recreation and Parks to conduct a Council District 14 Senior Center Needs Assessment.",
+          "mig": "08424f9f-4777-4faa-a1d5-3e7598575c1c",
+          "attachments": [
+            {
+              "historyId": "67ad1364-6c5f-422a-9c77-dbcca35a2f89",
+              "title": "Motion (Jurado - Nazarian) date 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=67ad1364-6c5f-422a-9c77-dbcca35a2f89",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=67ad1364-6c5f-422a-9c77-dbcca35a2f89"
+            }
+          ]
+        },
+        {
+          "item_id": "156962",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1317\nBoard of Library Commissioners report relative to a Publishing Agreement between Amanda Thompson and Angel City Press at Los Angeles Public Library.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Library Commissioners dated 10-27-25",
+          "council_file": "25-1317",
+          "title": "Board of Library Commissioners report relative to a Publishing Agreement between Amanda Thompson and Angel City Press at Los Angeles Public Library.",
+          "mig": "a5b48792-88eb-425a-95e2-561daa3dbd32",
+          "attachments": [
+            {
+              "historyId": "ec6c6156-34fe-4648-9d59-1fd8bf514607",
+              "title": "Report from Board of Library Commissioners dated 10-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec6c6156-34fe-4648-9d59-1fd8bf514607",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec6c6156-34fe-4648-9d59-1fd8bf514607"
+            }
+          ]
+        },
+        {
+          "item_id": "156979",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1312\nBoard of Library Commissioners report relative to the approval of a Publishing Agreement between Stephen Gee and Angel City Press at Los Angeles Public Library.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Library Commissioners dated 10-27-25",
+          "council_file": "25-1312",
+          "title": "Board of Library Commissioners report relative to the approval of a Publishing Agreement between Stephen Gee and Angel City Press at Los Angeles Public Library.",
+          "mig": "c6f5aac6-246a-4f1d-aa15-222bfea08aee",
+          "attachments": [
+            {
+              "historyId": "b1265ea3-d7b3-4a02-951e-a8d940efc38d",
+              "title": "Report from Board of Library Commissioners dated 10-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1265ea3-d7b3-4a02-951e-a8d940efc38d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b1265ea3-d7b3-4a02-951e-a8d940efc38d"
+            }
+          ]
+        },
+        {
+          "item_id": "156980",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1316\nBoard of Library Commissioners report relative to the approval of a Publishing Agreement between Janna Ireland and Angel City Press at Los Angeles Public Library.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Board of Library Commissioners dated 10-27-25",
+          "council_file": "25-1316",
+          "title": "Board of Library Commissioners report relative to the approval of a Publishing Agreement between Janna Ireland and Angel City Press at Los Angeles Public Library.",
+          "mig": "4eeb6e48-8f11-4118-b9b8-9b13bfeff287",
+          "attachments": [
+            {
+              "historyId": "75a08460-d3dd-44de-9843-83a14614539e",
+              "title": "Report from Board of Library Commissioners dated 10-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=75a08460-d3dd-44de-9843-83a14614539e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=75a08460-d3dd-44de-9843-83a14614539e"
+            }
+          ]
+        },
+        {
+          "item_id": "157156",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "13-0933-S10\nDepartment of Cultural Affairs report relative to the Fiscal Year 2025/2026 Annual Expenditure Plan and Fee Status Report for the Arts Development Fee Program.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Department of Cultural Affairs Report dated 11-25-25\nAttachment to Report dated 11-25-25 - ADF Expenditure Plan_11-25-25\nDepartment of Cultural Affairs dated 11-25-25\nAttachment to Report dated 11-25-25 - ADF Expenditure Plan",
+          "council_file": "13-0933-S10",
+          "title": "Department of Cultural Affairs report relative to the Fiscal Year 2025/2026 Annual Expenditure Plan and Fee Status Report for the Arts Development Fee Program.",
+          "mig": "60b4110b-2947-47d4-8631-2b5a6a4dc5b3",
+          "attachments": [
+            {
+              "historyId": "06f59066-5fc6-49fb-9c9b-2f5c32493468",
+              "title": "Report from Department of Cultural Affairs Report dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06f59066-5fc6-49fb-9c9b-2f5c32493468",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=06f59066-5fc6-49fb-9c9b-2f5c32493468"
+            },
+            {
+              "historyId": "0944832c-58b3-456d-b735-35e5f97b3eb9",
+              "title": "Attachment to Report dated 11-25-25 - ADF Expenditure Plan_11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0944832c-58b3-456d-b735-35e5f97b3eb9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0944832c-58b3-456d-b735-35e5f97b3eb9"
+            },
+            {
+              "historyId": "3c2a9500-a56a-4139-9f73-6afb0de19ee7",
+              "title": "Department of Cultural Affairs dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c2a9500-a56a-4139-9f73-6afb0de19ee7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3c2a9500-a56a-4139-9f73-6afb0de19ee7"
+            },
+            {
+              "historyId": "5b4ffba6-2f98-4c5b-8584-36617c86bc33",
+              "title": "Attachment to Report dated 11-25-25 - ADF Expenditure Plan",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b4ffba6-2f98-4c5b-8584-36617c86bc33",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5b4ffba6-2f98-4c5b-8584-36617c86bc33"
+            }
+          ]
+        },
+        {
+          "item_id": "157418",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-1303\nCD 11\nDepartment of Animal Services report relative to a transfer of $38,093 from the Animal Welfare Trust Fund to the General Services Department to demolish an existing wall and build a new cage around the vehicle gate at the West Los Angeles Animal Services Center.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Department of Animal Services dated 11-05-25",
+          "council_file": "25-1303",
+          "district": "CD 11",
+          "title": "Department of Animal Services report relative to a transfer of $38,093 from the Animal Welfare Trust Fund to the General Services Department to demolish an existing wall and build a new cage around the vehicle gate at the West Los Angeles Animal Services Center.",
+          "mig": "b9c07a98-16eb-4ea9-848e-57cc3136d172",
+          "attachments": [
+            {
+              "historyId": "70d31efa-a04d-4b6d-910e-3aeaffb37400",
+              "title": "Report from Department of Animal Services dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=70d31efa-a04d-4b6d-910e-3aeaffb37400",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=70d31efa-a04d-4b6d-910e-3aeaffb37400"
+            }
+          ]
+        },
+        {
+          "item_id": "157419",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "25-1381\nCD 11\nCategorical Exemption from the provisions of the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15301 of the California CEQA Guidelines, and Article III, Section 1, Class 4(7) of the City Guidelines; Board of Recreation and Park Commissioners report relative to a proposed three-year Agreement between the Department of Recreation and Parks and Ocean View Farms, Inc. for the operation and maintenance of the Ocean View Farms Community Garden located at 3304 South Centinela Avenue.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Board of Recreation and Park Commissioners dated 11-20-25",
+          "council_file": "25-1381",
+          "district": "CD 11",
+          "title": "Categorical Exemption from the provisions of the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15301 of the California CEQA Guidelines, and Article III, Section 1, Class 4(7) of the City Guidelines; Board of Recreation and Park Commissioners report relative to a proposed three-year Agreement between the Department of Recreation and Parks and Ocean View Farms, Inc. for the operation and maintenance of the Ocean View Farms Community Garden located at 3304 South Centinela Avenue.",
+          "mig": "f034374d-b0f0-48f3-8f3c-43db1dbd313a",
+          "attachments": [
+            {
+              "historyId": "0846df12-2f7f-4d6c-bd17-acbb3782ceeb",
+              "title": "Report from Board of Recreation and Park Commissioners dated 11-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0846df12-2f7f-4d6c-bd17-acbb3782ceeb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0846df12-2f7f-4d6c-bd17-acbb3782ceeb"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 12,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-09T16:45:00",
+  "video_url": "https://www.youtube.com/watch?v=tXASXdfIoBw"
+}

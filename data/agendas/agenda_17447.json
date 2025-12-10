@@ -1,0 +1,1246 @@
+{
+  "meeting_id": 17447,
+  "template_id": 147379,
+  "parsed_at": "2025-12-09T07:15:23.312176",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147379",
+  "sections": [
+    {
+      "section_id": "357538",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "357540",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "156466",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1198-S1\nCD 15\nNegative Declaration, No. ENV-2022-6860-ND (ND), and related Environmental findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Coalition for Responsible Equitable Economic Development Los Angeles (CREED LA) (Representative: Andrew Graf, Adams Broadwell Joseph & Cardozo), from the LACPC’s determination in approving, pursuant to Los Angeles Municipal Code (LAMC) Section 12.24 X.22, a Zoning Administrator Determination to allow Transitional Height of 65 feet within a distance of 100 to 199 feet from the R1 zone, in lieu of the Transitional Height of 61 feet otherwise allowed by LAMC 12.21.1.A.10; for the improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue; and 1532, 1540, and 1542 North Alameda Street, subject to Conditions of Approval; and adoption of project findings.\nApplicant: Richard Burke, Konoike Pacific Calf Inc.\nRepresentative: John Parker, Pacific Crest Consultants\nCase No. CPC-2022-6859-GPA-HD-ZAD-WDI-1A\nEnvironmental No. ENV-2022-6860-ND\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - FEBRUARY 4, 2026\n(LAST DAY FOR COUNCIL ACTION - FEBRUARY 4, 2026)\nCommunication from Committee Clerk - Consent to Time Limit Extension_12-04-25\nCommunication from Applicant Representative - Consent to Time Limit Extension_12-04-25\nCommunication from Department of City Planning – Appeal Response dated 12-04-25\nCommunication from Committee Clerk - Notice_11-26-25\nReport from Los Angeles City Planning Commission dated 10-22-25\nAttachment to Report dated 10-22-25 - Appeal CREED LA\nAttachment to Report dated 10-22-25 - Staff Report\nAttachment to Report dated 10-22-25 - Environmental\nAttachment to Report dated 10-22-25 - Exhibit A - Stamped Plans\nAttachment to Report dated 10-22-25 - Mailing List\nCommunication from Department of City Planning dated 11-20-25\nAttachment to Communication dated 11-20-25 - Findings\nAttachment to Communication dated 11-20-25 - Conditions of Approval",
+          "council_file": "25-1198-S1",
+          "district": "CD 15",
+          "title": "Negative Declaration, No. ENV-2022-6860-ND (ND), and related Environmental findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Coalition for Responsible Equitable Economic Development Los Angeles (CREED LA) (Representative: Andrew Graf, Adams Broadwell Joseph & Cardozo), from the LACPC’s determination in approving, pursuant to Los Angeles Municipal Code (LAMC) Section 12.24 X.22, a Zoning Administrator Determination to allow Transitional Height of 65 feet within a distance of 100 to 199 feet from the R1 zone, in lieu of the Transitional Height of 61 feet otherwise allowed by LAMC 12.21.1.A.10; for the improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue; and 1532, 1540, and 1542 North Alameda Street, subject to Conditions of Approval; and adoption of project findings.",
+          "mig": "092342a0-7617-43ea-900a-332d886e8e73",
+          "attachments": [
+            {
+              "historyId": "b3a26371-7521-4332-a07b-685e20002915",
+              "title": "Communication from Committee Clerk - Consent to Time Limit Extension_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3a26371-7521-4332-a07b-685e20002915",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3a26371-7521-4332-a07b-685e20002915"
+            },
+            {
+              "historyId": "ebdd270f-c5e4-48c8-9fe6-ea65a1fea308",
+              "title": "Communication from Applicant Representative - Consent to Time Limit Extension_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ebdd270f-c5e4-48c8-9fe6-ea65a1fea308",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ebdd270f-c5e4-48c8-9fe6-ea65a1fea308"
+            },
+            {
+              "historyId": "20c1269a-884a-41ee-8051-274b371d08f3",
+              "title": "Communication from Department of City Planning – Appeal Response dated 12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20c1269a-884a-41ee-8051-274b371d08f3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20c1269a-884a-41ee-8051-274b371d08f3"
+            },
+            {
+              "historyId": "885a5661-0a8b-420e-b901-80e71f13e389",
+              "title": "Communication from Committee Clerk - Notice_11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=885a5661-0a8b-420e-b901-80e71f13e389",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=885a5661-0a8b-420e-b901-80e71f13e389"
+            },
+            {
+              "historyId": "6d912246-43bf-406d-95b8-0aa590be0ca0",
+              "title": "Report from Los Angeles City Planning Commission dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d912246-43bf-406d-95b8-0aa590be0ca0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d912246-43bf-406d-95b8-0aa590be0ca0"
+            },
+            {
+              "historyId": "1883cf0e-817f-47ab-bc8b-16ccc09490c6",
+              "title": "Attachment to Report dated 10-22-25 - Appeal CREED LA",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1883cf0e-817f-47ab-bc8b-16ccc09490c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1883cf0e-817f-47ab-bc8b-16ccc09490c6"
+            },
+            {
+              "historyId": "2d2ac78e-29c4-4094-8721-bf903efb2b22",
+              "title": "Attachment to Report dated 10-22-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d2ac78e-29c4-4094-8721-bf903efb2b22",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d2ac78e-29c4-4094-8721-bf903efb2b22"
+            },
+            {
+              "historyId": "228c0526-183a-4488-91bb-be37d055b2ef",
+              "title": "Attachment to Report dated 10-22-25 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=228c0526-183a-4488-91bb-be37d055b2ef",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=228c0526-183a-4488-91bb-be37d055b2ef"
+            },
+            {
+              "historyId": "0146aaf0-fa8b-4f13-ba9b-684d230a75c4",
+              "title": "Attachment to Report dated 10-22-25 - Exhibit A - Stamped Plans",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0146aaf0-fa8b-4f13-ba9b-684d230a75c4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0146aaf0-fa8b-4f13-ba9b-684d230a75c4"
+            },
+            {
+              "historyId": "a3f52be3-22e9-4aef-8545-5baba7dd20fd",
+              "title": "Attachment to Report dated 10-22-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3f52be3-22e9-4aef-8545-5baba7dd20fd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a3f52be3-22e9-4aef-8545-5baba7dd20fd"
+            },
+            {
+              "historyId": "f3f98c35-84a8-4b2b-9276-787f80977c02",
+              "title": "Communication from Department of City Planning dated 11-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3f98c35-84a8-4b2b-9276-787f80977c02",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f3f98c35-84a8-4b2b-9276-787f80977c02"
+            },
+            {
+              "historyId": "9e0b9271-431a-4372-9714-42e6b062f172",
+              "title": "Attachment to Communication dated 11-20-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e0b9271-431a-4372-9714-42e6b062f172",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9e0b9271-431a-4372-9714-42e6b062f172"
+            },
+            {
+              "historyId": "d24e06c0-42cf-4511-a406-5426b97bb3eb",
+              "title": "Attachment to Communication dated 11-20-25 - Conditions of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d24e06c0-42cf-4511-a406-5426b97bb3eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d24e06c0-42cf-4511-a406-5426b97bb3eb"
+            }
+          ]
+        },
+        {
+          "item_id": "156722",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1258\nMotion (Raman - Blumenfield) relative to directing the Department of City Planning, in consultation with other relevant departments, to report in 60 days with a list of existing permanent  and temporary Tentative (T), Qualified (Q), and Development Limitation (D) classifications in the City of Los Angeles, complete with an analysis of what they regulate and an estimate of how much they reduce development capacity from the base zoning, expressed in floor area ratio, housing units, commercial square footage, or otherwise; and recommendations on comprehensively removing any T, Q, and D classifications that limit housing growth in non-environmentally sensitive areas.\nCommunity Impact Statement:\nNone submitted\nMotion (Raman - Blumenfield)  dated 10-22-25",
+          "council_file": "25-1258",
+          "title": "Motion (Raman - Blumenfield) relative to directing the Department of City Planning, in consultation with other relevant departments, to report in 60 days with a list of existing permanent  and temporary Tentative (T), Qualified (Q), and Development Limitation (D) classifications in the City of Los Angeles, complete with an analysis of what they regulate and an estimate of how much they reduce development capacity from the base zoning, expressed in floor area ratio, housing units, commercial square footage, or otherwise; and recommendations on comprehensively removing any T, Q, and D classifications that limit housing growth in non-environmentally sensitive areas.",
+          "recommendation": "None submitted Motion (Raman - Blumenfield) dated 10-22-25",
+          "mig": "b9877490-d62a-4a21-8e31-d594910e762b",
+          "attachments": [
+            {
+              "historyId": "b08d7f91-fc42-406a-bdd5-90a589ec84bb",
+              "title": "Motion (Raman - Blumenfield)  dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b08d7f91-fc42-406a-bdd5-90a589ec84bb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b08d7f91-fc42-406a-bdd5-90a589ec84bb"
+            }
+          ]
+        },
+        {
+          "item_id": "156857",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1279\nCD 10\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Article 19, Section 15301, Class 1 (Existing Facilities), and related CEQA findings; report from the Central Los Angeles Area Planning Commission (CLAAPC); and an Appeal filed by Ilan Douek (Representative: Ernest J. Guadiana, Elkins Kalt Weintraub Reuben Gartside LLP), from the determination of the CLAAPC in denying the appeal and sustaining the Deputy Advisory Agency’s Determination, dated May 15, 2025; and approving the Tentative Tract Map No. TT-84566-CC, pursuant to Sections 17.03, 17.06, and 12.95.2 of the Los Angeles Municipal Code, composed of one ground lot, as shown on map stamp-dated June 21, 2024; for the proposed condominium conversion of an existing eight-unit residential apartment structure to an eight-unit residential condominium structure on an existing 8,838.6 square foot lot, the Project does not propose demolition, additions or new construction; for the property located at 1451 South Hi Point Street, subject to Conditions of Approval; and adoption of project findings.\nApplicant: Elaine Johnson, LA GLO, Inc.\nRepresentative: Hayk Martrosian, Techna Land Co. Inc.\nCase No. TT-84566-CC-2A\nEnvironmental No. ENV-2024-3793-CE\nRelated Cases: TT-84566-CC; TT-84566-CC-1A\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 30, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 30, 2026)\nCommunication from Appellant Representative - Appeal Withdrawal_12-01-25\nCommunication from Committee Clerk - Notice_11-26-25\nCommunication from Applicant Representative - Consent to Time Limit Extension_10-30-25\nCommunication from Committee Chair - Consent to Time Limit Extension_10-30-25\nReport from Central Area Planning Commission dated 10-28-25\nAttachment to Report dated 10-28-25 - Appeal\nAttachment to Report dated 10-28-25 - Decision Letter\nAttachment to Report dated 10-28-25 -Tentative Tract Map\nAttachment to Report dated 10-28-25 -Staff Report\nAttachment to Report dated 10-28-25 -Mailing List\nCommunication from Department of City Planning dated 11-19-25 - Supplemental Transmittal\nAttachment to Communication dated 11-19-25 - Conditons of Approval\nAttachment to Communication dated 11-19-25 - Findings\nAttachment to Communication dated 11-19-25 - NOE Form\nCommunication from Department of City Planning dated 11-24-25 - Supplemental Transmittal\nAttachment to Communication dated 11-24-25 - Staff Report",
+          "council_file": "25-1279",
+          "district": "CD 10",
+          "title": "Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Article 19, Section 15301, Class 1 (Existing Facilities), and related CEQA findings; report from the Central Los Angeles Area Planning Commission (CLAAPC); and an Appeal filed by Ilan Douek (Representative: Ernest J. Guadiana, Elkins Kalt Weintraub Reuben Gartside LLP), from the determination of the CLAAPC in denying the appeal and sustaining the Deputy Advisory Agency’s Determination, dated May 15, 2025; and approving the Tentative Tract Map No. TT-84566-CC, pursuant to Sections 17.03, 17.06, and 12.95.2 of the Los Angeles Municipal Code, composed of one ground lot, as shown on map stamp-dated June 21, 2024; for the proposed condominium conversion of an existing eight-unit residential apartment structure to an eight-unit residential condominium structure on an existing 8,838.6 square foot lot, the Project does not propose demolition, additions or new construction; for the property located at 1451 South Hi Point Street, subject to Conditions of Approval; and adoption of project findings.",
+          "mig": "7d19b6ab-8865-47ee-acf0-98be0d3df5a9",
+          "attachments": [
+            {
+              "historyId": "60411fa0-db66-4f45-a89f-db9852bf7227",
+              "title": "Communication from Appellant Representative - Appeal Withdrawal_12-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=60411fa0-db66-4f45-a89f-db9852bf7227",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=60411fa0-db66-4f45-a89f-db9852bf7227"
+            },
+            {
+              "historyId": "b5148d4a-f805-4edc-ba51-825de95f559a",
+              "title": "Communication from Committee Clerk - Notice_11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5148d4a-f805-4edc-ba51-825de95f559a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b5148d4a-f805-4edc-ba51-825de95f559a"
+            },
+            {
+              "historyId": "c811e5f5-60a7-451f-9d89-e059880839e6",
+              "title": "Communication from Applicant Representative - Consent to Time Limit Extension_10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c811e5f5-60a7-451f-9d89-e059880839e6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c811e5f5-60a7-451f-9d89-e059880839e6"
+            },
+            {
+              "historyId": "f03ce6c0-4255-4737-bc10-4f69025fad5d",
+              "title": "Communication from Committee Chair - Consent to Time Limit Extension_10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f03ce6c0-4255-4737-bc10-4f69025fad5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f03ce6c0-4255-4737-bc10-4f69025fad5d"
+            },
+            {
+              "historyId": "c42bdb0d-a1a4-481f-964b-16111d42fa5d",
+              "title": "Report from Central Area Planning Commission dated 10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c42bdb0d-a1a4-481f-964b-16111d42fa5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c42bdb0d-a1a4-481f-964b-16111d42fa5d"
+            },
+            {
+              "historyId": "5c94ecef-6998-48bb-8fc3-1954b9b5be97",
+              "title": "Attachment to Report dated 10-28-25 - Appeal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c94ecef-6998-48bb-8fc3-1954b9b5be97",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c94ecef-6998-48bb-8fc3-1954b9b5be97"
+            },
+            {
+              "historyId": "4b2f45ea-6e83-4bca-94e9-798f6476b09d",
+              "title": "Attachment to Report dated 10-28-25 - Decision Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b2f45ea-6e83-4bca-94e9-798f6476b09d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4b2f45ea-6e83-4bca-94e9-798f6476b09d"
+            },
+            {
+              "historyId": "f38e9618-0c73-4cff-b6a6-6066b670b65e",
+              "title": "Attachment to Report dated 10-28-25 -Tentative Tract Map",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f38e9618-0c73-4cff-b6a6-6066b670b65e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f38e9618-0c73-4cff-b6a6-6066b670b65e"
+            },
+            {
+              "historyId": "82c7750c-452d-4fbc-adb8-0b6b22c150ed",
+              "title": "Attachment to Report dated 10-28-25 -Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=82c7750c-452d-4fbc-adb8-0b6b22c150ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=82c7750c-452d-4fbc-adb8-0b6b22c150ed"
+            },
+            {
+              "historyId": "3ac30288-558d-4a4b-ad89-2f4fe83c5788",
+              "title": "Attachment to Report dated 10-28-25 -Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ac30288-558d-4a4b-ad89-2f4fe83c5788",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ac30288-558d-4a4b-ad89-2f4fe83c5788"
+            },
+            {
+              "historyId": "5954a316-0b48-4839-87ea-30d09f877afc",
+              "title": "Communication from Department of City Planning dated 11-19-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5954a316-0b48-4839-87ea-30d09f877afc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5954a316-0b48-4839-87ea-30d09f877afc"
+            },
+            {
+              "historyId": "90d366b6-597a-4ba5-8519-84a11cd7e629",
+              "title": "Attachment to Communication dated 11-19-25 - Conditons of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=90d366b6-597a-4ba5-8519-84a11cd7e629",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=90d366b6-597a-4ba5-8519-84a11cd7e629"
+            },
+            {
+              "historyId": "07ac6b25-2e8b-41da-8c3f-4addd3bf1cc3",
+              "title": "Attachment to Communication dated 11-19-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07ac6b25-2e8b-41da-8c3f-4addd3bf1cc3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07ac6b25-2e8b-41da-8c3f-4addd3bf1cc3"
+            },
+            {
+              "historyId": "e8240173-561e-4e49-bb4e-0a87053ac7ab",
+              "title": "Attachment to Communication dated 11-19-25 - NOE Form",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8240173-561e-4e49-bb4e-0a87053ac7ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8240173-561e-4e49-bb4e-0a87053ac7ab"
+            },
+            {
+              "historyId": "6185fc89-1ce0-4e6f-9aaa-bf27dc6d2da4",
+              "title": "Communication from Department of City Planning dated 11-24-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6185fc89-1ce0-4e6f-9aaa-bf27dc6d2da4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6185fc89-1ce0-4e6f-9aaa-bf27dc6d2da4"
+            },
+            {
+              "historyId": "79ae306f-c448-49ef-89ee-8cff7dc63771",
+              "title": "Attachment to Communication dated 11-24-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79ae306f-c448-49ef-89ee-8cff7dc63771",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=79ae306f-c448-49ef-89ee-8cff7dc63771"
+            }
+          ]
+        },
+        {
+          "item_id": "157354",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1217\nCategorical Exemption pursuant to Public Resources Code Section 21065 and State California Environmental Quality Act Guideline Section 15378(b)(2) and (b)(5), City Attorney report and draft Ordinance relative to amending Chapter IX of the Los Angeles Municipal Code to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code and to carry forward local administrative, climatic, geological, topographical or environmental changes; and adoption of project findings.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 12-04-25\nAttachment to Report dated 12-04-25 - Draft Ordinance\nAmending Motion 52A (Blumenfield - Park) 12-3-25\nMotion (Blumenfield - Yaroslavsky) dated 11-07-25\nCouncil Action dated 11-06-25\nCommunication from Los Angeles Building and Safety submitted 11-06-25 -Proposed Ordinance - 2026 LA Code Amendments\nCommunication from Los Angeles Building and Safety submitted 11-06-25  - Proposed Code Adoption Changes\nReport from Planning and Land Use Management Committee_10-28-25\nReport from Department of Building and Safety dated 10-17-2025",
+          "council_file": "25-1217",
+          "title": "Categorical Exemption pursuant to Public Resources Code Section 21065 and State California Environmental Quality Act Guideline Section 15378(b)(2) and (b)(5), City Attorney report and draft Ordinance relative to amending Chapter IX of the Los Angeles Municipal Code to incorporate by reference certain portions of the 2025 Edition of the California Building Standards Code and to carry forward local administrative, climatic, geological, topographical or environmental changes; and adoption of project findings.",
+          "mig": "6068a2d5-e83e-46d5-b3ff-0876cc281be8",
+          "attachments": [
+            {
+              "historyId": "872f42b5-95f7-4f91-af95-0c0a08f393a1",
+              "title": "Report from City Attorney dated 12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=872f42b5-95f7-4f91-af95-0c0a08f393a1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=872f42b5-95f7-4f91-af95-0c0a08f393a1"
+            },
+            {
+              "historyId": "af6b432a-907d-4d29-a160-dfc3d150da82",
+              "title": "Attachment to Report dated 12-04-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af6b432a-907d-4d29-a160-dfc3d150da82",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af6b432a-907d-4d29-a160-dfc3d150da82"
+            },
+            {
+              "historyId": "f55cbf8b-1ee3-4388-b347-4f1bb8052a35",
+              "title": "Amending Motion 52A (Blumenfield - Park) 12-3-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f55cbf8b-1ee3-4388-b347-4f1bb8052a35",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f55cbf8b-1ee3-4388-b347-4f1bb8052a35"
+            },
+            {
+              "historyId": "cf87e734-97d7-4c67-9968-2a9ef26cb90a",
+              "title": "Motion (Blumenfield - Yaroslavsky) dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf87e734-97d7-4c67-9968-2a9ef26cb90a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cf87e734-97d7-4c67-9968-2a9ef26cb90a"
+            },
+            {
+              "historyId": "8c94e2f6-75be-4b74-8788-0a0b86a35f8b",
+              "title": "Council Action dated 11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c94e2f6-75be-4b74-8788-0a0b86a35f8b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8c94e2f6-75be-4b74-8788-0a0b86a35f8b"
+            },
+            {
+              "historyId": "3855fbd8-bcbf-4a44-8eed-09f5e4f61b33",
+              "title": "Communication from Los Angeles Building and Safety submitted 11-06-25 -Proposed Ordinance - 2026 LA Code Amendments",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3855fbd8-bcbf-4a44-8eed-09f5e4f61b33",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3855fbd8-bcbf-4a44-8eed-09f5e4f61b33"
+            },
+            {
+              "historyId": "ffab7521-d2ea-4c71-af46-e26e6624f397",
+              "title": "Communication from Los Angeles Building and Safety submitted 11-06-25  - Proposed Code Adoption Changes",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ffab7521-d2ea-4c71-af46-e26e6624f397",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ffab7521-d2ea-4c71-af46-e26e6624f397"
+            },
+            {
+              "historyId": "04b9a729-84b3-412e-bcd9-0fd18368dcbe",
+              "title": "Report from Planning and Land Use Management Committee_10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=04b9a729-84b3-412e-bcd9-0fd18368dcbe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=04b9a729-84b3-412e-bcd9-0fd18368dcbe"
+            },
+            {
+              "historyId": "381d7a6b-935f-4748-8d31-9649ae390895",
+              "title": "Report from Department of Building and Safety dated 10-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=381d7a6b-935f-4748-8d31-9649ae390895",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=381d7a6b-935f-4748-8d31-9649ae390895"
+            }
+          ]
+        },
+        {
+          "item_id": "156465",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1198\nCD 15\nNegative Declaration No. ENV-2022-6860-ND and related California Environmental Quality Act findings, reports from the Mayor and Los Angeles City Planning Commission relative to a Resolution for a General Plan Amendment to the Wilmington-Harbor City Community Plan to amend Footnote No. 10 of the Community Plan Map to allow a site-specific 65-foot height limit, in lieu of the 45 feet otherwise allowed; and a draft Ordinance effectuating a Height District Change from Height District No. 1VL to 1L; for the proposed improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue, and 1532, 1540 and 1542 North Alameda Street; subject to Conditions of approval; and adoption of project findings.\nApplicant: Richard Burke,  Konoike Pacific Calf Inc.\nRepresentative: John Parker, Pacific Crest Consultants\nCase No. CPC-2022-6859-GPA-HD-ZAD-WDI\nEnvironmental No. ENV-2022-6860-ND\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 28, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nReport from Los Angeles City Planning Commission dated 10-22-25\nAttachment to Report dated 10-22-25 - Appeal CREED LA\nAttachment to Report dated 10-22-25 - Staff Report\nAttachment to Report dated 10-22-25 - Environmental\nAttachment to Report dated 10-22-25 - Exhibit A - Stamped Plans\nAttachment to Report dated 10-22-25 - Mailing List\nReport from Department of City Planning dated 9-25-25\nAttachment to Report Dated 9-25-25 - Mayor Transmittal\nAttachment to Report Dated 9-25-25 - Conditions of Approval\nAttachment to Report Dated 9-25-25 - Findings\nAttachment to Report Dated 9-25-25 - Environmental\nAttachment to Report Dated 9-25-25 - Resolution + Map\nAttachment to Report Dated 9-25-25 - Exhibit A - Stamped Plans\nAttachment to Report Dated 9-25-25 - T Conditions\nAttachment to Report Dated 09-25-25 - Staff Report.pdf\nAttachment to Report Dated 9-25-25 - ZC-HD Ordinance\nAttachment to Report Dated 9-25-25 - Mailing List\nCommunication(s) from Public_12-04-2025",
+          "council_file": "25-1198",
+          "district": "CD 15",
+          "title": "Negative Declaration No. ENV-2022-6860-ND and related California Environmental Quality Act findings, reports from the Mayor and Los Angeles City Planning Commission relative to a Resolution for a General Plan Amendment to the Wilmington-Harbor City Community Plan to amend Footnote No. 10 of the Community Plan Map to allow a site-specific 65-foot height limit, in lieu of the 45 feet otherwise allowed; and a draft Ordinance effectuating a Height District Change from Height District No. 1VL to 1L; for the proposed improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue, and 1532, 1540 and 1542 North Alameda Street; subject to Conditions of approval; and adoption of project findings.",
+          "mig": "f1b11c7b-1155-412e-87a3-af91b53daa61",
+          "attachments": [
+            {
+              "historyId": "829131ed-5ceb-4f48-875b-342e6bc11dfd",
+              "title": "Report from Los Angeles City Planning Commission dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=829131ed-5ceb-4f48-875b-342e6bc11dfd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=829131ed-5ceb-4f48-875b-342e6bc11dfd"
+            },
+            {
+              "historyId": "ff195eb9-ec70-492f-a33d-8b03c630e7b5",
+              "title": "Attachment to Report dated 10-22-25 - Appeal CREED LA",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff195eb9-ec70-492f-a33d-8b03c630e7b5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ff195eb9-ec70-492f-a33d-8b03c630e7b5"
+            },
+            {
+              "historyId": "d01010a1-56e0-4814-868e-e62c5fe36036",
+              "title": "Attachment to Report dated 10-22-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d01010a1-56e0-4814-868e-e62c5fe36036",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d01010a1-56e0-4814-868e-e62c5fe36036"
+            },
+            {
+              "historyId": "3b0dc764-7470-4507-b134-d37aea69c864",
+              "title": "Attachment to Report dated 10-22-25 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3b0dc764-7470-4507-b134-d37aea69c864",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3b0dc764-7470-4507-b134-d37aea69c864"
+            },
+            {
+              "historyId": "1b424f37-49a6-4209-8f54-6640bc10ea31",
+              "title": "Attachment to Report dated 10-22-25 - Exhibit A - Stamped Plans",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b424f37-49a6-4209-8f54-6640bc10ea31",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1b424f37-49a6-4209-8f54-6640bc10ea31"
+            },
+            {
+              "historyId": "7363b81f-02ba-4624-92b0-7b1a3f438d37",
+              "title": "Attachment to Report dated 10-22-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7363b81f-02ba-4624-92b0-7b1a3f438d37",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7363b81f-02ba-4624-92b0-7b1a3f438d37"
+            },
+            {
+              "historyId": "5895909b-0785-4a4f-8750-11b024be702a",
+              "title": "Report from Department of City Planning dated 9-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5895909b-0785-4a4f-8750-11b024be702a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5895909b-0785-4a4f-8750-11b024be702a"
+            },
+            {
+              "historyId": "b9117262-0654-422e-b9e3-e6b0e829b68b",
+              "title": "Attachment to Report Dated 9-25-25 - Mayor Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b9117262-0654-422e-b9e3-e6b0e829b68b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b9117262-0654-422e-b9e3-e6b0e829b68b"
+            },
+            {
+              "historyId": "0e0adb04-8b5c-47bb-b92f-a3a2b9afbfa1",
+              "title": "Attachment to Report Dated 9-25-25 - Conditions of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e0adb04-8b5c-47bb-b92f-a3a2b9afbfa1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e0adb04-8b5c-47bb-b92f-a3a2b9afbfa1"
+            },
+            {
+              "historyId": "9c80ae84-1c74-43c0-a28a-e3784adae8a5",
+              "title": "Attachment to Report Dated 9-25-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c80ae84-1c74-43c0-a28a-e3784adae8a5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c80ae84-1c74-43c0-a28a-e3784adae8a5"
+            },
+            {
+              "historyId": "cde7b4c1-b3fd-432f-957e-b42166c216ec",
+              "title": "Attachment to Report Dated 9-25-25 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cde7b4c1-b3fd-432f-957e-b42166c216ec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cde7b4c1-b3fd-432f-957e-b42166c216ec"
+            },
+            {
+              "historyId": "427dcc5e-c3cf-4da8-8fea-aca87f3caeb9",
+              "title": "Attachment to Report Dated 9-25-25 - Resolution + Map",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=427dcc5e-c3cf-4da8-8fea-aca87f3caeb9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=427dcc5e-c3cf-4da8-8fea-aca87f3caeb9"
+            },
+            {
+              "historyId": "acc0a976-5128-4e3b-a4b7-bf5b2b8463fe",
+              "title": "Attachment to Report Dated 9-25-25 - Exhibit A - Stamped Plans",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=acc0a976-5128-4e3b-a4b7-bf5b2b8463fe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=acc0a976-5128-4e3b-a4b7-bf5b2b8463fe"
+            },
+            {
+              "historyId": "036280c9-5a8a-4f8a-80b2-20c352c669e4",
+              "title": "Attachment to Report Dated 9-25-25 - T Conditions",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=036280c9-5a8a-4f8a-80b2-20c352c669e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=036280c9-5a8a-4f8a-80b2-20c352c669e4"
+            },
+            {
+              "historyId": "2bc8d023-5455-48ec-8365-ffdbb59da0c8",
+              "title": "Attachment to Report Dated 09-25-25 - Staff Report.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bc8d023-5455-48ec-8365-ffdbb59da0c8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bc8d023-5455-48ec-8365-ffdbb59da0c8"
+            },
+            {
+              "historyId": "a6c0dcee-8f8d-47b0-aec4-e2709c63ab65",
+              "title": "Attachment to Report Dated 9-25-25 - ZC-HD Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6c0dcee-8f8d-47b0-aec4-e2709c63ab65",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a6c0dcee-8f8d-47b0-aec4-e2709c63ab65"
+            },
+            {
+              "historyId": "22fe3760-f9b2-4dbf-a8d8-b0798b621134",
+              "title": "Attachment to Report Dated 9-25-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22fe3760-f9b2-4dbf-a8d8-b0798b621134",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22fe3760-f9b2-4dbf-a8d8-b0798b621134"
+            },
+            {
+              "historyId": "f7a74675-54d3-4dd7-9678-429a00174653",
+              "title": "Communication(s) from Public_12-04-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7a74675-54d3-4dd7-9678-429a00174653",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f7a74675-54d3-4dd7-9678-429a00174653"
+            }
+          ]
+        },
+        {
+          "item_id": "156856",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1330\nCD 11\nMotion (Park - Blumenfield) relative to instructing the Department of City Planning to revoke the issuance of the Coastal Exemption (Case No. ADM-2025-14-CEX) for the project located at 4311 South Lincoln Boulevard, Los Angeles, CA, 90292 and associated with Permit No. 24020-10000-02392, inasmuch as the construction of the new freestanding cinder block wall's environmental impacts have not been analyzed, or community engagement occurred.\nCommunity Impact Statement:\nNone submitted\nCommunication(s) from Public_11-24-2025\nCommunication(s) from Public_11-24-2025\nCommunication(s) from Public_11-20-2025\nCommunication(s) from Public_11-19-2025\nCommunication(s) from Public_11-18-2025\nCommunication(s) from Public_11-17-2025\nMotion (Park - Blumenfield)  dated 11-07-25",
+          "council_file": "25-1330",
+          "district": "CD 11",
+          "title": "Motion (Park - Blumenfield) relative to instructing the Department of City Planning to revoke the issuance of the Coastal Exemption (Case No. ADM-2025-14-CEX) for the project located at 4311 South Lincoln Boulevard, Los Angeles, CA, 90292 and associated with Permit No. 24020-10000-02392, inasmuch as the construction of the new freestanding cinder block wall's environmental impacts have not been analyzed, or community engagement occurred.",
+          "mig": "ccd00953-5919-419c-b2c7-0de624793d95",
+          "attachments": [
+            {
+              "historyId": "fd150adf-e19e-41e9-8ffd-3598f0634726",
+              "title": "Communication(s) from Public_11-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd150adf-e19e-41e9-8ffd-3598f0634726",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fd150adf-e19e-41e9-8ffd-3598f0634726"
+            },
+            {
+              "historyId": "322eba44-98d5-4800-874b-418ac6338357",
+              "title": "Communication(s) from Public_11-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=322eba44-98d5-4800-874b-418ac6338357",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=322eba44-98d5-4800-874b-418ac6338357"
+            },
+            {
+              "historyId": "c7948697-ea21-4c84-8065-1c8b9a736b89",
+              "title": "Communication(s) from Public_11-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c7948697-ea21-4c84-8065-1c8b9a736b89",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c7948697-ea21-4c84-8065-1c8b9a736b89"
+            },
+            {
+              "historyId": "4ae99f0c-1b13-4cc9-beef-68e45da3494e",
+              "title": "Communication(s) from Public_11-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ae99f0c-1b13-4cc9-beef-68e45da3494e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4ae99f0c-1b13-4cc9-beef-68e45da3494e"
+            },
+            {
+              "historyId": "3095c5bb-bf66-4aee-a8b4-80e8cd9a2597",
+              "title": "Communication(s) from Public_11-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3095c5bb-bf66-4aee-a8b4-80e8cd9a2597",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3095c5bb-bf66-4aee-a8b4-80e8cd9a2597"
+            },
+            {
+              "historyId": "640b2232-db5d-4c15-8b7a-ee6780e3bca8",
+              "title": "Communication(s) from Public_11-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=640b2232-db5d-4c15-8b7a-ee6780e3bca8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=640b2232-db5d-4c15-8b7a-ee6780e3bca8"
+            },
+            {
+              "historyId": "6dba1249-7006-4977-aaed-8b44d2ffc234",
+              "title": "Motion (Park - Blumenfield)  dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6dba1249-7006-4977-aaed-8b44d2ffc234",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6dba1249-7006-4977-aaed-8b44d2ffc234"
+            }
+          ]
+        },
+        {
+          "item_id": "157283",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S59\nCommunication from the Mayor relative to the appointment of Ms. Catherine Hernandez to the South Los Angeles Area Planning Commission for the term ending June 30, 2028.\nFinancial Disclosure Statement:\nPending\nBackground Check:\nPending\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 16, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026)\nReport from Mayor dated 12-02-25",
+          "council_file": "25-1200-S59",
+          "title": "Communication from the Mayor relative to the appointment of Ms. Catherine Hernandez to the South Los Angeles Area Planning Commission for the term ending June 30, 2028.",
+          "mig": "5a7e8d3d-a389-4393-8e6d-723733ae3344",
+          "attachments": [
+            {
+              "historyId": "0d9394b9-cc75-4e5e-9966-9f57fb1df507",
+              "title": "Report from Mayor dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d9394b9-cc75-4e5e-9966-9f57fb1df507",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0d9394b9-cc75-4e5e-9966-9f57fb1df507"
+            }
+          ]
+        },
+        {
+          "item_id": "157373",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "21-1230-S9\nEnvironmental Impact Report No. ENV-2020-6762-EIR, certified on November 29, 2021, and Addenda Nos. ENV-2020-6762-ADD1, ENV-2020-6762-ADD2; City Attorney report and draft Ordinances relative to amending Los Angeles Municipal Code to apply Adaptive Reuse Regulations Citywide and repealing Adaptive Reuse Areas Specific Plan (Ordinance No. 175038); and adoption of Project and California Environmental Quality Act findings.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nCouncil Action dated 12-16-24\nAmending Motion 38E (Soto-Martinez - Price) dated 12-10-24\nAmending Motion 38D (Raman - Hernandez) dated 12-10-24\nAmending Motion 38C (Soto-Martinez - Price) dated 12-10-24\nAmending Motion 38B (Soto-Martinez - McOsker) dated 12-10-24\nSpeaker Card(s)_12-10-2024\nAmending Motion 38A (Lee - Harris-Dawson)\nReport from Planning and Land Use Management Committee_11-19-24\nSpeaker Card(s)_11-19-2024\nCommunication(s) from Public_11-15-2024\nCommunication from Department of City Planning dated 11-14-24 - Supplemental Transmittal\nAttachment to Communication dated 11-14-24 - Modified Environmental\nReport from Los Angeles City Planning Commission dated 10-30-24\nAttachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Chapter 1)\nAttachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Chapter 1A)\nAttachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Incentive Area Specific Plan Amendment)\nAttachment to Report dated 10-30-24 - Proposed Citywide Adaptive Reuse Ordinance (Chapter 1) Map\nAttachment to Report dated 10-30-24 - Findings\nAttachment to Report dated 10-30-24 - Staff Report\nAttachment to Report dated 10-30-24 - Environmental\nAttachment to Report dated 10-30-24 - Mailing List\nReport from City Attorney dated 12-04-25\nAttachment to Report dated 12-04-25 - Draft Ordinance (Citywide ARO)\nAttachment to Report dated 12-09-25 - Draft Ordinance (SP Repeal)",
+          "council_file": "21-1230-S9",
+          "title": "Environmental Impact Report No. ENV-2020-6762-EIR, certified on November 29, 2021, and Addenda Nos. ENV-2020-6762-ADD1, ENV-2020-6762-ADD2; City Attorney report and draft Ordinances relative to amending Los Angeles Municipal Code to apply Adaptive Reuse Regulations Citywide and repealing Adaptive Reuse Areas Specific Plan (Ordinance No. 175038); and adoption of Project and California Environmental Quality Act findings.",
+          "mig": "5fc475eb-2cc5-4975-bc7f-6e80b9062461",
+          "attachments": [
+            {
+              "historyId": "73efae21-d213-4bce-a14f-94be848eef03",
+              "title": "Council Action dated 12-16-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=73efae21-d213-4bce-a14f-94be848eef03",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=73efae21-d213-4bce-a14f-94be848eef03"
+            },
+            {
+              "historyId": "595dfa57-950d-4207-9a36-14b375671343",
+              "title": "Amending Motion 38E (Soto-Martinez - Price) dated 12-10-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=595dfa57-950d-4207-9a36-14b375671343",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=595dfa57-950d-4207-9a36-14b375671343"
+            },
+            {
+              "historyId": "4d952872-d3ae-45c4-875f-336b68eb2ba1",
+              "title": "Amending Motion 38D (Raman - Hernandez) dated 12-10-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d952872-d3ae-45c4-875f-336b68eb2ba1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4d952872-d3ae-45c4-875f-336b68eb2ba1"
+            },
+            {
+              "historyId": "6ca3c9ac-d694-40ff-ad39-89d87fb3f64c",
+              "title": "Amending Motion 38C (Soto-Martinez - Price) dated 12-10-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6ca3c9ac-d694-40ff-ad39-89d87fb3f64c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6ca3c9ac-d694-40ff-ad39-89d87fb3f64c"
+            },
+            {
+              "historyId": "d2e8c308-62ac-4248-8382-2609a70a7487",
+              "title": "Amending Motion 38B (Soto-Martinez - McOsker) dated 12-10-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2e8c308-62ac-4248-8382-2609a70a7487",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d2e8c308-62ac-4248-8382-2609a70a7487"
+            },
+            {
+              "historyId": "e9b7e437-1521-4fb4-a71d-56d5fd3dec4b",
+              "title": "Speaker Card(s)_12-10-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9b7e437-1521-4fb4-a71d-56d5fd3dec4b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e9b7e437-1521-4fb4-a71d-56d5fd3dec4b"
+            },
+            {
+              "historyId": "662fe748-7430-4220-a1d2-dce43a74380f",
+              "title": "Amending Motion 38A (Lee - Harris-Dawson)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=662fe748-7430-4220-a1d2-dce43a74380f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=662fe748-7430-4220-a1d2-dce43a74380f"
+            },
+            {
+              "historyId": "2b647a79-7c6b-4546-a2ad-4e02b25292fc",
+              "title": "Report from Planning and Land Use Management Committee_11-19-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b647a79-7c6b-4546-a2ad-4e02b25292fc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2b647a79-7c6b-4546-a2ad-4e02b25292fc"
+            },
+            {
+              "historyId": "e760d1fd-45c4-4d11-af6a-580db6826110",
+              "title": "Speaker Card(s)_11-19-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e760d1fd-45c4-4d11-af6a-580db6826110",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e760d1fd-45c4-4d11-af6a-580db6826110"
+            },
+            {
+              "historyId": "88af2bdf-e3ca-4d18-ba53-f6cdb5f3e795",
+              "title": "Communication(s) from Public_11-15-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=88af2bdf-e3ca-4d18-ba53-f6cdb5f3e795",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=88af2bdf-e3ca-4d18-ba53-f6cdb5f3e795"
+            },
+            {
+              "historyId": "6b31f780-0414-4c84-b57b-ac793cc7db7b",
+              "title": "Communication from Department of City Planning dated 11-14-24 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b31f780-0414-4c84-b57b-ac793cc7db7b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6b31f780-0414-4c84-b57b-ac793cc7db7b"
+            },
+            {
+              "historyId": "49b401b2-bb9e-40a4-91d4-74fd39aae076",
+              "title": "Attachment to Communication dated 11-14-24 - Modified Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=49b401b2-bb9e-40a4-91d4-74fd39aae076",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=49b401b2-bb9e-40a4-91d4-74fd39aae076"
+            },
+            {
+              "historyId": "727385be-7472-4a86-9813-610214839de5",
+              "title": "Report from Los Angeles City Planning Commission dated 10-30-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=727385be-7472-4a86-9813-610214839de5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=727385be-7472-4a86-9813-610214839de5"
+            },
+            {
+              "historyId": "48109402-02dd-453f-815d-f518f30c8f18",
+              "title": "Attachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Chapter 1)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48109402-02dd-453f-815d-f518f30c8f18",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48109402-02dd-453f-815d-f518f30c8f18"
+            },
+            {
+              "historyId": "ceee5fa6-3980-4f7d-84ef-6bf15327b153",
+              "title": "Attachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Chapter 1A)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ceee5fa6-3980-4f7d-84ef-6bf15327b153",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ceee5fa6-3980-4f7d-84ef-6bf15327b153"
+            },
+            {
+              "historyId": "2c317f59-4362-4612-8703-072aa937da51",
+              "title": "Attachment to Report dated 10-30-24 - Proposed Ordinance Adaptive Reuse (Incentive Area Specific Plan Amendment)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c317f59-4362-4612-8703-072aa937da51",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2c317f59-4362-4612-8703-072aa937da51"
+            },
+            {
+              "historyId": "aeb978b0-4f61-4d86-85cd-7912029ad578",
+              "title": "Attachment to Report dated 10-30-24 - Proposed Citywide Adaptive Reuse Ordinance (Chapter 1) Map",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aeb978b0-4f61-4d86-85cd-7912029ad578",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aeb978b0-4f61-4d86-85cd-7912029ad578"
+            },
+            {
+              "historyId": "f99bac25-cf68-4bab-9bd1-13d0490b8581",
+              "title": "Attachment to Report dated 10-30-24 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f99bac25-cf68-4bab-9bd1-13d0490b8581",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f99bac25-cf68-4bab-9bd1-13d0490b8581"
+            },
+            {
+              "historyId": "b02b0fed-c793-4fb7-bd2c-f267ea61428d",
+              "title": "Attachment to Report dated 10-30-24 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b02b0fed-c793-4fb7-bd2c-f267ea61428d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b02b0fed-c793-4fb7-bd2c-f267ea61428d"
+            },
+            {
+              "historyId": "9e7b411c-99a8-4430-b391-5e3b6f0512ff",
+              "title": "Attachment to Report dated 10-30-24 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e7b411c-99a8-4430-b391-5e3b6f0512ff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9e7b411c-99a8-4430-b391-5e3b6f0512ff"
+            },
+            {
+              "historyId": "a1f99816-8a10-431e-b2c5-723c12df76ea",
+              "title": "Attachment to Report dated 10-30-24 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1f99816-8a10-431e-b2c5-723c12df76ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a1f99816-8a10-431e-b2c5-723c12df76ea"
+            },
+            {
+              "historyId": "092c3dfc-f045-41dd-8046-123697e6e939",
+              "title": "Report from City Attorney dated 12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=092c3dfc-f045-41dd-8046-123697e6e939",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=092c3dfc-f045-41dd-8046-123697e6e939"
+            },
+            {
+              "historyId": "89ce799e-5894-4f37-8e82-d8de76feb5af",
+              "title": "Attachment to Report dated 12-04-25 - Draft Ordinance (Citywide ARO)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=89ce799e-5894-4f37-8e82-d8de76feb5af",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=89ce799e-5894-4f37-8e82-d8de76feb5af"
+            },
+            {
+              "historyId": "1614b5e7-b957-4f94-89aa-815a277197fe",
+              "title": "Attachment to Report dated 12-09-25 - Draft Ordinance (SP Repeal)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1614b5e7-b957-4f94-89aa-815a277197fe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1614b5e7-b957-4f94-89aa-815a277197fe"
+            }
+          ]
+        },
+        {
+          "item_id": "157420",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1181\nMotion (Lee - Padilla) relative to instructing the Department of Building and Safety and the Department of City Planning, with assistance from the Los Angeles Fire Department, the Los Angeles World Airports, and the City Attorney, to report back within 90 days on the steps necessary to allow or expand private access to existing helicopter pads across the City of Los Angeles.\n(This item is referred to the Planning and Land Use Management Committee, and Public Safety Committee.)\nCommunity Impact Statement:\nYes\nAgainst:\nGreater Toluca Lake Neighborhood Council\nSherman Oaks Neighborhood Council\nLos Feliz Neighborhood Council\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_11-26-2025\nCommunity Impact Statement submitted by Sherman Oaks Neighborhood Council_11-12-2025\nCommunity Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-22-2025\nMotion (Lee - Padilla) dated 10-07-25",
+          "council_file": "25-1181",
+          "title": "Motion (Lee - Padilla) relative to instructing the Department of Building and Safety and the Department of City Planning, with assistance from the Los Angeles Fire Department, the Los Angeles World Airports, and the City Attorney, to report back within 90 days on the steps necessary to allow or expand private access to existing helicopter pads across the City of Los Angeles.",
+          "mig": "24b23613-83c4-4ba4-a40f-a5daaf6fb717",
+          "attachments": [
+            {
+              "historyId": "6efe7708-df91-4143-b96f-64441adacce8",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_11-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6efe7708-df91-4143-b96f-64441adacce8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6efe7708-df91-4143-b96f-64441adacce8"
+            },
+            {
+              "historyId": "ac9f81b4-5be6-4872-b846-9cc92615b0f0",
+              "title": "Community Impact Statement submitted by Sherman Oaks Neighborhood Council_11-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac9f81b4-5be6-4872-b846-9cc92615b0f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ac9f81b4-5be6-4872-b846-9cc92615b0f0"
+            },
+            {
+              "historyId": "0c782032-53e3-4b0f-a3c6-998d34ce989a",
+              "title": "Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_10-22-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c782032-53e3-4b0f-a3c6-998d34ce989a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c782032-53e3-4b0f-a3c6-998d34ce989a"
+            },
+            {
+              "historyId": "fabce27e-5312-43ea-b281-69f5376b770d",
+              "title": "Motion (Lee - Padilla) dated 10-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fabce27e-5312-43ea-b281-69f5376b770d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fabce27e-5312-43ea-b281-69f5376b770d"
+            }
+          ]
+        },
+        {
+          "item_id": "156819",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-1264\nCD 7\nCONTINUED FROM 11/17/25\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15308, Class 8 and Article 19, Section 15331, Class 31 of the State CEQA Guidelines, and report from the Cultural Heritage Commission relative to the inclusion of Rowley Residence, located at 8436 West Hillrose Street, in the list of Historic-Cultural Monuments.\nApplicant: Marsha Perloff, Little Landers Historical Society\nOwners: Armen Sarvari and Narine Aghakiant; and Michael and Marina P. Dahlen\nCase No. CHC-2025-4173-HCM\nEnvironmental No. ENV-2025-4174-CE\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 14, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 14, 2026)\nReturned Envelope(s)_12-04-25\nReturned Envelope(s)_11-26-25\nCommunication from Deputy City Clerk - Notice(s)_11-06-25\nReport from Cultural Heritage Commission dated 10-23-25\nAttachment to Report dated 10-23-25 - Findings\nAttachment to Report dated 10-23-25 - Staff Report\nAttachment to Report dated 10-23-25 - Mailing List",
+          "council_file": "25-1264",
+          "district": "CD 7",
+          "title": "CONTINUED FROM 11/17/25",
+          "mig": "9fb3257a-0531-4f20-8b13-83ba37fde291",
+          "attachments": [
+            {
+              "historyId": "e5223528-f47b-4a1d-8c20-754650efc0c6",
+              "title": "Returned Envelope(s)_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5223528-f47b-4a1d-8c20-754650efc0c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e5223528-f47b-4a1d-8c20-754650efc0c6"
+            },
+            {
+              "historyId": "6db8f9de-6120-4338-8ec6-78d54c21c7e9",
+              "title": "Returned Envelope(s)_11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6db8f9de-6120-4338-8ec6-78d54c21c7e9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6db8f9de-6120-4338-8ec6-78d54c21c7e9"
+            },
+            {
+              "historyId": "002f85bc-7ccd-477d-9c99-846c60a1c25d",
+              "title": "Communication from Deputy City Clerk - Notice(s)_11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=002f85bc-7ccd-477d-9c99-846c60a1c25d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=002f85bc-7ccd-477d-9c99-846c60a1c25d"
+            },
+            {
+              "historyId": "d80d4cc3-9601-465b-b4c8-51e9a846f317",
+              "title": "Report from Cultural Heritage Commission dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d80d4cc3-9601-465b-b4c8-51e9a846f317",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d80d4cc3-9601-465b-b4c8-51e9a846f317"
+            },
+            {
+              "historyId": "bae138a9-9d0f-47e4-91f0-94ba8b4515ad",
+              "title": "Attachment to Report dated 10-23-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bae138a9-9d0f-47e4-91f0-94ba8b4515ad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bae138a9-9d0f-47e4-91f0-94ba8b4515ad"
+            },
+            {
+              "historyId": "62172411-1a58-463b-be83-027f2eac8e15",
+              "title": "Attachment to Report dated 10-23-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=62172411-1a58-463b-be83-027f2eac8e15",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=62172411-1a58-463b-be83-027f2eac8e15"
+            },
+            {
+              "historyId": "c122e0de-90af-4e4a-b73c-11b33f7fc46b",
+              "title": "Attachment to Report dated 10-23-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c122e0de-90af-4e4a-b73c-11b33f7fc46b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c122e0de-90af-4e4a-b73c-11b33f7fc46b"
+            }
+          ]
+        },
+        {
+          "item_id": "155975",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-1208\nCD 14\nSustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum dated September 2024, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Faramarz Yadegar, from the determination of the LACPC in denying the appeal, and sustaining the decision of the Deputy Advisory Agency dated April 3, 2025; and approving, pursuant to Sections 17.03 and 17.15 of the Los Angeles Municipal Code (LAMC), a Vesting Tentative Tract Map No. 82213 (stamped map, dated June 11, 2018) to create one ground lot and four airspace lots; and a Haul Route for the export of 28,000 cubic yards of soil; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified Conditions of Approval; and adoption of amended project findings.\nApplicant: Jacob Taban, Venice Hope Group, LLC\nRepresentative: Alex Irvine, Irvine and Associates Inc\nCase No.  VTT-82213-2A\nEnvironmental No. ENV-2018-3337-SCEA\nRelated Cases: CPC-2018-3336-SN-TDR-CUB-SPR-MSC, CPC-2018-3336-SN-TDR-CUB-SPR-MSC-1A\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 31, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nCommunication from Department of City Planning - Appeal Response dated 12-03-25\nCommunication from GC Mapping Service, Inc - Proof of Mailing Statement_11-14-25\nCommunication from Committee Clerk - Notice_11-14-25\nCommunication from Appellant_10-31-25\nCommunication from Committee Chair - Consent to Time Limit Extension_10-17-25\nCommunication from Applicant Representative - Consent to Time Limit Extension_10-17-25\nReport from Los Angeles City Planning Commission dated 10--15-25\nAttachment to  Report dated 10-15-25 - Appeal F. Yadegar\nAttachment to  Report dated 10-15-25 - Modified Conditions of Approval\nAttachment to Report dated 10-15-25 - Findings\nAttachment to Report dated 10-15-25 - Environmental (SCEA)\nAttachment to Report dated 10-15-25 - Mailing List\nAttachment to Report dated 10-15-25 - Staff Report\nCommunication from Department of City Planning dated 12-04-25 - Supplemental Transmittal",
+          "council_file": "25-1208",
+          "district": "CD 14",
+          "title": "Sustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum dated September 2024, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Faramarz Yadegar, from the determination of the LACPC in denying the appeal, and sustaining the decision of the Deputy Advisory Agency dated April 3, 2025; and approving, pursuant to Sections 17.03 and 17.15 of the Los Angeles Municipal Code (LAMC), a Vesting Tentative Tract Map No. 82213 (stamped map, dated June 11, 2018) to create one ground lot and four airspace lots; and a Haul Route for the export of 28,000 cubic yards of soil; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified Conditions of Approval; and adoption of amended project findings.",
+          "mig": "66b0cd6e-c1c8-4590-8894-4d2a4ce87057",
+          "attachments": [
+            {
+              "historyId": "2918a1af-8b6f-444f-a497-53ff1430fcda",
+              "title": "Communication from Department of City Planning - Appeal Response dated 12-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2918a1af-8b6f-444f-a497-53ff1430fcda",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2918a1af-8b6f-444f-a497-53ff1430fcda"
+            },
+            {
+              "historyId": "420f9d29-6f3f-4ea9-a68e-0aed9a8cd464",
+              "title": "Communication from GC Mapping Service, Inc - Proof of Mailing Statement_11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=420f9d29-6f3f-4ea9-a68e-0aed9a8cd464",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=420f9d29-6f3f-4ea9-a68e-0aed9a8cd464"
+            },
+            {
+              "historyId": "ea239d6b-8b2b-49e0-a6e5-2277122372aa",
+              "title": "Communication from Committee Clerk - Notice_11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea239d6b-8b2b-49e0-a6e5-2277122372aa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea239d6b-8b2b-49e0-a6e5-2277122372aa"
+            },
+            {
+              "historyId": "0c7ad49f-1306-43e9-9f19-170f2021c08d",
+              "title": "Communication from Appellant_10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c7ad49f-1306-43e9-9f19-170f2021c08d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c7ad49f-1306-43e9-9f19-170f2021c08d"
+            },
+            {
+              "historyId": "e10d30e5-602e-41f8-8086-10aa8a47138e",
+              "title": "Communication from Committee Chair - Consent to Time Limit Extension_10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e10d30e5-602e-41f8-8086-10aa8a47138e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e10d30e5-602e-41f8-8086-10aa8a47138e"
+            },
+            {
+              "historyId": "b8a63809-49b4-48e4-aa80-8f900f282846",
+              "title": "Communication from Applicant Representative - Consent to Time Limit Extension_10-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8a63809-49b4-48e4-aa80-8f900f282846",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b8a63809-49b4-48e4-aa80-8f900f282846"
+            },
+            {
+              "historyId": "3ef1f445-3488-4218-a72c-efa29e5d0748",
+              "title": "Report from Los Angeles City Planning Commission dated 10--15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ef1f445-3488-4218-a72c-efa29e5d0748",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ef1f445-3488-4218-a72c-efa29e5d0748"
+            },
+            {
+              "historyId": "1098c571-ca45-4791-8a4f-0dd9f77ab21f",
+              "title": "Attachment to  Report dated 10-15-25 - Appeal F. Yadegar",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1098c571-ca45-4791-8a4f-0dd9f77ab21f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1098c571-ca45-4791-8a4f-0dd9f77ab21f"
+            },
+            {
+              "historyId": "6d042e70-89b0-433f-a4d2-450510dbf52c",
+              "title": "Attachment to  Report dated 10-15-25 - Modified Conditions of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d042e70-89b0-433f-a4d2-450510dbf52c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d042e70-89b0-433f-a4d2-450510dbf52c"
+            },
+            {
+              "historyId": "53223d21-78b0-4e6b-9130-283b4b45cb70",
+              "title": "Attachment to Report dated 10-15-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53223d21-78b0-4e6b-9130-283b4b45cb70",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=53223d21-78b0-4e6b-9130-283b4b45cb70"
+            },
+            {
+              "historyId": "f58bef90-f103-496a-8555-ca4be1910c73",
+              "title": "Attachment to Report dated 10-15-25 - Environmental (SCEA)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f58bef90-f103-496a-8555-ca4be1910c73",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f58bef90-f103-496a-8555-ca4be1910c73"
+            },
+            {
+              "historyId": "4cd683f5-c7ef-4758-9210-f0575daba7e3",
+              "title": "Attachment to Report dated 10-15-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4cd683f5-c7ef-4758-9210-f0575daba7e3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4cd683f5-c7ef-4758-9210-f0575daba7e3"
+            },
+            {
+              "historyId": "0ad7b781-dc45-4920-b5b3-c12feb50080d",
+              "title": "Attachment to Report dated 10-15-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0ad7b781-dc45-4920-b5b3-c12feb50080d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0ad7b781-dc45-4920-b5b3-c12feb50080d"
+            },
+            {
+              "historyId": "6a78f8da-3937-45e2-99d1-4980cc5ec074",
+              "title": "Communication from Department of City Planning dated 12-04-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a78f8da-3937-45e2-99d1-4980cc5ec074",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a78f8da-3937-45e2-99d1-4980cc5ec074"
+            }
+          ]
+        },
+        {
+          "item_id": "156406",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "25-1208-S1\nCD 14\nSustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum dated September 2024, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Faramarz Yadegar, from the determination of the LACPC in: 1) Approving a Conditional Use Permit, pursuant to Los Angeles Municipal Code (LAMC) Sections 12.24 W.1 and 12.24 S, for the sale and dispensing of a full line of alcoholic beverages for on-site consumption within the proposed hotel; and a 20 percent reduction in the required amount of vehicle parking; 2) Approving a Site Plan Review, pursuant to LAMC Section 16.05, for the construction of a proposed development project which will create an increase of more than 50 dwelling units or guest rooms; and 3) Approving a Director’s Determination, pursuant to LAMC Section 12.21 G, to allow for up to a 10 percent reduction in the total required residential open space; for the proposed the demolition of 89,510 square feet of commercial uses within four buildings for the construction of a two-tower, mixed-use development consisting of 250 residential dwelling units, 300 hotel guest rooms, and 13,120 square feet of ground floor retail uses, for a total of 452,630 floor area on an approximately 1.6-acre site, and up to 23 stories in building height; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified Conditions of Approval; and adoption of amended project findings.\nApplicant: Jacob Taban, Venice Hope Group, LLC\nRepresentative: Alex Irvine, Irvine and Associates Inc\nCase No. CPC-2018-3336-SN-TDR-CUB-SPR-MSC-1A\nEnvironmental No. ENV-2018-3337-SCEA\nRelated Cases: VTT-82213-2A; CPC-2018-3336-SN-TDR-CUB-SPR-MSC\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 28, 2025\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 12, 2025)\nCommunication from Department of City Planning - Appeal Response dated 12-03-25\nCommunication from GC Mapping Service, Inc - Proof of Mailing Statement_11-14-25\nCommunication from Committee Clerk - Notice_11-14-25\nCommunication from Appellant_10-31-25\nReport from Los Angeles City Planning Commission dated 10-28-25\nAttachment to Report dated 10-28-25 - Appeal - F. Yadegar\nAttachment to Report dated 10-28-25 - Staff Report\nAttachment to Report dated 10-28-25 - Mailing list",
+          "council_file": "25-1208-S1",
+          "district": "CD 14",
+          "title": "Sustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum dated September 2024, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Faramarz Yadegar, from the determination of the LACPC in: 1) Approving a Conditional Use Permit, pursuant to Los Angeles Municipal Code (LAMC) Sections 12.24 W.1 and 12.24 S, for the sale and dispensing of a full line of alcoholic beverages for on-site consumption within the proposed hotel; and a 20 percent reduction in the required amount of vehicle parking; 2) Approving a Site Plan Review, pursuant to LAMC Section 16.05, for the construction of a proposed development project which will create an increase of more than 50 dwelling units or guest rooms; and 3) Approving a Director’s Determination, pursuant to LAMC Section 12.21 G, to allow for up to a 10 percent reduction in the total required residential open space; for the proposed the demolition of 89,510 square feet of commercial uses within four buildings for the construction of a two-tower, mixed-use development consisting of 250 residential dwelling units, 300 hotel guest rooms, and 13,120 square feet of ground floor retail uses, for a total of 452,630 floor area on an approximately 1.6-acre site, and up to 23 stories in building height; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified Conditions of Approval; and adoption of amended project findings.",
+          "mig": "c6b43d3e-69c1-41a1-9c15-59fa86dad4be",
+          "attachments": [
+            {
+              "historyId": "972eb8f4-8559-4c20-8c36-fe88973e5ef1",
+              "title": "Communication from Department of City Planning - Appeal Response dated 12-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=972eb8f4-8559-4c20-8c36-fe88973e5ef1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=972eb8f4-8559-4c20-8c36-fe88973e5ef1"
+            },
+            {
+              "historyId": "9f7a0dfa-79d2-4a3c-aa27-6ca0b0ae6638",
+              "title": "Communication from GC Mapping Service, Inc - Proof of Mailing Statement_11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f7a0dfa-79d2-4a3c-aa27-6ca0b0ae6638",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9f7a0dfa-79d2-4a3c-aa27-6ca0b0ae6638"
+            },
+            {
+              "historyId": "1d1aa7dc-92fd-4f80-8ff3-999c5af96684",
+              "title": "Communication from Committee Clerk - Notice_11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d1aa7dc-92fd-4f80-8ff3-999c5af96684",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1d1aa7dc-92fd-4f80-8ff3-999c5af96684"
+            },
+            {
+              "historyId": "46482e22-76fe-4bd2-b652-4818012569f0",
+              "title": "Communication from Appellant_10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46482e22-76fe-4bd2-b652-4818012569f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=46482e22-76fe-4bd2-b652-4818012569f0"
+            },
+            {
+              "historyId": "a6a2fee6-e091-4345-8b19-b99d7a70e1c0",
+              "title": "Report from Los Angeles City Planning Commission dated 10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6a2fee6-e091-4345-8b19-b99d7a70e1c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a6a2fee6-e091-4345-8b19-b99d7a70e1c0"
+            },
+            {
+              "historyId": "cab921e2-14f7-4be5-ab9a-f62f38497e4b",
+              "title": "Attachment to Report dated 10-28-25 - Appeal - F. Yadegar",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cab921e2-14f7-4be5-ab9a-f62f38497e4b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cab921e2-14f7-4be5-ab9a-f62f38497e4b"
+            },
+            {
+              "historyId": "696a50d3-43bf-4635-904a-3b8b9fc30526",
+              "title": "Attachment to Report dated 10-28-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=696a50d3-43bf-4635-904a-3b8b9fc30526",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=696a50d3-43bf-4635-904a-3b8b9fc30526"
+            },
+            {
+              "historyId": "d736c298-49ff-4158-a9f6-d8c7661c3bfc",
+              "title": "Attachment to Report dated 10-28-25 - Mailing list",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d736c298-49ff-4158-a9f6-d8c7661c3bfc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d736c298-49ff-4158-a9f6-d8c7661c3bfc"
+            }
+          ]
+        },
+        {
+          "item_id": "156407",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-1208-S2\nCD 14\nSustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum, Mitigation Measures, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and draft Ordinance relative to the establishment of a Sign District (-SN Supplemental Use District) Zoning designation; a proposed Ordinance to provide a comprehensive set of sign regulations; and a Transfer of Floor Area Rights (FAR) and associated Public Benefits Payment for the transfer of greater than 50,000 square feet of floor area of up to 226,121 square feet of floor area for a Transit Area Mixed-Use Project, from the City of Los Angeles Convention Center (Donor Site) at 1201 South Figueroa Street, to the Project Site (Receiver Site), thereby permitting a maximum 6:1 FAR in lieu of the otherwise permitted 3:1 FAR, pursuant to Los Angeles Municipal Code (LAMC),Section 14.5.6 B; and request that within six months of the receipt of the Public Benefits Payment by the Public Benefit Trust Fund, the Chief Legislative Analyst convene the Public Benefit Trust Fund Committee, pursuant to LAMC, Section 14.5.12; for the proposed demolition of 89,510 square feet of commercial uses within four buildings for the construction of a two-tower, mixed-use development consisting of 250 residential dwelling units, 300 hotel guest rooms, and 13,120 square feet of ground floor retail uses, for a total of 452,630 floor area on an approximately 1.6-acre site, and up to 23 stories in building height; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified conditions of approval; and adoption of amended project findings.\nApplicant: Jacob Taban, Venice Hope Group, LLC\nRepresentative: Alex Irvine, Irvine and Associates Inc\nCase No. CPC-2018-3336-SN-TDR-CUB-SPR-MSC\nEnvironmental No. ENV-2018-3337-SCEA\nRelated Cases: VTT-82213-2A; CPC-2018-3336-SN-TDR-CUB-SPR-MSC-1A\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 26, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2026)\nReport from Los Angeles City Planning Commission dated 10-28-25\nAttachment to Report dated 10-28-25 - Sign District Zoning Ordinance + Map\nAttachment to Report dated 10-28-25 - Modified Draft South Park Towers Sign District Ordinance\nAttachment to Report dated 10-28-25 - Conceptual Sign Plans - Appendix A\nAttachment to Report dated 10-28-25 - Modified Conditions of Approval\nAttachment to Report dated 10-28-25 - Amended Findings\nAttachment to Report dated 10-28-25 - Staff Report\nAttachment to Report dated 10-28-25 - Mailing List",
+          "council_file": "25-1208-S2",
+          "district": "CD 14",
+          "title": "Sustainable Communities Environmental Assessment (SCEA) No. ENV-2018-3337-SCEA, Erratum, Mitigation Measures, Mitigated Monitoring Program, and Environmental Findings; report from the Los Angeles City Planning Commission (LACPC); and draft Ordinance relative to the establishment of a Sign District (-SN Supplemental Use District) Zoning designation; a proposed Ordinance to provide a comprehensive set of sign regulations; and a Transfer of Floor Area Rights (FAR) and associated Public Benefits Payment for the transfer of greater than 50,000 square feet of floor area of up to 226,121 square feet of floor area for a Transit Area Mixed-Use Project, from the City of Los Angeles Convention Center (Donor Site) at 1201 South Figueroa Street, to the Project Site (Receiver Site), thereby permitting a maximum 6:1 FAR in lieu of the otherwise permitted 3:1 FAR, pursuant to Los Angeles Municipal Code (LAMC),Section 14.5.6 B; and request that within six months of the receipt of the Public Benefits Payment by the Public Benefit Trust Fund, the Chief Legislative Analyst convene the Public Benefit Trust Fund Committee, pursuant to LAMC, Section 14.5.12; for the proposed demolition of 89,510 square feet of commercial uses within four buildings for the construction of a two-tower, mixed-use development consisting of 250 residential dwelling units, 300 hotel guest rooms, and 13,120 square feet of ground floor retail uses, for a total of 452,630 floor area on an approximately 1.6-acre site, and up to 23 stories in building height; for the property located at 1600 South Flower Street (1600-1618 South Flower Street, 1601-1623 South Hope Street, 426-440 West Venice Boulevard), subject to Modified conditions of approval; and adoption of amended project findings.",
+          "mig": "05c3f62d-7d18-407b-8623-c1b4027f7db5",
+          "attachments": [
+            {
+              "historyId": "b6d1116f-7543-4373-a4a0-aac6a95c99d2",
+              "title": "Report from Los Angeles City Planning Commission dated 10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6d1116f-7543-4373-a4a0-aac6a95c99d2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b6d1116f-7543-4373-a4a0-aac6a95c99d2"
+            },
+            {
+              "historyId": "68f2465a-7c45-47da-ad32-7060204cd0e7",
+              "title": "Attachment to Report dated 10-28-25 - Sign District Zoning Ordinance + Map",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68f2465a-7c45-47da-ad32-7060204cd0e7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=68f2465a-7c45-47da-ad32-7060204cd0e7"
+            },
+            {
+              "historyId": "518f4a43-3453-4d6e-a742-dad09933c0c3",
+              "title": "Attachment to Report dated 10-28-25 - Modified Draft South Park Towers Sign District Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=518f4a43-3453-4d6e-a742-dad09933c0c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=518f4a43-3453-4d6e-a742-dad09933c0c3"
+            },
+            {
+              "historyId": "225c6419-f297-4ffc-8b01-6882acfdb8a8",
+              "title": "Attachment to Report dated 10-28-25 - Conceptual Sign Plans - Appendix A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=225c6419-f297-4ffc-8b01-6882acfdb8a8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=225c6419-f297-4ffc-8b01-6882acfdb8a8"
+            },
+            {
+              "historyId": "daa8d1b7-b89e-4fa1-a040-a03e2efc1906",
+              "title": "Attachment to Report dated 10-28-25 - Modified Conditions of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=daa8d1b7-b89e-4fa1-a040-a03e2efc1906",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=daa8d1b7-b89e-4fa1-a040-a03e2efc1906"
+            },
+            {
+              "historyId": "e42a0035-1553-4c9e-b0cf-899d6b364072",
+              "title": "Attachment to Report dated 10-28-25 - Amended Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e42a0035-1553-4c9e-b0cf-899d6b364072",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e42a0035-1553-4c9e-b0cf-899d6b364072"
+            },
+            {
+              "historyId": "60567769-64e9-415b-80a0-c5e0c072a547",
+              "title": "Attachment to Report dated 10-28-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=60567769-64e9-415b-80a0-c5e0c072a547",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=60567769-64e9-415b-80a0-c5e0c072a547"
+            },
+            {
+              "historyId": "c41a13a1-88a8-40fa-93b1-98cc85c30759",
+              "title": "Attachment to Report dated 10-28-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c41a13a1-88a8-40fa-93b1-98cc85c30759",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c41a13a1-88a8-40fa-93b1-98cc85c30759"
+            }
+          ]
+        },
+        {
+          "item_id": "156869",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "09-0969-S4\nExemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines Sections 15378(b)4 and 15061(b)(3); City Administrative Officer (CAO) report; and City Attorney report and draft Ordinance relative to amending the Los Angles Municipal Code for the implementation of a comprehensive fee update of the Department of City Planning’s case processing application and appeal fees.\n(This item is referred to the Planning and Land Use Management (PLUM) Committee and Budget and Finance Committee.) (On November 17, 2025, the PLUM Committee continued the CAO report to December 9, 2025.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication(s) from Public_11-10-2025\nReport from City Administrative Officer dated 11-05-25\nCouncil Action dated 10-30-25\nCommunication from Department of City Planning dated 10-07-25 - Supplemental Transmittal\nAttachment to Communication dated 10-07-25  - Comprehensive Fee Update\nReport from Planning and Land Use Management Committee_10-14-25\nCommunication from Department of City Planning dated 5-28-25 - Supplemental Transmittal\nAttachment to Communication dated 5-28-25 - CPI Annual Fee Update\nCommunication from Department of City Planning dated 2-24-25 - Supplemental Transmittal\nAttachment to Communication dated 2-24-25 - Planning and Land Use Fees Clarification\nCommunication from Department of City Planning dated 1-22-25 - Annual Fee Inflation Adjustment\nAttachment to Communication dated 1-22-25 - Article15 Fees\nCommunication from Department of City Planning dated 6-24-24 - Supplemental Transmittal\nAttachment to Communication dated 6-24-24 - Director of Planning Correction\nAttachment to Communication dated 6-24-24 - Revised Adjusted Fee Schedule\nCommunication from Department of City Planning dated 5-28-24 - Updated Fee Schedule\nCouncil Action - Mayor Concurrence dated 1272023\nFinal Ordinance No. 188063 dated 2-10-24.pdf\nProof of Publication_12-12-23\nProof of Publication_11-27-23\nReport from Planning and Land Use Management Committee_PLUM_11-07-23\nProof of Publication 11-20-23\nReport from City Attorney dated 11-02-23\nAttachment to Report dated 11-02-23 - Draft Ordinance\nReport from City Administrative Officer dated 9-13-23.pdf\nCouncil Action  dated 9-01-23\nReport from Planning and Land Use Management Committee_8-15-23\nReport from Department of City Planning dated 8-07-23\nReport from Department of City Planning dated 3-16-23\nSpeaker Card(s)_08-15-2023\nSpeaker Card(s)_08-30-2023\nSpeaker Card(s)_11-07-2023\nReport from City Attorney dated 11-17-25\nAttachment to Report dated 11-17-25 - Draft Ordinance",
+          "council_file": "09-0969-S4",
+          "title": "Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines Sections 15378(b)4 and 15061(b)(3); City Administrative Officer (CAO) report; and City Attorney report and draft Ordinance relative to amending the Los Angles Municipal Code for the implementation of a comprehensive fee update of the Department of City Planning’s case processing application and appeal fees.",
+          "mig": "d24e2a5f-edc1-4601-807c-3685bc7fde1c",
+          "attachments": [
+            {
+              "historyId": "78549a1f-3f07-4b8c-af13-fefbccf4956c",
+              "title": "Communication(s) from Public_11-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=78549a1f-3f07-4b8c-af13-fefbccf4956c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=78549a1f-3f07-4b8c-af13-fefbccf4956c"
+            },
+            {
+              "historyId": "86748023-efd2-4601-8b9a-43f6acc82645",
+              "title": "Report from City Administrative Officer dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86748023-efd2-4601-8b9a-43f6acc82645",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86748023-efd2-4601-8b9a-43f6acc82645"
+            },
+            {
+              "historyId": "27842ce2-06e3-49ad-abd2-9b638a529830",
+              "title": "Council Action dated 10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=27842ce2-06e3-49ad-abd2-9b638a529830",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=27842ce2-06e3-49ad-abd2-9b638a529830"
+            },
+            {
+              "historyId": "96ce23ad-a3ad-4bd2-a773-c67fad3a640d",
+              "title": "Communication from Department of City Planning dated 10-07-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=96ce23ad-a3ad-4bd2-a773-c67fad3a640d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=96ce23ad-a3ad-4bd2-a773-c67fad3a640d"
+            },
+            {
+              "historyId": "03508e17-913c-4075-88e8-268f336f8f84",
+              "title": "Attachment to Communication dated 10-07-25  - Comprehensive Fee Update",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=03508e17-913c-4075-88e8-268f336f8f84",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=03508e17-913c-4075-88e8-268f336f8f84"
+            },
+            {
+              "historyId": "95080410-2d7c-4e36-b6f5-a129044615b0",
+              "title": "Report from Planning and Land Use Management Committee_10-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95080410-2d7c-4e36-b6f5-a129044615b0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95080410-2d7c-4e36-b6f5-a129044615b0"
+            },
+            {
+              "historyId": "3d5da85e-2b7b-4e61-9faf-bdb0e105a2bf",
+              "title": "Communication from Department of City Planning dated 5-28-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d5da85e-2b7b-4e61-9faf-bdb0e105a2bf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d5da85e-2b7b-4e61-9faf-bdb0e105a2bf"
+            },
+            {
+              "historyId": "d0fbea22-fbf0-4fb5-a2c9-7c83c6b4ffec",
+              "title": "Attachment to Communication dated 5-28-25 - CPI Annual Fee Update",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0fbea22-fbf0-4fb5-a2c9-7c83c6b4ffec",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d0fbea22-fbf0-4fb5-a2c9-7c83c6b4ffec"
+            },
+            {
+              "historyId": "68b4d45d-7001-4da3-b3c9-76c62ba0c3e3",
+              "title": "Communication from Department of City Planning dated 2-24-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68b4d45d-7001-4da3-b3c9-76c62ba0c3e3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=68b4d45d-7001-4da3-b3c9-76c62ba0c3e3"
+            },
+            {
+              "historyId": "ea8613dc-52f8-48a3-83ee-b7589bf60973",
+              "title": "Attachment to Communication dated 2-24-25 - Planning and Land Use Fees Clarification",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea8613dc-52f8-48a3-83ee-b7589bf60973",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea8613dc-52f8-48a3-83ee-b7589bf60973"
+            },
+            {
+              "historyId": "640f916b-f1e5-4f30-9f65-f7d6969fb0bf",
+              "title": "Communication from Department of City Planning dated 1-22-25 - Annual Fee Inflation Adjustment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=640f916b-f1e5-4f30-9f65-f7d6969fb0bf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=640f916b-f1e5-4f30-9f65-f7d6969fb0bf"
+            },
+            {
+              "historyId": "54cd5334-f983-4683-8529-9888dacef548",
+              "title": "Attachment to Communication dated 1-22-25 - Article15 Fees",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54cd5334-f983-4683-8529-9888dacef548",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=54cd5334-f983-4683-8529-9888dacef548"
+            },
+            {
+              "historyId": "a8d81ec4-c989-46d3-9a1d-0f4809df79b8",
+              "title": "Communication from Department of City Planning dated 6-24-24 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8d81ec4-c989-46d3-9a1d-0f4809df79b8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a8d81ec4-c989-46d3-9a1d-0f4809df79b8"
+            },
+            {
+              "historyId": "706336a2-0fe8-4b32-b83a-af013447824c",
+              "title": "Attachment to Communication dated 6-24-24 - Director of Planning Correction",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=706336a2-0fe8-4b32-b83a-af013447824c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=706336a2-0fe8-4b32-b83a-af013447824c"
+            },
+            {
+              "historyId": "145e097a-b14f-4528-8f12-6d35d857a7b5",
+              "title": "Attachment to Communication dated 6-24-24 - Revised Adjusted Fee Schedule",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=145e097a-b14f-4528-8f12-6d35d857a7b5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=145e097a-b14f-4528-8f12-6d35d857a7b5"
+            },
+            {
+              "historyId": "2e0c362b-5f80-4cc3-8eee-1df69575341a",
+              "title": "Communication from Department of City Planning dated 5-28-24 - Updated Fee Schedule",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e0c362b-5f80-4cc3-8eee-1df69575341a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e0c362b-5f80-4cc3-8eee-1df69575341a"
+            },
+            {
+              "historyId": "627e644c-9183-4ce6-9b06-475105099d5a",
+              "title": "Council Action - Mayor Concurrence dated 1272023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=627e644c-9183-4ce6-9b06-475105099d5a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=627e644c-9183-4ce6-9b06-475105099d5a"
+            },
+            {
+              "historyId": "2e2a974a-0adc-40f7-8554-23b45b18bb42",
+              "title": "Final Ordinance No. 188063 dated 2-10-24.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e2a974a-0adc-40f7-8554-23b45b18bb42",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e2a974a-0adc-40f7-8554-23b45b18bb42"
+            },
+            {
+              "historyId": "dbd8c606-4c20-43c5-a17a-0fa1a65e6098",
+              "title": "Proof of Publication_12-12-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbd8c606-4c20-43c5-a17a-0fa1a65e6098",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dbd8c606-4c20-43c5-a17a-0fa1a65e6098"
+            },
+            {
+              "historyId": "b0edd93e-fad4-4179-b364-bf8b86422882",
+              "title": "Proof of Publication_11-27-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b0edd93e-fad4-4179-b364-bf8b86422882",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b0edd93e-fad4-4179-b364-bf8b86422882"
+            },
+            {
+              "historyId": "2582a3fe-cb4f-438f-bfc5-11f6074c64e0",
+              "title": "Report from Planning and Land Use Management Committee_PLUM_11-07-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2582a3fe-cb4f-438f-bfc5-11f6074c64e0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2582a3fe-cb4f-438f-bfc5-11f6074c64e0"
+            },
+            {
+              "historyId": "99e0f8e3-42dc-4dd8-a48f-1ef35212599a",
+              "title": "Proof of Publication 11-20-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=99e0f8e3-42dc-4dd8-a48f-1ef35212599a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=99e0f8e3-42dc-4dd8-a48f-1ef35212599a"
+            },
+            {
+              "historyId": "9ec27d23-893b-499e-b947-2db5ed7659d5",
+              "title": "Report from City Attorney dated 11-02-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ec27d23-893b-499e-b947-2db5ed7659d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ec27d23-893b-499e-b947-2db5ed7659d5"
+            },
+            {
+              "historyId": "bb629972-b358-4bf8-9466-1bcc12e48ca7",
+              "title": "Attachment to Report dated 11-02-23 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bb629972-b358-4bf8-9466-1bcc12e48ca7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bb629972-b358-4bf8-9466-1bcc12e48ca7"
+            },
+            {
+              "historyId": "fbc1b5ea-b15a-4b91-8491-f1f68d70f86f",
+              "title": "Report from City Administrative Officer dated 9-13-23.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fbc1b5ea-b15a-4b91-8491-f1f68d70f86f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fbc1b5ea-b15a-4b91-8491-f1f68d70f86f"
+            },
+            {
+              "historyId": "ca76aee9-bc47-46c3-80f5-db1a8dcb964f",
+              "title": "Council Action  dated 9-01-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca76aee9-bc47-46c3-80f5-db1a8dcb964f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ca76aee9-bc47-46c3-80f5-db1a8dcb964f"
+            },
+            {
+              "historyId": "cb491941-92cc-4ba0-95d1-ea14ea294a5a",
+              "title": "Report from Planning and Land Use Management Committee_8-15-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb491941-92cc-4ba0-95d1-ea14ea294a5a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb491941-92cc-4ba0-95d1-ea14ea294a5a"
+            },
+            {
+              "historyId": "fa170aee-37b9-4bce-a714-540c83542d64",
+              "title": "Report from Department of City Planning dated 8-07-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa170aee-37b9-4bce-a714-540c83542d64",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa170aee-37b9-4bce-a714-540c83542d64"
+            },
+            {
+              "historyId": "15cb550d-75d5-46e0-bc0d-83b8f18aa8c3",
+              "title": "Report from Department of City Planning dated 3-16-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=15cb550d-75d5-46e0-bc0d-83b8f18aa8c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=15cb550d-75d5-46e0-bc0d-83b8f18aa8c3"
+            },
+            {
+              "historyId": "b2ec53bb-225f-4b86-84d9-89da6c8579a9",
+              "title": "Speaker Card(s)_08-15-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2ec53bb-225f-4b86-84d9-89da6c8579a9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b2ec53bb-225f-4b86-84d9-89da6c8579a9"
+            },
+            {
+              "historyId": "05397835-4159-4969-9b71-187b9236d9d5",
+              "title": "Speaker Card(s)_08-30-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=05397835-4159-4969-9b71-187b9236d9d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=05397835-4159-4969-9b71-187b9236d9d5"
+            },
+            {
+              "historyId": "6e479324-2a30-4dee-90dc-ee98d7fd7fe8",
+              "title": "Speaker Card(s)_11-07-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6e479324-2a30-4dee-90dc-ee98d7fd7fe8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6e479324-2a30-4dee-90dc-ee98d7fd7fe8"
+            },
+            {
+              "historyId": "089c6cc7-5a9d-46a2-b232-ba483500c2ab",
+              "title": "Report from City Attorney dated 11-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=089c6cc7-5a9d-46a2-b232-ba483500c2ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=089c6cc7-5a9d-46a2-b232-ba483500c2ab"
+            },
+            {
+              "historyId": "cc2e3eb1-046a-4f6f-a141-1455c1f5891c",
+              "title": "Attachment to Report dated 11-17-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cc2e3eb1-046a-4f6f-a141-1455c1f5891c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cc2e3eb1-046a-4f6f-a141-1455c1f5891c"
+            }
+          ]
+        },
+        {
+          "item_id": "157045",
+          "item_number": "(15)",
+          "has_attachments": true,
+          "raw_text": "25-0970\nCD 2\nDepartment of City Planning report and proposed Interim Control Ordinance relative to prohibiting the issuance of demolition permits of occupied residential dwelling units that are or were subject to any form of rent or price control in a portion of the Valley Glen community within the Van Nuys - North Sherman Oaks Community Plan area, roughly including multi-family buildings along Woodman Avenue between Orange (G) Line right-of-way on the north and Hatteras Street on the south and along Oxnard Street between Hazeltine Avenue on the west and Orange (G) Line right-of-way on the east.\nApplicant: City of Los Angeles\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Department of City Planning dated 12-04-25\nAttachment to Report dated 12-04-25 - Proposed Ordinance\nAttachment to Report dated 12-04-25 - Findings\nAttachment to Report dated 12-04-25 - Staff Report\nCouncil Action dated 9-09-25\nSpeaker Card(s)_09-09-2025\nMotion (Nazarian - Rodriguez) dated 8-20-25",
+          "council_file": "25-0970",
+          "district": "CD 2",
+          "title": "Department of City Planning report and proposed Interim Control Ordinance relative to prohibiting the issuance of demolition permits of occupied residential dwelling units that are or were subject to any form of rent or price control in a portion of the Valley Glen community within the Van Nuys - North Sherman Oaks Community Plan area, roughly including multi-family buildings along Woodman Avenue between Orange (G) Line right-of-way on the north and Hatteras Street on the south and along Oxnard Street between Hazeltine Avenue on the west and Orange (G) Line right-of-way on the east.",
+          "mig": "1e22a5be-885d-4e59-860a-b620efbb7746",
+          "attachments": [
+            {
+              "historyId": "efcc4841-b064-4bf0-bb2b-ba888d9cab22",
+              "title": "Report from Department of City Planning dated 12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=efcc4841-b064-4bf0-bb2b-ba888d9cab22",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=efcc4841-b064-4bf0-bb2b-ba888d9cab22"
+            },
+            {
+              "historyId": "e1c70a5e-5db3-4e7f-84d5-547e223a0b33",
+              "title": "Attachment to Report dated 12-04-25 - Proposed Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1c70a5e-5db3-4e7f-84d5-547e223a0b33",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e1c70a5e-5db3-4e7f-84d5-547e223a0b33"
+            },
+            {
+              "historyId": "60b692c8-2cfd-487a-aeeb-e168930a7fc1",
+              "title": "Attachment to Report dated 12-04-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=60b692c8-2cfd-487a-aeeb-e168930a7fc1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=60b692c8-2cfd-487a-aeeb-e168930a7fc1"
+            },
+            {
+              "historyId": "248e92a2-0e2f-4ebb-bd88-7eef25d5ed5f",
+              "title": "Attachment to Report dated 12-04-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=248e92a2-0e2f-4ebb-bd88-7eef25d5ed5f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=248e92a2-0e2f-4ebb-bd88-7eef25d5ed5f"
+            },
+            {
+              "historyId": "6c0b19f9-2d30-43d4-9386-243c2fa73c42",
+              "title": "Council Action dated 9-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c0b19f9-2d30-43d4-9386-243c2fa73c42",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6c0b19f9-2d30-43d4-9386-243c2fa73c42"
+            },
+            {
+              "historyId": "ac3e8666-e361-444a-8648-0e0d3ed0d72d",
+              "title": "Speaker Card(s)_09-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac3e8666-e361-444a-8648-0e0d3ed0d72d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ac3e8666-e361-444a-8648-0e0d3ed0d72d"
+            },
+            {
+              "historyId": "e286846f-c46a-4a31-9f78-ac7aee340314",
+              "title": "Motion (Nazarian - Rodriguez) dated 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e286846f-c46a-4a31-9f78-ac7aee340314",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e286846f-c46a-4a31-9f78-ac7aee340314"
+            }
+          ]
+        },
+        {
+          "item_id": "157308",
+          "item_number": "(16)",
+          "has_attachments": true,
+          "raw_text": "25-1430\nCD 8\nCity Attorney report relative to a settlement proposal in pending litigation in the case entitled Strategic Actions for a Just Economy et al. v City of Los Angeles et al., Los Angeles Superior Court Case No. 23STCP00702, regarding a proposed 168-room hotel at 3685 South Vermont Avenue, Los Angeles, CA.\n(The Committee may recess to Closed Session, pursuant to California Government Code Section 54956.9(d)(1), to confer with its legal counsel relative to the case.) (This item is referred to the Budget and Finance Committee and Planning and Land Use Management Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 12-02-25",
+          "council_file": "25-1430",
+          "district": "CD 8",
+          "title": "City Attorney report relative to a settlement proposal in pending litigation in the case entitled Strategic Actions for a Just Economy et al. v City of Los Angeles et al., Los Angeles Superior Court Case No. 23STCP00702, regarding a proposed 168-room hotel at 3685 South Vermont Avenue, Los Angeles, CA.",
+          "mig": "72b96c7e-bfeb-4bd2-a1c7-8f0e37e72171",
+          "attachments": [
+            {
+              "historyId": "7c977902-e276-43ee-aa23-0a6cabf8cd98",
+              "title": "Report from City Attorney dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c977902-e276-43ee-aa23-0a6cabf8cd98",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c977902-e276-43ee-aa23-0a6cabf8cd98"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "357539",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    }
+  ],
+  "total_items": 16,
+  "total_sections": 3,
+  "meeting_datetime": "2025-12-09T22:00:00"
+}
