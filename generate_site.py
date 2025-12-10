@@ -402,8 +402,8 @@ def generate_index_page(meetings_data):
         except:
             meeting_date = today  # Fallback
 
-        # Upcoming = future date (hasn't happened yet)
-        if meeting_date > today:
+        # Upcoming = today or future (hasn't happened yet, or happening today)
+        if meeting_date >= today:
             upcoming_meetings.append(meeting)
         # Summarized = past meeting with a summary
         elif meeting.get('has_summary'):
