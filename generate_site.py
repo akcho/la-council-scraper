@@ -23,7 +23,7 @@ SITE_CONFIG_FILE = Path("site_config.json")
 def markdown_to_html(text):
     """
     Convert simple markdown formatting to HTML.
-    Handles **bold**, *italic*, ## headers, and preserves line breaks.
+    Handles **bold**, *italic*, ## headers, bullet points, and paragraphs.
     """
     if not text:
         return text
@@ -31,13 +31,52 @@ def markdown_to_html(text):
     # Convert ## headers to styled section headers
     text = re.sub(r'^## (.+)$', r'<h3 class="summary-section">\1</h3>', text, flags=re.MULTILINE)
 
-    # Convert **bold** to <strong>
-    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    # Convert **HEADER** on its own line (old format) to section headers
+    text = re.sub(r'^\*\*([A-Z][A-Z\s]+)\*\*$', r'<h3 class="summary-section">\1</h3>', text, flags=re.MULTILINE)
+
+    # Convert bullet points to proper list items
+    lines = text.split('\n')
+    result = []
+    in_list = False
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('- '):
+            if not in_list:
+                result.append('<ul>')
+                in_list = True
+            # Convert the bullet content
+            content = stripped[2:]
+            # Handle **bold** within bullets
+            content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+            result.append(f'<li>{content}</li>')
+        else:
+            if in_list:
+                result.append('</ul>')
+                in_list = False
+            # Handle **bold** in regular text
+            line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+            result.append(line)
+
+    if in_list:
+        result.append('</ul>')
+
+    text = '\n'.join(result)
 
     # Convert *italic* to <em> (but not if it's already part of **)
     text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
 
-    return text
+    # Wrap paragraphs (non-empty lines that aren't already HTML)
+    lines = text.split('\n')
+    result = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped and not stripped.startswith('<'):
+            result.append(f'<p>{stripped}</p>')
+        elif stripped:
+            result.append(stripped)
+
+    return '\n'.join(result)
 
 def load_site_config():
     """Load site configuration."""
@@ -303,23 +342,42 @@ def generate_index_page(meetings_data):
     """Generate the index page with list of all meetings."""
     config = load_site_config()
 
-    # Extract unique committees for filter tabs
-    committees = {}
-    for meeting in meetings_data:
-        cid = meeting.get('committee_id', 1)
-        cname = meeting.get('committee_name', 'City Council Meeting')
-        if cid not in committees:
-            committees[cid] = cname
+    # Filter to only City Council (1) and Housing Committee (104)
+    ALLOWED_COMMITTEES = {1, 104}
+    meetings_data = [m for m in meetings_data if m.get('committee_id') in ALLOWED_COMMITTEES]
 
-    # Sort committees: City Council (1) first, then alphabetically
-    sorted_committees = sorted(
-        committees.items(),
-        key=lambda x: (0 if x[0] == 1 else 1, x[1])
-    )
+    # Check which meetings have summaries
+    for meeting in meetings_data:
+        summary_file = VIDEO_SUMMARIES_DIR / f"meeting_{meeting['meeting_id']}_summary.json"
+        meeting['has_summary'] = summary_file.exists()
+
+    # Separate by date and summary status
+    today = datetime.now().date()
+    upcoming_meetings = []
+    summarized_meetings = []
+
+    for meeting in meetings_data:
+        # Parse the meeting date
+        try:
+            meeting_date = datetime.strptime(meeting['date'], "%B %d, %Y").date()
+        except:
+            meeting_date = today  # Fallback
+
+        # Upcoming = future date (hasn't happened yet)
+        if meeting_date > today:
+            upcoming_meetings.append(meeting)
+        # Summarized = past meeting with a summary
+        elif meeting.get('has_summary'):
+            summarized_meetings.append(meeting)
+        # Past without summary = skip (don't clutter the index)
+
+    # Limit to 10 total meetings
+    MAX_TOTAL_MEETINGS = 10
+    remaining_slots = max(0, MAX_TOTAL_MEETINGS - len(upcoming_meetings))
 
     context = {
-        'meetings': meetings_data,
-        'committees': [{'id': cid, 'name': cname} for cid, cname in sorted_committees],
+        'upcoming_meetings': upcoming_meetings,
+        'past_meetings': summarized_meetings[:remaining_slots],
         'generated_at': datetime.now().strftime("%Y-%m-%d"),
     }
 

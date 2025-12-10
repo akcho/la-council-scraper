@@ -118,9 +118,29 @@ def main():
         # Check if already parsed
         output_file = f"data/agendas/agenda_{meeting_id}.json"
         if os.path.exists(output_file):
-            print(f"\n[{i}/{len(meetings)}] Meeting {meeting_id}: ⏭️  Already parsed (skipping)")
-            skip_count += 1
-            continue
+            # Check if we should re-parse (missing video URL for a past meeting)
+            should_reparse = False
+            try:
+                with open(output_file, 'r') as f:
+                    existing = json.load(f)
+                    if not existing.get('video_url'):
+                        # Check if meeting date has passed
+                        from datetime import datetime
+                        meeting_date_str = meeting.get('date', '')
+                        try:
+                            meeting_date = datetime.strptime(meeting_date_str, "%b %d, %Y").date()
+                            if meeting_date < datetime.now().date():
+                                should_reparse = True
+                                print(f"\n[{i}/{len(meetings)}] Meeting {meeting_id}: 🔄 Re-parsing (missing video URL)")
+                        except:
+                            pass
+            except:
+                pass
+
+            if not should_reparse:
+                print(f"\n[{i}/{len(meetings)}] Meeting {meeting_id}: ⏭️  Already parsed (skipping)")
+                skip_count += 1
+                continue
 
         print(f"\n[{i}/{len(meetings)}]", end=" ")
         if parse_meeting_agenda(scraper, meeting):

@@ -13,6 +13,8 @@ load_dotenv()
 
 SUMMARIZATION_PROMPT = """You are a local government reporter covering Los Angeles City Council for engaged residents. Write a news-style summary that explains what happened and why it matters.
 
+IMPORTANT: The transcript may include intro segments from "LA This Week" or other pre-roll content before the actual City Council meeting begins. Skip any such intro material and focus on the actual City Council meeting proceedings that follow. The meeting typically starts with roll call and "Good morning and welcome to the regularly scheduled meeting..."
+
 Write in a clear, narrative style - like a news article, not bullet points. Use paragraphs and complete sentences.
 
 STRUCTURE YOUR SUMMARY AS FOLLOWS:

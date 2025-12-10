@@ -16,29 +16,35 @@
     </header>
 
     <main class="container">
-        <section class="meetings-list">
-            <h2>Recent meetings</h2>
+        {% if upcoming_meetings %}
+        <section class="meetings-section">
+            <h2>Upcoming</h2>
 
-            {% if committees and committees|length > 1 %}
-            <div class="committee-filter">
-                <span class="committee-filter-label">Filter by committee:</span>
-                <div class="committee-tabs">
-                    <button class="committee-tab active" data-committee="all">All</button>
-                    {% for committee in committees %}
-                    <button class="committee-tab" data-committee="{{ committee.id }}">{{ committee.name }}</button>
-                    {% endfor %}
-                </div>
+            <div class="meetings-list">
+                {% for meeting in upcoming_meetings %}
+                <a href="meetings/{{ meeting.meeting_id }}.html" class="meeting-card meeting-card-upcoming">
+                    <div class="meeting-title">{{ meeting.committee_name }}</div>
+                    <div class="meeting-date">{{ meeting.date }}</div>
+                </a>
+                {% endfor %}
             </div>
-            {% endif %}
-
-            {% for meeting in meetings %}
-            <a href="meetings/{{ meeting.meeting_id }}.html" class="meeting-card" data-committee="{{ meeting.committee_id }}">
-                <div class="meeting-title">{{ meeting.committee_name }}</div>
-                <div class="meeting-date">{{ meeting.date }}</div>
-                <div class="meeting-stats">{{ meeting.items_count }} agenda items</div>
-            </a>
-            {% endfor %}
         </section>
+        {% endif %}
+
+        {% if past_meetings %}
+        <section class="meetings-section">
+            <h2>Summarized</h2>
+
+            <div class="meetings-list">
+                {% for meeting in past_meetings %}
+                <a href="meetings/{{ meeting.meeting_id }}.html" class="meeting-card meeting-card-summarized">
+                    <div class="meeting-title">{{ meeting.committee_name }}</div>
+                    <div class="meeting-date">{{ meeting.date }}</div>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
     </main>
 
     <footer>
@@ -47,30 +53,6 @@
             <p style="margin-top: 0.5rem;">Updated {{ generated_at }}</p>
         </div>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const tabs = document.querySelectorAll('.committee-tab');
-            const cards = document.querySelectorAll('.meeting-card');
-
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function() {
-                    tabs.forEach(t => t.classList.remove('active'));
-                    this.classList.add('active');
-
-                    const committee = this.dataset.committee;
-
-                    cards.forEach(card => {
-                        if (committee === 'all' || card.dataset.committee === committee) {
-                            card.removeAttribute('data-hidden');
-                        } else {
-                            card.setAttribute('data-hidden', 'true');
-                        }
-                    });
-                });
-            });
-        });
-    </script>
 
     {% if analytics_script %}
     {{ analytics_script | safe }}
