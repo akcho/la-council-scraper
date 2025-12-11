@@ -61,9 +61,6 @@ def get_youtube_transcript(video_url: str, max_retries: int = 3) -> Optional[str
                 '--sub-lang', 'en',  # English
                 '--sub-format', 'vtt',  # WebVTT format
                 '--output', 'transcript',  # Output filename
-                '--js-runtimes', 'node',  # Use Node.js for YouTube extraction
-                '--sleep-interval', '1',  # Small delay between requests
-                '--max-sleep-interval', '3',
                 video_url
             ]
 
