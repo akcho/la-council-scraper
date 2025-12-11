@@ -49,12 +49,24 @@ GUIDELINES:
 - When quoting, use the most substantive or revealing quotes, not pleasantries
 - Be careful with transcription: council member names may be misspelled in the transcript. Current council members (2025): Eunisses Hernandez (D1), Adrin Nazarian (D2), Bob Blumenfield (D3), Nithya Raman (D4), Katy Yaroslavsky (D5), Imelda Padilla (D6), Monica Rodriguez (D7), Marqueece Harris-Dawson (D8, Council President), Curren D. Price Jr. (D9), Heather Hutt (D10), Traci Park (D11), John Lee (D12), Hugo Soto-Martinez (D13), Ysabel Jurado (D14), Tim McOsker (D15)
 
-TECHNICAL TERMS TO EXPLAIN:
+TECHNICAL TERMS TO EXPLAIN (spell out on first use):
 - RSO: Rent Stabilization Ordinance (LA's rent control law covering ~650,000 units)
 - CUP: Conditional Use Permit (discretionary approval requiring public hearing)
 - CEQA: California Environmental Quality Act (environmental review requirement)
 - CF/Council File: the official record number for legislation
 - AB/SB: Assembly Bill / Senate Bill (state legislation)
+- CAO: City Administrative Officer (the city's chief financial advisor)
+- CLA: Chief Legislative Analyst (provides policy analysis to Council)
+- DWP/LADWP: Department of Water and Power
+- LAPD: Los Angeles Police Department
+- LAFD: Los Angeles Fire Department
+- LAHD: LA Housing Department
+- HCID/HCIDLA: Housing and Community Investment Department
+- BOE: Bureau of Engineering
+- BSS: Bureau of Street Services
+- CD: Council District (e.g., CD4 = Council District 4)
+- PLUM: Planning and Land Use Management Committee
+- MOU: Memorandum of Understanding (labor agreement)
 
 ABSOLUTELY DO NOT:
 - Start with "This meeting..." or any meta-commentary about the transcript
