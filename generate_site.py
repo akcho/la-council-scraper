@@ -402,12 +402,12 @@ def generate_index_page(meetings_data):
         except:
             meeting_date = today  # Fallback
 
-        # Upcoming = today or future (hasn't happened yet, or happening today)
-        if meeting_date >= today:
-            upcoming_meetings.append(meeting)
-        # Summarized = past meeting with a summary
-        elif meeting.get('has_summary'):
+        # Summarized = has a summary (regardless of date)
+        if meeting.get('has_summary'):
             summarized_meetings.append(meeting)
+        # Upcoming = today or future, no summary yet
+        elif meeting_date >= today:
+            upcoming_meetings.append(meeting)
         # Past without summary = skip (don't clutter the index)
 
     # Limit to 10 total meetings
