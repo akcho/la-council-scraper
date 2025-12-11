@@ -1,7 +1,7 @@
 {
   "meeting_id": 17447,
   "template_id": 147379,
-  "parsed_at": "2025-12-09T07:15:23.312176",
+  "parsed_at": "2025-12-10T12:51:07.197998",
   "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=147379",
   "sections": [
     {
@@ -1242,5 +1242,6 @@
   ],
   "total_items": 16,
   "total_sections": 3,
-  "meeting_datetime": "2025-12-09T22:00:00"
+  "meeting_datetime": "2025-12-09T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=Yl5Mths9-Fw"
 }
