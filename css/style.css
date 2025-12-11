@@ -47,7 +47,7 @@ footer {
     margin-top: 3rem;
     padding: 1.5rem 0;
     text-align: center;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: #666;
     border-top: 1px solid #e0e0e0;
 }
@@ -110,6 +110,21 @@ h2 {
 .index-header {
     padding: 2rem 0 1.5rem;
     margin-bottom: 2rem;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-link {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.header-link:hover {
+    color: #0066cc;
 }
 
 .tagline {
@@ -573,4 +588,27 @@ h2 {
     h2 {
         font-size: 1.25rem;
     }
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.about-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2 {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+    color: #333;
 }
