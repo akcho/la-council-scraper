@@ -17,6 +17,10 @@ IMPORTANT: The transcript may include intro segments from "LA This Week" or othe
 
 Write in a clear, narrative style - like a news article, not bullet points. Use paragraphs and complete sentences.
 
+YOU MUST PROVIDE TWO OUTPUTS, SEPARATED BY THE DELIMITER "---NEWSLETTER---":
+
+=== PART 1: FULL ARTICLE (before the delimiter) ===
+
 STRUCTURE YOUR SUMMARY AS FOLLOWS:
 
 ## What Happened
@@ -39,7 +43,7 @@ STRUCTURE YOUR SUMMARY AS FOLLOWS:
 - What happens next? (implementation timeline, upcoming votes, potential legal challenges)
 - Unanswered questions or things to watch
 
-GUIDELINES:
+GUIDELINES FOR FULL ARTICLE:
 - Around 500 words total
 - Write like a reporter: factual, specific, balanced
 - Use names: "Council Member Hernandez argued..." not "One member said..."
@@ -47,7 +51,19 @@ GUIDELINES:
 - For legislation (AB/SB bills): explain what the law actually does, not just what critics or supporters claim
 - Explain jargon naturally: "the RSO (the city's rent control law)" on first use
 - When quoting, use the most substantive or revealing quotes, not pleasantries
-- Be careful with transcription: council member names may be misspelled in the transcript. Current council members (2025): Eunisses Hernandez (D1), Adrin Nazarian (D2), Bob Blumenfield (D3), Nithya Raman (D4), Katy Yaroslavsky (D5), Imelda Padilla (D6), Monica Rodriguez (D7), Marqueece Harris-Dawson (D8, Council President), Curren D. Price Jr. (D9), Heather Hutt (D10), Traci Park (D11), John Lee (D12), Hugo Soto-Martinez (D13), Ysabel Jurado (D14), Tim McOsker (D15)
+
+=== PART 2: NEWSLETTER BLURB (after the delimiter) ===
+
+Write a 75-100 word condensed summary for a weekly email newsletter. Format:
+- 1 sentence on the key action/decision (include vote count if significant)
+- 1-2 sentences on why it matters / who's affected
+- Keep it scannable - readers will see 3-4 meeting summaries in one email
+
+Do NOT include headers, bullets, or markdown formatting in the newsletter blurb. Just plain paragraph text.
+
+=== REFERENCE INFO (applies to both outputs) ===
+
+Current council members (2025): Eunisses Hernandez (D1), Adrin Nazarian (D2), Bob Blumenfield (D3), Nithya Raman (D4), Katy Yaroslavsky (D5), Imelda Padilla (D6), Monica Rodriguez (D7), Marqueece Harris-Dawson (D8, Council President), Curren D. Price Jr. (D9), Heather Hutt (D10), Traci Park (D11), John Lee (D12), Hugo Soto-Martinez (D13), Ysabel Jurado (D14), Tim McOsker (D15)
 
 TECHNICAL TERMS TO EXPLAIN (spell out on first use):
 - RSO: Rent Stabilization Ordinance (LA's rent control law covering ~650,000 units)
@@ -76,9 +92,9 @@ ABSOLUTELY DO NOT:
 - Summarize procedural items unless they're actually newsworthy
 - Accept one side's framing without presenting the other side's perspective
 
-Start directly with "## What Happened" - no preamble."""
+Start the full article directly with "## What Happened" - no preamble."""
 
-def summarize_with_claude(transcript: str, api_key: str = None) -> str:
+def summarize_with_claude(transcript: str, api_key: str = None) -> tuple[str, str]:
     """
     Summarize meeting transcript using Claude API.
 
@@ -87,7 +103,7 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
         api_key: Anthropic API key (or reads from ANTHROPIC_API_KEY env var)
 
     Returns:
-        Formatted summary string
+        Tuple of (full_summary, newsletter_blurb)
     """
 
     if not api_key:
@@ -105,7 +121,7 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
         # Use prompt caching to reduce costs and avoid rate limits
         message = client.messages.create(
             model="claude-sonnet-4-20250514",  # Latest Claude model
-            max_tokens=1000,  # ~500 word summaries
+            max_tokens=1500,  # ~500 word article + ~100 word newsletter
             temperature=0.3,  # Lower temp for more factual output
             system=[
                 {
@@ -128,14 +144,50 @@ def summarize_with_claude(transcript: str, api_key: str = None) -> str:
             ]
         )
 
-        summary = message.content[0].text
-        print(f"✅ Got summary: {len(summary)} characters")
+        full_response = message.content[0].text
+        print(f"✅ Got response: {len(full_response)} characters")
 
-        return summary
+        # Parse the two outputs
+        if "---NEWSLETTER---" in full_response:
+            parts = full_response.split("---NEWSLETTER---", 1)
+            full_summary = parts[0].strip()
+            newsletter_blurb = parts[1].strip()
+        else:
+            # Fallback if delimiter not found
+            print("⚠️  Newsletter delimiter not found, using full summary")
+            full_summary = full_response
+            newsletter_blurb = ""
+
+        print(f"   Full summary: {len(full_summary)} chars")
+        print(f"   Newsletter blurb: {len(newsletter_blurb)} chars")
+
+        return full_summary, newsletter_blurb
 
     except Exception as e:
         print(f"❌ Error calling Claude API: {e}")
         raise
+
+
+def format_newsletter_blurb(meeting_info: dict, blurb: str, site_url: str = None) -> str:
+    """Format newsletter blurb with meeting header and link."""
+
+    title = meeting_info.get('title', '')
+    date = meeting_info.get('date', 'Unknown Date')
+    meeting_id = meeting_info.get('id', '')
+
+    # Only include committee name if it's not City Council
+    if title and 'City Council' not in title:
+        header = f"**{title} - {date}**"
+    else:
+        header = f"**{date}**"
+
+    # Build the "Read more" link
+    read_more = ""
+    if site_url and meeting_id:
+        meeting_page_url = f"{site_url}/meetings/{meeting_id}.html"
+        read_more = f" [Read more →]({meeting_page_url})"
+
+    return f"{header}\n\n{blurb}{read_more}"
 
 
 def format_summary_for_reddit(meeting_info: dict, summary: str, site_url: str = None) -> str:
@@ -244,20 +296,27 @@ def main():
     print(f"📄 Transcript: {len(transcript):,} characters\n")
 
     # Summarize
-    summary = summarize_with_claude(transcript, api_key)
+    summary, newsletter_blurb = summarize_with_claude(transcript, api_key)
 
     print("\n" + "=" * 60)
-    print("SUMMARY")
+    print("FULL SUMMARY")
     print("=" * 60 + "\n")
     print(summary)
     print("\n" + "=" * 60)
 
+    if newsletter_blurb:
+        print("\nNEWSLETTER BLURB")
+        print("=" * 60 + "\n")
+        print(newsletter_blurb)
+        print("\n" + "=" * 60)
+
     # Format for Reddit daily discussion comment
     reddit_comment = format_summary_for_reddit(meeting, summary, site_url)
 
-    # Save both
+    # Save all outputs
     summary_file = f"meeting_{meeting_id}_summary.txt"
     reddit_file = f"meeting_{meeting_id}_reddit_comment.md"
+    newsletter_file = f"meeting_{meeting_id}_newsletter.txt"
 
     with open(summary_file, 'w', encoding='utf-8') as f:
         f.write(summary)
@@ -265,9 +324,16 @@ def main():
     with open(reddit_file, 'w', encoding='utf-8') as f:
         f.write(reddit_comment)
 
+    if newsletter_blurb:
+        formatted_newsletter = format_newsletter_blurb(meeting, newsletter_blurb, site_url)
+        with open(newsletter_file, 'w', encoding='utf-8') as f:
+            f.write(formatted_newsletter)
+
     print("\n💾 Saved:")
     print(f"   - {summary_file}")
     print(f"   - {reddit_file}")
+    if newsletter_blurb:
+        print(f"   - {newsletter_file}")
 
     print("\n📋 PREVIEW:")
     print("=" * 60)

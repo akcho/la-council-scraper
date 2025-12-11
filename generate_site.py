@@ -377,6 +377,40 @@ def generate_meeting_page(meeting_id, force=False):
     print(f"✓ Generated: {output_file}")
     return output_file
 
+def generate_about_page():
+    """Generate the about page."""
+    config = load_site_config()
+
+    context = {}
+
+    # Add analytics if configured
+    if config.get('analytics_script'):
+        context['analytics_script'] = config['analytics_script']
+
+    # Set up Jinja2 environment
+    env = Environment(
+        loader=FileSystemLoader(TEMPLATES_DIR),
+        autoescape=select_autoescape(['html', 'xml'])
+    )
+
+    # Load template
+    template = env.get_template('about.html')
+
+    # Render HTML
+    html = template.render(**context)
+
+    # Write output file
+    output_dir = Path("site")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "about.html"
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(html)
+
+    print(f"✓ Generated: {output_file}")
+    return output_file
+
+
 def generate_index_page(meetings_data):
     """Generate the index page with list of all meetings."""
     config = load_site_config()
@@ -524,7 +558,7 @@ def generate_all_meetings():
             print(f"✗ Failed to generate page for meeting {meeting_id}: {e}")
             failed.append(meeting_id)
 
-    # Generate index page
+    # Generate index page and about page
     if meetings_data:
         # Sort meetings by date (most recent first)
         # Parse the formatted dates back to compare them
@@ -542,6 +576,7 @@ def generate_all_meetings():
 
         print()
         generate_index_page(meetings_data)
+        generate_about_page()
 
     # Summary
     print()
@@ -634,6 +669,7 @@ def generate_all_meetings_forced():
         meetings_data.sort(key=parse_meeting_date, reverse=True)
         print()
         generate_index_page(meetings_data)
+        generate_about_page()
 
     print()
     print(f"Generated {len(generated)} meeting page(s)")
