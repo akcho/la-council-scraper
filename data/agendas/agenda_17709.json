@@ -1,0 +1,105 @@
+{
+  "meeting_id": 17709,
+  "template_id": 149947,
+  "parsed_at": "2026-01-13T20:31:03.838709",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149947",
+  "sections": [
+    {
+      "section_id": "360646",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360647",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360648",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "158132",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0885\nCity Administrative Officer report relative to all City projects, programs, and services that could be impacted by H.R. 1 (One Big Beautiful Bill Act), (\nThis item is referred to the Civil Rights, Equity, Immigration, Aging and Disability Committee and Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 11-14-25\nCouncil Action dated 9-16-25\nSpeaker Card(s)_09-12-2025\nJoint Report from Civil Rights, Equity, Immigration, Aging, and Disability and Budget and Finance Committees_9-2-25\nSpeaker Card(s)_08-19-2025\nMotion ( Raman - Yaroslavsky ) dated 8-05-25",
+          "council_file": "25-0885",
+          "title": "City Administrative Officer report relative to all City projects, programs, and services that could be impacted by H.R. 1 (One Big Beautiful Bill Act), (",
+          "mig": "e554cff4-1c85-4aa9-b168-2720a82c76a9",
+          "attachments": [
+            {
+              "historyId": "5a42b39e-a8f5-4369-83ab-5ee9f3fb2214",
+              "title": "Report from City Administrative Officer dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a42b39e-a8f5-4369-83ab-5ee9f3fb2214",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a42b39e-a8f5-4369-83ab-5ee9f3fb2214"
+            },
+            {
+              "historyId": "270e4301-83f9-40d5-b887-57e49f5efbe8",
+              "title": "Council Action dated 9-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=270e4301-83f9-40d5-b887-57e49f5efbe8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=270e4301-83f9-40d5-b887-57e49f5efbe8"
+            },
+            {
+              "historyId": "85067e1e-6017-4a63-8713-dd43989faff6",
+              "title": "Speaker Card(s)_09-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85067e1e-6017-4a63-8713-dd43989faff6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85067e1e-6017-4a63-8713-dd43989faff6"
+            },
+            {
+              "historyId": "3afa8aaf-30dc-480f-bb2f-e808aa78e62f",
+              "title": "Joint Report from Civil Rights, Equity, Immigration, Aging, and Disability and Budget and Finance Committees_9-2-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3afa8aaf-30dc-480f-bb2f-e808aa78e62f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3afa8aaf-30dc-480f-bb2f-e808aa78e62f"
+            },
+            {
+              "historyId": "58bdb57a-2fc1-4619-b545-e056d4156f8b",
+              "title": "Speaker Card(s)_08-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=58bdb57a-2fc1-4619-b545-e056d4156f8b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=58bdb57a-2fc1-4619-b545-e056d4156f8b"
+            },
+            {
+              "historyId": "53f0635a-5d67-4854-b6e9-4963fe96c8a6",
+              "title": "Motion ( Raman - Yaroslavsky ) dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53f0635a-5d67-4854-b6e9-4963fe96c8a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=53f0635a-5d67-4854-b6e9-4963fe96c8a6"
+            }
+          ]
+        },
+        {
+          "item_id": "158133",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-0600-S76\nDepartment on Disability report relative to the resources needed, including staffing and other expenses, to comply with the Americans with Disabilities Act (ADA) regulations and requirements for large scale events, including the 2026 World Cup and the 2028 Olympic and Paralympic Games, and whether these expenses could be reimbursed by the LA2028 Agreement in response to the Fiscal Year 2025-26 Budget Recommendation.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Department on Disability dated 11-21-25\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025\nBudget Recommendation dated 07-30-25.pdf",
+          "council_file": "25-0600-S76",
+          "title": "Department on Disability report relative to the resources needed, including staffing and other expenses, to comply with the Americans with Disabilities Act (ADA) regulations and requirements for large scale events, including the 2026 World Cup and the 2028 Olympic and Paralympic Games, and whether these expenses could be reimbursed by the LA2028 Agreement in response to the Fiscal Year 2025-26 Budget Recommendation.",
+          "recommendation": "Yes Community Impact Statement: None submitted Report from Department on Disability dated 11-21-25 Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025 Budget Recommendation dated 07-30-25.pdf",
+          "mig": "17bbfc23-d0b5-46c0-8dda-bde6d05075a1",
+          "attachments": [
+            {
+              "historyId": "6df688bf-66a7-4288-9e62-00c9b9f1af58",
+              "title": "Report from Department on Disability dated 11-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6df688bf-66a7-4288-9e62-00c9b9f1af58",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6df688bf-66a7-4288-9e62-00c9b9f1af58"
+            },
+            {
+              "historyId": "d4011ccc-117c-4e3a-b54d-df81263ecb81",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_08-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d4011ccc-117c-4e3a-b54d-df81263ecb81",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d4011ccc-117c-4e3a-b54d-df81263ecb81"
+            },
+            {
+              "historyId": "2bd5e423-2502-42bc-bfb4-f130b1f731de",
+              "title": "Budget Recommendation dated 07-30-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bd5e423-2502-42bc-bfb4-f130b1f731de",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bd5e423-2502-42bc-bfb4-f130b1f731de"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 2,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-16T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=7S9JMaEsRIs"
+}

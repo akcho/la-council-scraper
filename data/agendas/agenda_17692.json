@@ -1,0 +1,542 @@
+{
+  "meeting_id": 17692,
+  "template_id": 149690,
+  "parsed_at": "2026-01-13T20:31:05.990484",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149690",
+  "sections": [
+    {
+      "section_id": "360153",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360154",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360155",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "158047",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S60\nMayor report relative to the appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030.\nFinancial Disclosure Statement\n: Filed\nBackground Review\n: Pending\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 16, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026)\nCommunication from City Ethics Commission  dated 1-06-25\nReport from Mayor dated 12-02-25",
+          "council_file": "25-1200-S60",
+          "title": "Mayor report relative to the appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030.",
+          "mig": "b0697bf8-703f-4b48-a7d0-5cf5cc3da0ce",
+          "attachments": [
+            {
+              "historyId": "addac333-a404-428e-8138-25517939579c",
+              "title": "Communication from City Ethics Commission  dated 1-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=addac333-a404-428e-8138-25517939579c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=addac333-a404-428e-8138-25517939579c"
+            },
+            {
+              "historyId": "3ce06997-d740-4e25-9aca-13c8694dfcb5",
+              "title": "Report from Mayor dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ce06997-d740-4e25-9aca-13c8694dfcb5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ce06997-d740-4e25-9aca-13c8694dfcb5"
+            }
+          ]
+        },
+        {
+          "item_id": "158050",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1363\nBoard of Fire Commissioners report relative to the proposed 2026 Los Angeles Wildland-Urban Interface Code.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nAgainst, unless amended: Community Forest Advisory Committee\nCommunication from Community Forest Advisory Committee submitted 12-8-25\nReport from Board of Fire Commissioners dated 11-18-25",
+          "council_file": "25-1363",
+          "title": "Board of Fire Commissioners report relative to the proposed 2026 Los Angeles Wildland-Urban Interface Code.",
+          "mig": "f99dbbac-eb2a-4748-8a0e-38d73e5bb98a",
+          "attachments": [
+            {
+              "historyId": "5fe3bbd0-1a2f-4fe8-862d-ada2fecfd51a",
+              "title": "Communication from Community Forest Advisory Committee submitted 12-8-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5fe3bbd0-1a2f-4fe8-862d-ada2fecfd51a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5fe3bbd0-1a2f-4fe8-862d-ada2fecfd51a"
+            },
+            {
+              "historyId": "eeb44013-ff3c-41b6-b348-dd6e2d36696f",
+              "title": "Report from Board of Fire Commissioners dated 11-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eeb44013-ff3c-41b6-b348-dd6e2d36696f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eeb44013-ff3c-41b6-b348-dd6e2d36696f"
+            }
+          ]
+        },
+        {
+          "item_id": "158054",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "22-1316-S3\nCity Attorney report relative to the acceptance of the Resiliency in Communities After Stress and Trauma (ReCAST) Program – Year 4 grant award by the United States Department of Health and Human Services, Substance Abuse and Mental Health Services Administration.\n(This item is referred to the Public Safety Committee and the Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 10-30-25",
+          "council_file": "22-1316-S3",
+          "title": "City Attorney report relative to the acceptance of the Resiliency in Communities After Stress and Trauma (ReCAST) Program – Year 4 grant award by the United States Department of Health and Human Services, Substance Abuse and Mental Health Services Administration.",
+          "mig": "db2e046f-e338-4912-b7ef-cbd39ec51210",
+          "attachments": [
+            {
+              "historyId": "9eef0f70-6efb-4670-bf4a-646ac1266fd1",
+              "title": "Report from City Attorney dated 10-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9eef0f70-6efb-4670-bf4a-646ac1266fd1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9eef0f70-6efb-4670-bf4a-646ac1266fd1"
+            }
+          ]
+        },
+        {
+          "item_id": "158055",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1469\nCD 15\nMotion (McOsker - Blumenfield) relative to directing the City Attorney, in consultation with the Emergency Management Department (EMD), the Los Angeles Fire Department (LAFD), and other relevant departments, to report on the City’s enforcement authority and options to improve safety, emergency preparedness, and community protections related to operations at the JCI Jones Chemicals facility in Harbor Gateway.\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker - Blumenfield) introduced 12-09-25",
+          "council_file": "25-1469",
+          "district": "CD 15",
+          "title": "Motion (McOsker - Blumenfield) relative to directing the City Attorney, in consultation with the Emergency Management Department (EMD), the Los Angeles Fire Department (LAFD), and other relevant departments, to report on the City’s enforcement authority and options to improve safety, emergency preparedness, and community protections related to operations at the JCI Jones Chemicals facility in Harbor Gateway.",
+          "mig": "7fb2fc4b-f0e2-4e01-b89e-4e3bc08b45b1",
+          "attachments": [
+            {
+              "historyId": "9337c73e-4afe-4951-bbb9-98f7727aaeac",
+              "title": "Motion (McOsker - Blumenfield) introduced 12-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9337c73e-4afe-4951-bbb9-98f7727aaeac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9337c73e-4afe-4951-bbb9-98f7727aaeac"
+            }
+          ]
+        },
+        {
+          "item_id": "158056",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1427\nMotion (Jurado – Soto-Martinez) relative to cooperation from autonomous vehicle (AV) operators on vehicle operations data, and adherence to local hire and workforce investment commitments.\n(This item is referred to the Energy and Environment Committee, Public Safety Committee, Trade, Travel and Tourism Committee, and Transportation Committee.)\nCommunity Impact Statement:\nNone submitted.\nCommunity Impact Statement submitted by Westside Neighborhood Council_01-08-2026\nMotion (Jurado - Soto-Martinez) dated 12-02-25",
+          "council_file": "25-1427",
+          "title": "Motion (Jurado – Soto-Martinez) relative to cooperation from autonomous vehicle (AV) operators on vehicle operations data, and adherence to local hire and workforce investment commitments.",
+          "mig": "f189ea78-b933-4d8b-a19c-035d314c855b",
+          "attachments": [
+            {
+              "historyId": "85d185f4-90d8-47fe-9271-60adb4458cb3",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_01-08-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85d185f4-90d8-47fe-9271-60adb4458cb3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85d185f4-90d8-47fe-9271-60adb4458cb3"
+            },
+            {
+              "historyId": "4ec3502a-e07c-4663-9e75-1b5ee63d1c49",
+              "title": "Motion (Jurado - Soto-Martinez) dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ec3502a-e07c-4663-9e75-1b5ee63d1c49",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4ec3502a-e07c-4663-9e75-1b5ee63d1c49"
+            }
+          ]
+        },
+        {
+          "item_id": "158057",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1159\nBoard of Police Commissioners and City Administrative Officer reports relative to the acceptance of a grant award from the Fiscal Year 2025-26 Alcohol Policing Partnership Program Grant.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 12-19-25\nReport from Board of Police Commissioners 9-30-25",
+          "council_file": "25-1159",
+          "title": "Board of Police Commissioners and City Administrative Officer reports relative to the acceptance of a grant award from the Fiscal Year 2025-26 Alcohol Policing Partnership Program Grant.",
+          "mig": "8a8fdbee-9936-4611-92ab-5584d7167cb8",
+          "attachments": [
+            {
+              "historyId": "4110f757-2d5b-43fe-89bf-7f6381302dd1",
+              "title": "Report from City Administrative Officer dated 12-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4110f757-2d5b-43fe-89bf-7f6381302dd1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4110f757-2d5b-43fe-89bf-7f6381302dd1"
+            },
+            {
+              "historyId": "9366b4e3-bca6-40a1-9847-66d09e3ff256",
+              "title": "Report from Board of Police Commissioners 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9366b4e3-bca6-40a1-9847-66d09e3ff256",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9366b4e3-bca6-40a1-9847-66d09e3ff256"
+            }
+          ]
+        },
+        {
+          "item_id": "158058",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1391\nBoard of Police Commissioners and City Administrative Officer reports relative to retroactive approval and acceptance of the 2025-26 Selective Traffic Enforcement Program (STEP) grant award from the State of California, Office of Traffic Safety.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 12-18-25\nReport from Board of Police Commissioners dated 11-21-25",
+          "council_file": "25-1391",
+          "title": "Board of Police Commissioners and City Administrative Officer reports relative to retroactive approval and acceptance of the 2025-26 Selective Traffic Enforcement Program (STEP) grant award from the State of California, Office of Traffic Safety.",
+          "mig": "d8247a5f-54c9-402f-95c3-363e907f9dfe",
+          "attachments": [
+            {
+              "historyId": "084f32ac-9ec2-4163-83ef-c6612dfeb206",
+              "title": "Report from City Administrative Officer dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=084f32ac-9ec2-4163-83ef-c6612dfeb206",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=084f32ac-9ec2-4163-83ef-c6612dfeb206"
+            },
+            {
+              "historyId": "97521f9f-f8ee-4195-bc24-36052dc388c2",
+              "title": "Report from Board of Police Commissioners dated 11-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=97521f9f-f8ee-4195-bc24-36052dc388c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=97521f9f-f8ee-4195-bc24-36052dc388c2"
+            }
+          ]
+        },
+        {
+          "item_id": "158059",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "13-1301-S11\nMayor and City Administrative Officer reports relative to the application and award for Fiscal Year 2025 Security the Cities Program Sustainment Funding and Budget Modifications for Fiscal Year 2020-2024 Awards.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 12-17-25\nReport from Mayor dated 11-25-25",
+          "council_file": "13-1301-S11",
+          "title": "Mayor and City Administrative Officer reports relative to the application and award for Fiscal Year 2025 Security the Cities Program Sustainment Funding and Budget Modifications for Fiscal Year 2020-2024 Awards.",
+          "mig": "645a2f99-3d5b-4df4-b20e-f9e938af4ade",
+          "attachments": [
+            {
+              "historyId": "4ca65135-db02-4b03-8bbf-252fdf24a74b",
+              "title": "Report from City Administrative Officer dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ca65135-db02-4b03-8bbf-252fdf24a74b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4ca65135-db02-4b03-8bbf-252fdf24a74b"
+            },
+            {
+              "historyId": "badbd7b6-b942-4745-b464-86e51633a67c",
+              "title": "Report from Mayor dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=badbd7b6-b942-4745-b464-86e51633a67c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=badbd7b6-b942-4745-b464-86e51633a67c"
+            }
+          ]
+        },
+        {
+          "item_id": "158060",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "22-1479\nCity Administrative Officer report relative to a change in scope of the Fiscal Year 2022 Prosecuting Cold Cases Using DNA Grant Program.\n(This item is referred to the Public Safety Committee and the Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 12-10-25\nCouncil Action - Mayor Concurrence dated 10-29-25\nReport from Board of Police Commissioners dated 10-03-25\nReport from Public Safety and Budget and Finance Committees 09-17-25\nSpeaker Card(s)_10-07-2025\nSpeaker Card(s)_09-17-2025\nReport from City Administrative Officer dated 9-05-25\nReport from Board of Police Commissioners dated 8-12-25\nCouncil Action - Mayor Concurrence dated 6302023\nReport from Public Safety Committee 6-13-23\nReport from City Administrative Officer dated 6-06-23\nReport from Board of Police Commissioners dated 11-22-22\nCommunication(s) from Public_06-13-2023",
+          "council_file": "22-1479",
+          "title": "City Administrative Officer report relative to a change in scope of the Fiscal Year 2022 Prosecuting Cold Cases Using DNA Grant Program.",
+          "mig": "2d2d9867-fc58-49a9-96a6-d309fa653d21",
+          "attachments": [
+            {
+              "historyId": "ee0c577c-aabf-4b55-861f-47db07197cda",
+              "title": "Report from City Administrative Officer dated 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee0c577c-aabf-4b55-861f-47db07197cda",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ee0c577c-aabf-4b55-861f-47db07197cda"
+            },
+            {
+              "historyId": "4b4c7836-f5be-4a09-a564-2f207dd112f3",
+              "title": "Council Action - Mayor Concurrence dated 10-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b4c7836-f5be-4a09-a564-2f207dd112f3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4b4c7836-f5be-4a09-a564-2f207dd112f3"
+            },
+            {
+              "historyId": "effd2231-28b4-42ab-a021-75b61aa0610e",
+              "title": "Report from Board of Police Commissioners dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=effd2231-28b4-42ab-a021-75b61aa0610e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=effd2231-28b4-42ab-a021-75b61aa0610e"
+            },
+            {
+              "historyId": "a62fc2a9-6abc-436b-9c81-bbeeefa7d886",
+              "title": "Report from Public Safety and Budget and Finance Committees 09-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a62fc2a9-6abc-436b-9c81-bbeeefa7d886",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a62fc2a9-6abc-436b-9c81-bbeeefa7d886"
+            },
+            {
+              "historyId": "3148aca7-7d84-486c-8958-79f945063efb",
+              "title": "Speaker Card(s)_10-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3148aca7-7d84-486c-8958-79f945063efb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3148aca7-7d84-486c-8958-79f945063efb"
+            },
+            {
+              "historyId": "a6c2b22f-fe3a-426d-8698-8afc36dff545",
+              "title": "Speaker Card(s)_09-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6c2b22f-fe3a-426d-8698-8afc36dff545",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a6c2b22f-fe3a-426d-8698-8afc36dff545"
+            },
+            {
+              "historyId": "3cdcfcf5-31d2-4fe4-8883-566547a66f32",
+              "title": "Report from City Administrative Officer dated 9-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cdcfcf5-31d2-4fe4-8883-566547a66f32",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3cdcfcf5-31d2-4fe4-8883-566547a66f32"
+            },
+            {
+              "historyId": "19264b68-9808-4de3-8db3-821ff13464ab",
+              "title": "Report from Board of Police Commissioners dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19264b68-9808-4de3-8db3-821ff13464ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=19264b68-9808-4de3-8db3-821ff13464ab"
+            },
+            {
+              "historyId": "fa80e4f2-a5ba-4b26-9af3-e73c4a4104c1",
+              "title": "Council Action - Mayor Concurrence dated 6302023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa80e4f2-a5ba-4b26-9af3-e73c4a4104c1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa80e4f2-a5ba-4b26-9af3-e73c4a4104c1"
+            },
+            {
+              "historyId": "777143b8-8da5-4c49-994b-eec339d3eb04",
+              "title": "Report from Public Safety Committee 6-13-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=777143b8-8da5-4c49-994b-eec339d3eb04",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=777143b8-8da5-4c49-994b-eec339d3eb04"
+            },
+            {
+              "historyId": "44cdb75c-ddc5-4383-9e96-f2ef95d934d7",
+              "title": "Report from City Administrative Officer dated 6-06-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=44cdb75c-ddc5-4383-9e96-f2ef95d934d7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=44cdb75c-ddc5-4383-9e96-f2ef95d934d7"
+            },
+            {
+              "historyId": "047554d9-a73e-492b-9ad2-f26fe22ace28",
+              "title": "Report from Board of Police Commissioners dated 11-22-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=047554d9-a73e-492b-9ad2-f26fe22ace28",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=047554d9-a73e-492b-9ad2-f26fe22ace28"
+            },
+            {
+              "historyId": "e7e261f9-32fb-4cee-94da-12ac74d750ab",
+              "title": "Communication(s) from Public_06-13-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7e261f9-32fb-4cee-94da-12ac74d750ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e7e261f9-32fb-4cee-94da-12ac74d750ab"
+            }
+          ]
+        },
+        {
+          "item_id": "158061",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "22-0057\nCity Administrative Officer and Board of Police Commissioners reports relative to a no-cost extension for the Fiscal Year 2021 Collaborative Crisis Response Training Grant Program.\n(This item is referred to the Public Safety and Budget and Finance Committees.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 11-07-25\nReport from Board of Police Commissioners dated 8-12-25\nCouncil Action - Mayor Concurrence dated 7152023\nCouncil Action - Mayor Concurrence  dated 7-01-22\nSpeaker Card(s)_07-01-2022\nCouncil Action - Mayor Concurrence  dated 3-03-22\nReport from Public Safety Committee 2-16-22\nReport from City Administrative Officer dated 2-01-22.pdf\nReport from Board of Police Commissioners dated 1-13-22.pdf\nSpeaker Card(s)_07-05-2023",
+          "council_file": "22-0057",
+          "title": "City Administrative Officer and Board of Police Commissioners reports relative to a no-cost extension for the Fiscal Year 2021 Collaborative Crisis Response Training Grant Program.",
+          "mig": "53224f64-1b6d-4c5b-8376-0db67311a48f",
+          "attachments": [
+            {
+              "historyId": "46a2b8ad-6c67-4d18-b373-263b6d8e756a",
+              "title": "Report from City Administrative Officer dated 11-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=46a2b8ad-6c67-4d18-b373-263b6d8e756a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=46a2b8ad-6c67-4d18-b373-263b6d8e756a"
+            },
+            {
+              "historyId": "e8a365e5-f6e0-4ca5-83b0-b591cf0c1c2b",
+              "title": "Report from Board of Police Commissioners dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8a365e5-f6e0-4ca5-83b0-b591cf0c1c2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8a365e5-f6e0-4ca5-83b0-b591cf0c1c2b"
+            },
+            {
+              "historyId": "39f2cd5d-15c2-4a54-9c31-b7fdb9e0a610",
+              "title": "Council Action - Mayor Concurrence dated 7152023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39f2cd5d-15c2-4a54-9c31-b7fdb9e0a610",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=39f2cd5d-15c2-4a54-9c31-b7fdb9e0a610"
+            },
+            {
+              "historyId": "f6b4c7fc-cc01-4dc1-b9c0-7b35d7f7eaa3",
+              "title": "Council Action - Mayor Concurrence  dated 7-01-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6b4c7fc-cc01-4dc1-b9c0-7b35d7f7eaa3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f6b4c7fc-cc01-4dc1-b9c0-7b35d7f7eaa3"
+            },
+            {
+              "historyId": "aeec3989-2db5-4916-b76f-ce6e9296fb7d",
+              "title": "Speaker Card(s)_07-01-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aeec3989-2db5-4916-b76f-ce6e9296fb7d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aeec3989-2db5-4916-b76f-ce6e9296fb7d"
+            },
+            {
+              "historyId": "7b15e6e5-1d2e-4877-82e9-d091ae2a8a47",
+              "title": "Council Action - Mayor Concurrence  dated 3-03-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b15e6e5-1d2e-4877-82e9-d091ae2a8a47",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7b15e6e5-1d2e-4877-82e9-d091ae2a8a47"
+            },
+            {
+              "historyId": "f6cad512-1a35-431d-a8ce-3f7499f3f1f8",
+              "title": "Report from Public Safety Committee 2-16-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6cad512-1a35-431d-a8ce-3f7499f3f1f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f6cad512-1a35-431d-a8ce-3f7499f3f1f8"
+            },
+            {
+              "historyId": "71da1e24-60c0-4e15-bc81-7ce11c144a6f",
+              "title": "Report from City Administrative Officer dated 2-01-22.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=71da1e24-60c0-4e15-bc81-7ce11c144a6f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=71da1e24-60c0-4e15-bc81-7ce11c144a6f"
+            },
+            {
+              "historyId": "7f293778-63f1-4e04-92d3-4bf3264b0bf4",
+              "title": "Report from Board of Police Commissioners dated 1-13-22.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f293778-63f1-4e04-92d3-4bf3264b0bf4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f293778-63f1-4e04-92d3-4bf3264b0bf4"
+            },
+            {
+              "historyId": "820a93cd-6bb6-47b5-916c-d65e319e8c1c",
+              "title": "Speaker Card(s)_07-05-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=820a93cd-6bb6-47b5-916c-d65e319e8c1c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=820a93cd-6bb6-47b5-916c-d65e319e8c1c"
+            }
+          ]
+        },
+        {
+          "item_id": "158062",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "21-1015-S15\nCity Administrative Officer and Mayor reports relative to a grant application and award from the California Governor’s Office of Emergency Services Homeland Security and Emergency Management – Fiscal Year 2024 State and Local Cybersecurity Grant Program.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Mayor dated 12-23-25\nReport from City Administrative Officer dated 10-31-24",
+          "council_file": "21-1015-S15",
+          "title": "City Administrative Officer and Mayor reports relative to a grant application and award from the California Governor’s Office of Emergency Services Homeland Security and Emergency Management – Fiscal Year 2024 State and Local Cybersecurity Grant Program.",
+          "mig": "e5a4d232-f411-4b06-bd69-282356acfb82",
+          "attachments": [
+            {
+              "historyId": "65b1f707-f877-4ccc-a66c-e4dcfc33f011",
+              "title": "Report from Mayor dated 12-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=65b1f707-f877-4ccc-a66c-e4dcfc33f011",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=65b1f707-f877-4ccc-a66c-e4dcfc33f011"
+            },
+            {
+              "historyId": "fb1bd974-ce51-449c-9e3a-be529a18c234",
+              "title": "Report from City Administrative Officer dated 10-31-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb1bd974-ce51-449c-9e3a-be529a18c234",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fb1bd974-ce51-449c-9e3a-be529a18c234"
+            }
+          ]
+        },
+        {
+          "item_id": "158063",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "25-1477\nBoard of Fire Commissioners report relative to accepting an in-kind donation valued at $2,633,180.21 for various equipment and operational needs from the Los Angeles Fire Department Foundation.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nBoard of Fire Commissioners dated 11-18-25",
+          "council_file": "25-1477",
+          "title": "Board of Fire Commissioners report relative to accepting an in-kind donation valued at $2,633,180.21 for various equipment and operational needs from the Los Angeles Fire Department Foundation.",
+          "mig": "24ff0d9b-3fdb-4740-b8be-6de21ad81fed",
+          "attachments": [
+            {
+              "historyId": "22625284-4659-4789-85a3-86790fafb103",
+              "title": "Board of Fire Commissioners dated 11-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22625284-4659-4789-85a3-86790fafb103",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22625284-4659-4789-85a3-86790fafb103"
+            }
+          ]
+        },
+        {
+          "item_id": "158064",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-0410\nCity Attorney report and draft Ordinance relative to amending the Los Angeles Administrative Code to update the schedule of charges for emergency ambulance service fees by increasing the rates for advanced life support and mileage.\n(This item is referred to the Public Safety Committee and Budget and Finance Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 12-30-25\nAttachment to Report dated 12-30-25 - Draft Ordinance\nCouncil Action dated 10-02-25\nReport from Public Safety and Budget and Finance Committees 06-03-25\nReport from Board of Fire Commissioners dated 4-15-25",
+          "council_file": "25-0410",
+          "title": "City Attorney report and draft Ordinance relative to amending the Los Angeles Administrative Code to update the schedule of charges for emergency ambulance service fees by increasing the rates for advanced life support and mileage.",
+          "mig": "f2498d81-c44c-460c-9b7d-05a12aef07bb",
+          "attachments": [
+            {
+              "historyId": "b1c8d957-ba21-48d5-a174-d53ac3ace15f",
+              "title": "Report from City Attorney dated 12-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1c8d957-ba21-48d5-a174-d53ac3ace15f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b1c8d957-ba21-48d5-a174-d53ac3ace15f"
+            },
+            {
+              "historyId": "acd7f7ca-2eb8-420f-b0da-445556866fc0",
+              "title": "Attachment to Report dated 12-30-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=acd7f7ca-2eb8-420f-b0da-445556866fc0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=acd7f7ca-2eb8-420f-b0da-445556866fc0"
+            },
+            {
+              "historyId": "bd011029-88dc-4483-abc8-aa91ec2b1575",
+              "title": "Council Action dated 10-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd011029-88dc-4483-abc8-aa91ec2b1575",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bd011029-88dc-4483-abc8-aa91ec2b1575"
+            },
+            {
+              "historyId": "580ab8b1-84ed-453e-a005-56a67660e2ba",
+              "title": "Report from Public Safety and Budget and Finance Committees 06-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=580ab8b1-84ed-453e-a005-56a67660e2ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=580ab8b1-84ed-453e-a005-56a67660e2ba"
+            },
+            {
+              "historyId": "a641f80b-618f-4e0b-ae07-5ceea127adde",
+              "title": "Report from Board of Fire Commissioners dated 4-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a641f80b-618f-4e0b-ae07-5ceea127adde",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a641f80b-618f-4e0b-ae07-5ceea127adde"
+            }
+          ]
+        },
+        {
+          "item_id": "158090",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-0761\nCity Attorney report and Ordinance relative to amending Sections 41.40, 44.04, 52.16 and 103.206 of the Los Angeles Municipal Code (LAMC) to revise Police Commission Service Fees.\n(This item is referred to the Public Safety Committee and the Budget and Finance Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 1-05-25\nAttachment to Report dated 1-05-26 - Draft Ordinance\nCouncil Action dated 9-04-25\nReport from Public Safety Committee 8-20-25\nSpeaker Card(s)_08-20-2025\nReport from City Administrative Officer dated 7-02-25",
+          "council_file": "25-0761",
+          "title": "City Attorney report and Ordinance relative to amending Sections 41.40, 44.04, 52.16 and 103.206 of the Los Angeles Municipal Code (LAMC) to revise Police Commission Service Fees.",
+          "mig": "208667e3-bd25-4db7-9795-7591ae95e968",
+          "attachments": [
+            {
+              "historyId": "5e397a6b-3d91-4c48-a0c6-fd0dc67a3a83",
+              "title": "Report from City Attorney dated 1-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e397a6b-3d91-4c48-a0c6-fd0dc67a3a83",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5e397a6b-3d91-4c48-a0c6-fd0dc67a3a83"
+            },
+            {
+              "historyId": "6cdd6d8a-e68c-4f9d-9f7d-af8bba93fb9e",
+              "title": "Attachment to Report dated 1-05-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6cdd6d8a-e68c-4f9d-9f7d-af8bba93fb9e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6cdd6d8a-e68c-4f9d-9f7d-af8bba93fb9e"
+            },
+            {
+              "historyId": "0aaa6bae-ec64-4ce3-ac82-838a0a838924",
+              "title": "Council Action dated 9-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0aaa6bae-ec64-4ce3-ac82-838a0a838924",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0aaa6bae-ec64-4ce3-ac82-838a0a838924"
+            },
+            {
+              "historyId": "e45565f8-4963-480e-b1dd-d09a29326220",
+              "title": "Report from Public Safety Committee 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e45565f8-4963-480e-b1dd-d09a29326220",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e45565f8-4963-480e-b1dd-d09a29326220"
+            },
+            {
+              "historyId": "9effd2f9-2823-4c23-b7d0-6662e6cad413",
+              "title": "Speaker Card(s)_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9effd2f9-2823-4c23-b7d0-6662e6cad413",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9effd2f9-2823-4c23-b7d0-6662e6cad413"
+            },
+            {
+              "historyId": "566dee57-c1dd-4161-8f60-1f3aaeec22a9",
+              "title": "Report from City Administrative Officer dated 7-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=566dee57-c1dd-4161-8f60-1f3aaeec22a9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=566dee57-c1dd-4161-8f60-1f3aaeec22a9"
+            }
+          ]
+        },
+        {
+          "item_id": "158091",
+          "item_number": "(15)",
+          "has_attachments": true,
+          "raw_text": "25-0762\nCity Attorney report and Ordinance relative to amending Section 103.12 of Division, Article 3, Chapter X of the Los Angeles Municipal Code (LAMC) to revise the Business Permit Fee Schedule.\n(This item is referred to the Public Safety Committee and the Budget and Finance Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 1-05-26\nAttachment to Report dated 1-05-26 - Draft Ordinance\nCouncil Action dated 9-04-25\nSpeaker Card(s)_09-02-2025\nReport from Public Safety Committee 8-26-25\nSpeaker Card(s)_08-20-2025\nReport from City Administrative Officer dated 7-02-25",
+          "council_file": "25-0762",
+          "title": "City Attorney report and Ordinance relative to amending Section 103.12 of Division, Article 3, Chapter X of the Los Angeles Municipal Code (LAMC) to revise the Business Permit Fee Schedule.",
+          "mig": "29679a9c-9bbc-48e4-9157-8c0e8ace04bd",
+          "attachments": [
+            {
+              "historyId": "bca5e625-65ca-4e44-8c5c-3d3bedde7c18",
+              "title": "Report from City Attorney dated 1-05-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bca5e625-65ca-4e44-8c5c-3d3bedde7c18",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bca5e625-65ca-4e44-8c5c-3d3bedde7c18"
+            },
+            {
+              "historyId": "3e616941-3ed8-42ad-9ce4-6d06cd2a2da3",
+              "title": "Attachment to Report dated 1-05-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3e616941-3ed8-42ad-9ce4-6d06cd2a2da3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3e616941-3ed8-42ad-9ce4-6d06cd2a2da3"
+            },
+            {
+              "historyId": "edbfb047-c1ca-4fe3-848b-979ed3fb06eb",
+              "title": "Council Action dated 9-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=edbfb047-c1ca-4fe3-848b-979ed3fb06eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=edbfb047-c1ca-4fe3-848b-979ed3fb06eb"
+            },
+            {
+              "historyId": "cac259d6-34a3-41f3-91af-85ec9a23aec9",
+              "title": "Speaker Card(s)_09-02-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cac259d6-34a3-41f3-91af-85ec9a23aec9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cac259d6-34a3-41f3-91af-85ec9a23aec9"
+            },
+            {
+              "historyId": "db68bea3-f773-48f3-bdaa-feb98d3d1627",
+              "title": "Report from Public Safety Committee 8-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db68bea3-f773-48f3-bdaa-feb98d3d1627",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=db68bea3-f773-48f3-bdaa-feb98d3d1627"
+            },
+            {
+              "historyId": "37371a09-d438-4b5e-bee9-ac58e55d65c2",
+              "title": "Speaker Card(s)_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=37371a09-d438-4b5e-bee9-ac58e55d65c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=37371a09-d438-4b5e-bee9-ac58e55d65c2"
+            },
+            {
+              "historyId": "e0e23e34-3498-4025-b0f2-e349a19729c0",
+              "title": "Report from City Administrative Officer dated 7-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0e23e34-3498-4025-b0f2-e349a19729c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e0e23e34-3498-4025-b0f2-e349a19729c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 15,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-14T22:30:00",
+  "video_url": "https://www.youtube.com/watch?v=M55siyKLmaU"
+}

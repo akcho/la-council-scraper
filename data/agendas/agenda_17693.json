@@ -1,0 +1,323 @@
+{
+  "meeting_id": 17693,
+  "template_id": 149699,
+  "parsed_at": "2026-01-13T20:31:05.310097",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149699",
+  "sections": [
+    {
+      "section_id": "360156",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360157",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360158",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "158078",
+          "item_number": "(1)",
+          "has_attachments": false,
+          "raw_text": "-----\nVerbal discussion from the Bureau of Street Services about their efforts to repair pot holes.",
+          "title": "Verbal discussion from the Bureau of Street Services about their efforts to repair pot holes.",
+          "mig": "7e83937e-9788-42c2-af92-c902cb269938"
+        },
+        {
+          "item_id": "158080",
+          "item_number": "(2)",
+          "has_attachments": false,
+          "raw_text": "-----\nVerbal discussion from the Bureau of Sanitation on the status of the illegal dumping program and bulky item pick-up.",
+          "title": "Verbal discussion from the Bureau of Sanitation on the status of the illegal dumping program and bulky item pick-up.",
+          "mig": "0092c684-f48f-4e7e-96d1-0a8393da30e7"
+        },
+        {
+          "item_id": "158081",
+          "item_number": "(3)",
+          "has_attachments": false,
+          "raw_text": "-----\nVerbal discussion from the Board of Public Works on the status of the graffiti abatement programs.",
+          "title": "Verbal discussion from the Board of Public Works on the status of the graffiti abatement programs.",
+          "mig": "f419b278-bd16-465e-be43-4e9307f6870a"
+        },
+        {
+          "item_id": "158067",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1393\nCommunication from the Mayor relative to the extension of the appointment of Alfred Mata as the Interim City Engineer.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - MAY 24, 2026\n(LAST DAY FOR COUNCIL ACTION - MAY 22, 2026)\nReport from Mayor dated 11-24-25",
+          "council_file": "25-1393",
+          "title": "Communication from the Mayor relative to the extension of the appointment of Alfred Mata as the Interim City Engineer.",
+          "mig": "ea91c38d-1ad8-4e9b-9f2c-194885147f74",
+          "attachments": [
+            {
+              "historyId": "5ad43d3c-285b-47bc-adfd-520ebea28eab",
+              "title": "Report from Mayor dated 11-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ad43d3c-285b-47bc-adfd-520ebea28eab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5ad43d3c-285b-47bc-adfd-520ebea28eab"
+            }
+          ]
+        },
+        {
+          "item_id": "158069",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-1507\nMotion (McOsker - Lee) relative to temporarily closing the street area of 103rd Place located between Bandera Street and Wilmington Avenue in Watts.\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker- Lee) dated 12-12-25",
+          "council_file": "25-1507",
+          "title": "Motion (McOsker - Lee) relative to temporarily closing the street area of 103rd Place located between Bandera Street and Wilmington Avenue in Watts.",
+          "mig": "e73fcac2-e66c-4f4a-bb39-374dfe74547d",
+          "attachments": [
+            {
+              "historyId": "d58c5b94-1f49-4bca-8bc1-8fc188c5ce81",
+              "title": "Motion (McOsker- Lee) dated 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d58c5b94-1f49-4bca-8bc1-8fc188c5ce81",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d58c5b94-1f49-4bca-8bc1-8fc188c5ce81"
+            }
+          ]
+        },
+        {
+          "item_id": "158070",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1513\nMotion (McOsker – Nazarian) relative to temporarily closing Hoover Street between El Segundo Boulevard and W. 127th Street in Harbor Gateway.\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker - Nazarian) dated 12-12-25",
+          "council_file": "25-1513",
+          "title": "Motion (McOsker – Nazarian) relative to temporarily closing Hoover Street between El Segundo Boulevard and W. 127th Street in Harbor Gateway.",
+          "mig": "cb88ed2b-3083-401a-b349-8ff1994aa5ca",
+          "attachments": [
+            {
+              "historyId": "6069f0f1-1b4a-4d6b-8023-aff2c9ddaff4",
+              "title": "Motion (McOsker - Nazarian) dated 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6069f0f1-1b4a-4d6b-8023-aff2c9ddaff4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6069f0f1-1b4a-4d6b-8023-aff2c9ddaff4"
+            }
+          ]
+        },
+        {
+          "item_id": "158072",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1340\nMotion (Harris-Dawson - Hutt) relative to designating the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\"\nCommunity Impact Statement:\nNone submitted\nMotion (Harris-Dawson - Hutt) dated 11-12-25",
+          "council_file": "25-1340",
+          "title": "Motion (Harris-Dawson - Hutt) relative to designating the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\"",
+          "mig": "e73f3f08-aebd-423f-8b22-816aea755278",
+          "attachments": [
+            {
+              "historyId": "36e07575-7980-4a82-8d5a-3a35aaf9d68e",
+              "title": "Motion (Harris-Dawson - Hutt) dated 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=36e07575-7980-4a82-8d5a-3a35aaf9d68e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=36e07575-7980-4a82-8d5a-3a35aaf9d68e"
+            }
+          ]
+        },
+        {
+          "item_id": "158075",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1203\nMotion (McOsker – Nazarian) relative to designating the intersection of 225th Street and Halldale Avenue in Harbor Gateway as “Janet Horst Square.\"\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker - Nazarian) dated 10-15-25",
+          "council_file": "25-1203",
+          "title": "Motion (McOsker – Nazarian) relative to designating the intersection of 225th Street and Halldale Avenue in Harbor Gateway as “Janet Horst Square.\"",
+          "mig": "b9c07017-ffca-4334-8df1-6c716261918e",
+          "attachments": [
+            {
+              "historyId": "677baf2c-41de-4a67-8478-72e94d8f1191",
+              "title": "Motion (McOsker - Nazarian) dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=677baf2c-41de-4a67-8478-72e94d8f1191",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=677baf2c-41de-4a67-8478-72e94d8f1191"
+            }
+          ]
+        },
+        {
+          "item_id": "158073",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-0095\nCD 11\nEnvironmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of 96th Street between Sepulveda Boulevard and Jetway Boulevard, Vicksburg Avenue between 98th Street and 96th Street, and a portion of the easterly side of Sepulveda Boulevard from approximately 150 feet southerly of 96th Street to approximately 575 feet northerly thereof (VAC- E1401456).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nCommunication from Committee Clerk (Notice)_1-14-26\nReport from Bureau of Engineering dated 12-22-25\nAttachment to Report dated 12-22-25- Transmittal 1\nAttachment to Report dated 12-22-25- Transmittal 2\nAttachment to Report dated 12-22-25- Transmittal 3\nAttachment to Report dated 12-22-25- Transmittal 4\nAttachment to Report dated 12-22-25- Transmittal 5\nAttachment to Report dated 12-22-25- Transmittal 6\nAttachment to Report dated 12-22-25- Transmittal 7\nAttachment to Report dated 12-22-25- Transmittal 8\nAttachment to Report dated 12-22-25- Transmittal 9\nCouncil Action dated 2-18-25\nSpeaker Card(s)_02-12-2025\nReport from Bureau of Engineering dated 1-28-25\nAttachment to Report dated 1-28-25 - Application\nAttachment to Report dated 1-28-25 - Exhibit A",
+          "council_file": "25-0095",
+          "district": "CD 11",
+          "title": "Environmental Impact Report, Mitigation Monitoring and Reporting Program, Statement of Overriding Considerations, and City Engineer report relative to the vacation of 96th Street between Sepulveda Boulevard and Jetway Boulevard, Vicksburg Avenue between 98th Street and 96th Street, and a portion of the easterly side of Sepulveda Boulevard from approximately 150 feet southerly of 96th Street to approximately 575 feet northerly thereof (VAC- E1401456).",
+          "mig": "78813b45-e38f-4d68-9bc3-abc8f021be89",
+          "attachments": [
+            {
+              "historyId": "bd0b67b3-7910-4953-9cb7-e78b97e3e45f",
+              "title": "Communication from Committee Clerk (Notice)_1-14-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd0b67b3-7910-4953-9cb7-e78b97e3e45f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bd0b67b3-7910-4953-9cb7-e78b97e3e45f"
+            },
+            {
+              "historyId": "ab3295e1-9197-440b-8288-68a5e0dd4819",
+              "title": "Report from Bureau of Engineering dated 12-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ab3295e1-9197-440b-8288-68a5e0dd4819",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ab3295e1-9197-440b-8288-68a5e0dd4819"
+            },
+            {
+              "historyId": "94c96f65-47a8-4819-a664-5a702d1181c5",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 1",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=94c96f65-47a8-4819-a664-5a702d1181c5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=94c96f65-47a8-4819-a664-5a702d1181c5"
+            },
+            {
+              "historyId": "2da8504d-5e8d-4aba-96d4-b72213c1a497",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 2",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2da8504d-5e8d-4aba-96d4-b72213c1a497",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2da8504d-5e8d-4aba-96d4-b72213c1a497"
+            },
+            {
+              "historyId": "7a7377d4-a96b-4e2b-9878-6d91ad27e7a2",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 3",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a7377d4-a96b-4e2b-9878-6d91ad27e7a2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7a7377d4-a96b-4e2b-9878-6d91ad27e7a2"
+            },
+            {
+              "historyId": "635fc065-e180-4d94-b77d-3177bdfab12e",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 4",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=635fc065-e180-4d94-b77d-3177bdfab12e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=635fc065-e180-4d94-b77d-3177bdfab12e"
+            },
+            {
+              "historyId": "472eaeca-9592-4ded-9537-068f3e4069b3",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 5",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=472eaeca-9592-4ded-9537-068f3e4069b3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=472eaeca-9592-4ded-9537-068f3e4069b3"
+            },
+            {
+              "historyId": "2315472a-e125-40d2-8adf-95cd194d212c",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 6",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2315472a-e125-40d2-8adf-95cd194d212c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2315472a-e125-40d2-8adf-95cd194d212c"
+            },
+            {
+              "historyId": "266ed530-9d5c-4de1-b58e-041def4cfd12",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 7",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=266ed530-9d5c-4de1-b58e-041def4cfd12",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=266ed530-9d5c-4de1-b58e-041def4cfd12"
+            },
+            {
+              "historyId": "1709b606-59fa-41f5-b384-f2cafe2ca7a4",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 8",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1709b606-59fa-41f5-b384-f2cafe2ca7a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1709b606-59fa-41f5-b384-f2cafe2ca7a4"
+            },
+            {
+              "historyId": "2ce7fbf4-08c0-44bc-943d-555e63b75190",
+              "title": "Attachment to Report dated 12-22-25- Transmittal 9",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ce7fbf4-08c0-44bc-943d-555e63b75190",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ce7fbf4-08c0-44bc-943d-555e63b75190"
+            },
+            {
+              "historyId": "4e5aafbe-eae5-4820-abf6-db449a72b903",
+              "title": "Council Action dated 2-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e5aafbe-eae5-4820-abf6-db449a72b903",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4e5aafbe-eae5-4820-abf6-db449a72b903"
+            },
+            {
+              "historyId": "403daccb-ae16-4b72-ac26-1aff58ecd7d0",
+              "title": "Speaker Card(s)_02-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=403daccb-ae16-4b72-ac26-1aff58ecd7d0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=403daccb-ae16-4b72-ac26-1aff58ecd7d0"
+            },
+            {
+              "historyId": "e12070d6-3261-4673-aa20-f798037bd916",
+              "title": "Report from Bureau of Engineering dated 1-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e12070d6-3261-4673-aa20-f798037bd916",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e12070d6-3261-4673-aa20-f798037bd916"
+            },
+            {
+              "historyId": "40424847-baa5-475a-acb2-270d1ff49d16",
+              "title": "Attachment to Report dated 1-28-25 - Application",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40424847-baa5-475a-acb2-270d1ff49d16",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=40424847-baa5-475a-acb2-270d1ff49d16"
+            },
+            {
+              "historyId": "240929be-3f99-491d-8bdc-bad1c39d8dac",
+              "title": "Attachment to Report dated 1-28-25 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=240929be-3f99-491d-8bdc-bad1c39d8dac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=240929be-3f99-491d-8bdc-bad1c39d8dac"
+            }
+          ]
+        },
+        {
+          "item_id": "158074",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "24-1448-S1\nCD 14\nEnvironmental Impact Report and City Engineer report relative to the Airspace Vacation (elevation of approximately 401’2” to 471’9”) at corner of Hope Street with 2nd Street (VAC- E1401457).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Bureau of Engineering dated 12-17-25\nAttachment to Report dated 12-17-25 - Application Packet\nAttachment to Report dated 12-17-25 - CEQA Transmittal\nAttachment to Report dated 12-17-25 - Application Letter Change\nAttachment to Report dated 12-17-25 - Exhibit B\nCouncil Action dated 1-24-25\nReport from Bureau of Engineering dated 12-02-24\nAttachment to Report dated 12-02-24 - Application Packet\nAttachment to Report dated 12-02-24 - Exhibit A\nSpeaker Card(s)_01-22-2025\nCommunication from Committee Clerk (Notice)_1-14-26",
+          "council_file": "24-1448-S1",
+          "district": "CD 14",
+          "title": "Environmental Impact Report and City Engineer report relative to the Airspace Vacation (elevation of approximately 401’2” to 471’9”) at corner of Hope Street with 2nd Street (VAC- E1401457).",
+          "mig": "0c4f1241-e05d-4ee1-ade5-e4e3b53f26b6",
+          "attachments": [
+            {
+              "historyId": "667a9617-da3f-4d4e-9df9-8141f3e5e95e",
+              "title": "Report from Bureau of Engineering dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=667a9617-da3f-4d4e-9df9-8141f3e5e95e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=667a9617-da3f-4d4e-9df9-8141f3e5e95e"
+            },
+            {
+              "historyId": "8ad189e2-1424-4bac-b91e-075e98a0f2ce",
+              "title": "Attachment to Report dated 12-17-25 - Application Packet",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ad189e2-1424-4bac-b91e-075e98a0f2ce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8ad189e2-1424-4bac-b91e-075e98a0f2ce"
+            },
+            {
+              "historyId": "7b01b94b-929b-48c1-a03f-2fc48a956b88",
+              "title": "Attachment to Report dated 12-17-25 - CEQA Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b01b94b-929b-48c1-a03f-2fc48a956b88",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7b01b94b-929b-48c1-a03f-2fc48a956b88"
+            },
+            {
+              "historyId": "585fc037-86a6-4f01-acf4-9df2d696437e",
+              "title": "Attachment to Report dated 12-17-25 - Application Letter Change",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=585fc037-86a6-4f01-acf4-9df2d696437e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=585fc037-86a6-4f01-acf4-9df2d696437e"
+            },
+            {
+              "historyId": "53ee6bab-bf0d-4d5d-905b-62de60caad3a",
+              "title": "Attachment to Report dated 12-17-25 - Exhibit B",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53ee6bab-bf0d-4d5d-905b-62de60caad3a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=53ee6bab-bf0d-4d5d-905b-62de60caad3a"
+            },
+            {
+              "historyId": "2e71cd99-4d56-4b66-9736-7403cb1c00aa",
+              "title": "Council Action dated 1-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e71cd99-4d56-4b66-9736-7403cb1c00aa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e71cd99-4d56-4b66-9736-7403cb1c00aa"
+            },
+            {
+              "historyId": "c8d958ae-4c96-4357-b356-5fbc55093619",
+              "title": "Report from Bureau of Engineering dated 12-02-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c8d958ae-4c96-4357-b356-5fbc55093619",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c8d958ae-4c96-4357-b356-5fbc55093619"
+            },
+            {
+              "historyId": "04885f9c-f55e-4357-ae60-ab37d1327d59",
+              "title": "Attachment to Report dated 12-02-24 - Application Packet",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=04885f9c-f55e-4357-ae60-ab37d1327d59",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=04885f9c-f55e-4357-ae60-ab37d1327d59"
+            },
+            {
+              "historyId": "133944c5-8223-44e2-9c7d-a981ee0ef2eb",
+              "title": "Attachment to Report dated 12-02-24 - Exhibit A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=133944c5-8223-44e2-9c7d-a981ee0ef2eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=133944c5-8223-44e2-9c7d-a981ee0ef2eb"
+            },
+            {
+              "historyId": "5927a360-4f62-4faf-8ff5-652c607cdeb8",
+              "title": "Speaker Card(s)_01-22-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5927a360-4f62-4faf-8ff5-652c607cdeb8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5927a360-4f62-4faf-8ff5-652c607cdeb8"
+            },
+            {
+              "historyId": "a3a2c7bf-f82e-4350-a200-a000dcfed591",
+              "title": "Communication from Committee Clerk (Notice)_1-14-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3a2c7bf-f82e-4350-a200-a000dcfed591",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a3a2c7bf-f82e-4350-a200-a000dcfed591"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 10,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-14T23:30:00",
+  "video_url": "https://www.youtube.com/watch?v=2PbmAPPa03w"
+}

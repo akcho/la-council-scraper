@@ -1,0 +1,1265 @@
+{
+  "meeting_id": 17641,
+  "template_id": 149164,
+  "parsed_at": "2026-01-13T20:31:07.232767",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149164",
+  "sections": [
+    {
+      "section_id": "359572",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359574",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "157967",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1282\nCD 11\nMotion (Park - Lee) relative to instructing the Department of City Planning, with the assistance of the City Attorney, and in consultation with the California Coastal Commission, to prepare and present an ordinance to amend the Certified Venice Land Use Plan to clarify Policy I.C.1 (Industrial Land Use), to explicitly prescribe that commercial uses are permitted on industrially designated land.\nCommunity Impact Statement:\nNone submitted\nMotion (Park - Lee) dated 10-28-25",
+          "council_file": "25-1282",
+          "district": "CD 11",
+          "title": "Motion (Park - Lee) relative to instructing the Department of City Planning, with the assistance of the City Attorney, and in consultation with the California Coastal Commission, to prepare and present an ordinance to amend the Certified Venice Land Use Plan to clarify Policy I.C.1 (Industrial Land Use), to explicitly prescribe that commercial uses are permitted on industrially designated land.",
+          "mig": "2a95ba47-6995-4cd6-9cff-f0f5ef004cab",
+          "attachments": [
+            {
+              "historyId": "3d74875a-2414-4061-9732-6c2b37dc01cd",
+              "title": "Motion (Park - Lee) dated 10-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d74875a-2414-4061-9732-6c2b37dc01cd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d74875a-2414-4061-9732-6c2b37dc01cd"
+            }
+          ]
+        },
+        {
+          "item_id": "157966",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-0572-S1\nExemption, report from the Los Angeles City Planning Commission and proposed zone code ordinance that will effectuate the transfer of certain zoning plan check responsibilities to the Department of City Planning (DCP) from the Department of Building and Safety (DBS), the proposed ordinance will: 1) Add a new ministerial “Zoning Plan Check” process to Chapter 1A of the Los Angeles Municipal Code (LAMC) to transfer this authority to the DCP along with related existing DBS modification authorities, 2) Amend other provisions in Chapters I (Original Zoning Code) and 1A (New Zoning Code) of the LAMC to reflect this transfer of existing authorities, 3) Remove certain redundant document distributions to DBS, and 4) Make other related workflow clarifications, technical corrections, and edits to address errors and reflect current practices.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Los Angeles City Planning Commission dated 12-17-25\nAttachment to Report dated 12-17-25 - Proposed Ordinance\nAttachment to Report dated 12-17-25 - Findings\nAttachment to Report dated 12-17-25 - Staff Report\nAttachment to Report dated 12-17-25 - Environmental\nAttachment to Report dated 12-17-25 - Mailing List",
+          "council_file": "25-0572-S1",
+          "title": "Exemption, report from the Los Angeles City Planning Commission and proposed zone code ordinance that will effectuate the transfer of certain zoning plan check responsibilities to the Department of City Planning (DCP) from the Department of Building and Safety (DBS), the proposed ordinance will: 1) Add a new ministerial “Zoning Plan Check” process to Chapter 1A of the Los Angeles Municipal Code (LAMC) to transfer this authority to the DCP along with related existing DBS modification authorities, 2) Amend other provisions in Chapters I (Original Zoning Code) and 1A (New Zoning Code) of the LAMC to reflect this transfer of existing authorities, 3) Remove certain redundant document distributions to DBS, and 4) Make other related workflow clarifications, technical corrections, and edits to address errors and reflect current practices.",
+          "mig": "8940c449-a29a-459b-81d3-0d4442d7bdc8",
+          "attachments": [
+            {
+              "historyId": "98a9b9ba-a5b5-4f06-ac71-61735e5d1f6a",
+              "title": "Report from Los Angeles City Planning Commission dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=98a9b9ba-a5b5-4f06-ac71-61735e5d1f6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=98a9b9ba-a5b5-4f06-ac71-61735e5d1f6a"
+            },
+            {
+              "historyId": "e6031ff1-c4fa-4378-9075-4cc8941001df",
+              "title": "Attachment to Report dated 12-17-25 - Proposed Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6031ff1-c4fa-4378-9075-4cc8941001df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e6031ff1-c4fa-4378-9075-4cc8941001df"
+            },
+            {
+              "historyId": "f1a2d838-7005-4aa9-bfde-d62530db046d",
+              "title": "Attachment to Report dated 12-17-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1a2d838-7005-4aa9-bfde-d62530db046d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f1a2d838-7005-4aa9-bfde-d62530db046d"
+            },
+            {
+              "historyId": "8d092b7b-de5c-4928-b521-8f9e6e50bd51",
+              "title": "Attachment to Report dated 12-17-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8d092b7b-de5c-4928-b521-8f9e6e50bd51",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8d092b7b-de5c-4928-b521-8f9e6e50bd51"
+            },
+            {
+              "historyId": "8fcb4c13-883b-49e1-b26e-1cba515c539a",
+              "title": "Attachment to Report dated 12-17-25 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fcb4c13-883b-49e1-b26e-1cba515c539a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8fcb4c13-883b-49e1-b26e-1cba515c539a"
+            },
+            {
+              "historyId": "414b44f6-012c-4c07-ad11-f60bc282f591",
+              "title": "Attachment to Report dated 12-17-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=414b44f6-012c-4c07-ad11-f60bc282f591",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=414b44f6-012c-4c07-ad11-f60bc282f591"
+            }
+          ]
+        },
+        {
+          "item_id": "157961",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1486\nMotion (Blumenfield - Rodriguez) relative to instructing the Department of City Planning, with the assistance of the City Attorney to report within 30 days with a detailed analysis of the application of Assembly Bill (AB) 2011, AB 2243 and AB 893 both to the proposed Woodland Hills Country Club project and to other parts of the city along commercial corridors as defined in State law.\nCommunity Impact Statement:\nNone submitted\nCommunity Impact Statement submitted by Woodland Hills-Warner Center Neighborhood Council_01-10-2026\nMotion (Blumenfield - Rodriguez) dated 12-10-25\nCommunication(s) from Public_01-08-2026\nCommunication(s) from Public_01-09-2026\nCommunication(s) from Public_01-11-2026\nCommunication(s) from Public_01-12-2026",
+          "council_file": "25-1486",
+          "title": "Motion (Blumenfield - Rodriguez) relative to instructing the Department of City Planning, with the assistance of the City Attorney to report within 30 days with a detailed analysis of the application of Assembly Bill (AB) 2011, AB 2243 and AB 893 both to the proposed Woodland Hills Country Club project and to other parts of the city along commercial corridors as defined in State law.",
+          "mig": "228983e0-4daa-43fb-9128-5e5ab76b3092",
+          "attachments": [
+            {
+              "historyId": "e018ec91-f371-4880-806f-a062c8e546d9",
+              "title": "Community Impact Statement submitted by Woodland Hills-Warner Center Neighborhood Council_01-10-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e018ec91-f371-4880-806f-a062c8e546d9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e018ec91-f371-4880-806f-a062c8e546d9"
+            },
+            {
+              "historyId": "5694117f-77e4-42d6-9777-61cc234c7f60",
+              "title": "Motion (Blumenfield - Rodriguez) dated 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5694117f-77e4-42d6-9777-61cc234c7f60",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5694117f-77e4-42d6-9777-61cc234c7f60"
+            },
+            {
+              "historyId": "f2cd9c50-ab27-4ba4-9b16-5637fa5cd909",
+              "title": "Communication(s) from Public_01-08-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2cd9c50-ab27-4ba4-9b16-5637fa5cd909",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f2cd9c50-ab27-4ba4-9b16-5637fa5cd909"
+            },
+            {
+              "historyId": "75a9977d-2ed5-4e8e-8a06-f02e3dd76bc0",
+              "title": "Communication(s) from Public_01-09-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=75a9977d-2ed5-4e8e-8a06-f02e3dd76bc0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=75a9977d-2ed5-4e8e-8a06-f02e3dd76bc0"
+            },
+            {
+              "historyId": "7a0a06dd-236c-4677-8378-b30a7eab62c6",
+              "title": "Communication(s) from Public_01-11-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a0a06dd-236c-4677-8378-b30a7eab62c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7a0a06dd-236c-4677-8378-b30a7eab62c6"
+            },
+            {
+              "historyId": "c56ba6ce-45f5-4aaa-b721-58b2e1489f5d",
+              "title": "Communication(s) from Public_01-12-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c56ba6ce-45f5-4aaa-b721-58b2e1489f5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c56ba6ce-45f5-4aaa-b721-58b2e1489f5d"
+            }
+          ]
+        },
+        {
+          "item_id": "157964",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "22-0736\nReport from the Department of City Planning relative to evaluating the effectiveness of promoting public interest and how transparency has increased with the development and implementation of the Processes and Procedures Ordinance.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from Department of City Planning dated 12-17-25\nCommunication(s) from Public_04-06-2025\nCouncil Action dated 7-01-24\nAmending Motion 33A (Hernandez - Blumenfield) as Amended by Motion (Blumenfield - Hernandez) dated 06-28-24\nReport from Ad Hoc Committee on City Governance Reform dated 4-18-24\nSpeaker Card(s)_04-18-2024\nCommunity Impact Statement submitted by Studio City Neighborhood Council_08-06-2023\nCommunication(s) from Public_08-16-22\nCommunity Impact Statement submitted by Woodland Hills-Warner Center_08-12-2022\nReport from Department of City Planning dated 6-17-22",
+          "council_file": "22-0736",
+          "title": "Report from the Department of City Planning relative to evaluating the effectiveness of promoting public interest and how transparency has increased with the development and implementation of the Processes and Procedures Ordinance.",
+          "mig": "72b75b4b-1278-47dc-9693-05820467374f",
+          "attachments": [
+            {
+              "historyId": "42e93fb0-9fc9-428e-abe0-3bf8c61772fe",
+              "title": "Report from Department of City Planning dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42e93fb0-9fc9-428e-abe0-3bf8c61772fe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42e93fb0-9fc9-428e-abe0-3bf8c61772fe"
+            },
+            {
+              "historyId": "391e32bc-1f52-434b-929b-2ed1bb0074d6",
+              "title": "Communication(s) from Public_04-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=391e32bc-1f52-434b-929b-2ed1bb0074d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=391e32bc-1f52-434b-929b-2ed1bb0074d6"
+            },
+            {
+              "historyId": "5a932fdb-bc9f-4975-835c-ff0acc7f8961",
+              "title": "Council Action dated 7-01-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a932fdb-bc9f-4975-835c-ff0acc7f8961",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a932fdb-bc9f-4975-835c-ff0acc7f8961"
+            },
+            {
+              "historyId": "6d2960ba-0878-4329-b6cb-77c526010676",
+              "title": "Amending Motion 33A (Hernandez - Blumenfield) as Amended by Motion (Blumenfield - Hernandez) dated 06-28-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d2960ba-0878-4329-b6cb-77c526010676",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d2960ba-0878-4329-b6cb-77c526010676"
+            },
+            {
+              "historyId": "69fb1bec-be3c-4191-a02b-d9be4bbee752",
+              "title": "Report from Ad Hoc Committee on City Governance Reform dated 4-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69fb1bec-be3c-4191-a02b-d9be4bbee752",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69fb1bec-be3c-4191-a02b-d9be4bbee752"
+            },
+            {
+              "historyId": "2bc0e43b-a2be-4ec1-830c-5c8a05731602",
+              "title": "Speaker Card(s)_04-18-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bc0e43b-a2be-4ec1-830c-5c8a05731602",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bc0e43b-a2be-4ec1-830c-5c8a05731602"
+            },
+            {
+              "historyId": "a6baa355-fb8e-4dee-8aca-9c2071488387",
+              "title": "Community Impact Statement submitted by Studio City Neighborhood Council_08-06-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6baa355-fb8e-4dee-8aca-9c2071488387",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a6baa355-fb8e-4dee-8aca-9c2071488387"
+            },
+            {
+              "historyId": "5fccb1b3-1b27-4c0c-b44f-01389197fc7a",
+              "title": "Communication(s) from Public_08-16-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5fccb1b3-1b27-4c0c-b44f-01389197fc7a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5fccb1b3-1b27-4c0c-b44f-01389197fc7a"
+            },
+            {
+              "historyId": "4a0660b0-c337-4607-a6b5-05947c290b7b",
+              "title": "Community Impact Statement submitted by Woodland Hills-Warner Center_08-12-2022",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a0660b0-c337-4607-a6b5-05947c290b7b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4a0660b0-c337-4607-a6b5-05947c290b7b"
+            },
+            {
+              "historyId": "91ab639c-6df9-42aa-a94a-604d591b1c6c",
+              "title": "Report from Department of City Planning dated 6-17-22",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=91ab639c-6df9-42aa-a94a-604d591b1c6c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=91ab639c-6df9-42aa-a94a-604d591b1c6c"
+            }
+          ]
+        },
+        {
+          "item_id": "157962",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "17-1071-S1\nCDs 3, 4\nCategorical Exemption from the California Environmental Quality Act (CEQA) (Public Resources Code sections 21000, et seq.) under CEQA Guidelines, Sections 15301, 15303, 15311, and 15320; report from the City Attorney; and, draft Ordinance relative to amending the Ventura-Cahuenga Boulevard Corridor Specific Plan to streamline the review process for signs, interior tenant improvements, and a change of use, and update the appointment process and composition of the Ventura-Cahuenga Boulevard Corridor Specific Plan Review Board; and adoption of project findings.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nCouncil Action dated 3-20-24\nCommunity Impact Statement submitted by Encino Neighborhood Council_03-02-2024\nCommunication(s) from Public_02-28-2024\nReport from Planning and Land Use Management Committee_2-20-24\nCommunication(s) from Public_02-21-2024\nJoint Communication from Council District 4 and Council District 3_2-20-24\nCommunication(s) from Public_02-20-2024\nSpeaker Card(s)_02-20-2024\nCommunication(s) from Public_02-19-2024\nCommunity Impact Statement submitted by Studio City Neighborhood Council_2-19-24\nCommunication(s) from Public_2-19-24\nCommunity Impact Statement submitted by Woodland Hills-Warner Center Neighborhood Council_2-18-24\nCommunication from Department of City Planning  dated 2-14-24 - Supplemental Transmittal\nAttachment to Communication dated 2-14-24 - Presentation\nReport from Los Angeles City Planning Commission dated 1-09-24\nAttachment to Report dated 1-09-24 - Attachment 1 Modification\nAttachment to Report dated 1-09-24 - Letter to PLUM\nAttachment to Report dated 1-09-24 - Findings\nAttachment to Report dated 1-09-24 - Staff Report\nAttachment to Report dated 1-09-24 - Exhibit A Charter, LAMC, GP Findings\nAttachment to Report dated 1-09-24 - Exhibit B Proposed Ordinance and Maps\nAttachment to Report dated 1-09-24 - Exhibit C Environmental Clearance\nAttachment to Report dated 1-09-24 - Mailing Labels\nCommunity Impact Statement submitted by Tarzana Neighborhood Council11-15-23\nCommunity Impact Statement submitted by Studio City Neighborhood Council_04-23-2023\nCommunity Impact Statement submitted by Encino Neighborhood Council_03-23-2023\nCouncil Action  dated 3-07-23\nSpeaker Card(s)_03-03-2023\nCommunication(s) from Public_03-03-2023\nReport from Planning and Land Use Management Committee_02-21-23\nMotion (Raman - Blumenfield - Yaroslavsky) dated 2-15-23\nCommunication from  Los Angeles City Planning Commission dated 7-26-23 - Supplemental Transmittal\nAttachment to Communication dated 7-26-23 - Board Comparison Table\nReport from City Attorney dated 11-17-25\nAttachment to Report dated 11-17-25 - Draft Ordinance\nCommunication(s) from Public_01-12-2026",
+          "council_file": "17-1071-S1",
+          "title": "Categorical Exemption from the California Environmental Quality Act (CEQA) (Public Resources Code sections 21000, et seq.) under CEQA Guidelines, Sections 15301, 15303, 15311, and 15320; report from the City Attorney; and, draft Ordinance relative to amending the Ventura-Cahuenga Boulevard Corridor Specific Plan to streamline the review process for signs, interior tenant improvements, and a change of use, and update the appointment process and composition of the Ventura-Cahuenga Boulevard Corridor Specific Plan Review Board; and adoption of project findings.",
+          "mig": "38f0c6df-51b0-4d26-92b0-0f6713fd5599",
+          "attachments": [
+            {
+              "historyId": "a775a2fe-7097-45c4-a48a-f8b5d845b5fd",
+              "title": "Council Action dated 3-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a775a2fe-7097-45c4-a48a-f8b5d845b5fd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a775a2fe-7097-45c4-a48a-f8b5d845b5fd"
+            },
+            {
+              "historyId": "0230c008-6631-4165-8220-b04d54fbb3ea",
+              "title": "Community Impact Statement submitted by Encino Neighborhood Council_03-02-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0230c008-6631-4165-8220-b04d54fbb3ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0230c008-6631-4165-8220-b04d54fbb3ea"
+            },
+            {
+              "historyId": "67880fb8-8193-41d0-b759-ef5fe58e56d6",
+              "title": "Communication(s) from Public_02-28-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=67880fb8-8193-41d0-b759-ef5fe58e56d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=67880fb8-8193-41d0-b759-ef5fe58e56d6"
+            },
+            {
+              "historyId": "a2e87911-0602-4e5a-9515-a7ffb1de80df",
+              "title": "Report from Planning and Land Use Management Committee_2-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2e87911-0602-4e5a-9515-a7ffb1de80df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a2e87911-0602-4e5a-9515-a7ffb1de80df"
+            },
+            {
+              "historyId": "29e4b3c2-8725-443a-b6f9-db4f028f2f62",
+              "title": "Communication(s) from Public_02-21-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=29e4b3c2-8725-443a-b6f9-db4f028f2f62",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=29e4b3c2-8725-443a-b6f9-db4f028f2f62"
+            },
+            {
+              "historyId": "80ac7900-ad22-45f3-97a6-043b0181f355",
+              "title": "Joint Communication from Council District 4 and Council District 3_2-20-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=80ac7900-ad22-45f3-97a6-043b0181f355",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=80ac7900-ad22-45f3-97a6-043b0181f355"
+            },
+            {
+              "historyId": "2295cf47-8d25-4fe4-8de2-31bd809bcedc",
+              "title": "Communication(s) from Public_02-20-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2295cf47-8d25-4fe4-8de2-31bd809bcedc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2295cf47-8d25-4fe4-8de2-31bd809bcedc"
+            },
+            {
+              "historyId": "4f63eb08-76ca-43df-b603-fafd032fb061",
+              "title": "Speaker Card(s)_02-20-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f63eb08-76ca-43df-b603-fafd032fb061",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f63eb08-76ca-43df-b603-fafd032fb061"
+            },
+            {
+              "historyId": "274ddb0f-2f9a-46d0-afd6-565ac74fc78c",
+              "title": "Communication(s) from Public_02-19-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=274ddb0f-2f9a-46d0-afd6-565ac74fc78c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=274ddb0f-2f9a-46d0-afd6-565ac74fc78c"
+            },
+            {
+              "historyId": "77d4d71b-0b36-4343-be30-4939dbb9844a",
+              "title": "Community Impact Statement submitted by Studio City Neighborhood Council_2-19-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=77d4d71b-0b36-4343-be30-4939dbb9844a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=77d4d71b-0b36-4343-be30-4939dbb9844a"
+            },
+            {
+              "historyId": "7ee1abc2-93f6-44ac-8ebc-936f2754da2f",
+              "title": "Communication(s) from Public_2-19-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ee1abc2-93f6-44ac-8ebc-936f2754da2f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7ee1abc2-93f6-44ac-8ebc-936f2754da2f"
+            },
+            {
+              "historyId": "ca2d20d8-db25-4b38-a79d-a06fc81266fa",
+              "title": "Community Impact Statement submitted by Woodland Hills-Warner Center Neighborhood Council_2-18-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca2d20d8-db25-4b38-a79d-a06fc81266fa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ca2d20d8-db25-4b38-a79d-a06fc81266fa"
+            },
+            {
+              "historyId": "9fdbeb92-66d5-4022-8b27-4863f1b94353",
+              "title": "Communication from Department of City Planning  dated 2-14-24 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fdbeb92-66d5-4022-8b27-4863f1b94353",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9fdbeb92-66d5-4022-8b27-4863f1b94353"
+            },
+            {
+              "historyId": "dc0a3636-07ca-4ba2-bf33-9f03f5be7774",
+              "title": "Attachment to Communication dated 2-14-24 - Presentation",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc0a3636-07ca-4ba2-bf33-9f03f5be7774",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dc0a3636-07ca-4ba2-bf33-9f03f5be7774"
+            },
+            {
+              "historyId": "51edc633-083d-4c38-a205-591cda16f380",
+              "title": "Report from Los Angeles City Planning Commission dated 1-09-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51edc633-083d-4c38-a205-591cda16f380",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51edc633-083d-4c38-a205-591cda16f380"
+            },
+            {
+              "historyId": "9be62804-7f5d-416d-90be-14f4c6056992",
+              "title": "Attachment to Report dated 1-09-24 - Attachment 1 Modification",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9be62804-7f5d-416d-90be-14f4c6056992",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9be62804-7f5d-416d-90be-14f4c6056992"
+            },
+            {
+              "historyId": "968fd418-6e16-4bec-ba62-4cacd42e9bd9",
+              "title": "Attachment to Report dated 1-09-24 - Letter to PLUM",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=968fd418-6e16-4bec-ba62-4cacd42e9bd9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=968fd418-6e16-4bec-ba62-4cacd42e9bd9"
+            },
+            {
+              "historyId": "7a44ee52-64da-43db-9104-922aa39ed7ef",
+              "title": "Attachment to Report dated 1-09-24 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a44ee52-64da-43db-9104-922aa39ed7ef",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7a44ee52-64da-43db-9104-922aa39ed7ef"
+            },
+            {
+              "historyId": "a6484917-af1c-4641-b88e-e22d62023d2a",
+              "title": "Attachment to Report dated 1-09-24 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6484917-af1c-4641-b88e-e22d62023d2a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a6484917-af1c-4641-b88e-e22d62023d2a"
+            },
+            {
+              "historyId": "08c6c338-bb1d-4f50-8f92-d1e8fa900d95",
+              "title": "Attachment to Report dated 1-09-24 - Exhibit A Charter, LAMC, GP Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=08c6c338-bb1d-4f50-8f92-d1e8fa900d95",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=08c6c338-bb1d-4f50-8f92-d1e8fa900d95"
+            },
+            {
+              "historyId": "360f6ae3-c4f4-4887-a9bc-d6bddbfc081d",
+              "title": "Attachment to Report dated 1-09-24 - Exhibit B Proposed Ordinance and Maps",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=360f6ae3-c4f4-4887-a9bc-d6bddbfc081d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=360f6ae3-c4f4-4887-a9bc-d6bddbfc081d"
+            },
+            {
+              "historyId": "c36d8c9b-553c-4b6a-908a-31d6df9a6fd2",
+              "title": "Attachment to Report dated 1-09-24 - Exhibit C Environmental Clearance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c36d8c9b-553c-4b6a-908a-31d6df9a6fd2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c36d8c9b-553c-4b6a-908a-31d6df9a6fd2"
+            },
+            {
+              "historyId": "76416e7d-47b9-4155-a282-9a497bd10087",
+              "title": "Attachment to Report dated 1-09-24 - Mailing Labels",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=76416e7d-47b9-4155-a282-9a497bd10087",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=76416e7d-47b9-4155-a282-9a497bd10087"
+            },
+            {
+              "historyId": "d6c3daf7-9677-4b90-89fe-7bd647922382",
+              "title": "Community Impact Statement submitted by Tarzana Neighborhood Council11-15-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6c3daf7-9677-4b90-89fe-7bd647922382",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d6c3daf7-9677-4b90-89fe-7bd647922382"
+            },
+            {
+              "historyId": "f0b9aaf4-194d-4fcc-ac31-a11f99215b2e",
+              "title": "Community Impact Statement submitted by Studio City Neighborhood Council_04-23-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f0b9aaf4-194d-4fcc-ac31-a11f99215b2e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f0b9aaf4-194d-4fcc-ac31-a11f99215b2e"
+            },
+            {
+              "historyId": "def98b01-52fd-4760-ba74-6e8673d6560a",
+              "title": "Community Impact Statement submitted by Encino Neighborhood Council_03-23-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=def98b01-52fd-4760-ba74-6e8673d6560a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=def98b01-52fd-4760-ba74-6e8673d6560a"
+            },
+            {
+              "historyId": "e2692aad-68b2-4d80-b15d-84dae9f898d5",
+              "title": "Council Action  dated 3-07-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2692aad-68b2-4d80-b15d-84dae9f898d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e2692aad-68b2-4d80-b15d-84dae9f898d5"
+            },
+            {
+              "historyId": "2db9c572-5e5e-4aa4-bbb9-f4700ddf108d",
+              "title": "Speaker Card(s)_03-03-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2db9c572-5e5e-4aa4-bbb9-f4700ddf108d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2db9c572-5e5e-4aa4-bbb9-f4700ddf108d"
+            },
+            {
+              "historyId": "07206af9-2714-4f4e-8431-03e93c073924",
+              "title": "Communication(s) from Public_03-03-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07206af9-2714-4f4e-8431-03e93c073924",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07206af9-2714-4f4e-8431-03e93c073924"
+            },
+            {
+              "historyId": "a1b6c152-4c49-4afa-83d1-d31234c19b75",
+              "title": "Report from Planning and Land Use Management Committee_02-21-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1b6c152-4c49-4afa-83d1-d31234c19b75",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a1b6c152-4c49-4afa-83d1-d31234c19b75"
+            },
+            {
+              "historyId": "9df7abde-2c60-415e-9008-f0c87833eb04",
+              "title": "Motion (Raman - Blumenfield - Yaroslavsky) dated 2-15-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9df7abde-2c60-415e-9008-f0c87833eb04",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9df7abde-2c60-415e-9008-f0c87833eb04"
+            },
+            {
+              "historyId": "01e88970-bcf2-4e27-954a-dd37392d6867",
+              "title": "Communication from  Los Angeles City Planning Commission dated 7-26-23 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01e88970-bcf2-4e27-954a-dd37392d6867",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01e88970-bcf2-4e27-954a-dd37392d6867"
+            },
+            {
+              "historyId": "894cba56-e898-4f2b-ad17-6b7a834be014",
+              "title": "Attachment to Communication dated 7-26-23 - Board Comparison Table",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=894cba56-e898-4f2b-ad17-6b7a834be014",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=894cba56-e898-4f2b-ad17-6b7a834be014"
+            },
+            {
+              "historyId": "8a124696-da6b-4dd0-be8d-e4c7811b9809",
+              "title": "Report from City Attorney dated 11-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a124696-da6b-4dd0-be8d-e4c7811b9809",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8a124696-da6b-4dd0-be8d-e4c7811b9809"
+            },
+            {
+              "historyId": "758b901b-1911-4690-81be-ff20ec73250d",
+              "title": "Attachment to Report dated 11-17-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=758b901b-1911-4690-81be-ff20ec73250d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=758b901b-1911-4690-81be-ff20ec73250d"
+            },
+            {
+              "historyId": "71e83570-27bf-4a3d-a780-85d1ab969b57",
+              "title": "Communication(s) from Public_01-12-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=71e83570-27bf-4a3d-a780-85d1ab969b57",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=71e83570-27bf-4a3d-a780-85d1ab969b57"
+            }
+          ]
+        },
+        {
+          "item_id": "157965",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-1535\nCD 5\nHousing Element Environmental Impact Report No. ENV-2020-6762-EIR, State Clearinghouse No. (SCH) 2021010130, Addendum ENV-2020-6762-EIR-ADD1 and Addendum ENV-2020-6762-EIR-ADD2; report from the Los Angeles City Planning Commission; and draft Ordinance relative to effectuating a Zone Change and Height District Change; for the proposed update to the single-family neighborhoods from R1-1-O to R1V2-O, the update in zoning to the R1V2 zone will convey most of the same development standards and use allowances as the R1-1 zone, depending upon the size of a lot, the R1V2 zone may allow slightly more residential floor area than the current R1- 1 zone; for the properties located in the neighborhoods of Century Glen and Beverly Angeles, both of which are in the West Los Angeles Community Plan Area in Council District 5, the Century Glen Project Area is generally bounded by Santa Monica Boulevard to the north, Pico Boulevard to the south, Beverly Glen Boulevard to the west, and Century Park West and Fox Hills Drive to the east, the Beverly Angeles Project Area is generally bounded by Roxbury Drive to the north and east, Vidor Drive to the south, and Beverly Green Drive to the west, including four parcels and three irregular shaped lots on the western side of Beverly Green Drive along the southwest boundary of the City of Beverly Hills.\nApplicant: City of Los Angeles\nCase No. CPC-2025-5011-ZC-HD\nEnvironmental No. ENV-2020-6762-EIR, ENV-2020-6762- EIR-ADD1, and ENV-2020-6762-EIR-ADD2\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nWestside Neighborhood Council\nTIME LIMIT FILE - APRIL 8, 2026\n(LAST DAY FOR COUNCIL ACTION - APRIL 8, 2026)\nCommunity Impact Statement submitted by Westside Neighborhood Council_01-08-2026\nReport from Department of City Planning dated 1-08-26\nAttachment to Report dated 1-08-26 - Supplemental Transmittal\nAttachment to Report dated 1-08-26 - Exhibit A Draft Zone Change Ordinance\nReport from City Planning Commission dated 12-17-25\nAttachment to Report dated 12-17-25 - Proposed Zone Change Ordinance\nAttachment to Report dated 12-17-25 - Findings\nAttachment to Report dated 12-17-25 - Staff Report\nAttachment to Report dated 12-17-25 - Exhibit C\nAttachment to Report dated 12-17-25 - Mailing List",
+          "council_file": "25-1535",
+          "district": "CD 5",
+          "title": "Housing Element Environmental Impact Report No. ENV-2020-6762-EIR, State Clearinghouse No. (SCH) 2021010130, Addendum ENV-2020-6762-EIR-ADD1 and Addendum ENV-2020-6762-EIR-ADD2; report from the Los Angeles City Planning Commission; and draft Ordinance relative to effectuating a Zone Change and Height District Change; for the proposed update to the single-family neighborhoods from R1-1-O to R1V2-O, the update in zoning to the R1V2 zone will convey most of the same development standards and use allowances as the R1-1 zone, depending upon the size of a lot, the R1V2 zone may allow slightly more residential floor area than the current R1- 1 zone; for the properties located in the neighborhoods of Century Glen and Beverly Angeles, both of which are in the West Los Angeles Community Plan Area in Council District 5, the Century Glen Project Area is generally bounded by Santa Monica Boulevard to the north, Pico Boulevard to the south, Beverly Glen Boulevard to the west, and Century Park West and Fox Hills Drive to the east, the Beverly Angeles Project Area is generally bounded by Roxbury Drive to the north and east, Vidor Drive to the south, and Beverly Green Drive to the west, including four parcels and three irregular shaped lots on the western side of Beverly Green Drive along the southwest boundary of the City of Beverly Hills.",
+          "mig": "20cf5ce0-8ab7-4c0c-a8ee-f4a44e25a8b7",
+          "attachments": [
+            {
+              "historyId": "8abbdb9e-743b-42e7-ae22-8763bb54196e",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_01-08-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8abbdb9e-743b-42e7-ae22-8763bb54196e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8abbdb9e-743b-42e7-ae22-8763bb54196e"
+            },
+            {
+              "historyId": "93dbec6e-8160-45ad-9595-7864e36d5805",
+              "title": "Report from Department of City Planning dated 1-08-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=93dbec6e-8160-45ad-9595-7864e36d5805",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=93dbec6e-8160-45ad-9595-7864e36d5805"
+            },
+            {
+              "historyId": "608afd64-37ca-4398-818e-fd4d90409143",
+              "title": "Attachment to Report dated 1-08-26 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=608afd64-37ca-4398-818e-fd4d90409143",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=608afd64-37ca-4398-818e-fd4d90409143"
+            },
+            {
+              "historyId": "b5d10195-2c5b-48b2-8f21-6c169fb9de9d",
+              "title": "Attachment to Report dated 1-08-26 - Exhibit A Draft Zone Change Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5d10195-2c5b-48b2-8f21-6c169fb9de9d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b5d10195-2c5b-48b2-8f21-6c169fb9de9d"
+            },
+            {
+              "historyId": "404c2016-3d93-4465-aaee-8554ae2a4164",
+              "title": "Report from City Planning Commission dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=404c2016-3d93-4465-aaee-8554ae2a4164",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=404c2016-3d93-4465-aaee-8554ae2a4164"
+            },
+            {
+              "historyId": "873c0ca8-e2bf-44c4-a61d-db0fdfb4631e",
+              "title": "Attachment to Report dated 12-17-25 - Proposed Zone Change Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=873c0ca8-e2bf-44c4-a61d-db0fdfb4631e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=873c0ca8-e2bf-44c4-a61d-db0fdfb4631e"
+            },
+            {
+              "historyId": "21fe3289-59dd-46e0-8d89-cace3736a031",
+              "title": "Attachment to Report dated 12-17-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=21fe3289-59dd-46e0-8d89-cace3736a031",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=21fe3289-59dd-46e0-8d89-cace3736a031"
+            },
+            {
+              "historyId": "76468471-7fc2-4888-800f-0d3de7557a13",
+              "title": "Attachment to Report dated 12-17-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=76468471-7fc2-4888-800f-0d3de7557a13",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=76468471-7fc2-4888-800f-0d3de7557a13"
+            },
+            {
+              "historyId": "a46ff200-df8b-4678-b66a-05190bd37038",
+              "title": "Attachment to Report dated 12-17-25 - Exhibit C",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a46ff200-df8b-4678-b66a-05190bd37038",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a46ff200-df8b-4678-b66a-05190bd37038"
+            },
+            {
+              "historyId": "627d2346-768b-4a99-bce1-ba71618069f6",
+              "title": "Attachment to Report dated 12-17-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=627d2346-768b-4a99-bce1-ba71618069f6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=627d2346-768b-4a99-bce1-ba71618069f6"
+            }
+          ]
+        },
+        {
+          "item_id": "157960",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "23-1338\nCD 6\nReport from the Los Angeles World Airports (LAWA) relative to the community engagement strategies employed by LAWA in its work on a Vision Study for Van Nuys Airport.\n(This item is referred to the Planning and Land Use Management Committee and Trade, Travel and Tourism Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nFor:\nSherman Oaks Neighborhood Council\nCommunity Impact Statement submitted by Sherman Oaks Neighborhood Council_12-11-2025\nReport from Los Angeles World Airports dated 10-30-24\nCouncil Action dated 4-05-24\nJoint Report Trade, Travel and Tourism and Planning and Land Use Management Committees dated 3-19-2024\nCommunity Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council_03-12-24\nTransmittal from Trade, Travel and Tourism Committee dated 2-8-2024\nSpeaker Card(s)_02-08-2024\nCommunication(s) from Public_02-07-2024\nCommunity Impact Statement submitted by Greater Toluca Lake Neighborhood Council_01-18-2024\nCommunity Impact Statement submitted by Encino Neighborhood Council_01-15-2024\nCommunity Impact Statement submitted by Sherman Oaks Neighborhood Council_12-12-2023\nCommunication(s) from Public_12-11-2023\nCommunity Impact Statement submitted by Lake Balboa Neighborhood Council_12-06-2023\nMotion (Padilla - Raman) dated 11-29-23\nSpeaker Card(s)_03-19-2024\nSpeaker Card(s)_04-03-2024",
+          "council_file": "23-1338",
+          "district": "CD 6",
+          "title": "Report from the Los Angeles World Airports (LAWA) relative to the community engagement strategies employed by LAWA in its work on a Vision Study for Van Nuys Airport.",
+          "mig": "6a6bcd9d-0e7e-4302-8918-46ffef66af5a",
+          "attachments": [
+            {
+              "historyId": "22a23369-90d3-42d3-8c30-6e54e96d39a4",
+              "title": "Community Impact Statement submitted by Sherman Oaks Neighborhood Council_12-11-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22a23369-90d3-42d3-8c30-6e54e96d39a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22a23369-90d3-42d3-8c30-6e54e96d39a4"
+            },
+            {
+              "historyId": "9feb61eb-b2b0-4df0-b44b-d97ccd498297",
+              "title": "Report from Los Angeles World Airports dated 10-30-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9feb61eb-b2b0-4df0-b44b-d97ccd498297",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9feb61eb-b2b0-4df0-b44b-d97ccd498297"
+            },
+            {
+              "historyId": "6923f76f-cd7e-4905-83cf-19e194080d93",
+              "title": "Council Action dated 4-05-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6923f76f-cd7e-4905-83cf-19e194080d93",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6923f76f-cd7e-4905-83cf-19e194080d93"
+            },
+            {
+              "historyId": "24dfbf64-c863-4bf1-8b2e-2f4f2b43a5f8",
+              "title": "Joint Report Trade, Travel and Tourism and Planning and Land Use Management Committees dated 3-19-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=24dfbf64-c863-4bf1-8b2e-2f4f2b43a5f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=24dfbf64-c863-4bf1-8b2e-2f4f2b43a5f8"
+            },
+            {
+              "historyId": "62181bf1-51a8-4bc8-a514-7623d0ae1442",
+              "title": "Community Impact Statement submitted by Bel Air-Beverly Crest Neighborhood Council_03-12-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=62181bf1-51a8-4bc8-a514-7623d0ae1442",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=62181bf1-51a8-4bc8-a514-7623d0ae1442"
+            },
+            {
+              "historyId": "ecaa10f0-4b44-4e66-a7d7-72fd490dfd5b",
+              "title": "Transmittal from Trade, Travel and Tourism Committee dated 2-8-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ecaa10f0-4b44-4e66-a7d7-72fd490dfd5b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ecaa10f0-4b44-4e66-a7d7-72fd490dfd5b"
+            },
+            {
+              "historyId": "2a778ff6-4a47-47c8-9af5-9df8fc6e0937",
+              "title": "Speaker Card(s)_02-08-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a778ff6-4a47-47c8-9af5-9df8fc6e0937",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2a778ff6-4a47-47c8-9af5-9df8fc6e0937"
+            },
+            {
+              "historyId": "850fd31c-0363-432f-b12e-f73a79a60e37",
+              "title": "Communication(s) from Public_02-07-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=850fd31c-0363-432f-b12e-f73a79a60e37",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=850fd31c-0363-432f-b12e-f73a79a60e37"
+            },
+            {
+              "historyId": "0bfd1269-69f9-475f-b12a-085d14c269a7",
+              "title": "Community Impact Statement submitted by Greater Toluca Lake Neighborhood Council_01-18-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0bfd1269-69f9-475f-b12a-085d14c269a7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0bfd1269-69f9-475f-b12a-085d14c269a7"
+            },
+            {
+              "historyId": "5724249f-af75-42df-b0b7-2ca33640e969",
+              "title": "Community Impact Statement submitted by Encino Neighborhood Council_01-15-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5724249f-af75-42df-b0b7-2ca33640e969",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5724249f-af75-42df-b0b7-2ca33640e969"
+            },
+            {
+              "historyId": "0a7c3d3d-088d-4b93-b86a-f1ec4945d97d",
+              "title": "Community Impact Statement submitted by Sherman Oaks Neighborhood Council_12-12-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0a7c3d3d-088d-4b93-b86a-f1ec4945d97d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0a7c3d3d-088d-4b93-b86a-f1ec4945d97d"
+            },
+            {
+              "historyId": "c18d85da-e446-49a5-9c87-3baed8f851ac",
+              "title": "Communication(s) from Public_12-11-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c18d85da-e446-49a5-9c87-3baed8f851ac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c18d85da-e446-49a5-9c87-3baed8f851ac"
+            },
+            {
+              "historyId": "98b907f7-d93e-45b1-a821-ca20acafa65f",
+              "title": "Community Impact Statement submitted by Lake Balboa Neighborhood Council_12-06-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=98b907f7-d93e-45b1-a821-ca20acafa65f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=98b907f7-d93e-45b1-a821-ca20acafa65f"
+            },
+            {
+              "historyId": "01d8201f-df1d-441b-bbe3-8499a93e4f5d",
+              "title": "Motion (Padilla - Raman) dated 11-29-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01d8201f-df1d-441b-bbe3-8499a93e4f5d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01d8201f-df1d-441b-bbe3-8499a93e4f5d"
+            },
+            {
+              "historyId": "c78a24a4-7934-4cbc-b076-d9b6c10b91f4",
+              "title": "Speaker Card(s)_03-19-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c78a24a4-7934-4cbc-b076-d9b6c10b91f4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c78a24a4-7934-4cbc-b076-d9b6c10b91f4"
+            },
+            {
+              "historyId": "eff8c0e2-608a-40e5-8c3f-59c56ec83753",
+              "title": "Speaker Card(s)_04-03-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eff8c0e2-608a-40e5-8c3f-59c56ec83753",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eff8c0e2-608a-40e5-8c3f-59c56ec83753"
+            }
+          ]
+        },
+        {
+          "item_id": "157597",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-1264\nCD 7\nCONTINUED FROM 12/9/25\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15308, Class 8 and Article 19, Section 15331, Class 31 of the State CEQA Guidelines, and report from the Cultural Heritage Commission relative to the inclusion of Rowley Residence, located at 8436 West Hillrose Street, in the list of Historic-Cultural Monuments.\nApplicant: Marsha Perloff, Little Landers Historical Society\nOwners: Armen Sarvari and Narine Aghakiant; and Michael and Marina P. Dahlen\nCase No. CHC-2025-4173-HCM\nEnvironmental No. ENV-2025-4174-CE\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 29, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 28, 2026)\nCouncil Action dated 12-12-25\nCommunication from Council District Seven\nReturned Envelope(s)_12-04-25\nReturned Envelope(s)_11-26-25\nCommunication from Deputy City Clerk - Notice(s)_11-06-25\nReport from Cultural Heritage Commission dated 10-23-25\nAttachment to Report dated 10-23-25 - Findings\nAttachment to Report dated 10-23-25 - Staff Report\nAttachment to Report dated 10-23-25 - Mailing List",
+          "council_file": "25-1264",
+          "district": "CD 7",
+          "title": "CONTINUED FROM 12/9/25",
+          "mig": "9ed687b6-fa1c-49c4-a768-4f0cedf9faf1",
+          "attachments": [
+            {
+              "historyId": "0a82a714-d2d4-4364-863d-76c91442e6e7",
+              "title": "Council Action dated 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0a82a714-d2d4-4364-863d-76c91442e6e7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0a82a714-d2d4-4364-863d-76c91442e6e7"
+            },
+            {
+              "historyId": "e52d539a-9cf1-4aa0-8cf3-1402c4216588",
+              "title": "Communication from Council District Seven",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e52d539a-9cf1-4aa0-8cf3-1402c4216588",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e52d539a-9cf1-4aa0-8cf3-1402c4216588"
+            },
+            {
+              "historyId": "7655abf8-4098-40a9-9cac-af0a628a42b6",
+              "title": "Returned Envelope(s)_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7655abf8-4098-40a9-9cac-af0a628a42b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7655abf8-4098-40a9-9cac-af0a628a42b6"
+            },
+            {
+              "historyId": "01d427c6-ee60-4e77-b3e9-58586ba1af4e",
+              "title": "Returned Envelope(s)_11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=01d427c6-ee60-4e77-b3e9-58586ba1af4e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=01d427c6-ee60-4e77-b3e9-58586ba1af4e"
+            },
+            {
+              "historyId": "3c52d076-14cb-4cd7-8028-68a4ad886481",
+              "title": "Communication from Deputy City Clerk - Notice(s)_11-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c52d076-14cb-4cd7-8028-68a4ad886481",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3c52d076-14cb-4cd7-8028-68a4ad886481"
+            },
+            {
+              "historyId": "3fc2c63b-38f0-488c-9c51-d3bd07209e62",
+              "title": "Report from Cultural Heritage Commission dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3fc2c63b-38f0-488c-9c51-d3bd07209e62",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3fc2c63b-38f0-488c-9c51-d3bd07209e62"
+            },
+            {
+              "historyId": "28053f40-1cf1-4781-a760-afa3f09c0429",
+              "title": "Attachment to Report dated 10-23-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=28053f40-1cf1-4781-a760-afa3f09c0429",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=28053f40-1cf1-4781-a760-afa3f09c0429"
+            },
+            {
+              "historyId": "fa2ac2ec-6ccf-4af1-a0bb-2658c2fb9659",
+              "title": "Attachment to Report dated 10-23-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa2ac2ec-6ccf-4af1-a0bb-2658c2fb9659",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa2ac2ec-6ccf-4af1-a0bb-2658c2fb9659"
+            },
+            {
+              "historyId": "42195b21-c94e-4da7-8a0d-24c66fda34bd",
+              "title": "Attachment to Report dated 10-23-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42195b21-c94e-4da7-8a0d-24c66fda34bd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42195b21-c94e-4da7-8a0d-24c66fda34bd"
+            }
+          ]
+        },
+        {
+          "item_id": "157596",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-1198-S1\nCD 15\nPreviously Adopted Negative Declaration, No. ENV-2022-6860-ND, and related Environmental findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Coalition for Responsible Equitable Economic Development Los Angeles (CREED LA) (Representative: Andrew Graf, Adams Broadwell Joseph & Cardozo), from the LACPC’s determination in approving, pursuant to Los Angeles Municipal Code (LAMC) Section 12.24 X.22, a Zoning Administrator Determination to allow Transitional Height of 65 feet within a distance of 100 to 199 feet from the R1 zone, in lieu of the Transitional Height of 61 feet otherwise allowed by LAMC 12.21.1.A.10; for the improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue; and 1532, 1540, and 1542 North Alameda Street, subject to Conditions of Approval; and adoption of project findings.\nApplicant: Richard Burke, Konoike Pacific Calf Inc.\nRepresentative: John Parker, Pacific Crest Consultants\nCase No. CPC-2022-6859-GPA-HD-ZAD-WDI-1A\nEnvironmental No. ENV-2022-6860-ND\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - FEBRUARY 4, 2026\n(LAST DAY FOR COUNCIL ACTION - FEBRUARY 4, 2026)\nCommunication from Department of City Planning dated 1-09-26 - Supplemental Transmittal\nCommunication from L.A. Mapping Service, Inc - Certificate of Posting for Public Hearing_1-01-26\nReturned Envelop(s)_12-23-25\nCommunication from L.A. Mapping Service, Inc - Proof of Mailing Statement_12-19-25\nCommunication from Committee Clerk - Notice_12-19-25\nCommunication(s) from Public_12-09-2025\nCommunication from Appellant Representative_12-09-25\nCommunication from Committee Clerk - Consent to Time Limit Extension_12-04-25\nCommunication from Applicant Representative - Consent to Time Limit Extension_12-04-25\nCommunication from Department of City Planning - Appeal Response dated 12-04-25\nCommunication from Committee Clerk - Notice_11-26-25\nReport from Los Angeles City Planning Commission dated 10-22-25\nAttachment to Report dated 10-22-25 - Appeal CREED LA\nAttachment to Report dated 10-22-25 - Staff Report\nAttachment to Report dated 10-22-25 - Environmental\nAttachment to Report dated 10-22-25 - Exhibit A - Stamped Plans\nAttachment to Report dated 10-22-25 - Mailing List\nCommunication from Department of City Planning dated 11-20-25\nAttachment to Communication dated 11-20-25 - Findings\nAttachment to Communication dated 11-20-25 - Conditions of Approval",
+          "council_file": "25-1198-S1",
+          "district": "CD 15",
+          "title": "Previously Adopted Negative Declaration, No. ENV-2022-6860-ND, and related Environmental findings; report from the Los Angeles City Planning Commission (LACPC); and an Appeal filed by Coalition for Responsible Equitable Economic Development Los Angeles (CREED LA) (Representative: Andrew Graf, Adams Broadwell Joseph & Cardozo), from the LACPC’s determination in approving, pursuant to Los Angeles Municipal Code (LAMC) Section 12.24 X.22, a Zoning Administrator Determination to allow Transitional Height of 65 feet within a distance of 100 to 199 feet from the R1 zone, in lieu of the Transitional Height of 61 feet otherwise allowed by LAMC 12.21.1.A.10; for the improvement and expansion of an existing one-story, 42-foot tall, 221,496 square-foot cold storage facility, resulting in a two-story, 65-foot tall, 267,960 square foot facility, with a total 0.36:1 Floor Area Ratio, the expansion includes the demolition of 27,157 square feet of an existing cold dock for a new 71,331 square foot freezer, resulting in a net addition of 44,174 square feet of new floor area, the improvements include 2,290 square feet of a new engine/mechanical room, electrical room, and fire pump room, the Project also involves a new automated racking system, other interior improvements, and reducing the length of the existing double rail spur, the Project will provide 114 parking spaces, with no trees to be removed, and the grading of less than 500 cubic yards of soil and import of 7,000 cubic yards of soil; for the properties located at 1420 and 1500 North Coil Avenue; and 1532, 1540, and 1542 North Alameda Street, subject to Conditions of Approval; and adoption of project findings.",
+          "mig": "cac96c3d-a3fe-4c4e-beed-d12c509276b9",
+          "attachments": [
+            {
+              "historyId": "200de9b7-ff43-4065-90b3-97250614093f",
+              "title": "Communication from Department of City Planning dated 1-09-26 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=200de9b7-ff43-4065-90b3-97250614093f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=200de9b7-ff43-4065-90b3-97250614093f"
+            },
+            {
+              "historyId": "beb5c43b-ab95-4530-a10e-2036bae9da7a",
+              "title": "Communication from L.A. Mapping Service, Inc - Certificate of Posting for Public Hearing_1-01-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=beb5c43b-ab95-4530-a10e-2036bae9da7a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=beb5c43b-ab95-4530-a10e-2036bae9da7a"
+            },
+            {
+              "historyId": "53b6ee18-1a0b-4f54-a1af-0d4a4384ad58",
+              "title": "Returned Envelop(s)_12-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=53b6ee18-1a0b-4f54-a1af-0d4a4384ad58",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=53b6ee18-1a0b-4f54-a1af-0d4a4384ad58"
+            },
+            {
+              "historyId": "68861c34-4c72-4941-903e-3a5133c883be",
+              "title": "Communication from L.A. Mapping Service, Inc - Proof of Mailing Statement_12-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=68861c34-4c72-4941-903e-3a5133c883be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=68861c34-4c72-4941-903e-3a5133c883be"
+            },
+            {
+              "historyId": "20c3da19-1f9f-484e-89f3-157b22facded",
+              "title": "Communication from Committee Clerk - Notice_12-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20c3da19-1f9f-484e-89f3-157b22facded",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20c3da19-1f9f-484e-89f3-157b22facded"
+            },
+            {
+              "historyId": "458de92f-864e-4359-8537-f145ce0aa5e3",
+              "title": "Communication(s) from Public_12-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=458de92f-864e-4359-8537-f145ce0aa5e3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=458de92f-864e-4359-8537-f145ce0aa5e3"
+            },
+            {
+              "historyId": "aa1c781e-ffe3-48f3-850f-aaaa36853b91",
+              "title": "Communication from Appellant Representative_12-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa1c781e-ffe3-48f3-850f-aaaa36853b91",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aa1c781e-ffe3-48f3-850f-aaaa36853b91"
+            },
+            {
+              "historyId": "3b68d063-5b03-47fd-a05f-d4c9d265e4ba",
+              "title": "Communication from Committee Clerk - Consent to Time Limit Extension_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3b68d063-5b03-47fd-a05f-d4c9d265e4ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3b68d063-5b03-47fd-a05f-d4c9d265e4ba"
+            },
+            {
+              "historyId": "cec0a66a-2cb3-47eb-9b4a-92c692f79900",
+              "title": "Communication from Applicant Representative - Consent to Time Limit Extension_12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cec0a66a-2cb3-47eb-9b4a-92c692f79900",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cec0a66a-2cb3-47eb-9b4a-92c692f79900"
+            },
+            {
+              "historyId": "f61a3ff0-55c6-4f8f-bf32-6c60fb8c055a",
+              "title": "Communication from Department of City Planning - Appeal Response dated 12-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f61a3ff0-55c6-4f8f-bf32-6c60fb8c055a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f61a3ff0-55c6-4f8f-bf32-6c60fb8c055a"
+            },
+            {
+              "historyId": "12897c71-b3d5-46c9-89c8-76ff7422b609",
+              "title": "Communication from Committee Clerk - Notice_11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12897c71-b3d5-46c9-89c8-76ff7422b609",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12897c71-b3d5-46c9-89c8-76ff7422b609"
+            },
+            {
+              "historyId": "1c8b6f17-9147-4d1e-b996-1e1df9d5d3cf",
+              "title": "Report from Los Angeles City Planning Commission dated 10-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c8b6f17-9147-4d1e-b996-1e1df9d5d3cf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1c8b6f17-9147-4d1e-b996-1e1df9d5d3cf"
+            },
+            {
+              "historyId": "12e78e2e-fd48-407e-b0f9-99f7d3c65421",
+              "title": "Attachment to Report dated 10-22-25 - Appeal CREED LA",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12e78e2e-fd48-407e-b0f9-99f7d3c65421",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12e78e2e-fd48-407e-b0f9-99f7d3c65421"
+            },
+            {
+              "historyId": "1e8809ae-dc96-4f2e-bc89-38d2e6fea6bf",
+              "title": "Attachment to Report dated 10-22-25 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e8809ae-dc96-4f2e-bc89-38d2e6fea6bf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1e8809ae-dc96-4f2e-bc89-38d2e6fea6bf"
+            },
+            {
+              "historyId": "d80a194e-f814-44cb-9998-c2d8f69770db",
+              "title": "Attachment to Report dated 10-22-25 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d80a194e-f814-44cb-9998-c2d8f69770db",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d80a194e-f814-44cb-9998-c2d8f69770db"
+            },
+            {
+              "historyId": "d84f81a2-2fef-44a6-8952-53e76470e682",
+              "title": "Attachment to Report dated 10-22-25 - Exhibit A - Stamped Plans",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d84f81a2-2fef-44a6-8952-53e76470e682",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d84f81a2-2fef-44a6-8952-53e76470e682"
+            },
+            {
+              "historyId": "2ababb7f-9c4f-436b-b364-7983a82fd1ee",
+              "title": "Attachment to Report dated 10-22-25 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ababb7f-9c4f-436b-b364-7983a82fd1ee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ababb7f-9c4f-436b-b364-7983a82fd1ee"
+            },
+            {
+              "historyId": "2bcd0b0f-664a-4921-b490-224f35977a21",
+              "title": "Communication from Department of City Planning dated 11-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2bcd0b0f-664a-4921-b490-224f35977a21",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2bcd0b0f-664a-4921-b490-224f35977a21"
+            },
+            {
+              "historyId": "6d35ffb8-2137-4965-84b8-73531d8e19b6",
+              "title": "Attachment to Communication dated 11-20-25 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d35ffb8-2137-4965-84b8-73531d8e19b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d35ffb8-2137-4965-84b8-73531d8e19b6"
+            },
+            {
+              "historyId": "636a527c-cc24-4b13-bdcc-4fbd8a383a5b",
+              "title": "Attachment to Communication dated 11-20-25 - Conditions of Approval",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=636a527c-cc24-4b13-bdcc-4fbd8a383a5b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=636a527c-cc24-4b13-bdcc-4fbd8a383a5b"
+            }
+          ]
+        },
+        {
+          "item_id": "158082",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "15-0989-S47\nStatutory Exemption from the California Environmental Quality Act (CEQA) pursuant to Public Resources Code, Section 21080(b)(7) and CEQA Guidelines, Section 15272; report from the Los Angeles City Planning Commission; and a proposed ordinance, pursuant to 13B.1.3.D.3. of Chapter 1A of the Los Angeles Municipal Code (LAMC), relative to an amendment of Chapter I and Chapter 1A of the LAMC to add a new Subdivision 40 to Subsection 12.22 A of Article 2 of Chapter I and a new Division 1.7 to Article 1 of Chapter 1A to exempt certain 2028 Olympic and Paralympic Games (Games) related projects from planning and zoning requirements of the Zoning Code in preparation for the Games.\n(This item is referred to the Planning and Land Use Management Committee and Ad Hoc Committee on the 2028 Olympic and Paralympic Games.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nAgainst:\nGreater Cypress Park Neighborhood Council\nCentral Hollywood Neighborhood Council\nSilver Lake Neighborhood Council\nReport from Los Angeles City Planning Commission dated 1-08-26\nAttachment to Report dated 1-08-26 -Proposed Ordinance as Modified\nAttachment to Report dated 1-08-26 - Findings\nAttachment to Report dated 1-08-26 - Staff Report\nAttachment to Report dated 1-08-26 - Environmental\nAttachment to Report dated 1-08-26 - Mailing List\nCommunity Impact Statement submitted by Silver Lake Neighborhood Council_1-1-26\nCommunity Impact Statement submitted by Central Hollywood Neighborhood Council_12-01-2025\nCommunication(s) from Public_11-13-2025\nCommunication(s) from Public_11-12-2025\nCommunication(s) from Public_10-31-2025\nCommunity Impact Statement submitted by Greater Cypress Park Neighborhood Council_10-17-2025\nCouncil Action dated 10-09-25\nSpeaker Card(s)_10-07-2025\nSpeaker Card(s)_09-30-2025\nReport from Planning and Land Use Management Committee_9-30-25\nAttachment to Communication dated 9-26-25 - Presentation Slides\nCommunication from Department of City Planning dated 9-26-25 - Supplemental Transmittal\nAttachment to Report dated 9-24-25 - Olympic and Paralympic Zoning Exemption\nReport from Department of City Planning dated 9-24-25\nCommunication(s) from Public_08-29-2025\nCommunication(s) from Public_08-26-2025\nCommunity Impact Statement submitted by Rampart Village Neighborhood Council_07-18-2025\nCommunity Impact Statement submitted by Studio City Neighborhood Council_06-20-2025\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_05-28-2025\nCommunication(s) from Public_05-16-2025\nCommunity Impact Statement submitted by Sherman Oaks Neighborhood Council_04-15-2025\nCommunity Impact Statement submitted by Winnetka Neighborhood Council_04-13-2025\nCommunication(s) from Public_03-25-2025\nCommunication(s) from Public_03-18-2025\nCommunity Impact Statement submitted by Palms Neighborhood Council_3-17-2025\nCouncil Action - Mayor Concurrence dated 3-15-2025\nCommunication(s) from Public_03-09-2025\nCommunication(s) from Public_03-04-2025\nAmending Motion 12E (Blumenfield - Hernandez) dated 2-28-25\nAmending Motion 12D (Blumenfield - Park) dated 2-28-25\nAmending Motion 12C (Soto-Martinez - Blumenfield) dated 2-28-25\nAmending Motion 12B (Hernandez - Soto-Martinez) dated 2-28-25\nSpeaker Card(s)_02-28-2025\nAmending Motion 12A (Park - Lee) dated 2-28-25\nCommunication(s) from Public_02-28-2025\nCommunication(s) from Public_02-28-2025\nCommunication(s) from Public_02-27-2025\nCommunication(s) from Public_02-26-2025\nCommunication(s) from Public_02-26-2025\nCommunication(s) from Public_02-26-2025\nCommunication(s) from Public_02-24-2025\nCommunication(s) from Public_02-22-2025\nSpeaker Card(s)_02-21-2025\nCommunication(s) from Public_2-21-2025\nCommunication(s) from Public_02-21-2025\nCommunication(s) from Public_02-20-2025\nCommunication(s) from Public_02-20-2025\nCommunity Impact Statement submitted by Lincoln Heights Neighborhood Council_02-20-2025\nCommunication(s) from Public_02-19-2025\nCommunication(s) from Public_02-15-2025\nCommunication(s) from Public_02-14-2025\nCommunication(s) from Public_02-12-2025\nReport from Planning and Land Use Management Committee_02-11-25\nCommunication from Council District One_2-11-25\nCommunication(s) from Public_02-11-2025\nSpeaker Card(s)_02-11-2025\nCommunication(s) from Public_02-11-2025\nCommunity Impact Statement submitted by Historic Cultural Neighborhood Council_02-10-2025\nCommunication(s) from Public_02-10-2025\nCommunication(s) from Public_02-08-2025\nCommunication(s) from Public_02-07-2025\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_02-07-2025\nCommunication(s) from Public_01-06-2025\nMotion (Park - Nazarian) dated 12-13-24\nCommunication from Department of City Planning dated 1-08-26 - Supplemental Transmittal\nAttachment to Communication dated 1-08-26 - Presentation Slides\nCommunication(s) from Public_01-12-2026",
+          "council_file": "15-0989-S47",
+          "title": "Statutory Exemption from the California Environmental Quality Act (CEQA) pursuant to Public Resources Code, Section 21080(b)(7) and CEQA Guidelines, Section 15272; report from the Los Angeles City Planning Commission; and a proposed ordinance, pursuant to 13B.1.3.D.3. of Chapter 1A of the Los Angeles Municipal Code (LAMC), relative to an amendment of Chapter I and Chapter 1A of the LAMC to add a new Subdivision 40 to Subsection 12.22 A of Article 2 of Chapter I and a new Division 1.7 to Article 1 of Chapter 1A to exempt certain 2028 Olympic and Paralympic Games (Games) related projects from planning and zoning requirements of the Zoning Code in preparation for the Games.",
+          "mig": "cf6479ee-e4e6-4f94-8822-a827ff8e5257",
+          "attachments": [
+            {
+              "historyId": "6b51b3a4-3317-4756-b5ac-041cd888f0ce",
+              "title": "Report from Los Angeles City Planning Commission dated 1-08-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6b51b3a4-3317-4756-b5ac-041cd888f0ce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6b51b3a4-3317-4756-b5ac-041cd888f0ce"
+            },
+            {
+              "historyId": "a866b0a3-1379-4a02-b236-9becc67c8259",
+              "title": "Attachment to Report dated 1-08-26 -Proposed Ordinance as Modified",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a866b0a3-1379-4a02-b236-9becc67c8259",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a866b0a3-1379-4a02-b236-9becc67c8259"
+            },
+            {
+              "historyId": "bcde9a3a-ba1f-488e-a18d-9c59f812b440",
+              "title": "Attachment to Report dated 1-08-26 - Findings",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bcde9a3a-ba1f-488e-a18d-9c59f812b440",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bcde9a3a-ba1f-488e-a18d-9c59f812b440"
+            },
+            {
+              "historyId": "a120fb62-8a10-4eda-b7ab-d58c3af8d2c6",
+              "title": "Attachment to Report dated 1-08-26 - Staff Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a120fb62-8a10-4eda-b7ab-d58c3af8d2c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a120fb62-8a10-4eda-b7ab-d58c3af8d2c6"
+            },
+            {
+              "historyId": "ea95bcad-8d5c-4e3d-8dd0-cca9ad75cfcb",
+              "title": "Attachment to Report dated 1-08-26 - Environmental",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea95bcad-8d5c-4e3d-8dd0-cca9ad75cfcb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ea95bcad-8d5c-4e3d-8dd0-cca9ad75cfcb"
+            },
+            {
+              "historyId": "e14e37dd-c5ca-433f-a388-77385635c51a",
+              "title": "Attachment to Report dated 1-08-26 - Mailing List",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e14e37dd-c5ca-433f-a388-77385635c51a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e14e37dd-c5ca-433f-a388-77385635c51a"
+            },
+            {
+              "historyId": "92e7e828-ca6a-47b9-8e49-066ef316c10a",
+              "title": "Community Impact Statement submitted by Silver Lake Neighborhood Council_1-1-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=92e7e828-ca6a-47b9-8e49-066ef316c10a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=92e7e828-ca6a-47b9-8e49-066ef316c10a"
+            },
+            {
+              "historyId": "a75a7b74-c036-46fb-a570-ef8b2ede0e37",
+              "title": "Community Impact Statement submitted by Central Hollywood Neighborhood Council_12-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a75a7b74-c036-46fb-a570-ef8b2ede0e37",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a75a7b74-c036-46fb-a570-ef8b2ede0e37"
+            },
+            {
+              "historyId": "ca560e7d-b1c1-41cb-8a1a-be8e8c2f83bb",
+              "title": "Communication(s) from Public_11-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca560e7d-b1c1-41cb-8a1a-be8e8c2f83bb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ca560e7d-b1c1-41cb-8a1a-be8e8c2f83bb"
+            },
+            {
+              "historyId": "9d6e79da-ccfc-4db1-9e90-f03c751fb45c",
+              "title": "Communication(s) from Public_11-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d6e79da-ccfc-4db1-9e90-f03c751fb45c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d6e79da-ccfc-4db1-9e90-f03c751fb45c"
+            },
+            {
+              "historyId": "1d23e887-aebb-4844-bf81-e219700c6788",
+              "title": "Communication(s) from Public_10-31-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d23e887-aebb-4844-bf81-e219700c6788",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1d23e887-aebb-4844-bf81-e219700c6788"
+            },
+            {
+              "historyId": "6c1dac6a-d54a-4a0c-a517-2f16998ac71c",
+              "title": "Community Impact Statement submitted by Greater Cypress Park Neighborhood Council_10-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c1dac6a-d54a-4a0c-a517-2f16998ac71c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6c1dac6a-d54a-4a0c-a517-2f16998ac71c"
+            },
+            {
+              "historyId": "bf532329-4c81-4c1c-a4b0-59f5f072cde8",
+              "title": "Council Action dated 10-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf532329-4c81-4c1c-a4b0-59f5f072cde8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bf532329-4c81-4c1c-a4b0-59f5f072cde8"
+            },
+            {
+              "historyId": "1b9e1b90-101f-4d54-81b4-3407133b97b1",
+              "title": "Speaker Card(s)_10-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b9e1b90-101f-4d54-81b4-3407133b97b1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1b9e1b90-101f-4d54-81b4-3407133b97b1"
+            },
+            {
+              "historyId": "a0bd1edb-1da2-4ef0-803d-9919600422f5",
+              "title": "Speaker Card(s)_09-30-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0bd1edb-1da2-4ef0-803d-9919600422f5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a0bd1edb-1da2-4ef0-803d-9919600422f5"
+            },
+            {
+              "historyId": "276343b9-dc55-482c-8bf0-f6aca1b22894",
+              "title": "Report from Planning and Land Use Management Committee_9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=276343b9-dc55-482c-8bf0-f6aca1b22894",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=276343b9-dc55-482c-8bf0-f6aca1b22894"
+            },
+            {
+              "historyId": "5be233e2-fb2a-4dad-a3af-167e6347cbe6",
+              "title": "Attachment to Communication dated 9-26-25 - Presentation Slides",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5be233e2-fb2a-4dad-a3af-167e6347cbe6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5be233e2-fb2a-4dad-a3af-167e6347cbe6"
+            },
+            {
+              "historyId": "9220e228-e578-4a73-ae48-46dd29efaaf8",
+              "title": "Communication from Department of City Planning dated 9-26-25 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9220e228-e578-4a73-ae48-46dd29efaaf8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9220e228-e578-4a73-ae48-46dd29efaaf8"
+            },
+            {
+              "historyId": "952c40ad-ed65-4149-b394-e311d8f80825",
+              "title": "Attachment to Report dated 9-24-25 - Olympic and Paralympic Zoning Exemption",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=952c40ad-ed65-4149-b394-e311d8f80825",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=952c40ad-ed65-4149-b394-e311d8f80825"
+            },
+            {
+              "historyId": "63e93927-004c-4801-a3b2-50a16a2af356",
+              "title": "Report from Department of City Planning dated 9-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=63e93927-004c-4801-a3b2-50a16a2af356",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=63e93927-004c-4801-a3b2-50a16a2af356"
+            },
+            {
+              "historyId": "b57e31cc-ff5d-4a55-92e1-c34c4350276b",
+              "title": "Communication(s) from Public_08-29-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b57e31cc-ff5d-4a55-92e1-c34c4350276b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b57e31cc-ff5d-4a55-92e1-c34c4350276b"
+            },
+            {
+              "historyId": "094a802b-8ee4-4c64-a25d-6e24ae12463f",
+              "title": "Communication(s) from Public_08-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=094a802b-8ee4-4c64-a25d-6e24ae12463f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=094a802b-8ee4-4c64-a25d-6e24ae12463f"
+            },
+            {
+              "historyId": "b6520c92-d3fc-4c43-8255-599a1f1969a4",
+              "title": "Community Impact Statement submitted by Rampart Village Neighborhood Council_07-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6520c92-d3fc-4c43-8255-599a1f1969a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b6520c92-d3fc-4c43-8255-599a1f1969a4"
+            },
+            {
+              "historyId": "d56d52f7-d2bb-4e8b-81cf-b50f4672698c",
+              "title": "Community Impact Statement submitted by Studio City Neighborhood Council_06-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d56d52f7-d2bb-4e8b-81cf-b50f4672698c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d56d52f7-d2bb-4e8b-81cf-b50f4672698c"
+            },
+            {
+              "historyId": "20f24739-27c5-47b2-b8d9-774bd918c8a4",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_05-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20f24739-27c5-47b2-b8d9-774bd918c8a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20f24739-27c5-47b2-b8d9-774bd918c8a4"
+            },
+            {
+              "historyId": "6adc8b98-53ab-490b-9724-1f7c0864b8e7",
+              "title": "Communication(s) from Public_05-16-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6adc8b98-53ab-490b-9724-1f7c0864b8e7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6adc8b98-53ab-490b-9724-1f7c0864b8e7"
+            },
+            {
+              "historyId": "f65dbfcd-9488-4ec5-8d40-b10c3d4b0bbb",
+              "title": "Community Impact Statement submitted by Sherman Oaks Neighborhood Council_04-15-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f65dbfcd-9488-4ec5-8d40-b10c3d4b0bbb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f65dbfcd-9488-4ec5-8d40-b10c3d4b0bbb"
+            },
+            {
+              "historyId": "8497b436-f17f-40eb-bb3e-31d853335f67",
+              "title": "Community Impact Statement submitted by Winnetka Neighborhood Council_04-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8497b436-f17f-40eb-bb3e-31d853335f67",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8497b436-f17f-40eb-bb3e-31d853335f67"
+            },
+            {
+              "historyId": "27f18b1b-17e9-4719-a752-7cf3c4da74e1",
+              "title": "Communication(s) from Public_03-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=27f18b1b-17e9-4719-a752-7cf3c4da74e1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=27f18b1b-17e9-4719-a752-7cf3c4da74e1"
+            },
+            {
+              "historyId": "066a8c00-1a66-4fba-ae4b-5712a211483c",
+              "title": "Communication(s) from Public_03-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=066a8c00-1a66-4fba-ae4b-5712a211483c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=066a8c00-1a66-4fba-ae4b-5712a211483c"
+            },
+            {
+              "historyId": "639d0ba9-9b76-42d7-8e19-e0cdf69663f0",
+              "title": "Community Impact Statement submitted by Palms Neighborhood Council_3-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=639d0ba9-9b76-42d7-8e19-e0cdf69663f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=639d0ba9-9b76-42d7-8e19-e0cdf69663f0"
+            },
+            {
+              "historyId": "012914ed-89c3-4f0d-926d-2215f953641e",
+              "title": "Council Action - Mayor Concurrence dated 3-15-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=012914ed-89c3-4f0d-926d-2215f953641e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=012914ed-89c3-4f0d-926d-2215f953641e"
+            },
+            {
+              "historyId": "8c43a61a-4ce7-45f1-baf4-d8bd230d6793",
+              "title": "Communication(s) from Public_03-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c43a61a-4ce7-45f1-baf4-d8bd230d6793",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8c43a61a-4ce7-45f1-baf4-d8bd230d6793"
+            },
+            {
+              "historyId": "6edd9ccd-04de-482f-a483-364465043635",
+              "title": "Communication(s) from Public_03-04-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6edd9ccd-04de-482f-a483-364465043635",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6edd9ccd-04de-482f-a483-364465043635"
+            },
+            {
+              "historyId": "f3bf3e13-ac17-430f-bcf0-0872ea534955",
+              "title": "Amending Motion 12E (Blumenfield - Hernandez) dated 2-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3bf3e13-ac17-430f-bcf0-0872ea534955",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f3bf3e13-ac17-430f-bcf0-0872ea534955"
+            },
+            {
+              "historyId": "9249099b-1561-491b-a6a2-c71262890e9a",
+              "title": "Amending Motion 12D (Blumenfield - Park) dated 2-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9249099b-1561-491b-a6a2-c71262890e9a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9249099b-1561-491b-a6a2-c71262890e9a"
+            },
+            {
+              "historyId": "06d932f4-efda-47d0-9727-18d4c8fa2b68",
+              "title": "Amending Motion 12C (Soto-Martinez - Blumenfield) dated 2-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06d932f4-efda-47d0-9727-18d4c8fa2b68",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=06d932f4-efda-47d0-9727-18d4c8fa2b68"
+            },
+            {
+              "historyId": "148ff195-a256-4e8e-bbac-f9a4860b791a",
+              "title": "Amending Motion 12B (Hernandez - Soto-Martinez) dated 2-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=148ff195-a256-4e8e-bbac-f9a4860b791a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=148ff195-a256-4e8e-bbac-f9a4860b791a"
+            },
+            {
+              "historyId": "473601f4-dcd7-4f68-a9aa-81bc9bce06da",
+              "title": "Speaker Card(s)_02-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=473601f4-dcd7-4f68-a9aa-81bc9bce06da",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=473601f4-dcd7-4f68-a9aa-81bc9bce06da"
+            },
+            {
+              "historyId": "84574324-8e13-4ce9-8375-e55df3f08dd8",
+              "title": "Amending Motion 12A (Park - Lee) dated 2-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=84574324-8e13-4ce9-8375-e55df3f08dd8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=84574324-8e13-4ce9-8375-e55df3f08dd8"
+            },
+            {
+              "historyId": "8b4a379f-a0c0-4f6a-9ed6-32fa2e0607b6",
+              "title": "Communication(s) from Public_02-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8b4a379f-a0c0-4f6a-9ed6-32fa2e0607b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8b4a379f-a0c0-4f6a-9ed6-32fa2e0607b6"
+            },
+            {
+              "historyId": "c73b58c0-2df7-474a-94af-b01ee60bd803",
+              "title": "Communication(s) from Public_02-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c73b58c0-2df7-474a-94af-b01ee60bd803",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c73b58c0-2df7-474a-94af-b01ee60bd803"
+            },
+            {
+              "historyId": "3045053a-c786-40fc-ae1e-7fa1ee8b3114",
+              "title": "Communication(s) from Public_02-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3045053a-c786-40fc-ae1e-7fa1ee8b3114",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3045053a-c786-40fc-ae1e-7fa1ee8b3114"
+            },
+            {
+              "historyId": "89177493-0c93-4cfb-840f-71e9a860f9b3",
+              "title": "Communication(s) from Public_02-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=89177493-0c93-4cfb-840f-71e9a860f9b3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=89177493-0c93-4cfb-840f-71e9a860f9b3"
+            },
+            {
+              "historyId": "08b01203-543f-49ec-8394-13fffa034638",
+              "title": "Communication(s) from Public_02-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=08b01203-543f-49ec-8394-13fffa034638",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=08b01203-543f-49ec-8394-13fffa034638"
+            },
+            {
+              "historyId": "3f9259bd-0a66-4011-84b7-57dc81b43e11",
+              "title": "Communication(s) from Public_02-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f9259bd-0a66-4011-84b7-57dc81b43e11",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3f9259bd-0a66-4011-84b7-57dc81b43e11"
+            },
+            {
+              "historyId": "0c168141-881d-4d96-b0bc-117ce7fff664",
+              "title": "Communication(s) from Public_02-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c168141-881d-4d96-b0bc-117ce7fff664",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c168141-881d-4d96-b0bc-117ce7fff664"
+            },
+            {
+              "historyId": "bdcc5d56-4f74-4e00-994b-56a89135b432",
+              "title": "Communication(s) from Public_02-22-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bdcc5d56-4f74-4e00-994b-56a89135b432",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bdcc5d56-4f74-4e00-994b-56a89135b432"
+            },
+            {
+              "historyId": "a80d8496-05f4-4e43-bcbb-3e56799a5044",
+              "title": "Speaker Card(s)_02-21-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a80d8496-05f4-4e43-bcbb-3e56799a5044",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a80d8496-05f4-4e43-bcbb-3e56799a5044"
+            },
+            {
+              "historyId": "86ad03ed-9f0b-4f60-8482-f84160a9e04a",
+              "title": "Communication(s) from Public_2-21-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86ad03ed-9f0b-4f60-8482-f84160a9e04a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86ad03ed-9f0b-4f60-8482-f84160a9e04a"
+            },
+            {
+              "historyId": "69c70852-d2f0-45ab-9c56-4d5e92fc7379",
+              "title": "Communication(s) from Public_02-21-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69c70852-d2f0-45ab-9c56-4d5e92fc7379",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69c70852-d2f0-45ab-9c56-4d5e92fc7379"
+            },
+            {
+              "historyId": "551916af-4103-4489-bff3-36c7d5695ab5",
+              "title": "Communication(s) from Public_02-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=551916af-4103-4489-bff3-36c7d5695ab5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=551916af-4103-4489-bff3-36c7d5695ab5"
+            },
+            {
+              "historyId": "c041cbd2-8904-48f2-88ae-9fc3580e25c9",
+              "title": "Communication(s) from Public_02-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c041cbd2-8904-48f2-88ae-9fc3580e25c9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c041cbd2-8904-48f2-88ae-9fc3580e25c9"
+            },
+            {
+              "historyId": "54c8ba0b-92ea-49cc-8075-92673298ab7f",
+              "title": "Community Impact Statement submitted by Lincoln Heights Neighborhood Council_02-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54c8ba0b-92ea-49cc-8075-92673298ab7f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=54c8ba0b-92ea-49cc-8075-92673298ab7f"
+            },
+            {
+              "historyId": "a11b2637-71ab-42df-a43d-3bb91ed88d8c",
+              "title": "Communication(s) from Public_02-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a11b2637-71ab-42df-a43d-3bb91ed88d8c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a11b2637-71ab-42df-a43d-3bb91ed88d8c"
+            },
+            {
+              "historyId": "af5e4cc9-b3f6-4f1d-a521-3f80a326b1bd",
+              "title": "Communication(s) from Public_02-15-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af5e4cc9-b3f6-4f1d-a521-3f80a326b1bd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af5e4cc9-b3f6-4f1d-a521-3f80a326b1bd"
+            },
+            {
+              "historyId": "ad9941cd-6a90-4c74-b620-337f380665e0",
+              "title": "Communication(s) from Public_02-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad9941cd-6a90-4c74-b620-337f380665e0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ad9941cd-6a90-4c74-b620-337f380665e0"
+            },
+            {
+              "historyId": "b75d63b7-e465-4b72-bdaf-a86cf3fcd256",
+              "title": "Communication(s) from Public_02-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b75d63b7-e465-4b72-bdaf-a86cf3fcd256",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b75d63b7-e465-4b72-bdaf-a86cf3fcd256"
+            },
+            {
+              "historyId": "f365d98f-349d-4ad8-bfa9-16b88ab8dc24",
+              "title": "Report from Planning and Land Use Management Committee_02-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f365d98f-349d-4ad8-bfa9-16b88ab8dc24",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f365d98f-349d-4ad8-bfa9-16b88ab8dc24"
+            },
+            {
+              "historyId": "59c261b1-2d7d-4bae-9942-9d060667d9ea",
+              "title": "Communication from Council District One_2-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=59c261b1-2d7d-4bae-9942-9d060667d9ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=59c261b1-2d7d-4bae-9942-9d060667d9ea"
+            },
+            {
+              "historyId": "e978bc26-76db-4748-b3a0-b29c45fe0a52",
+              "title": "Communication(s) from Public_02-11-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e978bc26-76db-4748-b3a0-b29c45fe0a52",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e978bc26-76db-4748-b3a0-b29c45fe0a52"
+            },
+            {
+              "historyId": "951088f1-777a-4a07-a1e8-0fca02c74667",
+              "title": "Speaker Card(s)_02-11-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=951088f1-777a-4a07-a1e8-0fca02c74667",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=951088f1-777a-4a07-a1e8-0fca02c74667"
+            },
+            {
+              "historyId": "0815496f-4b56-4a8a-9eb0-26c9f5d6e488",
+              "title": "Communication(s) from Public_02-11-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0815496f-4b56-4a8a-9eb0-26c9f5d6e488",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0815496f-4b56-4a8a-9eb0-26c9f5d6e488"
+            },
+            {
+              "historyId": "c703cf7e-5a5a-47aa-85ef-2a06295e38c1",
+              "title": "Community Impact Statement submitted by Historic Cultural Neighborhood Council_02-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c703cf7e-5a5a-47aa-85ef-2a06295e38c1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c703cf7e-5a5a-47aa-85ef-2a06295e38c1"
+            },
+            {
+              "historyId": "2c611aff-d075-424b-b02a-68987e7a34a1",
+              "title": "Communication(s) from Public_02-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c611aff-d075-424b-b02a-68987e7a34a1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2c611aff-d075-424b-b02a-68987e7a34a1"
+            },
+            {
+              "historyId": "212da8e9-10c2-4acb-b5cd-faf5bdf8d1ba",
+              "title": "Communication(s) from Public_02-08-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=212da8e9-10c2-4acb-b5cd-faf5bdf8d1ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=212da8e9-10c2-4acb-b5cd-faf5bdf8d1ba"
+            },
+            {
+              "historyId": "af8333ef-975b-414e-bc2b-a7fc7ec50536",
+              "title": "Communication(s) from Public_02-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af8333ef-975b-414e-bc2b-a7fc7ec50536",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af8333ef-975b-414e-bc2b-a7fc7ec50536"
+            },
+            {
+              "historyId": "e5d27237-62b9-4371-b5d7-905d1c983389",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_02-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5d27237-62b9-4371-b5d7-905d1c983389",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e5d27237-62b9-4371-b5d7-905d1c983389"
+            },
+            {
+              "historyId": "96faeaae-4c8b-4457-9e80-d9aed150966f",
+              "title": "Communication(s) from Public_01-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=96faeaae-4c8b-4457-9e80-d9aed150966f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=96faeaae-4c8b-4457-9e80-d9aed150966f"
+            },
+            {
+              "historyId": "d1db097c-a7e3-4189-ae93-fd4799eee805",
+              "title": "Motion (Park - Nazarian) dated 12-13-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1db097c-a7e3-4189-ae93-fd4799eee805",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d1db097c-a7e3-4189-ae93-fd4799eee805"
+            },
+            {
+              "historyId": "e1a15c27-6d65-46c6-9224-20add0b6ba14",
+              "title": "Communication from Department of City Planning dated 1-08-26 - Supplemental Transmittal",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1a15c27-6d65-46c6-9224-20add0b6ba14",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e1a15c27-6d65-46c6-9224-20add0b6ba14"
+            },
+            {
+              "historyId": "8068324d-0597-4fbf-8290-d35ca7f20ff9",
+              "title": "Attachment to Communication dated 1-08-26 - Presentation Slides",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8068324d-0597-4fbf-8290-d35ca7f20ff9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8068324d-0597-4fbf-8290-d35ca7f20ff9"
+            },
+            {
+              "historyId": "212643fc-d372-4545-8d66-ddf69fc457ea",
+              "title": "Communication(s) from Public_01-12-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=212643fc-d372-4545-8d66-ddf69fc457ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=212643fc-d372-4545-8d66-ddf69fc457ea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "359573",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    }
+  ],
+  "total_items": 10,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-13T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=m4j84dCFkqg"
+}

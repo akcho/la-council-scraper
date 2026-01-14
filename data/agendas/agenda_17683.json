@@ -1,0 +1,553 @@
+{
+  "meeting_id": 17683,
+  "template_id": 149615,
+  "parsed_at": "2026-01-13T20:31:04.771271",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149615",
+  "sections": [
+    {
+      "section_id": "360091",
+      "title": "Roll Call",
+      "items": []
+    },
+    {
+      "section_id": "360092",
+      "title": "Approval of the Minutes",
+      "items": []
+    },
+    {
+      "section_id": "360093",
+      "title": "Commendatory Resolutions, Introductions and Presentations",
+      "items": []
+    },
+    {
+      "section_id": "360094",
+      "title": "Multiple Agenda Item Comment",
+      "items": []
+    },
+    {
+      "section_id": "360095",
+      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
+      "items": []
+    },
+    {
+      "section_id": "360097",
+      "title": "Items for which Public Hearings Have Been Held",
+      "items": [
+        {
+          "item_id": "157836",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "19-1353-S3\nPUBLIC WORKS COMMITTEE REPORT relative to the Five-Year Capital and Technology Improvement Plan (CTIP) Book.\nRecommendation for Council action:\nNOTE and FILE the City Administrative Officer report, dated August 28, 2025, relative to the Five-Year CTIP Book.\nFiscal Impact Statement:\nNot applicable\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_12-12-25\nCommunication from the City Administrative Officer_12-10-25\nCommunication from the Mayor’s Office of Infrastructure_12-10-25\nReport from City Administrative Officer dated 8-28-25",
+          "council_file": "19-1353-S3",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to the Five-Year Capital and Technology Improvement Plan (CTIP) Book.",
+          "recommendation": "NOTE and FILE the City Administrative Officer report, dated August 28, 2025, relative to the Five-Year CTIP Book. Fiscal Impact Statement: Not applicable Community Impact Statement: None submitted Report from Public Works Committee_12-12-25 Communication from the City Administrative Officer_12-10-25 Communication from the Mayor’s Office of Infrastructure_12-10-25 Report from City Administrative Officer dated 8-28-25",
+          "mig": "d3e84585-2abe-4c3e-91c1-a3d5537ad544",
+          "attachments": [
+            {
+              "historyId": "786b8eed-203f-4836-81ab-176d150fce7f",
+              "title": "Report from Public Works Committee_12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=786b8eed-203f-4836-81ab-176d150fce7f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=786b8eed-203f-4836-81ab-176d150fce7f"
+            },
+            {
+              "historyId": "d029d389-322d-4dd6-91a6-7dd1785ad9be",
+              "title": "Communication from the City Administrative Officer_12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d029d389-322d-4dd6-91a6-7dd1785ad9be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d029d389-322d-4dd6-91a6-7dd1785ad9be"
+            },
+            {
+              "historyId": "de89aa93-3750-4e6c-82b2-1e4e5b6512d6",
+              "title": "Communication from the Mayor’s Office of Infrastructure_12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=de89aa93-3750-4e6c-82b2-1e4e5b6512d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=de89aa93-3750-4e6c-82b2-1e4e5b6512d6"
+            },
+            {
+              "historyId": "09be0780-93c6-468b-9d6c-ee6678af128a",
+              "title": "Report from City Administrative Officer dated 8-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=09be0780-93c6-468b-9d6c-ee6678af128a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=09be0780-93c6-468b-9d6c-ee6678af128a"
+            }
+          ]
+        },
+        {
+          "item_id": "157837",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1308\nCD 7\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Branford Street and Remick Avenue as “Japanese American Community Center Square.\"\nRecommendations for Council action, pursuant to Motion (Rodriguez – Padilla):\nDESIGNATE the intersection at Branford Street and Remick Avenue as “Japanese American Community Center Square.\"\nDIRECT the Department of Transportation to erect permanent ceremonial signs to this effect at this location.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_12-12-25\nCommunication(s) from Public_11-09-2025\nMotion (Rodriguez - Padilla) dated 11-05-25",
+          "council_file": "25-1308",
+          "district": "CD 7",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Branford Street and Remick Avenue as “Japanese American Community Center Square.\"",
+          "recommendation": "DESIGNATE the intersection at Branford Street and Remick Avenue as “Japanese American Community Center Square.\" DIRECT the Department of Transportation to erect permanent ceremonial signs to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_12-12-25 Communication(s) from Public_11-09-2025 Motion (Rodriguez - Padilla) dated 11-05-25",
+          "mig": "c68dc717-baee-4e5a-897a-cc5989cce912",
+          "attachments": [
+            {
+              "historyId": "133c4c86-41db-462e-8f94-0fe3b4a9aa59",
+              "title": "Report from Public Works Committee_12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=133c4c86-41db-462e-8f94-0fe3b4a9aa59",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=133c4c86-41db-462e-8f94-0fe3b4a9aa59"
+            },
+            {
+              "historyId": "aa5e5296-fb1a-4f23-8dc8-6075d84525ea",
+              "title": "Communication(s) from Public_11-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa5e5296-fb1a-4f23-8dc8-6075d84525ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aa5e5296-fb1a-4f23-8dc8-6075d84525ea"
+            },
+            {
+              "historyId": "ba0cd726-27f6-4f6e-812a-0f730bff308f",
+              "title": "Motion (Rodriguez - Padilla) dated 11-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba0cd726-27f6-4f6e-812a-0f730bff308f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba0cd726-27f6-4f6e-812a-0f730bff308f"
+            }
+          ]
+        },
+        {
+          "item_id": "157838",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1196\nPUBLIC WORKS COMMITTEE REPORT relative to temporarily closing the alley adjacent to the Wilmington Municipal Building between Avalon Boulevard and Broad Avenue, south of F Street and north of E Street.\nRecommendation for Council action, pursuant to Motion (McOsker - Lee):\nINSTRUCT the City Engineer to report with recommendations to temporarily close the alley adjacent to the Wilmington Municipal Building between Avalon Boulevard and Broad Avenue, south of F Street and north of E Street, pursuant to State Vehicle Code Section 21101.4.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_12-12-25\nMotion (McOsker - Lee)  dated 10-14-25",
+          "council_file": "25-1196",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to temporarily closing the alley adjacent to the Wilmington Municipal Building between Avalon Boulevard and Broad Avenue, south of F Street and north of E Street.",
+          "recommendation": "INSTRUCT the City Engineer to report with recommendations to temporarily close the alley adjacent to the Wilmington Municipal Building between Avalon Boulevard and Broad Avenue, south of F Street and north of E Street, pursuant to State Vehicle Code Section 21101.4. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_12-12-25 Motion (McOsker - Lee) dated 10-14-25",
+          "mig": "b2c87200-f2e9-4f22-b347-6d336eb674fb",
+          "attachments": [
+            {
+              "historyId": "f53689b5-f01c-41ff-aa7a-cb536d994c29",
+              "title": "Report from Public Works Committee_12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f53689b5-f01c-41ff-aa7a-cb536d994c29",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f53689b5-f01c-41ff-aa7a-cb536d994c29"
+            },
+            {
+              "historyId": "5858f3e5-ad66-43d9-9322-9cfe45b56fc9",
+              "title": "Motion (McOsker - Lee)  dated 10-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5858f3e5-ad66-43d9-9322-9cfe45b56fc9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5858f3e5-ad66-43d9-9322-9cfe45b56fc9"
+            }
+          ]
+        },
+        {
+          "item_id": "157839",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1350\nPUBLIC WORKS COMMITTEE REPORT relative to converting streetlights to solar-to-battery lighting and repurposing or leasing vacated electrical conduits for other uses.\nRecommendations for Council action, pursuant to Motion (Hernandez – Nazarian):\nINSTRUCT the Bureau of Street Lighting (BSL), with assistance of the City Administrative Officer (CAO), Department of Public Works Bureaus, Department of Transportation, Information Technology Agency, Los Angeles Police Department, and Los Angeles Fire Department, to report in 45 days with the following information:\nDetermine the total quantity and locations of street lighting electrical conduit available as a result of solar-to-battery conversions.\nIdentify street light locations frequently targeted by vandalism and theft, and recommend opportunities to convert these locations to solar-to-battery lighting.\nEvaluate the condition and suitability of vacated street lighting electrical conduit for new uses.\nDevelop recommendations to repurpose the conduit network to support other City needs.\nINSTRUCT the BSL, with the assistance of the City Attorney and CAO, to report in 45 days with findings that explore the feasibility of utilizing vacated electrical conduit to lease to private organizations and the non-profit sector.\nFiscal Impact Statement:\nNeither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_12-12-25\nMotion (Hernandez - Nazarian) dated 11-14-25",
+          "council_file": "25-1350",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to converting streetlights to solar-to-battery lighting and repurposing or leasing vacated electrical conduits for other uses.",
+          "recommendation": "INSTRUCT the Bureau of Street Lighting (BSL), with assistance of the City Administrative Officer (CAO), Department of Public Works Bureaus, Department of Transportation, Information Technology Agency, Los Angeles Police Department, and Los Angeles Fire Department, to report in 45 days with the following information: Determine the total quantity and locations of street lighting electrical conduit available as a result of solar-to-battery conversions. Identify street light locations frequently targeted by vandalism and theft, and recommend opportunities to convert these locations to solar-to-battery lighting. Evaluate the condition and suitability of vacated street lighting electrical conduit for new uses. Develop recommendations to repurpose the conduit network to support other City needs. INSTRUCT the BSL, with the assistance of the City Attorney and CAO, to report in 45 days with findings that explore the feasibility of utilizing vacated electrical conduit to lease to private organizations and the non-profit sector. Fiscal Impact Statement: Neither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_12-12-25 Motion (Hernandez - Nazarian) dated 11-14-25",
+          "mig": "6d1181af-bbcb-43cc-bf73-b8dd9b894b87",
+          "attachments": [
+            {
+              "historyId": "6810223d-c302-4309-b47b-c420993d8232",
+              "title": "Report from Public Works Committee_12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6810223d-c302-4309-b47b-c420993d8232",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6810223d-c302-4309-b47b-c420993d8232"
+            },
+            {
+              "historyId": "4eb7a6f9-da94-4d62-a904-a89f382b9cce",
+              "title": "Motion (Hernandez - Nazarian) dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4eb7a6f9-da94-4d62-a904-a89f382b9cce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4eb7a6f9-da94-4d62-a904-a89f382b9cce"
+            }
+          ]
+        },
+        {
+          "item_id": "157840",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-0723\nCD 14\nPUBLIC WORKS COMMITTEE REPORT relative to a refund claim filed by Toltec 9, LLC.\nRecommendation for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAPPROVE and REFUND the Claim for Refund Reference No. 174344 for $84,746.40, to the Claimant, Toltec 9, LLC, 4210 Riverwalk Parkway, Suite 270, Riverside, California 92505.\nFiscal Impact Statement:\nThe BPW reports that funding for the claim for refund in the amount of $84,746.40 for the claimant, Toltec 9, LLC, is available in Fund No. 41A/50, Department Revenue Source 428601.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_12-12-25\nReport from Board of Public Works dated 6-25-25",
+          "council_file": "25-0723",
+          "district": "CD 14",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to a refund claim filed by Toltec 9, LLC.",
+          "recommendation": "APPROVE and REFUND the Claim for Refund Reference No. 174344 for $84,746.40, to the Claimant, Toltec 9, LLC, 4210 Riverwalk Parkway, Suite 270, Riverside, California 92505. Fiscal Impact Statement: The BPW reports that funding for the claim for refund in the amount of $84,746.40 for the claimant, Toltec 9, LLC, is available in Fund No. 41A/50, Department Revenue Source 428601. Community Impact Statement: None submitted Report from Public Works Committee_12-12-25 Report from Board of Public Works dated 6-25-25",
+          "mig": "03f43ed2-d730-4573-9215-c1decd2a26dd",
+          "attachments": [
+            {
+              "historyId": "9378ab4d-c127-4714-a1d9-906d23d0c8d7",
+              "title": "Report from Public Works Committee_12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9378ab4d-c127-4714-a1d9-906d23d0c8d7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9378ab4d-c127-4714-a1d9-906d23d0c8d7"
+            },
+            {
+              "historyId": "bd1f478d-e680-4e1d-ab9e-2365321ff814",
+              "title": "Report from Board of Public Works dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd1f478d-e680-4e1d-ab9e-2365321ff814",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bd1f478d-e680-4e1d-ab9e-2365321ff814"
+            }
+          ]
+        },
+        {
+          "item_id": "157841",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0600-S128\nPERSONNEL AND HIRING COMMITTEE REPORT relative to substitute and in-lieu position authorities needed to fulfill the intent of the 2025-26 Budget.\nRecommendation for Council action:\nNOTE and FILE the November 26, 2025 City Administrative Officer (CAO) report relative to substitute and in-lieu position authorities needed to fulfill the intent of the 2025-26 Budget.\nFiscal Impact Statement:\nNot applicable.\nCommunity Impact Statement:\nNone submitted.\nPersonnel and Hiring Committee Report 12-12-25\nCity Administrative Officer dated 11-26-25",
+          "council_file": "25-0600-S128",
+          "title": "PERSONNEL AND HIRING COMMITTEE REPORT relative to substitute and in-lieu position authorities needed to fulfill the intent of the 2025-26 Budget.",
+          "recommendation": "NOTE and FILE the November 26, 2025 City Administrative Officer (CAO) report relative to substitute and in-lieu position authorities needed to fulfill the intent of the 2025-26 Budget. Fiscal Impact Statement: Not applicable. Community Impact Statement: None submitted. Personnel and Hiring Committee Report 12-12-25 City Administrative Officer dated 11-26-25",
+          "mig": "04e3adab-dd4e-4aa2-892b-b0ba80de2d07",
+          "attachments": [
+            {
+              "historyId": "cddab307-f8b7-4fd7-bcbd-f5b107d3e050",
+              "title": "Personnel and Hiring Committee Report 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cddab307-f8b7-4fd7-bcbd-f5b107d3e050",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cddab307-f8b7-4fd7-bcbd-f5b107d3e050"
+            },
+            {
+              "historyId": "2b190c53-88e0-4179-84ae-7d36e99cfbb0",
+              "title": "City Administrative Officer dated 11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b190c53-88e0-4179-84ae-7d36e99cfbb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2b190c53-88e0-4179-84ae-7d36e99cfbb0"
+            }
+          ]
+        },
+        {
+          "item_id": "157842",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-1298\nPERSONNEL AND HIRING COMMITTEE REPORT relative to revising subsection (e) of Section 4.1407 of the Los Angeles Administrative Code  (LAAC) to increase member term lengths for Board of Deferred Compensation Administration (BDCA) from three to five years.\nRecommendation for Council action:\nREQUEST the City Attorney to prepare and present an Ordinance to revise subsection (e) of Section 4.1407, Chapter 14, Division 4 of the LAAC to increase member term lengths for BDCA from three to five years.\nFiscal Impact Statement:\nThe Personnel Department reports that there is no impact to the City’s General Fund.  In accordance with LAAC 4.1407, the administration of the Deferred Compensation Plan (DCP) is required to be fully funded by participant fees.  The DCP anticipates some savings applied to its reserve fund over a ten-year period in election administration costs (for example, savings on reimbursements to City Clerk and print/mail costs).\nCommunity Impact Statement:\nNone submitted.\nPersonnel and Hiring Committee Report 12-3-25\nReport from Personnel Department dated 10-31-25",
+          "council_file": "25-1298",
+          "title": "PERSONNEL AND HIRING COMMITTEE REPORT relative to revising subsection (e) of Section 4.1407 of the Los Angeles Administrative Code  (LAAC) to increase member term lengths for Board of Deferred Compensation Administration (BDCA) from three to five years.",
+          "recommendation": "REQUEST the City Attorney to prepare and present an Ordinance to revise subsection (e) of Section 4.1407, Chapter 14, Division 4 of the LAAC to increase member term lengths for BDCA from three to five years. Fiscal Impact Statement: The Personnel Department reports that there is no impact to the City’s General Fund. In accordance with LAAC 4.1407, the administration of the Deferred Compensation Plan (DCP) is required to be fully funded by participant fees. The DCP anticipates some savings applied to its reserve fund over a ten-year period in election administration costs (for example, savings on reimbursements to City Clerk and print/mail costs). Community Impact Statement: None submitted. Personnel and Hiring Committee Report 12-3-25 Report from Personnel Department dated 10-31-25",
+          "mig": "17ce07af-1bd7-4a45-bfad-ea5eecfd37f4",
+          "attachments": [
+            {
+              "historyId": "0ff99d9a-6881-440c-96f1-af38e9964905",
+              "title": "Personnel and Hiring Committee Report 12-3-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0ff99d9a-6881-440c-96f1-af38e9964905",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0ff99d9a-6881-440c-96f1-af38e9964905"
+            },
+            {
+              "historyId": "d57bb924-12bc-484e-9967-f40db72f9e38",
+              "title": "Report from Personnel Department dated 10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d57bb924-12bc-484e-9967-f40db72f9e38",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d57bb924-12bc-484e-9967-f40db72f9e38"
+            }
+          ]
+        },
+        {
+          "item_id": "157843",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "22-0659-S1\nTRANSPORTATION COMMITTEE REPORT relative to executing an agreement with Los Angeles Cleantech Incubator (LACI) for the South LA EcoLab.\nRecommendation for Council action:\nAUTHORIZE the Department of Transportation (DOT) to enter into an agreement with LACI for a term from July 24, 2023 to March 31, 2029, with an amount not to exceed $3,267,460, for implementation of the e-bike lending library project funded by the Transformative Climate Communities (TCC) grant South LA EcoLab.\nFiscal Impact Statement:\nThe DOT reports that the TCC grant requires leveraged funding in an amount at least 50 percent of the total grant funding. The DOT identified $67,775 of in-kind staff time, $250,000 in Measure R funds, $600,000 in Bikeshare Capital Funds, and $500,000 in California Air Resources Board Sustainable Transportation Equity Project match funds to support project implementation. There is no additional anticipated impact on the General Fund since the South LA EcoLab projects are expected to be completed within the approved budget. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 12-10-25\nReport from Department of Transportation dated 12-03-25",
+          "council_file": "22-0659-S1",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to executing an agreement with Los Angeles Cleantech Incubator (LACI) for the South LA EcoLab.",
+          "recommendation": "AUTHORIZE the Department of Transportation (DOT) to enter into an agreement with LACI for a term from July 24, 2023 to March 31, 2029, with an amount not to exceed $3,267,460, for implementation of the e-bike lending library project funded by the Transformative Climate Communities (TCC) grant South LA EcoLab. Fiscal Impact Statement: The DOT reports that the TCC grant requires leveraged funding in an amount at least 50 percent of the total grant funding. The DOT identified $67,775 of in-kind staff time, $250,000 in Measure R funds, $600,000 in Bikeshare Capital Funds, and $500,000 in California Air Resources Board Sustainable Transportation Equity Project match funds to support project implementation. There is no additional anticipated impact on the General Fund since the South LA EcoLab projects are expected to be completed within the approved budget. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 12-10-25 Report from Department of Transportation dated 12-03-25",
+          "mig": "6d93bac6-741c-4e60-af8f-f5ae0997f1ed",
+          "attachments": [
+            {
+              "historyId": "3cee2a64-a6ca-499e-86ba-b8e5b675110a",
+              "title": "Report from Transportation Committee 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cee2a64-a6ca-499e-86ba-b8e5b675110a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3cee2a64-a6ca-499e-86ba-b8e5b675110a"
+            },
+            {
+              "historyId": "e651041b-3656-4336-9b38-3d5c93492a36",
+              "title": "Report from Department of Transportation dated 12-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e651041b-3656-4336-9b38-3d5c93492a36",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e651041b-3656-4336-9b38-3d5c93492a36"
+            }
+          ]
+        },
+        {
+          "item_id": "157844",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-0008-S27\nCD 2\nTRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along certain street segments of Archwood Street, Kittridge Street, Hamlin Street, St. Clair Avenue, and several other streets in Council District Two.\nRecommendation for Council action, pursuant to Resolution (Nazarian – Park):\nRESOLVE to:\nProhibit, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over 84 inches in height, during the hours of 2:00 a.m. and 6:00 a.m., along the following street segments:\nBoth sides of Archwood Street from St. Clair Avenue to Radford Avenue\nBoth sides of Kittridge Street from St. Clair Avenue to Radford Avenue\nBoth sides of Hamlin Street from St. Clair Avenue to Radford Avenue\nBoth sides of St. Clair Avenue from Vanowen Street to Victory Boulevard\nBoth sides of Bellingham Avenue from Vanowen Street to the northern border of Roy Romer Middle School\nBoth sides of Agnes Avenue from Vanowen Street to Victory Boulevard\nBoth sides of Ben Avenue from Vanowen Street to Victory Boulevard\nBoth sides of Gentry Avenue from Vanowen Street to Victory Boulevard\nBoth sides of Radford Avenue from Vanowen Street to Victory Boulevard\nBoth sides of Fulton Avenue from Willard Street to Saticoy Street\nBoth sides of Lloyd Avenue from Willard Street to Fulton Avenue\nBoth sides of Nagle Avenue from Willard Street to Arminta Street\nBoth sides of Willard Street from Lloyd Avenue to Fulton Avenue\nBoth sides of Lorne Street from Fulton Avenue to Ratner Street\nBoth sides of Strathern Street from Lloyd Avenue to Ethel Avenue\nSouth side of Strathern Street from Nagle Avenue to Lloyd Avenue\nBoth sides of Blythe Street from Blythe Street to Longridge Avenue\nBoth Sides of Burbank Boulevard from North Clybourn Avenue to Auckland Avenue\nAuckland Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard\nStrohm Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard\nBiloxi Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard\nDirect the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed.\nAuthorize the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 12-10-25\nResolution (Nazarian - Park) dated 11-14-25",
+          "council_file": "25-0008-S27",
+          "district": "CD 2",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to establishing oversize vehicle parking restrictions along certain street segments of Archwood Street, Kittridge Street, Hamlin Street, St. Clair Avenue, and several other streets in Council District Two.",
+          "recommendation": "RESOLVE to: Prohibit, pursuant to Los Angeles Municipal Code (LAMC) Section 80.69.4, the parking of vehicles that are in excess of 22 feet in length or over 84 inches in height, during the hours of 2:00 a.m. and 6:00 a.m., along the following street segments: Both sides of Archwood Street from St. Clair Avenue to Radford Avenue Both sides of Kittridge Street from St. Clair Avenue to Radford Avenue Both sides of Hamlin Street from St. Clair Avenue to Radford Avenue Both sides of St. Clair Avenue from Vanowen Street to Victory Boulevard Both sides of Bellingham Avenue from Vanowen Street to the northern border of Roy Romer Middle School Both sides of Agnes Avenue from Vanowen Street to Victory Boulevard Both sides of Ben Avenue from Vanowen Street to Victory Boulevard Both sides of Gentry Avenue from Vanowen Street to Victory Boulevard Both sides of Radford Avenue from Vanowen Street to Victory Boulevard Both sides of Fulton Avenue from Willard Street to Saticoy Street Both sides of Lloyd Avenue from Willard Street to Fulton Avenue Both sides of Nagle Avenue from Willard Street to Arminta Street Both sides of Willard Street from Lloyd Avenue to Fulton Avenue Both sides of Lorne Street from Fulton Avenue to Ratner Street Both sides of Strathern Street from Lloyd Avenue to Ethel Avenue South side of Strathern Street from Nagle Avenue to Lloyd Avenue Both sides of Blythe Street from Blythe Street to Longridge Avenue Both Sides of Burbank Boulevard from North Clybourn Avenue to Auckland Avenue Auckland Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard Strohm Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard Biloxi Avenue, 120 feet north of Burbank Boulevard and 120 feet south of Burbank Boulevard Direct the Los Angeles Department of Transportation (LADOT), upon adoption of this Resolution, to post signs giving notice of a “tow away, no parking” restriction for oversize vehicles, with the specific hours detailed. Authorize the LADOT to make technical corrections or clarifications to the above instructions in order to effectuate the intent of this Resolution. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 12-10-25 Resolution (Nazarian - Park) dated 11-14-25",
+          "mig": "573dcb89-97fe-4b9c-859f-2d6f2aece214",
+          "attachments": [
+            {
+              "historyId": "3c918c04-9f79-480b-8902-a79efbe88fb0",
+              "title": "Report from Transportation Committee 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c918c04-9f79-480b-8902-a79efbe88fb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3c918c04-9f79-480b-8902-a79efbe88fb0"
+            },
+            {
+              "historyId": "05f1a569-418f-4fa3-9df7-6faa8939da24",
+              "title": "Resolution (Nazarian - Park) dated 11-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=05f1a569-418f-4fa3-9df7-6faa8939da24",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=05f1a569-418f-4fa3-9df7-6faa8939da24"
+            }
+          ]
+        },
+        {
+          "item_id": "157845",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-0600-S127\nTRANSPORTATION COMMITTEE REPORT relative to the Department of Transportation (DOT) Crossing Guard program and future funding options.\nRecommendations for Council action:\nNOTE AND FILE the DOT to report dated November 3, 2025, attached to the Council file, relative to the Crossing Guard program and future funding options, inasmuch as it is for information purposes only and no action is required.\nINSTRUCT the DOT to convene with the Los Angeles Unified School District to explore negotiating a cost-sharing agreement to partially fund the City’s Crossing Guard Program, and to report with findings and key considerations.\nFiscal Impact Statement:\nNone reported by the DOT. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\nReport from Transportation Committee 12-10-25\nCommunication from CD 1 - 12-10-25 - Amendment\nReport from Department of Transportation dated 11-03-25",
+          "council_file": "25-0600-S127",
+          "district": "CD 1",
+          "title": "TRANSPORTATION COMMITTEE REPORT relative to the Department of Transportation (DOT) Crossing Guard program and future funding options.",
+          "recommendation": "NOTE AND FILE the DOT to report dated November 3, 2025, attached to the Council file, relative to the Crossing Guard program and future funding options, inasmuch as it is for information purposes only and no action is required. INSTRUCT the DOT to convene with the Los Angeles Unified School District to explore negotiating a cost-sharing agreement to partially fund the City’s Crossing Guard Program, and to report with findings and key considerations. Fiscal Impact Statement: None reported by the DOT. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. Report from Transportation Committee 12-10-25 Communication from CD 1 - 12-10-25 - Amendment Report from Department of Transportation dated 11-03-25",
+          "mig": "79c1e53f-7cc0-488d-a6d8-2cc5d8d6959b",
+          "attachments": [
+            {
+              "historyId": "a8059505-dca3-4bf0-8bcc-8f99da29fb41",
+              "title": "Report from Transportation Committee 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8059505-dca3-4bf0-8bcc-8f99da29fb41",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a8059505-dca3-4bf0-8bcc-8f99da29fb41"
+            },
+            {
+              "historyId": "779075bf-d1ed-4f5c-97f7-e75a2e603ff7",
+              "title": "Communication from CD 1 - 12-10-25 - Amendment",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=779075bf-d1ed-4f5c-97f7-e75a2e603ff7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=779075bf-d1ed-4f5c-97f7-e75a2e603ff7"
+            },
+            {
+              "historyId": "79f44eea-1c09-416e-9819-6149e1685665",
+              "title": "Report from Department of Transportation dated 11-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=79f44eea-1c09-416e-9819-6149e1685665",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=79f44eea-1c09-416e-9819-6149e1685665"
+            }
+          ]
+        },
+        {
+          "item_id": "157846",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S69\nCD 11\nAD HOC COMMITTEE FOR LA RECOVERY REPORT and COMMUNICATION FROM THE CHAIR AND MEMBER, ENERGY AND ENVIRONMENT COMMITTEE relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire.\nRecommendation for Council action:\nRECIEVE and FILE the Bureau of Sanitation report dated June 26, 2025, attached to Council file No. 25-0006-S69, relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire.\nFiscal Impact Statement:\nNot applicable\nCommunity Impact Statement:\nYes\nFor: Los Feliz Neighborhood Council\nReport from Ad Hoc Committee for LA Recovery and Communication from Chair and Member, Energy and Environment Committee- 12-2-25\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25\nReport from Bureau of Sanitation dated 6-26-25\nCommunity Impact Statement submitted by South Robertson Neighborhood Council_04-18-2025\nCommunity Impact Statement submitted by North Westwood Neighborhood Council_04-05-2025\nCouncil Action dated 3-25-25\nCommunity Impact Statement submitted by Westside Neighborhood Council_03-20-2025\nReport from Energy and Environment Committee_03-04-25\nSpeaker Card(s)_03-04-2025\nMotion (Park - Nazarian) dated 2-21-25\nSpeaker Card(s)_03-19-2025",
+          "council_file": "25-0006-S69",
+          "district": "CD 11",
+          "title": "AD HOC COMMITTEE FOR LA RECOVERY REPORT and COMMUNICATION FROM THE CHAIR AND MEMBER, ENERGY AND ENVIRONMENT COMMITTEE relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire.",
+          "recommendation": "RECIEVE and FILE the Bureau of Sanitation report dated June 26, 2025, attached to Council file No. 25-0006-S69, relative to the ocean water quality and conditions following the hazardous debris created by the Palisades Fire. Fiscal Impact Statement: Not applicable Community Impact Statement: Yes For: Los Feliz Neighborhood Council Report from Ad Hoc Committee for LA Recovery and Communication from Chair and Member, Energy and Environment Committee- 12-2-25 Community Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25 Report from Bureau of Sanitation dated 6-26-25 Community Impact Statement submitted by South Robertson Neighborhood Council_04-18-2025 Community Impact Statement submitted by North Westwood Neighborhood Council_04-05-2025 Council Action dated 3-25-25 Community Impact Statement submitted by Westside Neighborhood Council_03-20-2025 Report from Energy and Environment Committee_03-04-25 Speaker Card(s)_03-04-2025 Motion (Park - Nazarian) dated 2-21-25 Speaker Card(s)_03-19-2025",
+          "mig": "7ad618f9-3593-4e0d-9ddc-99ab56e6f9cb",
+          "attachments": [
+            {
+              "historyId": "58d090ce-dec7-4843-963d-bc75173ee123",
+              "title": "Report from Ad Hoc Committee for LA Recovery and Communication from Chair and Member, Energy and Environment Committee- 12-2-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=58d090ce-dec7-4843-963d-bc75173ee123",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=58d090ce-dec7-4843-963d-bc75173ee123"
+            },
+            {
+              "historyId": "e6f43f56-6e29-4da6-bb05-0aa34c573cb6",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6f43f56-6e29-4da6-bb05-0aa34c573cb6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e6f43f56-6e29-4da6-bb05-0aa34c573cb6"
+            },
+            {
+              "historyId": "7b3aa91d-622a-412f-98db-9991244e677b",
+              "title": "Report from Bureau of Sanitation dated 6-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b3aa91d-622a-412f-98db-9991244e677b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7b3aa91d-622a-412f-98db-9991244e677b"
+            },
+            {
+              "historyId": "bfffd327-531d-472f-a8cc-f15526af1ab1",
+              "title": "Community Impact Statement submitted by South Robertson Neighborhood Council_04-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bfffd327-531d-472f-a8cc-f15526af1ab1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bfffd327-531d-472f-a8cc-f15526af1ab1"
+            },
+            {
+              "historyId": "ff9b989b-4b90-45d4-b73f-10ede42b59ea",
+              "title": "Community Impact Statement submitted by North Westwood Neighborhood Council_04-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff9b989b-4b90-45d4-b73f-10ede42b59ea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ff9b989b-4b90-45d4-b73f-10ede42b59ea"
+            },
+            {
+              "historyId": "25a6f8d9-f954-46c6-8d3c-de110d1cc15b",
+              "title": "Council Action dated 3-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=25a6f8d9-f954-46c6-8d3c-de110d1cc15b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=25a6f8d9-f954-46c6-8d3c-de110d1cc15b"
+            },
+            {
+              "historyId": "81456c70-3ef0-4300-843d-84895c2f318c",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_03-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=81456c70-3ef0-4300-843d-84895c2f318c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=81456c70-3ef0-4300-843d-84895c2f318c"
+            },
+            {
+              "historyId": "303d78a9-54bf-45a6-9236-fad235496f03",
+              "title": "Report from Energy and Environment Committee_03-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=303d78a9-54bf-45a6-9236-fad235496f03",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=303d78a9-54bf-45a6-9236-fad235496f03"
+            },
+            {
+              "historyId": "812d8600-9915-46c6-82ef-a5355e01c3e4",
+              "title": "Speaker Card(s)_03-04-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=812d8600-9915-46c6-82ef-a5355e01c3e4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=812d8600-9915-46c6-82ef-a5355e01c3e4"
+            },
+            {
+              "historyId": "423677fc-a6ef-4fcf-9fcd-192a605bc364",
+              "title": "Motion (Park - Nazarian) dated 2-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=423677fc-a6ef-4fcf-9fcd-192a605bc364",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=423677fc-a6ef-4fcf-9fcd-192a605bc364"
+            },
+            {
+              "historyId": "72e9f4d6-0fb6-4aea-9e19-5dfc386703c2",
+              "title": "Speaker Card(s)_03-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=72e9f4d6-0fb6-4aea-9e19-5dfc386703c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=72e9f4d6-0fb6-4aea-9e19-5dfc386703c2"
+            }
+          ]
+        },
+        {
+          "item_id": "157850",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "14-1174-S94\nCD 15\nECONOMIC DEVELOPMENT AND JOBS COMMITTEE REPORT relative to appropriating CRA/LA Excess Non-Housing Bond Proceeds from the Beacon Street Redevelopment Project Area (Project Area) to the Downtown San Pedro Pedestrian Wayfinding Signage Project (Project).\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nDETERMINE that the Downtown San Pedro Pedestrian Wayfinding Signage Project (Project) consisting of design, fabrication, and installation of a pedestrian wayfinding sign, is categorically exempt from provisions of the California Environmental Quality Act (CEQA) pursuant to State CEQA Guidelines Article III, Categorical Exemptions, Class 11, 1) On-premise signs. The Project is also BOC Report Page 2 of 5 October 2, 2025 CD 15 Motion 14-1174-S94 exempt under the City of Los Angeles CEQA Guidelines Article III, Categorical Exemptions, Class 11 - Accessory Structures.\nAPPROVE up to $13,460 in taxable CRA/LA Excess Non-Housing Bond Proceeds (EBP) available to Council District (CD) 15 from the Beacon Street Redevelopment Project Area (Project Area) to be utilized for the Project.\nAUTHORIZE the Department of General Services (GSD) to implement activities related to the Project.\nDIRECT the Board of Public Works, Bureau of Engineering (BOE) to file a CEQA Notice of Exemption (NOE) with the Los Angeles County Clerk upon City Council approval\nDIRECT GSD to report on its work accomplishments to the CAO, and fund expenditures to EWDD on a quarterly and as-needed basis.\nAUTHORIZE the Controller, subject to the availability of funds, to:\nTransfer appropriations within the EBP Fund No. 57D, Department No. 22 as follows:\nFrom\nAccount No. 22L9BT, Account Name: Beacon Street Taxable, Amount: $13,460\nTo\nAccount No. 22C140, Account Name: General Services Department, $13,460\nIncrease Fund No. 100/40 appropriations as follows:\nAppropriation Unit 001014, Account Name: Salaries Construction, Amount: $6651\nAppropriation Unit 003180, Account Name: Construction Materials, Amount: $6809\nTotal: $6651\nExpend up to $13,460 from the EBP Fund No. 57D, Account No. 22C140 Beacon Street Taxable Series 2005-C, for activities related to the Project upon presentation of proper documentation by GSD, and satisfactory review and approval of EWDD in accordance with the terms and conditions of the BEA.\nAUTHORIZE the Interim General Manager of EWDD, or designee, to prepare Controller instructions and/or make technical adjustments that may be required and are consistent with this action, subject to the approval of the CAO, and authorize the Controller to implement these instructions.\nFiscal Impact Statement:\nThe EWDD reports that there is no impact on the City’s General Fund from the proposed appropriation of CRA/LA EBP. The CRA/LA EBP Fund No. 57D is funded solely from transfers of approximately $88.4 million in pre-2011 tax allocation bond proceeds from CRA/LA to the City (C.F. 14-1174, 14-1174-S36, and 14-1174-S78). Said transfers have been deposited with the Office of the Controller.\nCommunity Impact Statement:\nNone submitted\nReport from Economic and Workforce Development Department dated 10-02-25\nCouncil Action - Mayor Concurrence dated 6-18-25\nMotion (McOsker - Blumenfield) dated 6-06-25\nCommunication(s) from Public_04-09-2024\nCouncil Action - Mayor Concurrence dated 4-26-2024\nReport from Trade, Travel and Tourism Committee dated 3-19-2024\nMotion (McOsker - Hutt) dated 3-08-24\nCouncil Action  dated 8-19-21\n14-1174-S94 Economic Development and Jobs Committee Report 8-10-21\nMotion (Buscaino - Koretz) dated 7-30-21\nSpeaker Card(s)_04-12-2024",
+          "council_file": "14-1174-S94",
+          "district": "CD 15",
+          "title": "ECONOMIC DEVELOPMENT AND JOBS COMMITTEE REPORT relative to appropriating CRA/LA Excess Non-Housing Bond Proceeds from the Beacon Street Redevelopment Project Area (Project Area) to the Downtown San Pedro Pedestrian Wayfinding Signage Project (Project).",
+          "recommendation": "DETERMINE that the Downtown San Pedro Pedestrian Wayfinding Signage Project (Project) consisting of design, fabrication, and installation of a pedestrian wayfinding sign, is categorically exempt from provisions of the California Environmental Quality Act (CEQA) pursuant to State CEQA Guidelines Article III, Categorical Exemptions, Class 11, 1) On-premise signs. The Project is also BOC Report Page 2 of 5 October 2, 2025 CD 15 Motion 14-1174-S94 exempt under the City of Los Angeles CEQA Guidelines Article III, Categorical Exemptions, Class 11 - Accessory Structures. APPROVE up to $13,460 in taxable CRA/LA Excess Non-Housing Bond Proceeds (EBP) available to Council District (CD) 15 from the Beacon Street Redevelopment Project Area (Project Area) to be utilized for the Project. AUTHORIZE the Department of General Services (GSD) to implement activities related to the Project. DIRECT the Board of Public Works, Bureau of Engineering (BOE) to file a CEQA Notice of Exemption (NOE) with the Los Angeles County Clerk upon City Council approval DIRECT GSD to report on its work accomplishments to the CAO, and fund expenditures to EWDD on a quarterly and as-needed basis. AUTHORIZE the Controller, subject to the availability of funds, to: Transfer appropriations within the EBP Fund No. 57D, Department No. 22 as follows: From Account No. 22L9BT, Account Name: Beacon Street Taxable, Amount: $13,460 To Account No. 22C140, Account Name: General Services Department, $13,460 Increase Fund No. 100/40 appropriations as follows: Appropriation Unit 001014, Account Name: Salaries Construction, Amount: $6651 Appropriation Unit 003180, Account Name: Construction Materials, Amount: $6809 Total: $6651 Expend up to $13,460 from the EBP Fund No. 57D, Account No. 22C140 Beacon Street Taxable Series 2005-C, for activities related to the Project upon presentation of proper documentation by GSD, and satisfactory review and approval of EWDD in accordance with the terms and conditions of the BEA. AUTHORIZE the Interim General Manager of EWDD, or designee, to prepare Controller instructions and/or make technical adjustments that may be required and are consistent with this action, subject to the approval of the CAO, and authorize the Controller to implement these instructions. Fiscal Impact Statement: The EWDD reports that there is no impact on the City’s General Fund from the proposed appropriation of CRA/LA EBP. The CRA/LA EBP Fund No. 57D is funded solely from transfers of approximately $88.4 million in pre-2011 tax allocation bond proceeds from CRA/LA to the City (C.F. 14-1174, 14-1174-S36, and 14-1174-S78). Said transfers have been deposited with the Office of the Controller. Community Impact Statement: None submitted Report from Economic and Workforce Development Department dated 10-02-25 Council Action - Mayor Concurrence dated 6-18-25 Motion (McOsker - Blumenfield) dated 6-06-25 Communication(s) from Public_04-09-2024 Council Action - Mayor Concurrence dated 4-26-2024 Report from Trade, Travel and Tourism Committee dated 3-19-2024 Motion (McOsker - Hutt) dated 3-08-24 Council Action dated 8-19-21 14-1174-S94 Economic Development and Jobs Committee Report 8-10-21 Motion (Buscaino - Koretz) dated 7-30-21 Speaker Card(s)_04-12-2024",
+          "mig": "cb22ae61-c00c-49a2-bc80-84cdaa5c29f9",
+          "attachments": [
+            {
+              "historyId": "ced01e84-542b-4d86-848a-489a2f52ebed",
+              "title": "Report from Economic and Workforce Development Department dated 10-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ced01e84-542b-4d86-848a-489a2f52ebed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ced01e84-542b-4d86-848a-489a2f52ebed"
+            },
+            {
+              "historyId": "4120002a-c88a-456a-b36d-4f770f9695b2",
+              "title": "Council Action - Mayor Concurrence dated 6-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4120002a-c88a-456a-b36d-4f770f9695b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4120002a-c88a-456a-b36d-4f770f9695b2"
+            },
+            {
+              "historyId": "093385cc-187c-48f2-a587-f022954de51c",
+              "title": "Motion (McOsker - Blumenfield) dated 6-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=093385cc-187c-48f2-a587-f022954de51c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=093385cc-187c-48f2-a587-f022954de51c"
+            },
+            {
+              "historyId": "2ba2984d-d3e4-40e7-90be-2fb2253c67d7",
+              "title": "Communication(s) from Public_04-09-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ba2984d-d3e4-40e7-90be-2fb2253c67d7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ba2984d-d3e4-40e7-90be-2fb2253c67d7"
+            },
+            {
+              "historyId": "e8a417b3-889b-458f-bf15-c6a9f5b1b9e5",
+              "title": "Council Action - Mayor Concurrence dated 4-26-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8a417b3-889b-458f-bf15-c6a9f5b1b9e5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8a417b3-889b-458f-bf15-c6a9f5b1b9e5"
+            },
+            {
+              "historyId": "1d999943-6d82-4a5b-b45d-9718cf8cf347",
+              "title": "Report from Trade, Travel and Tourism Committee dated 3-19-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d999943-6d82-4a5b-b45d-9718cf8cf347",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1d999943-6d82-4a5b-b45d-9718cf8cf347"
+            },
+            {
+              "historyId": "3d0ffc9e-6c55-457e-8183-e0ce0a54fcc4",
+              "title": "Motion (McOsker - Hutt) dated 3-08-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d0ffc9e-6c55-457e-8183-e0ce0a54fcc4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d0ffc9e-6c55-457e-8183-e0ce0a54fcc4"
+            },
+            {
+              "historyId": "55a28c9e-10e2-4ebc-9d01-db6ba80d1638",
+              "title": "Council Action  dated 8-19-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=55a28c9e-10e2-4ebc-9d01-db6ba80d1638",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=55a28c9e-10e2-4ebc-9d01-db6ba80d1638"
+            },
+            {
+              "historyId": "00df67fb-952d-4623-93d6-e96cfa348445",
+              "title": "14-1174-S94 Economic Development and Jobs Committee Report 8-10-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=00df67fb-952d-4623-93d6-e96cfa348445",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=00df67fb-952d-4623-93d6-e96cfa348445"
+            },
+            {
+              "historyId": "2d1efd7f-81cf-4918-a72d-abd2f9f6975d",
+              "title": "Motion (Buscaino - Koretz) dated 7-30-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d1efd7f-81cf-4918-a72d-abd2f9f6975d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d1efd7f-81cf-4918-a72d-abd2f9f6975d"
+            },
+            {
+              "historyId": "7c8be2ab-b7cc-498b-a975-e27858fe74d2",
+              "title": "Speaker Card(s)_04-12-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7c8be2ab-b7cc-498b-a975-e27858fe74d2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7c8be2ab-b7cc-498b-a975-e27858fe74d2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "360098",
+      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "items": [
+        {
+          "item_id": "157986",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S60\nCOMMUNICATION FROM THE MAYOR relative to the appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030.\nRecommendation for Council action:\nRESOLVE that the Mayor’s appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030, is APPROVED and CONFIRMED. The appointee currently resides in Council District 10. (Current composition: M =23; F = 2; Vacant = 1)\nFinancial Disclosure Statement\n: Filed\nBackground Review\n: Pending\n(Public Safety Committee report to be submitted in Council. If public hearing is not held in Committee, an opportunity for public comment will be provided.)\n(Visit www.lacouncilfile.com for background documents.)\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 16, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026)\nCommunication from City Ethics Commission  dated 1-06-25\nReport from Mayor dated 12-02-25",
+          "council_file": "25-1200-S60",
+          "title": "COMMUNICATION FROM THE MAYOR relative to the appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030.",
+          "recommendation": "RESOLVE that the Mayor’s appointment of Daniel Tabor to the Board of Police Commissioners for the term ending June 30, 2030, is APPROVED and CONFIRMED. The appointee currently resides in Council District 10. (Current composition: M =23; F = 2; Vacant = 1) Financial Disclosure Statement : Filed Background Review : Pending (Public Safety Committee report to be submitted in Council. If public hearing is not held in Committee, an opportunity for public comment will be provided.) (Visit www.lacouncilfile.com for background documents.) Community Impact Statement: None submitted TIME LIMIT FILE - JANUARY 16, 2026 (LAST DAY FOR COUNCIL ACTION - JANUARY 16, 2026) Communication from City Ethics Commission dated 1-06-25 Report from Mayor dated 12-02-25",
+          "mig": "1203b903-196e-4016-aab2-a194117a571a",
+          "attachments": [
+            {
+              "historyId": "cb46ab3b-99ee-48f2-b153-7e8bd616652d",
+              "title": "Communication from City Ethics Commission  dated 1-06-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb46ab3b-99ee-48f2-b153-7e8bd616652d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb46ab3b-99ee-48f2-b153-7e8bd616652d"
+            },
+            {
+              "historyId": "f2c46b35-0843-4569-8ace-85d351a7067f",
+              "title": "Report from Mayor dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2c46b35-0843-4569-8ace-85d351a7067f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f2c46b35-0843-4569-8ace-85d351a7067f"
+            }
+          ]
+        },
+        {
+          "item_id": "158157",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S63\nCOMMUNICATION FROM COUNCIL PRESIDENT PRO TEMPORE relative to the appointment of Jason Levin to the Charter Reform Commission.\nRecommendation for Council action:\nRESOLVE that the Council President Pro Tempore’s appointment of Jason Levin to the Charter Reform Commission is APPROVED and CONFIRMED.\nFinancial Disclosure Statement\n: Filed.\nBackground Review\n: Pending.\nCommunity Impact Statement:\nNone submitted.\n(Rules, Elections, and Intergovernmental Relations Committee waived consideration of the above matter.)\nCommunication(s) from Public_01-05-2026\nCommunication from City Ethics Commission dated 1-05-25\nReport from Mayor dated 12-22-25",
+          "council_file": "25-1200-S63",
+          "title": "COMMUNICATION FROM COUNCIL PRESIDENT PRO TEMPORE relative to the appointment of Jason Levin to the Charter Reform Commission.",
+          "recommendation": "RESOLVE that the Council President Pro Tempore’s appointment of Jason Levin to the Charter Reform Commission is APPROVED and CONFIRMED. Financial Disclosure Statement : Filed. Background Review : Pending. Community Impact Statement: None submitted. (Rules, Elections, and Intergovernmental Relations Committee waived consideration of the above matter.) Communication(s) from Public_01-05-2026 Communication from City Ethics Commission dated 1-05-25 Report from Mayor dated 12-22-25",
+          "mig": "2ca07c0e-1da2-4860-9664-77afa54ce1ce",
+          "attachments": [
+            {
+              "historyId": "5adeaf6e-b4d1-4de4-acf8-a09a0c7130f6",
+              "title": "Communication(s) from Public_01-05-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5adeaf6e-b4d1-4de4-acf8-a09a0c7130f6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5adeaf6e-b4d1-4de4-acf8-a09a0c7130f6"
+            },
+            {
+              "historyId": "69076a7c-3b68-4205-94bc-34c0e1b12edd",
+              "title": "Communication from City Ethics Commission dated 1-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69076a7c-3b68-4205-94bc-34c0e1b12edd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69076a7c-3b68-4205-94bc-34c0e1b12edd"
+            },
+            {
+              "historyId": "0bc53909-9718-440f-95cf-de5955ac2bb6",
+              "title": "Report from Mayor dated 12-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0bc53909-9718-440f-95cf-de5955ac2bb6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0bc53909-9718-440f-95cf-de5955ac2bb6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "360099",
+      "title": "Items Called Special",
+      "items": []
+    },
+    {
+      "section_id": "360100",
+      "title": "Motions for Posting and Referral",
+      "items": []
+    },
+    {
+      "section_id": "360101",
+      "title": "Council Members' Requests for Excuse from Attendance at Council Meetings",
+      "items": []
+    },
+    {
+      "section_id": "360103",
+      "title": "Adjourning Motions",
+      "items": []
+    },
+    {
+      "section_id": "360102",
+      "title": "Council Adjournment",
+      "items": []
+    }
+  ],
+  "total_items": 14,
+  "total_sections": 12,
+  "meeting_datetime": "2026-01-16T18:00:00"
+}
