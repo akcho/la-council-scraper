@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Council File 25-0660 - LA Council Tracker</title>
+    <meta name="description" content="Timeline and details for Council File 25-0660: CONTINUED FROM JUNE, JULY, AUGUST, SEPTEMBER. NOVEMBER, AND DECEMBER 2025">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f5f5f5;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+
+        .breadcrumb a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .official-title {
+            font-size: 0.875rem;
+            color: #666;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .official-title-label {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.75rem;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .meta-item {
+            font-size: 0.875rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .meta-value {
+            color: #1a1a1a;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid #0066cc;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e0e0e0;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -1.65rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #0066cc;
+            border: 3px solid #fff;
+            box-shadow: 0 0 0 2px #e0e0e0;
+        }
+
+        .timeline-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+        }
+
+        .timeline-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: #0066cc;
+            transform: translateY(-2px);
+        }
+
+        .timeline-date {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-meeting-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-summary {
+            font-size: 0.875rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .timeline-recommendation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: #f9f9f9;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .attachments {
+            margin-top: 1.5rem;
+        }
+
+        .attachments-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.75rem;
+        }
+
+        .attachment {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .attachment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+
+        .attachment-title {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            flex: 1;
+        }
+
+        .attachment-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .doc-action {
+            font-size: 0.8125rem;
+            text-decoration: none;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .doc-action.view-action {
+            color: #0066cc;
+            border: 1px solid #0066cc;
+            background: transparent;
+        }
+
+        .doc-action.view-action:hover {
+            background: #0066cc;
+            color: #fff;
+        }
+
+        .doc-action.download-action {
+            color: #fff;
+            background: #0066cc;
+            border: 1px solid #0066cc;
+        }
+
+        .doc-action.download-action:hover {
+            background: #0052a3;
+            border-color: #0052a3;
+        }
+
+        .attachment-badge {
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .summary {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .summary h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .summary p {
+            color: #333;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .summary h5 {
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-summary {
+            color: #666;
+            font-style: italic;
+            font-size: 0.875rem;
+        }
+
+        .meeting-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .meeting-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .file-number {
+                font-size: 1rem;
+            }
+
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .no-summaries {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .no-summaries summary {
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .no-summary-docs {
+            margin-top: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.375rem;
+        }
+
+        .doc-title {
+            font-size: 0.875rem;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .doc-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .doc-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .doc-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> /
+                <a href="index.html">Council files</a> /
+                25-0660
+            </div>
+            <div class="file-number">25-0660</div>
+            <h1>CONTINUED FROM JUNE, JULY, AUGUST, SEPTEMBER. NOVEMBER, AND DECEMBER 2025</h1>
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">District</span>
+                    <span class="meta-value"></span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">First Seen</span>
+                    <span class="meta-value">January 23, 2026</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Seen</span>
+                    <span class="meta-value">January 23, 2026</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Appearances</span>
+                    <span class="meta-value">1 meeting(s)</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <a href="../meetings/17663.html" class="timeline-card">
+                        <div class="timeline-date">January 23, 2026</div>
+                        <div class="timeline-meeting-title">City Council Meeting</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <details class="no-summaries">
+                <summary>64 additional document(s)</summary>
+                <div class="no-summary-docs">
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 12-19-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=50d095e3-d673-41af-971f-e363f42b40f5" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=50d095e3-d673-41af-971f-e363f42b40f5" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 12-10-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ec858c12-9792-4d07-8df6-88e9488b232a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec858c12-9792-4d07-8df6-88e9488b232a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 12-02-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=41c8c389-f504-494e-80b3-539c69c8c640" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=41c8c389-f504-494e-80b3-539c69c8c640" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 11-20-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=23e5c1a9-558d-4bea-84c3-e46a753a2ded" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=23e5c1a9-558d-4bea-84c3-e46a753a2ded" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 11-03-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8f2b77e4-3e9c-4ef2-bffc-7e7c7f18ff24" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f2b77e4-3e9c-4ef2-bffc-7e7c7f18ff24" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 10-23-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d37285bc-f4ef-472f-8b2d-93a51d7463cd" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d37285bc-f4ef-472f-8b2d-93a51d7463cd" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_10-01-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=61e35428-7475-4cdd-b37c-f95897aa52b2" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=61e35428-7475-4cdd-b37c-f95897aa52b2" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 10-01-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a59be22c-b918-4180-8b89-742a162cc45b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a59be22c-b918-4180-8b89-742a162cc45b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 9-30-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6d57e2e4-61bc-41d0-8de7-80ef09426110" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d57e2e4-61bc-41d0-8de7-80ef09426110" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_09-12-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=21395b29-8f8d-4bb3-bde3-273955c0e37f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21395b29-8f8d-4bb3-bde3-273955c0e37f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 9-12-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3cd97566-6e58-403f-9a55-9ee88bef51c8" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cd97566-6e58-403f-9a55-9ee88bef51c8" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 9-10-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a918470a-1824-4058-b690-54fba1eb5582" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a918470a-1824-4058-b690-54fba1eb5582" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_09-03-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=38985052-401e-42b6-885a-5009713cb8c9" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=38985052-401e-42b6-885a-5009713cb8c9" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 9-02-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a7821188-be40-4993-9cd1-8b026330c2b7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a7821188-be40-4993-9cd1-8b026330c2b7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 8-29-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=150ce578-c0d0-4574-ac2e-934ca9feb4ed" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=150ce578-c0d0-4574-ac2e-934ca9feb4ed" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Communication(s) from Public_08-20-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=39128fb3-d6ff-4cd7-a4af-7137cb39b9be" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=39128fb3-d6ff-4cd7-a4af-7137cb39b9be" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 8-20-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9f2d8a82-d591-41c7-8f5e-8d7ecbd9578d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f2d8a82-d591-41c7-8f5e-8d7ecbd9578d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Community Impact Statement submitted by Sherman Oaks Neighborhood Council_08-18-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=52a5fe96-0ab5-4265-b4cd-7e540b768f46" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=52a5fe96-0ab5-4265-b4cd-7e540b768f46" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 8-15-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=00abd419-b5a0-4fad-a8e9-096e57ac927b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=00abd419-b5a0-4fad-a8e9-096e57ac927b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_08-13-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=3eed8d3e-4753-4109-a4b8-846be3bf894a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3eed8d3e-4753-4109-a4b8-846be3bf894a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 8-12-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9ff4d007-6589-4f34-a069-755d945dabfa" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ff4d007-6589-4f34-a069-755d945dabfa" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Revised Report from Youth Development Department dated 8-12-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5dfda619-8ba7-4f12-9f71-06e4be198bce" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5dfda619-8ba7-4f12-9f71-06e4be198bce" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of Aging dated 8-08-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=03aa1592-2f1c-4f9e-9421-e9d4a3e49604" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=03aa1592-2f1c-4f9e-9421-e9d4a3e49604" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Youth Development Department dated 8-11-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5494a399-e3c7-40be-b011-0df23e7a09a6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5494a399-e3c7-40be-b011-0df23e7a09a6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Community Investment for Families Department dated 8-11-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=b1ff6ccc-f06b-4d3c-99b5-fa803e87c22b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1ff6ccc-f06b-4d3c-99b5-fa803e87c22b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Economic and Workforce Development Department dated 8-08-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6419e015-7db8-40b8-8400-9606f5145a71" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6419e015-7db8-40b8-8400-9606f5145a71" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Civil + Human Rights and Equity Department dated 8-08-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=10876769-0e70-4930-98cd-db514875a83d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=10876769-0e70-4930-98cd-db514875a83d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department on Disability dated 8-07-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0d5ea2f0-184c-4d0d-8f8a-ca5b37671a85" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d5ea2f0-184c-4d0d-8f8a-ca5b37671a85" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_08-06-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=337fb6f9-7aa3-43eb-9107-71bd6ee3bf2b" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=337fb6f9-7aa3-43eb-9107-71bd6ee3bf2b" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Submittal in Committee by Bureau of Engineering 8-6-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4f99d17f-d01a-4683-a1fd-c1f626f3efa6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f99d17f-d01a-4683-a1fd-c1f626f3efa6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Bureau of Sanitation dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9c5f8830-34f9-425d-b48a-b550338e03b2" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c5f8830-34f9-425d-b48a-b550338e03b2" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Bureau of Street Lighting dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=fcd77dd7-8185-4913-b0b5-4d87e9602b0a" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fcd77dd7-8185-4913-b0b5-4d87e9602b0a" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of Water and Power dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=a69ec319-d535-433a-9b36-f9088f43bac7" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a69ec319-d535-433a-9b36-f9088f43bac7" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Attachment to Report dated 8-05-25 - Transfers from City PPT 1</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=333d50ad-b1c9-4562-8838-c60874b710f1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=333d50ad-b1c9-4562-8838-c60874b710f1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=7f14e65f-ff80-438c-9085-e9506cacd31f" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f14e65f-ff80-438c-9085-e9506cacd31f" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Board of Public Works dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=23bbc14b-417d-43dd-8f7a-7dff21be0743" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=23bbc14b-417d-43dd-8f7a-7dff21be0743" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Los Angeles World Airports dated 8-04-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=685ddde9-ca39-4228-86c3-18053d541b13" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=685ddde9-ca39-4228-86c3-18053d541b13" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Port of Los Angeles dated 8-05-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=d15a2833-e751-44d2-8948-3dab131a96d1" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d15a2833-e751-44d2-8948-3dab131a96d1" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Administrative Officer dated 8-01-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1f833168-9340-4809-889d-529ec7815402" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1f833168-9340-4809-889d-529ec7815402" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Bureau of Street Services dated 7-31-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1c895aa0-9b3c-4b6a-9910-c39cc1cd45f9" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c895aa0-9b3c-4b6a-9910-c39cc1cd45f9" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Bureau of Contract Administration dated 7-30-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=22089061-449d-4f99-b7d8-19c2cba7cafe" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=22089061-449d-4f99-b7d8-19c2cba7cafe" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Police Department dated 7-24-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=e500357f-08a8-4759-a64d-97f564e95835" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e500357f-08a8-4759-a64d-97f564e95835" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Bureau of Engineering dated 7-24-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0557de11-209b-45d6-a16d-9790467f24c3" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0557de11-209b-45d6-a16d-9790467f24c3" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of Transportation dated 7-16-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=1ce8f410-672a-45ff-8083-64dc82227429" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ce8f410-672a-45ff-8083-64dc82227429" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Housing Department dated 7-16-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=2eef30a9-1a0a-459e-b79d-10c8ed425e72" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2eef30a9-1a0a-459e-b79d-10c8ed425e72" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 7-16-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ec8228f1-2feb-43f7-bf79-0a4bcae28fb2" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec8228f1-2feb-43f7-bf79-0a4bcae28fb2" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of City Planning dated 7-15-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=72d16204-30fa-4eef-8af8-f0336fbd0e12" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=72d16204-30fa-4eef-8af8-f0336fbd0e12" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Information Technology Agency dated 7-15-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=dc4ac923-21d8-4f73-ae5f-6d4ba9b8cd30" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc4ac923-21d8-4f73-ae5f-6d4ba9b8cd30" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Building and Safety dated 7-14-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=37fda17c-8d6a-48b7-bf99-8574ecbfd510" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=37fda17c-8d6a-48b7-bf99-8574ecbfd510" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Clerk dated 7-02-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=88b2c942-58d2-4051-a9af-30e6d2721428" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=88b2c942-58d2-4051-a9af-30e6d2721428" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Fire Department dated 7-02-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=ee3746b6-3485-418b-a66e-93cbb5b82727" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee3746b6-3485-418b-a66e-93cbb5b82727" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_07-02-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=35ac73aa-2d43-4834-b9f2-892ec564b876" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=35ac73aa-2d43-4834-b9f2-892ec564b876" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of General Services dated 7-01-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=4f5d9dcf-e604-4bed-9afe-2cbc3b4f42c6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f5d9dcf-e604-4bed-9afe-2cbc3b4f42c6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 7-01-25.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=20792573-4a36-4277-a357-f71f778f63e6" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=20792573-4a36-4277-a357-f71f778f63e6" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from City Attorney dated 7-01-25.pdf</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=94413c72-146b-448d-8a34-e4b7e12b8a69" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=94413c72-146b-448d-8a34-e4b7e12b8a69" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Department of Neighborhood Empowerment dated 6-30-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6eeb327c-fe4d-419e-82af-ea1f6b7caa9c" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6eeb327c-fe4d-419e-82af-ea1f6b7caa9c" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Vacancy Report JUNE 30 2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=afc4e94e-dfd1-40f6-8bcc-eb179bd23222" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=afc4e94e-dfd1-40f6-8bcc-eb179bd23222" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_06-27-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=6c387d53-85cb-432a-85d3-1c913db6f970" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c387d53-85cb-432a-85d3-1c913db6f970" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 6-26-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=5c66b21f-3a17-4d9e-a4f8-545fc8f4771e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c66b21f-3a17-4d9e-a4f8-545fc8f4771e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Emergency Management Department dated 6-26-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9b094a21-db56-402a-9611-c100716fe770" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b094a21-db56-402a-9611-c100716fe770" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Report from Personnel Department dated 6-12-25</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=0c90de1b-be1c-4422-8aa0-0207982abb1e" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c90de1b-be1c-4422-8aa0-0207982abb1e" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_10-24-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=8ee9dd48-33bd-4547-8a0a-043f1df3b135" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ee9dd48-33bd-4547-8a0a-043f1df3b135" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_11-05-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=9f380593-6a71-497a-b3ec-55b1b6df3070" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f380593-6a71-497a-b3ec-55b1b6df3070" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                    <div class="doc-item">
+                        <span class="doc-title">Speaker Card(s)_12-03-2025</span>
+                        <div class="doc-links">
+                            <a href="https://lacity.primegov.com/viewer/preview?id=0&type=8&uid=51e428eb-a59a-4b3c-a2f4-cf5e4d71eb3d" class="doc-action view-action" target="_blank">View</a>
+                            <a href="https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=51e428eb-a59a-4b3c-a2f4-cf5e4d71eb3d" class="doc-action download-action" target="_blank">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+    </main>
+    <script async src="https://plausible.io/js/pa-ZLAEWIY6Zrpjk2z73Utj5.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+</body>
+</html>
