@@ -1,0 +1,1606 @@
+{
+  "meeting_id": 17614,
+  "template_id": 148925,
+  "parsed_at": "2026-01-20T20:57:22.035238",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148925",
+  "sections": [
+    {
+      "section_id": "359289",
+      "title": "Roll Call",
+      "items": []
+    },
+    {
+      "section_id": "359290",
+      "title": "Approval of the Minutes",
+      "items": []
+    },
+    {
+      "section_id": "359291",
+      "title": "Commendatory Resolutions, Introductions and Presentations",
+      "items": []
+    },
+    {
+      "section_id": "359292",
+      "title": "Multiple Agenda Item Comment",
+      "items": []
+    },
+    {
+      "section_id": "359293",
+      "title": "Public Testimony of Non-agenda Items Within Jurisdiction of Council",
+      "items": []
+    },
+    {
+      "section_id": "359294",
+      "title": "Items Noticed for Public Hearing",
+      "items": [
+        {
+          "item_id": "157245",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-0160-S93\nCD 10\nCONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to the Department of Building and Safety report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs for the property located at 6080 West Alcott Street.\nRecommendation for Council action:\nHEAR PROTEST, APPEALS OR OBJECTIONS relative to a proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to the Los Angeles Municipal Code and/or Los Angeles Administrative Code, and CONFIRM said lien for the property located at 6080 West Alcott Street. (Lien: $1,276.56)\n(Continued from Council meeting of December 2, 2025)\nCommunication from Department of Building and Safety dated 8-12-25 - Updated Reports\nReport from Department of Building and Safety dated 4-11-25\nSpeaker Card(s)_10-15-2025\nSpeaker Card(s)_11-14-2025\nSpeaker Card(s)_12-02-2025",
+          "council_file": "25-0160-S93",
+          "district": "CD 10",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to the Department of Building and Safety report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs for the property located at 6080 West Alcott Street.",
+          "recommendation": "HEAR PROTEST, APPEALS OR OBJECTIONS relative to a proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to the Los Angeles Municipal Code and/or Los Angeles Administrative Code, and CONFIRM said lien for the property located at 6080 West Alcott Street. (Lien: $1,276.56) (Continued from Council meeting of December 2, 2025) Communication from Department of Building and Safety dated 8-12-25 - Updated Reports Report from Department of Building and Safety dated 4-11-25 Speaker Card(s)_10-15-2025 Speaker Card(s)_11-14-2025 Speaker Card(s)_12-02-2025",
+          "video_location": "9716",
+          "mig": "44a91286-70a9-4e01-81e9-4333ec17b21b",
+          "attachments": [
+            {
+              "historyId": "88700955-59ce-4f0d-ae17-981804bd84a6",
+              "title": "Communication from Department of Building and Safety dated 8-12-25 - Updated Reports",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=88700955-59ce-4f0d-ae17-981804bd84a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=88700955-59ce-4f0d-ae17-981804bd84a6"
+            },
+            {
+              "historyId": "95338058-4956-4fe1-8e8e-806ef997ed15",
+              "title": "Report from Department of Building and Safety dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95338058-4956-4fe1-8e8e-806ef997ed15",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95338058-4956-4fe1-8e8e-806ef997ed15"
+            },
+            {
+              "historyId": "28e85f8a-9748-40ee-9c92-e4eb8c0315be",
+              "title": "Speaker Card(s)_10-15-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=28e85f8a-9748-40ee-9c92-e4eb8c0315be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=28e85f8a-9748-40ee-9c92-e4eb8c0315be"
+            },
+            {
+              "historyId": "483b49b9-d1e2-4387-957c-21ced96cbc2b",
+              "title": "Speaker Card(s)_11-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=483b49b9-d1e2-4387-957c-21ced96cbc2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=483b49b9-d1e2-4387-957c-21ced96cbc2b"
+            },
+            {
+              "historyId": "ba3cbe2e-48de-4f6c-b60c-e5fe2515398b",
+              "title": "Speaker Card(s)_12-02-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba3cbe2e-48de-4f6c-b60c-e5fe2515398b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba3cbe2e-48de-4f6c-b60c-e5fe2515398b"
+            }
+          ]
+        },
+        {
+          "item_id": "158018",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S35\nCD 1\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Mesnager Street and Spring Street Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188728 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 7-16-25\nAttachment to Report dated 7-16-25 - Draft Ordinance of Intention\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S35",
+          "district": "CD 1",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Mesnager Street and Spring Street Lighting District.",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188728 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 7-16-25 Attachment to Report dated 7-16-25 - Draft Ordinance of Intention Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "6d3a0250-5fd6-4a93-ae9b-d0d8c90e3d8b",
+          "attachments": [
+            {
+              "historyId": "2fd4b8cb-0160-4a6a-b52a-2a054500ad25",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fd4b8cb-0160-4a6a-b52a-2a054500ad25",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2fd4b8cb-0160-4a6a-b52a-2a054500ad25"
+            },
+            {
+              "historyId": "eadbca32-b4b1-4b4d-98eb-f7f5a5649c0d",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eadbca32-b4b1-4b4d-98eb-f7f5a5649c0d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eadbca32-b4b1-4b4d-98eb-f7f5a5649c0d"
+            },
+            {
+              "historyId": "5c4a0163-d52a-4152-b638-187d35fbbee5",
+              "title": "Final Ordinance of Intention No. 188728 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c4a0163-d52a-4152-b638-187d35fbbee5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c4a0163-d52a-4152-b638-187d35fbbee5"
+            },
+            {
+              "historyId": "7d04584b-358b-434a-aca3-f2cf7500daee",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7d04584b-358b-434a-aca3-f2cf7500daee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7d04584b-358b-434a-aca3-f2cf7500daee"
+            },
+            {
+              "historyId": "0e8670f0-4c9e-42b2-835c-57b6bb388a2c",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e8670f0-4c9e-42b2-835c-57b6bb388a2c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e8670f0-4c9e-42b2-835c-57b6bb388a2c"
+            },
+            {
+              "historyId": "e92c110b-2d94-48d8-9f6d-368722b55955",
+              "title": "Report from Bureau of Street Lighting dated 7-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e92c110b-2d94-48d8-9f6d-368722b55955",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e92c110b-2d94-48d8-9f6d-368722b55955"
+            },
+            {
+              "historyId": "6228ab65-8d33-4231-bf6e-30954f7e9b7b",
+              "title": "Attachment to Report dated 7-16-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6228ab65-8d33-4231-bf6e-30954f7e9b7b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6228ab65-8d33-4231-bf6e-30954f7e9b7b"
+            },
+            {
+              "historyId": "67bfc0d6-2fb9-431a-b51f-88fe4470d7dc",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=67bfc0d6-2fb9-431a-b51f-88fe4470d7dc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=67bfc0d6-2fb9-431a-b51f-88fe4470d7dc"
+            }
+          ]
+        },
+        {
+          "item_id": "158019",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S36\nCD 15\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Gaffey Street and Westmont Drive Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nFinal Ordinance of Intention No. 188729 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 7-16-25\nAttachment to Report dated 7-16-25 - Draft Ordinance of Intention\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S36",
+          "district": "CD 15",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Gaffey Street and Westmont Drive Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Final Ordinance of Intention No. 188729 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 7-16-25 Attachment to Report dated 7-16-25 - Draft Ordinance of Intention Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "7e1e0624-f0b3-421d-bf4a-57be4e885831",
+          "attachments": [
+            {
+              "historyId": "346620dc-0acd-4ad5-b52c-857c2896f1a6",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=346620dc-0acd-4ad5-b52c-857c2896f1a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=346620dc-0acd-4ad5-b52c-857c2896f1a6"
+            },
+            {
+              "historyId": "ead17aba-2bdc-4c98-bbb4-62cfc065c613",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ead17aba-2bdc-4c98-bbb4-62cfc065c613",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ead17aba-2bdc-4c98-bbb4-62cfc065c613"
+            },
+            {
+              "historyId": "bb6aef2f-7e76-49c5-8b5b-73465dd2bb46",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bb6aef2f-7e76-49c5-8b5b-73465dd2bb46",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bb6aef2f-7e76-49c5-8b5b-73465dd2bb46"
+            },
+            {
+              "historyId": "36e08f6a-9ccf-49fa-b7cd-f4949d562bfe",
+              "title": "Final Ordinance of Intention No. 188729 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=36e08f6a-9ccf-49fa-b7cd-f4949d562bfe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=36e08f6a-9ccf-49fa-b7cd-f4949d562bfe"
+            },
+            {
+              "historyId": "a1f17d1a-2a9e-49cc-957f-02acb1ebb409",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1f17d1a-2a9e-49cc-957f-02acb1ebb409",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a1f17d1a-2a9e-49cc-957f-02acb1ebb409"
+            },
+            {
+              "historyId": "1613fa80-0560-4826-8325-ff0d75d8eaea",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1613fa80-0560-4826-8325-ff0d75d8eaea",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1613fa80-0560-4826-8325-ff0d75d8eaea"
+            },
+            {
+              "historyId": "8e925d85-75a7-46cd-90ce-08d170d5a0e2",
+              "title": "Report from Bureau of Street Lighting dated 7-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e925d85-75a7-46cd-90ce-08d170d5a0e2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8e925d85-75a7-46cd-90ce-08d170d5a0e2"
+            },
+            {
+              "historyId": "9a593820-d76e-47c6-b275-266270ecd856",
+              "title": "Attachment to Report dated 7-16-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9a593820-d76e-47c6-b275-266270ecd856",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9a593820-d76e-47c6-b275-266270ecd856"
+            },
+            {
+              "historyId": "e59d9830-47f9-40d3-87c8-d20cb90ed3b2",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e59d9830-47f9-40d3-87c8-d20cb90ed3b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e59d9830-47f9-40d3-87c8-d20cb90ed3b2"
+            }
+          ]
+        },
+        {
+          "item_id": "158020",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S37\nCD 14\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Harriet Steet and 25th Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188730 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 7-22-25\nAttachment to Report dated 7-22-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S37",
+          "district": "CD 14",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Harriet Steet and 25th Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188730 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 7-22-25 Attachment to Report dated 7-22-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "49660cf7-92dd-43db-9ef5-5ef15ad0cb21",
+          "attachments": [
+            {
+              "historyId": "0e01c9d5-9790-4728-a26c-78aa019ba799",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e01c9d5-9790-4728-a26c-78aa019ba799",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e01c9d5-9790-4728-a26c-78aa019ba799"
+            },
+            {
+              "historyId": "416427db-ebaf-4d0b-a4b7-1721fb4e48b6",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=416427db-ebaf-4d0b-a4b7-1721fb4e48b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=416427db-ebaf-4d0b-a4b7-1721fb4e48b6"
+            },
+            {
+              "historyId": "d1868cb2-06a5-401b-983f-e2068ea14ec4",
+              "title": "Final Ordinance of Intention No. 188730 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1868cb2-06a5-401b-983f-e2068ea14ec4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d1868cb2-06a5-401b-983f-e2068ea14ec4"
+            },
+            {
+              "historyId": "7f1815a4-edef-4e56-ab4f-a5e79a2553e6",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f1815a4-edef-4e56-ab4f-a5e79a2553e6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f1815a4-edef-4e56-ab4f-a5e79a2553e6"
+            },
+            {
+              "historyId": "60698016-b693-4cee-ad9c-f94265b4048b",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=60698016-b693-4cee-ad9c-f94265b4048b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=60698016-b693-4cee-ad9c-f94265b4048b"
+            },
+            {
+              "historyId": "3ef867e2-82c2-4117-a144-f8af673decb4",
+              "title": "Report from Bureau of Street Lighting dated 7-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ef867e2-82c2-4117-a144-f8af673decb4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3ef867e2-82c2-4117-a144-f8af673decb4"
+            },
+            {
+              "historyId": "6547a3fc-715b-40ef-acfd-095fbc629735",
+              "title": "Attachment to Report dated 7-22-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6547a3fc-715b-40ef-acfd-095fbc629735",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6547a3fc-715b-40ef-acfd-095fbc629735"
+            },
+            {
+              "historyId": "6308e262-a0a7-4eb5-8cd0-86b860e23125",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6308e262-a0a7-4eb5-8cd0-86b860e23125",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6308e262-a0a7-4eb5-8cd0-86b860e23125"
+            },
+            {
+              "historyId": "a3d9cdd8-2ba2-4b9d-85ab-6a70d23aa4da",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3d9cdd8-2ba2-4b9d-85ab-6a70d23aa4da",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a3d9cdd8-2ba2-4b9d-85ab-6a70d23aa4da"
+            }
+          ]
+        },
+        {
+          "item_id": "158021",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S38\nCD 13\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Normandie Avenue and Romaine Street Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nFIND that a majority protest exists in the Street Lighting Maintenance Assessment District and therefore the assessment cannot be enacted.\nPRESENT and ADOPT the accompanying ORDINANCE abandoning all proceedings relating to the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).\nINSTRUCT the Director, Bureau of Street Lighting, to ensure that the streetlights are not installed or are removed from service if previously installed.\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nFinal Ordinance of Intention No. 188731 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-13-25\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S38",
+          "district": "CD 13",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Normandie Avenue and Romaine Street Lighting District.",
+          "recommendation": "​ FIND that a majority protest exists in the Street Lighting Maintenance Assessment District and therefore the assessment cannot be enacted. PRESENT and ADOPT the accompanying ORDINANCE abandoning all proceedings relating to the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218). INSTRUCT the Director, Bureau of Street Lighting, to ensure that the streetlights are not installed or are removed from service if previously installed. (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Final Ordinance of Intention No. 188731 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-13-25 Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "d229ee1f-dadf-4da0-9a04-7b6b9c63640b",
+          "attachments": [
+            {
+              "historyId": "ec69652f-8238-40e2-8c75-5ec39430c73a",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec69652f-8238-40e2-8c75-5ec39430c73a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec69652f-8238-40e2-8c75-5ec39430c73a"
+            },
+            {
+              "historyId": "81c5f1a2-5162-42f3-a130-decf370d1e86",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=81c5f1a2-5162-42f3-a130-decf370d1e86",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=81c5f1a2-5162-42f3-a130-decf370d1e86"
+            },
+            {
+              "historyId": "c13472ad-74ed-4676-b89c-bad3d269fefa",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c13472ad-74ed-4676-b89c-bad3d269fefa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c13472ad-74ed-4676-b89c-bad3d269fefa"
+            },
+            {
+              "historyId": "590db8b7-67c8-46c9-8099-a99d6a896d92",
+              "title": "Final Ordinance of Intention No. 188731 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=590db8b7-67c8-46c9-8099-a99d6a896d92",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=590db8b7-67c8-46c9-8099-a99d6a896d92"
+            },
+            {
+              "historyId": "16f06f5e-8e8a-4a12-88b6-0d256b784264",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=16f06f5e-8e8a-4a12-88b6-0d256b784264",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=16f06f5e-8e8a-4a12-88b6-0d256b784264"
+            },
+            {
+              "historyId": "2494fcde-91f9-4e3a-a435-5db545556622",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2494fcde-91f9-4e3a-a435-5db545556622",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2494fcde-91f9-4e3a-a435-5db545556622"
+            },
+            {
+              "historyId": "c7b5162d-c66b-4be1-8a45-f76cc2ac94a4",
+              "title": "Report from Bureau of Street Lighting dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c7b5162d-c66b-4be1-8a45-f76cc2ac94a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c7b5162d-c66b-4be1-8a45-f76cc2ac94a4"
+            },
+            {
+              "historyId": "012fe320-4947-4ef7-87d5-22a7cd91643a",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=012fe320-4947-4ef7-87d5-22a7cd91643a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=012fe320-4947-4ef7-87d5-22a7cd91643a"
+            },
+            {
+              "historyId": "69176ee3-67ec-4148-bb72-578af35aead8",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=69176ee3-67ec-4148-bb72-578af35aead8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=69176ee3-67ec-4148-bb72-578af35aead8"
+            }
+          ]
+        },
+        {
+          "item_id": "158022",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S39\nCD 6\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Van Nuys Boulevard and Titus Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\n​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).\n(Continued from Council meeting of December 12, 2025)\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188732 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-13-25\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S39",
+          "district": "CD 6",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Van Nuys Boulevard and Titus Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218). (Continued from Council meeting of December 12, 2025) Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188732 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-13-25 Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "70c8d1d8-cdc1-47f4-87b7-0c8b6ab46e13",
+          "attachments": [
+            {
+              "historyId": "5de812fc-3916-4b3d-82d2-76d7273a630d",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5de812fc-3916-4b3d-82d2-76d7273a630d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5de812fc-3916-4b3d-82d2-76d7273a630d"
+            },
+            {
+              "historyId": "54f033f4-728d-4b2d-ab5f-3209aecb71c4",
+              "title": "Final Ordinance of Intention No. 188732 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54f033f4-728d-4b2d-ab5f-3209aecb71c4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=54f033f4-728d-4b2d-ab5f-3209aecb71c4"
+            },
+            {
+              "historyId": "7f95ee10-70f4-43a1-9e59-dd0dd5c0c528",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f95ee10-70f4-43a1-9e59-dd0dd5c0c528",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f95ee10-70f4-43a1-9e59-dd0dd5c0c528"
+            },
+            {
+              "historyId": "c47f232b-135e-49d1-be65-24ff3202f005",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c47f232b-135e-49d1-be65-24ff3202f005",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c47f232b-135e-49d1-be65-24ff3202f005"
+            },
+            {
+              "historyId": "c6c987da-054a-4a2f-98b4-410645725ddb",
+              "title": "Report from Bureau of Street Lighting dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6c987da-054a-4a2f-98b4-410645725ddb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6c987da-054a-4a2f-98b4-410645725ddb"
+            },
+            {
+              "historyId": "f7294833-bba2-4757-8633-983dc78959f9",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f7294833-bba2-4757-8633-983dc78959f9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f7294833-bba2-4757-8633-983dc78959f9"
+            },
+            {
+              "historyId": "8efdbef7-8c3b-4d6f-84d3-90bec89d1abb",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8efdbef7-8c3b-4d6f-84d3-90bec89d1abb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8efdbef7-8c3b-4d6f-84d3-90bec89d1abb"
+            },
+            {
+              "historyId": "d06c8437-d69c-4a70-af78-46680aefa7a4",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d06c8437-d69c-4a70-af78-46680aefa7a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d06c8437-d69c-4a70-af78-46680aefa7a4"
+            },
+            {
+              "historyId": "2e7797b9-607e-4315-b8ab-4f250590835f",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e7797b9-607e-4315-b8ab-4f250590835f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e7797b9-607e-4315-b8ab-4f250590835f"
+            }
+          ]
+        },
+        {
+          "item_id": "158023",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S40\nCD 1\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Liechty and Esperanza Schools Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188733 dated 9-28-25.pdf\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-13-25\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S40",
+          "district": "CD 1",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Liechty and Esperanza Schools Lighting District.",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188733 dated 9-28-25.pdf Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-13-25 Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "3d4ebdd6-df2d-4fec-8392-f4c8ffc641b3",
+          "attachments": [
+            {
+              "historyId": "267dcedb-709b-4295-b9f8-57b55c679c5c",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=267dcedb-709b-4295-b9f8-57b55c679c5c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=267dcedb-709b-4295-b9f8-57b55c679c5c"
+            },
+            {
+              "historyId": "28d5ad9d-79b7-46f6-8778-cfdd0816d17c",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=28d5ad9d-79b7-46f6-8778-cfdd0816d17c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=28d5ad9d-79b7-46f6-8778-cfdd0816d17c"
+            },
+            {
+              "historyId": "d65d2667-b188-4083-a376-f8c74f854e74",
+              "title": "Final Ordinance of Intention No. 188733 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d65d2667-b188-4083-a376-f8c74f854e74",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d65d2667-b188-4083-a376-f8c74f854e74"
+            },
+            {
+              "historyId": "6a6924b5-f520-4c85-9283-2e6e321b0888",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a6924b5-f520-4c85-9283-2e6e321b0888",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a6924b5-f520-4c85-9283-2e6e321b0888"
+            },
+            {
+              "historyId": "fefb74c6-15e5-411b-adc7-c6986081d502",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fefb74c6-15e5-411b-adc7-c6986081d502",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fefb74c6-15e5-411b-adc7-c6986081d502"
+            },
+            {
+              "historyId": "7088a828-73b1-44af-9384-a99065958372",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7088a828-73b1-44af-9384-a99065958372",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7088a828-73b1-44af-9384-a99065958372"
+            },
+            {
+              "historyId": "34a7e6a0-881f-432c-919a-e4f1f155b48b",
+              "title": "Report from Bureau of Street Lighting dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=34a7e6a0-881f-432c-919a-e4f1f155b48b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=34a7e6a0-881f-432c-919a-e4f1f155b48b"
+            },
+            {
+              "historyId": "4c768ca8-d323-4cdf-a5b0-e3d6b7425f55",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4c768ca8-d323-4cdf-a5b0-e3d6b7425f55",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4c768ca8-d323-4cdf-a5b0-e3d6b7425f55"
+            },
+            {
+              "historyId": "c83a9781-6a90-49b8-ad98-9e6d88df8bb6",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c83a9781-6a90-49b8-ad98-9e6d88df8bb6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c83a9781-6a90-49b8-ad98-9e6d88df8bb6"
+            }
+          ]
+        },
+        {
+          "item_id": "158024",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S41\nCD 3\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Topeka Drive and Ringling Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).\n(Continued from Council meeting of December 12, 2025)\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188734 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-13-25\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S41",
+          "district": "CD 3",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Topeka Drive and Ringling Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218). (Continued from Council meeting of December 12, 2025) Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188734 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-13-25 Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "16ea9f9b-c72d-4203-8a3e-7cd5b31864a9",
+          "attachments": [
+            {
+              "historyId": "2d2deb08-6e2d-476b-8577-aa7e08265b60",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d2deb08-6e2d-476b-8577-aa7e08265b60",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d2deb08-6e2d-476b-8577-aa7e08265b60"
+            },
+            {
+              "historyId": "7e2af59d-a58e-4dc9-b160-c273d5e80130",
+              "title": "Final Ordinance of Intention No. 188734 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7e2af59d-a58e-4dc9-b160-c273d5e80130",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7e2af59d-a58e-4dc9-b160-c273d5e80130"
+            },
+            {
+              "historyId": "124cd7a7-308f-4b5a-809a-b40e28d02118",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=124cd7a7-308f-4b5a-809a-b40e28d02118",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=124cd7a7-308f-4b5a-809a-b40e28d02118"
+            },
+            {
+              "historyId": "c6506800-8d3a-477d-bfe1-6da97ce5f244",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6506800-8d3a-477d-bfe1-6da97ce5f244",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6506800-8d3a-477d-bfe1-6da97ce5f244"
+            },
+            {
+              "historyId": "c283ed02-a6b5-436a-a97f-138e73310e15",
+              "title": "Report from Bureau of Street Lighting dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c283ed02-a6b5-436a-a97f-138e73310e15",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c283ed02-a6b5-436a-a97f-138e73310e15"
+            },
+            {
+              "historyId": "c67488a4-0c4b-4621-9f69-8d49048f8991",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c67488a4-0c4b-4621-9f69-8d49048f8991",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c67488a4-0c4b-4621-9f69-8d49048f8991"
+            },
+            {
+              "historyId": "8fe09db5-1b2a-46e2-aedf-efb665b8694c",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fe09db5-1b2a-46e2-aedf-efb665b8694c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8fe09db5-1b2a-46e2-aedf-efb665b8694c"
+            },
+            {
+              "historyId": "fa70a593-aa9d-431c-9686-d40d479289f2",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa70a593-aa9d-431c-9686-d40d479289f2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa70a593-aa9d-431c-9686-d40d479289f2"
+            },
+            {
+              "historyId": "f6735340-bf1b-4c3f-8e54-0bc117f66a0a",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6735340-bf1b-4c3f-8e54-0bc117f66a0a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f6735340-bf1b-4c3f-8e54-0bc117f66a0a"
+            }
+          ]
+        },
+        {
+          "item_id": "158025",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S42\nCD 5\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Sunset Boulevard and Carolwood Drive Street Lighting District.​\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188735 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S42",
+          "district": "CD 5",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Sunset Boulevard and Carolwood Drive Street Lighting District.​",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188735 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "ea55871e-b051-4d93-976d-a7e6b0f47646",
+          "attachments": [
+            {
+              "historyId": "0d670e9e-f2fc-4f21-a371-0bdbca46f7f0",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d670e9e-f2fc-4f21-a371-0bdbca46f7f0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0d670e9e-f2fc-4f21-a371-0bdbca46f7f0"
+            },
+            {
+              "historyId": "54ea26f7-565c-4b73-a001-6cb8db422f11",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=54ea26f7-565c-4b73-a001-6cb8db422f11",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=54ea26f7-565c-4b73-a001-6cb8db422f11"
+            },
+            {
+              "historyId": "b80dd17e-b511-4b6f-a15f-048a07bb555f",
+              "title": "Final Ordinance of Intention No. 188735 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b80dd17e-b511-4b6f-a15f-048a07bb555f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b80dd17e-b511-4b6f-a15f-048a07bb555f"
+            },
+            {
+              "historyId": "eedfdbc3-6163-44cb-a607-46d00a202dad",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=eedfdbc3-6163-44cb-a607-46d00a202dad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=eedfdbc3-6163-44cb-a607-46d00a202dad"
+            },
+            {
+              "historyId": "7fb6b1c0-0763-40e5-a41f-0b4dc36a86ab",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7fb6b1c0-0763-40e5-a41f-0b4dc36a86ab",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7fb6b1c0-0763-40e5-a41f-0b4dc36a86ab"
+            },
+            {
+              "historyId": "f0d13222-c7ed-45c2-b098-f53a6fc4a991",
+              "title": "Report from Bureau of Street Lighting dated",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f0d13222-c7ed-45c2-b098-f53a6fc4a991",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f0d13222-c7ed-45c2-b098-f53a6fc4a991"
+            },
+            {
+              "historyId": "ff7c5342-3217-4571-afc3-cecb51c59ceb",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff7c5342-3217-4571-afc3-cecb51c59ceb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ff7c5342-3217-4571-afc3-cecb51c59ceb"
+            },
+            {
+              "historyId": "49a63b0d-a499-42c4-b7e5-3e4bb784ac2d",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=49a63b0d-a499-42c4-b7e5-3e4bb784ac2d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=49a63b0d-a499-42c4-b7e5-3e4bb784ac2d"
+            },
+            {
+              "historyId": "ba54273b-241e-4afa-8b17-6674496456c1",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba54273b-241e-4afa-8b17-6674496456c1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba54273b-241e-4afa-8b17-6674496456c1"
+            },
+            {
+              "historyId": "63012a7d-7d76-4418-bae2-449c74d1d96e",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=63012a7d-7d76-4418-bae2-449c74d1d96e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=63012a7d-7d76-4418-bae2-449c74d1d96e"
+            }
+          ]
+        },
+        {
+          "item_id": "158026",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S43\nCD 4\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Chandler Boulevard and Calhoun Avenue Street Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188736 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-13-25\nAttachment to Report dated 8-13-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nCommunication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S43",
+          "district": "CD 4",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Chandler Boulevard and Calhoun Avenue Street Lighting District.",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188736 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-13-25 Attachment to Report dated 8-13-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "84022619-59e2-4be7-bd05-ea799f643be6",
+          "attachments": [
+            {
+              "historyId": "a615f697-68d5-4034-871a-6fb444822683",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a615f697-68d5-4034-871a-6fb444822683",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a615f697-68d5-4034-871a-6fb444822683"
+            },
+            {
+              "historyId": "98190228-da4a-497e-ba30-6e21ccb6ab50",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=98190228-da4a-497e-ba30-6e21ccb6ab50",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=98190228-da4a-497e-ba30-6e21ccb6ab50"
+            },
+            {
+              "historyId": "b72d2e94-11e1-4d36-9c53-223058a3c861",
+              "title": "Final Ordinance of Intention No. 188736 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b72d2e94-11e1-4d36-9c53-223058a3c861",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b72d2e94-11e1-4d36-9c53-223058a3c861"
+            },
+            {
+              "historyId": "2feb6b54-ee67-4250-89e3-40d43aa23e58",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2feb6b54-ee67-4250-89e3-40d43aa23e58",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2feb6b54-ee67-4250-89e3-40d43aa23e58"
+            },
+            {
+              "historyId": "ca26e30b-603f-40b3-a9b3-bbfdbf4987bb",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ca26e30b-603f-40b3-a9b3-bbfdbf4987bb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ca26e30b-603f-40b3-a9b3-bbfdbf4987bb"
+            },
+            {
+              "historyId": "2e6d8347-2b7c-486f-bbf3-0a845263a2a8",
+              "title": "Report from Bureau of Street Lighting dated 8-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e6d8347-2b7c-486f-bbf3-0a845263a2a8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2e6d8347-2b7c-486f-bbf3-0a845263a2a8"
+            },
+            {
+              "historyId": "4296de55-e2a7-496b-a9dc-2611e669dfb2",
+              "title": "Attachment to Report dated 8-13-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4296de55-e2a7-496b-a9dc-2611e669dfb2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4296de55-e2a7-496b-a9dc-2611e669dfb2"
+            },
+            {
+              "historyId": "9950fb8a-d36b-4689-8dea-bb9c1c89f37c",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9950fb8a-d36b-4689-8dea-bb9c1c89f37c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9950fb8a-d36b-4689-8dea-bb9c1c89f37c"
+            },
+            {
+              "historyId": "12684404-9e22-4821-990c-ac66dae917b8",
+              "title": "Communication from Bureau of Street Lighting submitted 1-08-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=12684404-9e22-4821-990c-ac66dae917b8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=12684404-9e22-4821-990c-ac66dae917b8"
+            },
+            {
+              "historyId": "fdf6cb9e-e2ef-479e-9dee-b2b874302291",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdf6cb9e-e2ef-479e-9dee-b2b874302291",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdf6cb9e-e2ef-479e-9dee-b2b874302291"
+            }
+          ]
+        },
+        {
+          "item_id": "158027",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S44\nCD 13\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Andrita Street and Estara Avenue No.1 Street Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nFinal Ordinance of Intention No. 188737 dated 9-28-25.pdf\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-17-25\nReport from Bureau of Street Lighting dated 8-20-25\nAttachment to Report dated 8-20-25 - Draft Ordinance of Intention\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S44",
+          "district": "CD 13",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Andrita Street and Estara Avenue No.1 Street Lighting District.",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).​ (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Final Ordinance of Intention No. 188737 dated 9-28-25.pdf Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-17-25 Report from Bureau of Street Lighting dated 8-20-25 Attachment to Report dated 8-20-25 - Draft Ordinance of Intention Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "7f4c6b8f-269f-4a8b-92ba-79dd771232f9",
+          "attachments": [
+            {
+              "historyId": "a352fee5-f7a1-46ba-ad83-515dd6e82d34",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a352fee5-f7a1-46ba-ad83-515dd6e82d34",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a352fee5-f7a1-46ba-ad83-515dd6e82d34"
+            },
+            {
+              "historyId": "40778392-85d2-4f3c-82d8-da5a5d64b95b",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40778392-85d2-4f3c-82d8-da5a5d64b95b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=40778392-85d2-4f3c-82d8-da5a5d64b95b"
+            },
+            {
+              "historyId": "21d41866-a18f-4686-a17b-4ae6986bce19",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=21d41866-a18f-4686-a17b-4ae6986bce19",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=21d41866-a18f-4686-a17b-4ae6986bce19"
+            },
+            {
+              "historyId": "ef6e8fd6-e265-425d-a24d-8587e8b2a403",
+              "title": "Final Ordinance of Intention No. 188737 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ef6e8fd6-e265-425d-a24d-8587e8b2a403",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ef6e8fd6-e265-425d-a24d-8587e8b2a403"
+            },
+            {
+              "historyId": "8487ede4-4427-41fc-92ed-fa2e6666887a",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8487ede4-4427-41fc-92ed-fa2e6666887a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8487ede4-4427-41fc-92ed-fa2e6666887a"
+            },
+            {
+              "historyId": "145dc905-00ed-45aa-ac0d-fbd7b0eae9c0",
+              "title": "Council Action - Mayor Concurrence dated 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=145dc905-00ed-45aa-ac0d-fbd7b0eae9c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=145dc905-00ed-45aa-ac0d-fbd7b0eae9c0"
+            },
+            {
+              "historyId": "7224bc40-3f31-4b82-997f-61d86ec613af",
+              "title": "Report from Bureau of Street Lighting dated 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7224bc40-3f31-4b82-997f-61d86ec613af",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7224bc40-3f31-4b82-997f-61d86ec613af"
+            },
+            {
+              "historyId": "4fae8da8-5392-4b1b-b45e-58ff220acb8c",
+              "title": "Attachment to Report dated 8-20-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fae8da8-5392-4b1b-b45e-58ff220acb8c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4fae8da8-5392-4b1b-b45e-58ff220acb8c"
+            },
+            {
+              "historyId": "d9baffa0-ab70-4d7c-baa0-0cbe207c7b77",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d9baffa0-ab70-4d7c-baa0-0cbe207c7b77",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d9baffa0-ab70-4d7c-baa0-0cbe207c7b77"
+            },
+            {
+              "historyId": "22333fe0-07da-4c5a-bb86-9d5976c56fc8",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22333fe0-07da-4c5a-bb86-9d5976c56fc8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22333fe0-07da-4c5a-bb86-9d5976c56fc8"
+            }
+          ]
+        },
+        {
+          "item_id": "158028",
+          "item_number": "(12)",
+          "has_attachments": true,
+          "raw_text": "25-0900-S45\nCD 9\nCONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Vermont Avenue and 43rd Street Lighting District.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:​\nDENY the protest and confirm the assessments.\nPRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218).\n(Continued from Council meeting of December 12, 2025)\nCommunication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance\nReport from City Clerk dated 12-18-25\nFinal Ordinance of Intention No. 188738 dated 9-28-25.pdf\nCommunication from Bureau of Street Lighting dated 10-08-25 - Mailing Package\nDeclaration of Posting Ordinance dated 9-19-25\nCouncil Action - Mayor Concurrence dated 9-18-25\nReport from Bureau of Street Lighting dated 8-19-25\nAttachment to Report dated 8-19-25 - Draft Ordinance of Intention\nSpeaker Card(s)_12-12-2025",
+          "council_file": "25-0900-S45",
+          "district": "CD 9",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTESTS and ORDINANCE FIRST CONSIDERATION relative to the improvement and maintenance of the Vermont Avenue and 43rd Street Lighting District.",
+          "recommendation": "​ DENY the protest and confirm the assessments. PRESENT and ADOPT the accompanying ORDINANCE levying the assessments and ordering the maintenance of the above lighting district, in accordance with Sections 6.95-6.127 of the Los Angeles Administrative Code and Government Code Section 53753 (Proposition 218). (Continued from Council meeting of December 12, 2025) Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance Report from City Clerk dated 12-18-25 Final Ordinance of Intention No. 188738 dated 9-28-25.pdf Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package Declaration of Posting Ordinance dated 9-19-25 Council Action - Mayor Concurrence dated 9-18-25 Report from Bureau of Street Lighting dated 8-19-25 Attachment to Report dated 8-19-25 - Draft Ordinance of Intention Speaker Card(s)_12-12-2025",
+          "video_location": "9649",
+          "mig": "ceebc45d-2587-4206-831c-9df6072c5eb9",
+          "attachments": [
+            {
+              "historyId": "294fc5f0-6e9d-4934-ae1a-cb59095acd18",
+              "title": "Communication from Bureau of Street Lighting submitted 1-07-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=294fc5f0-6e9d-4934-ae1a-cb59095acd18",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=294fc5f0-6e9d-4934-ae1a-cb59095acd18"
+            },
+            {
+              "historyId": "76296735-c06f-4263-a1fc-f189bb63eb39",
+              "title": "Report from City Clerk dated 12-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=76296735-c06f-4263-a1fc-f189bb63eb39",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=76296735-c06f-4263-a1fc-f189bb63eb39"
+            },
+            {
+              "historyId": "c660fc72-79ab-44bc-954c-f1ef1223f3d2",
+              "title": "Final Ordinance of Intention No. 188738 dated 9-28-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c660fc72-79ab-44bc-954c-f1ef1223f3d2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c660fc72-79ab-44bc-954c-f1ef1223f3d2"
+            },
+            {
+              "historyId": "6d8c52cb-4a34-4eea-a1a0-a4356044432f",
+              "title": "Communication from Bureau of Street Lighting dated 10-08-25 - Mailing Package",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d8c52cb-4a34-4eea-a1a0-a4356044432f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d8c52cb-4a34-4eea-a1a0-a4356044432f"
+            },
+            {
+              "historyId": "3d56f06d-1a71-4f49-8e41-1eb772a2ef90",
+              "title": "Declaration of Posting Ordinance dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d56f06d-1a71-4f49-8e41-1eb772a2ef90",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d56f06d-1a71-4f49-8e41-1eb772a2ef90"
+            },
+            {
+              "historyId": "fcd6527f-7f46-40d6-b40e-60c806a15cad",
+              "title": "Council Action - Mayor Concurrence dated 9-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fcd6527f-7f46-40d6-b40e-60c806a15cad",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fcd6527f-7f46-40d6-b40e-60c806a15cad"
+            },
+            {
+              "historyId": "27a7b1bc-dba3-4e8f-acef-1e473cc2a0f6",
+              "title": "Report from Bureau of Street Lighting dated 8-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=27a7b1bc-dba3-4e8f-acef-1e473cc2a0f6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=27a7b1bc-dba3-4e8f-acef-1e473cc2a0f6"
+            },
+            {
+              "historyId": "56972e1e-fc9c-4f80-8aec-c81260d32153",
+              "title": "Attachment to Report dated 8-19-25 - Draft Ordinance of Intention",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=56972e1e-fc9c-4f80-8aec-c81260d32153",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=56972e1e-fc9c-4f80-8aec-c81260d32153"
+            },
+            {
+              "historyId": "33b0ac7d-e4ec-4c9b-a5f6-8fdc9ed9f45e",
+              "title": "Speaker Card(s)_12-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=33b0ac7d-e4ec-4c9b-a5f6-8fdc9ed9f45e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=33b0ac7d-e4ec-4c9b-a5f6-8fdc9ed9f45e"
+            }
+          ]
+        },
+        {
+          "item_id": "158258",
+          "item_number": "(13)",
+          "has_attachments": true,
+          "raw_text": "25-0160-S127\nCD 9\nCONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 836 East 47th Street.\nRecommendation for Council action:\nHEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 836 East 47th Street. (Lien: $1,276.56)\n(Continued from Council meeting of January 14, 2026)\nReport from Department of Building and Safety dated 6-25-25\nCommunication from Department of Building and Safety dated 1-13-26\nSpeaker Card(s)_12-10-2025",
+          "council_file": "25-0160-S127",
+          "district": "CD 9",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 836 East 47th Street.",
+          "recommendation": "HEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 836 East 47th Street. (Lien: $1,276.56) (Continued from Council meeting of January 14, 2026) Report from Department of Building and Safety dated 6-25-25 Communication from Department of Building and Safety dated 1-13-26 Speaker Card(s)_12-10-2025",
+          "video_location": "9693",
+          "mig": "d4fd4a21-0e5c-4dcd-8c2c-06fb4604fac7",
+          "attachments": [
+            {
+              "historyId": "93b5e061-de1b-4281-ae56-e67c78e1d72c",
+              "title": "Report from Department of Building and Safety dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=93b5e061-de1b-4281-ae56-e67c78e1d72c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=93b5e061-de1b-4281-ae56-e67c78e1d72c"
+            },
+            {
+              "historyId": "4b55614b-9f0f-43d3-885b-6bbc3a298cff",
+              "title": "Communication from Department of Building and Safety dated 1-13-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b55614b-9f0f-43d3-885b-6bbc3a298cff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4b55614b-9f0f-43d3-885b-6bbc3a298cff"
+            },
+            {
+              "historyId": "e6acf217-b453-4eb4-8ac1-242a54baad2e",
+              "title": "Speaker Card(s)_12-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6acf217-b453-4eb4-8ac1-242a54baad2e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e6acf217-b453-4eb4-8ac1-242a54baad2e"
+            }
+          ]
+        },
+        {
+          "item_id": "158259",
+          "item_number": "(14)",
+          "has_attachments": true,
+          "raw_text": "25-0160-S144\nCD 12\nCONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 6731 North Franrivers Avenue.\nRecommendation for Council action:\nHEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 6731 North Franrivers Avenue. (Lien: $3,042.70)\n(Continued from Council meeting of January 14, 2026)\nCommunication from Department of Building and Safety dated 1-13-26\nReport from Department of Building and Safety dated 10-03-25\nSpeaker Card(s)_12-10-2025",
+          "council_file": "25-0160-S144",
+          "district": "CD 12",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 6731 North Franrivers Avenue.",
+          "recommendation": "HEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 6731 North Franrivers Avenue. (Lien: $3,042.70) (Continued from Council meeting of January 14, 2026) Communication from Department of Building and Safety dated 1-13-26 Report from Department of Building and Safety dated 10-03-25 Speaker Card(s)_12-10-2025",
+          "video_location": "9693",
+          "mig": "16afc84a-23fe-4697-9018-eaf6e9e5507e",
+          "attachments": [
+            {
+              "historyId": "476338f8-3c8c-4055-9d1f-743ed7b8c713",
+              "title": "Communication from Department of Building and Safety dated 1-13-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=476338f8-3c8c-4055-9d1f-743ed7b8c713",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=476338f8-3c8c-4055-9d1f-743ed7b8c713"
+            },
+            {
+              "historyId": "122f0507-96aa-45d7-bd2a-70c93f6bb58d",
+              "title": "Report from Department of Building and Safety dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=122f0507-96aa-45d7-bd2a-70c93f6bb58d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=122f0507-96aa-45d7-bd2a-70c93f6bb58d"
+            },
+            {
+              "historyId": "a361a9d7-8484-4312-81fe-2e62977312d7",
+              "title": "Speaker Card(s)_12-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a361a9d7-8484-4312-81fe-2e62977312d7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a361a9d7-8484-4312-81fe-2e62977312d7"
+            }
+          ]
+        },
+        {
+          "item_id": "158261",
+          "item_number": "(15)",
+          "has_attachments": true,
+          "raw_text": "25-0160-S130\nCD 3\nHEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 23528 West Collins Street.\nRecommendation for Council action:\nHEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 23528 West Collins Street. (Lien: $1,276.56)\nReport from Department of Building and Safety dated 6-25-25\nCommunication from Department of Building and Safety dated 1-13-26",
+          "council_file": "25-0160-S130",
+          "district": "CD 3",
+          "title": "HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 23528 West Collins Street.",
+          "recommendation": "HEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 23528 West Collins Street. (Lien: $1,276.56) Report from Department of Building and Safety dated 6-25-25 Communication from Department of Building and Safety dated 1-13-26",
+          "video_location": "9693",
+          "mig": "f9570a23-5c09-4cfa-aebb-19d06d315a80",
+          "attachments": [
+            {
+              "historyId": "95cceff5-4545-4bba-a548-0febfb33cb00",
+              "title": "Report from Department of Building and Safety dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=95cceff5-4545-4bba-a548-0febfb33cb00",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=95cceff5-4545-4bba-a548-0febfb33cb00"
+            },
+            {
+              "historyId": "673b17f5-6024-4f07-af60-de19d84215b6",
+              "title": "Communication from Department of Building and Safety dated 1-13-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=673b17f5-6024-4f07-af60-de19d84215b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=673b17f5-6024-4f07-af60-de19d84215b6"
+            }
+          ]
+        },
+        {
+          "item_id": "158262",
+          "item_number": "(16)",
+          "has_attachments": true,
+          "raw_text": "25-0160-S136\nCD 5\nCONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 2568 South Military Avenue.\nRecommendation for Council action:\nHEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 2568 South Military Avenue. (Lien: $9,234.68)\n(Continued from Council meeting of January 14, 2026)\nCommunication from Department of Building and Safety dated 1-13-26\nCommunication(s) from Public - Formal Protest_12-1-25\nReport from Department of Building and Safety dated 9-09-25\nSpeaker Card(s)_12-10-2025",
+          "council_file": "25-0160-S136",
+          "district": "CD 5",
+          "title": "CONTINUED CONSIDERATION OF HEARING PROTEST, APPEALS OR OBJECTIONS to Building and Safety Department report and confirmation of lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs, pursuant to Los Angeles Municipal Code (LAMC) and/or Los Angeles Administrative Code (LAAC) for the property located at 2568 South Military Avenue.",
+          "recommendation": "HEAR PROTEST, APPEALS OR OBJECTIONS relative to proposed lien for nuisance abatement costs and/or non-compliance of code violations/Annual Inspection costs pursuant to LAMC and/or LAAC and CONFIRM said lien for the property located at 2568 South Military Avenue. (Lien: $9,234.68) (Continued from Council meeting of January 14, 2026) Communication from Department of Building and Safety dated 1-13-26 Communication(s) from Public - Formal Protest_12-1-25 Report from Department of Building and Safety dated 9-09-25 Speaker Card(s)_12-10-2025",
+          "video_location": "9693",
+          "mig": "37578d47-b748-45bb-9c47-33dbeef309d8",
+          "attachments": [
+            {
+              "historyId": "ce67b45a-ea62-4258-932d-3a32b91fdf65",
+              "title": "Communication from Department of Building and Safety dated 1-13-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ce67b45a-ea62-4258-932d-3a32b91fdf65",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ce67b45a-ea62-4258-932d-3a32b91fdf65"
+            },
+            {
+              "historyId": "1d116bb9-8a8c-4b06-867a-d2cdecc6d823",
+              "title": "Communication(s) from Public - Formal Protest_12-1-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d116bb9-8a8c-4b06-867a-d2cdecc6d823",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1d116bb9-8a8c-4b06-867a-d2cdecc6d823"
+            },
+            {
+              "historyId": "388781e3-c608-4fc6-8239-865955b872ac",
+              "title": "Report from Department of Building and Safety dated 9-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=388781e3-c608-4fc6-8239-865955b872ac",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=388781e3-c608-4fc6-8239-865955b872ac"
+            },
+            {
+              "historyId": "ae72f371-1e64-4d32-a910-a7d186600830",
+              "title": "Speaker Card(s)_12-10-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae72f371-1e64-4d32-a910-a7d186600830",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ae72f371-1e64-4d32-a910-a7d186600830"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "359295",
+      "title": "Items for which Public Hearings Have Been Held",
+      "items": [
+        {
+          "item_id": "158331",
+          "item_number": "(17)",
+          "has_attachments": true,
+          "raw_text": "25-1340\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\"\nRecommendations for Council action, pursuant to Motion (Harris-Dawson - Hutt):\nDESIGNATE the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\"\nDIRECT the Department of Transportation to erect permanent ceremonial signs to this effect at this location.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Public Works Committee_1-14-26\nMotion (Harris-Dawson - Hutt) dated 11-12-25",
+          "council_file": "25-1340",
+          "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\"",
+          "recommendation": "DESIGNATE the intersection at Crenshaw Boulevard and 54th Street as “James \"Jim\" McBeth Square.\" DIRECT the Department of Transportation to erect permanent ceremonial signs to this effect at this location. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Public Works Committee_1-14-26 Motion (Harris-Dawson - Hutt) dated 11-12-25",
+          "video_location": "9764",
+          "mig": "3a602a7d-23fa-452d-8108-00d89cbf8e48",
+          "attachments": [
+            {
+              "historyId": "be16771a-467e-473c-a58b-61a5b21304d9",
+              "title": "Report from Public Works Committee_1-14-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=be16771a-467e-473c-a58b-61a5b21304d9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=be16771a-467e-473c-a58b-61a5b21304d9"
+            },
+            {
+              "historyId": "7a5040a1-a902-4292-abca-d8f78c3507e3",
+              "title": "Motion (Harris-Dawson - Hutt) dated 11-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a5040a1-a902-4292-abca-d8f78c3507e3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7a5040a1-a902-4292-abca-d8f78c3507e3"
+            }
+          ]
+        },
+        {
+          "item_id": "158333",
+          "item_number": "(18)",
+          "has_attachments": true,
+          "raw_text": "23-1134-S2\nHOUSING AND HOMELESSNESS COMMITTEE REPORT relative to requesting the City Attorney to draft an ordinance updating Subsection D of Section 151.06, Article 1, Chapter XV of the Los Angeles Municipal Code (LAMC).\nRecommendation for Council action, pursuant to Motion (Soto-Martinez - Jurado):\nREQUEST the City Attorney to prepare and present an ordinance, with an urgency clause, updating Subsection D of Section 151.06, Article 1, Chapter XV of the LAMC as follows:\nAny annual rent increase not previously noticed and served during the period beginning June 1, 2025, through June 30, 2026, that goes into effect on or after the effective date of this subsection shall comply with this subsection. Any such rent increase shall not exceed three percent and shall not include any additional increase based on the landlord’s payment of utilities.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nReport from Housing and Homelessness Committee - 1-14-26\nCommunication(s) from Public_01-13-2026\nMotion (Soto-Martinez - Jurado) dated 12-12-25\nSpeaker Card(s)_01-14-2026",
+          "council_file": "23-1134-S2",
+          "title": "HOUSING AND HOMELESSNESS COMMITTEE REPORT relative to requesting the City Attorney to draft an ordinance updating Subsection D of Section 151.06, Article 1, Chapter XV of the Los Angeles Municipal Code (LAMC).",
+          "recommendation": "REQUEST the City Attorney to prepare and present an ordinance, with an urgency clause, updating Subsection D of Section 151.06, Article 1, Chapter XV of the LAMC as follows: Any annual rent increase not previously noticed and served during the period beginning June 1, 2025, through June 30, 2026, that goes into effect on or after the effective date of this subsection shall comply with this subsection. Any such rent increase shall not exceed three percent and shall not include any additional increase based on the landlord’s payment of utilities. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted Report from Housing and Homelessness Committee - 1-14-26 Communication(s) from Public_01-13-2026 Motion (Soto-Martinez - Jurado) dated 12-12-25 Speaker Card(s)_01-14-2026",
+          "video_location": "9764",
+          "mig": "81286693-b5b9-4f24-aa7a-c20a25d8dd25",
+          "attachments": [
+            {
+              "historyId": "8aac6ade-0597-4f73-beed-d992e2489215",
+              "title": "Report from Housing and Homelessness Committee - 1-14-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8aac6ade-0597-4f73-beed-d992e2489215",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8aac6ade-0597-4f73-beed-d992e2489215"
+            },
+            {
+              "historyId": "b38b98c6-61cc-4712-a15f-b82339c0dd57",
+              "title": "Communication(s) from Public_01-13-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b38b98c6-61cc-4712-a15f-b82339c0dd57",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b38b98c6-61cc-4712-a15f-b82339c0dd57"
+            },
+            {
+              "historyId": "154e820a-8f7f-4292-b938-1215bd7dfa23",
+              "title": "Motion (Soto-Martinez - Jurado) dated 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=154e820a-8f7f-4292-b938-1215bd7dfa23",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=154e820a-8f7f-4292-b938-1215bd7dfa23"
+            },
+            {
+              "historyId": "a72cac14-2a70-4ed3-8d42-d6544cdb8ddc",
+              "title": "Speaker Card(s)_01-14-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a72cac14-2a70-4ed3-8d42-d6544cdb8ddc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a72cac14-2a70-4ed3-8d42-d6544cdb8ddc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "359296",
+      "title": "Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)",
+      "items": [
+        {
+          "item_id": "157673",
+          "item_number": "(19)",
+          "has_attachments": true,
+          "raw_text": "25-1411\nCD 14\nCOMMUNICATION FROM THE CITY ENGINEER relative to the final map of Tract No. 74309, located at 1800 East 7th Street, easterly of Decatur Street.\nRecommendation for Council action:\nAPPROVE the final map of Tract No. 74309, located at 1800 East 7th Street, easterly of Decatur Street and accompanying Subdivision Improvement Agreement and Contract with security documents.\nOwner: Elm Tree Investments, LP; Surveyor: Harvey Goodman\nFiscal Impact Statement:\nThe City Engineer reports that the subdivider has paid a fee of $14,300.00 for the processing of this final tract map pursuant to Section 19.02(A)(2) of the Los Angeles Municipal Code. No additional City funds are needed.\nCommunity Impact Statement:\nNone submitted.\nReport from Bureau of Engineering dated 12-01-25\nAttachment to Report dated 12-01-25 - Bond\nAttachment to Report dated 12-01-25 - Planning Actions\nSpeaker Card(s)_12-09-2025",
+          "council_file": "25-1411",
+          "district": "CD 14",
+          "title": "COMMUNICATION FROM THE CITY ENGINEER relative to the final map of Tract No. 74309, located at 1800 East 7th Street, easterly of Decatur Street.",
+          "recommendation": "APPROVE the final map of Tract No. 74309, located at 1800 East 7th Street, easterly of Decatur Street and accompanying Subdivision Improvement Agreement and Contract with security documents. Owner: Elm Tree Investments, LP; Surveyor: Harvey Goodman Fiscal Impact Statement: The City Engineer reports that the subdivider has paid a fee of $14,300.00 for the processing of this final tract map pursuant to Section 19.02(A)(2) of the Los Angeles Municipal Code. No additional City funds are needed. Community Impact Statement: None submitted. Report from Bureau of Engineering dated 12-01-25 Attachment to Report dated 12-01-25 - Bond Attachment to Report dated 12-01-25 - Planning Actions Speaker Card(s)_12-09-2025",
+          "video_location": "9632",
+          "mig": "e6aac00e-a873-44e2-b3d8-ebd409df38bf",
+          "attachments": [
+            {
+              "historyId": "d30120ae-7eea-4315-8339-352cb59621ee",
+              "title": "Report from Bureau of Engineering dated 12-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d30120ae-7eea-4315-8339-352cb59621ee",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d30120ae-7eea-4315-8339-352cb59621ee"
+            },
+            {
+              "historyId": "fe25418d-488e-4a9a-8624-e3d777ca762c",
+              "title": "Attachment to Report dated 12-01-25 - Bond",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe25418d-488e-4a9a-8624-e3d777ca762c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fe25418d-488e-4a9a-8624-e3d777ca762c"
+            },
+            {
+              "historyId": "af6521cf-34ca-484e-9174-c49201b44a86",
+              "title": "Attachment to Report dated 12-01-25 - Planning Actions",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af6521cf-34ca-484e-9174-c49201b44a86",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af6521cf-34ca-484e-9174-c49201b44a86"
+            },
+            {
+              "historyId": "0094773a-db69-4e15-b94c-8c65c1aafc22",
+              "title": "Speaker Card(s)_12-09-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0094773a-db69-4e15-b94c-8c65c1aafc22",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0094773a-db69-4e15-b94c-8c65c1aafc22"
+            }
+          ]
+        },
+        {
+          "item_id": "158158",
+          "item_number": "(20)",
+          "has_attachments": true,
+          "raw_text": "26-0018\nMOTION (LEE for BLUMENFIELD - HERNANDEZ) relative to funding for the renovation of the Madrid Theatre in Council District 3.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER $2,483,329 to and from the accounts and in the amounts as listed in the Motion, attached to the Council file.\nAUTHORIZE the Controller to appropriate $2,483,329 to the General Services Department (GSD) - Construction Forces Division accounts upon approval of the Mayor.\nAUTHORIZE the Bureau of Engineering and GSD to make any corrections, clarifications, or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections /clarifications/changes may be made orally, electronically or by any other means.\nMotion (Lee for Blumenfield - Hernandez) dated  1-09-26",
+          "council_file": "26-0018",
+          "title": "MOTION (LEE for BLUMENFIELD - HERNANDEZ) relative to funding for the renovation of the Madrid Theatre in Council District 3.",
+          "recommendation": "TRANSFER $2,483,329 to and from the accounts and in the amounts as listed in the Motion, attached to the Council file. AUTHORIZE the Controller to appropriate $2,483,329 to the General Services Department (GSD) - Construction Forces Division accounts upon approval of the Mayor. AUTHORIZE the Bureau of Engineering and GSD to make any corrections, clarifications, or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections /clarifications/changes may be made orally, electronically or by any other means. Motion (Lee for Blumenfield - Hernandez) dated 1-09-26",
+          "video_location": "9678",
+          "mig": "5894350b-56b6-49e6-ae68-a769e690e88f",
+          "attachments": [
+            {
+              "historyId": "0e6d7c78-d760-4517-9955-c2e94252ffcf",
+              "title": "Motion (Lee for Blumenfield - Hernandez) dated  1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e6d7c78-d760-4517-9955-c2e94252ffcf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e6d7c78-d760-4517-9955-c2e94252ffcf"
+            }
+          ]
+        },
+        {
+          "item_id": "158159",
+          "item_number": "(21)",
+          "has_attachments": true,
+          "raw_text": "10-0010-S42\nMOTION (PRICE - LEE) relative to reinstating the reward offer in the unsolved murder of Aaron Shannon and injury to two others for an additional six months.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nREAFFIRM Council’s findings and REINSTATE the reward offer relative to the unsolved murder of Aaron Shannon and injury to two others (Council action of November 2, 2010, Council file No. 10-0010-S42) for an additional period of six months from the publication of the offer of reward by the Office of the City Clerk; and, further, that the sum of $75,000 shall be the aggregate maximum sum of any payment or payments of a City reward in this instance.\nMotion (Price - Lee) dated 1-09-26\nMayor Concurrence 11_04_2010\nCouncil Action 11_02_2010\nMotion 11_02_2010",
+          "council_file": "10-0010-S42",
+          "title": "MOTION (PRICE - LEE) relative to reinstating the reward offer in the unsolved murder of Aaron Shannon and injury to two others for an additional six months.",
+          "recommendation": "REAFFIRM Council’s findings and REINSTATE the reward offer relative to the unsolved murder of Aaron Shannon and injury to two others (Council action of November 2, 2010, Council file No. 10-0010-S42) for an additional period of six months from the publication of the offer of reward by the Office of the City Clerk; and, further, that the sum of $75,000 shall be the aggregate maximum sum of any payment or payments of a City reward in this instance. Motion (Price - Lee) dated 1-09-26 Mayor Concurrence 11_04_2010 Council Action 11_02_2010 Motion 11_02_2010",
+          "video_location": "9652",
+          "mig": "713a2be0-2bb6-423a-98b9-044261fb7bc1",
+          "attachments": [
+            {
+              "historyId": "4ec40853-c253-4a3d-87c3-c00697c44f9c",
+              "title": "Motion (Price - Lee) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ec40853-c253-4a3d-87c3-c00697c44f9c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4ec40853-c253-4a3d-87c3-c00697c44f9c"
+            },
+            {
+              "historyId": "d11c4e6b-4b3c-46b8-8226-ed0517b64331",
+              "title": "Mayor Concurrence 11_04_2010",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d11c4e6b-4b3c-46b8-8226-ed0517b64331",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d11c4e6b-4b3c-46b8-8226-ed0517b64331"
+            },
+            {
+              "historyId": "fb13e1f6-611f-4fef-934f-3717695c22d3",
+              "title": "Council Action 11_02_2010",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb13e1f6-611f-4fef-934f-3717695c22d3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fb13e1f6-611f-4fef-934f-3717695c22d3"
+            },
+            {
+              "historyId": "4f1a818b-b39e-42c2-923e-30cb80102792",
+              "title": "Motion 11_02_2010",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f1a818b-b39e-42c2-923e-30cb80102792",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f1a818b-b39e-42c2-923e-30cb80102792"
+            }
+          ]
+        },
+        {
+          "item_id": "158161",
+          "item_number": "(22)",
+          "has_attachments": true,
+          "raw_text": "24-1474\nCD 14\nMOTION (JURADO - PRICE) relative to amending the prior Council action of March 3, 2025, Council file No. 24-1474, regarding a Sign District for properties located in Council District 14.\nRecommendation for Council action:\nAMEND the prior Council action of March 5, 2025 regarding the matter of the Planning and Land Use Management Committee Report to initiate a Sign District, pursuant to Los Angeles Municipal Code Section 8.2.3 of Chapter lA, for the properties located at 911-915, 925, 927, and 933-939 South Figueroa Street; 845 West Olympic Boulevard; 932-36, 940-942 ½, and 944 South Francisco Street; 941 Cottage Place; 816-822 West James M. Wood Boulevard to ADOPT the following additional recommendations:\nInclude, in addition, the parcels located at 808 West James M. Wood Boulevard and 875 South Figueroa Street to the Sign District.\nMotion (Jurado - Price)  dated 1-09-26\nCouncil Action dated 3-07-25\nReport from Planning and Land Use Management Committee_02-25-2025\nSpeaker Card(s)_02-25-2025\nMotion (de Leon - Price) dated 11-22-24",
+          "council_file": "24-1474",
+          "district": "CD 14",
+          "title": "MOTION (JURADO - PRICE) relative to amending the prior Council action of March 3, 2025, Council file No. 24-1474, regarding a Sign District for properties located in Council District 14.",
+          "recommendation": "AMEND the prior Council action of March 5, 2025 regarding the matter of the Planning and Land Use Management Committee Report to initiate a Sign District, pursuant to Los Angeles Municipal Code Section 8.2.3 of Chapter lA, for the properties located at 911-915, 925, 927, and 933-939 South Figueroa Street; 845 West Olympic Boulevard; 932-36, 940-942 ½, and 944 South Francisco Street; 941 Cottage Place; 816-822 West James M. Wood Boulevard to ADOPT the following additional recommendations: Include, in addition, the parcels located at 808 West James M. Wood Boulevard and 875 South Figueroa Street to the Sign District. Motion (Jurado - Price) dated 1-09-26 Council Action dated 3-07-25 Report from Planning and Land Use Management Committee_02-25-2025 Speaker Card(s)_02-25-2025 Motion (de Leon - Price) dated 11-22-24",
+          "video_location": "9652",
+          "mig": "d4cf5807-657f-45e4-a1f2-70ca3da897cb",
+          "attachments": [
+            {
+              "historyId": "73380993-5521-4b8a-aa15-a3521a71b7bc",
+              "title": "Motion (Jurado - Price)  dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=73380993-5521-4b8a-aa15-a3521a71b7bc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=73380993-5521-4b8a-aa15-a3521a71b7bc"
+            },
+            {
+              "historyId": "1ea858e8-aea9-4b55-aeb9-75056716ba15",
+              "title": "Council Action dated 3-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ea858e8-aea9-4b55-aeb9-75056716ba15",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ea858e8-aea9-4b55-aeb9-75056716ba15"
+            },
+            {
+              "historyId": "3bd8a1be-3054-414b-ab90-af9f8579bfde",
+              "title": "Report from Planning and Land Use Management Committee_02-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3bd8a1be-3054-414b-ab90-af9f8579bfde",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3bd8a1be-3054-414b-ab90-af9f8579bfde"
+            },
+            {
+              "historyId": "fc951690-c029-4ca4-ae10-66c4b6c995e7",
+              "title": "Speaker Card(s)_02-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fc951690-c029-4ca4-ae10-66c4b6c995e7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fc951690-c029-4ca4-ae10-66c4b6c995e7"
+            },
+            {
+              "historyId": "84aac031-d3e3-4f17-8bdf-d16e6f611170",
+              "title": "Motion (de Leon - Price) dated 11-22-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=84aac031-d3e3-4f17-8bdf-d16e6f611170",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=84aac031-d3e3-4f17-8bdf-d16e6f611170"
+            }
+          ]
+        },
+        {
+          "item_id": "158162",
+          "item_number": "(23)",
+          "has_attachments": true,
+          "raw_text": "21-0152-S4\nMOTION (McOSKER - JURADO) relative to a street banner campaign to beautify the areas near the Port of Los Angeles, as well as to promote the \"Just Say Hello\" public service announcement in coordination with the Civil, Human Rights, and Equity Department.\nRecommendations for Council action:\nAPPROVE, in accordance with Los Angeles Municipal Code Section 62.132, the Street Banner program coordinated by the Harbor Department as a City of Los Angeles Non-Event Street Banner Program for the period of January 1, 2026 through November 30, 2026.\nAPPROVE the content of the street banner design, attached to the Motion.\nMotion (McOsker -Jurado) dated 1-09-26\nCouncil Action dated 10-15-25\nSpeaker Card(s)_10-14-2025\nMotion (McOsker - Jurado) dated 10-03-25\nCouncil Action dated 8-12-25\nSpeaker Card(s)_08-06-2025\nMotion (McOsker - Soto-Martinez) dated 7-30-25",
+          "council_file": "21-0152-S4",
+          "title": "MOTION (McOSKER - JURADO) relative to a street banner campaign to beautify the areas near the Port of Los Angeles, as well as to promote the \"Just Say Hello\" public service announcement in coordination with the Civil, Human Rights, and Equity Department.",
+          "recommendation": "APPROVE, in accordance with Los Angeles Municipal Code Section 62.132, the Street Banner program coordinated by the Harbor Department as a City of Los Angeles Non-Event Street Banner Program for the period of January 1, 2026 through November 30, 2026. APPROVE the content of the street banner design, attached to the Motion. Motion (McOsker -Jurado) dated 1-09-26 Council Action dated 10-15-25 Speaker Card(s)_10-14-2025 Motion (McOsker - Jurado) dated 10-03-25 Council Action dated 8-12-25 Speaker Card(s)_08-06-2025 Motion (McOsker - Soto-Martinez) dated 7-30-25",
+          "video_location": "9652",
+          "mig": "a0da1a77-7738-4f4a-b6ef-e8bbded93ba1",
+          "attachments": [
+            {
+              "historyId": "88ce7357-0efa-4e12-8727-fa80f79eba70",
+              "title": "Motion (McOsker -Jurado) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=88ce7357-0efa-4e12-8727-fa80f79eba70",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=88ce7357-0efa-4e12-8727-fa80f79eba70"
+            },
+            {
+              "historyId": "ae179461-dfbd-4afa-823f-c09098ced7ed",
+              "title": "Council Action dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae179461-dfbd-4afa-823f-c09098ced7ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ae179461-dfbd-4afa-823f-c09098ced7ed"
+            },
+            {
+              "historyId": "e869be72-292e-4743-a4ff-6a7cd86b4192",
+              "title": "Speaker Card(s)_10-14-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e869be72-292e-4743-a4ff-6a7cd86b4192",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e869be72-292e-4743-a4ff-6a7cd86b4192"
+            },
+            {
+              "historyId": "922ef159-f50d-46ff-a866-d49338101939",
+              "title": "Motion (McOsker - Jurado) dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=922ef159-f50d-46ff-a866-d49338101939",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=922ef159-f50d-46ff-a866-d49338101939"
+            },
+            {
+              "historyId": "3d86a0fd-dbdb-4b47-a4c2-02f3371c5422",
+              "title": "Council Action dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d86a0fd-dbdb-4b47-a4c2-02f3371c5422",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3d86a0fd-dbdb-4b47-a4c2-02f3371c5422"
+            },
+            {
+              "historyId": "8525d6d6-0b3f-4123-9ba8-025b7dc5c597",
+              "title": "Speaker Card(s)_08-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8525d6d6-0b3f-4123-9ba8-025b7dc5c597",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8525d6d6-0b3f-4123-9ba8-025b7dc5c597"
+            },
+            {
+              "historyId": "dbb22ad9-8e7e-4f87-a09b-7f701ecc9a2e",
+              "title": "Motion (McOsker - Soto-Martinez) dated 7-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dbb22ad9-8e7e-4f87-a09b-7f701ecc9a2e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dbb22ad9-8e7e-4f87-a09b-7f701ecc9a2e"
+            }
+          ]
+        },
+        {
+          "item_id": "158163",
+          "item_number": "(24)",
+          "has_attachments": true,
+          "raw_text": "26-0019\nCD 1\nMOTION (HERNANDEZ - HUTT) relative to funding for the “Chinatown Mobile Laundry Truck” program in Council District 1.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the General Manager, Los Angeles Housing Department (LAHD), to amend and restate the Los Angeles Homeless Services Authority FY 2025-26 General Funds Homeless Shelter Services Professional Services Agreement to add $250,000 for the “Chinatown Mobile Laundry Truck” program in Council District 1 from July 1, 2025 through June 30, 2026 (Contract No. C-202650).\nTRANSFER $250,000 from the Council District (CD) 1 Public Benefits Trust Fund Account No. 2025/889/14/14A0025 to the LAHD Fund No. 10A/43, Account No. (TBD), CD 1 Laundry Truck Program.\nAUTHORIZE the Chief Legislative Analyst to make technical adjustments that may be required and are consistent with this action; and, AUTHORIZE the Controller to implement these instructions.\nMotion (Hernandez - Hutt) dated 1-09-26",
+          "council_file": "26-0019",
+          "district": "CD 1",
+          "title": "MOTION (HERNANDEZ - HUTT) relative to funding for the “Chinatown Mobile Laundry Truck” program in Council District 1.",
+          "recommendation": "AUTHORIZE the General Manager, Los Angeles Housing Department (LAHD), to amend and restate the Los Angeles Homeless Services Authority FY 2025-26 General Funds Homeless Shelter Services Professional Services Agreement to add $250,000 for the “Chinatown Mobile Laundry Truck” program in Council District 1 from July 1, 2025 through June 30, 2026 (Contract No. C-202650). TRANSFER $250,000 from the Council District (CD) 1 Public Benefits Trust Fund Account No. 2025/889/14/14A0025 to the LAHD Fund No. 10A/43, Account No. (TBD), CD 1 Laundry Truck Program. AUTHORIZE the Chief Legislative Analyst to make technical adjustments that may be required and are consistent with this action; and, AUTHORIZE the Controller to implement these instructions. Motion (Hernandez - Hutt) dated 1-09-26",
+          "video_location": "9780",
+          "mig": "5e27357a-47da-4c04-8e90-10c52ba83cdb",
+          "attachments": [
+            {
+              "historyId": "e16a8c29-5cba-4f9e-9af7-f3be7bf46568",
+              "title": "Motion (Hernandez - Hutt) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e16a8c29-5cba-4f9e-9af7-f3be7bf46568",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e16a8c29-5cba-4f9e-9af7-f3be7bf46568"
+            }
+          ]
+        },
+        {
+          "item_id": "158164",
+          "item_number": "(25)",
+          "has_attachments": true,
+          "raw_text": "26-0011-S1\nCD 14\nMOTION (JURADO - HERNANDEZ) relative to reimbursement to the Bureau of Street Lighting for street lighting upgrades completed for the Huntington Drive Sidewalk Improvements Project.\nRecommendations for Council Action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER and APPROPRIATE $75,000 of the Council District 14 portion of the Council Discretionary Street Furniture Fund No. 43D/50 to the Street Lighting Maintenance Assessment Fund No. 347/50, Revenue Source Code 530100 (Reimbursement from Other Funds) for reimbursement of street lighting upgrades that the Bureau of Street Lighting has completed for the Huntington Drive Sidewalk Improvements Project.\nAUTHORIZE the Bureau of Street Lighting to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically or by any other means.\nMotion (Jurado - Hernandez) dated 1-09-26",
+          "council_file": "26-0011-S1",
+          "district": "CD 14",
+          "title": "MOTION (JURADO - HERNANDEZ) relative to reimbursement to the Bureau of Street Lighting for street lighting upgrades completed for the Huntington Drive Sidewalk Improvements Project.",
+          "recommendation": "TRANSFER and APPROPRIATE $75,000 of the Council District 14 portion of the Council Discretionary Street Furniture Fund No. 43D/50 to the Street Lighting Maintenance Assessment Fund No. 347/50, Revenue Source Code 530100 (Reimbursement from Other Funds) for reimbursement of street lighting upgrades that the Bureau of Street Lighting has completed for the Huntington Drive Sidewalk Improvements Project. AUTHORIZE the Bureau of Street Lighting to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically or by any other means. Motion (Jurado - Hernandez) dated 1-09-26",
+          "video_location": "9655",
+          "mig": "752cd019-4489-4463-be55-e645f0d39f08",
+          "attachments": [
+            {
+              "historyId": "66dfe3b0-3ff8-4515-a839-a7ed9d825ae9",
+              "title": "Motion (Jurado - Hernandez) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=66dfe3b0-3ff8-4515-a839-a7ed9d825ae9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=66dfe3b0-3ff8-4515-a839-a7ed9d825ae9"
+            }
+          ]
+        },
+        {
+          "item_id": "158165",
+          "item_number": "(26)",
+          "has_attachments": true,
+          "raw_text": "26-0011-S2\nMOTION (RAMAN - SOTO-MARTINEZ) relative to funding a Task Order Solicitation (TOS) for Planning and Concept Design with Cost Estimates Services for the Los Feliz Boulevard Parkway Cycletrack Planning and Design Scope.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER and APPROPRIATE $325,000 from Transportation Grants Fund No. 655-94, Account No. 94YT6A (Griffith Park Active Transportation, Safety & Facility Infrastructure Project), AND $75,000 from the Council District 4 portion of the Council Street Furniture Fund No. 43D/50 (Total $400,000) to Bureau of Engineering Fund 682/50, Account 50YVLE (Griffith Park ATP) for fully funding a Task Order Solicitation (TOS) for Planning and Concept Design with Cost Estimates Services for the Los Feliz Boulevard Parkway Cycletrack Planning and Design Scope.\nTRANSFER and APPROPRIATE $375,645 from Transportation Grants Fund No. 655-94, Account No. 94Y T6A (Griffith Park Active Transportation, Safety & Facility Infrastructure Project) to Department of Recreation and Parks Fund No. 205/88, Account no. 88YMLS (Griffith Park Active Transp, Safety, & Facility Infra Proj) for fully funding the active transportation and traffic safety improvements of the Griffith Park Safety and Active '.Transportation Improvement Project - Phase III (PRJ21772).\nAUTHORIZE the Department of Transportation to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections/clarifications/changes may be made orally, electronically or by any other means.\nMotion (Raman - Soto-Martinez) dated 1-09-26",
+          "council_file": "26-0011-S2",
+          "title": "MOTION (RAMAN - SOTO-MARTINEZ) relative to funding a Task Order Solicitation (TOS) for Planning and Concept Design with Cost Estimates Services for the Los Feliz Boulevard Parkway Cycletrack Planning and Design Scope.",
+          "recommendation": "TRANSFER and APPROPRIATE $325,000 from Transportation Grants Fund No. 655-94, Account No. 94YT6A (Griffith Park Active Transportation, Safety & Facility Infrastructure Project), AND $75,000 from the Council District 4 portion of the Council Street Furniture Fund No. 43D/50 (Total $400,000) to Bureau of Engineering Fund 682/50, Account 50YVLE (Griffith Park ATP) for fully funding a Task Order Solicitation (TOS) for Planning and Concept Design with Cost Estimates Services for the Los Feliz Boulevard Parkway Cycletrack Planning and Design Scope. TRANSFER and APPROPRIATE $375,645 from Transportation Grants Fund No. 655-94, Account No. 94Y T6A (Griffith Park Active Transportation, Safety & Facility Infrastructure Project) to Department of Recreation and Parks Fund No. 205/88, Account no. 88YMLS (Griffith Park Active Transp, Safety, & Facility Infra Proj) for fully funding the active transportation and traffic safety improvements of the Griffith Park Safety and Active '.Transportation Improvement Project - Phase III (PRJ21772). AUTHORIZE the Department of Transportation to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections/clarifications/changes may be made orally, electronically or by any other means. Motion (Raman - Soto-Martinez) dated 1-09-26",
+          "video_location": "9793",
+          "mig": "61c86ddf-5f1f-4ba1-ad0c-10e8e40263cb",
+          "attachments": [
+            {
+              "historyId": "45882e95-e073-4b06-85a4-20bab2756715",
+              "title": "Motion (Raman - Soto-Martinez) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=45882e95-e073-4b06-85a4-20bab2756715",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=45882e95-e073-4b06-85a4-20bab2756715"
+            }
+          ]
+        },
+        {
+          "item_id": "158166",
+          "item_number": "(27)",
+          "has_attachments": true,
+          "raw_text": "26-0023\nMOTION (PRICE - SOTO-MARTINEZ) relative to a Supplemental City Services Agreement with the Los Angeles Clippers, LLC for the 2026 NBA All-Star Fan Experience Event.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nINSTRUCT the City Administrative Officer (CAO) and Chief Legislative Analyst to negotiate a contract between the City and the Clippers to provide supplemental City services for the NBA All-Star Fan Experience Event, and that the Clippers pay for full reimbursement of all provided supplemental City services, in accordance with Los Angeles Municipal Code Section 41.20.1 (c) Events at Major Sports and Entertainment Venues.\nAUTHORIZE the Council the use of supplemental Police law enforcement services to support the Clippers during the NBA All-Star Fan Experience Event, with full reimbursement of Police law enforcement services, in accordance with California Government Code section 53069.8.\nAUTHORIZE the CAO to execute and administer the contract between the City and Clippers for the above supplemental City services, subject to the approval of the City Attorney as to form and legality.\nMotion (Price - Soto-Martinez) dated 1-09-26",
+          "council_file": "26-0023",
+          "title": "MOTION (PRICE - SOTO-MARTINEZ) relative to a Supplemental City Services Agreement with the Los Angeles Clippers, LLC for the 2026 NBA All-Star Fan Experience Event.",
+          "recommendation": "INSTRUCT the City Administrative Officer (CAO) and Chief Legislative Analyst to negotiate a contract between the City and the Clippers to provide supplemental City services for the NBA All-Star Fan Experience Event, and that the Clippers pay for full reimbursement of all provided supplemental City services, in accordance with Los Angeles Municipal Code Section 41.20.1 (c) Events at Major Sports and Entertainment Venues. AUTHORIZE the Council the use of supplemental Police law enforcement services to support the Clippers during the NBA All-Star Fan Experience Event, with full reimbursement of Police law enforcement services, in accordance with California Government Code section 53069.8. AUTHORIZE the CAO to execute and administer the contract between the City and Clippers for the above supplemental City services, subject to the approval of the City Attorney as to form and legality. Motion (Price - Soto-Martinez) dated 1-09-26",
+          "video_location": "9658",
+          "mig": "ac594332-8f2a-47aa-a1d6-08de632292c0",
+          "attachments": [
+            {
+              "historyId": "8edb480f-a5a1-476d-b451-595011fadc63",
+              "title": "Motion (Price - Soto-Martinez) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8edb480f-a5a1-476d-b451-595011fadc63",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8edb480f-a5a1-476d-b451-595011fadc63"
+            }
+          ]
+        },
+        {
+          "item_id": "158167",
+          "item_number": "(28)",
+          "has_attachments": true,
+          "raw_text": "26-0026\nMOTION (PARK - RODRIGUEZ) relative to funding for services in connection with Council District 11 observance of the Palisades Fire One Year Remembrance, including the illumination of City Hall on January 7, 2026.\nRecommendation for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER and APPROPRIATE $438 from the Council’s portion of the Heritage Month Celebration and Special Events-Council line item in the General City Purposes Fund No. 100/56, to the General Services Fund No. 100/40, Account No. 1100 (Hiring Hall), for services in connection with the Council District 11 observance of the Palisades Fire One Year Remembrance on January 7, 2026, including the illumination of City Hall.\nMotion (Park - Rodriguez) dated 1-09-26",
+          "council_file": "26-0026",
+          "title": "MOTION (PARK - RODRIGUEZ) relative to funding for services in connection with Council District 11 observance of the Palisades Fire One Year Remembrance, including the illumination of City Hall on January 7, 2026.",
+          "recommendation": "TRANSFER and APPROPRIATE $438 from the Council’s portion of the Heritage Month Celebration and Special Events-Council line item in the General City Purposes Fund No. 100/56, to the General Services Fund No. 100/40, Account No. 1100 (Hiring Hall), for services in connection with the Council District 11 observance of the Palisades Fire One Year Remembrance on January 7, 2026, including the illumination of City Hall. Motion (Park - Rodriguez) dated 1-09-26",
+          "video_location": "9658",
+          "mig": "1b6375e1-6724-4473-ac46-edcaeb97bed2",
+          "attachments": [
+            {
+              "historyId": "413f146d-aa5f-4ae3-b427-990738d9ee8c",
+              "title": "Motion (Park - Rodriguez) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=413f146d-aa5f-4ae3-b427-990738d9ee8c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=413f146d-aa5f-4ae3-b427-990738d9ee8c"
+            }
+          ]
+        },
+        {
+          "item_id": "158168",
+          "item_number": "(29)",
+          "has_attachments": true,
+          "raw_text": "26-0011-S3\nCD 10\nMOTION (HUTT - RODRIGUEZ) relative to funding for maintenance along the median of La Cienega Boulevard in Council District Ten (CD 10).\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nTRANSFER and APPROPRIATE $9,600 in the Council District 10 portion of the Council Discretionary Street Furniture Fund No. 43D/50 to the Street Services Fund No. 100/86, Account No. 1090 (Salaries - Overtime) for maintenance along the median of La Cienega Boulevard in Council District 10.\nAUTHORIZE the Bureau of Street Services to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically or by any other means.\nMotion (Hutt - Rodriguez) dated 1-09-26",
+          "council_file": "26-0011-S3",
+          "district": "CD 10",
+          "title": "MOTION (HUTT - RODRIGUEZ) relative to funding for maintenance along the median of La Cienega Boulevard in Council District Ten (CD 10).",
+          "recommendation": "TRANSFER and APPROPRIATE $9,600 in the Council District 10 portion of the Council Discretionary Street Furniture Fund No. 43D/50 to the Street Services Fund No. 100/86, Account No. 1090 (Salaries - Overtime) for maintenance along the median of La Cienega Boulevard in Council District 10. AUTHORIZE the Bureau of Street Services to make any corrections, clarifications or revisions to the above fund transfer instructions, including any new instructions, in order to effectuate the intent of this Motion, and including any corrections and changes to fund or account numbers; said corrections / clarifications / changes may be made orally, electronically or by any other means. Motion (Hutt - Rodriguez) dated 1-09-26",
+          "video_location": "9658",
+          "mig": "0bb7e3e4-39e2-4eaf-99b7-57540a033bcd",
+          "attachments": [
+            {
+              "historyId": "f5e5a2d2-1e07-4315-9cc5-4a950c4875bc",
+              "title": "Motion (Hutt - Rodriguez) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5e5a2d2-1e07-4315-9cc5-4a950c4875bc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f5e5a2d2-1e07-4315-9cc5-4a950c4875bc"
+            }
+          ]
+        },
+        {
+          "item_id": "158169",
+          "item_number": "(30)",
+          "has_attachments": true,
+          "raw_text": "26-0027\nMOTION (PRICE - HUTT) relative to funding any aspect of Black History Month Celebration.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nUTILIZE $50,000 in the Council's portion of the Heritage Month Celebration & Special Events line item in the General City Purposes Fund No. 100/56 to fund any aspect of Black History Month Celebration.\nDIRECT the City Clerk to prepare and process the necessary documents and/or payment in the above purpose, directly with the vendor/service provider, or any other appropriate agency or organization, in the above amount, for the above purpose, subject to the approval of the City Attorney as to form, if needed; and that the City Clerk be authorized to execute any such documents on behalf of the City.\nAUTHORIZE the City Clerk to make any technical correction or clarifications to the above instructions in order to effectuate the intent of this Motion.\nMotion  (Price - Hutt) dated 1-09-26",
+          "council_file": "26-0027",
+          "title": "MOTION (PRICE - HUTT) relative to funding any aspect of Black History Month Celebration.",
+          "recommendation": "UTILIZE $50,000 in the Council's portion of the Heritage Month Celebration & Special Events line item in the General City Purposes Fund No. 100/56 to fund any aspect of Black History Month Celebration. DIRECT the City Clerk to prepare and process the necessary documents and/or payment in the above purpose, directly with the vendor/service provider, or any other appropriate agency or organization, in the above amount, for the above purpose, subject to the approval of the City Attorney as to form, if needed; and that the City Clerk be authorized to execute any such documents on behalf of the City. AUTHORIZE the City Clerk to make any technical correction or clarifications to the above instructions in order to effectuate the intent of this Motion. Motion (Price - Hutt) dated 1-09-26",
+          "video_location": "9658",
+          "mig": "ba34fbb7-bea6-41bc-96ea-c8ed07654387",
+          "attachments": [
+            {
+              "historyId": "d51ca7c3-132a-49ae-869b-ff36a5e4a484",
+              "title": "Motion  (Price - Hutt) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d51ca7c3-132a-49ae-869b-ff36a5e4a484",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d51ca7c3-132a-49ae-869b-ff36a5e4a484"
+            }
+          ]
+        },
+        {
+          "item_id": "158235",
+          "item_number": "(31)",
+          "has_attachments": true,
+          "raw_text": "26-0038\nMOTION (JURADO - YAROSLAVSKY) relative to authorizing the Department of Neighborhood Empowerment (DONE) to use City Hall for the annual Neighborhood Council Budget Day.\nRecommendation for Council action:\nAUTHORIZE the DONE to use the City Hall Rotunda, City Hall Forecourt, John Ferraro Council Chamber, and 10th Floor of City Hall on Saturday, June 27, 2026, from 6:00 a.m. to 4:00 p.m., with the understanding that all costs incurred by the Department of General Services (GSD) associated with this event will be reimbursed to the GSD by the DONE.\nMotion (Jurado - Yaroslavsky) dated 1-13-25",
+          "council_file": "26-0038",
+          "title": "MOTION (JURADO - YAROSLAVSKY) relative to authorizing the Department of Neighborhood Empowerment (DONE) to use City Hall for the annual Neighborhood Council Budget Day.",
+          "recommendation": "AUTHORIZE the DONE to use the City Hall Rotunda, City Hall Forecourt, John Ferraro Council Chamber, and 10th Floor of City Hall on Saturday, June 27, 2026, from 6:00 a.m. to 4:00 p.m., with the understanding that all costs incurred by the Department of General Services (GSD) associated with this event will be reimbursed to the GSD by the DONE. Motion (Jurado - Yaroslavsky) dated 1-13-25",
+          "video_location": "9661",
+          "mig": "29e9d47a-4750-44ce-9ef3-8d067367c38b",
+          "attachments": [
+            {
+              "historyId": "2ce8c242-ae0a-422e-9a56-5bc4b8dcea49",
+              "title": "Motion (Jurado - Yaroslavsky) dated 1-13-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ce8c242-ae0a-422e-9a56-5bc4b8dcea49",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2ce8c242-ae0a-422e-9a56-5bc4b8dcea49"
+            }
+          ]
+        },
+        {
+          "item_id": "158325",
+          "item_number": "(32)",
+          "has_attachments": true,
+          "raw_text": "25-0006-S87\nCONSIDERATION OF MOTION (PARK – HUTT) relative to requesting reports on the cost, funding sources, and legal strategies to complete debris reomoval on all properties within the perimeter of the Pacific Palisades Fire that were abated and have not completed the abatement.\nRecommendations for Council action:\nINSTRUCT the City Administrative Officer, in coordination with the Department of Building and Safety (DBS), to report to Council within 30 days on the estimated cost to complete debris removal on properties that were abated pursuant to Los Angeles Municipal Code (LAMC) Section 91.8907, as well as possible funding sources, including but not limited to the Repair and Demolition Fund, Citywide Nuisance Abatement Fund and the Enterprise Trust Fund, in order to front fund this work.\nINSTRUCT the DBS and REQUEST the City Attorney to evaluate all potential legal strategies, including criminal prosecution, to address all properties within the perimeter of the Palisades Fire that were abated pursuant to LAMC 91.8907 and have not completed the abatement of the documented hazardous conditions.\nCommunity Impact Statement:\nNone submitted\n(Ad Hoc Committee for LA Recovery waived consideration of the above matter.)\nMotion (Park - Hutt) dated 12-10-25",
+          "council_file": "25-0006-S87",
+          "title": "CONSIDERATION OF MOTION (PARK – HUTT) relative to requesting reports on the cost, funding sources, and legal strategies to complete debris reomoval on all properties within the perimeter of the Pacific Palisades Fire that were abated and have not completed the abatement.",
+          "recommendation": "INSTRUCT the City Administrative Officer, in coordination with the Department of Building and Safety (DBS), to report to Council within 30 days on the estimated cost to complete debris removal on properties that were abated pursuant to Los Angeles Municipal Code (LAMC) Section 91.8907, as well as possible funding sources, including but not limited to the Repair and Demolition Fund, Citywide Nuisance Abatement Fund and the Enterprise Trust Fund, in order to front fund this work. INSTRUCT the DBS and REQUEST the City Attorney to evaluate all potential legal strategies, including criminal prosecution, to address all properties within the perimeter of the Palisades Fire that were abated pursuant to LAMC 91.8907 and have not completed the abatement of the documented hazardous conditions. Community Impact Statement: None submitted (Ad Hoc Committee for LA Recovery waived consideration of the above matter.) Motion (Park - Hutt) dated 12-10-25",
+          "video_location": "9661",
+          "mig": "88593b34-a6aa-45b7-9c66-d95756885391",
+          "attachments": [
+            {
+              "historyId": "1ce27d37-43d0-4096-93a2-9ab160704332",
+              "title": "Motion (Park - Hutt) dated 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ce27d37-43d0-4096-93a2-9ab160704332",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ce27d37-43d0-4096-93a2-9ab160704332"
+            }
+          ]
+        },
+        {
+          "item_id": "158329",
+          "item_number": "(33)",
+          "has_attachments": true,
+          "raw_text": "25-0866\nRULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT relative to amending the Los Angeles Administrative Code (LAAC) to require the disclosure of all ex parte communications between Charter Reform Commissioners and elected officials.\nRecommendation for Council action, as initiated by Motion (Rodriguez – Padilla):\nREQUEST the City Attorney to:\nPrepare and present an ordinance that requires members of the Charter Reform Commission to disclose all ex parte communications between Commissioners and elected officials and their staff, similar to the ex parte communications provision outlined in LAAC Section 2.22.\nPrepare a policy that addresses the implications of not completing the disclosure form or completing it incorrectly, entities that may prosecute misdemeanors for violations of the Los Angeles Municipal Code in relation to disclosure of ex parte communications, the prospective application, and the provision of administrative relief for Charter Reform Commissioners.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nYes.\nFor: Los Feliz Neighborhood Council\nFor, if Amended: Reseda Neighborhood Council\nCommunication(s) from Public_01-09-2026\nReport from Rules, Elections and Intergovernmental Relations Committee 12-05-25\nCommunity Impact Statement submitted by Reseda Neighborhood Council_10-28-2025\nCommunication(s) from Public_10-06-2025\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25\nMotion (Rodriguez - Padilla) dated 8-01-25\nSpeaker Card(s)_12-05-2025",
+          "council_file": "25-0866",
+          "title": "RULES, ELECTIONS AND INTERGOVERNMENTAL RELATIONS COMMITTEE REPORT relative to amending the Los Angeles Administrative Code (LAAC) to require the disclosure of all ex parte communications between Charter Reform Commissioners and elected officials.",
+          "recommendation": "REQUEST the City Attorney to: Prepare and present an ordinance that requires members of the Charter Reform Commission to disclose all ex parte communications between Commissioners and elected officials and their staff, similar to the ex parte communications provision outlined in LAAC Section 2.22. Prepare a policy that addresses the implications of not completing the disclosure form or completing it incorrectly, entities that may prosecute misdemeanors for violations of the Los Angeles Municipal Code in relation to disclosure of ex parte communications, the prospective application, and the provision of administrative relief for Charter Reform Commissioners. Fiscal Impact Statement: Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: Yes. For: Los Feliz Neighborhood Council For, if Amended: Reseda Neighborhood Council Communication(s) from Public_01-09-2026 Report from Rules, Elections and Intergovernmental Relations Committee 12-05-25 Community Impact Statement submitted by Reseda Neighborhood Council_10-28-2025 Communication(s) from Public_10-06-2025 Community Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25 Motion (Rodriguez - Padilla) dated 8-01-25 Speaker Card(s)_12-05-2025",
+          "video_location": "9804",
+          "mig": "9b9d2760-e36a-4765-b90d-6c8154fb278c",
+          "attachments": [
+            {
+              "historyId": "1cb16e70-b318-4c19-bfd7-fb484c78b52d",
+              "title": "Communication(s) from Public_01-09-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1cb16e70-b318-4c19-bfd7-fb484c78b52d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1cb16e70-b318-4c19-bfd7-fb484c78b52d"
+            },
+            {
+              "historyId": "d646c47e-3407-4f02-9765-7bad7fb4daf7",
+              "title": "Report from Rules, Elections and Intergovernmental Relations Committee 12-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d646c47e-3407-4f02-9765-7bad7fb4daf7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d646c47e-3407-4f02-9765-7bad7fb4daf7"
+            },
+            {
+              "historyId": "62c7443f-955d-49c2-ab21-5e74b538124c",
+              "title": "Community Impact Statement submitted by Reseda Neighborhood Council_10-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=62c7443f-955d-49c2-ab21-5e74b538124c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=62c7443f-955d-49c2-ab21-5e74b538124c"
+            },
+            {
+              "historyId": "134da5ea-2234-4d90-9ed0-8ab5b5724ced",
+              "title": "Communication(s) from Public_10-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=134da5ea-2234-4d90-9ed0-8ab5b5724ced",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=134da5ea-2234-4d90-9ed0-8ab5b5724ced"
+            },
+            {
+              "historyId": "2b1817aa-678c-4d54-a15e-9046943c119b",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_8-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b1817aa-678c-4d54-a15e-9046943c119b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2b1817aa-678c-4d54-a15e-9046943c119b"
+            },
+            {
+              "historyId": "2958b8fd-3bcc-42b6-be9b-4ecdc44b0777",
+              "title": "Motion (Rodriguez - Padilla) dated 8-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2958b8fd-3bcc-42b6-be9b-4ecdc44b0777",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2958b8fd-3bcc-42b6-be9b-4ecdc44b0777"
+            },
+            {
+              "historyId": "61bf96fc-005d-45e6-b1d8-9eb37323465e",
+              "title": "Speaker Card(s)_12-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=61bf96fc-005d-45e6-b1d8-9eb37323465e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=61bf96fc-005d-45e6-b1d8-9eb37323465e"
+            }
+          ]
+        },
+        {
+          "item_id": "158332",
+          "item_number": "(34)",
+          "has_attachments": true,
+          "raw_text": "17-0653-S1\nCOMMUNICATION FROM THE CITY ATTORNEY and ORDINANCE FIRST CONSIDERATION relative to amending Sections 104.03 and 104.06 of Article 4, Chapter X of the Los Angeles Municipal Code (LAMC) to regulate Commercial Cannabis Activity.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nRELY on Negative Declaration No. ENV-2017-2261-ND, adopted on November 28, 2018, to approve the project.  Find, pursuant to the California Environmental Quality Act  (CEQA) Guidelines Section 15162(b), there are no substantial changes to the project, substantial changes to the circumstances or new information that will require the preparation of an Environmental Impact Report. Based on the whole of the administrative record, the ordinance is exempt pursuant to CEQA Guidelines Sections 15301 (categorical exemption for existing facilities) and 15303 (categorical exemption for new construction or conversion of small structures), and that none of the exceptions under 15300.2 apply. Reliance on a categorical exemption is appropriate when substantial evidence in the record supports a project falls within the categorical exemption and the City determines that none of the exceptions in CEQA Guidelines Section 15300.2 applies.\nPRESENT and ADOPT the accompanying ORDINANCE dated December 9, 2025 amending Sections 104.03 and 104.06 of Article 4, Chapter X of the LAMC to regulate Commercial Cannabis Activity.\nFiscal Impact Statement:\nNone submitted by the City Attorney.  Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.\n(Government Operations Committee waived consideration of the above matter)\nReport from City Attorney dated 12-10-25\nAttachment to Report dated 12-10-25 - Draft Ordinance\nSpeaker Card(s)_12-03-2025\nCouncil Action dated 12-03-25\nAmending Motion (Padilla-Price) 12-3-25\nGovernment Operations Committee Report 11-7-25\nSpeaker Card(s)_11-07-2025\nAmendment to Ordinance 11-7-25\nReport from City Attorney dated 10-31-25\nAttachment to Report dated 10-31-25 - Draft Ordinance\nCouncil Action dated 9-19-25\nGovernment Operations Committee Report 9-5-25\nMotion (Padilla - Price) dated 8-12-25",
+          "council_file": "17-0653-S1",
+          "title": "COMMUNICATION FROM THE CITY ATTORNEY and ORDINANCE FIRST CONSIDERATION relative to amending Sections 104.03 and 104.06 of Article 4, Chapter X of the Los Angeles Municipal Code (LAMC) to regulate Commercial Cannabis Activity.",
+          "recommendation": "RELY on Negative Declaration No. ENV-2017-2261-ND, adopted on November 28, 2018, to approve the project. Find, pursuant to the California Environmental Quality Act (CEQA) Guidelines Section 15162(b), there are no substantial changes to the project, substantial changes to the circumstances or new information that will require the preparation of an Environmental Impact Report. Based on the whole of the administrative record, the ordinance is exempt pursuant to CEQA Guidelines Sections 15301 (categorical exemption for existing facilities) and 15303 (categorical exemption for new construction or conversion of small structures), and that none of the exceptions under 15300.2 apply. Reliance on a categorical exemption is appropriate when substantial evidence in the record supports a project falls within the categorical exemption and the City determines that none of the exceptions in CEQA Guidelines Section 15300.2 applies. PRESENT and ADOPT the accompanying ORDINANCE dated December 9, 2025 amending Sections 104.03 and 104.06 of Article 4, Chapter X of the LAMC to regulate Commercial Cannabis Activity. Fiscal Impact Statement: None submitted by the City Attorney. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. Community Impact Statement: None submitted. (Government Operations Committee waived consideration of the above matter) Report from City Attorney dated 12-10-25 Attachment to Report dated 12-10-25 - Draft Ordinance Speaker Card(s)_12-03-2025 Council Action dated 12-03-25 Amending Motion (Padilla-Price) 12-3-25 Government Operations Committee Report 11-7-25 Speaker Card(s)_11-07-2025 Amendment to Ordinance 11-7-25 Report from City Attorney dated 10-31-25 Attachment to Report dated 10-31-25 - Draft Ordinance Council Action dated 9-19-25 Government Operations Committee Report 9-5-25 Motion (Padilla - Price) dated 8-12-25",
+          "video_location": "9661",
+          "mig": "0e21073d-1e48-499c-b4eb-7d836f4c16fe",
+          "attachments": [
+            {
+              "historyId": "0e3c1142-c088-4755-8223-12284f9e12be",
+              "title": "Report from City Attorney dated 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e3c1142-c088-4755-8223-12284f9e12be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0e3c1142-c088-4755-8223-12284f9e12be"
+            },
+            {
+              "historyId": "17e2921c-74ab-49f8-b578-e6686ce35c6b",
+              "title": "Attachment to Report dated 12-10-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=17e2921c-74ab-49f8-b578-e6686ce35c6b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=17e2921c-74ab-49f8-b578-e6686ce35c6b"
+            },
+            {
+              "historyId": "d6d53e91-d26e-47da-840b-2ad0e2dd5c2a",
+              "title": "Speaker Card(s)_12-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d6d53e91-d26e-47da-840b-2ad0e2dd5c2a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d6d53e91-d26e-47da-840b-2ad0e2dd5c2a"
+            },
+            {
+              "historyId": "b6648f6a-1491-4248-831e-4115815f94d6",
+              "title": "Council Action dated 12-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6648f6a-1491-4248-831e-4115815f94d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b6648f6a-1491-4248-831e-4115815f94d6"
+            },
+            {
+              "historyId": "24fd2a3f-7aaf-4653-8322-ff6039ae2cfe",
+              "title": "Amending Motion (Padilla-Price) 12-3-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=24fd2a3f-7aaf-4653-8322-ff6039ae2cfe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=24fd2a3f-7aaf-4653-8322-ff6039ae2cfe"
+            },
+            {
+              "historyId": "cc4fea1f-0305-4c18-abb3-6373f4346b1f",
+              "title": "Government Operations Committee Report 11-7-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cc4fea1f-0305-4c18-abb3-6373f4346b1f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cc4fea1f-0305-4c18-abb3-6373f4346b1f"
+            },
+            {
+              "historyId": "98f60749-f649-469f-ae6d-52d8bcc3dc82",
+              "title": "Speaker Card(s)_11-07-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=98f60749-f649-469f-ae6d-52d8bcc3dc82",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=98f60749-f649-469f-ae6d-52d8bcc3dc82"
+            },
+            {
+              "historyId": "0a1a9460-7590-4b30-b26a-b2f925594545",
+              "title": "Amendment to Ordinance 11-7-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0a1a9460-7590-4b30-b26a-b2f925594545",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0a1a9460-7590-4b30-b26a-b2f925594545"
+            },
+            {
+              "historyId": "6f3250eb-694b-49b7-8cef-dc4ee7b0a8df",
+              "title": "Report from City Attorney dated 10-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6f3250eb-694b-49b7-8cef-dc4ee7b0a8df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6f3250eb-694b-49b7-8cef-dc4ee7b0a8df"
+            },
+            {
+              "historyId": "02389689-b847-4d68-906b-aeb9c5d34a6a",
+              "title": "Attachment to Report dated 10-31-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=02389689-b847-4d68-906b-aeb9c5d34a6a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=02389689-b847-4d68-906b-aeb9c5d34a6a"
+            },
+            {
+              "historyId": "19f94b36-f233-4373-898f-462c5546e43f",
+              "title": "Council Action dated 9-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=19f94b36-f233-4373-898f-462c5546e43f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=19f94b36-f233-4373-898f-462c5546e43f"
+            },
+            {
+              "historyId": "472a4fe2-97d2-41cf-9996-92ac0ad98b0d",
+              "title": "Government Operations Committee Report 9-5-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=472a4fe2-97d2-41cf-9996-92ac0ad98b0d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=472a4fe2-97d2-41cf-9996-92ac0ad98b0d"
+            },
+            {
+              "historyId": "ba72f4e1-853c-4f3f-8ddd-09639b2721b6",
+              "title": "Motion (Padilla - Price) dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba72f4e1-853c-4f3f-8ddd-09639b2721b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba72f4e1-853c-4f3f-8ddd-09639b2721b6"
+            }
+          ]
+        },
+        {
+          "item_id": "158334",
+          "item_number": "(35)",
+          "has_attachments": true,
+          "raw_text": "26-0034\nCOMMUNICATION FROM THE BOARD OF POLICE COMMISSIONERS (Board) relative to  a donation of three replacement LENCO armored specialty vehicles for the Metropolitan Division.\nRecommendation for Council action:\nACCEPT the donation of three replacement LENCO armored specialty vehicles from the Los Angeles Police Foundation, valued at $1,749,527, for the benefit of the Metropolitan Division of the Los Angeles Police Department; and, THANK the donor for this generous donation.\nFiscal Impact Statement:\nNone submitted by the Board. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\n(Public Safety Committee waived consideration of the above matter)\nReport from Board of Police Commissioners dated 12-12-25",
+          "council_file": "26-0034",
+          "title": "COMMUNICATION FROM THE BOARD OF POLICE COMMISSIONERS (Board) relative to  a donation of three replacement LENCO armored specialty vehicles for the Metropolitan Division.",
+          "recommendation": "ACCEPT the donation of three replacement LENCO armored specialty vehicles from the Los Angeles Police Foundation, valued at $1,749,527, for the benefit of the Metropolitan Division of the Los Angeles Police Department; and, THANK the donor for this generous donation. Fiscal Impact Statement: None submitted by the Board. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report. (Public Safety Committee waived consideration of the above matter) Report from Board of Police Commissioners dated 12-12-25",
+          "video_location": "9834",
+          "mig": "b35ef656-d03e-46a0-9989-e5e20ae738bc",
+          "attachments": [
+            {
+              "historyId": "e5dca383-81ff-44bf-b878-9df3b3c04f66",
+              "title": "Report from Board of Police Commissioners dated 12-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5dca383-81ff-44bf-b878-9df3b3c04f66",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e5dca383-81ff-44bf-b878-9df3b3c04f66"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "359297",
+      "title": "Items Called Special",
+      "items": []
+    },
+    {
+      "section_id": "359298",
+      "title": "Motions for Posting and Referral",
+      "items": []
+    },
+    {
+      "section_id": "359299",
+      "title": "Council Members' Requests for Excuse from Attendance at Council Meetings",
+      "items": []
+    },
+    {
+      "section_id": "359301",
+      "title": "Adjourning Motions",
+      "items": []
+    },
+    {
+      "section_id": "359300",
+      "title": "Council Adjournment",
+      "items": []
+    }
+  ],
+  "total_items": 35,
+  "total_sections": 13,
+  "meeting_datetime": "2026-01-20T18:00:00",
+  "video_url": "https://www.youtube.com/watch?v=PnVR8NtvoOA"
+}

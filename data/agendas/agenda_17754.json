@@ -1,0 +1,289 @@
+{
+  "meeting_id": 17754,
+  "template_id": 150426,
+  "parsed_at": "2026-01-20T20:57:09.030491",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=150426",
+  "sections": [
+    {
+      "section_id": "361438",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "361439",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "361440",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "158313",
+          "item_number": "(1)",
+          "has_attachments": false,
+          "raw_text": "-----\nVerbal update from the Department of Water and Power on the 2026 priorities and goals for the department.",
+          "title": "Verbal update from the Department of Water and Power on the 2026 priorities and goals for the department.",
+          "mig": "5da88ce7-54f3-4184-9eeb-24cc8faa820c"
+        },
+        {
+          "item_id": "158312",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1427\nMotion (Jurado – Soto-Martinez) relative to cooperation from autonomous vehicle (AV) operators on vehicle operations data, and adherence to local hire and workforce investment commitments.\n(This item is referred to the Energy and Environment Committee, Public Safety Committee, Trade, Travel and Tourism Committee, and Transportation Committee. On January 14, 2026, the Public Safety Committee approved this item.)\nCommunity Impact Statement:\nYes\nFor:\nWestside Neighborhood Council\nCommunication(s) from Public_01-13-2026\nCommunity Impact Statement submitted by Westside Neighborhood Council_01-08-2026\nMotion (Jurado - Soto-Martinez) dated 12-02-25",
+          "council_file": "25-1427",
+          "title": "Motion (Jurado – Soto-Martinez) relative to cooperation from autonomous vehicle (AV) operators on vehicle operations data, and adherence to local hire and workforce investment commitments.",
+          "mig": "f1ded6b6-d2df-452d-95af-4deb30ed5a7b",
+          "attachments": [
+            {
+              "historyId": "5c62816f-6588-4597-9d72-94a56dc7d567",
+              "title": "Communication(s) from Public_01-13-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c62816f-6588-4597-9d72-94a56dc7d567",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c62816f-6588-4597-9d72-94a56dc7d567"
+            },
+            {
+              "historyId": "62b542de-7da5-40eb-afa4-92287bec721b",
+              "title": "Community Impact Statement submitted by Westside Neighborhood Council_01-08-2026",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=62b542de-7da5-40eb-afa4-92287bec721b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=62b542de-7da5-40eb-afa4-92287bec721b"
+            },
+            {
+              "historyId": "67c47259-ea36-4814-93ef-bae7c9ceb81c",
+              "title": "Motion (Jurado - Soto-Martinez) dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=67c47259-ea36-4814-93ef-bae7c9ceb81c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=67c47259-ea36-4814-93ef-bae7c9ceb81c"
+            }
+          ]
+        },
+        {
+          "item_id": "158315",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "25-1408\nBoard of Water and Power Commissioners and City Attorney reports, and Ordinance relative to the transfer of money from the Power Revenue Fund to the City Reserve Fund during Fiscal Year 2025-26.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Board of Water and Power Commissioners dated 11-26-25\nAttachment to Report dated 11-26-25 - Board Letter\nAttachment to Report dated 11-26-25 - Resolution\nAttachment to Report dated 11-26-25 - City Transfer FY 2025-26\nReport from City Attorney dated 12-03-25\nAttachment to Report dated 12-03-25 - Ordinance",
+          "council_file": "25-1408",
+          "title": "Board of Water and Power Commissioners and City Attorney reports, and Ordinance relative to the transfer of money from the Power Revenue Fund to the City Reserve Fund during Fiscal Year 2025-26.",
+          "mig": "66ae4ee4-708f-41f5-8045-a969de721bfe",
+          "attachments": [
+            {
+              "historyId": "7aff904c-4227-4a9c-8b56-1c174819d08d",
+              "title": "Report from Board of Water and Power Commissioners dated 11-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7aff904c-4227-4a9c-8b56-1c174819d08d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7aff904c-4227-4a9c-8b56-1c174819d08d"
+            },
+            {
+              "historyId": "67d03254-9f74-46a0-beff-5192bf30d340",
+              "title": "Attachment to Report dated 11-26-25 - Board Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=67d03254-9f74-46a0-beff-5192bf30d340",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=67d03254-9f74-46a0-beff-5192bf30d340"
+            },
+            {
+              "historyId": "a270f7a3-af0a-4063-ad3d-11dfda497dcb",
+              "title": "Attachment to Report dated 11-26-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a270f7a3-af0a-4063-ad3d-11dfda497dcb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a270f7a3-af0a-4063-ad3d-11dfda497dcb"
+            },
+            {
+              "historyId": "0aaee2f7-eb9e-4cf0-919d-40363e063260",
+              "title": "Attachment to Report dated 11-26-25 - City Transfer FY 2025-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0aaee2f7-eb9e-4cf0-919d-40363e063260",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0aaee2f7-eb9e-4cf0-919d-40363e063260"
+            },
+            {
+              "historyId": "42543c27-fcda-4703-b154-d9319f95d680",
+              "title": "Report from City Attorney dated 12-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=42543c27-fcda-4703-b154-d9319f95d680",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=42543c27-fcda-4703-b154-d9319f95d680"
+            },
+            {
+              "historyId": "d0dc2cff-a8a6-417e-90f7-63e7eb3d4cbc",
+              "title": "Attachment to Report dated 12-03-25 - Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0dc2cff-a8a6-417e-90f7-63e7eb3d4cbc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d0dc2cff-a8a6-417e-90f7-63e7eb3d4cbc"
+            }
+          ]
+        },
+        {
+          "item_id": "158316",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-1378\nCD 2\nGeneral Exemption, Board of Water and Power Commissioners and City Attorney reports, and Ordinance relative to a Quitclaim of public water facility easement by Department of Water and Power to Etai Harari and Moriah Harari, husband and wife as community property.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 12-02-25\nAttachment to Report dated 12-02-25 - Draft Ordinance\nReport from Board of Water and Power Commissioners dated 11-19-25\nAttachment to Report dated 11-19-25 - Board Letter\nAttachment to Report dated 11-19-25 - Resolution\nAttachment to Report dated 11-19-25 - Exhibit A and B\nAttachment to Report dated 11-19-25 - CAO Report\nAttachment to Report dated 11-19-25 - Proposed Draft Ordinance\nAttachment to Report dated 11-19-25 - Revised CAO Report",
+          "council_file": "25-1378",
+          "district": "CD 2",
+          "title": "General Exemption, Board of Water and Power Commissioners and City Attorney reports, and Ordinance relative to a Quitclaim of public water facility easement by Department of Water and Power to Etai Harari and Moriah Harari, husband and wife as community property.",
+          "mig": "706b5f69-4ced-4fa3-9fb8-e1a3f531d52d",
+          "attachments": [
+            {
+              "historyId": "f3e31ab6-ccc4-4215-be5d-d98cc77727c0",
+              "title": "Report from City Attorney dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f3e31ab6-ccc4-4215-be5d-d98cc77727c0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f3e31ab6-ccc4-4215-be5d-d98cc77727c0"
+            },
+            {
+              "historyId": "763381dd-f1e9-40d5-8613-43abcb389233",
+              "title": "Attachment to Report dated 12-02-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=763381dd-f1e9-40d5-8613-43abcb389233",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=763381dd-f1e9-40d5-8613-43abcb389233"
+            },
+            {
+              "historyId": "af30803b-e599-4f37-a2eb-0cdce08c0ac7",
+              "title": "Report from Board of Water and Power Commissioners dated 11-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af30803b-e599-4f37-a2eb-0cdce08c0ac7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af30803b-e599-4f37-a2eb-0cdce08c0ac7"
+            },
+            {
+              "historyId": "7ee4aab2-2c2e-4f3a-ab77-77e36f88375c",
+              "title": "Attachment to Report dated 11-19-25 - Board Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ee4aab2-2c2e-4f3a-ab77-77e36f88375c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7ee4aab2-2c2e-4f3a-ab77-77e36f88375c"
+            },
+            {
+              "historyId": "b5d14af1-cff8-425f-aa1e-2ea69f47a1bd",
+              "title": "Attachment to Report dated 11-19-25 - Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5d14af1-cff8-425f-aa1e-2ea69f47a1bd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b5d14af1-cff8-425f-aa1e-2ea69f47a1bd"
+            },
+            {
+              "historyId": "b7d81a76-6787-49d7-b012-20558d03c869",
+              "title": "Attachment to Report dated 11-19-25 - Exhibit A and B",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b7d81a76-6787-49d7-b012-20558d03c869",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b7d81a76-6787-49d7-b012-20558d03c869"
+            },
+            {
+              "historyId": "b3ed2d61-4690-4e70-8dab-0a83a70a2d35",
+              "title": "Attachment to Report dated 11-19-25 - CAO Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3ed2d61-4690-4e70-8dab-0a83a70a2d35",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b3ed2d61-4690-4e70-8dab-0a83a70a2d35"
+            },
+            {
+              "historyId": "c3dc91d3-c7a8-48cc-bd67-2f8d40cb821e",
+              "title": "Attachment to Report dated 11-19-25 - Proposed Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c3dc91d3-c7a8-48cc-bd67-2f8d40cb821e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c3dc91d3-c7a8-48cc-bd67-2f8d40cb821e"
+            },
+            {
+              "historyId": "15e30fcc-2317-4fc7-a57c-106bd41bd283",
+              "title": "Attachment to Report dated 11-19-25 - Revised CAO Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=15e30fcc-2317-4fc7-a57c-106bd41bd283",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=15e30fcc-2317-4fc7-a57c-106bd41bd283"
+            }
+          ]
+        },
+        {
+          "item_id": "158317",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "25-0437\nCity Attorney report and Ordinance relative to use the progressive design-build project delivery method and the competitive sealed proposal selection process for the Hyperion Water Reclamation Plant Phase 1A Recycled Water Foundational Infrastructure Project.\n(This item is referred to the Energy and Environment Committee and Public Works Committee.)\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nReport from City Attorney dated 12-23-25\nAttachment to Report dated 12-23-25 - Draft Ordinance\nCouncil Action dated 7-03-25\nJoint report from Public Works Committee and Energy and Environment Committee_05-20-25\nSpeaker Card(s)_06-11-2025\nSpeaker Card(s)_05-20-2025\nReport from Board of Public Works dated 4-11-25",
+          "council_file": "25-0437",
+          "title": "City Attorney report and Ordinance relative to use the progressive design-build project delivery method and the competitive sealed proposal selection process for the Hyperion Water Reclamation Plant Phase 1A Recycled Water Foundational Infrastructure Project.",
+          "mig": "7d43bbd8-ded9-4211-b528-2c50922ede01",
+          "attachments": [
+            {
+              "historyId": "307ee2c6-d16b-47cc-84b8-23e1c835724f",
+              "title": "Report from City Attorney dated 12-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=307ee2c6-d16b-47cc-84b8-23e1c835724f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=307ee2c6-d16b-47cc-84b8-23e1c835724f"
+            },
+            {
+              "historyId": "f46173e9-0149-4dfe-893d-33168a3c3b92",
+              "title": "Attachment to Report dated 12-23-25 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f46173e9-0149-4dfe-893d-33168a3c3b92",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f46173e9-0149-4dfe-893d-33168a3c3b92"
+            },
+            {
+              "historyId": "e8baec69-cdfc-4fff-82d7-05370dd6d746",
+              "title": "Council Action dated 7-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8baec69-cdfc-4fff-82d7-05370dd6d746",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8baec69-cdfc-4fff-82d7-05370dd6d746"
+            },
+            {
+              "historyId": "660797de-3ee8-44f4-a959-dc78f6518618",
+              "title": "Joint report from Public Works Committee and Energy and Environment Committee_05-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=660797de-3ee8-44f4-a959-dc78f6518618",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=660797de-3ee8-44f4-a959-dc78f6518618"
+            },
+            {
+              "historyId": "06578e2d-9156-401a-9015-f4402367c18a",
+              "title": "Speaker Card(s)_06-11-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=06578e2d-9156-401a-9015-f4402367c18a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=06578e2d-9156-401a-9015-f4402367c18a"
+            },
+            {
+              "historyId": "024f8382-a853-4979-92c4-7e9c0eb2e681",
+              "title": "Speaker Card(s)_05-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=024f8382-a853-4979-92c4-7e9c0eb2e681",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=024f8382-a853-4979-92c4-7e9c0eb2e681"
+            },
+            {
+              "historyId": "d77741d5-8b58-4bc7-83a0-3c4e78928e83",
+              "title": "Report from Board of Public Works dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d77741d5-8b58-4bc7-83a0-3c4e78928e83",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d77741d5-8b58-4bc7-83a0-3c4e78928e83"
+            }
+          ]
+        },
+        {
+          "item_id": "158318",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "13-1526-S5\nCity Administrative Officer report relative to budget adjustments and funding considerations for the Fiscal Year 2025-26 Proposition O Program.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 12-17-25",
+          "council_file": "13-1526-S5",
+          "title": "City Administrative Officer report relative to budget adjustments and funding considerations for the Fiscal Year 2025-26 Proposition O Program.",
+          "mig": "fb001ff9-2d6e-4766-ab63-47d76c1780d1",
+          "attachments": [
+            {
+              "historyId": "d3eb0da2-d662-46b3-a49d-01ab402ce180",
+              "title": "Report from City Administrative Officer dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3eb0da2-d662-46b3-a49d-01ab402ce180",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d3eb0da2-d662-46b3-a49d-01ab402ce180"
+            }
+          ]
+        },
+        {
+          "item_id": "158319",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "06-2072-S3\nBoard of Water and Power Commissioners report relative to the Third Amendment to the agreement with URS Corporation Americas for the North Haiwee Dam Seismic Improvement Project.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - JANUARY 25, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 23, 2026)\nReport from Board of Water and Power Commissioners dated 11-21-25\nAttachment to Report dated 11-21-25 - Board Letter\nAttachment to Report dated 11-21-25 - Board Resolution\nAttachment to Report dated 11-21-25 - Amendment No. 3\nAttachment to Report dated 11-21-25 - CAO Report",
+          "council_file": "06-2072-S3",
+          "title": "Board of Water and Power Commissioners report relative to the Third Amendment to the agreement with URS Corporation Americas for the North Haiwee Dam Seismic Improvement Project.",
+          "mig": "cebe4b8c-85c0-44c9-8efe-24a43b24e68a",
+          "attachments": [
+            {
+              "historyId": "cd7a3bc3-1342-438c-b948-07fa9f3e0ca6",
+              "title": "Report from Board of Water and Power Commissioners dated 11-21-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd7a3bc3-1342-438c-b948-07fa9f3e0ca6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cd7a3bc3-1342-438c-b948-07fa9f3e0ca6"
+            },
+            {
+              "historyId": "528e5c44-9421-43de-8fd7-8b3071073cdb",
+              "title": "Attachment to Report dated 11-21-25 - Board Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=528e5c44-9421-43de-8fd7-8b3071073cdb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=528e5c44-9421-43de-8fd7-8b3071073cdb"
+            },
+            {
+              "historyId": "cfc7fc7b-d667-4029-bfe6-fc8adbad89bb",
+              "title": "Attachment to Report dated 11-21-25 - Board Resolution",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfc7fc7b-d667-4029-bfe6-fc8adbad89bb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfc7fc7b-d667-4029-bfe6-fc8adbad89bb"
+            },
+            {
+              "historyId": "aa43d42a-20cd-4666-b169-755192dcdbf9",
+              "title": "Attachment to Report dated 11-21-25 - Amendment No. 3",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa43d42a-20cd-4666-b169-755192dcdbf9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aa43d42a-20cd-4666-b169-755192dcdbf9"
+            },
+            {
+              "historyId": "23af64b9-6778-4548-bcd4-2ac216b3faf8",
+              "title": "Attachment to Report dated 11-21-25 - CAO Report",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=23af64b9-6778-4548-bcd4-2ac216b3faf8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=23af64b9-6778-4548-bcd4-2ac216b3faf8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 7,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-20T23:30:00",
+  "video_url": "https://www.youtube.com/watch?v=bJXOzsWv4CY"
+}

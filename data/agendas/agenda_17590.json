@@ -1,0 +1,468 @@
+{
+  "meeting_id": 17590,
+  "template_id": 148732,
+  "parsed_at": "2026-01-20T20:57:07.314954",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=148732",
+  "sections": [
+    {
+      "section_id": "359163",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359164",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "359165",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "158285",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "15-1138-S33\nCity Administrative Officer report relative to the State Shelter Crisis Declaration Status Report for Fiscal Year 2024-25.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nCommunication(s) from Public_12-24-2025\nReport from City Administrative Officer dated 12-23-25\nCouncil Action dated 3-04-25\nSpeaker Card(s)_02-12-2025\nReport from Housing and Homelessness Committee - 2-12-25\nSpeaker Card(s)_01-29-2025\nCouncil Action dated 12-14-23\nReport from City Administrative Officer dated 12-06-24\nReport from Housing and Homelessness Committee_12-6-2023\nReport from City Administrative Officer dated 12-01-23.pdf\nCouncil Action  dated 5-17-23\nSpeaker Card(s)_05-16-2023\nReport from Housing and Homelessness Committee 1-18-23\nReport from Homeless Strategy Committee dated 1-05-23\nCouncil Action  dated 11-26-21\nReport from the Homelessness and Poverty Committee_11-15-21\nReport from Homeless Strategy Committee dated 11-05-21.pdf\nCouncil Action 10_29_2020\nReport from Homelessness and Poverty Committee 10_08_2020\nReport from City Administrative Officer 09_30_2020\nCouncil Action 12_12_2019\nSpeaker Card(s) 12_11_2019\nSpeaker Card(s) 12_04_2019\nReport from Homelessness and Poverty Committee 12_04_2019\nReport from Homeless Strategy Committee 11_25_2019\nCouncil Action 07_03_2019\nSpeaker Card(s) 06_28_2019\nSpeaker Card(s) 06_26_2019\nSpeaker Card(s) 06_19_2019\nReport from Homelessness and Poverty Committee 06_19_2019\nCommunity Impact Statement submitted by East Hollywood Neighborhood Council 06_1\nReport from Homeless Strategy Committee 06_03_2019\nSpeaker Card(s) 04_17_2018\nCouncil Action 04_17_2018\nMotion 04_13_2018\nSpeaker Card(s)_02-28-2025",
+          "council_file": "15-1138-S33",
+          "title": "City Administrative Officer report relative to the State Shelter Crisis Declaration Status Report for Fiscal Year 2024-25.",
+          "mig": "bbd03407-283e-424c-a9dc-0e6954722686",
+          "attachments": [
+            {
+              "historyId": "850c45ad-d15e-4d79-9dd3-cfbc810cc3e9",
+              "title": "Communication(s) from Public_12-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=850c45ad-d15e-4d79-9dd3-cfbc810cc3e9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=850c45ad-d15e-4d79-9dd3-cfbc810cc3e9"
+            },
+            {
+              "historyId": "a1e396dd-a419-448d-bc30-be70ae2ddb0c",
+              "title": "Report from City Administrative Officer dated 12-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1e396dd-a419-448d-bc30-be70ae2ddb0c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a1e396dd-a419-448d-bc30-be70ae2ddb0c"
+            },
+            {
+              "historyId": "26117e2d-3cee-4876-ab36-dcfc8a2a4fdb",
+              "title": "Council Action dated 3-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=26117e2d-3cee-4876-ab36-dcfc8a2a4fdb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=26117e2d-3cee-4876-ab36-dcfc8a2a4fdb"
+            },
+            {
+              "historyId": "cd9b4683-cd66-4276-a218-702f24f487fb",
+              "title": "Speaker Card(s)_02-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd9b4683-cd66-4276-a218-702f24f487fb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cd9b4683-cd66-4276-a218-702f24f487fb"
+            },
+            {
+              "historyId": "41d385be-eabf-434d-b80c-45075a81dec8",
+              "title": "Report from Housing and Homelessness Committee - 2-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41d385be-eabf-434d-b80c-45075a81dec8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=41d385be-eabf-434d-b80c-45075a81dec8"
+            },
+            {
+              "historyId": "9dc85118-87a5-45ef-bf9b-b3d5a569f40a",
+              "title": "Speaker Card(s)_01-29-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9dc85118-87a5-45ef-bf9b-b3d5a569f40a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9dc85118-87a5-45ef-bf9b-b3d5a569f40a"
+            },
+            {
+              "historyId": "6c69165c-32ed-40ca-a70d-092276099e9a",
+              "title": "Council Action dated 12-14-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c69165c-32ed-40ca-a70d-092276099e9a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6c69165c-32ed-40ca-a70d-092276099e9a"
+            },
+            {
+              "historyId": "d1163d67-2da9-4272-9aa2-9128c3da9fc2",
+              "title": "Report from City Administrative Officer dated 12-06-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1163d67-2da9-4272-9aa2-9128c3da9fc2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d1163d67-2da9-4272-9aa2-9128c3da9fc2"
+            },
+            {
+              "historyId": "85cdfa0b-bd9c-4a27-a969-5df45b64da9a",
+              "title": "Report from Housing and Homelessness Committee_12-6-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=85cdfa0b-bd9c-4a27-a969-5df45b64da9a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=85cdfa0b-bd9c-4a27-a969-5df45b64da9a"
+            },
+            {
+              "historyId": "ae90b2ef-1dd8-44cd-b9e4-e05ead03b694",
+              "title": "Report from City Administrative Officer dated 12-01-23.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ae90b2ef-1dd8-44cd-b9e4-e05ead03b694",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ae90b2ef-1dd8-44cd-b9e4-e05ead03b694"
+            },
+            {
+              "historyId": "197b69f6-9bdf-4574-9113-24fc27ed42d6",
+              "title": "Council Action  dated 5-17-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=197b69f6-9bdf-4574-9113-24fc27ed42d6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=197b69f6-9bdf-4574-9113-24fc27ed42d6"
+            },
+            {
+              "historyId": "1e2a97ab-828d-4609-86e7-e86f0d0a4f4a",
+              "title": "Speaker Card(s)_05-16-2023",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e2a97ab-828d-4609-86e7-e86f0d0a4f4a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1e2a97ab-828d-4609-86e7-e86f0d0a4f4a"
+            },
+            {
+              "historyId": "e4644d4a-b2b0-4f3d-a7ed-84abe465c6b3",
+              "title": "Report from Housing and Homelessness Committee 1-18-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4644d4a-b2b0-4f3d-a7ed-84abe465c6b3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e4644d4a-b2b0-4f3d-a7ed-84abe465c6b3"
+            },
+            {
+              "historyId": "9b087c97-23da-45cc-a03e-0a242fc926bd",
+              "title": "Report from Homeless Strategy Committee dated 1-05-23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b087c97-23da-45cc-a03e-0a242fc926bd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9b087c97-23da-45cc-a03e-0a242fc926bd"
+            },
+            {
+              "historyId": "9171808b-b146-4d2f-a517-05553382a7cb",
+              "title": "Council Action  dated 11-26-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9171808b-b146-4d2f-a517-05553382a7cb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9171808b-b146-4d2f-a517-05553382a7cb"
+            },
+            {
+              "historyId": "f6912a88-07c7-4198-a5d3-06e7e93f8238",
+              "title": "Report from the Homelessness and Poverty Committee_11-15-21",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6912a88-07c7-4198-a5d3-06e7e93f8238",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f6912a88-07c7-4198-a5d3-06e7e93f8238"
+            },
+            {
+              "historyId": "72714ed0-d626-4e25-849a-5ed3edef5946",
+              "title": "Report from Homeless Strategy Committee dated 11-05-21.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=72714ed0-d626-4e25-849a-5ed3edef5946",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=72714ed0-d626-4e25-849a-5ed3edef5946"
+            },
+            {
+              "historyId": "a2ff695e-5a73-40d3-9d32-bc5210cf8ced",
+              "title": "Council Action 10_29_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2ff695e-5a73-40d3-9d32-bc5210cf8ced",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a2ff695e-5a73-40d3-9d32-bc5210cf8ced"
+            },
+            {
+              "historyId": "772ca53d-37c6-4c1e-9e4c-601cff4c12ed",
+              "title": "Report from Homelessness and Poverty Committee 10_08_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=772ca53d-37c6-4c1e-9e4c-601cff4c12ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=772ca53d-37c6-4c1e-9e4c-601cff4c12ed"
+            },
+            {
+              "historyId": "3c9f6784-fb28-4c9b-9b6f-fc64f3f0fdc5",
+              "title": "Report from City Administrative Officer 09_30_2020",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c9f6784-fb28-4c9b-9b6f-fc64f3f0fdc5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3c9f6784-fb28-4c9b-9b6f-fc64f3f0fdc5"
+            },
+            {
+              "historyId": "41d25cf9-64e9-498f-b74f-1da9afd51d0b",
+              "title": "Council Action 12_12_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41d25cf9-64e9-498f-b74f-1da9afd51d0b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=41d25cf9-64e9-498f-b74f-1da9afd51d0b"
+            },
+            {
+              "historyId": "4a5115b3-b3bf-4388-b1bb-04fe8a336a84",
+              "title": "Speaker Card(s) 12_11_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a5115b3-b3bf-4388-b1bb-04fe8a336a84",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4a5115b3-b3bf-4388-b1bb-04fe8a336a84"
+            },
+            {
+              "historyId": "bbfd92a6-340d-48ba-bdc4-6c8acb699d12",
+              "title": "Speaker Card(s) 12_04_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=bbfd92a6-340d-48ba-bdc4-6c8acb699d12",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=bbfd92a6-340d-48ba-bdc4-6c8acb699d12"
+            },
+            {
+              "historyId": "73c6c043-01b6-4146-80f6-71e60a401f58",
+              "title": "Report from Homelessness and Poverty Committee 12_04_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=73c6c043-01b6-4146-80f6-71e60a401f58",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=73c6c043-01b6-4146-80f6-71e60a401f58"
+            },
+            {
+              "historyId": "ec90adf4-1cdd-4158-a770-a6511654e03e",
+              "title": "Report from Homeless Strategy Committee 11_25_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec90adf4-1cdd-4158-a770-a6511654e03e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec90adf4-1cdd-4158-a770-a6511654e03e"
+            },
+            {
+              "historyId": "b32ac457-d695-41a2-9e26-46f10f2055f5",
+              "title": "Council Action 07_03_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b32ac457-d695-41a2-9e26-46f10f2055f5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b32ac457-d695-41a2-9e26-46f10f2055f5"
+            },
+            {
+              "historyId": "31ed18c6-217b-4dc7-aa7a-b3e15a9c37eb",
+              "title": "Speaker Card(s) 06_28_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=31ed18c6-217b-4dc7-aa7a-b3e15a9c37eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=31ed18c6-217b-4dc7-aa7a-b3e15a9c37eb"
+            },
+            {
+              "historyId": "40a51b1f-a4f6-45d3-bcec-c88893ab4f6e",
+              "title": "Speaker Card(s) 06_26_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=40a51b1f-a4f6-45d3-bcec-c88893ab4f6e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=40a51b1f-a4f6-45d3-bcec-c88893ab4f6e"
+            },
+            {
+              "historyId": "1b4a1603-e89f-4cbe-ad03-a751b24be6d5",
+              "title": "Speaker Card(s) 06_19_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b4a1603-e89f-4cbe-ad03-a751b24be6d5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1b4a1603-e89f-4cbe-ad03-a751b24be6d5"
+            },
+            {
+              "historyId": "18b5b806-9eac-4a91-8a9d-bab7cdc8c2ce",
+              "title": "Report from Homelessness and Poverty Committee 06_19_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=18b5b806-9eac-4a91-8a9d-bab7cdc8c2ce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=18b5b806-9eac-4a91-8a9d-bab7cdc8c2ce"
+            },
+            {
+              "historyId": "e4429d58-b783-46fb-adee-7647a6ab500d",
+              "title": "Community Impact Statement submitted by East Hollywood Neighborhood Council 06_1",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4429d58-b783-46fb-adee-7647a6ab500d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e4429d58-b783-46fb-adee-7647a6ab500d"
+            },
+            {
+              "historyId": "6064d0ab-c8b4-49fd-8d2b-21724f300359",
+              "title": "Report from Homeless Strategy Committee 06_03_2019",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6064d0ab-c8b4-49fd-8d2b-21724f300359",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6064d0ab-c8b4-49fd-8d2b-21724f300359"
+            },
+            {
+              "historyId": "da88c9c3-a3b1-4c0b-a8db-8c81b08677bc",
+              "title": "Speaker Card(s) 04_17_2018",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=da88c9c3-a3b1-4c0b-a8db-8c81b08677bc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=da88c9c3-a3b1-4c0b-a8db-8c81b08677bc"
+            },
+            {
+              "historyId": "a744c430-04d5-40df-81df-f7c455d513c2",
+              "title": "Council Action 04_17_2018",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a744c430-04d5-40df-81df-f7c455d513c2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a744c430-04d5-40df-81df-f7c455d513c2"
+            },
+            {
+              "historyId": "d841ad60-eecc-4e27-a3c5-a0a3971a1253",
+              "title": "Motion 04_13_2018",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d841ad60-eecc-4e27-a3c5-a0a3971a1253",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d841ad60-eecc-4e27-a3c5-a0a3971a1253"
+            },
+            {
+              "historyId": "cfb3d910-34c6-4abd-9125-63642c0fa866",
+              "title": "Speaker Card(s)_02-28-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfb3d910-34c6-4abd-9125-63642c0fa866",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cfb3d910-34c6-4abd-9125-63642c0fa866"
+            }
+          ]
+        },
+        {
+          "item_id": "158335",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "23-1022-S18\nCity Administrative Officer report relative to proposed change to the services provided by the Time Limited Subsidy (TLS) Program in relation to the Alliance Settlement Agreement Program; and associated increase in the annual TLS bed rate; and related matters.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from City Administrative Officer dated 1-16-26\nCouncil Action - Mayor Concurrence dated 10-01-25\nSpeaker Card(s)_09-25-2025\nCommunication(s) from Public_09-25-2025\nReport from Housing and Homelessness Committee - 9-25-25\nCommunication(s) from Public_09-24-2025\nReport from City Administrative Officer dated 9-24-25\nCommunication from City Administrative Officer - Presentation - 9-17-25\nSpeaker Card(s)_09-17-2025\nReport from City Administrative Officer dated 9-16-25\nCouncil Action dated 8-18-25\nSpeaker Card(s)_08-13-2025\nReport from Housing and Homelessness Committee - 7-30-25\nSpeaker Card(s)_07-30-2025\nMotion (Raman - Price) dated 6-27-25",
+          "council_file": "23-1022-S18",
+          "title": "City Administrative Officer report relative to proposed change to the services provided by the Time Limited Subsidy (TLS) Program in relation to the Alliance Settlement Agreement Program; and associated increase in the annual TLS bed rate; and related matters.",
+          "mig": "65d177ad-4334-4c89-acc3-0bf0e3bfe980",
+          "attachments": [
+            {
+              "historyId": "c17aa98b-02e3-4bbb-a422-5e0aaf19f62d",
+              "title": "Report from City Administrative Officer dated 1-16-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c17aa98b-02e3-4bbb-a422-5e0aaf19f62d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c17aa98b-02e3-4bbb-a422-5e0aaf19f62d"
+            },
+            {
+              "historyId": "71bbb4fc-befa-4e29-bdbe-b125a5f1f214",
+              "title": "Council Action - Mayor Concurrence dated 10-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=71bbb4fc-befa-4e29-bdbe-b125a5f1f214",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=71bbb4fc-befa-4e29-bdbe-b125a5f1f214"
+            },
+            {
+              "historyId": "057b23a0-2e66-4f9b-8438-1fd4d5eb4921",
+              "title": "Speaker Card(s)_09-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=057b23a0-2e66-4f9b-8438-1fd4d5eb4921",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=057b23a0-2e66-4f9b-8438-1fd4d5eb4921"
+            },
+            {
+              "historyId": "e2260a78-6c13-45d0-b600-0548dd11499a",
+              "title": "Communication(s) from Public_09-25-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2260a78-6c13-45d0-b600-0548dd11499a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e2260a78-6c13-45d0-b600-0548dd11499a"
+            },
+            {
+              "historyId": "5ebcaf61-4328-4bfd-b05d-3dd9d78f295d",
+              "title": "Report from Housing and Homelessness Committee - 9-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ebcaf61-4328-4bfd-b05d-3dd9d78f295d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5ebcaf61-4328-4bfd-b05d-3dd9d78f295d"
+            },
+            {
+              "historyId": "c4d3eef5-a65c-4969-97b1-f4a8f8b9bbcf",
+              "title": "Communication(s) from Public_09-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c4d3eef5-a65c-4969-97b1-f4a8f8b9bbcf",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c4d3eef5-a65c-4969-97b1-f4a8f8b9bbcf"
+            },
+            {
+              "historyId": "fd5083fe-3b9a-4b9a-877f-9e897b0d8e30",
+              "title": "Report from City Administrative Officer dated 9-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd5083fe-3b9a-4b9a-877f-9e897b0d8e30",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fd5083fe-3b9a-4b9a-877f-9e897b0d8e30"
+            },
+            {
+              "historyId": "37c3559d-5e3d-4785-9f4e-af34fc177865",
+              "title": "Communication from City Administrative Officer - Presentation - 9-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=37c3559d-5e3d-4785-9f4e-af34fc177865",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=37c3559d-5e3d-4785-9f4e-af34fc177865"
+            },
+            {
+              "historyId": "af00da18-fec1-4c04-a253-44d4c62fe537",
+              "title": "Speaker Card(s)_09-17-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=af00da18-fec1-4c04-a253-44d4c62fe537",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=af00da18-fec1-4c04-a253-44d4c62fe537"
+            },
+            {
+              "historyId": "80b159a2-1ca0-4a1b-8e02-d8d5fa2de2eb",
+              "title": "Report from City Administrative Officer dated 9-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=80b159a2-1ca0-4a1b-8e02-d8d5fa2de2eb",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=80b159a2-1ca0-4a1b-8e02-d8d5fa2de2eb"
+            },
+            {
+              "historyId": "8a4ceca8-ee01-4922-a2e3-fca54d381e63",
+              "title": "Council Action dated 8-18-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a4ceca8-ee01-4922-a2e3-fca54d381e63",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8a4ceca8-ee01-4922-a2e3-fca54d381e63"
+            },
+            {
+              "historyId": "20b3ea1b-6e36-45ae-acf2-c0222b60324f",
+              "title": "Speaker Card(s)_08-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20b3ea1b-6e36-45ae-acf2-c0222b60324f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20b3ea1b-6e36-45ae-acf2-c0222b60324f"
+            },
+            {
+              "historyId": "849f2f7e-7081-49d9-9ffe-e53c7cc65981",
+              "title": "Report from Housing and Homelessness Committee - 7-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=849f2f7e-7081-49d9-9ffe-e53c7cc65981",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=849f2f7e-7081-49d9-9ffe-e53c7cc65981"
+            },
+            {
+              "historyId": "4bcfa45e-7cac-4887-8d85-304205911694",
+              "title": "Speaker Card(s)_07-30-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bcfa45e-7cac-4887-8d85-304205911694",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4bcfa45e-7cac-4887-8d85-304205911694"
+            },
+            {
+              "historyId": "384c133e-c7dd-4030-a1d4-6040cdc4c71b",
+              "title": "Motion (Raman - Price) dated 6-27-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=384c133e-c7dd-4030-a1d4-6040cdc4c71b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=384c133e-c7dd-4030-a1d4-6040cdc4c71b"
+            }
+          ]
+        },
+        {
+          "item_id": "157086",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "23-0038-S11\nCity Administrative Officer and Los Angeles Housing Department reports relative to staffing requests to support the implementation and administration of United to House LA Programs.\n(This item is referred to the Housing and Homelessness Committee and the Personnel and Hiring Committee.)\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nYes\nFor, if amended: Los Feliz Neighborhood Council\nCommunication from Los Angeles Housing Department  dated 12-11-25 - ULA COC Motion Letter\nCommunity Impact Statement submitted by Los Feliz Neighborhood Council_11-26-2025\nReport from City Administrative Officer dated 11-25-25\nReport from Los Angeles Housing Department dated 10-03-25",
+          "council_file": "23-0038-S11",
+          "title": "City Administrative Officer and Los Angeles Housing Department reports relative to staffing requests to support the implementation and administration of United to House LA Programs.",
+          "mig": "73286378-bf2d-43b9-b820-51f873a107b1",
+          "attachments": [
+            {
+              "historyId": "3cae659c-6106-4428-8437-5d3db6992275",
+              "title": "Communication from Los Angeles Housing Department  dated 12-11-25 - ULA COC Motion Letter",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cae659c-6106-4428-8437-5d3db6992275",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3cae659c-6106-4428-8437-5d3db6992275"
+            },
+            {
+              "historyId": "6a6faa4c-53de-44ff-94d3-b3f2014b74b6",
+              "title": "Community Impact Statement submitted by Los Feliz Neighborhood Council_11-26-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a6faa4c-53de-44ff-94d3-b3f2014b74b6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6a6faa4c-53de-44ff-94d3-b3f2014b74b6"
+            },
+            {
+              "historyId": "92823f21-ced2-4042-9d43-74a1a4c90504",
+              "title": "Report from City Administrative Officer dated 11-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=92823f21-ced2-4042-9d43-74a1a4c90504",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=92823f21-ced2-4042-9d43-74a1a4c90504"
+            },
+            {
+              "historyId": "449aeae1-597c-40fc-b0d8-572d0dfb6cb7",
+              "title": "Report from Los Angeles Housing Department dated 10-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=449aeae1-597c-40fc-b0d8-572d0dfb6cb7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=449aeae1-597c-40fc-b0d8-572d0dfb6cb7"
+            }
+          ]
+        },
+        {
+          "item_id": "158273",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "25-0400\nLos Angeles Housing Department report relative to the deployment of Los Angeles County Affordable Housing Solutions Agency (LACAHSA) funds in the City; approval of Fiscal Year 2025-26 Expenditure Plan, Memorandum of Understanding; and related matters.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Los Angeles Housing Department dated 1-07-26\nCouncil Action dated 5-09-25\nReport from Housing and Homelessness Committee - 4-23-25\nSpeaker Card(s)_04-23-2025\nMotion (Raman - Harris-Dawson) dated 4-11-25",
+          "council_file": "25-0400",
+          "title": "Los Angeles Housing Department report relative to the deployment of Los Angeles County Affordable Housing Solutions Agency (LACAHSA) funds in the City; approval of Fiscal Year 2025-26 Expenditure Plan, Memorandum of Understanding; and related matters.",
+          "mig": "f28ba64a-74c3-4db1-874f-5f6b274ebe3f",
+          "attachments": [
+            {
+              "historyId": "7fcb2a38-f178-4292-895e-06a333773caa",
+              "title": "Report from Los Angeles Housing Department dated 1-07-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7fcb2a38-f178-4292-895e-06a333773caa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7fcb2a38-f178-4292-895e-06a333773caa"
+            },
+            {
+              "historyId": "61f93bf9-d18b-4114-9aad-ca8f1380e82f",
+              "title": "Council Action dated 5-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=61f93bf9-d18b-4114-9aad-ca8f1380e82f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=61f93bf9-d18b-4114-9aad-ca8f1380e82f"
+            },
+            {
+              "historyId": "5a9f1b59-03ce-4172-9743-498b83356927",
+              "title": "Report from Housing and Homelessness Committee - 4-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a9f1b59-03ce-4172-9743-498b83356927",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a9f1b59-03ce-4172-9743-498b83356927"
+            },
+            {
+              "historyId": "d4d9bc1f-4fe2-4674-920f-2a9c0aaaff88",
+              "title": "Speaker Card(s)_04-23-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d4d9bc1f-4fe2-4674-920f-2a9c0aaaff88",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d4d9bc1f-4fe2-4674-920f-2a9c0aaaff88"
+            },
+            {
+              "historyId": "5de6c108-d6a6-4fb4-bb19-7d5f45f324ff",
+              "title": "Motion (Raman - Harris-Dawson) dated 4-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5de6c108-d6a6-4fb4-bb19-7d5f45f324ff",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5de6c108-d6a6-4fb4-bb19-7d5f45f324ff"
+            }
+          ]
+        },
+        {
+          "item_id": "158289",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "23-1022-S25\nCD 13\nMunicipal Facilities Committee report relative to a sublease agreement between the City and Hope the Mission to operate the Tiny Home Village (THV) site located at 2301 West Third Street in Council District 13.\n(This item is referred to the Housing and Homelessness Committee and the Government Operations Committee.)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nReport from Municipal Facilities Committee dated 12-17-25",
+          "council_file": "23-1022-S25",
+          "district": "CD 13",
+          "title": "Municipal Facilities Committee report relative to a sublease agreement between the City and Hope the Mission to operate the Tiny Home Village (THV) site located at 2301 West Third Street in Council District 13.",
+          "mig": "ad31d66c-23ce-4581-b4d9-209f5a0efb16",
+          "attachments": [
+            {
+              "historyId": "74d16b3e-4d27-4e67-ac65-a1f45d5adf38",
+              "title": "Report from Municipal Facilities Committee dated 12-17-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=74d16b3e-4d27-4e67-ac65-a1f45d5adf38",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=74d16b3e-4d27-4e67-ac65-a1f45d5adf38"
+            }
+          ]
+        },
+        {
+          "item_id": "158349",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0714\nMotion (Blumenfield – Lee) relative to requesting the Los Angeles Housing Department to report with recommendations for using Measure A/Los Angeles County Affordable Housing Solutions Agency (LACAHSA) funds for affordable housing and homelessness prevention efforts for older adults.\nCommunity Impact Statement:\nNone submitted\nMotion (Blumenfield - Lee) dated 6-25-25",
+          "council_file": "25-0714",
+          "title": "Motion (Blumenfield – Lee) relative to requesting the Los Angeles Housing Department to report with recommendations for using Measure A/Los Angeles County Affordable Housing Solutions Agency (LACAHSA) funds for affordable housing and homelessness prevention efforts for older adults.",
+          "recommendation": "None submitted Motion (Blumenfield - Lee) dated 6-25-25",
+          "mig": "75f9b8d1-14e1-458f-a9ab-bc81e7608953",
+          "attachments": [
+            {
+              "historyId": "e356bbd4-76fc-430a-9480-05d30f83d563",
+              "title": "Motion (Blumenfield - Lee) dated 6-25-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e356bbd4-76fc-430a-9480-05d30f83d563",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e356bbd4-76fc-430a-9480-05d30f83d563"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 6,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-21T22:00:00",
+  "video_url": "https://www.youtube.com/watch?v=IAacb6pCKbA"
+}

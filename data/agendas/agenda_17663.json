@@ -1,0 +1,965 @@
+{
+  "meeting_id": 17663,
+  "template_id": 149441,
+  "parsed_at": "2026-01-20T20:57:06.845552",
+  "portal_url": "https://lacity.primegov.com/Portal/Meeting?meetingTemplateId=149441",
+  "sections": [
+    {
+      "section_id": "360006",
+      "title": "MULTIPLE AGENDA ITEM COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360007",
+      "title": "GENERAL PUBLIC COMMENT",
+      "items": []
+    },
+    {
+      "section_id": "360008",
+      "title": "ITEM(S)",
+      "items": [
+        {
+          "item_id": "157734",
+          "item_number": "(1)",
+          "has_attachments": true,
+          "raw_text": "25-1200-S62\nReports from the Mayor relative to the appointment of Daniel Tellalian to the Board of Fire and Police Pensions for the term ending June 30, 2027.\nFinancial Disclosure Statement\n: Pending\nBackground Check\n: Pending\nCommunity Impact Statement:\nNone submitted.\nTIME LIMIT FILE - FEBRUARY 5, 2026\n(LAST DAY FOR COUNCIL ACTION - FEBRUARY 4, 2026)\nReport from Mayor dated 1-06-26\nReport from Mayor dated 12-22-25",
+          "council_file": "25-1200-S62",
+          "title": "Reports from the Mayor relative to the appointment of Daniel Tellalian to the Board of Fire and Police Pensions for the term ending June 30, 2027.",
+          "mig": "0d292734-0cca-4df2-ad53-d2e5b33a6667",
+          "attachments": [
+            {
+              "historyId": "2fc5f4ff-5885-446d-abec-7721e38e0b1f",
+              "title": "Report from Mayor dated 1-06-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fc5f4ff-5885-446d-abec-7721e38e0b1f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2fc5f4ff-5885-446d-abec-7721e38e0b1f"
+            },
+            {
+              "historyId": "b5b6f6fc-c207-4397-8de1-7875233a3fd4",
+              "title": "Report from Mayor dated 12-22-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5b6f6fc-c207-4397-8de1-7875233a3fd4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b5b6f6fc-c207-4397-8de1-7875233a3fd4"
+            }
+          ]
+        },
+        {
+          "item_id": "157847",
+          "item_number": "(2)",
+          "has_attachments": true,
+          "raw_text": "25-1700\nCity Administrative Officer report and Ordinances relative to the 2025-26 Departmental Personnel Ordinances.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nSpeaker Card(s)_08-19-2025\nCouncil Action - Mayor Concurrence dated 8-20-25\nPersonnel and Hiring Committee Report 8-8-25\nPersonnel and Hiring Committee Report 8-8-25\nReport from City Administrative Officer dated 7-11-25\nReport from City Administrative Officer dated 12-16-25\nAttachment to Report dated 12-16-25 - Section A\nAttachment to Report dated 12-16-25 - Section B\nAttachment to Report dated 12-16-25 - Draft Ordinance (Aging)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Animal Services)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Building and Safety)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Cannabis Regulation)\nAttachment to Report dated 12-16-25 - Draft Ordinance (City Administrative Officer)\nAttachment to Report dated 12-16-25 - Draft Ordinance (City Attorney)\nAttachment to Report dated 12-16-25 - Draft Ordinance (City Clerk)\nAttachment to Report dated 12-16-25 - Draft Ordinance (City Planning)\nAttachment to Report dated 12-16-25 - Draft Ordinance (City Tourism)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Civil, Human Rights and Equity)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Community Investment for Families Department)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Controller)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Council)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Cultural Affairs)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Disability)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Economic and Workforce Development)\nAttachment to Report dated 12-16-25 - Draft Ordinance (El Pueblo de Los Angeles)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Emergency Management)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Employee Relations Board)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Ethics Commission)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Finance)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Fire)\nAttachment to Report dated 12-16-25 - Draft Ordinance (General Services)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Housing)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Information Technology Agency)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Mayor)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Neighborhood Empowerment)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Personnel)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Police)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Public Accountability)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Board of Public Works)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Bureau of Contract Administration)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Bureau of Engineering)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Sanitation)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Street Lighting)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Street Services)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Transportation)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Youth Development)\nAttachment to Report dated 12-16-25 - Draft Ordinance (Zoo)",
+          "council_file": "25-1700",
+          "title": "City Administrative Officer report and Ordinances relative to the 2025-26 Departmental Personnel Ordinances.",
+          "mig": "2c43e190-8b57-4349-bfae-242cab121e5a",
+          "attachments": [
+            {
+              "historyId": "48ae04aa-e711-43b6-af67-7082b8b872b2",
+              "title": "Speaker Card(s)_08-19-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=48ae04aa-e711-43b6-af67-7082b8b872b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=48ae04aa-e711-43b6-af67-7082b8b872b2"
+            },
+            {
+              "historyId": "1ef490fe-6ace-43f4-a3e4-619906137102",
+              "title": "Council Action - Mayor Concurrence dated 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ef490fe-6ace-43f4-a3e4-619906137102",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ef490fe-6ace-43f4-a3e4-619906137102"
+            },
+            {
+              "historyId": "aa4ff5f2-2873-43e2-a0eb-98cb282d354d",
+              "title": "Personnel and Hiring Committee Report 8-8-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa4ff5f2-2873-43e2-a0eb-98cb282d354d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aa4ff5f2-2873-43e2-a0eb-98cb282d354d"
+            },
+            {
+              "historyId": "07e66cba-1592-456a-9912-ac32f7a28bc3",
+              "title": "Personnel and Hiring Committee Report 8-8-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=07e66cba-1592-456a-9912-ac32f7a28bc3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=07e66cba-1592-456a-9912-ac32f7a28bc3"
+            },
+            {
+              "historyId": "b7bd6207-75e6-4c19-ad20-bf9ab1eca401",
+              "title": "Report from City Administrative Officer dated 7-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b7bd6207-75e6-4c19-ad20-bf9ab1eca401",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b7bd6207-75e6-4c19-ad20-bf9ab1eca401"
+            },
+            {
+              "historyId": "612ad561-bdca-40ca-bf20-d50d2e9b24e2",
+              "title": "Report from City Administrative Officer dated 12-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=612ad561-bdca-40ca-bf20-d50d2e9b24e2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=612ad561-bdca-40ca-bf20-d50d2e9b24e2"
+            },
+            {
+              "historyId": "db1fc0ae-4f83-41f5-bdcf-da56795760a4",
+              "title": "Attachment to Report dated 12-16-25 - Section A",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=db1fc0ae-4f83-41f5-bdcf-da56795760a4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=db1fc0ae-4f83-41f5-bdcf-da56795760a4"
+            },
+            {
+              "historyId": "4b2ba607-419d-4d77-a1c5-00769802d260",
+              "title": "Attachment to Report dated 12-16-25 - Section B",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b2ba607-419d-4d77-a1c5-00769802d260",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4b2ba607-419d-4d77-a1c5-00769802d260"
+            },
+            {
+              "historyId": "e1a026a1-e742-4c7e-9d28-514e76964add",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Aging)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1a026a1-e742-4c7e-9d28-514e76964add",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e1a026a1-e742-4c7e-9d28-514e76964add"
+            },
+            {
+              "historyId": "6aee6d56-cdf1-4e27-9a3a-9dbf6ae57d0f",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Animal Services)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6aee6d56-cdf1-4e27-9a3a-9dbf6ae57d0f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6aee6d56-cdf1-4e27-9a3a-9dbf6ae57d0f"
+            },
+            {
+              "historyId": "455d3639-e3b3-47cd-9d28-88a80bfd2e72",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Building and Safety)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=455d3639-e3b3-47cd-9d28-88a80bfd2e72",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=455d3639-e3b3-47cd-9d28-88a80bfd2e72"
+            },
+            {
+              "historyId": "e8944166-15bd-47a0-b5a6-9bc8af3263f4",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Cannabis Regulation)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8944166-15bd-47a0-b5a6-9bc8af3263f4",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e8944166-15bd-47a0-b5a6-9bc8af3263f4"
+            },
+            {
+              "historyId": "13ac0d79-0732-4b2e-adf9-81ce1d9a3f54",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (City Administrative Officer)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=13ac0d79-0732-4b2e-adf9-81ce1d9a3f54",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=13ac0d79-0732-4b2e-adf9-81ce1d9a3f54"
+            },
+            {
+              "historyId": "f1dd4d5b-1c6d-4f2e-a70a-85ac567ab39d",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (City Attorney)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1dd4d5b-1c6d-4f2e-a70a-85ac567ab39d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f1dd4d5b-1c6d-4f2e-a70a-85ac567ab39d"
+            },
+            {
+              "historyId": "062729bb-7b55-4658-82c3-a708d6a4e590",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (City Clerk)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=062729bb-7b55-4658-82c3-a708d6a4e590",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=062729bb-7b55-4658-82c3-a708d6a4e590"
+            },
+            {
+              "historyId": "8bcf4bfe-8fe7-4398-9ec4-689645cb28ba",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (City Planning)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8bcf4bfe-8fe7-4398-9ec4-689645cb28ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8bcf4bfe-8fe7-4398-9ec4-689645cb28ba"
+            },
+            {
+              "historyId": "cd81dabf-73a2-411a-ad14-5223f81836f1",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (City Tourism)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd81dabf-73a2-411a-ad14-5223f81836f1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cd81dabf-73a2-411a-ad14-5223f81836f1"
+            },
+            {
+              "historyId": "fa104001-14f2-4fb4-9b49-fc22e14eb845",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Civil, Human Rights and Equity)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa104001-14f2-4fb4-9b49-fc22e14eb845",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fa104001-14f2-4fb4-9b49-fc22e14eb845"
+            },
+            {
+              "historyId": "4329d1e9-7d01-45c0-8750-865b7a99eb0c",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Community Investment for Families Department)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4329d1e9-7d01-45c0-8750-865b7a99eb0c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4329d1e9-7d01-45c0-8750-865b7a99eb0c"
+            },
+            {
+              "historyId": "a99f8a55-0bd8-48c1-88e9-3468fda63e2b",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Controller)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a99f8a55-0bd8-48c1-88e9-3468fda63e2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a99f8a55-0bd8-48c1-88e9-3468fda63e2b"
+            },
+            {
+              "historyId": "1fe92fbc-08b4-44f7-9bee-550df68f58e9",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Council)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1fe92fbc-08b4-44f7-9bee-550df68f58e9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1fe92fbc-08b4-44f7-9bee-550df68f58e9"
+            },
+            {
+              "historyId": "a9194f89-da77-4f03-8d9e-87621cb45065",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Cultural Affairs)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9194f89-da77-4f03-8d9e-87621cb45065",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a9194f89-da77-4f03-8d9e-87621cb45065"
+            },
+            {
+              "historyId": "ac37a551-7c78-454f-b784-3ef5c1f4ab95",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Disability)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac37a551-7c78-454f-b784-3ef5c1f4ab95",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ac37a551-7c78-454f-b784-3ef5c1f4ab95"
+            },
+            {
+              "historyId": "4f3b7dab-832a-4515-a93c-ea693a796b22",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Economic and Workforce Development)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f3b7dab-832a-4515-a93c-ea693a796b22",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f3b7dab-832a-4515-a93c-ea693a796b22"
+            },
+            {
+              "historyId": "2d0daeb4-6cd0-4ec8-a411-dced45653cf3",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (El Pueblo de Los Angeles)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d0daeb4-6cd0-4ec8-a411-dced45653cf3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2d0daeb4-6cd0-4ec8-a411-dced45653cf3"
+            },
+            {
+              "historyId": "a2ed58a9-0045-4342-9748-c7ab7ed3e398",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Emergency Management)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2ed58a9-0045-4342-9748-c7ab7ed3e398",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a2ed58a9-0045-4342-9748-c7ab7ed3e398"
+            },
+            {
+              "historyId": "e653a1c6-d8fe-46ee-9066-2320cf3efee9",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Employee Relations Board)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e653a1c6-d8fe-46ee-9066-2320cf3efee9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e653a1c6-d8fe-46ee-9066-2320cf3efee9"
+            },
+            {
+              "historyId": "8ffb6796-3301-4a9a-a872-74dbfde8f9f8",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Ethics Commission)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ffb6796-3301-4a9a-a872-74dbfde8f9f8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8ffb6796-3301-4a9a-a872-74dbfde8f9f8"
+            },
+            {
+              "historyId": "8024344d-e0ff-4a05-9df6-82134c961e70",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Finance)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8024344d-e0ff-4a05-9df6-82134c961e70",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8024344d-e0ff-4a05-9df6-82134c961e70"
+            },
+            {
+              "historyId": "501a34a6-3072-4012-b735-b6c49047b5ef",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Fire)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=501a34a6-3072-4012-b735-b6c49047b5ef",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=501a34a6-3072-4012-b735-b6c49047b5ef"
+            },
+            {
+              "historyId": "572eccd9-6ee6-47f2-bec8-fc1b8718ca2e",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (General Services)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=572eccd9-6ee6-47f2-bec8-fc1b8718ca2e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=572eccd9-6ee6-47f2-bec8-fc1b8718ca2e"
+            },
+            {
+              "historyId": "c6db8cf0-d4f3-4a84-93ea-2a39b93c7678",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Housing)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6db8cf0-d4f3-4a84-93ea-2a39b93c7678",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c6db8cf0-d4f3-4a84-93ea-2a39b93c7678"
+            },
+            {
+              "historyId": "73a5c79f-8888-422e-bdd7-625deba60e3e",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Information Technology Agency)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=73a5c79f-8888-422e-bdd7-625deba60e3e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=73a5c79f-8888-422e-bdd7-625deba60e3e"
+            },
+            {
+              "historyId": "1bdceb36-5fd7-4c0e-890d-1304ee2f2be6",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Mayor)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1bdceb36-5fd7-4c0e-890d-1304ee2f2be6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1bdceb36-5fd7-4c0e-890d-1304ee2f2be6"
+            },
+            {
+              "historyId": "5c2d0834-d69e-4829-a6e1-f5bb6a4775ba",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Neighborhood Empowerment)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c2d0834-d69e-4829-a6e1-f5bb6a4775ba",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c2d0834-d69e-4829-a6e1-f5bb6a4775ba"
+            },
+            {
+              "historyId": "4e8d1f91-8bba-465b-833e-c7b966f4092e",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Personnel)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e8d1f91-8bba-465b-833e-c7b966f4092e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4e8d1f91-8bba-465b-833e-c7b966f4092e"
+            },
+            {
+              "historyId": "cda982ee-548f-42e5-8778-752161cc6d5b",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Police)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cda982ee-548f-42e5-8778-752161cc6d5b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cda982ee-548f-42e5-8778-752161cc6d5b"
+            },
+            {
+              "historyId": "4f6ba857-a60d-48dc-a491-11e4523e9eb0",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Public Accountability)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f6ba857-a60d-48dc-a491-11e4523e9eb0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f6ba857-a60d-48dc-a491-11e4523e9eb0"
+            },
+            {
+              "historyId": "a4dc67e1-2b67-490a-bf66-50c302a7e07d",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Board of Public Works)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4dc67e1-2b67-490a-bf66-50c302a7e07d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a4dc67e1-2b67-490a-bf66-50c302a7e07d"
+            },
+            {
+              "historyId": "28c02931-8da5-4284-a59d-60d83a10c0a0",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Bureau of Contract Administration)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=28c02931-8da5-4284-a59d-60d83a10c0a0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=28c02931-8da5-4284-a59d-60d83a10c0a0"
+            },
+            {
+              "historyId": "a69b5164-0afb-4357-8a59-51e7a2ebd14e",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Bureau of Engineering)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a69b5164-0afb-4357-8a59-51e7a2ebd14e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a69b5164-0afb-4357-8a59-51e7a2ebd14e"
+            },
+            {
+              "historyId": "f6ee3d73-cfb3-476e-9b1f-35fc65bf1830",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Sanitation)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6ee3d73-cfb3-476e-9b1f-35fc65bf1830",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f6ee3d73-cfb3-476e-9b1f-35fc65bf1830"
+            },
+            {
+              "historyId": "ba3e0c9e-3146-41de-8132-85b53b743d5c",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Street Lighting)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ba3e0c9e-3146-41de-8132-85b53b743d5c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ba3e0c9e-3146-41de-8132-85b53b743d5c"
+            },
+            {
+              "historyId": "86948909-6372-456e-9ed8-02fd519dcfbc",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Street Services)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=86948909-6372-456e-9ed8-02fd519dcfbc",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=86948909-6372-456e-9ed8-02fd519dcfbc"
+            },
+            {
+              "historyId": "fb96d18d-26e8-41f3-963c-0ce21310306f",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Transportation)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb96d18d-26e8-41f3-963c-0ce21310306f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fb96d18d-26e8-41f3-963c-0ce21310306f"
+            },
+            {
+              "historyId": "28c20c37-4aeb-44da-968a-4bf577f5b621",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Youth Development)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=28c20c37-4aeb-44da-968a-4bf577f5b621",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=28c20c37-4aeb-44da-968a-4bf577f5b621"
+            },
+            {
+              "historyId": "539652de-b49a-4448-8eb3-94bb2e0e35c5",
+              "title": "Attachment to Report dated 12-16-25 - Draft Ordinance (Zoo)",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=539652de-b49a-4448-8eb3-94bb2e0e35c5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=539652de-b49a-4448-8eb3-94bb2e0e35c5"
+            }
+          ]
+        },
+        {
+          "item_id": "157860",
+          "item_number": "(3)",
+          "has_attachments": true,
+          "raw_text": "26-0006\nReport from the Mayor relative to the exemption of one Water Hyperion Reclamation Plant Manager (Class Code 4130) position for the Bureau of Sanitation from the Civil Service pursuant to Charter Section 1001(b).\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted.\nTIME LIMIT FILE - JANUARY 30, 2026\n(LAST DAY FOR COUNCIL ACTION - JANUARY 30, 2026)\nReport from Mayor dated 1-01-26",
+          "council_file": "26-0006",
+          "title": "Report from the Mayor relative to the exemption of one Water Hyperion Reclamation Plant Manager (Class Code 4130) position for the Bureau of Sanitation from the Civil Service pursuant to Charter Section 1001(b).",
+          "mig": "5387d68f-e212-41d8-ae5d-b355e119070a",
+          "attachments": [
+            {
+              "historyId": "7f5cb0e8-e45b-4c0d-9b56-791baffb3e5e",
+              "title": "Report from Mayor dated 1-01-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f5cb0e8-e45b-4c0d-9b56-791baffb3e5e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f5cb0e8-e45b-4c0d-9b56-791baffb3e5e"
+            }
+          ]
+        },
+        {
+          "item_id": "157848",
+          "item_number": "(4)",
+          "has_attachments": true,
+          "raw_text": "24-1334\nCity Administrative Officer report relative to proposed Amendment No. 1 to the 2024-2028 Memorandum of Understanding for Bargaining Unit No. 23 for the Firefighters and Fire Captains Representation Unit.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nReport from City Administrative Officer dated 12-23-25\nCouncil Action dated 11-05-24\nMotion (McOsker - Blumenfield) dated 11-05-24\nReport from City Administrative Officer (Revised) dated 11-04-24\nAttachment to Report dated 11-04-24 - MOU 23\nReport from City Administrative Officer dated 10-23-24\nAttachment to Report dated 10-23-24 - MOU 23\nSpeaker Card(s)_11-05-2024",
+          "council_file": "24-1334",
+          "title": "City Administrative Officer report relative to proposed Amendment No. 1 to the 2024-2028 Memorandum of Understanding for Bargaining Unit No. 23 for the Firefighters and Fire Captains Representation Unit.",
+          "mig": "72a7b942-03c5-4bae-8376-f876346e1adf",
+          "attachments": [
+            {
+              "historyId": "fdeb5218-7781-4390-a7d7-b0510c1ffa46",
+              "title": "Report from City Administrative Officer dated 12-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdeb5218-7781-4390-a7d7-b0510c1ffa46",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdeb5218-7781-4390-a7d7-b0510c1ffa46"
+            },
+            {
+              "historyId": "0b6dace9-fc6f-4463-9bbe-ced60a0272dd",
+              "title": "Council Action dated 11-05-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0b6dace9-fc6f-4463-9bbe-ced60a0272dd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0b6dace9-fc6f-4463-9bbe-ced60a0272dd"
+            },
+            {
+              "historyId": "0d1f11be-9a52-4960-9ce0-bb55ddba08c8",
+              "title": "Motion (McOsker - Blumenfield) dated 11-05-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d1f11be-9a52-4960-9ce0-bb55ddba08c8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0d1f11be-9a52-4960-9ce0-bb55ddba08c8"
+            },
+            {
+              "historyId": "7f33923c-9ee8-4de0-a28a-7d3d243018d3",
+              "title": "Report from City Administrative Officer (Revised) dated 11-04-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f33923c-9ee8-4de0-a28a-7d3d243018d3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f33923c-9ee8-4de0-a28a-7d3d243018d3"
+            },
+            {
+              "historyId": "4dfc6045-e0a1-41c7-bb91-e495a1d7874b",
+              "title": "Attachment to Report dated 11-04-24 - MOU 23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4dfc6045-e0a1-41c7-bb91-e495a1d7874b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4dfc6045-e0a1-41c7-bb91-e495a1d7874b"
+            },
+            {
+              "historyId": "cbccb29b-e3e3-4f4a-b909-37496d0fc794",
+              "title": "Report from City Administrative Officer dated 10-23-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cbccb29b-e3e3-4f4a-b909-37496d0fc794",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cbccb29b-e3e3-4f4a-b909-37496d0fc794"
+            },
+            {
+              "historyId": "73299634-0cb0-4499-a284-0a08a514eb2c",
+              "title": "Attachment to Report dated 10-23-24 - MOU 23",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=73299634-0cb0-4499-a284-0a08a514eb2c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=73299634-0cb0-4499-a284-0a08a514eb2c"
+            },
+            {
+              "historyId": "c2cf0b0c-a828-45b3-967d-a90cb8eaaaa9",
+              "title": "Speaker Card(s)_11-05-2024",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2cf0b0c-a828-45b3-967d-a90cb8eaaaa9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=c2cf0b0c-a828-45b3-967d-a90cb8eaaaa9"
+            }
+          ]
+        },
+        {
+          "item_id": "158053",
+          "item_number": "(5)",
+          "has_attachments": true,
+          "raw_text": "26-0013\nCity Administrative Officer report and Ordinance relative to amending Schedule A of Section 4.61 of the Los Angeles Administrative Code to include and provide salaries for the new, non-represented classifications of Chief Occupational Psychologist (Class Code 2387) and Port Pilot Apprentice (Class Code 5114).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.\nReport from City Administrative Officer dated 1-06-26\nAttachment to Report dated 1-06-26 - Draft Ordinance",
+          "council_file": "26-0013",
+          "title": "City Administrative Officer report and Ordinance relative to amending Schedule A of Section 4.61 of the Los Angeles Administrative Code to include and provide salaries for the new, non-represented classifications of Chief Occupational Psychologist (Class Code 2387) and Port Pilot Apprentice (Class Code 5114).",
+          "mig": "da96448d-4646-43ca-b500-472b5b7d3de7",
+          "attachments": [
+            {
+              "historyId": "7e38bbf9-d6c2-4681-be1e-5c60de59afc7",
+              "title": "Report from City Administrative Officer dated 1-06-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7e38bbf9-d6c2-4681-be1e-5c60de59afc7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7e38bbf9-d6c2-4681-be1e-5c60de59afc7"
+            },
+            {
+              "historyId": "14007505-b374-496e-8481-1c444d5a613c",
+              "title": "Attachment to Report dated 1-06-26 - Draft Ordinance",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=14007505-b374-496e-8481-1c444d5a613c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=14007505-b374-496e-8481-1c444d5a613c"
+            }
+          ]
+        },
+        {
+          "item_id": "158048",
+          "item_number": "(6)",
+          "has_attachments": true,
+          "raw_text": "25-0660\nCONTINUED FROM JUNE, JULY, AUGUST, SEPTEMBER. NOVEMBER, AND DECEMBER 2025\nFollow-Up reports from various Departments relative to Citywide Layoff Management and related matters.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nFor, If Amended:\nSherman Oaks Neighborhood Council\nReport from City Administrative Officer dated 12-19-25\nReport from Personnel Department dated 12-10-25\nReport from Personnel Department dated 12-02-25\nReport from City Administrative Officer dated 11-20-25\nReport from Personnel Department dated 11-03-25\nReport from City Administrative Officer dated 10-23-25\nCommunication(s) from Public_10-01-2025\nReport from Personnel Department dated 10-01-25\nReport from City Administrative Officer dated 9-30-25\nSpeaker Card(s)_09-12-2025\nReport from City Administrative Officer dated 9-12-25\nReport from Personnel Department dated 9-10-25\nSpeaker Card(s)_09-03-2025\nReport from Personnel Department dated 9-02-25\nReport from City Administrative Officer dated 8-29-25\nCommunication(s) from Public_08-20-2025\nReport from Personnel Department dated 8-20-25\nCommunity Impact Statement submitted by Sherman Oaks Neighborhood Council_08-18-2025\nReport from City Administrative Officer dated 8-15-25\nSpeaker Card(s)_08-13-2025\nReport from Personnel Department dated 8-12-25\nRevised Report from Youth Development Department dated 8-12-25\nReport from Department of Aging dated 8-08-25\nReport from Youth Development Department dated 8-11-25\nReport from Community Investment for Families Department dated 8-11-25\nReport from Economic and Workforce Development Department dated 8-08-25\nReport from Civil + Human Rights and Equity Department dated 8-08-25\nReport from Department on Disability dated 8-07-25\nSpeaker Card(s)_08-06-2025\nSubmittal in Committee by Bureau of Engineering 8-6-25\nReport from Bureau of Sanitation dated 8-05-25\nReport from Bureau of Street Lighting dated 8-05-25\nReport from Department of Water and Power dated 8-05-25\nAttachment to Report dated 8-05-25 - Transfers from City PPT 1\nReport from Personnel Department dated 8-05-25\nReport from Board of Public Works dated 8-05-25\nReport from Los Angeles World Airports dated 8-04-25\nReport from Port of Los Angeles dated 8-05-25\nReport from City Administrative Officer dated 8-01-25\nReport from Bureau of Street Services dated 7-31-25\nReport from Bureau of Contract Administration dated 7-30-25\nReport from Police Department dated 7-24-25\nReport from Bureau of Engineering dated 7-24-25\nReport from Department of Transportation dated 7-16-25\nReport from Housing Department dated 7-16-25\nReport from Personnel Department dated 7-16-25\nReport from Department of City Planning dated 7-15-25\nReport from Information Technology Agency dated 7-15-25\nReport from Building and Safety dated 7-14-25\nReport from City Clerk dated 7-02-25\nReport from Fire Department dated 7-02-25\nSpeaker Card(s)_07-02-2025\nReport from Department of General Services dated 7-01-25\nReport from Personnel Department dated 7-01-25.pdf\nReport from City Attorney dated 7-01-25.pdf\nReport from Department of Neighborhood Empowerment dated 6-30-25\nVacancy Report JUNE 30 2025\nSpeaker Card(s)_06-27-2025\nReport from Personnel Department dated 6-26-25\nReport from Emergency Management Department dated 6-26-25\nReport from Personnel Department dated 6-12-25\nSpeaker Card(s)_10-24-2025\nSpeaker Card(s)_11-05-2025\nSpeaker Card(s)_12-03-2025",
+          "council_file": "25-0660",
+          "title": "CONTINUED FROM JUNE, JULY, AUGUST, SEPTEMBER. NOVEMBER, AND DECEMBER 2025",
+          "mig": "bd5efb3a-d233-47bc-971f-005ed747006f",
+          "attachments": [
+            {
+              "historyId": "50d095e3-d673-41af-971f-e363f42b40f5",
+              "title": "Report from City Administrative Officer dated 12-19-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=50d095e3-d673-41af-971f-e363f42b40f5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=50d095e3-d673-41af-971f-e363f42b40f5"
+            },
+            {
+              "historyId": "ec858c12-9792-4d07-8df6-88e9488b232a",
+              "title": "Report from Personnel Department dated 12-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec858c12-9792-4d07-8df6-88e9488b232a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec858c12-9792-4d07-8df6-88e9488b232a"
+            },
+            {
+              "historyId": "41c8c389-f504-494e-80b3-539c69c8c640",
+              "title": "Report from Personnel Department dated 12-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=41c8c389-f504-494e-80b3-539c69c8c640",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=41c8c389-f504-494e-80b3-539c69c8c640"
+            },
+            {
+              "historyId": "23e5c1a9-558d-4bea-84c3-e46a753a2ded",
+              "title": "Report from City Administrative Officer dated 11-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=23e5c1a9-558d-4bea-84c3-e46a753a2ded",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=23e5c1a9-558d-4bea-84c3-e46a753a2ded"
+            },
+            {
+              "historyId": "8f2b77e4-3e9c-4ef2-bffc-7e7c7f18ff24",
+              "title": "Report from Personnel Department dated 11-03-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f2b77e4-3e9c-4ef2-bffc-7e7c7f18ff24",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8f2b77e4-3e9c-4ef2-bffc-7e7c7f18ff24"
+            },
+            {
+              "historyId": "d37285bc-f4ef-472f-8b2d-93a51d7463cd",
+              "title": "Report from City Administrative Officer dated 10-23-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d37285bc-f4ef-472f-8b2d-93a51d7463cd",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d37285bc-f4ef-472f-8b2d-93a51d7463cd"
+            },
+            {
+              "historyId": "61e35428-7475-4cdd-b37c-f95897aa52b2",
+              "title": "Communication(s) from Public_10-01-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=61e35428-7475-4cdd-b37c-f95897aa52b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=61e35428-7475-4cdd-b37c-f95897aa52b2"
+            },
+            {
+              "historyId": "a59be22c-b918-4180-8b89-742a162cc45b",
+              "title": "Report from Personnel Department dated 10-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a59be22c-b918-4180-8b89-742a162cc45b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a59be22c-b918-4180-8b89-742a162cc45b"
+            },
+            {
+              "historyId": "6d57e2e4-61bc-41d0-8de7-80ef09426110",
+              "title": "Report from City Administrative Officer dated 9-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d57e2e4-61bc-41d0-8de7-80ef09426110",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6d57e2e4-61bc-41d0-8de7-80ef09426110"
+            },
+            {
+              "historyId": "21395b29-8f8d-4bb3-bde3-273955c0e37f",
+              "title": "Speaker Card(s)_09-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=21395b29-8f8d-4bb3-bde3-273955c0e37f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=21395b29-8f8d-4bb3-bde3-273955c0e37f"
+            },
+            {
+              "historyId": "3cd97566-6e58-403f-9a55-9ee88bef51c8",
+              "title": "Report from City Administrative Officer dated 9-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3cd97566-6e58-403f-9a55-9ee88bef51c8",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3cd97566-6e58-403f-9a55-9ee88bef51c8"
+            },
+            {
+              "historyId": "a918470a-1824-4058-b690-54fba1eb5582",
+              "title": "Report from Personnel Department dated 9-10-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a918470a-1824-4058-b690-54fba1eb5582",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a918470a-1824-4058-b690-54fba1eb5582"
+            },
+            {
+              "historyId": "38985052-401e-42b6-885a-5009713cb8c9",
+              "title": "Speaker Card(s)_09-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=38985052-401e-42b6-885a-5009713cb8c9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=38985052-401e-42b6-885a-5009713cb8c9"
+            },
+            {
+              "historyId": "a7821188-be40-4993-9cd1-8b026330c2b7",
+              "title": "Report from Personnel Department dated 9-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a7821188-be40-4993-9cd1-8b026330c2b7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a7821188-be40-4993-9cd1-8b026330c2b7"
+            },
+            {
+              "historyId": "150ce578-c0d0-4574-ac2e-934ca9feb4ed",
+              "title": "Report from City Administrative Officer dated 8-29-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=150ce578-c0d0-4574-ac2e-934ca9feb4ed",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=150ce578-c0d0-4574-ac2e-934ca9feb4ed"
+            },
+            {
+              "historyId": "39128fb3-d6ff-4cd7-a4af-7137cb39b9be",
+              "title": "Communication(s) from Public_08-20-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=39128fb3-d6ff-4cd7-a4af-7137cb39b9be",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=39128fb3-d6ff-4cd7-a4af-7137cb39b9be"
+            },
+            {
+              "historyId": "9f2d8a82-d591-41c7-8f5e-8d7ecbd9578d",
+              "title": "Report from Personnel Department dated 8-20-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f2d8a82-d591-41c7-8f5e-8d7ecbd9578d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9f2d8a82-d591-41c7-8f5e-8d7ecbd9578d"
+            },
+            {
+              "historyId": "52a5fe96-0ab5-4265-b4cd-7e540b768f46",
+              "title": "Community Impact Statement submitted by Sherman Oaks Neighborhood Council_08-18-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=52a5fe96-0ab5-4265-b4cd-7e540b768f46",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=52a5fe96-0ab5-4265-b4cd-7e540b768f46"
+            },
+            {
+              "historyId": "00abd419-b5a0-4fad-a8e9-096e57ac927b",
+              "title": "Report from City Administrative Officer dated 8-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=00abd419-b5a0-4fad-a8e9-096e57ac927b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=00abd419-b5a0-4fad-a8e9-096e57ac927b"
+            },
+            {
+              "historyId": "3eed8d3e-4753-4109-a4b8-846be3bf894a",
+              "title": "Speaker Card(s)_08-13-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=3eed8d3e-4753-4109-a4b8-846be3bf894a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=3eed8d3e-4753-4109-a4b8-846be3bf894a"
+            },
+            {
+              "historyId": "9ff4d007-6589-4f34-a069-755d945dabfa",
+              "title": "Report from Personnel Department dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ff4d007-6589-4f34-a069-755d945dabfa",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9ff4d007-6589-4f34-a069-755d945dabfa"
+            },
+            {
+              "historyId": "5dfda619-8ba7-4f12-9f71-06e4be198bce",
+              "title": "Revised Report from Youth Development Department dated 8-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5dfda619-8ba7-4f12-9f71-06e4be198bce",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5dfda619-8ba7-4f12-9f71-06e4be198bce"
+            },
+            {
+              "historyId": "03aa1592-2f1c-4f9e-9421-e9d4a3e49604",
+              "title": "Report from Department of Aging dated 8-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=03aa1592-2f1c-4f9e-9421-e9d4a3e49604",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=03aa1592-2f1c-4f9e-9421-e9d4a3e49604"
+            },
+            {
+              "historyId": "5494a399-e3c7-40be-b011-0df23e7a09a6",
+              "title": "Report from Youth Development Department dated 8-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5494a399-e3c7-40be-b011-0df23e7a09a6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5494a399-e3c7-40be-b011-0df23e7a09a6"
+            },
+            {
+              "historyId": "b1ff6ccc-f06b-4d3c-99b5-fa803e87c22b",
+              "title": "Report from Community Investment for Families Department dated 8-11-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1ff6ccc-f06b-4d3c-99b5-fa803e87c22b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b1ff6ccc-f06b-4d3c-99b5-fa803e87c22b"
+            },
+            {
+              "historyId": "6419e015-7db8-40b8-8400-9606f5145a71",
+              "title": "Report from Economic and Workforce Development Department dated 8-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6419e015-7db8-40b8-8400-9606f5145a71",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6419e015-7db8-40b8-8400-9606f5145a71"
+            },
+            {
+              "historyId": "10876769-0e70-4930-98cd-db514875a83d",
+              "title": "Report from Civil + Human Rights and Equity Department dated 8-08-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=10876769-0e70-4930-98cd-db514875a83d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=10876769-0e70-4930-98cd-db514875a83d"
+            },
+            {
+              "historyId": "0d5ea2f0-184c-4d0d-8f8a-ca5b37671a85",
+              "title": "Report from Department on Disability dated 8-07-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0d5ea2f0-184c-4d0d-8f8a-ca5b37671a85",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0d5ea2f0-184c-4d0d-8f8a-ca5b37671a85"
+            },
+            {
+              "historyId": "337fb6f9-7aa3-43eb-9107-71bd6ee3bf2b",
+              "title": "Speaker Card(s)_08-06-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=337fb6f9-7aa3-43eb-9107-71bd6ee3bf2b",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=337fb6f9-7aa3-43eb-9107-71bd6ee3bf2b"
+            },
+            {
+              "historyId": "4f99d17f-d01a-4683-a1fd-c1f626f3efa6",
+              "title": "Submittal in Committee by Bureau of Engineering 8-6-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f99d17f-d01a-4683-a1fd-c1f626f3efa6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f99d17f-d01a-4683-a1fd-c1f626f3efa6"
+            },
+            {
+              "historyId": "9c5f8830-34f9-425d-b48a-b550338e03b2",
+              "title": "Report from Bureau of Sanitation dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c5f8830-34f9-425d-b48a-b550338e03b2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9c5f8830-34f9-425d-b48a-b550338e03b2"
+            },
+            {
+              "historyId": "fcd77dd7-8185-4913-b0b5-4d87e9602b0a",
+              "title": "Report from Bureau of Street Lighting dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fcd77dd7-8185-4913-b0b5-4d87e9602b0a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fcd77dd7-8185-4913-b0b5-4d87e9602b0a"
+            },
+            {
+              "historyId": "a69ec319-d535-433a-9b36-f9088f43bac7",
+              "title": "Report from Department of Water and Power dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=a69ec319-d535-433a-9b36-f9088f43bac7",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=a69ec319-d535-433a-9b36-f9088f43bac7"
+            },
+            {
+              "historyId": "333d50ad-b1c9-4562-8838-c60874b710f1",
+              "title": "Attachment to Report dated 8-05-25 - Transfers from City PPT 1",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=333d50ad-b1c9-4562-8838-c60874b710f1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=333d50ad-b1c9-4562-8838-c60874b710f1"
+            },
+            {
+              "historyId": "7f14e65f-ff80-438c-9085-e9506cacd31f",
+              "title": "Report from Personnel Department dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f14e65f-ff80-438c-9085-e9506cacd31f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=7f14e65f-ff80-438c-9085-e9506cacd31f"
+            },
+            {
+              "historyId": "23bbc14b-417d-43dd-8f7a-7dff21be0743",
+              "title": "Report from Board of Public Works dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=23bbc14b-417d-43dd-8f7a-7dff21be0743",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=23bbc14b-417d-43dd-8f7a-7dff21be0743"
+            },
+            {
+              "historyId": "685ddde9-ca39-4228-86c3-18053d541b13",
+              "title": "Report from Los Angeles World Airports dated 8-04-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=685ddde9-ca39-4228-86c3-18053d541b13",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=685ddde9-ca39-4228-86c3-18053d541b13"
+            },
+            {
+              "historyId": "d15a2833-e751-44d2-8948-3dab131a96d1",
+              "title": "Report from Port of Los Angeles dated 8-05-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d15a2833-e751-44d2-8948-3dab131a96d1",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d15a2833-e751-44d2-8948-3dab131a96d1"
+            },
+            {
+              "historyId": "1f833168-9340-4809-889d-529ec7815402",
+              "title": "Report from City Administrative Officer dated 8-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1f833168-9340-4809-889d-529ec7815402",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1f833168-9340-4809-889d-529ec7815402"
+            },
+            {
+              "historyId": "1c895aa0-9b3c-4b6a-9910-c39cc1cd45f9",
+              "title": "Report from Bureau of Street Services dated 7-31-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c895aa0-9b3c-4b6a-9910-c39cc1cd45f9",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1c895aa0-9b3c-4b6a-9910-c39cc1cd45f9"
+            },
+            {
+              "historyId": "22089061-449d-4f99-b7d8-19c2cba7cafe",
+              "title": "Report from Bureau of Contract Administration dated 7-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=22089061-449d-4f99-b7d8-19c2cba7cafe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=22089061-449d-4f99-b7d8-19c2cba7cafe"
+            },
+            {
+              "historyId": "e500357f-08a8-4759-a64d-97f564e95835",
+              "title": "Report from Police Department dated 7-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=e500357f-08a8-4759-a64d-97f564e95835",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=e500357f-08a8-4759-a64d-97f564e95835"
+            },
+            {
+              "historyId": "0557de11-209b-45d6-a16d-9790467f24c3",
+              "title": "Report from Bureau of Engineering dated 7-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0557de11-209b-45d6-a16d-9790467f24c3",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0557de11-209b-45d6-a16d-9790467f24c3"
+            },
+            {
+              "historyId": "1ce8f410-672a-45ff-8083-64dc82227429",
+              "title": "Report from Department of Transportation dated 7-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1ce8f410-672a-45ff-8083-64dc82227429",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1ce8f410-672a-45ff-8083-64dc82227429"
+            },
+            {
+              "historyId": "2eef30a9-1a0a-459e-b79d-10c8ed425e72",
+              "title": "Report from Housing Department dated 7-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=2eef30a9-1a0a-459e-b79d-10c8ed425e72",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=2eef30a9-1a0a-459e-b79d-10c8ed425e72"
+            },
+            {
+              "historyId": "ec8228f1-2feb-43f7-bf79-0a4bcae28fb2",
+              "title": "Report from Personnel Department dated 7-16-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ec8228f1-2feb-43f7-bf79-0a4bcae28fb2",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ec8228f1-2feb-43f7-bf79-0a4bcae28fb2"
+            },
+            {
+              "historyId": "72d16204-30fa-4eef-8af8-f0336fbd0e12",
+              "title": "Report from Department of City Planning dated 7-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=72d16204-30fa-4eef-8af8-f0336fbd0e12",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=72d16204-30fa-4eef-8af8-f0336fbd0e12"
+            },
+            {
+              "historyId": "dc4ac923-21d8-4f73-ae5f-6d4ba9b8cd30",
+              "title": "Report from Information Technology Agency dated 7-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc4ac923-21d8-4f73-ae5f-6d4ba9b8cd30",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dc4ac923-21d8-4f73-ae5f-6d4ba9b8cd30"
+            },
+            {
+              "historyId": "37fda17c-8d6a-48b7-bf99-8574ecbfd510",
+              "title": "Report from Building and Safety dated 7-14-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=37fda17c-8d6a-48b7-bf99-8574ecbfd510",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=37fda17c-8d6a-48b7-bf99-8574ecbfd510"
+            },
+            {
+              "historyId": "88b2c942-58d2-4051-a9af-30e6d2721428",
+              "title": "Report from City Clerk dated 7-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=88b2c942-58d2-4051-a9af-30e6d2721428",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=88b2c942-58d2-4051-a9af-30e6d2721428"
+            },
+            {
+              "historyId": "ee3746b6-3485-418b-a66e-93cbb5b82727",
+              "title": "Report from Fire Department dated 7-02-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee3746b6-3485-418b-a66e-93cbb5b82727",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=ee3746b6-3485-418b-a66e-93cbb5b82727"
+            },
+            {
+              "historyId": "35ac73aa-2d43-4834-b9f2-892ec564b876",
+              "title": "Speaker Card(s)_07-02-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=35ac73aa-2d43-4834-b9f2-892ec564b876",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=35ac73aa-2d43-4834-b9f2-892ec564b876"
+            },
+            {
+              "historyId": "4f5d9dcf-e604-4bed-9afe-2cbc3b4f42c6",
+              "title": "Report from Department of General Services dated 7-01-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f5d9dcf-e604-4bed-9afe-2cbc3b4f42c6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=4f5d9dcf-e604-4bed-9afe-2cbc3b4f42c6"
+            },
+            {
+              "historyId": "20792573-4a36-4277-a357-f71f778f63e6",
+              "title": "Report from Personnel Department dated 7-01-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=20792573-4a36-4277-a357-f71f778f63e6",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=20792573-4a36-4277-a357-f71f778f63e6"
+            },
+            {
+              "historyId": "94413c72-146b-448d-8a34-e4b7e12b8a69",
+              "title": "Report from City Attorney dated 7-01-25.pdf",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=94413c72-146b-448d-8a34-e4b7e12b8a69",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=94413c72-146b-448d-8a34-e4b7e12b8a69"
+            },
+            {
+              "historyId": "6eeb327c-fe4d-419e-82af-ea1f6b7caa9c",
+              "title": "Report from Department of Neighborhood Empowerment dated 6-30-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6eeb327c-fe4d-419e-82af-ea1f6b7caa9c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6eeb327c-fe4d-419e-82af-ea1f6b7caa9c"
+            },
+            {
+              "historyId": "afc4e94e-dfd1-40f6-8bcc-eb179bd23222",
+              "title": "Vacancy Report JUNE 30 2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=afc4e94e-dfd1-40f6-8bcc-eb179bd23222",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=afc4e94e-dfd1-40f6-8bcc-eb179bd23222"
+            },
+            {
+              "historyId": "6c387d53-85cb-432a-85d3-1c913db6f970",
+              "title": "Speaker Card(s)_06-27-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c387d53-85cb-432a-85d3-1c913db6f970",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=6c387d53-85cb-432a-85d3-1c913db6f970"
+            },
+            {
+              "historyId": "5c66b21f-3a17-4d9e-a4f8-545fc8f4771e",
+              "title": "Report from Personnel Department dated 6-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c66b21f-3a17-4d9e-a4f8-545fc8f4771e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5c66b21f-3a17-4d9e-a4f8-545fc8f4771e"
+            },
+            {
+              "historyId": "9b094a21-db56-402a-9611-c100716fe770",
+              "title": "Report from Emergency Management Department dated 6-26-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b094a21-db56-402a-9611-c100716fe770",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9b094a21-db56-402a-9611-c100716fe770"
+            },
+            {
+              "historyId": "0c90de1b-be1c-4422-8aa0-0207982abb1e",
+              "title": "Report from Personnel Department dated 6-12-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c90de1b-be1c-4422-8aa0-0207982abb1e",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=0c90de1b-be1c-4422-8aa0-0207982abb1e"
+            },
+            {
+              "historyId": "8ee9dd48-33bd-4547-8a0a-043f1df3b135",
+              "title": "Speaker Card(s)_10-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=8ee9dd48-33bd-4547-8a0a-043f1df3b135",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=8ee9dd48-33bd-4547-8a0a-043f1df3b135"
+            },
+            {
+              "historyId": "9f380593-6a71-497a-b3ec-55b1b6df3070",
+              "title": "Speaker Card(s)_11-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9f380593-6a71-497a-b3ec-55b1b6df3070",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9f380593-6a71-497a-b3ec-55b1b6df3070"
+            },
+            {
+              "historyId": "51e428eb-a59a-4b3c-a2f4-cf5e4d71eb3d",
+              "title": "Speaker Card(s)_12-03-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=51e428eb-a59a-4b3c-a2f4-cf5e4d71eb3d",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=51e428eb-a59a-4b3c-a2f4-cf5e4d71eb3d"
+            }
+          ]
+        },
+        {
+          "item_id": "158051",
+          "item_number": "(7)",
+          "has_attachments": true,
+          "raw_text": "24-1043\nCONTINUED FROM SEPTEMBER 12, 2025, OCTOBER 3, 2025, NOVEMBER 5, 2025 AND DECEMBER 12, 2025\nController and Information Technology Agency reports and Motion (McOsker – Hernandez) relative to implementation of Workday.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted.\nReport from Controller dated 1-12-26\nSpeaker Card(s)_09-12-2025\nMotion (McOsker - Hernandez) dated 9-04-24\nReport from Information Technology Agency dated 12-09-25\nSpeaker Card(s)_11-05-2025",
+          "council_file": "24-1043",
+          "title": "CONTINUED FROM SEPTEMBER 12, 2025, OCTOBER 3, 2025, NOVEMBER 5, 2025 AND DECEMBER 12, 2025",
+          "mig": "1af36524-3886-4496-91f5-8b2bca995d21",
+          "attachments": [
+            {
+              "historyId": "9d0413a4-1f99-4395-bb51-22a73e6b691c",
+              "title": "Report from Controller dated 1-12-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d0413a4-1f99-4395-bb51-22a73e6b691c",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9d0413a4-1f99-4395-bb51-22a73e6b691c"
+            },
+            {
+              "historyId": "5a7785b1-0b71-46eb-b06e-2106c4b5e7a5",
+              "title": "Speaker Card(s)_09-12-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a7785b1-0b71-46eb-b06e-2106c4b5e7a5",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=5a7785b1-0b71-46eb-b06e-2106c4b5e7a5"
+            },
+            {
+              "historyId": "1e478495-e7d8-4d5c-babd-6a00347db3fe",
+              "title": "Motion (McOsker - Hernandez) dated 9-04-24",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e478495-e7d8-4d5c-babd-6a00347db3fe",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=1e478495-e7d8-4d5c-babd-6a00347db3fe"
+            },
+            {
+              "historyId": "648e6578-95db-4f1d-9d01-f6f2c5cca550",
+              "title": "Report from Information Technology Agency dated 12-09-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=648e6578-95db-4f1d-9d01-f6f2c5cca550",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=648e6578-95db-4f1d-9d01-f6f2c5cca550"
+            },
+            {
+              "historyId": "d323b7e5-d74c-4cda-b9fc-156555558e86",
+              "title": "Speaker Card(s)_11-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=d323b7e5-d74c-4cda-b9fc-156555558e86",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=d323b7e5-d74c-4cda-b9fc-156555558e86"
+            }
+          ]
+        },
+        {
+          "item_id": "158052",
+          "item_number": "(8)",
+          "has_attachments": true,
+          "raw_text": "15-1207-S5\nCONTINUED FROM NOVEMBER 5, 2025 AND DECEMBER 3, 2025\nMotion (McOsker – Jurado) relative to hiring status in connection with the Los Angeles Convention Center Expansion and Modernization Project.\nCommunity Impact Statement:\nNone submitted.\nPersonnel and Hiring Committee Report 10-24-25\nMotion (McOsker - Jurado) dated 10-15-25\nSpeaker Card(s)_10-24-2025\nSpeaker Card(s)_11-05-2025",
+          "council_file": "15-1207-S5",
+          "title": "CONTINUED FROM NOVEMBER 5, 2025 AND DECEMBER 3, 2025",
+          "mig": "edb36e8e-b36a-427e-899c-5c4c089a5b5e",
+          "attachments": [
+            {
+              "historyId": "9786a75e-3ce0-4f2a-b7e9-d5935fb2411a",
+              "title": "Personnel and Hiring Committee Report 10-24-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=9786a75e-3ce0-4f2a-b7e9-d5935fb2411a",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=9786a75e-3ce0-4f2a-b7e9-d5935fb2411a"
+            },
+            {
+              "historyId": "f1271e2a-7436-49fc-8df2-852089187c46",
+              "title": "Motion (McOsker - Jurado) dated 10-15-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1271e2a-7436-49fc-8df2-852089187c46",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=f1271e2a-7436-49fc-8df2-852089187c46"
+            },
+            {
+              "historyId": "fdc6652b-ef47-4626-9f39-686561daae59",
+              "title": "Speaker Card(s)_10-24-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdc6652b-ef47-4626-9f39-686561daae59",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=fdc6652b-ef47-4626-9f39-686561daae59"
+            },
+            {
+              "historyId": "aeca61d7-25dd-487a-9208-39036fc051da",
+              "title": "Speaker Card(s)_11-05-2025",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=aeca61d7-25dd-487a-9208-39036fc051da",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=aeca61d7-25dd-487a-9208-39036fc051da"
+            }
+          ]
+        },
+        {
+          "item_id": "158151",
+          "item_number": "(9)",
+          "has_attachments": true,
+          "raw_text": "26-0024\nMotion (McOsker – Nazarian) relative to the implementation of the Council-approved LAwell Program for Plan Year 2026.\nCommunity Impact Statement:\nNone submitted.\nMotion (McOsker - Nazarian) dated 1-09-26",
+          "council_file": "26-0024",
+          "title": "Motion (McOsker – Nazarian) relative to the implementation of the Council-approved LAwell Program for Plan Year 2026.",
+          "mig": "95c59b4a-126b-4572-b71c-b68a1ac37724",
+          "attachments": [
+            {
+              "historyId": "b06cec5c-de9a-4ae8-bbc8-1419c8abc2df",
+              "title": "Motion (McOsker - Nazarian) dated 1-09-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=b06cec5c-de9a-4ae8-bbc8-1419c8abc2df",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=b06cec5c-de9a-4ae8-bbc8-1419c8abc2df"
+            }
+          ]
+        },
+        {
+          "item_id": "158152",
+          "item_number": "(10)",
+          "has_attachments": true,
+          "raw_text": "26-0012\nPersonnel Department report relative to the Ridesharing Trust Fund review for Fiscal Year 2024-25.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted.\nReport from Personnel Department dated 12-28-25",
+          "council_file": "26-0012",
+          "title": "Personnel Department report relative to the Ridesharing Trust Fund review for Fiscal Year 2024-25.",
+          "mig": "1f120371-14c2-4ef8-a4f8-e0bb77f99510",
+          "attachments": [
+            {
+              "historyId": "dd81fc2b-2edf-4557-9640-07f64f08df2f",
+              "title": "Report from Personnel Department dated 12-28-25",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd81fc2b-2edf-4557-9640-07f64f08df2f",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=dd81fc2b-2edf-4557-9640-07f64f08df2f"
+            }
+          ]
+        },
+        {
+          "item_id": "158276",
+          "item_number": "(11)",
+          "has_attachments": true,
+          "raw_text": "26-0040\nMotion (McOsker, Yaroslavsky – Jurado) relative to a comprehensive staffing plan for the Office of the City Attorney with detailed current and projected staffing needs that is designed to significantly reduce the City’s reliance on outside counsel costs; and related matters.\n(Referred to the Personnel and Hiring and Budget and Finance Committees)\nCommunity Impact Statement:\nNone submitted\nMotion (McOsker, Yaroslavsky - Jurado) dated 1-13-26",
+          "council_file": "26-0040",
+          "title": "Motion (McOsker, Yaroslavsky – Jurado) relative to a comprehensive staffing plan for the Office of the City Attorney with detailed current and projected staffing needs that is designed to significantly reduce the City’s reliance on outside counsel costs; and related matters.",
+          "mig": "158ca392-a801-4829-b540-61c9b1651e0a",
+          "attachments": [
+            {
+              "historyId": "cb53d9d8-1d62-4db8-b3ec-9b66388b61b0",
+              "title": "Motion (McOsker, Yaroslavsky - Jurado) dated 1-13-26",
+              "downloadUrl": "/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb53d9d8-1d62-4db8-b3ec-9b66388b61b0",
+              "previewUrl": "/viewer/preview?id=0&type=8&uid=cb53d9d8-1d62-4db8-b3ec-9b66388b61b0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 11,
+  "total_sections": 3,
+  "meeting_datetime": "2026-01-23T16:30:00",
+  "video_url": "https://www.youtube.com/watch?v=3bXTtrjQcKM"
+}

@@ -155,13 +155,14 @@ if not meeting:
 with open(transcript_file) as f:
     transcript = f.read()
 
-summary = summarize_with_claude(transcript)
-if summary:
+full_summary, newsletter_blurb = summarize_with_claude(transcript)
+if full_summary:
     os.makedirs('data/video_summaries', exist_ok=True)
     summary_data = {
         'meeting_id': int(meeting_id),
         'video_url': meeting.get('videoUrl'),
-        'summary': summary,
+        'summary': full_summary,
+        'newsletter_blurb': newsletter_blurb,
         'transcript_length': len(transcript)
     }
     with open(f'data/video_summaries/meeting_{meeting_id}_summary.json', 'w') as f:

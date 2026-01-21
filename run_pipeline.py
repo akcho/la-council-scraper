@@ -99,7 +99,7 @@ def process_meeting(meeting):
 
     # Step 2: Generate summary
     try:
-        summary = summarize_with_claude(transcript)
+        full_summary, newsletter_blurb = summarize_with_claude(transcript)
     except Exception as e:
         print(f"   ❌ Summarization failed: {e}")
         return False
@@ -111,7 +111,8 @@ def process_meeting(meeting):
 
     summary_data = {
         'meeting_id': meeting_id,
-        'summary': summary,
+        'summary': full_summary,
+        'newsletter_blurb': newsletter_blurb,
         'video_url': video_url
     }
     with open(summary_file, 'w') as f:
